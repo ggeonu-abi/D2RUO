@@ -18,6 +18,7 @@ aura	Concentration	prop_881	장착시 오라레벨 - 집중
 aura	Resist Fire	prop_1222	장착시 오라레벨 - 화염 저항
 pierce-fire		prop_735	적의 화염 저항 -
 balance3		prop_430	타격 회복 속도
+balance1		prop_430	타격 회복 속도
 ac		prop_399	추가 방어력
 dmg-demon		prop_513	악마에게 주는 피해 증가(%)
 res-fire		prop_427	화염 저항 %
