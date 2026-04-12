@@ -53,8 +53,8 @@
 ### 2. 실행 및 설정
 1. **디아블로 2: 레저렉션**을 먼저 실행합니다. (전체화면 모드 권장)
 2. `DUO.exe` 파일을 실행합니다. *(게임 클라이언트를 관리자 권한으로 실행했다면 이 프로그램도 관리자 권한으로 실행해야 합니다.)*
-3. 시스템 트레이(우측 하단 시계 옆)에 나타난 아이콘을 **우클릭** ➔ **`🔑 API 토큰 설정`** 에 복사한 키를 붙여넣습니다.
-4. 트레이 아이콘 우클릭 ➔ **`⚙️ 환경설정`** 에서 언어, 폰트, 오버레이 위치, 타이머 등 입맛에 맞게 세팅합니다.
+3. 단축키 **`Ctrl` + `Shift` + `S`** 를 누르거나 시스템 트레이(우측 하단 시계 옆) 아이콘을 우클릭하여 **`⚙️ 환경설정`** 창을 엽니다.
+4. 환경설정 창에 복사한 **API Key(Token)** 를 붙여넣고 언어, 폰트, 오버레이 위치 등 입맛에 맞게 세팅합니다.
 
 ---
 
@@ -202,8 +202,8 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ### 2. Run & Configure
 1. Run **Diablo 2: Resurrected**. (Fullscreen Mode recommended).
 2. Run `DUO.exe`. *(Run as administrator if your D2R client is also running as admin).*
-3. **Right-click** the icon in your Windows system tray ➔ **`🔑 Set API Token`** and paste your key.
-4. Right-click the icon again ➔ **`⚙️ Settings`** to customize layouts, hotkeys, and features.
+3. Press **`Ctrl` + `Shift` + `S`** or right-click the system tray icon to open the **`⚙️ Settings`** window.
+4. Paste your **API Key (Token)** into the settings and customize layouts, hotkeys, and features.
 
 ---
 
