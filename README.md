@@ -105,8 +105,10 @@
 | `DUO.exe` | 프로그램 메인 실행 파일 |
 | `area.json` | ⚠️ 테러존 다국어 번역 필수 데이터 (삭제 금지) |
 | `d2_overlay_config.json` | 사용자 환경설정 저장 파일 (자동 생성) |
-| `profiles/` | 캡처한 버프 스킬 아이콘 및 설정(`config.json`)이 저장되는 폴더 |
+| `profiles/` | 캡처한 버프 스킬 아이콘 및 설정(`skills.json`)이 저장되는 폴더 |
 | `sounds/` | 버프 종료 임박 시 사용할 사용자 지정 알림음 보관 폴더 |
+| `item/data/` | 아이템 사전 검색에 사용되는 데이터베이스 파일(`.json`, `.tsv`) 보관 폴더 |
+| `fonts/` | 기본 내장 폰트 폴더 (저작권 문제가 없는 폰트 파일만 추가되어 있습니다.) |
 
 ---
 
@@ -250,8 +252,10 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | `DUO.exe` | Main executable file. |
 | `area.json` | ⚠️ Essential TZ translation data (Do not delete). |
 | `d2_overlay_config.json` | Auto-saved user preferences (UI, fonts, volume). |
-| `profiles/` | Folder containing your captured buff icons and `config.json`. |
+| `profiles/` | Folder containing your captured buff icons and `skills.json`. |
 | `sounds/` | Place your custom `.mp3` or `.wav` files here for buff alerts. |
+| `item/data/` | Database files (`.json`, `.tsv`) used for the item search dictionary. |
+| `fonts/` | Default built-in fonts. You can add your own font files here. |
 
 ---
 
