@@ -1,0 +1,220 @@
+{
+  "ring": {
+    "name_ko": "💍 반지",
+    "name_en": "Ring",
+    "options": [
+      {
+        "type": "cast1",
+        "param": "",
+        "desc_ko": "시전 속도 증가 %",
+        "desc_en": "Faster Cast Rate",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "str",
+        "param": "",
+        "desc_ko": "힘",
+        "desc_en": "Strength",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "dex",
+        "param": "",
+        "desc_ko": "민첩",
+        "desc_en": "Dexterity",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "hp",
+        "param": "",
+        "desc_ko": "생명력",
+        "desc_en": "Life",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "mana",
+        "param": "",
+        "desc_ko": "마나",
+        "desc_en": "Mana",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "res-all",
+        "param": "",
+        "desc_ko": "모든 저항",
+        "desc_en": "All Resistances",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "mag%",
+        "param": "",
+        "desc_ko": "마법 아이템 발견 확률",
+        "desc_en": "Magic Find",
+        "min": "0",
+        "max": "0"
+      }
+    ]
+  },
+  "base_uit": {
+    "name_ko": "🛡️ 모너크 (베이스)",
+    "name_en": "Monarch",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uit",
+      "minac": 133,
+      "maxac": 148,
+      "reqstr": 156,
+      "reqdex": 0,
+      "durability": 86
+    },
+    "options": [
+      {
+        "type": "ethereal",
+        "param": "",
+        "desc_ko": "에테리얼",
+        "desc_en": "Ethereal",
+        "min": "0",
+        "max": "1"
+      },
+      {
+        "type": "sock",
+        "param": "",
+        "desc_ko": "홈(소켓) 개수",
+        "desc_en": "Sockets",
+        "min": "0",
+        "max": "6"
+      },
+      {
+        "type": "ac%",
+        "param": "",
+        "desc_ko": "방어력 증가(%)",
+        "desc_en": "Enhanced Defense",
+        "min": "0",
+        "max": "0"
+      }
+    ]
+  },
+  "base_xtp": {
+    "name_ko": "🛡️ 메이지 플레이트 (베이스)",
+    "name_en": "Mage Plate",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "xtp",
+      "minac": 225,
+      "maxac": 261,
+      "reqstr": 55,
+      "reqdex": 0,
+      "durability": 60
+    },
+    "options": [
+      {
+        "type": "ethereal",
+        "param": "",
+        "desc_ko": "에테리얼",
+        "desc_en": "Ethereal",
+        "min": "0",
+        "max": "1"
+      },
+      {
+        "type": "sock",
+        "param": "",
+        "desc_ko": "홈(소켓) 개수",
+        "desc_en": "Sockets",
+        "min": "0",
+        "max": "6"
+      },
+      {
+        "type": "ac%",
+        "param": "",
+        "desc_ko": "방어력 증가(%)",
+        "desc_en": "Enhanced Defense",
+        "min": "0",
+        "max": "0"
+      }
+    ]
+  },
+  "base_uui": {
+    "name_ko": "🛡️ 더스크 슈라우드 (베이스)",
+    "name_en": "Dusk Shroud",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uui",
+      "minac": 361,
+      "maxac": 467,
+      "reqstr": 77,
+      "reqdex": 0,
+      "durability": 20
+    },
+    "options": [
+      {
+        "type": "ethereal",
+        "param": "",
+        "desc_ko": "에테리얼",
+        "desc_en": "Ethereal",
+        "min": "0",
+        "max": "1"
+      },
+      {
+        "type": "sock",
+        "param": "",
+        "desc_ko": "홈(소켓) 개수",
+        "desc_en": "Sockets",
+        "min": "0",
+        "max": "6"
+      },
+      {
+        "type": "ac%",
+        "param": "",
+        "desc_ko": "방어력 증가(%)",
+        "desc_en": "Enhanced Defense",
+        "min": "0",
+        "max": "0"
+      }
+    ]
+  },
+  "base_utp": {
+    "name_ko": "🛡️ 아콘 플레이트 (베이스)",
+    "name_en": "Archon Plate",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "utp",
+      "minac": 410,
+      "maxac": 524,
+      "reqstr": 103,
+      "reqdex": 0,
+      "durability": 60
+    },
+    "options": [
+      {
+        "type": "ethereal",
+        "param": "",
+        "desc_ko": "에테리얼",
+        "desc_en": "Ethereal",
+        "min": "0",
+        "max": "1"
+      },
+      {
+        "type": "sock",
+        "param": "",
+        "desc_ko": "홈(소켓) 개수",
+        "desc_en": "Sockets",
+        "min": "0",
+        "max": "6"
+      },
+      {
+        "type": "ac%",
+        "param": "",
+        "desc_ko": "방어력 증가(%)",
+        "desc_en": "Enhanced Defense",
+        "min": "0",
+        "max": "0"
+      }
+    ]
+  }
+}

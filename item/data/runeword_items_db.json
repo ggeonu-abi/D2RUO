@@ -1388,7 +1388,7 @@
       },
       {
         "en": "Polearms",
-        "ko": "폴암"
+        "ko": "폴암(미늘창)"
       }
     ],
     "options": [
@@ -1795,7 +1795,7 @@
     "allowed_types": [
       {
         "en": "Polearms",
-        "ko": "폴암"
+        "ko": "폴암(미늘창)"
       },
       {
         "en": "Swords",
@@ -1948,7 +1948,7 @@
       },
       {
         "en": "Polearms",
-        "ko": "폴암"
+        "ko": "폴암(미늘창)"
       },
       {
         "en": "Hammers",
@@ -3719,159 +3719,6 @@
       }
     ]
   },
-  "Fortitude (Armor)": {
-    "name_en": "Fortitude (Armor)",
-    "name_ko": "인내 (갑옷/투구)",
-    "runes_ko": [
-      "엘",
-      "솔",
-      "돌",
-      "로"
-    ],
-    "runes_en": [
-      "El",
-      "Sol",
-      "Dol",
-      "Lo"
-    ],
-    "allowed_types": [
-      {
-        "en": "Weapons",
-        "ko": "모든 무기"
-      },
-      {
-        "en": "Body Armors",
-        "ko": "갑옷"
-      }
-    ],
-    "options": [
-      {
-        "type": "gethit-skill",
-        "param": "Chilling Armor",
-        "min": "20",
-        "max": "15",
-        "original_idx": 4,
-        "param_en": "Chilling Armor",
-        "param_ko": "냉기 갑옷"
-      },
-      {
-        "type": "cast3",
-        "param": "",
-        "min": "25",
-        "max": "25",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Faster Cast Rate",
-        "desc_ko": "시전 속도"
-      },
-      {
-        "type": "dmg%",
-        "param": "",
-        "min": "300",
-        "max": "300",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
-      },
-      {
-        "type": "ac%",
-        "param": "",
-        "min": "200",
-        "max": "200",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Defense",
-        "desc_ko": "방어력 증가"
-      },
-      {
-        "type": "ac",
-        "param": "",
-        "min": "15",
-        "max": "15",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Defense",
-        "desc_ko": "방어력"
-      },
-      {
-        "type": "hp/lvl",
-        "param": "",
-        "min": "8",
-        "max": "12",
-        "original_idx": 6,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Life",
-        "desc_ko": "생명력"
-      },
-      {
-        "type": "regen",
-        "param": "",
-        "min": "7",
-        "max": "7",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Replenish Life",
-        "desc_ko": "생명력 회복"
-      },
-      {
-        "type": "res-ltng-max",
-        "param": "",
-        "min": "5",
-        "max": "5",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Maximum Lightning Resist",
-        "desc_ko": "최대 번개 저항"
-      },
-      {
-        "type": "res-all",
-        "param": "",
-        "min": "25",
-        "max": "30",
-        "original_idx": 7,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "All Resistances",
-        "desc_ko": "모든 저항"
-      },
-      {
-        "type": "red-dmg",
-        "param": "",
-        "min": "7",
-        "max": "7",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Damage Reduced by",
-        "desc_ko": "피해 감소"
-      },
-      {
-        "type": "dmg-to-mana",
-        "param": "",
-        "min": "12",
-        "max": "12",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Damage Taken Goes To Mana",
-        "desc_ko": "받는 피해의 만큼 마나 회복"
-      },
-      {
-        "type": "light",
-        "param": "",
-        "min": "1",
-        "max": "1",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Light Radius",
-        "desc_ko": "시야"
-      }
-    ]
-  },
   "Fortitude (Weapon)": {
     "name_en": "Fortitude (Weapon)",
     "name_ko": "인내 (무기)",
@@ -4001,6 +3848,159 @@
         "param_ko": "",
         "desc_en": "All Resistances",
         "desc_ko": "모든 저항"
+      },
+      {
+        "type": "dmg-to-mana",
+        "param": "",
+        "min": "12",
+        "max": "12",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Damage Taken Goes To Mana",
+        "desc_ko": "받는 피해의 만큼 마나 회복"
+      },
+      {
+        "type": "light",
+        "param": "",
+        "min": "1",
+        "max": "1",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Light Radius",
+        "desc_ko": "시야"
+      }
+    ]
+  },
+  "Fortitude (Armor)": {
+    "name_en": "Fortitude (Armor)",
+    "name_ko": "인내 (갑옷/투구)",
+    "runes_ko": [
+      "엘",
+      "솔",
+      "돌",
+      "로"
+    ],
+    "runes_en": [
+      "El",
+      "Sol",
+      "Dol",
+      "Lo"
+    ],
+    "allowed_types": [
+      {
+        "en": "Weapons",
+        "ko": "모든 무기"
+      },
+      {
+        "en": "Body Armors",
+        "ko": "갑옷"
+      }
+    ],
+    "options": [
+      {
+        "type": "gethit-skill",
+        "param": "Chilling Armor",
+        "min": "20",
+        "max": "15",
+        "original_idx": 4,
+        "param_en": "Chilling Armor",
+        "param_ko": "냉기 갑옷"
+      },
+      {
+        "type": "cast3",
+        "param": "",
+        "min": "25",
+        "max": "25",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Cast Rate",
+        "desc_ko": "시전 속도"
+      },
+      {
+        "type": "dmg%",
+        "param": "",
+        "min": "300",
+        "max": "300",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "ac%",
+        "param": "",
+        "min": "200",
+        "max": "200",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ac",
+        "param": "",
+        "min": "15",
+        "max": "15",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Defense",
+        "desc_ko": "방어력"
+      },
+      {
+        "type": "hp/lvl",
+        "param": "",
+        "min": "8",
+        "max": "12",
+        "original_idx": 6,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "regen",
+        "param": "",
+        "min": "7",
+        "max": "7",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Replenish Life",
+        "desc_ko": "생명력 회복"
+      },
+      {
+        "type": "res-ltng-max",
+        "param": "",
+        "min": "5",
+        "max": "5",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Maximum Lightning Resist",
+        "desc_ko": "최대 번개 저항"
+      },
+      {
+        "type": "res-all",
+        "param": "",
+        "min": "25",
+        "max": "30",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "red-dmg",
+        "param": "",
+        "min": "7",
+        "max": "7",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Damage Reduced by",
+        "desc_ko": "피해 감소"
       },
       {
         "type": "dmg-to-mana",
@@ -5239,7 +5239,7 @@
     "allowed_types": [
       {
         "en": "Polearms",
-        "ko": "폴암"
+        "ko": "폴암(미늘창)"
       },
       {
         "en": "Spears",
@@ -5368,7 +5368,7 @@
     "allowed_types": [
       {
         "en": "Polearms",
-        "ko": "폴암"
+        "ko": "폴암(미늘창)"
       },
       {
         "en": "Staves",
@@ -7192,7 +7192,7 @@
     "allowed_types": [
       {
         "en": "Polearms",
-        "ko": "폴암"
+        "ko": "폴암(미늘창)"
       },
       {
         "en": "Spears",
@@ -8412,7 +8412,7 @@
     "allowed_types": [
       {
         "en": "Polearms",
-        "ko": "폴암"
+        "ko": "폴암(미늘창)"
       },
       {
         "en": "Spears",
@@ -9060,7 +9060,7 @@
     "allowed_types": [
       {
         "en": "Polearms",
-        "ko": "폴암"
+        "ko": "폴암(미늘창)"
       },
       {
         "en": "Scepters",
@@ -10940,7 +10940,7 @@
     "allowed_types": [
       {
         "en": "Wands",
-        "ko": "원드"
+        "ko": "원드(완드)"
       }
     ],
     "options": [
