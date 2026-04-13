@@ -136,3 +136,6 @@ skill	Holy Bolt		신성한 빛줄기 (성기사 전용)
 skill	26		속사 (아마존 전용)
 pierce-dmg		prop_1881	적 물리 피해 저항 -
 ethereal		prop_Ethereal	에테리얼(무형)
+skilltab	21	prop_1546	악마 기술 (악마술사 전용)
+skilltab	22	prop_1547	기괴 기술 (악마술사 전용)
+skilltab	23	prop_1548	혼돈 기술 (악마술사 전용)

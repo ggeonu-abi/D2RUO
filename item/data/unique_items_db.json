@@ -36513,8 +36513,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Chaos / Eldritch / Demon (Warlock Only)",
-        "desc_ko": "혼돈 / 기괴 / 악마 (악마술사 전용)"
+        "desc_en": "skilltab-war",
+        "desc_ko": "skilltab-war"
       },
       {
         "type": "ac",

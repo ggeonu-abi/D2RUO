@@ -1,4 +1,101 @@
 {
+  "skilltab-war": [
+    {
+      "type": "skilltab",
+      "param": "21",
+      "min": "1",
+      "max": "1",
+      "original_idx": 1,
+      "param_en": "Ice Arrow",
+      "param_ko": "얼음 화살"
+    },
+    {
+      "type": "skilltab",
+      "param": "22",
+      "min": "1",
+      "max": "1",
+      "original_idx": 1,
+      "param_en": "Guided Arrow",
+      "param_ko": "유도 화살"
+    },
+    {
+      "type": "skilltab",
+      "param": "23",
+      "min": "1",
+      "max": "1",
+      "original_idx": 1,
+      "param_en": "Penetrate",
+      "param_ko": "간파"
+    }
+  ],
+  "magdam-rand": [
+    {
+      "type": "dmg%",
+      "param": "",
+      "min": "20",
+      "max": "40",
+      "original_idx": 2,
+      "param_en": "",
+      "param_ko": "",
+      "desc_en": "Enhanced Damage",
+      "desc_ko": "피해 증가"
+    },
+    {
+      "type": "extra-mag",
+      "param": "",
+      "min": "3",
+      "max": "5",
+      "original_idx": 1,
+      "param_en": "",
+      "param_ko": "",
+      "desc_en": "to Magic Skill Damage",
+      "desc_ko": "마법 기술 피해"
+    },
+    {
+      "type": "extra-fire",
+      "param": "",
+      "min": "3",
+      "max": "5",
+      "original_idx": 3,
+      "param_en": "",
+      "param_ko": "",
+      "desc_en": "to Fire Skill Damage",
+      "desc_ko": "화염 기술 피해"
+    },
+    {
+      "type": "extra-cold",
+      "param": "",
+      "min": "3",
+      "max": "5",
+      "original_idx": 4,
+      "param_en": "",
+      "param_ko": "",
+      "desc_en": "to Cold Skill Damage",
+      "desc_ko": "냉기 기술 피해"
+    },
+    {
+      "type": "extra-ltng",
+      "param": "",
+      "min": "3",
+      "max": "5",
+      "original_idx": 5,
+      "param_en": "",
+      "param_ko": "",
+      "desc_en": "to Lightning Skill Damage",
+      "desc_ko": "번개 기술 피해"
+    },
+    {
+      "type": "extra-pois",
+      "param": "",
+      "min": "3",
+      "max": "5",
+      "original_idx": 6,
+      "param_en": "",
+      "param_ko": "",
+      "desc_en": "to Poison Skill Damage",
+      "desc_ko": "독 기술 피해"
+    }
+  ],
   "virulent-affix1": [
     {
       "type": "extra-pois",
