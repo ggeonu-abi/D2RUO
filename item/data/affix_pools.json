@@ -6,8 +6,8 @@
       "min": "1",
       "max": "1",
       "original_idx": 1,
-      "param_en": "Ice Arrow",
-      "param_ko": "얼음 화살"
+      "param_en": "Demonic Mastery (Warlock Only)",
+      "param_ko": "악마 기술 (악마술사 전용)"
     },
     {
       "type": "skilltab",
@@ -15,8 +15,8 @@
       "min": "1",
       "max": "1",
       "original_idx": 1,
-      "param_en": "Guided Arrow",
-      "param_ko": "유도 화살"
+      "param_en": "Eldritch Skills (Warlock Only)",
+      "param_ko": "기괴 기술 (악마술사 전용)"
     },
     {
       "type": "skilltab",
@@ -24,8 +24,8 @@
       "min": "1",
       "max": "1",
       "original_idx": 1,
-      "param_en": "Penetrate",
-      "param_ko": "간파"
+      "param_en": "Chaos Skills (Warlock Only)",
+      "param_ko": "혼돈 기술 (악마술사 전용)"
     }
   ],
   "magdam-rand": [

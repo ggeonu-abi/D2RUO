@@ -8055,8 +8055,8 @@
         "min": "2",
         "max": "2",
         "original_idx": 3,
-        "param_en": "Impale",
-        "param_ko": "꿰뚫기"
+        "param_en": "Shadow Disciplines (Assassin Only)",
+        "param_ko": "그림자 단련 (암살자 전용)"
       },
       {
         "type": "ac",
@@ -8671,8 +8671,8 @@
         "min": "1",
         "max": "1",
         "original_idx": 2,
-        "param_en": "Exploding Arrow",
-        "param_ko": "폭발 화살"
+        "param_en": "Shape Shifting Skills (Druid Only)",
+        "param_ko": "변신 기술 (드루이드 전용)"
       },
       {
         "type": "skilltab",
@@ -8680,8 +8680,8 @@
         "min": "1",
         "max": "1",
         "original_idx": 7,
-        "param_en": "Slow Missiles",
-        "param_ko": "투사체 감속"
+        "param_en": "Elemental Skills (Druid Only)",
+        "param_ko": "원소 기술 (드루이드 전용)"
       },
       {
         "type": "ac",
@@ -9337,8 +9337,8 @@
         "min": "2",
         "max": "2",
         "original_idx": 3,
-        "param_en": "Power Strike",
-        "param_ko": "전기의 일격"
+        "param_en": "Warcries (Barbarian Only)",
+        "param_ko": "함성 (야만용사 전용)"
       },
       {
         "type": "ac",
@@ -9541,8 +9541,8 @@
         "min": "2",
         "max": "2",
         "original_idx": 3,
-        "param_en": "Multiple Shot",
-        "param_ko": "다발 사격"
+        "param_en": "Combat Skills (Barbarian Only)",
+        "param_ko": "전투 기술 (야만용사 전용)"
       },
       {
         "type": "ac",
@@ -11601,8 +11601,8 @@
         "min": "2",
         "max": "2",
         "original_idx": 2,
-        "param_en": "Cold Arrow",
-        "param_ko": "냉기 화살"
+        "param_en": "Defensive Auras (Paladin Only)",
+        "param_ko": "방어 오라 (성기사 전용)"
       },
       {
         "type": "ac",
@@ -12352,8 +12352,8 @@
         "min": "2",
         "max": "2",
         "original_idx": 4,
-        "param_en": "Inner Sight",
-        "param_ko": "내면의 시야"
+        "param_en": "Summoning Skills (Necromancer Only)",
+        "param_ko": "소환 기술 (강령술사 전용)"
       },
       {
         "type": "move3",
@@ -12592,8 +12592,8 @@
         "min": "2",
         "max": "2",
         "original_idx": 7,
-        "param_en": "Fire Arrow",
-        "param_ko": "불꽃 화살"
+        "param_en": "Poison and Bone Skills (Necromancer Only)",
+        "param_ko": "독과 뼈 기술 (강령술사 전용)"
       },
       {
         "type": "block",
@@ -12843,8 +12843,8 @@
         "min": "2",
         "max": "2",
         "original_idx": 4,
-        "param_en": "Magic Arrow",
-        "param_ko": "마법 화살"
+        "param_en": "Curses (Necromancer Only)",
+        "param_ko": "저주 (강령술사 전용)"
       },
       {
         "type": "cast3",
@@ -13483,8 +13483,8 @@
         "min": "2",
         "max": "2",
         "original_idx": 4,
-        "param_en": "Kick",
-        "param_ko": "발차기"
+        "param_en": "Passive and Magic Skills (Amazon Only)",
+        "param_ko": "지속 효과와 마법 기술 (아마존 전용)"
       },
       {
         "type": "ac/lvl",
@@ -20639,8 +20639,8 @@
         "min": "2",
         "max": "2",
         "original_idx": 1,
-        "param_en": "Ice Arrow",
-        "param_ko": "얼음 화살"
+        "param_en": "Demonic Mastery (Warlock Only)",
+        "param_ko": "악마 기술 (악마술사 전용)"
       },
       {
         "type": "ac%",
@@ -21205,8 +21205,8 @@
         "min": "2",
         "max": "2",
         "original_idx": 1,
-        "param_en": "Guided Arrow",
-        "param_ko": "유도 화살"
+        "param_en": "Eldritch Skills (Warlock Only)",
+        "param_ko": "기괴 기술 (악마술사 전용)"
       },
       {
         "type": "balance1",

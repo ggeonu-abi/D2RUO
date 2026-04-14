@@ -1,63 +1,919 @@
 {
   "ring": {
-    "name_ko": "💍 반지",
+    "name_ko": "반지",
     "name_en": "Ring",
     "options": [
       {
         "type": "cast1",
         "param": "",
-        "desc_ko": "시전 속도 증가 %",
-        "desc_en": "Faster Cast Rate",
         "min": "0",
-        "max": "0"
+        "max": "0",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Cast Rate",
+        "desc_ko": "시전 속도"
+      },
+      {
+        "type": "manasteal",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
       },
       {
         "type": "str",
         "param": "",
-        "desc_ko": "힘",
-        "desc_en": "Strength",
         "min": "0",
-        "max": "0"
+        "max": "0",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
       },
       {
         "type": "dex",
         "param": "",
-        "desc_ko": "민첩",
-        "desc_en": "Dexterity",
         "min": "0",
-        "max": "0"
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
       },
       {
         "type": "hp",
         "param": "",
-        "desc_ko": "생명력",
-        "desc_en": "Life",
         "min": "0",
-        "max": "0"
+        "max": "0",
+        "original_idx": 4,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
       },
       {
         "type": "mana",
         "param": "",
-        "desc_ko": "마나",
-        "desc_en": "Mana",
         "min": "0",
-        "max": "0"
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
       },
       {
         "type": "res-all",
         "param": "",
-        "desc_ko": "모든 저항",
-        "desc_en": "All Resistances",
         "min": "0",
-        "max": "0"
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "mag%",
         "param": "",
-        "desc_ko": "마법 아이템 발견 확률",
-        "desc_en": "Magic Find",
         "min": "0",
-        "max": "0"
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Better Chance of Getting Magic Items",
+        "desc_ko": "마법 아이템 발견 확률 증가"
+      }
+    ]
+  },
+  "amulet": {
+    "name_ko": "목걸이",
+    "name_en": "Amulet",
+    "options": [
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "0",
+        "max": "0",
+        "original_idx": 1,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "1",
+        "min": "0",
+        "max": "0",
+        "original_idx": 2,
+        "param_en": "Passive and Magic Skills (Amazon Only)",
+        "param_ko": "지속 효과와 마법 기술 (아마존 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "Javelin and Spear Skills (Amazon Only)",
+        "param_ko": "투창과 창 기술 (아마존 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "3",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param_en": "Fire Skills (Sorceress Only)",
+        "param_ko": "화염 기술 (원소술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "4",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "Lightning Skills (Sorceress Only)",
+        "param_ko": "번개 기술 (원소술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "5",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "Cold Skills (Sorceress Only)",
+        "param_ko": "냉기 기술 (원소술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "6",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "Curses (Necromancer Only)",
+        "param_ko": "저주 (강령술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "7",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "Poison and Bone Skills (Necromancer Only)",
+        "param_ko": "독과 뼈 기술 (강령술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "8",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "Summoning Skills (Necromancer Only)",
+        "param_ko": "소환 기술 (강령술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "9",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param_en": "Combat Skills (Paladin Only)",
+        "param_ko": "전투 기술 (성기사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "10",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param_en": "Offensive Auras (Paladin Only)",
+        "param_ko": "공격 오라 (성기사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "11",
+        "min": "0",
+        "max": "0",
+        "original_idx": 12,
+        "param_en": "Defensive Auras (Paladin Only)",
+        "param_ko": "방어 오라 (성기사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "12",
+        "min": "0",
+        "max": "0",
+        "original_idx": 13,
+        "param_en": "Combat Skills (Barbarian Only)",
+        "param_ko": "전투 기술 (야만용사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "13",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param_en": "Masteries (Barbarian Only)",
+        "param_ko": "전투 숙련 (야만용사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "14",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param_en": "Warcries (Barbarian Only)",
+        "param_ko": "함성 (야만용사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "15",
+        "min": "0",
+        "max": "0",
+        "original_idx": 16,
+        "param_en": "Summoning Skills (Druid Only)",
+        "param_ko": "소환 기술 (드루이드 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "16",
+        "min": "0",
+        "max": "0",
+        "original_idx": 17,
+        "param_en": "Shape Shifting Skills (Druid Only)",
+        "param_ko": "변신 기술 (드루이드 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "17",
+        "min": "0",
+        "max": "0",
+        "original_idx": 18,
+        "param_en": "Elemental Skills (Druid Only)",
+        "param_ko": "원소 기술 (드루이드 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "18",
+        "min": "0",
+        "max": "0",
+        "original_idx": 19,
+        "param_en": "Traps (Assassin Only)",
+        "param_ko": "덫 (암살자 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "19",
+        "min": "0",
+        "max": "0",
+        "original_idx": 20,
+        "param_en": "Shadow Disciplines (Assassin Only)",
+        "param_ko": "그림자 단련 (암살자 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "20",
+        "min": "0",
+        "max": "0",
+        "original_idx": 21,
+        "param_en": "Martial Arts (Assassin Only)",
+        "param_ko": "무술 (암살자 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "21",
+        "min": "0",
+        "max": "0",
+        "original_idx": 22,
+        "param_en": "Demonic Mastery (Warlock Only)",
+        "param_ko": "악마 기술 (악마술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "22",
+        "min": "0",
+        "max": "0",
+        "original_idx": 23,
+        "param_en": "Eldritch Skills (Warlock Only)",
+        "param_ko": "기괴 기술 (악마술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "23",
+        "min": "0",
+        "max": "0",
+        "original_idx": 24,
+        "param_en": "Chaos Skills (Warlock Only)",
+        "param_ko": "혼돈 기술 (악마술사 전용)"
+      },
+      {
+        "type": "ama",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 25,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Amazon Skills",
+        "desc_ko": "아마존 기술 레벨"
+      },
+      {
+        "type": "ass",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 26,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Assassin Skills",
+        "desc_ko": "암살자 기술 레벨"
+      },
+      {
+        "type": "war",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 27,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Warlock Skills",
+        "desc_ko": "악마술사 기술 레벨"
+      },
+      {
+        "type": "sor",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 28,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sorceress Skills",
+        "desc_ko": "원소술사 기술 레벨"
+      },
+      {
+        "type": "pal",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 29,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Paladin Skills",
+        "desc_ko": "성기사 기술 레벨"
+      },
+      {
+        "type": "dru",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 30,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Druid Skills",
+        "desc_ko": "드루이드 기술 레벨"
+      },
+      {
+        "type": "nec",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 31,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Necromancer Skills",
+        "desc_ko": "강령술사 기술 레벨"
+      },
+      {
+        "type": "cast1",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 32,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Cast Rate",
+        "desc_ko": "시전 속도"
+      },
+      {
+        "type": "manasteal",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 39,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 38,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 33,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 34,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 35,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 36,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "res-all",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 37,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      }
+    ]
+  },
+  "Grand Charm": {
+    "name_ko": "거대 부적",
+    "name_en": "Grand Charm",
+    "options": [
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "0",
+        "max": "0",
+        "original_idx": 1,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "1",
+        "min": "0",
+        "max": "0",
+        "original_idx": 2,
+        "param_en": "Passive and Magic Skills (Amazon Only)",
+        "param_ko": "지속 효과와 마법 기술 (아마존 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "Javelin and Spear Skills (Amazon Only)",
+        "param_ko": "투창과 창 기술 (아마존 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "3",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param_en": "Fire Skills (Sorceress Only)",
+        "param_ko": "화염 기술 (원소술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "4",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "Lightning Skills (Sorceress Only)",
+        "param_ko": "번개 기술 (원소술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "5",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "Cold Skills (Sorceress Only)",
+        "param_ko": "냉기 기술 (원소술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "6",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "Curses (Necromancer Only)",
+        "param_ko": "저주 (강령술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "7",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "Poison and Bone Skills (Necromancer Only)",
+        "param_ko": "독과 뼈 기술 (강령술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "8",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "Summoning Skills (Necromancer Only)",
+        "param_ko": "소환 기술 (강령술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "9",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param_en": "Combat Skills (Paladin Only)",
+        "param_ko": "전투 기술 (성기사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "10",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param_en": "Offensive Auras (Paladin Only)",
+        "param_ko": "공격 오라 (성기사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "11",
+        "min": "0",
+        "max": "0",
+        "original_idx": 12,
+        "param_en": "Defensive Auras (Paladin Only)",
+        "param_ko": "방어 오라 (성기사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "12",
+        "min": "0",
+        "max": "0",
+        "original_idx": 13,
+        "param_en": "Combat Skills (Barbarian Only)",
+        "param_ko": "전투 기술 (야만용사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "13",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param_en": "Masteries (Barbarian Only)",
+        "param_ko": "전투 숙련 (야만용사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "14",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param_en": "Warcries (Barbarian Only)",
+        "param_ko": "함성 (야만용사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "15",
+        "min": "0",
+        "max": "0",
+        "original_idx": 16,
+        "param_en": "Summoning Skills (Druid Only)",
+        "param_ko": "소환 기술 (드루이드 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "16",
+        "min": "0",
+        "max": "0",
+        "original_idx": 17,
+        "param_en": "Shape Shifting Skills (Druid Only)",
+        "param_ko": "변신 기술 (드루이드 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "17",
+        "min": "0",
+        "max": "0",
+        "original_idx": 18,
+        "param_en": "Elemental Skills (Druid Only)",
+        "param_ko": "원소 기술 (드루이드 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "18",
+        "min": "0",
+        "max": "0",
+        "original_idx": 19,
+        "param_en": "Traps (Assassin Only)",
+        "param_ko": "덫 (암살자 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "19",
+        "min": "0",
+        "max": "0",
+        "original_idx": 20,
+        "param_en": "Shadow Disciplines (Assassin Only)",
+        "param_ko": "그림자 단련 (암살자 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "20",
+        "min": "0",
+        "max": "0",
+        "original_idx": 21,
+        "param_en": "Martial Arts (Assassin Only)",
+        "param_ko": "무술 (암살자 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "21",
+        "min": "0",
+        "max": "0",
+        "original_idx": 22,
+        "param_en": "Demonic Mastery (Warlock Only)",
+        "param_ko": "악마 기술 (악마술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "22",
+        "min": "0",
+        "max": "0",
+        "original_idx": 23,
+        "param_en": "Eldritch Skills (Warlock Only)",
+        "param_ko": "기괴 기술 (악마술사 전용)"
+      },
+      {
+        "type": "skilltab",
+        "param": "23",
+        "min": "0",
+        "max": "0",
+        "original_idx": 24,
+        "param_en": "Chaos Skills (Warlock Only)",
+        "param_ko": "혼돈 기술 (악마술사 전용)"
+      },
+      {
+        "type": "balance1",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 31,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Hit Recovery",
+        "desc_ko": "타격 회복 속도"
+      },
+      {
+        "type": "dmg-max",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 29,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "att",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 30,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "str",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 25,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 26,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 27,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 28,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "gold%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 32,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Extra Gold from Monsters",
+        "desc_ko": "괴물에게서 얻는 금화 증가"
+      }
+    ]
+  },
+  "Small Charm": {
+    "name_ko": "작은 부적",
+    "name_en": "Small Charm",
+    "options": [
+      {
+        "type": "dmg-max",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg-min",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "att",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "hp",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "res-cold",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Cold Resist",
+        "desc_ko": "냉기 저항"
+      },
+      {
+        "type": "res-ltng",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Lightning Resist",
+        "desc_ko": "번개 저항"
+      },
+      {
+        "type": "res-all",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "res-fire",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Fire Resist",
+        "desc_ko": "화염 저항"
+      },
+      {
+        "type": "res-pois",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Poison Resist",
+        "desc_ko": "독 저항"
       }
     ]
   },
@@ -75,28 +931,37 @@
     },
     "options": [
       {
+        "type": "ac%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
         "type": "ethereal",
         "param": "",
-        "desc_ko": "에테리얼",
-        "desc_en": "Ethereal",
         "min": "0",
-        "max": "1"
+        "max": "1",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
       },
       {
         "type": "sock",
         "param": "",
-        "desc_ko": "홈(소켓) 개수",
-        "desc_en": "Sockets",
         "min": "0",
-        "max": "6"
-      },
-      {
-        "type": "ac%",
-        "param": "",
-        "desc_ko": "방어력 증가(%)",
-        "desc_en": "Enhanced Defense",
-        "min": "0",
-        "max": "0"
+        "max": "6",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
       }
     ]
   },
@@ -114,28 +979,37 @@
     },
     "options": [
       {
+        "type": "ac%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
         "type": "ethereal",
         "param": "",
-        "desc_ko": "에테리얼",
-        "desc_en": "Ethereal",
         "min": "0",
-        "max": "1"
+        "max": "1",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
       },
       {
         "type": "sock",
         "param": "",
-        "desc_ko": "홈(소켓) 개수",
-        "desc_en": "Sockets",
         "min": "0",
-        "max": "6"
-      },
-      {
-        "type": "ac%",
-        "param": "",
-        "desc_ko": "방어력 증가(%)",
-        "desc_en": "Enhanced Defense",
-        "min": "0",
-        "max": "0"
+        "max": "6",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
       }
     ]
   },
@@ -153,28 +1027,37 @@
     },
     "options": [
       {
+        "type": "ac%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
         "type": "ethereal",
         "param": "",
-        "desc_ko": "에테리얼",
-        "desc_en": "Ethereal",
         "min": "0",
-        "max": "1"
+        "max": "1",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
       },
       {
         "type": "sock",
         "param": "",
-        "desc_ko": "홈(소켓) 개수",
-        "desc_en": "Sockets",
         "min": "0",
-        "max": "6"
-      },
-      {
-        "type": "ac%",
-        "param": "",
-        "desc_ko": "방어력 증가(%)",
-        "desc_en": "Enhanced Defense",
-        "min": "0",
-        "max": "0"
+        "max": "6",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
       }
     ]
   },
@@ -192,28 +1075,37 @@
     },
     "options": [
       {
+        "type": "ac%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
         "type": "ethereal",
         "param": "",
-        "desc_ko": "에테리얼",
-        "desc_en": "Ethereal",
         "min": "0",
-        "max": "1"
+        "max": "1",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
       },
       {
         "type": "sock",
         "param": "",
-        "desc_ko": "홈(소켓) 개수",
-        "desc_en": "Sockets",
         "min": "0",
-        "max": "6"
-      },
-      {
-        "type": "ac%",
-        "param": "",
-        "desc_ko": "방어력 증가(%)",
-        "desc_en": "Enhanced Defense",
-        "min": "0",
-        "max": "0"
+        "max": "6",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
       }
     ]
   }

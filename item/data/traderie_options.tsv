@@ -1,141 +1,146 @@
-dmg%		prop_510	피해 증가
-lifesteal		prop_462	적중당 생명력 훔침
-ac%		prop_425	방어력 증가(%)
-mana-kill		prop_511	적 처치 시 마나
-mag%		prop_461	마법 아이템 발견 확률 증가
-gold%		prop_460	괴물에게서 얻는 금화 증가
-extra-mag		prop_1879	마법 기술 피해
-pierce-mag		prop_1877	적 마법 저항 -
-addxp		prop_776	경험치 획득량
-sock		prop_402	홈 있음
-res-all		prop_441	모든 저항 %
-aura	Redemption	prop_1047	장착시 오라레벨 - 속죄
-mana		prop_400	마나
-hp		prop_418	생명력
-oskill	Abyss	prop_1579	심연(악마술사) 레벨
-all-stats		prop_727	모든 능력치
-aura	Concentration	prop_881	장착시 오라레벨 - 집중
-aura	Resist Fire	prop_1222	장착시 오라레벨 - 화염 저항
-pierce-fire		prop_735	적의 화염 저항 -
-balance3		prop_430	타격 회복 속도
-balance1		prop_430	타격 회복 속도
-ac		prop_399	추가 방어력
-dmg-demon		prop_513	악마에게 주는 피해 증가(%)
-res-fire		prop_427	화염 저항 %
+abs-cold		prop_702	냉기 흡수
+abs-cold%		prop_702	냉기 흡수 %
+abs-fire		prop_659	화염 흡수
 abs-fire%		prop_659	화염 흡수 %
-heal-kill		prop_721	적 처치 시 생명력 회복
-crush		prop_567	강타 확률 %
-extra-ltng		prop_743	번개 기술 피해 증가 %
-extra-cold		prop_747	냉기 기술 피해 증가 %
-extra-fire		prop_750	화염 기술 피해 증가 %
-pierce-ltng		prop_736	적 번개 저항 -
-red-dmg%		prop_1865	받는 물리 피해 감소 %
-swing2		prop_457	공격 속도 증가 %
-ac-miss		prop_612	원거리 공격 방어력
-abs-mag		prop_818	마법 흡수
-oskill	Battle Cry	prop_1202	전투의 함성
-oskill	Battle Orders	prop_1203	전투 지시
-oskill	Battle Command	prop_1001	전투 명령
-swing3		prop_457	공격 속도 증가 %
-dmg		prop_439	피해
-pierce-pois		prop_723	적 독 저항 -
-aura	Fanaticism	prop_803	장착시 오라레벨 - 광신
-allskills		prop_587	모든 기술 레벨
-str		prop_437	힘
-att%		prop_424	명중률 추가 %
-cast3		prop_520	시전 속도 증가 %
-dmg-undead		prop_538	언데드에게 주는 피해 증가 %
-res-ltng		prop_428	번개 저항 %
+abs-ltng		prop_689	번개 흡수
 abs-ltng%		prop_689	번개 흡수
-dmg-elem		prop_549	원소 피해 (min - max)
-oskill	Valkyrie	prop_849	발키리 레벨(아마존)
-manasteal		prop_463	적중당 마나 훔침 %
-hp%		prop_673	최대 생명력 증가 %
-regen-mana			마나 재생 %
+abs-mag		prop_818	마법 흡수
+ac		prop_399	추가 방어력
+ac%		prop_425	방어력 증가(%)
+ac-miss		prop_612	원거리 공격 방어력
+addxp		prop_776	경험치 획득량
+all-stats		prop_727	모든 능력치
+allskills		prop_587	모든 기술 레벨
+ama		prop_453	아마존 기술 레벨
+ass		prop_519	암살자 기술 레벨
+att		prop_423	명중률
+att%		prop_424	명중률 추가 %
+att-demon		prop_512	악마에 대한 명중률
+att-undead		prop_537	언데드에 대한 명중률
+aura	Concentration	prop_881	장착시 오라레벨 - 집중
+aura	Defiance	prop_839	장착시 오라레벨 - 대항
+aura	Fanaticism	prop_803	장착시 오라레벨 - 광신
+aura	Meditation	prop_859	장착시 오라레벨 - 명상
+aura	Redemption	prop_1047	장착시 오라레벨 - 속죄
+aura	Resist Fire	prop_1222	장착시 오라레벨 - 화염 저항
 aura	Sanctuary	prop_726	장착시 오라레벨 - 성역
 aura	Thorns	prop_810	장착시 오라레벨 - 가시
-extra-pois		prop_783	독 기술 피해 증가 %
-aura	Defiance	prop_839	장착시 오라레벨 - 대항
-res-pois		prop_401	독 저항 %
-aura	Meditation	prop_859	장착시 오라레벨 - 명상
-oskill	Critical Strike	prop_858	치명타
-pierce-cold		prop_609	적 냉기 저항 -
-abs-cold%		prop_702	냉기 흡수 %
-freeze		prop_570	대상 빙결
-skill	111	prop_577	복수(성기사 전용)
-red-mag		prop_414	마법 피해 감소
-skilltab	2	prop_456	투척과 창 기술(아마존 전용)
-att		prop_423	명중률
-regen		prop_417	생명력 회복
-dex		prop_429	민첩
-enr		prop_421	마력
-res-cold		prop_426	냉기 저항 %
-vit		prop_582	활력
-att-undead		prop_537	언데드에 대한 명중률
-red-dmg		prop_413	피해 감소
-abs-fire		prop_659	화염 흡수
+balance1		prop_430	타격 회복 속도
+balance3		prop_430	타격 회복 속도
+bar		prop_403	바바리안 기술 레벨
+block		prop_446	막기 확률 증가
+cast1		prop_520	시전 속도 증가 %
+cast3		prop_520	시전 속도 증가 %
+cheap		prop_764	상점 물품 가격 하락
+crush		prop_567	강타 확률 %
 demon-heal		prop_637	악마 처치 시 생명력 회복
-ama		prop_453	아마존 기술 레벨
-abs-cold		prop_702	냉기 흡수
-stam		prop_452	최대 지구력
+dex		prop_429	민첩
+dmg		prop_439	피해
+dmg%		prop_510	피해 증가
+dmg-demon		prop_513	악마에게 주는 피해 증가(%)
+dmg-elem		prop_549	원소 피해 (min - max)
+dmg-min		prop_416	최소 피해
+dmg-max		prop_448	최대 피해
+dmg-undead		prop_538	언데드에게 주는 피해 증가 %
+dru		prop_488	드루이드 기술 레벨
+enr		prop_421	마력
+ethereal		prop_Ethereal	에테리얼(무형)
+extra-cold		prop_747	냉기 기술 피해 증가 %
+extra-fire		prop_750	화염 기술 피해 증가 %
+extra-ltng		prop_743	번개 기술 피해 증가 %
+extra-mag		prop_1879	마법 기술 피해
+extra-pois		prop_783	독 기술 피해 증가 %
+freeze		prop_570	대상 빙결
+gold%		prop_460	괴물에게서 얻는 금화 증가
+heal-kill		prop_721	적 처치 시 생명력 회복
+hp		prop_418	생명력
+hp%		prop_673	최대 생명력 증가 %
+lifesteal		prop_462	적중당 생명력 훔침
+light		prop_422	시야
 light-thorns		prop_611	공격자가 번개 피해를 받음
-skilltab	20	prop_410	무술 (암살자 전용)
-skill	Wake of Fire Sentry	prop_1116	불의 파동 (암살자 전용)
-skill	Inferno Sentry	prop_769	지옥불의 파동 (암살자 전용)
-skilltab	19	prop_409	그림자 단련 (암살자 전용)
-skill	Teeth	prop_1003	이빨 (강령술사 전용)
+mag%		prop_461	마법 아이템 발견 확률 증가
+mana		prop_400	마나
+mana%		prop_617	최대 마나 증가 %
+mana-kill		prop_511	적 처치 시 마나
+manasteal		prop_463	적중당 마나 훔침 %
+move1		prop_480	달리기/걷기 속도
+nec		prop_498	강령술사 기술 레벨
+oskill	Abyss	prop_1579	심연(악마술사) 레벨
+oskill	Arctic Blast	prop_957	극지 돌풍 (드루이드)
+oskill	Battle Command	prop_1001	전투 명령
+oskill	Battle Cry	prop_1202	전투의 함성
+oskill	Battle Orders	prop_1203	전투 지시
+oskill	Critical Strike	prop_858	치명타
+oskill	Guided Arrow	prop_1104	유도 화살 (아마존)
+oskill	Valkyrie	prop_849	발키리 레벨(아마존)
+pal		prop_442	성기사 기술 레벨
+pierce-cold		prop_609	적 냉기 저항 -
+pierce-dmg		prop_1881	적 물리 피해 저항 -
+pierce-fire		prop_735	적의 화염 저항 -
+pierce-ltng		prop_736	적 번개 저항 -
+pierce-mag		prop_1877	적 마법 저항 -
+pierce-pois		prop_723	적 독 저항 -
+red-dmg		prop_413	피해 감소
+red-dmg%		prop_1865	받는 물리 피해 감소 %
+red-mag		prop_414	마법 피해 감소
+regen		prop_417	생명력 회복
+regen-mana			마나 재생 %
+res-all		prop_441	모든 저항 %
+res-cold		prop_426	냉기 저항 %
+res-fire		prop_427	화염 저항 %
+res-ltng		prop_428	번개 저항 %
+res-mag		prop_936	마법 저항 %
+res-pois		prop_401	독 저항 %
+skill	110	prop_1038	번개 저항 (성기사 전용)
+skill	111	prop_577	복수(성기사 전용)
+skill	26		속사 (아마존 전용)
+skill	66	prop_1002	피해 증폭 (강령술사 전용)
+skill	74	prop_1009	시체 폭발 (강령술사 전용)
+skill	76	prop_574	가시 박힌 철관 (강령술사 전용)
+skill	77	prop_1011	공포 (강령술사 전용)
+skill	Apocalypse	prop_1578	종말 (악마술사)
+skill	Blood Boil	prop_1557	끓는 피 (악마술사)
+skill	Blood Oath	prop_1555	피의 맹세 (악마술사)
 skill	Bone Armor	prop_755	뼈 갑옷 (강령술사 전용)
 skill	Bone Spear	prop_756	뼈 창 (강령술사 전용)
 skill	Bone Spirit	prop_757	뼈 영혼 (강령술사 전용)
 skill	Bone Wall	prop_758	뼈의 벽 (강령술사 전용)
-nec		prop_498	강령술사 기술 레벨
-oskill	Arctic Blast	prop_957	극지 돌풍 (드루이드)
-skilltab	16	prop_486	변신 기술 (드루이드 전용)
-skill	feral rage	prop_959	흉포한 격노 (드루이드 전용)
-skill	74	prop_1009	시체 폭발 (강령술사 전용)
-skill	77	prop_1011	공포 (강령술사 전용)
-skill	66	prop_1002	피해 증폭 (강령술사 전용)
-skill	76	prop_574	가시 박힌 철관 (강령술사 전용)
-att-demon		prop_512	악마에 대한 명중률
-abs-ltng		prop_689	번개 흡수
-skill	Summon Tainted	prop_1553	오염된 자 소환
-skill	Ring of Fire	prop_1571	화염 고리
-skill	Flame Wave	prop_1575	화염 파도
-cast1		prop_520	시전 속도 증가 %
-skill	Apocalypse	prop_1578	종말 (악마술사)
-light		prop_422	시야
-skill	Demonic Mastery	prop_1551	악마 숙련 (악마술사)
-skill	Blood Boil	prop_1557	끓는 피 (악마술사)
-skill	Engorge	prop_1556	포식 (악마술사)
 skill	Consume	prop_1558	소모 (악마술사)
-skilltab	9	prop_443	전투 기술 (성기사 전용)
-dru		prop_488	드루이드 기술 레벨
+skill	Demonic Mastery	prop_1551	악마 숙련 (악마술사)
+skill	Engorge	prop_1556	포식 (악마술사)
+skill	Flame Wave	prop_1575	화염 파도
+skill	Holy Bolt		신성한 빛줄기 (성기사 전용)
+skill	Inferno Sentry	prop_769	지옥불의 파동 (암살자 전용)
+skill	Redemption		속죄 (성기사 전용)
+skill	Ring of Fire	prop_1571	화염 고리
+skill	Skeleton Mastery	prop_1004	해골 숙련 (강령술사 전용)
+skill	Summon Tainted	prop_1553	오염된 자 소환
+skill	Teeth	prop_1003	이빨 (강령술사 전용)
+skill	Wake of Fire Sentry	prop_1116	불의 파동 (암살자 전용)
+skill	feral rage	prop_959	흉포한 격노 (드루이드 전용)
+skilltab	0	prop_454	활과 쇠뇌 기술 (아마존 전용)
+skilltab	10	prop_444	공격 오라 (성기사 전용)
+skilltab	11	prop_445	방어 오라 (성기사 전용)
 skilltab	12	prop_404	전투 기술 (야만용사 전용)
 skilltab	13	prop_405	전투 숙련 (야만용사 전용)
 skilltab	14	prop_406	전투 숙련 (야만용사 전용)
-pal		prop_442	성기사 기술 레벨
-skilltab	6	prop_499	저주 (강령술사 전용)
-skilltab	7	prop_500	독과 뼈 기술 (강령술사 전용)
-skilltab	8	prop_485	소환 기술 (강령술사 전용)
-sor		prop_514	원소술사 기술 레벨
-mana%		prop_617	최대 마나 증가 %
-res-mag		prop_936	마법 저항 %
-thorns		prop_415	공격자가 피해를 받음
-skilltab	11	prop_445	방어 오라 (성기사 전용)
-skill	110	prop_1038	번개 저항 (성기사 전용)
-skill	Blood Oath	prop_1555	피의 맹세 (악마술사)
-skilltab	0	prop_454	활과 쇠뇌 기술 (아마존 전용)
-block		prop_446	막기 확률 증가
-skill	Skeleton Mastery	prop_1004	해골 숙련 (강령술사 전용)
-oskill	Guided Arrow	prop_1104	유도 화살 (아마존)
-move1		prop_480	달리기/걷기 속도
-cheap		prop_764	상점 물품 가격 하락
-skilltab	10	prop_444	공격 오라 (성기사 전용)
-skill	Redemption		속죄 (성기사 전용)
-skill	Holy Bolt		신성한 빛줄기 (성기사 전용)
-skill	26		속사 (아마존 전용)
-pierce-dmg		prop_1881	적 물리 피해 저항 -
-ethereal		prop_Ethereal	에테리얼(무형)
+skilltab	16	prop_486	변신 기술 (드루이드 전용)
+skilltab	19	prop_409	그림자 단련 (암살자 전용)
+skilltab	2	prop_456	투척과 창 기술(아마존 전용)
+skilltab	20	prop_410	무술 (암살자 전용)
 skilltab	21	prop_1546	악마 기술 (악마술사 전용)
 skilltab	22	prop_1547	기괴 기술 (악마술사 전용)
 skilltab	23	prop_1548	혼돈 기술 (악마술사 전용)
+skilltab	6	prop_499	저주 (강령술사 전용)
+skilltab	7	prop_500	독과 뼈 기술 (강령술사 전용)
+skilltab	8	prop_485	소환 기술 (강령술사 전용)
+skilltab	9	prop_443	전투 기술 (성기사 전용)
+sock		prop_402	홈 있음
+sor		prop_514	원소술사 기술 레벨
+stam		prop_452	최대 지구력
+str		prop_437	힘
+swing2		prop_457	공격 속도 증가 %
+swing3		prop_457	공격 속도 증가 %
+thorns		prop_415	공격자가 피해를 받음
+war		prop_1862	악마술사 기술 레벨
+vit		prop_582	활력
