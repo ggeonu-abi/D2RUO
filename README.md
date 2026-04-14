@@ -132,7 +132,7 @@
 ### 💡 버그 신고 및 기능 제안 (Feedback)
 프로그램 사용 중 발생하는 **버그(문제)** 나 **새로운 기능 제안**은 언제든지 환영합니다! 아래의 편한 방법으로 알려주세요.
 * **GitHub Issues (권장):** [이슈 페이지(클릭)](https://github.com/ggeonu-abi/D2RUO/issues)에 글을 남겨주시면 개발자가 가장 빠르고 체계적으로 확인하고 처리 상태를 추적할 수 있습니다.
-* **이메일 문의:** GitHub 사용이 익숙하지 않으시다면 `mdloopy02@gmail.com` 으로 편하게 메일 보내주셔도 좋습니다.
+* **이메일 문의:** GitHub 사용이 익숙하지 않으시다면 `miabohoja1@gmail.com` 으로 편하게 메일 보내주셔도 좋습니다.
 
 ### ☕ 후원하기 (Donation)
 **본 프로그램은 누구나 무료로 자유롭게 사용할 수 있습니다!** 만약 이 프로그램이 게임 플레이에 큰 도움이 되셨다면, 향후 지속적인 업데이트와 더 좋은 기능 개발을 위해 커피 한 잔의 여유를 선물해 주시면 큰 힘이 됩니다!
@@ -278,7 +278,7 @@ This program uses the `keyboard` module to detect hotkeys. Some antivirus softwa
 ### 💡 Bug Reports & Feature Requests (Feedback)
 If you encounter any **bugs** or have ideas for **new features**, please feel free to let me know using the methods below!
 * **GitHub Issues (Recommended):** Please leave a post on the [GitHub Issues page (Click)](https://github.com/ggeonu-abi/D2RUO/issues) for the fastest response and organized tracking.
-* **Email:** If you are not familiar with GitHub, you can always send an email to `mdloopy02@gmail.com`.
+* **Email:** If you are not familiar with GitHub, you can always send an email to `miabohoja1@gmail.com`.
 
 ### ☕ Support (Donation)
 **This program is 100% free to use for everyone!**
