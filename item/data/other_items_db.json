@@ -61,7 +61,7 @@
       }
     ]
   },
-  "base_uit": {
+  "Monarch": {
     "name_ko": "🛡️ 모너크 (베이스)",
     "name_en": "Monarch",
     "base_stats": {
@@ -100,7 +100,7 @@
       }
     ]
   },
-  "base_xtp": {
+  "Mage Plate": {
     "name_ko": "🛡️ 메이지 플레이트 (베이스)",
     "name_en": "Mage Plate",
     "base_stats": {
@@ -139,7 +139,7 @@
       }
     ]
   },
-  "base_uui": {
+  "Dusk Shroud": {
     "name_ko": "🛡️ 더스크 슈라우드 (베이스)",
     "name_en": "Dusk Shroud",
     "base_stats": {
@@ -178,7 +178,7 @@
       }
     ]
   },
-  "base_utp": {
+  "Archon Plate": {
     "name_ko": "🛡️ 아콘 플레이트 (베이스)",
     "name_en": "Archon Plate",
     "base_stats": {

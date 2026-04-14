@@ -48,7 +48,7 @@
 > * **수동 업데이트:** 깃허브에서 새 버전을 직접 다운로드할 경우, 기존에 쓰던 폴더에서 `d2_overlay_config.json`, `profiles` 폴더를 복사하여 새 버전 폴더에 덮어쓰기 하시면 됩니다.
 
 ![자동 업데이트 버튼 표시 화면](images/auto-update_kor.png)
-> 💡 새 버전이 감지되면 테러존 패널 하단에 **`⚡ 자동 업데이트`** 버튼이 나타납니다.
+> 💡 새 버전이 감지되면 화면 상단에 **`⚡ 자동 업데이트`** 버튼이 나타납니다.
 
 ### 2. 실행 및 설정
 1. **디아블로 2: 레저렉션**을 실행합니다. (전체화면 모드 권장)
@@ -197,7 +197,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 > * **Manual Update:** If you download the `.zip` file manually, copy and paste your old `d2_overlay_config.json` and `profiles` folder into the new version's folder.
 
 ![Auto-Update button display screen](images/auto-update_eng.png)
-> 💡 When a new version is detected, the **`⚡ Auto-Update`** button appears at the bottom of the Terror Zone panel.
+> 💡 When a new version is detected, the **`⚡ Auto-Update`** button appears at the top of the screen.
 
 ### 2. Run & Configure
 1. Run **Diablo 2: Resurrected**. (Fullscreen Mode recommended).
