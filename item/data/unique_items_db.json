@@ -256,7 +256,7 @@
       }
     ]
   },
-  "Mindrend": {
+  "Skull Splitter": {
     "name_en": "Skull Splitter",
     "name_ko": "두개골 절단기",
     "base_name_en": "Military Pick",
@@ -441,7 +441,7 @@
       }
     ]
   },
-  "Fechmars Axe": {
+  "Axe of Fechmar": {
     "name_en": "Axe of Fechmar",
     "name_ko": "페크마르의 도끼",
     "base_name_en": "Large Axe",
@@ -594,7 +594,7 @@
       }
     ]
   },
-  "The Chieftan": {
+  "The Chieftain": {
     "name_en": "The Chieftain",
     "name_ko": "족장",
     "base_name_en": "Battle Axe",
@@ -769,7 +769,7 @@
       }
     ]
   },
-  "The Humongous": {
+  "Humongous": {
     "name_en": "Humongous",
     "name_ko": "무지막지",
     "base_name_en": "Giant Axe",
@@ -850,7 +850,7 @@
       }
     ]
   },
-  "Iros Torch": {
+  "Torch of Iro": {
     "name_en": "Torch of Iro",
     "name_ko": "이로의 횃불",
     "base_name_en": "Wand",
@@ -953,7 +953,7 @@
       }
     ]
   },
-  "Maelstromwrath": {
+  "Maelstrom": {
     "name_en": "Maelstrom",
     "name_ko": "소용돌이",
     "base_name_en": "Yew Wand",
@@ -1210,7 +1210,7 @@
       }
     ]
   },
-  "Umes Lament": {
+  "Ume's Lament": {
     "name_en": "Ume's Lament",
     "name_ko": "우메의 탄식",
     "base_name_en": "Grim Wand",
@@ -2038,7 +2038,7 @@
       }
     ]
   },
-  "The Generals Tan Do Li Ga": {
+  "The General's Tan Do Li Ga": {
     "name_en": "The General's Tan Do Li Ga",
     "name_ko": "장군의 단도리깨",
     "base_name_en": "Flail",
@@ -2243,7 +2243,7 @@
       }
     ]
   },
-  "Bonesob": {
+  "Bonesnap": {
     "name_en": "Bonesnap",
     "name_ko": "뼈절단기",
     "base_name_en": "Maul",
@@ -2406,7 +2406,7 @@
       }
     ]
   },
-  "Rixots Keen": {
+  "Rixot's Keen": {
     "name_en": "Rixot's Keen",
     "name_ko": "릭소트의 날카로움",
     "base_name_en": "Short Sword",
@@ -2603,7 +2603,7 @@
       }
     ]
   },
-  "Krintizs Skewer": {
+  "Skewer of Krintiz": {
     "name_en": "Skewer of Krintiz",
     "name_ko": "크린티즈의 꼬챙이",
     "base_name_en": "Sabre",
@@ -2902,7 +2902,7 @@
       }
     ]
   },
-  "Griswolds Edge": {
+  "Griswold's Edge": {
     "name_en": "Griswold's Edge",
     "name_ko": "그리스월드의 날",
     "base_name_en": "Broad Sword",
@@ -3098,7 +3098,7 @@
       }
     ]
   },
-  "Culwens Point": {
+  "Culwen's Point": {
     "name_en": "Culwen's Point",
     "name_ko": "컬웬의 날붙이",
     "base_name_en": "War Sword",
@@ -3366,7 +3366,7 @@
       }
     ]
   },
-  "Kinemils Awl": {
+  "Kinemil's Awl": {
     "name_en": "Kinemil's Awl",
     "name_ko": "키네밀의 송곳",
     "base_name_en": "Giant Sword",
@@ -3949,7 +3949,7 @@
       }
     ]
   },
-  "Irices Shard": {
+  "Spectral Shard": {
     "name_en": "Spectral Shard",
     "name_ko": "혼령 파편",
     "base_name_en": "Blade",
@@ -4474,7 +4474,7 @@
       }
     ]
   },
-  "Dimoaks Hew": {
+  "Dimoak's Hew": {
     "name_en": "Dimoak's Hew",
     "name_ko": "디모악의 절단",
     "base_name_en": "Bardiche",
@@ -5258,7 +5258,7 @@
       }
     ]
   },
-  "Lazarus Spire": {
+  "Spire of Lazarus": {
     "name_en": "Spire of Lazarus",
     "name_ko": "라자루스의 첨탑",
     "base_name_en": "Gnarled Staff",
@@ -5787,7 +5787,7 @@
       }
     ]
   },
-  "Rimeraven": {
+  "Raven Claw": {
     "name_en": "Raven Claw",
     "name_ko": "큰까마귀 발톱",
     "base_name_en": "Long Bow",
@@ -5869,7 +5869,7 @@
       }
     ]
   },
-  "Piercerib": {
+  "Rogue's Bow": {
     "name_en": "Rogue's Bow",
     "name_ko": "도적의 활",
     "base_name_en": "Composite Bow",
@@ -5962,7 +5962,7 @@
       }
     ]
   },
-  "Pullspite": {
+  "Stormstrike": {
     "name_en": "Stormstrike",
     "name_ko": "폭풍격",
     "base_name_en": "Short Battle Bow",
@@ -6656,7 +6656,7 @@
       }
     ]
   },
-  "Doomspittle": {
+  "Doomslinger": {
     "name_en": "Doomslinger",
     "name_ko": "멸궁",
     "base_name_en": "Repeating Crossbow",
@@ -6738,7 +6738,7 @@
       }
     ]
   },
-  "War Bonnet": {
+  "Biggin's Bonnet": {
     "name_en": "Biggin's Bonnet",
     "name_ko": "비긴의 모자",
     "base_name_en": "Cap",
@@ -7438,7 +7438,7 @@
       }
     ]
   },
-  "Blinkbats Form": {
+  "Blinkbat's Form": {
     "name_en": "Blinkbat's Form",
     "name_ko": "점멸박쥐의 형상",
     "base_name_en": "Leather Armor",
@@ -7931,7 +7931,7 @@
       }
     ]
   },
-  "Venomsward": {
+  "Venom Ward": {
     "name_en": "Venom Ward",
     "name_ko": "맹독 호신부",
     "base_name_en": "Breast Plate",
@@ -8347,7 +8347,7 @@
       }
     ]
   },
-  "Victors Silk": {
+  "Silks of the Victor": {
     "name_en": "Silks of the Victor",
     "name_ko": "승자의 비단",
     "base_name_en": "Ancient Armor",
@@ -10124,7 +10124,7 @@
       }
     ]
   },
-  "Lenyms Cord": {
+  "Lenymo": {
     "name_en": "Lenymo",
     "name_ko": "레니모",
     "base_name_en": "Sash",
@@ -11252,7 +11252,7 @@
       }
     ]
   },
-  "KhalimFlail": {
+  "Khalim's Flail": {
     "name_en": "Khalim's Flail",
     "name_ko": "칼림의 도리깨",
     "base_name_en": "Khalim's Flail",
@@ -11333,7 +11333,7 @@
       }
     ]
   },
-  "SuperKhalimFlail": {
+  "Khalim's Will": {
     "name_en": "Khalim's Will",
     "name_ko": "칼림의 의지",
     "base_name_en": "Khalim's Will",
@@ -11764,7 +11764,7 @@
       }
     ]
   },
-  "Pompe's Wrath": {
+  "Pompeii's Wrath": {
     "name_en": "Pompeii's Wrath",
     "name_ko": "폼페이의 진노",
     "base_name_en": "Crowbill",
@@ -12377,7 +12377,7 @@
       }
     ]
   },
-  "The Minataur": {
+  "The Minotaur": {
     "name_en": "The Minotaur",
     "name_ko": "미노타우루스",
     "base_name_en": "Ancient Axe",
@@ -14912,7 +14912,7 @@
       }
     ]
   },
-  "The Atlantian": {
+  "The Atlantean": {
     "name_en": "The Atlantean",
     "name_ko": "아틀란티안",
     "base_name_en": "Ancient Sword",
@@ -17640,7 +17640,7 @@
       }
     ]
   },
-  "Skullcollector": {
+  "Skull Collector": {
     "name_en": "Skull Collector",
     "name_ko": "두개골 수집가",
     "base_name_en": "Rune Staff",
@@ -18098,7 +18098,7 @@
       }
     ]
   },
-  "Whichwild String": {
+  "Witchwild String": {
     "name_en": "Witchwild String",
     "name_ko": "마녀림의 시위",
     "base_name_en": "Short Siege Bow",
@@ -18406,7 +18406,7 @@
       }
     ]
   },
-  "Godstrike Arch": {
+  "Goldstrike Arch": {
     "name_en": "Goldstrike Arch",
     "name_ko": "황금일격 활",
     "base_name_en": "Gothic Bow",
@@ -18612,7 +18612,7 @@
       }
     ]
   },
-  "Pus Spiter": {
+  "Pus Spitter": {
     "name_en": "Pus Spitter",
     "name_ko": "고름 쏘개",
     "base_name_en": "Siege Crossbow",
@@ -18942,7 +18942,7 @@
       }
     ]
   },
-  "Peasent Crown": {
+  "Peasant Crown": {
     "name_en": "Peasant Crown",
     "name_ko": "평민의 왕관",
     "base_name_en": "War Hat",
@@ -19296,7 +19296,7 @@
       }
     ]
   },
-  "Valkiry Wing": {
+  "Valkyrie Wing": {
     "name_en": "Valkyrie Wing",
     "name_ko": "발키리 날개",
     "base_name_en": "Winged Helm",
@@ -19548,7 +19548,7 @@
       }
     ]
   },
-  "Vampiregaze": {
+  "Vampire Gaze": {
     "name_en": "Vampire Gaze",
     "name_ko": "흡혈귀의 눈길",
     "base_name_en": "Grim Helm",
@@ -19789,7 +19789,7 @@
       }
     ]
   },
-  "Skin of the Flayerd One": {
+  "Skin of the Flayed One": {
     "name_en": "Skin of the Flayed One",
     "name_ko": "벗겨진 자의 가죽",
     "base_name_en": "Demonhide Armor",
@@ -19873,7 +19873,7 @@
       }
     ]
   },
-  "Ironpelt": {
+  "Iron Pelt": {
     "name_en": "Iron Pelt",
     "name_ko": "무쇠 털가죽",
     "base_name_en": "Trellised Armor",
@@ -19957,7 +19957,7 @@
       }
     ]
   },
-  "Spiritforge": {
+  "Spirit Forge": {
     "name_en": "Spirit Forge",
     "name_ko": "영혼의 용광로",
     "base_name_en": "Linked Mail",
@@ -20881,7 +20881,7 @@
       }
     ]
   },
-  "Que-Hegan's Wisdon": {
+  "Que-Hegan's Wisdom": {
     "name_en": "Que-Hegan's Wisdom",
     "name_ko": "쿠에 히간의 지혜",
     "base_name_en": "Mage Plate",
@@ -21049,7 +21049,7 @@
       }
     ]
   },
-  "Mosers Blessed Circle": {
+  "Moser's Blessed Circle": {
     "name_en": "Moser's Blessed Circle",
     "name_ko": "모저의 축복받은 고리",
     "base_name_en": "Round Shield",
@@ -21346,7 +21346,7 @@
       }
     ]
   },
-  "Kerke's Sanctuary": {
+  "Gerke's Sanctuary": {
     "name_en": "Gerke's Sanctuary",
     "name_ko": "게르케의 성역",
     "base_name_en": "Pavise",
@@ -21441,7 +21441,7 @@
       }
     ]
   },
-  "Radimant's Sphere": {
+  "Radament's Sphere": {
     "name_en": "Radament's Sphere",
     "name_ko": "라다먼트의 명주",
     "base_name_en": "Ancient Shield",
@@ -21963,7 +21963,7 @@
       }
     ]
   },
-  "Lavagout": {
+  "Lava Gout": {
     "name_en": "Lava Gout",
     "name_ko": "용암 불똥",
     "base_name_en": "Battle Gauntlets",
@@ -22430,7 +22430,7 @@
       }
     ]
   },
-  "Wartraveler": {
+  "War Traveler": {
     "name_en": "War Traveler",
     "name_ko": "전쟁 여행자",
     "base_name_en": "Battle Boots",
@@ -22547,7 +22547,7 @@
       }
     ]
   },
-  "Gorerider": {
+  "Gore Rider": {
     "name_en": "Gore Rider",
     "name_ko": "선혈 기수",
     "base_name_en": "War Boots",
@@ -22821,7 +22821,7 @@
       }
     ]
   },
-  "Gloomstrap": {
+  "Gloom's Trap": {
     "name_en": "Gloom's Trap",
     "name_ko": "어스름의 덫",
     "base_name_en": "Mesh Belt",
@@ -23006,7 +23006,7 @@
       }
     ]
   },
-  "Thudergod's Vigor": {
+  "Thundergod's Vigor": {
     "name_en": "Thundergod's Vigor",
     "name_ko": "천둥신의 박력",
     "base_name_en": "War Belt",
@@ -25217,7 +25217,7 @@
       }
     ]
   },
-  "Bul Katho's Wedding Band": {
+  "Bul-Kathos' Wedding Band": {
     "name_en": "Bul-Kathos' Wedding Band",
     "name_ko": "불카토스의 결혼반지",
     "base_name_en": "Ring",
@@ -26820,7 +26820,7 @@
       }
     ]
   },
-  "Cutthroat1": {
+  "Bartuc's Cut-Throat": {
     "name_en": "Bartuc's Cut-Throat",
     "name_ko": "바르툭의 목 따개",
     "base_name_en": "Greater Talons",
@@ -27243,7 +27243,7 @@
       }
     ]
   },
-  "Djinnslayer": {
+  "Djinn Slayer": {
     "name_en": "Djinn Slayer",
     "name_ko": "신령 학살자",
     "base_name_en": "Ataghan",
@@ -27531,7 +27531,7 @@
       }
     ]
   },
-  "Gutsiphon": {
+  "Gut Siphon": {
     "name_en": "Gut Siphon",
     "name_ko": "내장 흡수",
     "base_name_en": "Demon Crossbow",
@@ -27613,7 +27613,7 @@
       }
     ]
   },
-  "Razoredge": {
+  "Razor's Edge": {
     "name_en": "Razor's Edge",
     "name_ko": "서슬푸른 날붙이",
     "base_name_en": "Tomahawk",
@@ -27695,7 +27695,7 @@
       }
     ]
   },
-  "Demonlimb": {
+  "Demon Limb": {
     "name_en": "Demon Limb",
     "name_ko": "악마의 사지",
     "base_name_en": "Tyrant Club",
@@ -27807,7 +27807,7 @@
       }
     ]
   },
-  "Steelshade": {
+  "Steel Shade": {
     "name_en": "Steel Shade",
     "name_ko": "강철 그늘",
     "base_name_en": "Armet",
@@ -28006,7 +28006,7 @@
       }
     ]
   },
-  "Deaths's Web": {
+  "Death's Web": {
     "name_en": "Death's Web",
     "name_ko": "죽음의 거미줄",
     "base_name_en": "Unearthed Wand",
@@ -28547,7 +28547,7 @@
       }
     ]
   },
-  "Jadetalon": {
+  "Jade Talon": {
     "name_en": "Jade Talon",
     "name_ko": "비취 발톱",
     "base_name_en": "Wrist Sword",
@@ -28636,7 +28636,7 @@
       }
     ]
   },
-  "Shadowdancer": {
+  "Shadow Dancer": {
     "name_en": "Shadow Dancer",
     "name_ko": "그림자 춤꾼",
     "base_name_en": "Myrmidon Greaves",
@@ -28718,7 +28718,7 @@
       }
     ]
   },
-  "Cerebus": {
+  "Cerebus' Bite": {
     "name_en": "Cerebus' Bite",
     "name_ko": "세레부스의 이빨",
     "base_name_en": "Blood Spirit",
@@ -28916,7 +28916,7 @@
       }
     ]
   },
-  "Souldrain": {
+  "Soul Drainer": {
     "name_en": "Soul Drainer",
     "name_ko": "영혼 흡수자",
     "base_name_en": "Vambraces",
@@ -28987,7 +28987,7 @@
       }
     ]
   },
-  "Runemaster": {
+  "Rune Master": {
     "name_en": "Rune Master",
     "name_ko": "룬 지배자",
     "base_name_en": "Ettin Axe",
@@ -29058,7 +29058,7 @@
       }
     ]
   },
-  "Deathcleaver": {
+  "Death Cleaver": {
     "name_en": "Death Cleaver",
     "name_ko": "죽음 가르개",
     "base_name_en": "Berserker Axe",
@@ -29373,7 +29373,7 @@
       }
     ]
   },
-  "Wisp": {
+  "Wisp Projector": {
     "name_en": "Wisp Projector",
     "name_ko": "위습 투사기",
     "base_name_en": "Ring",
@@ -30126,7 +30126,7 @@
       }
     ]
   },
-  "Spiritkeeper": {
+  "Spirit Keeper": {
     "name_en": "Spirit Keeper",
     "name_ko": "영혼 수호자",
     "base_name_en": "Earth Spirit",
@@ -30407,7 +30407,7 @@
       }
     ]
   },
-  "Darkforge Spawn": {
+  "Darkforce Spawn": {
     "name_en": "Darkforce Spawn",
     "name_ko": "어둠의 종자",
     "base_name_en": "Bloodlord Skull",
@@ -30565,7 +30565,7 @@
       }
     ]
   },
-  "Bloodraven's Charge": {
+  "Blood Raven's Charge": {
     "name_en": "Blood Raven's Charge",
     "name_ko": "핏빛 큰까마귀의 돌진",
     "base_name_en": "Matriarchal Bow",
@@ -30747,7 +30747,7 @@
       }
     ]
   },
-  "Shadowkiller": {
+  "Shadow Killer": {
     "name_en": "Shadow Killer",
     "name_ko": "죽음의 그림자",
     "base_name_en": "Battle Cestus",
@@ -31357,7 +31357,7 @@
       }
     ]
   },
-  "Steelpillar": {
+  "Steel Pillar": {
     "name_en": "Steel Pillar",
     "name_ko": "강철 기둥",
     "base_name_en": "War Pike",
@@ -31868,7 +31868,7 @@
       }
     ]
   },
-  "Steel Carapice": {
+  "Steel Carapace": {
     "name_en": "Steel Carapace",
     "name_ko": "강철 갑피",
     "base_name_en": "Shadow Plate",
@@ -32342,7 +32342,7 @@
       }
     ]
   },
-  "Fathom": {
+  "Death's Fathom": {
     "name_en": "Death's Fathom",
     "name_ko": "죽음의 깊이",
     "base_name_en": "Dimensional Shard",
@@ -33389,7 +33389,7 @@
       }
     ]
   },
-  "Eschuta's temper": {
+  "Eschuta's Temper": {
     "name_en": "Eschuta's Temper",
     "name_ko": "에슈타의 성미",
     "base_name_en": "Eldritch Orb",
@@ -34166,7 +34166,7 @@
       }
     ]
   },
-  "Verdugo's Hearty Cord": {
+  "Verdungo's Hearty Cord": {
     "name_en": "Verdungo's Hearty Cord",
     "name_ko": "베르둔고의 튼튼한 노끈",
     "base_name_en": "Mithril Coil",
@@ -34334,7 +34334,7 @@
       }
     ]
   },
-  "Giantskull": {
+  "Giant Skull": {
     "name_en": "Giant Skull",
     "name_ko": "거인 두개골",
     "base_name_en": "Bone Visage",
@@ -34407,7 +34407,7 @@
       }
     ]
   },
-  "Ironward": {
+  "Astreon's Iron Ward": {
     "name_en": "Astreon's Iron Ward",
     "name_ko": "아스트레온의 무쇠 호신부",
     "base_name_en": "Caduceus",
@@ -34894,7 +34894,7 @@
       }
     ]
   },
-  "Earthshifter": {
+  "Earth Shifter": {
     "name_en": "Earth Shifter",
     "name_ko": "대지 변형자",
     "base_name_en": "Thunder Maul",
@@ -35002,7 +35002,7 @@
       }
     ]
   },
-  "Wraithflight": {
+  "Wraith Flight": {
     "name_en": "Wraith Flight",
     "name_ko": "망령의 비행",
     "base_name_en": "Ghost Glaive",
@@ -35276,7 +35276,7 @@
       }
     ]
   },
-  "The Reedeemer": {
+  "The Redeemer": {
     "name_en": "The Redeemer",
     "name_ko": "구원자",
     "base_name_en": "Mighty Scepter",
@@ -35410,7 +35410,7 @@
       }
     ]
   },
-  "Headhunter's Glory": {
+  "Head Hunter's Glory": {
     "name_en": "Head Hunter's Glory",
     "name_ko": "머리 사냥꾼의 영예",
     "base_name_en": "Troll Nest",
@@ -35896,7 +35896,7 @@
       }
     ]
   },
-  "Ars Al'Diablolos": {
+  "Ars Al'Diabolos": {
     "name_en": "Ars Al'Diabolos",
     "name_ko": "아르스 알디아볼로스",
     "base_name_en": "Blasphemous Grimoire",
@@ -36989,7 +36989,7 @@
       }
     ]
   },
-  "Unique Warlock Helm": {
+  "Hellwarden's Will": {
     "name_en": "Hellwarden's Will",
     "name_ko": "지옥파수꾼의 의지",
     "base_name_en": "Death Mask",
@@ -37612,7 +37612,7 @@
       }
     ]
   },
-  "PreCrafted Cold Rupture": {
+  "Latent Cold Rupture": {
     "name_en": "Latent Cold Rupture",
     "name_ko": "잠복하는 추위의 파열",
     "base_name_en": "Grand Charm",
@@ -37647,7 +37647,7 @@
       }
     ]
   },
-  "Crafted Cold Rupture": {
+  "Renewed Cold Rupture": {
     "name_en": "Renewed Cold Rupture",
     "name_ko": "새로워진 추위의 파열",
     "base_name_en": "Grand Charm",
@@ -37748,7 +37748,7 @@
       }
     ]
   },
-  "PreCrafted Flame Rift": {
+  "Latent Flame Rift": {
     "name_en": "Latent Flame Rift",
     "name_ko": "잠복하는 불길의 균열",
     "base_name_en": "Grand Charm",
@@ -37783,7 +37783,7 @@
       }
     ]
   },
-  "PreCrafted Crack of the Heavens": {
+  "Latent Crack of the Heavens": {
     "name_en": "Latent Crack of the Heavens",
     "name_ko": "잠복하는 천상의 틈",
     "base_name_en": "Grand Charm",
@@ -37818,7 +37818,7 @@
       }
     ]
   },
-  "PreCrafted Rotting Fissure": {
+  "Latent Rotting Fissure": {
     "name_en": "Latent Rotting Fissure",
     "name_ko": "잠복하는 부패의 분열",
     "base_name_en": "Grand Charm",
@@ -37853,7 +37853,7 @@
       }
     ]
   },
-  "PreCrafted Bone Break": {
+  "Latent Bone Break": {
     "name_en": "Latent Bone Break",
     "name_ko": "잠복하는 뼈의 분쇄",
     "base_name_en": "Grand Charm",
@@ -37888,7 +37888,7 @@
       }
     ]
   },
-  "PreCrafted Black Cleft": {
+  "Latent Black Cleft": {
     "name_en": "Latent Black Cleft",
     "name_ko": "잠복하는 칠흑의 천공",
     "base_name_en": "Grand Charm",
@@ -37923,7 +37923,7 @@
       }
     ]
   },
-  "Crafted Flame Rift": {
+  "Renewed Flame Rift": {
     "name_en": "Renewed Flame Rift",
     "name_ko": "새로워진 불길의 균열",
     "base_name_en": "Grand Charm",
@@ -38013,7 +38013,7 @@
       }
     ]
   },
-  "Crafted Crack of the Heavens": {
+  "Renewed Crack of the Heavens": {
     "name_en": "Renewed Crack of the Heavens",
     "name_ko": "새로워진 천상의 틈",
     "base_name_en": "Grand Charm",
@@ -38103,7 +38103,7 @@
       }
     ]
   },
-  "Crafted Rotting Fissure": {
+  "Renewed Rotting Fissure": {
     "name_en": "Renewed Rotting Fissure",
     "name_ko": "새로워진 부패의 분열",
     "base_name_en": "Grand Charm",
@@ -38193,7 +38193,7 @@
       }
     ]
   },
-  "Crafted Bone Break": {
+  "Renewed Bone Break": {
     "name_en": "Renewed Bone Break",
     "name_ko": "새로워진 뼈의 분쇄",
     "base_name_en": "Grand Charm",
@@ -38283,7 +38283,7 @@
       }
     ]
   },
-  "Crafted Black Cleft": {
+  "Renewed Black Cleft": {
     "name_en": "Renewed Black Cleft",
     "name_ko": "새로워진 칠흑의 천공",
     "base_name_en": "Grand Charm",
