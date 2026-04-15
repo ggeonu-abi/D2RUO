@@ -35,6 +35,10 @@
 ![아이템 사전 검색 화면](images/item_fav_kor.png)
 > 게임 내에서 바로 유니크/룬워드 아이템의 옵션, 재료, 별칭 등을 검색하고 트레더리(Traderie) 시세까지 즉시 확인할 수 있습니다.
 
+### 4. 스피드런 타이머 (Speedrun Timer)
+![스피드런 타이머 화면](images/timer_kor.png)
+> 장비 교체나 빌드 변경 후 클리어 타임이 얼마나 단축되었는지 직관적으로 비교하고 상세 통계를 기록할 수 있습니다.
+
 ---
 
 ## <a id="getting-started-kr"></a>🚀 시작하기 (Quick Start)
@@ -71,6 +75,9 @@
 | | `ESC` | 검색창 닫기 |
 | **버프 타이머** | `PageUp` / `PageDown` | 버프 스킬 프로필 전환 |
 | | 사용자가 설정한 키 | 지정한 버프 타이머 실행 |
+| **스피드런 타이머** | `Home` | 타이머 시작 / 일시정지 |
+| | `End` | 기록 완료 (현재 소요 시간 저장) |
+| | `Shift` + `Del` | 전체 기록 및 통계 초기화 |
 
 ---
 
@@ -90,7 +97,11 @@
 * 스킬 아이콘 캡처 기능으로 나만의 버프 트래커를 구축할 수 있습니다. 
 * 기본 음원 외에 `sounds` 폴더에 원하는 파일(`.wav`, `.mp3`)을 넣어 스킬별로 개별 알림음을 지정할 수 있습니다.
 
-**4. 완벽한 게임 통합 & UI 편의성**
+**4. 스피드런 타이머 (Speedrun Timer)**
+* **기록 비교 및 통계:** 장비 교체나 빌드 변경에 따른 클리어 타임 변화를 측정하는 데 최적화되어 있습니다. 직전 런 대비 시간 단축/지연 여부를 색상(+/-)으로 직관적으로 보여줍니다.
+* **실시간 상세 데이터:** 현재 진행 시간뿐만 아니라 누적 실행 횟수(Runs), 평균 소요 시간(Avg), 최고 기록(Best) 등의 통계를 화면 늘어남 없이 고정된 UI로 깔끔하게 제공합니다.
+
+**5. 완벽한 게임 통합 & UI 편의성**
 * **클릭 관통 (Click-through):** 오버레이가 마우스 클릭을 방해하지 않습니다.
 * **자동 숨김 & 창 모드 지원:** 게임 창이 활성화되었을 때만 표출되며, 멀티 로더 환경도 완벽하게 지원합니다.
 * **자유로운 레이아웃:** 드래그 앤 드롭으로 패널 위치를 조정할 수 있고 세로 배치 모드도 지원합니다.
@@ -184,6 +195,10 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ![Item Search Screen](images/item_fav_eng.png)
 > Instantly search for Unique/Runeword items, base materials, aliases, and check their market value on Traderie without tabbing out of the game.
 
+### 4. Speedrun Timer
+![Speedrun Timer Screen](images/timer_eng.png)
+> Intuitively compare and record how much your clear time has improved after changing your equipment or builds.
+
 ---
 
 ## <a id="getting-started-en"></a>🚀 Getting Started
@@ -218,6 +233,9 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | | `ESC` | Close Search Window |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
 | | User Defined Keys | Trigger Specific Buff Timer |
+| **Speedrun Timer** | `Home` | Start / Pause Timer |
+| | `End` | Record Complete (Save Lap Time) |
+| | `Shift` + `Del` | Reset All Records & Stats |
 
 ---
 
@@ -237,7 +255,11 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * Build your own buff tracker using the built-in screen capture tool.
 * Assign custom audio files (`.wav`, `.mp3`) placed in the `sounds` folder to individual skills.
 
-**4. UI & Convenience**
+**4. Speedrun Timer**
+* **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference (faster/slower) from the previous run using color-coded delta values.
+* **Real-time Statistics:** Provides a clean, fixed-size UI that displays your current elapsed time alongside detailed stats such as total runs, average clear time, and your best record.
+
+**5. UI & Convenience**
 * **Click-through:** Mouse clicks pass right through the overlay.
 * **Auto-Hide:** Automatically hides when switching to a browser or another app. Fully supports multi-client setups.
 * **Free Layout:** Drag and drop panels anywhere. Vertical modes are also supported.
