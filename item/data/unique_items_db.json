@@ -222,26 +222,14 @@
         "desc_ko": "언데드에 대한 명중률"
       },
       {
-        "type": "fire-min",
+        "type": "dmg-fire",
         "param": "",
         "min": "8",
-        "max": "8",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Fire Damage",
-        "desc_ko": "최소 화염 피해"
-      },
-      {
-        "type": "fire-max",
-        "param": "",
-        "min": "12",
         "max": "12",
-        "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Fire Damage",
-        "desc_ko": "최대 화염 피해"
+        "desc_en": "Fire Damage",
+        "desc_ko": "화염 피해 추가"
       },
       {
         "type": "ac",
@@ -304,26 +292,14 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "ltng-min",
+        "type": "dmg-ltng",
         "param": "",
         "min": "1",
-        "max": "1",
-        "original_idx": 3,
+        "max": "12",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Lightning Damage",
-        "desc_ko": "최소 번개 피해"
-      },
-      {
-        "type": "ltng-max",
-        "param": "",
-        "min": "12",
-        "max": "15",
-        "original_idx": 4,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Maximum Lightning Damage",
-        "desc_ko": "최대 번개 피해"
+        "desc_en": "Lightning Damage",
+        "desc_ko": "번개 피해 추가"
       },
       {
         "type": "openwounds",
@@ -990,26 +966,14 @@
         "desc_ko": "시전 속도"
       },
       {
-        "type": "ltng-min",
+        "type": "dmg-ltng",
         "param": "",
         "min": "1",
-        "max": "1",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Lightning Damage",
-        "desc_ko": "최소 번개 피해"
-      },
-      {
-        "type": "ltng-max",
-        "param": "",
-        "min": "9",
         "max": "9",
-        "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Lightning Damage",
-        "desc_ko": "최대 번개 피해"
+        "desc_en": "Lightning Damage",
+        "desc_ko": "번개 피해 추가"
       },
       {
         "type": "skill",
@@ -1122,26 +1086,14 @@
         "desc_ko": "강령술사 기술 레벨"
       },
       {
-        "type": "cold-min",
-        "param": "",
-        "min": "4",
-        "max": "4",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Cold Damage",
-        "desc_ko": "최소 냉기 피해"
-      },
-      {
-        "type": "cold-max",
-        "param": "",
-        "min": "8",
-        "max": "8",
-        "original_idx": 4,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Maximum Cold Damage",
-        "desc_ko": "최대 냉기 피해"
+        "type": "cold-dmg-combined",
+        "param": "3",
+        "min": "4-8",
+        "max": "4-8",
+        "param_en": "3",
+        "param_ko": "3",
+        "desc_en": "Cold Damage",
+        "desc_ko": "냉기 피해"
       },
       {
         "type": "manasteal",
@@ -1186,17 +1138,6 @@
         "param_ko": "",
         "desc_en": "to Mana",
         "desc_ko": "마나"
-      },
-      {
-        "type": "cold-len",
-        "param": "",
-        "min": "75",
-        "max": "75",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "cold-len",
-        "desc_ko": "cold-len"
       },
       {
         "type": "dmg-undead",
@@ -1348,26 +1289,14 @@
         "desc_ko": "피해 증가"
       },
       {
-        "type": "fire-min",
+        "type": "dmg-fire",
         "param": "",
         "min": "6",
-        "max": "6",
-        "original_idx": 4,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Fire Damage",
-        "desc_ko": "최소 화염 피해"
-      },
-      {
-        "type": "fire-max",
-        "param": "",
-        "min": "8",
         "max": "8",
-        "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Fire Damage",
-        "desc_ko": "최대 화염 피해"
+        "desc_en": "Fire Damage",
+        "desc_ko": "화염 피해 추가"
       },
       {
         "type": "knock",
@@ -2188,26 +2117,14 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "ltng-min",
+        "type": "dmg-ltng",
         "param": "",
         "min": "1",
-        "max": "1",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Lightning Damage",
-        "desc_ko": "최소 번개 피해"
-      },
-      {
-        "type": "ltng-max",
-        "param": "",
-        "min": "10",
         "max": "10",
-        "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Lightning Damage",
-        "desc_ko": "최대 번개 피해"
+        "desc_en": "Lightning Damage",
+        "desc_ko": "번개 피해 추가"
       },
       {
         "type": "str",
@@ -2961,26 +2878,14 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "fire-min",
+        "type": "dmg-fire",
         "param": "",
         "min": "10",
-        "max": "12",
-        "original_idx": 1,
+        "max": "15",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Fire Damage",
-        "desc_ko": "최소 화염 피해"
-      },
-      {
-        "type": "fire-max",
-        "param": "",
-        "min": "15",
-        "max": "25",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Maximum Fire Damage",
-        "desc_ko": "최대 화염 피해"
+        "desc_en": "Fire Damage",
+        "desc_ko": "화염 피해 추가"
       },
       {
         "type": "knock",
@@ -3414,26 +3319,14 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "fire-min",
+        "type": "dmg-fire",
         "param": "",
         "min": "6",
-        "max": "6",
-        "original_idx": 3,
+        "max": "20",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Fire Damage",
-        "desc_ko": "최소 화염 피해"
-      },
-      {
-        "type": "fire-max",
-        "param": "",
-        "min": "20",
-        "max": "40",
-        "original_idx": 4,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Maximum Fire Damage",
-        "desc_ko": "최대 화염 피해"
+        "desc_en": "Fire Damage",
+        "desc_ko": "화염 피해 추가"
       },
       {
         "type": "skill",
@@ -4314,26 +4207,14 @@
         "desc_ko": "공격 속도"
       },
       {
-        "type": "ltng-min",
+        "type": "dmg-ltng",
         "param": "",
         "min": "1",
-        "max": "1",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Lightning Damage",
-        "desc_ko": "최소 번개 피해"
-      },
-      {
-        "type": "ltng-max",
-        "param": "",
-        "min": "60",
         "max": "60",
-        "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Lightning Damage",
-        "desc_ko": "최대 번개 피해"
+        "desc_en": "Lightning Damage",
+        "desc_ko": "번개 피해 추가"
       },
       {
         "type": "res-all",
@@ -4407,26 +4288,14 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "fire-min",
+        "type": "dmg-fire",
         "param": "",
         "min": "23",
-        "max": "23",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Fire Damage",
-        "desc_ko": "최소 화염 피해"
-      },
-      {
-        "type": "fire-max",
-        "param": "",
-        "min": "54",
         "max": "54",
-        "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Fire Damage",
-        "desc_ko": "최대 화염 피해"
+        "desc_en": "Fire Damage",
+        "desc_ko": "화염 피해 추가"
       },
       {
         "type": "hp",
@@ -5069,26 +4938,14 @@
         "desc_ko": "피해 증가"
       },
       {
-        "type": "fire-min",
+        "type": "dmg-fire",
         "param": "",
         "min": "4",
-        "max": "4",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Fire Damage",
-        "desc_ko": "최소 화염 피해"
-      },
-      {
-        "type": "fire-max",
-        "param": "",
-        "min": "6",
         "max": "6",
-        "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Fire Damage",
-        "desc_ko": "최대 화염 피해"
+        "desc_en": "Fire Damage",
+        "desc_ko": "화염 피해 추가"
       },
       {
         "type": "skill",
@@ -6240,26 +6097,14 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "fire-min",
+        "type": "dmg-fire",
         "param": "",
         "min": "15",
-        "max": "15",
-        "original_idx": 2,
+        "max": "30",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Fire Damage",
-        "desc_ko": "최소 화염 피해"
-      },
-      {
-        "type": "fire-max",
-        "param": "",
-        "min": "30",
-        "max": "50",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Maximum Fire Damage",
-        "desc_ko": "최대 화염 피해"
+        "desc_en": "Fire Damage",
+        "desc_ko": "화염 피해 추가"
       },
       {
         "type": "dex",
@@ -6746,6 +6591,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "cap",
+      "armor_type": "helm",
       "minac": 3,
       "maxac": 5,
       "reqstr": 0,
@@ -6819,6 +6665,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "skp",
+      "armor_type": "helm",
       "minac": 8,
       "maxac": 11,
       "reqstr": 15,
@@ -6870,6 +6717,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "hlm",
+      "armor_type": "helm",
       "minac": 15,
       "maxac": 18,
       "reqstr": 26,
@@ -6943,6 +6791,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "fhl",
+      "armor_type": "helm",
       "minac": 23,
       "maxac": 26,
       "reqstr": 41,
@@ -7027,6 +6876,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "bhm",
+      "armor_type": "helm",
       "minac": 33,
       "maxac": 36,
       "reqstr": 25,
@@ -7100,6 +6950,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "ghm",
+      "armor_type": "helm",
       "minac": 30,
       "maxac": 35,
       "reqstr": 63,
@@ -7184,6 +7035,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "crn",
+      "armor_type": "helm",
       "minac": 25,
       "maxac": 45,
       "reqstr": 55,
@@ -7289,6 +7141,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "msk",
+      "armor_type": "helm",
       "minac": 9,
       "maxac": 27,
       "reqstr": 23,
@@ -7362,6 +7215,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "qui",
+      "armor_type": "tors",
       "minac": 8,
       "maxac": 11,
       "reqstr": 12,
@@ -7446,6 +7300,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "lea",
+      "armor_type": "tors",
       "minac": 14,
       "maxac": 17,
       "reqstr": 15,
@@ -7477,26 +7332,14 @@
         "desc_ko": "타격 회복 속도"
       },
       {
-        "type": "fire-min",
+        "type": "dmg-fire",
         "param": "",
         "min": "3",
-        "max": "3",
-        "original_idx": 4,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Fire Damage",
-        "desc_ko": "최소 화염 피해"
-      },
-      {
-        "type": "fire-max",
-        "param": "",
-        "min": "6",
         "max": "6",
-        "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Fire Damage",
-        "desc_ko": "최대 화염 피해"
+        "desc_en": "Fire Damage",
+        "desc_ko": "화염 피해 추가"
       },
       {
         "type": "ac",
@@ -7530,6 +7373,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "hla",
+      "armor_type": "tors",
       "minac": 21,
       "maxac": 24,
       "reqstr": 20,
@@ -7636,6 +7480,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "stu",
+      "armor_type": "tors",
       "minac": 32,
       "maxac": 35,
       "reqstr": 27,
@@ -7720,6 +7565,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "rng",
+      "armor_type": "tors",
       "minac": 45,
       "maxac": 48,
       "reqstr": 36,
@@ -7804,6 +7650,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "scl",
+      "armor_type": "tors",
       "minac": 57,
       "maxac": 60,
       "reqstr": 44,
@@ -7877,6 +7724,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "chn",
+      "armor_type": "tors",
       "minac": 72,
       "maxac": 75,
       "reqstr": 48,
@@ -7939,6 +7787,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "brs",
+      "armor_type": "tors",
       "minac": 65,
       "maxac": 68,
       "reqstr": 30,
@@ -8012,6 +7861,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "spl",
+      "armor_type": "tors",
       "minac": 90,
       "maxac": 95,
       "reqstr": 51,
@@ -8085,6 +7935,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "plt",
+      "armor_type": "tors",
       "minac": 108,
       "maxac": 116,
       "reqstr": 65,
@@ -8147,6 +7998,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "fld",
+      "armor_type": "tors",
       "minac": 101,
       "maxac": 105,
       "reqstr": 55,
@@ -8220,6 +8072,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "gth",
+      "armor_type": "tors",
       "minac": 128,
       "maxac": 135,
       "reqstr": 70,
@@ -8282,6 +8135,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "ful",
+      "armor_type": "tors",
       "minac": 150,
       "maxac": 161,
       "reqstr": 80,
@@ -8355,6 +8209,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "aar",
+      "armor_type": "tors",
       "minac": 218,
       "maxac": 233,
       "reqstr": 100,
@@ -8417,6 +8272,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "ltp",
+      "armor_type": "tors",
       "minac": 90,
       "maxac": 107,
       "reqstr": 41,
@@ -8501,6 +8357,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "buc",
+      "armor_type": "shie",
       "minac": 4,
       "maxac": 6,
       "reqstr": 12,
@@ -8607,6 +8464,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "sml",
+      "armor_type": "shie",
       "minac": 8,
       "maxac": 10,
       "reqstr": 22,
@@ -8713,6 +8571,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "lrg",
+      "armor_type": "shie",
       "minac": 12,
       "maxac": 14,
       "reqstr": 34,
@@ -8819,6 +8678,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "bsh",
+      "armor_type": "shie",
       "minac": 10,
       "maxac": 30,
       "reqstr": 25,
@@ -8903,6 +8763,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "spk",
+      "armor_type": "shie",
       "minac": 15,
       "maxac": 25,
       "reqstr": 30,
@@ -8987,6 +8848,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "kit",
+      "armor_type": "shie",
       "minac": 16,
       "maxac": 18,
       "reqstr": 47,
@@ -9104,6 +8966,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "tow",
+      "armor_type": "shie",
       "minac": 22,
       "maxac": 25,
       "reqstr": 75,
@@ -9199,6 +9062,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "gts",
+      "armor_type": "shie",
       "minac": 30,
       "maxac": 35,
       "reqstr": 60,
@@ -9283,6 +9147,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "lgl",
+      "armor_type": "glov",
       "minac": 2,
       "maxac": 3,
       "reqstr": 0,
@@ -9367,6 +9232,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "vgl",
+      "armor_type": "glov",
       "minac": 5,
       "maxac": 6,
       "reqstr": 0,
@@ -9451,6 +9317,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "mgl",
+      "armor_type": "glov",
       "minac": 8,
       "maxac": 9,
       "reqstr": 25,
@@ -9535,6 +9402,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "tgl",
+      "armor_type": "glov",
       "minac": 9,
       "maxac": 11,
       "reqstr": 45,
@@ -9619,6 +9487,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "hgl",
+      "armor_type": "glov",
       "minac": 12,
       "maxac": 15,
       "reqstr": 60,
@@ -9692,6 +9561,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "lbt",
+      "armor_type": "boot",
       "minac": 2,
       "maxac": 3,
       "reqstr": 0,
@@ -9776,6 +9646,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "vbt",
+      "armor_type": "boot",
       "minac": 5,
       "maxac": 6,
       "reqstr": 18,
@@ -9870,6 +9741,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "mbt",
+      "armor_type": "boot",
       "minac": 8,
       "maxac": 9,
       "reqstr": 30,
@@ -9954,6 +9826,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "tbt",
+      "armor_type": "boot",
       "minac": 9,
       "maxac": 11,
       "reqstr": 50,
@@ -10038,6 +9911,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "hbt",
+      "armor_type": "boot",
       "minac": 12,
       "maxac": 15,
       "reqstr": 70,
@@ -10132,6 +10006,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "lbl",
+      "armor_type": "belt",
       "minac": 2,
       "maxac": 2,
       "reqstr": 0,
@@ -10194,6 +10069,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "vbl",
+      "armor_type": "belt",
       "minac": 3,
       "maxac": 3,
       "reqstr": 0,
@@ -10278,6 +10154,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "mbl",
+      "armor_type": "belt",
       "minac": 5,
       "maxac": 5,
       "reqstr": 25,
@@ -10362,6 +10239,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "tbl",
+      "armor_type": "belt",
       "minac": 6,
       "maxac": 6,
       "reqstr": 45,
@@ -10446,6 +10324,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "hbl",
+      "armor_type": "belt",
       "minac": 8,
       "maxac": 11,
       "reqstr": 60,
@@ -10541,6 +10420,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 10
     },
     "options": [
@@ -10609,6 +10489,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 15
     },
     "options": [
@@ -10624,26 +10505,14 @@
         "desc_ko": "모든 기술 레벨"
       },
       {
-        "type": "cold-min",
-        "param": "",
-        "min": "1",
-        "max": "2",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Cold Damage",
-        "desc_ko": "최소 냉기 피해"
-      },
-      {
-        "type": "cold-max",
-        "param": "",
-        "min": "3",
-        "max": "5",
-        "original_idx": 6,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Maximum Cold Damage",
-        "desc_ko": "최대 냉기 피해"
+        "type": "cold-dmg-combined",
+        "param": "2-10",
+        "min": "1-3",
+        "max": "2-5",
+        "param_en": "2-10",
+        "param_ko": "2-10",
+        "desc_en": "Cold Damage",
+        "desc_ko": "냉기 피해"
       },
       {
         "type": "lifesteal",
@@ -10677,17 +10546,6 @@
         "param_ko": "",
         "desc_en": "to Light Radius",
         "desc_ko": "시야"
-      },
-      {
-        "type": "cold-len",
-        "param": "",
-        "min": "50",
-        "max": "250",
-        "original_idx": 7,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "cold-len",
-        "desc_ko": "cold-len"
       }
     ]
   },
@@ -10699,6 +10557,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 25
     },
     "options": [
@@ -10800,6 +10659,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 7
     },
     "options": [
@@ -10857,6 +10717,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 15
     },
     "options": [
@@ -10914,6 +10775,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 29
     },
     "options": [
@@ -10929,26 +10791,14 @@
         "desc_ko": "모든 기술 레벨"
       },
       {
-        "type": "ltng-min",
+        "type": "dmg-ltng",
         "param": "",
         "min": "1",
-        "max": "1",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Lightning Damage",
-        "desc_ko": "최소 번개 피해"
-      },
-      {
-        "type": "ltng-max",
-        "param": "",
-        "min": "12",
         "max": "12",
-        "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Lightning Damage",
-        "desc_ko": "최대 번개 피해"
+        "desc_en": "Lightning Damage",
+        "desc_ko": "번개 피해 추가"
       },
       {
         "type": "mana",
@@ -10982,6 +10832,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "vip",
+      "misc_type": "amul",
       "lvl_req": 0
     },
     "options": [
@@ -11197,26 +11048,14 @@
     },
     "options": [
       {
-        "type": "fire-min",
+        "type": "dmg-fire",
         "param": "",
         "min": "5",
-        "max": "5",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Fire Damage",
-        "desc_ko": "최소 화염 피해"
-      },
-      {
-        "type": "fire-max",
-        "param": "",
-        "min": "20",
         "max": "20",
-        "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Fire Damage",
-        "desc_ko": "최대 화염 피해"
+        "desc_en": "Fire Damage",
+        "desc_ko": "화염 피해 추가"
       },
       {
         "type": "ac",
@@ -11300,26 +11139,14 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "ltng-min",
+        "type": "dmg-ltng",
         "param": "",
         "min": "1",
-        "max": "1",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Lightning Damage",
-        "desc_ko": "최소 번개 피해"
-      },
-      {
-        "type": "ltng-max",
-        "param": "",
-        "min": "20",
         "max": "20",
-        "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Lightning Damage",
-        "desc_ko": "최대 번개 피해"
+        "desc_en": "Lightning Damage",
+        "desc_ko": "번개 피해 추가"
       },
       {
         "type": "dmg-undead",
@@ -11381,26 +11208,14 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "ltng-min",
+        "type": "dmg-ltng",
         "param": "",
         "min": "1",
-        "max": "1",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Lightning Damage",
-        "desc_ko": "최소 번개 피해"
-      },
-      {
-        "type": "ltng-max",
-        "param": "",
-        "min": "40",
         "max": "40",
-        "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Lightning Damage",
-        "desc_ko": "최대 번개 피해"
+        "desc_en": "Lightning Damage",
+        "desc_ko": "번개 피해 추가"
       },
       {
         "type": "manasteal",
@@ -13926,8 +13741,8 @@
         "min": "5",
         "max": "7",
         "original_idx": 1,
-        "param_en": "Eruption",
-        "param_ko": "Eruption"
+        "param_en": "Fissure",
+        "param_ko": "균열"
       },
       {
         "type": "skilltab",
@@ -18950,6 +18765,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xap",
+      "armor_type": "helm",
       "minac": 45,
       "maxac": 53,
       "reqstr": 20,
@@ -19034,6 +18850,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xkp",
+      "armor_type": "helm",
       "minac": 52,
       "maxac": 62,
       "reqstr": 43,
@@ -19129,6 +18946,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xlm",
+      "armor_type": "helm",
       "minac": 63,
       "maxac": 72,
       "reqstr": 59,
@@ -19213,6 +19031,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xhl",
+      "armor_type": "helm",
       "minac": 75,
       "maxac": 84,
       "reqstr": 82,
@@ -19304,6 +19123,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xhm",
+      "armor_type": "helm",
       "minac": 85,
       "maxac": 98,
       "reqstr": 115,
@@ -19377,6 +19197,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xrn",
+      "armor_type": "helm",
       "minac": 78,
       "maxac": 113,
       "reqstr": 103,
@@ -19472,6 +19293,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xsk",
+      "armor_type": "helm",
       "minac": 54,
       "maxac": 86,
       "reqstr": 55,
@@ -19556,6 +19378,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xh9",
+      "armor_type": "helm",
       "minac": 60,
       "maxac": 125,
       "reqstr": 58,
@@ -19651,6 +19474,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xui",
+      "armor_type": "tors",
       "minac": 102,
       "maxac": 117,
       "reqstr": 38,
@@ -19724,6 +19548,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xea",
+      "armor_type": "tors",
       "minac": 111,
       "maxac": 126,
       "reqstr": 43,
@@ -19797,6 +19622,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xla",
+      "armor_type": "tors",
       "minac": 122,
       "maxac": 136,
       "reqstr": 50,
@@ -19881,6 +19707,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xtu",
+      "armor_type": "tors",
       "minac": 138,
       "maxac": 153,
       "reqstr": 61,
@@ -19965,6 +19792,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xng",
+      "armor_type": "tors",
       "minac": 158,
       "maxac": 172,
       "reqstr": 74,
@@ -20060,6 +19888,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xcl",
+      "armor_type": "tors",
       "minac": 176,
       "maxac": 190,
       "reqstr": 86,
@@ -20144,6 +19973,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xhn",
+      "armor_type": "tors",
       "minac": 198,
       "maxac": 213,
       "reqstr": 92,
@@ -20206,6 +20036,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xrs",
+      "armor_type": "tors",
       "minac": 188,
       "maxac": 202,
       "reqstr": 65,
@@ -20334,6 +20165,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xpl",
+      "armor_type": "tors",
       "minac": 225,
       "maxac": 243,
       "reqstr": 97,
@@ -20418,6 +20250,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xlt",
+      "armor_type": "tors",
       "minac": 252,
       "maxac": 274,
       "reqstr": 118,
@@ -20513,6 +20346,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xld",
+      "armor_type": "tors",
       "minac": 242,
       "maxac": 258,
       "reqstr": 103,
@@ -20608,6 +20442,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xth",
+      "armor_type": "tors",
       "minac": 282,
       "maxac": 303,
       "reqstr": 125,
@@ -20714,6 +20549,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xul",
+      "armor_type": "tors",
       "minac": 315,
       "maxac": 342,
       "reqstr": 140,
@@ -20798,6 +20634,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xar",
+      "armor_type": "tors",
       "minac": 417,
       "maxac": 450,
       "reqstr": 170,
@@ -20889,6 +20726,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xtp",
+      "armor_type": "tors",
       "minac": 225,
       "maxac": 261,
       "reqstr": 55,
@@ -20984,6 +20822,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xuc",
+      "armor_type": "shie",
       "minac": 41,
       "maxac": 49,
       "reqstr": 38,
@@ -21057,6 +20896,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xml",
+      "armor_type": "shie",
       "minac": 47,
       "maxac": 55,
       "reqstr": 53,
@@ -21130,6 +20970,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xrg",
+      "armor_type": "shie",
       "minac": 53,
       "maxac": 61,
       "reqstr": 71,
@@ -21243,6 +21084,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xit",
+      "armor_type": "shie",
       "minac": 59,
       "maxac": 67,
       "reqstr": 91,
@@ -21354,6 +21196,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xow",
+      "armor_type": "shie",
       "minac": 68,
       "maxac": 78,
       "reqstr": 133,
@@ -21449,6 +21292,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xts",
+      "armor_type": "shie",
       "minac": 80,
       "maxac": 93,
       "reqstr": 110,
@@ -21551,6 +21395,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xsh",
+      "armor_type": "shie",
       "minac": 50,
       "maxac": 150,
       "reqstr": 58,
@@ -21646,6 +21491,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xpk",
+      "armor_type": "shie",
       "minac": 58,
       "maxac": 78,
       "reqstr": 65,
@@ -21730,6 +21576,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xlg",
+      "armor_type": "glov",
       "minac": 28,
       "maxac": 35,
       "reqstr": 20,
@@ -21825,6 +21672,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xvg",
+      "armor_type": "glov",
       "minac": 33,
       "maxac": 39,
       "reqstr": 20,
@@ -21898,6 +21746,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xmg",
+      "armor_type": "glov",
       "minac": 37,
       "maxac": 44,
       "reqstr": 58,
@@ -21971,6 +21820,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xtg",
+      "armor_type": "glov",
       "minac": 39,
       "maxac": 47,
       "reqstr": 88,
@@ -22064,6 +21914,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xhg",
+      "armor_type": "glov",
       "minac": 43,
       "maxac": 53,
       "reqstr": 110,
@@ -22144,6 +21995,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xlb",
+      "armor_type": "boot",
       "minac": 28,
       "maxac": 35,
       "reqstr": 20,
@@ -22259,6 +22111,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xvb",
+      "armor_type": "boot",
       "minac": 33,
       "maxac": 39,
       "reqstr": 47,
@@ -22365,6 +22218,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xmb",
+      "armor_type": "boot",
       "minac": 37,
       "maxac": 44,
       "reqstr": 65,
@@ -22438,6 +22292,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xtb",
+      "armor_type": "boot",
       "minac": 39,
       "maxac": 47,
       "reqstr": 95,
@@ -22555,6 +22410,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xhb",
+      "armor_type": "boot",
       "minac": 43,
       "maxac": 53,
       "reqstr": 125,
@@ -22661,6 +22517,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "zlb",
+      "armor_type": "belt",
       "minac": 29,
       "maxac": 34,
       "reqstr": 20,
@@ -22745,6 +22602,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "zvb",
+      "armor_type": "belt",
       "minac": 31,
       "maxac": 36,
       "reqstr": 20,
@@ -22829,6 +22687,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "zmb",
+      "armor_type": "belt",
       "minac": 35,
       "maxac": 40,
       "reqstr": 58,
@@ -22913,6 +22772,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "ztb",
+      "armor_type": "belt",
       "minac": 37,
       "maxac": 42,
       "reqstr": 88,
@@ -23014,6 +22874,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "zhb",
+      "armor_type": "belt",
       "minac": 41,
       "maxac": 52,
       "reqstr": 110,
@@ -23127,6 +22988,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uap",
+      "armor_type": "helm",
       "minac": 98,
       "maxac": 141,
       "reqstr": 50,
@@ -23244,6 +23106,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uhm",
+      "armor_type": "helm",
       "minac": 114,
       "maxac": 159,
       "reqstr": 192,
@@ -23339,6 +23202,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "utu",
+      "armor_type": "tors",
       "minac": 375,
       "maxac": 481,
       "reqstr": 111,
@@ -23456,6 +23320,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "upl",
+      "armor_type": "tors",
       "minac": 410,
       "maxac": 517,
       "reqstr": 165,
@@ -23529,6 +23394,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uml",
+      "armor_type": "shie",
       "minac": 108,
       "maxac": 123,
       "reqstr": 100,
@@ -23633,6 +23499,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uit",
+      "armor_type": "shie",
       "minac": 133,
       "maxac": 148,
       "reqstr": 156,
@@ -24838,6 +24705,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 95
     },
     "options": [
@@ -25225,6 +25093,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 58
     },
     "options": [
@@ -25282,6 +25151,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 50
     },
     "options": [
@@ -25350,6 +25220,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 65
     },
     "options": [
@@ -25427,6 +25298,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 50
     },
     "options": [
@@ -25506,6 +25378,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 67
     },
     "options": [
@@ -25585,6 +25458,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 60
     },
     "options": [
@@ -25662,6 +25536,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 45
     },
     "options": [
@@ -25741,6 +25616,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 45
     },
     "options": [
@@ -25820,6 +25696,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 65
     },
     "options": [
@@ -25899,6 +25776,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 47
     },
     "options": [
@@ -25976,6 +25854,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "baa",
+      "armor_type": "phlm",
       "minac": 93,
       "maxac": 120,
       "reqstr": 118,
@@ -26091,6 +25970,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "nea",
+      "armor_type": "head",
       "minac": 58,
       "maxac": 70,
       "reqstr": 58,
@@ -26713,6 +26593,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "pa9",
+      "armor_type": "ashd",
       "minac": 144,
       "maxac": 168,
       "reqstr": 89,
@@ -26952,6 +26833,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "dra",
+      "armor_type": "pelt",
       "minac": 73,
       "maxac": 98,
       "reqstr": 65,
@@ -27815,6 +27697,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "ulm",
+      "armor_type": "helm",
       "minac": 105,
       "maxac": 149,
       "reqstr": 109,
@@ -28104,6 +27987,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 69
     },
     "options": [
@@ -28170,6 +28054,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 65
     },
     "options": [
@@ -28644,6 +28529,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uhb",
+      "armor_type": "boot",
       "minac": 62,
       "maxac": 71,
       "reqstr": 208,
@@ -28726,6 +28612,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "drb",
+      "armor_type": "pelt",
       "minac": 101,
       "maxac": 145,
       "reqstr": 86,
@@ -28807,6 +28694,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uar",
+      "armor_type": "tors",
       "minac": 487,
       "maxac": 600,
       "reqstr": 232,
@@ -28924,6 +28812,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "umg",
+      "armor_type": "glov",
       "minac": 59,
       "maxac": 67,
       "reqstr": 106,
@@ -29308,6 +29197,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uld",
+      "armor_type": "tors",
       "minac": 417,
       "maxac": 523,
       "reqstr": 174,
@@ -29381,6 +29271,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 76
     },
     "options": [
@@ -29943,6 +29834,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "bad",
+      "armor_type": "phlm",
       "minac": 111,
       "maxac": 156,
       "reqstr": 151,
@@ -30134,6 +30026,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "drd",
+      "armor_type": "pelt",
       "minac": 107,
       "maxac": 152,
       "reqstr": 104,
@@ -30320,6 +30213,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "pac",
+      "armor_type": "ashd",
       "minac": 138,
       "maxac": 164,
       "reqstr": 109,
@@ -30415,6 +30309,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "nef",
+      "armor_type": "head",
       "minac": 103,
       "maxac": 148,
       "reqstr": 106,
@@ -30950,6 +30845,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "ci3",
+      "armor_type": "circ",
       "minac": 50,
       "maxac": 60,
       "reqstr": 0,
@@ -31294,6 +31190,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "nee",
+      "armor_type": "head",
       "minac": 100,
       "maxac": 146,
       "reqstr": 95,
@@ -31458,6 +31355,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uhm",
+      "armor_type": "helm",
       "minac": 114,
       "maxac": 159,
       "reqstr": 192,
@@ -31553,6 +31451,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "urn",
+      "armor_type": "helm",
       "minac": 111,
       "maxac": 165,
       "reqstr": 174,
@@ -31659,6 +31558,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "usk",
+      "armor_type": "helm",
       "minac": 101,
       "maxac": 154,
       "reqstr": 102,
@@ -31783,6 +31683,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "pae",
+      "armor_type": "ashd",
       "minac": 169,
       "maxac": 193,
       "reqstr": 142,
@@ -31876,6 +31777,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uul",
+      "armor_type": "tors",
       "minac": 446,
       "maxac": 557,
       "reqstr": 230,
@@ -31969,6 +31871,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uow",
+      "armor_type": "shie",
       "minac": 145,
       "maxac": 161,
       "reqstr": 219,
@@ -32049,6 +31952,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "dre",
+      "armor_type": "pelt",
       "minac": 103,
       "maxac": 155,
       "reqstr": 113,
@@ -32084,7 +31988,7 @@
         "max": "7",
         "original_idx": 6,
         "param_en": "Raven",
-        "param_ko": "큰까마귀의",
+        "param_ko": "큰까마귀",
         "charclass": "dru"
       },
       {
@@ -32432,6 +32336,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "bac",
+      "armor_type": "phlm",
       "minac": 105,
       "maxac": 150,
       "reqstr": 129,
@@ -32455,8 +32360,8 @@
         "min": "3",
         "max": "6",
         "original_idx": 6,
-        "param_en": "Wearwolf",
-        "param_ko": "Wearwolf"
+        "param_en": "Werewolf",
+        "param_ko": "늑대인간"
       },
       {
         "type": "oskill",
@@ -32464,8 +32369,8 @@
         "min": "3",
         "max": "6",
         "original_idx": 8,
-        "param_en": "Shape Shifting",
-        "param_ko": "변신"
+        "param_en": "Lycanthropy",
+        "param_ko": "변신술"
       },
       {
         "type": "oskill",
@@ -32526,8 +32431,8 @@
         "min": "18",
         "max": "15",
         "original_idx": 7,
-        "param_en": "Summon Fenris",
-        "param_ko": "Summon Fenris"
+        "param_en": "Summon Dire Wolf",
+        "param_ko": "광포한 늑대 소환"
       }
     ]
   },
@@ -32539,6 +32444,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uts",
+      "armor_type": "shie",
       "minac": 153,
       "maxac": 170,
       "reqstr": 185,
@@ -32621,6 +32527,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "ci2",
+      "armor_type": "circ",
       "minac": 40,
       "maxac": 50,
       "reqstr": 0,
@@ -32683,6 +32590,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uui",
+      "armor_type": "tors",
       "minac": 361,
       "maxac": 467,
       "reqstr": 77,
@@ -32778,6 +32686,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 62
     },
     "options": [
@@ -32945,6 +32854,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "bae",
+      "armor_type": "phlm",
       "minac": 114,
       "maxac": 159,
       "reqstr": 174,
@@ -33036,6 +32946,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "upk",
+      "armor_type": "shie",
       "minac": 147,
       "maxac": 163,
       "reqstr": 118,
@@ -33120,6 +33031,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uvg",
+      "armor_type": "glov",
       "minac": 56,
       "maxac": 65,
       "reqstr": 50,
@@ -33304,6 +33216,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uar",
+      "armor_type": "tors",
       "minac": 487,
       "maxac": 600,
       "reqstr": 232,
@@ -33579,6 +33492,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uvb",
+      "armor_type": "boot",
       "minac": 56,
       "maxac": 65,
       "reqstr": 91,
@@ -33696,6 +33610,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "umb",
+      "armor_type": "boot",
       "minac": 59,
       "maxac": 67,
       "reqstr": 118,
@@ -33944,6 +33859,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "ulc",
+      "armor_type": "belt",
       "minac": 55,
       "maxac": 62,
       "reqstr": 50,
@@ -34026,6 +33942,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uvc",
+      "armor_type": "belt",
       "minac": 56,
       "maxac": 63,
       "reqstr": 50,
@@ -34110,6 +34027,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 81
     },
     "options": [
@@ -34174,6 +34092,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "umc",
+      "armor_type": "belt",
       "minac": 58,
       "maxac": 65,
       "reqstr": 106,
@@ -34258,6 +34177,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 60
     },
     "options": [
@@ -34342,6 +34262,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uh9",
+      "armor_type": "helm",
       "minac": 100,
       "maxac": 157,
       "reqstr": 106,
@@ -34549,6 +34470,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm1",
+      "misc_type": "scha",
       "lvl_req": 70
     },
     "options": [
@@ -34778,7 +34700,7 @@
         "max": "8",
         "original_idx": 6,
         "param_en": "Raven",
-        "param_ko": "큰까마귀의"
+        "param_ko": "큰까마귀"
       }
     ]
   },
@@ -34925,8 +34847,8 @@
         "min": "25",
         "max": "14",
         "original_idx": 2,
-        "param_en": "Eruption",
-        "param_ko": "Eruption"
+        "param_en": "Fissure",
+        "param_ko": "균열"
       },
       {
         "type": "skilltab",
@@ -35418,6 +35340,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "ush",
+      "armor_type": "shie",
       "minac": 158,
       "maxac": 173,
       "reqstr": 106,
@@ -35502,6 +35425,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "uhg",
+      "armor_type": "glov",
       "minac": 62,
       "maxac": 71,
       "reqstr": 185,
@@ -35564,6 +35488,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "jew",
+      "misc_type": "jewl",
       "lvl_req": 49
     },
     "options": [
@@ -35619,6 +35544,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm2",
+      "misc_type": "mcha",
       "lvl_req": 75
     },
     "options": [
@@ -35628,8 +35554,8 @@
         "min": "5",
         "max": "10",
         "original_idx": 5,
-        "param_en": "DiabWall",
-        "param_ko": "DiabWall"
+        "param_en": "Firestorm",
+        "param_ko": "화염폭풍"
       },
       {
         "type": "randclassskill",
@@ -35694,6 +35620,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -35729,6 +35656,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -35764,6 +35692,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -35799,6 +35728,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -35834,6 +35764,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -35869,6 +35800,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -35904,6 +35836,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "waf",
+      "armor_type": "grim",
       "minac": 103,
       "maxac": 148,
       "reqstr": 106,
@@ -36016,6 +35949,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "wae",
+      "armor_type": "grim",
       "minac": 100,
       "maxac": 146,
       "reqstr": 95,
@@ -36125,6 +36059,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "wac",
+      "armor_type": "grim",
       "minac": 96,
       "maxac": 141,
       "reqstr": 82,
@@ -36240,6 +36175,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "wa6",
+      "armor_type": "grim",
       "minac": 38,
       "maxac": 48,
       "reqstr": 38,
@@ -36475,6 +36411,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "utb",
+      "armor_type": "boot",
       "minac": 59,
       "maxac": 68,
       "reqstr": 163,
@@ -36671,6 +36608,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 50
     },
     "options": [
@@ -36748,6 +36686,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "rin",
+      "misc_type": "ring",
       "lvl_req": 50
     },
     "options": [
@@ -36825,6 +36764,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "amu",
+      "misc_type": "amul",
       "lvl_req": 54
     },
     "options": [
@@ -36834,8 +36774,8 @@
         "min": "4",
         "max": "19",
         "original_idx": 1,
-        "param_en": "Miasma Chains",
-        "param_ko": "Miasma Chains"
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
       },
       {
         "type": "cast1",
@@ -36902,6 +36842,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "utc",
+      "armor_type": "belt",
       "minac": 59,
       "maxac": 66,
       "reqstr": 151,
@@ -36997,6 +36938,7 @@
     "base_stats": {
       "item_type": "armor",
       "namestr": "xsk",
+      "armor_type": "helm",
       "minac": 54,
       "maxac": 86,
       "reqstr": 55,
@@ -37092,6 +37034,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "jew",
+      "misc_type": "cjwl",
       "lvl_req": 75
     },
     "options": [
@@ -37180,6 +37123,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "jew",
+      "misc_type": "cjwl",
       "lvl_req": 75
     },
     "options": [
@@ -37268,6 +37212,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "jew",
+      "misc_type": "cjwl",
       "lvl_req": 75
     },
     "options": [
@@ -37356,6 +37301,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "jew",
+      "misc_type": "cjwl",
       "lvl_req": 75
     },
     "options": [
@@ -37444,6 +37390,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "jew",
+      "misc_type": "cjwl",
       "lvl_req": 75
     },
     "options": [
@@ -37532,6 +37479,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "jew",
+      "misc_type": "cjwl",
       "lvl_req": 75
     },
     "options": [
@@ -37620,6 +37568,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -37655,6 +37604,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "csch",
       "lvl_req": 75
     },
     "options": [
@@ -37756,6 +37706,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -37791,6 +37742,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -37826,6 +37778,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -37861,6 +37814,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -37896,6 +37850,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "lcha",
       "lvl_req": 75
     },
     "options": [
@@ -37931,6 +37886,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "csch",
       "lvl_req": 75
     },
     "options": [
@@ -38021,6 +37977,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "csch",
       "lvl_req": 75
     },
     "options": [
@@ -38111,6 +38068,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "csch",
       "lvl_req": 75
     },
     "options": [
@@ -38201,6 +38159,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "csch",
       "lvl_req": 75
     },
     "options": [
@@ -38291,6 +38250,7 @@
     "base_stats": {
       "item_type": "misc",
       "namestr": "cm3",
+      "misc_type": "csch",
       "lvl_req": 75
     },
     "options": [

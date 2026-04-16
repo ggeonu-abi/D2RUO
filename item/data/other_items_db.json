@@ -909,7 +909,7 @@
         "param": "0",
         "min": "0",
         "max": "0",
-        "original_idx": 1,
+        "original_idx": 17,
         "param_en": "Bow and Crossbow Skills (Amazon Only)",
         "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
       },
@@ -918,7 +918,7 @@
         "param": "1",
         "min": "0",
         "max": "0",
-        "original_idx": 2,
+        "original_idx": 18,
         "param_en": "Passive and Magic Skills (Amazon Only)",
         "param_ko": "지속 효과와 마법 기술 (아마존 전용)"
       },
@@ -927,7 +927,7 @@
         "param": "2",
         "min": "0",
         "max": "0",
-        "original_idx": 3,
+        "original_idx": 19,
         "param_en": "Javelin and Spear Skills (Amazon Only)",
         "param_ko": "투창과 창 기술 (아마존 전용)"
       },
@@ -936,7 +936,7 @@
         "param": "3",
         "min": "0",
         "max": "0",
-        "original_idx": 4,
+        "original_idx": 20,
         "param_en": "Fire Skills (Sorceress Only)",
         "param_ko": "화염 기술 (원소술사 전용)"
       },
@@ -945,7 +945,7 @@
         "param": "4",
         "min": "0",
         "max": "0",
-        "original_idx": 5,
+        "original_idx": 21,
         "param_en": "Lightning Skills (Sorceress Only)",
         "param_ko": "번개 기술 (원소술사 전용)"
       },
@@ -954,7 +954,7 @@
         "param": "5",
         "min": "0",
         "max": "0",
-        "original_idx": 6,
+        "original_idx": 22,
         "param_en": "Cold Skills (Sorceress Only)",
         "param_ko": "냉기 기술 (원소술사 전용)"
       },
@@ -963,7 +963,7 @@
         "param": "6",
         "min": "0",
         "max": "0",
-        "original_idx": 7,
+        "original_idx": 23,
         "param_en": "Curses (Necromancer Only)",
         "param_ko": "저주 (강령술사 전용)"
       },
@@ -972,7 +972,7 @@
         "param": "7",
         "min": "0",
         "max": "0",
-        "original_idx": 8,
+        "original_idx": 24,
         "param_en": "Poison and Bone Skills (Necromancer Only)",
         "param_ko": "독과 뼈 기술 (강령술사 전용)"
       },
@@ -981,7 +981,7 @@
         "param": "8",
         "min": "0",
         "max": "0",
-        "original_idx": 9,
+        "original_idx": 25,
         "param_en": "Summoning Skills (Necromancer Only)",
         "param_ko": "소환 기술 (강령술사 전용)"
       },
@@ -990,7 +990,7 @@
         "param": "9",
         "min": "0",
         "max": "0",
-        "original_idx": 10,
+        "original_idx": 26,
         "param_en": "Combat Skills (Paladin Only)",
         "param_ko": "전투 기술 (성기사 전용)"
       },
@@ -999,7 +999,7 @@
         "param": "10",
         "min": "0",
         "max": "0",
-        "original_idx": 11,
+        "original_idx": 27,
         "param_en": "Offensive Auras (Paladin Only)",
         "param_ko": "공격 오라 (성기사 전용)"
       },
@@ -1008,7 +1008,7 @@
         "param": "11",
         "min": "0",
         "max": "0",
-        "original_idx": 12,
+        "original_idx": 28,
         "param_en": "Defensive Auras (Paladin Only)",
         "param_ko": "방어 오라 (성기사 전용)"
       },
@@ -1017,7 +1017,7 @@
         "param": "12",
         "min": "0",
         "max": "0",
-        "original_idx": 13,
+        "original_idx": 29,
         "param_en": "Combat Skills (Barbarian Only)",
         "param_ko": "전투 기술 (야만용사 전용)"
       },
@@ -1026,7 +1026,7 @@
         "param": "13",
         "min": "0",
         "max": "0",
-        "original_idx": 14,
+        "original_idx": 30,
         "param_en": "Masteries (Barbarian Only)",
         "param_ko": "전투 숙련 (야만용사 전용)"
       },
@@ -1035,7 +1035,7 @@
         "param": "14",
         "min": "0",
         "max": "0",
-        "original_idx": 15,
+        "original_idx": 31,
         "param_en": "Warcries (Barbarian Only)",
         "param_ko": "함성 (야만용사 전용)"
       },
@@ -1044,7 +1044,7 @@
         "param": "15",
         "min": "0",
         "max": "0",
-        "original_idx": 16,
+        "original_idx": 32,
         "param_en": "Summoning Skills (Druid Only)",
         "param_ko": "소환 기술 (드루이드 전용)"
       },
@@ -1053,7 +1053,7 @@
         "param": "16",
         "min": "0",
         "max": "0",
-        "original_idx": 17,
+        "original_idx": 33,
         "param_en": "Shape Shifting Skills (Druid Only)",
         "param_ko": "변신 기술 (드루이드 전용)"
       },
@@ -1062,7 +1062,7 @@
         "param": "17",
         "min": "0",
         "max": "0",
-        "original_idx": 18,
+        "original_idx": 34,
         "param_en": "Elemental Skills (Druid Only)",
         "param_ko": "원소 기술 (드루이드 전용)"
       },
@@ -1071,7 +1071,7 @@
         "param": "18",
         "min": "0",
         "max": "0",
-        "original_idx": 19,
+        "original_idx": 35,
         "param_en": "Traps (Assassin Only)",
         "param_ko": "덫 (암살자 전용)"
       },
@@ -1080,7 +1080,7 @@
         "param": "19",
         "min": "0",
         "max": "0",
-        "original_idx": 20,
+        "original_idx": 36,
         "param_en": "Shadow Disciplines (Assassin Only)",
         "param_ko": "그림자 단련 (암살자 전용)"
       },
@@ -1089,7 +1089,7 @@
         "param": "20",
         "min": "0",
         "max": "0",
-        "original_idx": 21,
+        "original_idx": 37,
         "param_en": "Martial Arts (Assassin Only)",
         "param_ko": "무술 (암살자 전용)"
       },
@@ -1098,7 +1098,7 @@
         "param": "21",
         "min": "0",
         "max": "0",
-        "original_idx": 22,
+        "original_idx": 38,
         "param_en": "Demonic Mastery (Warlock Only)",
         "param_ko": "악마 기술 (악마술사 전용)"
       },
@@ -1107,7 +1107,7 @@
         "param": "22",
         "min": "0",
         "max": "0",
-        "original_idx": 23,
+        "original_idx": 39,
         "param_en": "Eldritch Skills (Warlock Only)",
         "param_ko": "기괴 기술 (악마술사 전용)"
       },
@@ -1116,104 +1116,32 @@
         "param": "23",
         "min": "0",
         "max": "0",
-        "original_idx": 24,
+        "original_idx": 40,
         "param_en": "Chaos Skills (Warlock Only)",
         "param_ko": "혼돈 기술 (악마술사 전용)"
+      },
+      {
+        "type": "move1",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 16,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Run/Walk",
+        "desc_ko": "달리기/걷기 속도"
       },
       {
         "type": "balance1",
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 31,
+        "original_idx": 13,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Faster Hit Recovery",
         "desc_ko": "타격 회복 속도"
       },
-      {
-        "type": "dmg-max",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 29,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Maximum Damage",
-        "desc_ko": "최대 피해"
-      },
-      {
-        "type": "att",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 30,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "str",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 25,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Strength",
-        "desc_ko": "힘"
-      },
-      {
-        "type": "dex",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 26,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Dexterity",
-        "desc_ko": "민첩"
-      },
-      {
-        "type": "hp",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 27,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Life",
-        "desc_ko": "생명력"
-      },
-      {
-        "type": "mana",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 28,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Mana",
-        "desc_ko": "마나"
-      },
-      {
-        "type": "gold%",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 32,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Extra Gold from Monsters",
-        "desc_ko": "괴물에게서 얻는 금화 증가"
-      }
-    ]
-  },
-  "Small Charm": {
-    "name_ko": "작은 부적",
-    "name_en": "Small Charm",
-    "options": [
       {
         "type": "dmg-max",
         "param": "",
@@ -1248,11 +1176,33 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "hp",
+        "type": "str",
         "param": "",
         "min": "0",
         "max": "0",
         "original_idx": 4,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
         "param_en": "",
         "param_ko": "",
         "desc_en": "to Life",
@@ -1263,7 +1213,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 5,
+        "original_idx": 7,
         "param_en": "",
         "param_ko": "",
         "desc_en": "to Mana",
@@ -1274,7 +1224,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 7,
+        "original_idx": 9,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Cold Resist",
@@ -1285,7 +1235,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 9,
+        "original_idx": 11,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Lightning Resist",
@@ -1296,7 +1246,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 6,
+        "original_idx": 8,
         "param_en": "",
         "param_ko": "",
         "desc_en": "All Resistances",
@@ -1307,7 +1257,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 8,
+        "original_idx": 10,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Fire Resist",
@@ -1318,11 +1268,397 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 10,
+        "original_idx": 12,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Poison Resist",
         "desc_ko": "독 저항"
+      },
+      {
+        "type": "gold%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Extra Gold from Monsters",
+        "desc_ko": "괴물에게서 얻는 금화 증가"
+      },
+      {
+        "type": "mag%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Better Chance of Getting Magic Items",
+        "desc_ko": "마법 아이템 발견 확률 증가"
+      }
+    ]
+  },
+  "Large Charm": {
+    "name_ko": "큰 부적",
+    "name_en": "Large Charm",
+    "options": [
+      {
+        "type": "move1",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 16,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Run/Walk",
+        "desc_ko": "달리기/걷기 속도"
+      },
+      {
+        "type": "balance1",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 13,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Hit Recovery",
+        "desc_ko": "타격 회복 속도"
+      },
+      {
+        "type": "dmg-max",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg-min",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "att",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "str",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "res-cold",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Cold Resist",
+        "desc_ko": "냉기 저항"
+      },
+      {
+        "type": "res-ltng",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Lightning Resist",
+        "desc_ko": "번개 저항"
+      },
+      {
+        "type": "res-all",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "res-fire",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Fire Resist",
+        "desc_ko": "화염 저항"
+      },
+      {
+        "type": "res-pois",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 12,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Poison Resist",
+        "desc_ko": "독 저항"
+      },
+      {
+        "type": "gold%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Extra Gold from Monsters",
+        "desc_ko": "괴물에게서 얻는 금화 증가"
+      },
+      {
+        "type": "mag%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Better Chance of Getting Magic Items",
+        "desc_ko": "마법 아이템 발견 확률 증가"
+      }
+    ]
+  },
+  "Small Charm": {
+    "name_ko": "작은 부적",
+    "name_en": "Small Charm",
+    "options": [
+      {
+        "type": "move1",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 16,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Run/Walk",
+        "desc_ko": "달리기/걷기 속도"
+      },
+      {
+        "type": "balance1",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 13,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Hit Recovery",
+        "desc_ko": "타격 회복 속도"
+      },
+      {
+        "type": "dmg-max",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg-min",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "att",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "str",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "res-cold",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Cold Resist",
+        "desc_ko": "냉기 저항"
+      },
+      {
+        "type": "res-ltng",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Lightning Resist",
+        "desc_ko": "번개 저항"
+      },
+      {
+        "type": "res-all",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "res-fire",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Fire Resist",
+        "desc_ko": "화염 저항"
+      },
+      {
+        "type": "res-pois",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 12,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Poison Resist",
+        "desc_ko": "독 저항"
+      },
+      {
+        "type": "gold%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Extra Gold from Monsters",
+        "desc_ko": "괴물에게서 얻는 금화 증가"
+      },
+      {
+        "type": "mag%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Better Chance of Getting Magic Items",
+        "desc_ko": "마법 아이템 발견 확률 증가"
       }
     ]
   },
@@ -1497,156 +1833,15 @@
       }
     ]
   },
-  "Monarch": {
-    "name_ko": "🛡️ 모너크 (베이스)",
-    "name_en": "Monarch",
-    "base_stats": {
-      "item_type": "armor",
-      "namestr": "uit",
-      "minac": 133,
-      "maxac": 148,
-      "reqstr": 156,
-      "reqdex": 0,
-      "durability": 86
-    },
-    "options": [
-      {
-        "type": "ac%",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Defense",
-        "desc_ko": "방어력 증가"
-      },
-      {
-        "type": "ethereal",
-        "param": "",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "param": "",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      }
-    ]
-  },
-  "Mage Plate": {
-    "name_ko": "🛡️ 메이지 플레이트 (베이스)",
-    "name_en": "Mage Plate",
-    "base_stats": {
-      "item_type": "armor",
-      "namestr": "xtp",
-      "minac": 225,
-      "maxac": 261,
-      "reqstr": 55,
-      "reqdex": 0,
-      "durability": 60
-    },
-    "options": [
-      {
-        "type": "ac%",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Defense",
-        "desc_ko": "방어력 증가"
-      },
-      {
-        "type": "ethereal",
-        "param": "",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "param": "",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      }
-    ]
-  },
-  "Dusk Shroud": {
-    "name_ko": "🛡️ 더스크 슈라우드 (베이스)",
-    "name_en": "Dusk Shroud",
-    "base_stats": {
-      "item_type": "armor",
-      "namestr": "uui",
-      "minac": 361,
-      "maxac": 467,
-      "reqstr": 77,
-      "reqdex": 0,
-      "durability": 20
-    },
-    "options": [
-      {
-        "type": "ac%",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Defense",
-        "desc_ko": "방어력 증가"
-      },
-      {
-        "type": "ethereal",
-        "param": "",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "param": "",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      }
-    ]
-  },
   "Archon Plate": {
-    "name_ko": "🛡️ 아콘 플레이트 (베이스)",
-    "name_en": "Archon Plate",
+    "name_ko": "🛡️ [갑옷] 아콘 플레이트 (베이스)",
+    "name_en": "🛡️ [Body Armors] Archon Plate (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_stats": {
       "item_type": "armor",
       "namestr": "utp",
+      "armor_type": "tors",
       "minac": 410,
       "maxac": 524,
       "reqstr": 103,
@@ -1656,10 +1851,10 @@
     "options": [
       {
         "type": "ac%",
-        "param": "",
         "min": "0",
         "max": "0",
         "original_idx": 3,
+        "param": "",
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Defense",
@@ -1667,10 +1862,10 @@
       },
       {
         "type": "ethereal",
-        "param": "",
         "min": "0",
         "max": "1",
         "original_idx": 1,
+        "param": "",
         "param_en": "",
         "param_ko": "",
         "desc_en": "ethereal",
@@ -1678,10 +1873,3355 @@
       },
       {
         "type": "sock",
-        "param": "",
         "min": "0",
         "max": "6",
         "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Lacquered Plate": {
+    "name_ko": "🛡️ [갑옷] 래커드 플레이트 (베이스)",
+    "name_en": "🛡️ [Body Armors] Lacquered Plate (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uth",
+      "armor_type": "tors",
+      "minac": 433,
+      "maxac": 541,
+      "reqstr": 208,
+      "reqdex": 0,
+      "durability": 55
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Dusk Shroud": {
+    "name_ko": "🛡️ [갑옷] 더스크 슈라우드 (베이스)",
+    "name_en": "🛡️ [Body Armors] Dusk Shroud (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uui",
+      "armor_type": "tors",
+      "minac": 361,
+      "maxac": 467,
+      "reqstr": 77,
+      "reqdex": 0,
+      "durability": 20
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Sacred Armor": {
+    "name_ko": "🛡️ [갑옷] 세이크리드 아머 (베이스)",
+    "name_en": "🛡️ [Body Armors] Sacred Armor (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uar",
+      "armor_type": "tors",
+      "minac": 487,
+      "maxac": 600,
+      "reqstr": 232,
+      "reqdex": 0,
+      "durability": 60
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Gothic Plate": {
+    "name_ko": "🛡️ [갑옷] 고딕 플레이트 (베이스)",
+    "name_en": "🛡️ [Body Armors] Gothic Plate (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "gth",
+      "armor_type": "tors",
+      "minac": 128,
+      "maxac": 135,
+      "reqstr": 70,
+      "reqdex": 0,
+      "durability": 55
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Mage Plate": {
+    "name_ko": "🛡️ [갑옷] 메이지 플레이트 (베이스)",
+    "name_en": "🛡️ [Body Armors] Mage Plate (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "xtp",
+      "armor_type": "tors",
+      "minac": 225,
+      "maxac": 261,
+      "reqstr": 55,
+      "reqdex": 0,
+      "durability": 60
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Great Hauberk": {
+    "name_ko": "🛡️ [갑옷] 그레이트 허버크 (베이스)",
+    "name_en": "🛡️ [Body Armors] Great Hauberk (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "urs",
+      "armor_type": "tors",
+      "minac": 395,
+      "maxac": 501,
+      "reqstr": 118,
+      "reqdex": 0,
+      "durability": 50
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Bone Visage": {
+    "name_ko": "🛡️ [투구] 본 비지즈 (베이스)",
+    "name_en": "🛡️ [Helms] Bone Visage (Base)",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uh9",
+      "armor_type": "helm",
+      "minac": 100,
+      "maxac": 157,
+      "reqstr": 106,
+      "reqdex": 0,
+      "durability": 40
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Spired Helm": {
+    "name_ko": "🛡️ [투구] 스파이어드 헬름 (베이스)",
+    "name_en": "🛡️ [Helms] Spired Helm (Base)",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uhm",
+      "armor_type": "helm",
+      "minac": 114,
+      "maxac": 159,
+      "reqstr": 192,
+      "reqdex": 0,
+      "durability": 40
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Corona": {
+    "name_ko": "🛡️ [투구] 코로나 (베이스)",
+    "name_en": "🛡️ [Helms] Corona (Base)",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "urn",
+      "armor_type": "helm",
+      "minac": 111,
+      "maxac": 165,
+      "reqstr": 174,
+      "reqdex": 0,
+      "durability": 50
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Demonhead": {
+    "name_ko": "🛡️ [투구] 데몬헤드 (베이스)",
+    "name_en": "🛡️ [Helms] Demonhead (Base)",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "usk",
+      "armor_type": "helm",
+      "minac": 101,
+      "maxac": 154,
+      "reqstr": 102,
+      "reqdex": 0,
+      "durability": 20
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Circlet": {
+    "name_ko": "🛡️ [서클릿] 써클릿 (베이스)",
+    "name_en": "🛡️ [Circlets] Circlet (Base)",
+    "item_type_en": "Circlets",
+    "item_type_ko": "서클릿",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "ci0",
+      "armor_type": "circ",
+      "minac": 20,
+      "maxac": 30,
+      "reqstr": 0,
+      "reqdex": 0,
+      "durability": 35
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Coronet": {
+    "name_ko": "🛡️ [서클릿] 코로니트 (베이스)",
+    "name_en": "🛡️ [Circlets] Coronet (Base)",
+    "item_type_en": "Circlets",
+    "item_type_ko": "서클릿",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "ci1",
+      "armor_type": "circ",
+      "minac": 30,
+      "maxac": 40,
+      "reqstr": 0,
+      "reqdex": 0,
+      "durability": 30
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Diadem": {
+    "name_ko": "🛡️ [서클릿] 다이어뎀 (베이스)",
+    "name_en": "🛡️ [Circlets] Diadem (Base)",
+    "item_type_en": "Circlets",
+    "item_type_ko": "서클릿",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "ci3",
+      "armor_type": "circ",
+      "minac": 50,
+      "maxac": 60,
+      "reqstr": 0,
+      "reqdex": 0,
+      "durability": 20
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Vortex Shield": {
+    "name_ko": "🛡️ [성기사 전용 방패] 볼텍스 쉴드 (베이스)",
+    "name_en": "🛡️ [Paladin Shields] Vortex Shield (Base)",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "paf",
+      "armor_type": "ashd",
+      "minac": 182,
+      "maxac": 225,
+      "reqstr": 148,
+      "reqdex": 0,
+      "durability": 90
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "res-all",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "4",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Sacred Rondache": {
+    "name_ko": "🛡️ [성기사 전용 방패] 세이크리드 론다쉬 (베이스)",
+    "name_en": "🛡️ [Paladin Shields] Sacred Rondache (Base)",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "pac",
+      "armor_type": "ashd",
+      "minac": 138,
+      "maxac": 164,
+      "reqstr": 109,
+      "reqdex": 0,
+      "durability": 68
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "res-all",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "4",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Sacred Targe": {
+    "name_ko": "🛡️ [성기사 전용 방패] 세이크리드 타아지 (베이스)",
+    "name_en": "🛡️ [Paladin Shields] Sacred Targe (Base)",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "pab",
+      "armor_type": "ashd",
+      "minac": 126,
+      "maxac": 158,
+      "reqstr": 86,
+      "reqdex": 0,
+      "durability": 45
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "res-all",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "4",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Great Poleaxe": {
+    "name_ko": "⚔️ [폴암(미늘창)] 그레이트 폴액스 (베이스)",
+    "name_en": "⚔️ [Polearms] Great Poleaxe (Base)",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7h7",
+      "weapon_type1": "pole",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 46,
+      "2handmaxdam": 127,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 179,
+      "reqdex": 99,
+      "durability": 55
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Thresher": {
+    "name_ko": "⚔️ [폴암(미늘창)] 쓰레셔 (베이스)",
+    "name_en": "⚔️ [Polearms] Thresher (Base)",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7s8",
+      "weapon_type1": "pole",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 12,
+      "2handmaxdam": 141,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "-10",
+      "reqstr": 152,
+      "reqdex": 118,
+      "durability": 65
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Giant Thresher": {
+    "name_ko": "⚔️ [폴암(미늘창)] 자이언트 쓰레셔 (베이스)",
+    "name_en": "⚔️ [Polearms] Giant Thresher (Base)",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7wc",
+      "weapon_type1": "pole",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 40,
+      "2handmaxdam": 114,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "-10",
+      "reqstr": 188,
+      "reqdex": 140,
+      "durability": 55
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Cryptic Axe": {
+    "name_ko": "⚔️ [폴암(미늘창)] 크립틱 액스 (베이스)",
+    "name_en": "⚔️ [Polearms] Cryptic Axe (Base)",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7pa",
+      "weapon_type1": "pole",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 33,
+      "2handmaxdam": 150,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "10",
+      "reqstr": 165,
+      "reqdex": 103,
+      "durability": 65
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Mancatcher": {
+    "name_ko": "⚔️ [창] 맨캐쳐 (베이스)",
+    "name_en": "⚔️ [Spears] Mancatcher (Base)",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7br",
+      "weapon_type1": "spea",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 42,
+      "2handmaxdam": 92,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "-20",
+      "reqstr": 132,
+      "reqdex": 134,
+      "durability": 28
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Matriarchal Spear": {
+    "name_ko": "⚔️ [아마존 전용 창] 메이트리어컬 스피어 (베이스)",
+    "name_en": "⚔️ [Amazon Spears] Matriarchal Spear (Base)",
+    "item_type_en": "Amazon Spears",
+    "item_type_ko": "아마존 전용 창",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "amd",
+      "weapon_type1": "aspe",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 65,
+      "2handmaxdam": 95,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 114,
+      "reqdex": 142,
+      "durability": 28
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Berserker Axe": {
+    "name_ko": "⚔️ [도끼] 버서커 액스 (베이스)",
+    "name_en": "⚔️ [Axes] Berserker Axe (Base)",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7wa",
+      "weapon_type1": "axe",
+      "weapon_type2": "",
+      "mindam": 24,
+      "maxdam": 71,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "",
+      "reqstr": 138,
+      "reqdex": 59,
+      "durability": 26
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Thunder Maul": {
+    "name_ko": "⚔️ [해머] 썬더 마울 (베이스)",
+    "name_en": "⚔️ [Hammers] Thunder Maul (Base)",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7gm",
+      "weapon_type1": "hamm",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 33,
+      "2handmaxdam": 180,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "20",
+      "reqstr": 253,
+      "reqdex": 0,
+      "durability": 60
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Shadow Bow": {
+    "name_ko": "⚔️ [활] 쉐도우 보우 (베이스)",
+    "name_en": "⚔️ [Bows] Shadow Bow (Base)",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6lb",
+      "weapon_type1": "bow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 15,
+      "2handmaxdam": 59,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 52,
+      "reqdex": 188,
+      "durability": 28
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Blade Bow": {
+    "name_ko": "⚔️ [활] 블레이드 보우 (베이스)",
+    "name_en": "⚔️ [Bows] Blade Bow (Base)",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6hb",
+      "weapon_type1": "bow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 21,
+      "2handmaxdam": 41,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "-10",
+      "reqstr": 76,
+      "reqdex": 119,
+      "durability": 32
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Hydra Bow": {
+    "name_ko": "⚔️ [활] 히드라 보우 (베이스)",
+    "name_en": "⚔️ [Bows] Hydra Bow (Base)",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6lw",
+      "weapon_type1": "bow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 10,
+      "2handmaxdam": 68,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "10",
+      "reqstr": 134,
+      "reqdex": 167,
+      "durability": 55
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Matriarchal Bow": {
+    "name_ko": "⚔️ [아마존 전용 활] 메이트리어컬 보우 (베이스)",
+    "name_en": "⚔️ [Amazon Bows] Matriarchal Bow (Base)",
+    "item_type_en": "Amazon Bows",
+    "item_type_ko": "아마존 전용 활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "amb",
+      "weapon_type1": "abow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 20,
+      "2handmaxdam": 47,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "-10",
+      "reqstr": 87,
+      "reqdex": 187,
+      "durability": 48
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Grand Matron Bow": {
+    "name_ko": "⚔️ [아마존 전용 활] 그랜드 메이트런 보우 (베이스)",
+    "name_en": "⚔️ [Amazon Bows] Grand Matron Bow (Base)",
+    "item_type_en": "Amazon Bows",
+    "item_type_ko": "아마존 전용 활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "amc",
+      "weapon_type1": "abow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 14,
+      "2handmaxdam": 72,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "10",
+      "reqstr": 108,
+      "reqdex": 152,
+      "durability": 55
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Crystal Sword": {
+    "name_ko": "⚔️ [검] 크리스탈 소드 (베이스)",
+    "name_en": "⚔️ [Swords] Crystal Sword (Base)",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "crs",
+      "weapon_type1": "swor",
+      "weapon_type2": "",
+      "mindam": 5,
+      "maxdam": 15,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "",
+      "reqstr": 43,
+      "reqdex": 0,
+      "durability": 20
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Phase Blade": {
+    "name_ko": "⚔️ [검] 페이즈 블레이드 (베이스)",
+    "name_en": "⚔️ [Swords] Phase Blade (Base)",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7cr",
+      "weapon_type1": "swor",
+      "weapon_type2": "",
+      "mindam": 31,
+      "maxdam": 35,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "-30",
+      "reqstr": 25,
+      "reqdex": 136,
+      "durability": 0
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Cryptic Sword": {
+    "name_ko": "⚔️ [검] 크립틱 소드 (베이스)",
+    "name_en": "⚔️ [Swords] Cryptic Sword (Base)",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7ls",
+      "weapon_type1": "swor",
+      "weapon_type2": "",
+      "mindam": 5,
+      "maxdam": 77,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "-10",
+      "reqstr": 99,
+      "reqdex": 109,
+      "durability": 44
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Conquest Sword": {
+    "name_ko": "⚔️ [검] 컨퀘스트 소드 (베이스)",
+    "name_en": "⚔️ [Swords] Conquest Sword (Base)",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7bs",
+      "weapon_type1": "swor",
+      "weapon_type2": "",
+      "mindam": 37,
+      "maxdam": 53,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "",
+      "reqstr": 142,
+      "reqdex": 112,
+      "durability": 32
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Mythical Sword": {
+    "name_ko": "⚔️ [검] 미시컬 소드 (베이스)",
+    "name_en": "⚔️ [Swords] Mythical Sword (Base)",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7wd",
+      "weapon_type1": "swor",
+      "weapon_type2": "",
+      "mindam": 40,
+      "maxdam": 50,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "",
+      "reqstr": 147,
+      "reqdex": 124,
+      "durability": 44
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "War Staff": {
+    "name_ko": "⚔️ [스태프] 워 스태프 (베이스)",
+    "name_en": "⚔️ [Staves] War Staff (Base)",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "wst",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 12,
+      "2handmaxdam": 28,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "20",
+      "reqstr": 0,
+      "reqdex": 0,
+      "durability": 50
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Rune Staff": {
+    "name_ko": "⚔️ [스태프] 룬 스태프 (베이스)",
+    "name_en": "⚔️ [Staves] Rune Staff (Base)",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "8ws",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 24,
+      "2handmaxdam": 58,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "20",
+      "reqstr": 25,
+      "reqdex": 0,
+      "durability": 50
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Archon Staff": {
+    "name_ko": "⚔️ [스태프] 아콘 스태프 (베이스)",
+    "name_en": "⚔️ [Staves] Archon Staff (Base)",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6ws",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 83,
+      "2handmaxdam": 99,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "10",
+      "reqstr": 34,
+      "reqdex": 0,
+      "durability": 26
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Royal Shield": {
+    "name_ko": "🛡️ [성기사 전용 방패] 로얄 쉴드 (베이스)",
+    "name_en": "🛡️ [Paladin Shields] Royal Shield (Base)",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "paa",
+      "armor_type": "ashd",
+      "minac": 156,
+      "maxac": 181,
+      "reqstr": 114,
+      "reqdex": 0,
+      "durability": 60
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "res-all",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "4",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Kris": {
+    "name_ko": "🗡️ [단검] 크리스 (베이스)",
+    "name_en": "🗡️ [Daggers] Kris (Base)",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "kri",
+      "weapon_type1": "knif",
+      "weapon_type2": "",
+      "mindam": 2,
+      "maxdam": 11,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "-20",
+      "reqstr": 0,
+      "reqdex": 45,
+      "durability": 24
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Abyss",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "Abyss",
+        "param_ko": "심연",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Enhanced Entropy",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "Enhanced Entropy",
+        "param_ko": "향상된 엔트로피",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Miasma Chain",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
+      },
+      {
+        "type": "skill",
+        "param": "Demonic Mastery",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "Demonic Mastery",
+        "param_ko": "악마 숙련",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Bind Demon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Siphon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param_en": "Hex: Siphon",
+        "param_ko": "주술: 흡수"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Purge",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param_en": "Hex: Purge",
+        "param_ko": "주술: 처단"
+      },
+      {
+        "type": "skill",
+        "param": "Sigil: Death",
+        "min": "0",
+        "max": "0",
+        "original_idx": 12,
+        "param_en": "Sigil: Death",
+        "param_ko": "인장: 죽음"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Blade": {
+    "name_ko": "🗡️ [단검] 블레이드 (베이스)",
+    "name_en": "🗡️ [Daggers] Blade (Base)",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "bld",
+      "weapon_type1": "knif",
+      "weapon_type2": "",
+      "mindam": 4,
+      "maxdam": 15,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "-10",
+      "reqstr": 35,
+      "reqdex": 51,
+      "durability": 24
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Abyss",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "Abyss",
+        "param_ko": "심연",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Enhanced Entropy",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "Enhanced Entropy",
+        "param_ko": "향상된 엔트로피",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Miasma Chain",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
+      },
+      {
+        "type": "skill",
+        "param": "Demonic Mastery",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "Demonic Mastery",
+        "param_ko": "악마 숙련",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Bind Demon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Siphon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param_en": "Hex: Siphon",
+        "param_ko": "주술: 흡수"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Purge",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param_en": "Hex: Purge",
+        "param_ko": "주술: 처단"
+      },
+      {
+        "type": "skill",
+        "param": "Sigil: Death",
+        "min": "0",
+        "max": "0",
+        "original_idx": 12,
+        "param_en": "Sigil: Death",
+        "param_ko": "인장: 죽음"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Cinquedeas": {
+    "name_ko": "🗡️ [단검] 싱쿠디아 (베이스)",
+    "name_en": "🗡️ [Daggers] Cinquedeas (Base)",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "9kr",
+      "weapon_type1": "knif",
+      "weapon_type2": "",
+      "mindam": 15,
+      "maxdam": 31,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "-20",
+      "reqstr": 25,
+      "reqdex": 88,
+      "durability": 24
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Abyss",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "Abyss",
+        "param_ko": "심연",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Enhanced Entropy",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "Enhanced Entropy",
+        "param_ko": "향상된 엔트로피",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Miasma Chain",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
+      },
+      {
+        "type": "skill",
+        "param": "Demonic Mastery",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "Demonic Mastery",
+        "param_ko": "악마 숙련",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Bind Demon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Siphon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param_en": "Hex: Siphon",
+        "param_ko": "주술: 흡수"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Purge",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param_en": "Hex: Purge",
+        "param_ko": "주술: 처단"
+      },
+      {
+        "type": "skill",
+        "param": "Sigil: Death",
+        "min": "0",
+        "max": "0",
+        "original_idx": 12,
+        "param_en": "Sigil: Death",
+        "param_ko": "인장: 죽음"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Stiletto": {
+    "name_ko": "🗡️ [단검] 스틸레토 (베이스)",
+    "name_en": "🗡️ [Daggers] Stiletto (Base)",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "9bl",
+      "weapon_type1": "knif",
+      "weapon_type2": "",
+      "mindam": 19,
+      "maxdam": 36,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "-10",
+      "reqstr": 47,
+      "reqdex": 97,
+      "durability": 24
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Abyss",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "Abyss",
+        "param_ko": "심연",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Enhanced Entropy",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "Enhanced Entropy",
+        "param_ko": "향상된 엔트로피",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Miasma Chain",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
+      },
+      {
+        "type": "skill",
+        "param": "Demonic Mastery",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "Demonic Mastery",
+        "param_ko": "악마 숙련",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Bind Demon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Siphon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param_en": "Hex: Siphon",
+        "param_ko": "주술: 흡수"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Purge",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param_en": "Hex: Purge",
+        "param_ko": "주술: 처단"
+      },
+      {
+        "type": "skill",
+        "param": "Sigil: Death",
+        "min": "0",
+        "max": "0",
+        "original_idx": 12,
+        "param_en": "Sigil: Death",
+        "param_ko": "인장: 죽음"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Fanged Knife": {
+    "name_ko": "🗡️ [단검] 팽드 나이프 (베이스)",
+    "name_en": "🗡️ [Daggers] Fanged Knife (Base)",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7kr",
+      "weapon_type1": "knif",
+      "weapon_type2": "",
+      "mindam": 15,
+      "maxdam": 57,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "-20",
+      "reqstr": 42,
+      "reqdex": 86,
+      "durability": 36
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Abyss",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "Abyss",
+        "param_ko": "심연",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Enhanced Entropy",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "Enhanced Entropy",
+        "param_ko": "향상된 엔트로피",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Miasma Chain",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
+      },
+      {
+        "type": "skill",
+        "param": "Demonic Mastery",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "Demonic Mastery",
+        "param_ko": "악마 숙련",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Bind Demon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Siphon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param_en": "Hex: Siphon",
+        "param_ko": "주술: 흡수"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Purge",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param_en": "Hex: Purge",
+        "param_ko": "주술: 처단"
+      },
+      {
+        "type": "skill",
+        "param": "Sigil: Death",
+        "min": "0",
+        "max": "0",
+        "original_idx": 12,
+        "param_en": "Sigil: Death",
+        "param_ko": "인장: 죽음"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Legend Spike": {
+    "name_ko": "🗡️ [단검] 레전드 스파이크 (베이스)",
+    "name_en": "🗡️ [Daggers] Legend Spike (Base)",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7bl",
+      "weapon_type1": "knif",
+      "weapon_type2": "",
+      "mindam": 31,
+      "maxdam": 47,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "-10",
+      "reqstr": 65,
+      "reqdex": 67,
+      "durability": 47
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Abyss",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param_en": "Abyss",
+        "param_ko": "심연",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Enhanced Entropy",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param_en": "Enhanced Entropy",
+        "param_ko": "향상된 엔트로피",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Miasma Chain",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
+      },
+      {
+        "type": "skill",
+        "param": "Demonic Mastery",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param_en": "Demonic Mastery",
+        "param_ko": "악마 숙련",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Bind Demon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Siphon",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param_en": "Hex: Siphon",
+        "param_ko": "주술: 흡수"
+      },
+      {
+        "type": "skill",
+        "param": "Hex: Purge",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param_en": "Hex: Purge",
+        "param_ko": "주술: 처단"
+      },
+      {
+        "type": "skill",
+        "param": "Sigil: Death",
+        "min": "0",
+        "max": "0",
+        "original_idx": 12,
+        "param_en": "Sigil: Death",
+        "param_ko": "인장: 죽음"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
         "param_en": "",
         "param_ko": "",
         "desc_en": "sock",

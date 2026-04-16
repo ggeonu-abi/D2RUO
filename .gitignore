@@ -207,3 +207,6 @@ marimo/_lsp/
 __marimo__/
 d2r_overlay_config.json
 item/data/other_templates.json
+fonts/blizzardglobaltcunicode.ttf
+fonts/irisl.ttf
+fonts/kodia.ttf

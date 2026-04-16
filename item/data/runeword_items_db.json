@@ -130,8 +130,8 @@
         "min": "10",
         "max": "15",
         "original_idx": 2,
-        "param_en": "Miasma Chains",
-        "param_ko": "Miasma Chains"
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
       },
       {
         "type": "war",
@@ -286,8 +286,8 @@
         "min": "3",
         "max": "3",
         "original_idx": 6,
-        "param_en": "Wearbear",
-        "param_ko": "Wearbear"
+        "param_en": "Werebear",
+        "param_ko": "곰인간"
       },
       {
         "type": "oskill",
@@ -295,8 +295,8 @@
         "min": "3",
         "max": "3",
         "original_idx": 7,
-        "param_en": "Shape Shifting",
-        "param_ko": "변신"
+        "param_en": "Lycanthropy",
+        "param_ko": "변신술"
       },
       {
         "type": "str",
@@ -1709,8 +1709,8 @@
         "min": "1",
         "max": "50",
         "original_idx": 6,
-        "param_en": "Delerium Change",
-        "param_ko": "Delerium Change"
+        "param_en": "Delirium",
+        "param_ko": "착란"
       },
       {
         "type": "allskills",
@@ -3232,7 +3232,7 @@
         "max": "16",
         "original_idx": 4,
         "param_en": "Defiance",
-        "param_ko": "대항"
+        "param_ko": "인내"
       },
       {
         "type": "skilltab",
@@ -4822,7 +4822,7 @@
         "max": "14",
         "original_idx": 7,
         "param_en": "Raven",
-        "param_ko": "큰까마귀의"
+        "param_ko": "큰까마귀"
       }
     ]
   },
@@ -12443,8 +12443,8 @@
         "min": "5",
         "max": "10",
         "original_idx": 1,
-        "param_en": "Sigil Lethargy",
-        "param_ko": "Sigil Lethargy"
+        "param_en": "Sigil: Lethargy",
+        "param_ko": "인장: 무기력"
       },
       {
         "type": "allskills",
@@ -12672,8 +12672,8 @@
         "min": "13",
         "max": "1",
         "original_idx": 1,
-        "param_en": "Sigil Death",
-        "param_ko": "Sigil Death"
+        "param_en": "Sigil: Death",
+        "param_ko": "인장: 죽음"
       },
       {
         "type": "swing2",

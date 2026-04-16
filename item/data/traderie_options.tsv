@@ -1,3 +1,4 @@
+
 abs-cold		prop_702	냉기 흡수
 abs-cold%		prop_702	냉기 흡수 %
 abs-fire		prop_659	화염 흡수
@@ -39,8 +40,8 @@ dmg		prop_439	피해
 dmg%		prop_510	피해 증가
 dmg-demon		prop_513	악마에게 주는 피해 증가(%)
 dmg-elem		prop_549	원소 피해 (min - max)
-dmg-min		prop_416	최소 피해
 dmg-max		prop_448	최대 피해
+dmg-min		prop_416	최소 피해
 dmg-undead		prop_538	언데드에게 주는 피해 증가 %
 dru		prop_488	드루이드 기술 레벨
 enr		prop_421	마력
@@ -98,7 +99,9 @@ skill	66	prop_1002	피해 증폭 (강령술사 전용)
 skill	74	prop_1009	시체 폭발 (강령술사 전용)
 skill	76	prop_574	가시 박힌 철관 (강령술사 전용)
 skill	77	prop_1011	공포 (강령술사 전용)
+skill	Abyss	prop_1579	심연 (악마술사 전용)
 skill	Apocalypse	prop_1578	종말 (악마술사)
+skill	Bind Demon	prop_1559	악마 속박 (악마술사 전용)
 skill	Blood Boil	prop_1557	끓는 피 (악마술사)
 skill	Blood Oath	prop_1555	피의 맹세 (악마술사)
 skill	Bone Armor	prop_755	뼈 갑옷 (강령술사 전용)
@@ -108,13 +111,20 @@ skill	Bone Wall	prop_758	뼈의 벽 (강령술사 전용)
 skill	Consume	prop_1558	소모 (악마술사)
 skill	Demonic Mastery	prop_1551	악마 숙련 (악마술사)
 skill	Engorge	prop_1556	포식 (악마술사)
+skill	Enhanced Entropy	prop_1574	향상된 엔트로피 (악마술사 전용)
 skill	Flame Wave	prop_1575	화염 파도
+skill	Hex: Bane	prop_1562	주술: 재앙 (악마술사 전용)
+skill	Hex: Purge	prop_1566	주술: 처단 (악마술사 전용)
+skill	Hex: Siphon	prop_1563	주술: 흡수 (악마술사 전용)
 skill	Holy Bolt		신성한 빛줄기 (성기사 전용)
 skill	Inferno Sentry	prop_769	지옥불의 파동 (암살자 전용)
+skill	Miasma Chain	prop_1576	독기 사술 (악맘술사 전용)
 skill	Redemption		속죄 (성기사 전용)
 skill	Ring of Fire	prop_1571	화염 고리
+skill	Sigil: Death	prop_1577	인장: 죽음 (악마술사 전용)
+skill	Sigil: Lethargy	prop_1570	인장: 무기력 (악마술사 전용)
 skill	Skeleton Mastery	prop_1004	해골 숙련 (강령술사 전용)
-skill	Summon Tainted	prop_1553	오염된 자 소환
+skill	Summon Tainted	prop_1553	오염된 자 소환 (악마술사 전용)
 skill	Teeth	prop_1003	이빨 (강령술사 전용)
 skill	Wake of Fire Sentry	prop_1116	불의 파동 (암살자 전용)
 skill	feral rage	prop_959	흉포한 격노 (드루이드 전용)
@@ -142,5 +152,5 @@ str		prop_437	힘
 swing2		prop_457	공격 속도 증가 %
 swing3		prop_457	공격 속도 증가 %
 thorns		prop_415	공격자가 피해를 받음
-war		prop_1862	악마술사 기술 레벨
 vit		prop_582	활력
+war		prop_1862	악마술사 기술 레벨
