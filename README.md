@@ -28,9 +28,10 @@
 ![우버디아 진행율 서버별 표시](images/uber_kor.png)
 > 화면 상단에 다음 공역 정보 및 남은 시간을, 우측 하단에 대륙별 우버디아 진행도를 직관적인 블록(`■■■□□□`)으로 표시합니다.
 
-### 2. 사용자 맞춤형 버프 오버레이
+### 2. 사용자 맞춤형 버프 오버레이 및 프로필 관리
 ![버프 오버레이 표시 화면](images/buff-overlay.png)
-> 내가 원하는 스킬 아이콘을 영역 지정하여 버프 지속 시간을 확인하고 관리할 수 있습니다.
+![버프 프로필 설정 화면](images/buff_profile_kor.png)
+> 내가 원하는 스킬 아이콘을 직접 캡처하여 버프 지속 시간을 설정하고 관리할 수 있습니다. 직관적인 설정 화면에서 캐릭터나 빌드별로 프로필을 나누어 스킬을 그룹화해 보세요.
 
 ### 3. 실시간 아이템 사전 검색
 ![아이템 사전 검색 화면](images/item_fav_kor.png)
@@ -96,8 +97,9 @@
 * **편의성:** 검색된 세부 옵션을 바로 클립보드에 복사할 수 있으며, 검색창이 포커스를 잃으면 자동으로 반투명해져 게임 플레이를 방해하지 않습니다.
 
 **3. 강력한 버프 오버레이**
-* 스킬 아이콘 캡처 기능으로 나만의 버프 트래커를 구축할 수 있습니다. 
-* 기본 음원 외에 `sounds` 폴더에 원하는 파일(`.wav`, `.mp3`)을 넣어 스킬별로 개별 알림음을 지정할 수 있습니다.
+* **프로필 및 스킬 관리:** 캐릭터나 빌드별로 다수의 버프 프로필을 생성·복제할 수 있으며, 게임 화면 내 스킬 아이콘을 직접 캡처하여 쉽게 단축키와 지속시간을 등록할 수 있습니다.
+* **디테일한 시각 효과:** 아이콘 크기, 타이머 및 단축키 텍스트의 크기와 표시 위치, 시간 표시 형식(초 또는 분 단위)을 내 입맛에 맞게 자유롭게 커스텀할 수 있습니다.
+* **커스텀 알림음:** 기본 음원 외에 `sounds` 폴더에 원하는 파일(`.wav`, `.mp3`)을 넣어 스킬별로 개별 알림음과 볼륨, 깜빡임 경고 시작 시간을 지정할 수 있습니다.
 
 **4. 스피드런 타이머 (Speedrun Timer)**
 * **기록 비교 및 통계:** 장비 교체나 빌드 변경에 따른 클리어 타임 변화를 측정하는 데 최적화되어 있습니다. 직전 런 대비 시간 단축/지연 여부를 색상(+/-)으로 직관적으로 보여줍니다.
@@ -198,8 +200,10 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ![Terror Zone Screen](images/tz_eng.png)
 ![Diablo Clone Screen](images/uber_eng.png)
 
-### 2. Buff Overlay
+### 2. Buff Overlay & Profile Management
 ![Buff Overlay Screen](images/buff-overlay.png)
+![Buff Profile Settings Screen](images/buff_profile_eng.png)
+> Capture any skill icon directly from the game screen to set up and manage your own buff durations. Group your skills by profile for different characters or builds using the intuitive settings UI.
 
 ### 3. Real-time Item Search Dictionary
 ![Item Search Screen](images/item_fav_eng.png)
@@ -263,8 +267,9 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * **Ultimate Convenience:** Instantly copy item details to your clipboard. The search window automatically becomes semi-transparent when it loses focus so it won't block your game view.
 
 **3. Powerful Buff Overlay**
-* Build your own buff tracker using the built-in screen capture tool.
-* Assign custom audio files (`.wav`, `.mp3`) placed in the `sounds` folder to individual skills.
+* **Profile & Skill Management:** Create, duplicate, and manage multiple buff profiles for different characters or builds. Register new skills effortlessly using the built-in screen capture tool to set hotkeys and durations.
+* **Highly Customizable UI:** Adjust icon sizes, timer and hotkey text sizes/positions, and time display formats (seconds or MM:SS) to suit your preferences.
+* **Custom Alerts:** Assign custom audio files (`.wav`, `.mp3`) placed in the `sounds` folder to individual skills, and configure specific volumes and flash alert thresholds.
 
 **4. Speedrun Timer**
 * **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference (faster/slower) from the previous run using color-coded delta values.
