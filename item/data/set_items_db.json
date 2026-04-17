@@ -438,12 +438,12 @@
         },
         {
           "type": "nofreeze",
-          "param": "0",
+          "param": "",
           "min": "1",
           "max": "1",
           "original_idx": 202,
-          "param_en": "0",
-          "param_ko": "0",
+          "param_en": "",
+          "param_ko": "",
           "desc_en": "Cannot Be Frozen",
           "desc_ko": "빙결되지 않음"
         }
@@ -531,12 +531,12 @@
         },
         {
           "type": "nofreeze",
-          "param": "0",
+          "param": "",
           "min": "1",
           "max": "1",
           "original_idx": 202,
-          "param_en": "0",
-          "param_ko": "0",
+          "param_en": "",
+          "param_ko": "",
           "desc_en": "Cannot Be Frozen",
           "desc_ko": "빙결되지 않음"
         }
@@ -624,12 +624,12 @@
         },
         {
           "type": "nofreeze",
-          "param": "0",
+          "param": "",
           "min": "1",
           "max": "1",
           "original_idx": 202,
-          "param_en": "0",
-          "param_ko": "0",
+          "param_en": "",
+          "param_ko": "",
           "desc_en": "Cannot Be Frozen",
           "desc_ko": "빙결되지 않음"
         }
@@ -6326,12 +6326,12 @@
         },
         {
           "type": "half-freeze",
-          "param": "0",
+          "param": "",
           "min": "1",
           "max": "1",
           "original_idx": 202,
-          "param_en": "0",
-          "param_ko": "0",
+          "param_en": "",
+          "param_ko": "",
           "desc_en": "Half Freeze Duration",
           "desc_ko": "빙결 지속시간 절반으로 감소"
         },
@@ -6443,12 +6443,12 @@
         },
         {
           "type": "half-freeze",
-          "param": "0",
+          "param": "",
           "min": "1",
           "max": "1",
           "original_idx": 202,
-          "param_en": "0",
-          "param_ko": "0",
+          "param_en": "",
+          "param_ko": "",
           "desc_en": "Half Freeze Duration",
           "desc_ko": "빙결 지속시간 절반으로 감소"
         },
@@ -6555,12 +6555,12 @@
         },
         {
           "type": "half-freeze",
-          "param": "0",
+          "param": "",
           "min": "1",
           "max": "1",
           "original_idx": 202,
-          "param_en": "0",
-          "param_ko": "0",
+          "param_en": "",
+          "param_ko": "",
           "desc_en": "Half Freeze Duration",
           "desc_ko": "빙결 지속시간 절반으로 감소"
         },
@@ -6667,12 +6667,12 @@
         },
         {
           "type": "half-freeze",
-          "param": "0",
+          "param": "",
           "min": "1",
           "max": "1",
           "original_idx": 202,
-          "param_en": "0",
-          "param_ko": "0",
+          "param_en": "",
+          "param_ko": "",
           "desc_en": "Half Freeze Duration",
           "desc_ko": "빙결 지속시간 절반으로 감소"
         },
@@ -6781,12 +6781,12 @@
         },
         {
           "type": "nofreeze",
-          "param": "0",
+          "param": "",
           "min": "1",
           "max": "1",
           "original_idx": 203,
-          "param_en": "0",
-          "param_ko": "0",
+          "param_en": "",
+          "param_ko": "",
           "desc_en": "Cannot Be Frozen",
           "desc_ko": "빙결되지 않음"
         },
@@ -6887,12 +6887,12 @@
         },
         {
           "type": "nofreeze",
-          "param": "0",
+          "param": "",
           "min": "1",
           "max": "1",
           "original_idx": 203,
-          "param_en": "0",
-          "param_ko": "0",
+          "param_en": "",
+          "param_ko": "",
           "desc_en": "Cannot Be Frozen",
           "desc_ko": "빙결되지 않음"
         },
@@ -6993,12 +6993,12 @@
         },
         {
           "type": "nofreeze",
-          "param": "0",
+          "param": "",
           "min": "1",
           "max": "1",
           "original_idx": 203,
-          "param_en": "0",
-          "param_ko": "0",
+          "param_en": "",
+          "param_ko": "",
           "desc_en": "Cannot Be Frozen",
           "desc_ko": "빙결되지 않음"
         },
@@ -7099,12 +7099,12 @@
         },
         {
           "type": "nofreeze",
-          "param": "0",
+          "param": "",
           "min": "1",
           "max": "1",
           "original_idx": 203,
-          "param_en": "0",
-          "param_ko": "0",
+          "param_en": "",
+          "param_ko": "",
           "desc_en": "Cannot Be Frozen",
           "desc_ko": "빙결되지 않음"
         },
@@ -7882,17 +7882,6 @@
         "desc_ko": "공격 속도"
       },
       {
-        "type": "ignore-ac",
-        "param": "",
-        "min": "1",
-        "max": "1",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Ignore Target's Defense",
-        "desc_ko": "대상의 방어력 무시"
-      },
-      {
         "type": "dmg%",
         "param": "",
         "min": "200",
@@ -7913,6 +7902,17 @@
         "param_ko": "",
         "desc_en": "Damage to Undead",
         "desc_ko": "언데드에게 주는 피해"
+      },
+      {
+        "type": "ignore-ac",
+        "param": "",
+        "min": "1",
+        "max": "1",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Ignore Target's Defense",
+        "desc_ko": "대상의 방어력 무시"
       },
       {
         "type": "dmg-demon",

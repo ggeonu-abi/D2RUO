@@ -17,6 +17,8 @@ ass		prop_519	암살자 기술 레벨
 att		prop_423	명중률
 att%		prop_424	명중률 추가 %
 att-demon		prop_512	악마에 대한 명중률
+att-skill	47	prop_660	(공격시)x% 확률로 %레벨 [화염구] 시전
+att-skill	53	prop_547	(공격시)x% 확률로 %레벨 [연쇄번개] 시전
 att-undead		prop_537	언데드에 대한 명중률
 aura	Concentration	prop_881	장착시 오라레벨 - 집중
 aura	Defiance	prop_839	장착시 오라레벨 - 대항
@@ -52,8 +54,13 @@ extra-ltng		prop_743	번개 기술 피해 증가 %
 extra-mag		prop_1879	마법 기술 피해
 extra-pois		prop_783	독 기술 피해 증가 %
 freeze		prop_570	대상 빙결
+gethit-skill	101	prop_631	(반격시)x% 확률로 %레벨 [신성한 빛줄기] 시전
+gethit-skill	38	prop_433	(반격시)x% 확률로 %레벨 [번개 줄기] 시전
+gethit-skill	56	prop_718	(반격시)x% 확률로 %레벨 [운석 낙하] 시전
+gethit-skill	59	prop_694	(반격시)x% 확률로 %레벨 [눈보라] 시전
 gold%		prop_460	괴물에게서 얻는 금화 증가
 heal-kill		prop_721	적 처치 시 생명력 회복
+hit-skill	38	prop_628	(타격시)x% 확률로 %레벨 [번개 줄기] 시전
 hp		prop_418	생명력
 hp%		prop_673	최대 생명력 증가 %
 lifesteal		prop_462	적중당 생명력 훔침
