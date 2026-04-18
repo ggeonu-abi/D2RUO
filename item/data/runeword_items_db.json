@@ -116,15 +116,6 @@
     ],
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Miasma Chains",
-        "min": "10",
-        "max": "15",
-        "original_idx": 2,
-        "param_en": "Miasma Chain",
-        "param_ko": "독기 사슬"
-      },
-      {
         "type": "gethit-skill",
         "param": "Psychic Ward",
         "min": "2",
@@ -132,6 +123,15 @@
         "original_idx": 1,
         "param_en": "Psychic Ward",
         "param_ko": "정신 결계"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Miasma Chains",
+        "min": "10",
+        "max": "15",
+        "original_idx": 2,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
       },
       {
         "type": "war",
@@ -163,7 +163,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "res-fire",
@@ -248,7 +248,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "crush",
@@ -388,7 +388,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -485,15 +485,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Bone Armor",
-        "min": "15",
-        "max": "10",
-        "original_idx": 2,
-        "param_en": "Bone Armor",
-        "param_ko": "뼈 갑옷"
-      },
-      {
         "type": "hit-skill",
         "param": "Bone Spear",
         "min": "15",
@@ -501,6 +492,15 @@
         "original_idx": 1,
         "param_en": "Bone Spear",
         "param_ko": "뼈 창"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Bone Armor",
+        "min": "15",
+        "max": "10",
+        "original_idx": 2,
+        "param_en": "Bone Armor",
+        "param_ko": "뼈 갑옷"
       },
       {
         "type": "nec",
@@ -706,15 +706,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Amplify Damage",
-        "min": "35",
-        "max": "14",
-        "original_idx": 4,
-        "param_en": "Amplify Damage",
-        "param_ko": "피해 증폭"
-      },
-      {
         "type": "hit-skill",
         "param": "Bone Spear",
         "min": "100",
@@ -722,6 +713,15 @@
         "original_idx": 3,
         "param_en": "Bone Spear",
         "param_ko": "뼈 창"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Amplify Damage",
+        "min": "35",
+        "max": "14",
+        "original_idx": 4,
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
       },
       {
         "type": "explosivearrow",
@@ -743,7 +743,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "ignore-ac",
@@ -875,7 +875,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-undead",
@@ -1038,7 +1038,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-fire",
@@ -1273,21 +1273,21 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Charged Bolt",
-        "min": "11",
-        "max": "9",
-        "original_idx": 7,
-        "param_en": "Charged Bolt",
-        "param_ko": "번개 줄기"
-      },
-      {
-        "type": "hit-skill",
         "param": "Frozen Orb",
         "min": "9",
         "max": "11",
         "original_idx": 6,
         "param_en": "Frozen Orb",
         "param_ko": "얼음 보주"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Charged Bolt",
+        "min": "11",
+        "max": "9",
+        "original_idx": 7,
+        "param_en": "Charged Bolt",
+        "param_ko": "번개 줄기"
       },
       {
         "type": "swing2",
@@ -1309,7 +1309,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-mag",
@@ -1394,21 +1394,21 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Chain Lightning",
-        "min": "10",
-        "max": "17",
-        "original_idx": 7,
-        "param_en": "Chain Lightning",
-        "param_ko": "연쇄 번개"
-      },
-      {
-        "type": "hit-skill",
         "param": "Static Field",
         "min": "7",
         "max": "13",
         "original_idx": 6,
         "param_en": "Static Field",
         "param_ko": "전자기장"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Chain Lightning",
+        "min": "10",
+        "max": "17",
+        "original_idx": 7,
+        "param_en": "Chain Lightning",
+        "param_ko": "연쇄 번개"
       },
       {
         "type": "swing2",
@@ -1429,7 +1429,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "ignore-ac",
@@ -1561,7 +1561,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att%",
@@ -1677,13 +1677,22 @@
     ],
     "options": [
       {
+        "type": "hit-skill",
+        "param": "Confuse",
+        "min": "11",
+        "max": "18",
+        "original_idx": 1,
+        "param_en": "Confuse",
+        "param_ko": "혼란"
+      },
+      {
         "type": "gethit-skill",
-        "param": "Delerium Change",
-        "min": "1",
-        "max": "50",
-        "original_idx": 6,
-        "param_en": "Delirium",
-        "param_ko": "착란"
+        "param": "Terror",
+        "min": "14",
+        "max": "13",
+        "original_idx": 3,
+        "param_en": "Terror",
+        "param_ko": "공포"
       },
       {
         "type": "gethit-skill",
@@ -1696,21 +1705,12 @@
       },
       {
         "type": "gethit-skill",
-        "param": "Terror",
-        "min": "14",
-        "max": "13",
-        "original_idx": 3,
-        "param_en": "Terror",
-        "param_ko": "공포"
-      },
-      {
-        "type": "hit-skill",
-        "param": "Confuse",
-        "min": "11",
-        "max": "18",
-        "original_idx": 1,
-        "param_en": "Confuse",
-        "param_ko": "혼란"
+        "param": "Delerium Change",
+        "min": "1",
+        "max": "50",
+        "original_idx": 6,
+        "param_en": "Delirium",
+        "param_ko": "착란"
       },
       {
         "type": "allskills",
@@ -1805,12 +1805,12 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Volcano",
-        "min": "23",
-        "max": "12",
-        "original_idx": 6,
-        "param_en": "Volcano",
-        "param_ko": "화산"
+        "param": "Molten Boulder",
+        "min": "5",
+        "max": "23",
+        "original_idx": 3,
+        "param_en": "Molten Boulder",
+        "param_ko": "타오르는 바위"
       },
       {
         "type": "att-skill",
@@ -1823,12 +1823,12 @@
       },
       {
         "type": "hit-skill",
-        "param": "Molten Boulder",
-        "min": "5",
-        "max": "23",
-        "original_idx": 3,
-        "param_en": "Molten Boulder",
-        "param_ko": "타오르는 바위"
+        "param": "Volcano",
+        "min": "23",
+        "max": "12",
+        "original_idx": 6,
+        "param_en": "Volcano",
+        "param_ko": "화산"
       },
       {
         "type": "death-skill",
@@ -1848,7 +1848,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "ignore-ac",
@@ -2005,7 +2005,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "pierce-cold",
@@ -2096,15 +2096,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Venom",
-        "min": "20",
-        "max": "18",
-        "original_idx": 5,
-        "param_en": "Venom",
-        "param_ko": "맹독"
-      },
-      {
         "type": "hit-skill",
         "param": "Hydra",
         "min": "12",
@@ -2112,6 +2103,15 @@
         "original_idx": 4,
         "param_en": "Hydra",
         "param_ko": "히드라"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Venom",
+        "min": "20",
+        "max": "18",
+        "original_idx": 5,
+        "param_en": "Venom",
+        "param_ko": "맹독"
       },
       {
         "type": "aura",
@@ -2223,15 +2223,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Venom",
-        "min": "20",
-        "max": "18",
-        "original_idx": 5,
-        "param_en": "Venom",
-        "param_ko": "맹독"
-      },
-      {
         "type": "hit-skill",
         "param": "Hydra",
         "min": "12",
@@ -2239,6 +2230,15 @@
         "original_idx": 4,
         "param_en": "Hydra",
         "param_ko": "히드라"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Venom",
+        "min": "20",
+        "max": "18",
+        "original_idx": 5,
+        "param_en": "Venom",
+        "param_ko": "맹독"
       },
       {
         "type": "aura",
@@ -2623,7 +2623,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-cold",
@@ -2766,11 +2766,11 @@
       },
       {
         "type": "dmg-pois",
-        "param": "125",
-        "min": "154",
-        "max": "154",
-        "param_en": "125",
-        "param_ko": "125",
+        "param": "5",
+        "min": "75",
+        "max": "75",
+        "param_en": "5",
+        "param_ko": "5",
         "desc_en": "to Minimum Poison Damage",
         "desc_ko": "최소 독 피해"
       },
@@ -2977,15 +2977,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Blaze",
-        "min": "5",
-        "max": "15",
-        "original_idx": 2,
-        "param_en": "Blaze",
-        "param_ko": "불길"
-      },
-      {
         "type": "hit-skill",
         "param": "Fire Ball",
         "min": "5",
@@ -2993,6 +2984,15 @@
         "original_idx": 1,
         "param_en": "Fire Ball",
         "param_ko": "화염구"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Blaze",
+        "min": "5",
+        "max": "15",
+        "original_idx": 2,
+        "param_en": "Blaze",
+        "param_ko": "불길"
       },
       {
         "type": "sor",
@@ -3090,7 +3090,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-min",
@@ -3262,7 +3262,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "manasteal",
@@ -3380,7 +3380,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att-undead",
@@ -3514,7 +3514,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "ignore-ac",
@@ -3774,7 +3774,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "ac%",
@@ -3927,7 +3927,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-min",
@@ -4065,7 +4065,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "ignore-ac",
@@ -4484,7 +4484,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "ignore-ac",
@@ -4590,7 +4590,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-norm",
@@ -4857,7 +4857,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-max",
@@ -4903,11 +4903,11 @@
       },
       {
         "type": "dmg-pois",
-        "param": "125",
-        "min": "154",
-        "max": "154",
-        "param_en": "125",
-        "param_ko": "125",
+        "param": "5",
+        "min": "75",
+        "max": "75",
+        "param_en": "5",
+        "param_ko": "5",
         "desc_en": "to Minimum Poison Damage",
         "desc_ko": "최소 독 피해"
       },
@@ -4998,7 +4998,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-norm",
@@ -5154,7 +5154,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "ignore-ac",
@@ -5285,7 +5285,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "pierce-ltng",
@@ -5409,7 +5409,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-min",
@@ -5444,11 +5444,11 @@
       },
       {
         "type": "dmg-pois",
-        "param": "125",
-        "min": "154",
-        "max": "154",
-        "param_en": "125",
-        "param_ko": "125",
+        "param": "5",
+        "min": "75",
+        "max": "75",
+        "param_en": "5",
+        "param_ko": "5",
         "desc_en": "to Minimum Poison Damage",
         "desc_ko": "최소 독 피해"
       },
@@ -5528,7 +5528,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-undead",
@@ -5663,7 +5663,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "reduce-ac",
@@ -5785,13 +5785,13 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Fade",
-        "min": "6",
-        "max": "11",
-        "original_idx": 4,
-        "param_en": "Fade",
-        "param_ko": "흐리기"
+        "type": "att-skill",
+        "param": "Charged Bolt",
+        "min": "20",
+        "max": "20",
+        "original_idx": 2,
+        "param_en": "Charged Bolt",
+        "param_ko": "번개 줄기"
       },
       {
         "type": "hit-skill",
@@ -5803,13 +5803,13 @@
         "param_ko": "생명력 추출"
       },
       {
-        "type": "att-skill",
-        "param": "Charged Bolt",
-        "min": "20",
-        "max": "20",
-        "original_idx": 2,
-        "param_en": "Charged Bolt",
-        "param_ko": "번개 줄기"
+        "type": "gethit-skill",
+        "param": "Fade",
+        "min": "6",
+        "max": "11",
+        "original_idx": 4,
+        "param_en": "Fade",
+        "param_ko": "흐리기"
       },
       {
         "type": "aura",
@@ -5829,7 +5829,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "ignore-ac",
@@ -6150,7 +6150,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "str",
@@ -6342,7 +6342,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-max",
@@ -6479,7 +6479,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-undead",
@@ -6757,7 +6757,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-max",
@@ -6844,15 +6844,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Howl",
-        "min": "3",
-        "max": "1",
-        "original_idx": 2,
-        "param_en": "Howl",
-        "param_ko": "포효"
-      },
-      {
         "type": "hit-skill",
         "param": "Taunt",
         "min": "10",
@@ -6860,6 +6851,15 @@
         "original_idx": 1,
         "param_en": "Taunt",
         "param_ko": "도발"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Howl",
+        "min": "3",
+        "max": "1",
+        "original_idx": 2,
+        "param_en": "Howl",
+        "param_ko": "포효"
       },
       {
         "type": "bar",
@@ -7099,7 +7099,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-demon",
@@ -7229,7 +7229,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "reduce-ac",
@@ -7532,7 +7532,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att-undead",
@@ -7675,7 +7675,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att%",
@@ -7721,11 +7721,11 @@
       },
       {
         "type": "dmg-pois",
-        "param": "125",
-        "min": "154",
-        "max": "154",
-        "param_en": "125",
-        "param_ko": "125",
+        "param": "5",
+        "min": "75",
+        "max": "75",
+        "param_en": "5",
+        "param_ko": "5",
         "desc_en": "to Minimum Poison Damage",
         "desc_ko": "최소 독 피해"
       },
@@ -7785,15 +7785,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Slow Missiles",
-        "min": "4",
-        "max": "5",
-        "original_idx": 2,
-        "param_en": "Slow Missiles",
-        "param_ko": "투사체 감속"
-      },
-      {
         "type": "hit-skill",
         "param": "Valkyrie",
         "min": "2",
@@ -7801,6 +7792,15 @@
         "original_idx": 1,
         "param_en": "Valkyrie",
         "param_ko": "발키리"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Slow Missiles",
+        "min": "4",
+        "max": "5",
+        "original_idx": 2,
+        "param_en": "Slow Missiles",
+        "param_ko": "투사체 감속"
       },
       {
         "type": "ama",
@@ -7882,21 +7882,21 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Frozen Orb",
-        "min": "15",
-        "max": "13",
-        "original_idx": 6,
-        "param_en": "Frozen Orb",
-        "param_ko": "얼음 보주"
-      },
-      {
-        "type": "hit-skill",
         "param": "Ice Blast",
         "min": "18",
         "max": "20",
         "original_idx": 5,
         "param_en": "Ice Blast",
         "param_ko": "얼음 작렬"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Frozen Orb",
+        "min": "15",
+        "max": "13",
+        "original_idx": 6,
+        "param_en": "Frozen Orb",
+        "param_ko": "얼음 보주"
       },
       {
         "type": "dmg-undead",
@@ -8067,7 +8067,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "pierce-fire",
@@ -8196,7 +8196,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "ignore-ac",
@@ -8292,15 +8292,6 @@
     ],
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Poison Nova",
-        "min": "25",
-        "max": "15",
-        "original_idx": 3,
-        "param_en": "Poison Nova",
-        "param_ko": "맹독 확산"
-      },
-      {
         "type": "gethit-skill",
         "param": "Lower Resist",
         "min": "20",
@@ -8308,6 +8299,15 @@
         "original_idx": 2,
         "param_en": "Lower Resist",
         "param_ko": "저항 감소"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Poison Nova",
+        "min": "25",
+        "max": "15",
+        "original_idx": 3,
+        "param_en": "Poison Nova",
+        "param_ko": "맹독 확산"
       },
       {
         "type": "aura",
@@ -8348,7 +8348,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "pierce-pois",
@@ -8875,15 +8875,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Cyclone Armor",
-        "min": "5",
-        "max": "15",
-        "original_idx": 2,
-        "param_en": "Cyclone Armor",
-        "param_ko": "회오리 갑옷"
-      },
-      {
         "type": "hit-skill",
         "param": "Twister",
         "min": "5",
@@ -8891,6 +8882,15 @@
         "original_idx": 1,
         "param_en": "Twister",
         "param_ko": "돌개바람"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Cyclone Armor",
+        "min": "5",
+        "max": "15",
+        "original_idx": 2,
+        "param_en": "Cyclone Armor",
+        "param_ko": "회오리 갑옷"
       },
       {
         "type": "dru",
@@ -9069,15 +9069,6 @@
     ],
     "options": [
       {
-        "type": "att-skill",
-        "param": "Frozen Orb",
-        "min": "16",
-        "max": "21",
-        "original_idx": 5,
-        "param_en": "Frozen Orb",
-        "param_ko": "얼음 보주"
-      },
-      {
         "type": "hit-skill",
         "param": "Tornado",
         "min": "20",
@@ -9085,6 +9076,15 @@
         "original_idx": 4,
         "param_en": "Tornado",
         "param_ko": "회오리바람"
+      },
+      {
+        "type": "att-skill",
+        "param": "Frozen Orb",
+        "min": "16",
+        "max": "21",
+        "original_idx": 5,
+        "param_en": "Frozen Orb",
+        "param_ko": "얼음 보주"
       },
       {
         "type": "att%",
@@ -9366,7 +9366,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att-undead",
@@ -9783,11 +9783,11 @@
       },
       {
         "type": "dmg-pois",
-        "param": "125",
-        "min": "154",
-        "max": "154",
-        "param_en": "125",
-        "param_ko": "125",
+        "param": "5",
+        "min": "75",
+        "max": "75",
+        "param_en": "5",
+        "param_ko": "5",
         "desc_en": "to Minimum Poison Damage",
         "desc_ko": "최소 독 피해"
       },
@@ -10116,7 +10116,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-norm",
@@ -10315,7 +10315,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "lifesteal",
@@ -10393,15 +10393,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Fade",
-        "min": "5",
-        "max": "15",
-        "original_idx": 2,
-        "param_en": "Fade",
-        "param_ko": "흐리기"
-      },
-      {
         "type": "hit-skill",
         "param": "Venom",
         "min": "25",
@@ -10409,6 +10400,15 @@
         "original_idx": 1,
         "param_en": "Venom",
         "param_ko": "맹독"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Fade",
+        "min": "5",
+        "max": "15",
+        "original_idx": 2,
+        "param_en": "Fade",
+        "param_ko": "흐리기"
       },
       {
         "type": "ass",
@@ -10528,7 +10528,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-max",
@@ -10678,22 +10678,22 @@
       },
       {
         "type": "dmg-pois",
-        "param": "125",
-        "min": "154",
-        "max": "154",
-        "param_en": "125",
-        "param_ko": "125",
+        "param": "5",
+        "min": "75",
+        "max": "75",
+        "param_en": "5",
+        "param_ko": "5",
         "desc_en": "to Minimum Poison Damage",
         "desc_ko": "최소 독 피해"
       },
       {
         "type": "dmg-pois",
-        "param": "175",
-        "min": "312",
-        "max": "312",
+        "param": "7",
+        "min": "213",
+        "max": "213",
         "original_idx": 1,
-        "param_en": "175",
-        "param_ko": "175",
+        "param_en": "7",
+        "param_ko": "7",
         "desc_en": "to Minimum Poison Damage",
         "desc_ko": "최소 독 피해"
       },
@@ -11107,7 +11107,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "reduce-ac",
@@ -11303,21 +11303,21 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Decrepify",
-        "min": "30",
-        "max": "1",
-        "original_idx": 6,
-        "param_en": "Decrepify",
-        "param_ko": "노화"
-      },
-      {
-        "type": "hit-skill",
         "param": "Life Tap",
         "min": "5",
         "max": "10",
         "original_idx": 5,
         "param_en": "Life Tap",
         "param_ko": "생명력 추출"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Decrepify",
+        "min": "30",
+        "max": "1",
+        "original_idx": 6,
+        "param_en": "Decrepify",
+        "param_ko": "노화"
       },
       {
         "type": "dmg-undead",
@@ -11474,7 +11474,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "reduce-ac",
@@ -11673,7 +11673,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att-undead",
@@ -11767,7 +11767,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att%",
@@ -11856,21 +11856,21 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Mark of the Wolf",
-        "min": "100",
-        "max": "1",
-        "original_idx": 2,
-        "param_en": "Mark of the Wolf",
-        "param_ko": "늑대의 징표"
-      },
-      {
-        "type": "hit-skill",
         "param": "Mark of the Bear",
         "min": "100",
         "max": "1",
         "original_idx": 1,
         "param_en": "Mark of the Bear",
         "param_ko": "곰의 징표"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Mark of the Wolf",
+        "min": "100",
+        "max": "1",
+        "original_idx": 2,
+        "param_en": "Mark of the Wolf",
+        "param_ko": "늑대의 징표"
       },
       {
         "type": "skilltab",
@@ -12705,7 +12705,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att%",

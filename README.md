@@ -5,7 +5,7 @@
 
 디아블로 2: 레저렉션 플레이를 더욱 쾌적하게 만들어주는 **다기능 유틸리티 오버레이(DUO)** 프로그램입니다. 기존의 **다음 공역(Terror Zone)** 및 **우버디아(Diablo Clone)** 실시간 추적 기능은 물론, 사용자 맞춤형 **버프 스킬 타이머** 및 **실시간 아이템 사전 검색** 등 게임에 유용한 다양한 편의 기능들을 화면 위에 실시간으로 제공합니다.
 
-> **📢 알림:** 기능이 많아지면서 하나하나 테스트하는 데 시간이 많이 소요되고 있습니다. (예: 테러존 API 갱신 테스트 시 최소 30분 대기 등) 따라서 일부 버그나 미흡한 점이 있더라도 너그럽게 양해 부탁드립니다. 저 또한 게임 플레이 시 이 프로그램을 항상 사용하고 있으므로, 오류를 발견하는 대로 최대한 빠르게 수정하여 업데이트하겠습니다!
+> **📢 알림:** 기능이 많아지면서 하나하나 테스트하는 데 시간이 많이 소요되고 있습니다. (예: 테러존 API 갱신 테스트 시 최소 30분 대기 등) 따라서 일부 버그나 미흡한 점이 있더라도 너그럽게 양해 부탁드립니다. 저 또한 게임 플레이 시 이 프로그램을 항상 사용하고 있으므로, 오류를 발견하는 대로 최대한 빠르게 수정하여 업데이트하겠습니다! [👉 개발자에게 피드백 및 도움 주러 가기](#support-kr)
 
 ---
 
@@ -98,6 +98,7 @@
 
 **3. 강력한 버프 오버레이**
 * **프로필 및 스킬 관리:** 캐릭터나 빌드별로 다수의 버프 프로필을 생성·복제할 수 있으며, 게임 화면 내 스킬 아이콘을 직접 캡처하여 쉽게 단축키와 지속시간을 등록할 수 있습니다.
+* **스마트 버프 초기화 무시:** 창을 닫기 위해 누른 단축키(예: ESC) 때문에 버프 타이머까지 함께 초기화되는 것을 방지합니다. 인벤토리나 파티창 단축키 등을 '초기화 키 무시할 직전 키'로 등록해두면, 창을 열고 닫을 때 원치 않는 버프 초기화가 일어나지 않아 더욱 쾌적하게 게임을 즐길 수 있습니다. (토글 방식의 단축키 연속 2회 입력 시 무시 상태 자동 해제 지원)
 * **디테일한 시각 효과:** 아이콘 크기, 타이머 및 단축키 텍스트의 크기와 표시 위치, 시간 표시 형식(초 또는 분 단위)을 내 입맛에 맞게 자유롭게 커스텀할 수 있습니다.
 * **커스텀 알림음:** 기본 음원 외에 `sounds` 폴더에 원하는 파일(`.wav`, `.mp3`)을 넣어 스킬별로 개별 알림음과 볼륨, 깜빡임 경고 시작 시간을 지정할 수 있습니다.
 
@@ -178,7 +179,7 @@
 
 A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance your Diablo 2: Resurrected gameplay. In addition to real-time tracking for the upcoming **Terror Zone** and **Diablo Clone** progression across servers, it provides various quality-of-life utilities, such as a highly customizable **Buff Skill Timer** and an **In-game Item Search Dictionary**, directly on your game screen.
 
-> **📢 Notice:** As the number of features continues to grow, testing each one takes a considerable amount of time. Therefore, please be understanding if you encounter any minor bugs. Since I also actively use this program for my own gameplay, I will make sure to fix any discovered errors as quickly as possible!
+> **📢 Notice:** As the number of features continues to grow, testing each one takes a considerable amount of time. Therefore, please be understanding if you encounter any minor bugs. Since I also actively use this program for my own gameplay, I will make sure to fix any discovered errors as quickly as possible! [👉 Go to Feedback & Support](#support-en)
 
 ---
 
@@ -268,6 +269,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 **3. Powerful Buff Overlay**
 * **Profile & Skill Management:** Create, duplicate, and manage multiple buff profiles for different characters or builds. Register new skills effortlessly using the built-in screen capture tool to set hotkeys and durations.
+* **Smart Buff Clear Ignore:** Prevent accidental buff timer resets. By registering keys like your inventory or party window hotkeys as 'Ignore if Prev Key', pressing your clear hotkey (e.g., ESC) to close those windows will no longer unintentionally reset your active buffs. (Supports auto-cancellation on double key presses)
 * **Highly Customizable UI:** Adjust icon sizes, timer and hotkey text sizes/positions, and time display formats (seconds or MM:SS) to suit your preferences.
 * **Custom Alerts:** Assign custom audio files (`.wav`, `.mp3`) placed in the `sounds` folder to individual skills, and configure specific volumes and flash alert thresholds.
 

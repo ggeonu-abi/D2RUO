@@ -682,7 +682,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -755,7 +755,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -2016,17 +2016,6 @@
         "desc_ko": "타격 회복 속도"
       },
       {
-        "type": "dmg-max",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Maximum Damage",
-        "desc_ko": "최대 피해"
-      },
-      {
         "type": "dmg-min",
         "param": "",
         "min": "0",
@@ -2036,6 +2025,17 @@
         "param_ko": "",
         "desc_en": "Minimum Damage",
         "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
       },
       {
         "type": "att",
@@ -2199,17 +2199,6 @@
         "desc_ko": "타격 회복 속도"
       },
       {
-        "type": "dmg-max",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Maximum Damage",
-        "desc_ko": "최대 피해"
-      },
-      {
         "type": "dmg-min",
         "param": "",
         "min": "0",
@@ -2219,6 +2208,17 @@
         "param_ko": "",
         "desc_en": "Minimum Damage",
         "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
       },
       {
         "type": "att",
@@ -2382,17 +2382,6 @@
         "desc_ko": "타격 회복 속도"
       },
       {
-        "type": "dmg-max",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Maximum Damage",
-        "desc_ko": "최대 피해"
-      },
-      {
         "type": "dmg-min",
         "param": "",
         "min": "0",
@@ -2404,6 +2393,17 @@
         "desc_ko": "최소 피해"
       },
       {
+        "type": "dmg-max",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
         "type": "att",
         "param": "",
         "min": "0",
@@ -2413,6 +2413,83 @@
         "param_ko": "",
         "desc_en": "to Attack Rating",
         "desc_ko": "명중률"
+      },
+      {
+        "type": "fire-min",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 17,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Minimum Fire Damage",
+        "desc_ko": "최소 화염 피해"
+      },
+      {
+        "type": "fire-max",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 18,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Maximum Fire Damage",
+        "desc_ko": "최대 화염 피해"
+      },
+      {
+        "type": "ltng-min",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 21,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Minimum Lightning Damage",
+        "desc_ko": "최소 번개 피해"
+      },
+      {
+        "type": "ltng-max",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 22,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Maximum Lightning Damage",
+        "desc_ko": "최대 번개 피해"
+      },
+      {
+        "type": "cold-min",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 19,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Minimum Cold Damage",
+        "desc_ko": "최소 냉기 피해"
+      },
+      {
+        "type": "cold-max",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 20,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Maximum Cold Damage",
+        "desc_ko": "최대 냉기 피해"
+      },
+      {
+        "type": "dmg-pois",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 23,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Minimum Poison Damage",
+        "desc_ko": "최소 독 피해"
       },
       {
         "type": "str",
@@ -2573,18 +2650,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
-      },
-      {
-        "type": "dmg-max",
-        "param": "",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Maximum Damage",
-        "desc_ko": "최대 피해"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-min",
@@ -2596,6 +2662,17 @@
         "param_ko": "",
         "desc_en": "Minimum Damage",
         "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
       },
       {
         "type": "att",
@@ -4459,7 +4536,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -4543,7 +4620,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -4627,7 +4704,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -4719,7 +4796,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -4789,7 +4866,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -4859,7 +4936,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -4929,7 +5006,77 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Colossus Voulge": {
+    "name_ko": "⚔️ [폴암(미늘창)] 콜로서스 불즈 (베이스)",
+    "name_en": "⚔️ [Polearms] Colossus Voulge (Base)",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7vo",
+      "weapon_type1": "pole",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 17,
+      "2handmaxdam": 165,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "10",
+      "reqstr": 210,
+      "reqdex": 55,
+      "durability": 50
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -4999,7 +5146,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5069,7 +5216,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5139,7 +5286,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5209,7 +5356,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5279,7 +5426,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5349,7 +5496,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5419,7 +5566,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5489,7 +5636,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5559,7 +5706,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5629,7 +5776,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5699,7 +5846,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5769,7 +5916,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5839,7 +5986,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5909,7 +6056,147 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Balrog Blade": {
+    "name_ko": "⚔️ [검] 발록 블레이드 (베이스)",
+    "name_en": "⚔️ [Swords] Balrog Blade (Base)",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7gs",
+      "weapon_type1": "swor",
+      "weapon_type2": "",
+      "mindam": 15,
+      "maxdam": 75,
+      "2handmindam": 55,
+      "2handmaxdam": 118,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": true,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 185,
+      "reqdex": 87,
+      "durability": 50
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Colossus Blade": {
+    "name_ko": "⚔️ [검] 콜로서스 블레이드 (베이스)",
+    "name_en": "⚔️ [Swords] Colossus Blade (Base)",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7gd",
+      "weapon_type1": "swor",
+      "weapon_type2": "",
+      "mindam": 25,
+      "maxdam": 65,
+      "2handmindam": 58,
+      "2handmaxdam": 115,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": true,
+      "2handed": true,
+      "speed": "5",
+      "reqstr": 189,
+      "reqdex": 110,
+      "durability": 50
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5979,7 +6266,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -6049,7 +6336,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -6119,7 +6406,147 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Shillelagh": {
+    "name_ko": "⚔️ [스태프] 쉴레일리 (베이스)",
+    "name_en": "⚔️ [Staves] Shillelagh (Base)",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6bs",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 65,
+      "2handmaxdam": 108,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 52,
+      "reqdex": 27,
+      "durability": 40
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Elder Staff": {
+    "name_ko": "⚔️ [스태프] 엘더 스태프 (베이스)",
+    "name_en": "⚔️ [Staves] Elder Staff (Base)",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6cs",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 80,
+      "2handmaxdam": 93,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 44,
+      "reqdex": 37,
+      "durability": 35
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -6181,7 +6608,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -6661,7 +7088,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -6807,7 +7234,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -6953,7 +7380,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -7099,7 +7526,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -7245,7 +7672,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -7391,7 +7818,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",

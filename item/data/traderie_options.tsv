@@ -1,4 +1,4 @@
-
+			
 abs-cold		prop_702	냉기 흡수
 abs-cold%		prop_702	냉기 흡수 %
 abs-fire		prop_659	화염 흡수
@@ -45,6 +45,13 @@ dmg-elem		prop_549	원소 피해 (min - max)
 dmg-max		prop_448	최대 피해
 dmg-min		prop_416	최소 피해
 dmg-undead		prop_538	언데드에게 주는 피해 증가 %
+fire-min		prop_458	최소 화염 피해
+fire-max		prop_459	최대 화염 피해
+cold-min		prop_482	최소 냉기 피해
+cold-max		prop_483	최대 냉기 피해
+ltng-min		prop_478	최소 번개 피해
+ltng-max		prop_479	최대 번개 피해
+dmg-pois		prop_518	독 피해 (x 초에 걸쳐)
 dru		prop_488	드루이드 기술 레벨
 enr		prop_421	마력
 ethereal		prop_Ethereal	에테리얼(무형)

@@ -38,7 +38,7 @@
       "param_en": "",
       "param_ko": "",
       "desc_en": "Enhanced Damage",
-      "desc_ko": "피해 증가"
+      "desc_ko": "피해 증가(%)"
     },
     {
       "type": "extra-mag",
@@ -202,7 +202,7 @@
       "param_en": "",
       "param_ko": "",
       "desc_en": "Enhanced Damage",
-      "desc_ko": "피해 증가"
+      "desc_ko": "피해 증가(%)"
     },
     {
       "type": "pierce-dmg",

@@ -2760,7 +2760,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "light",
@@ -3898,7 +3898,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -4361,7 +4361,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -5264,12 +5264,12 @@
       "partial_2": [
         {
           "type": "dmg-pois",
-          "param": "80",
-          "min": "25",
-          "max": "25",
+          "param": "3",
+          "min": "8",
+          "max": "8",
           "original_idx": 102,
-          "param_en": "80",
-          "param_ko": "80",
+          "param_en": "3",
+          "param_ko": "3",
           "desc_en": "to Minimum Poison Damage",
           "desc_ko": "최소 독 피해"
         }
@@ -5421,12 +5421,12 @@
       "partial_2": [
         {
           "type": "dmg-pois",
-          "param": "80",
-          "min": "25",
-          "max": "25",
+          "param": "3",
+          "min": "8",
+          "max": "8",
           "original_idx": 102,
-          "param_en": "80",
-          "param_ko": "80",
+          "param_en": "3",
+          "param_ko": "3",
           "desc_en": "to Minimum Poison Damage",
           "desc_ko": "최소 독 피해"
         }
@@ -5560,12 +5560,12 @@
       "partial_2": [
         {
           "type": "dmg-pois",
-          "param": "80",
-          "min": "25",
-          "max": "25",
+          "param": "3",
+          "min": "8",
+          "max": "8",
           "original_idx": 102,
-          "param_en": "80",
-          "param_ko": "80",
+          "param_en": "3",
+          "param_ko": "3",
           "desc_en": "to Minimum Poison Damage",
           "desc_ko": "최소 독 피해"
         }
@@ -6159,7 +6159,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "lifesteal",
@@ -6726,7 +6726,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att%",
@@ -7890,7 +7890,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-undead",
@@ -8628,7 +8628,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         },
         {
           "type": "manasteal",
@@ -8842,7 +8842,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         },
         {
           "type": "manasteal",
@@ -9078,7 +9078,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         },
         {
           "type": "manasteal",
@@ -9296,7 +9296,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         },
         {
           "type": "manasteal",
@@ -10308,7 +10308,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-undead",
@@ -11847,7 +11847,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-undead",
@@ -14092,7 +14092,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -14279,12 +14279,12 @@
       "partial_3": [
         {
           "type": "dmg-pois",
-          "param": "75",
-          "min": "75",
-          "max": "75",
+          "param": "3",
+          "min": "22",
+          "max": "22",
           "original_idx": 103,
-          "param_en": "75",
-          "param_ko": "75",
+          "param_en": "3",
+          "param_ko": "3",
           "desc_en": "to Minimum Poison Damage",
           "desc_ko": "최소 독 피해"
         }
@@ -14442,12 +14442,12 @@
       "partial_3": [
         {
           "type": "dmg-pois",
-          "param": "75",
-          "min": "75",
-          "max": "75",
+          "param": "3",
+          "min": "22",
+          "max": "22",
           "original_idx": 103,
-          "param_en": "75",
-          "param_ko": "75",
+          "param_en": "3",
+          "param_ko": "3",
           "desc_en": "to Minimum Poison Damage",
           "desc_ko": "최소 독 피해"
         }
@@ -14596,12 +14596,12 @@
       "partial_3": [
         {
           "type": "dmg-pois",
-          "param": "75",
-          "min": "75",
-          "max": "75",
+          "param": "3",
+          "min": "22",
+          "max": "22",
           "original_idx": 103,
-          "param_en": "75",
-          "param_ko": "75",
+          "param_en": "3",
+          "param_ko": "3",
           "desc_en": "to Minimum Poison Damage",
           "desc_ko": "최소 독 피해"
         }
@@ -14699,12 +14699,12 @@
       },
       {
         "type": "dmg-pois",
-        "param": "50",
-        "min": "125",
-        "max": "175",
+        "param": "2",
+        "min": "24",
+        "max": "34",
         "original_idx": 4,
-        "param_en": "50",
-        "param_ko": "50",
+        "param_en": "2",
+        "param_ko": "2",
         "desc_en": "to Minimum Poison Damage",
         "desc_ko": "최소 독 피해"
       },
@@ -14748,12 +14748,12 @@
       "partial_3": [
         {
           "type": "dmg-pois",
-          "param": "75",
-          "min": "75",
-          "max": "75",
+          "param": "3",
+          "min": "22",
+          "max": "22",
           "original_idx": 103,
-          "param_en": "75",
-          "param_ko": "75",
+          "param_en": "3",
+          "param_ko": "3",
           "desc_en": "to Minimum Poison Damage",
           "desc_ko": "최소 독 피해"
         }
@@ -14902,12 +14902,12 @@
       "partial_3": [
         {
           "type": "dmg-pois",
-          "param": "75",
-          "min": "75",
-          "max": "75",
+          "param": "3",
+          "min": "22",
+          "max": "22",
           "original_idx": 103,
-          "param_en": "75",
-          "param_ko": "75",
+          "param_en": "3",
+          "param_ko": "3",
           "desc_en": "to Minimum Poison Damage",
           "desc_ko": "최소 독 피해"
         }
@@ -16910,7 +16910,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att",
@@ -17068,7 +17068,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-demon",
@@ -17553,7 +17553,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "crush",
@@ -17718,16 +17718,16 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-pois",
-        "param": "50",
-        "min": "255",
-        "max": "255",
+        "param": "2",
+        "min": "50",
+        "max": "50",
         "original_idx": 2,
-        "param_en": "50",
-        "param_ko": "50",
+        "param_en": "2",
+        "param_ko": "2",
         "desc_en": "to Minimum Poison Damage",
         "desc_ko": "최소 독 피해"
       },
@@ -18451,7 +18451,7 @@
         "param_en": "",
         "param_ko": "",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-ltng",
@@ -19315,12 +19315,12 @@
       },
       {
         "type": "dmg-pois",
-        "param": "75",
-        "min": "30",
-        "max": "36",
+        "param": "3",
+        "min": "9",
+        "max": "11",
         "original_idx": 4,
-        "param_en": "75",
-        "param_ko": "75",
+        "param_en": "3",
+        "param_ko": "3",
         "desc_en": "to Minimum Poison Damage",
         "desc_ko": "최소 독 피해"
       },
@@ -19469,7 +19469,7 @@
         "param_en": "2",
         "param_ko": "2",
         "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-cold",
@@ -20281,7 +20281,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         }
       ],
       "full": [
@@ -20385,7 +20385,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         }
       ],
       "full": [
@@ -20489,7 +20489,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         }
       ],
       "full": [
@@ -20665,7 +20665,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         },
         {
           "type": "oskill",
@@ -20857,7 +20857,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         },
         {
           "type": "oskill",
@@ -21040,7 +21040,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         },
         {
           "type": "oskill",
@@ -21234,7 +21234,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         },
         {
           "type": "oskill",
@@ -21415,7 +21415,7 @@
           "param_en": "",
           "param_ko": "",
           "desc_en": "Enhanced Damage",
-          "desc_ko": "피해 증가"
+          "desc_ko": "피해 증가(%)"
         },
         {
           "type": "oskill",
