@@ -1,4 +1,3 @@
-			
 abs-cold		prop_702	냉기 흡수
 abs-cold%		prop_702	냉기 흡수 %
 abs-fire		prop_659	화염 흡수
@@ -35,6 +34,8 @@ block		prop_446	막기 확률 증가
 cast1		prop_520	시전 속도 증가 %
 cast3		prop_520	시전 속도 증가 %
 cheap		prop_764	상점 물품 가격 하락
+cold-max		prop_483	최대 냉기 피해
+cold-min		prop_482	최소 냉기 피해
 crush		prop_567	강타 확률 %
 demon-heal		prop_637	악마 처치 시 생명력 회복
 dex		prop_429	민첩
@@ -44,14 +45,8 @@ dmg-demon		prop_513	악마에게 주는 피해 증가(%)
 dmg-elem		prop_549	원소 피해 (min - max)
 dmg-max		prop_448	최대 피해
 dmg-min		prop_416	최소 피해
-dmg-undead		prop_538	언데드에게 주는 피해 증가 %
-fire-min		prop_458	최소 화염 피해
-fire-max		prop_459	최대 화염 피해
-cold-min		prop_482	최소 냉기 피해
-cold-max		prop_483	최대 냉기 피해
-ltng-min		prop_478	최소 번개 피해
-ltng-max		prop_479	최대 번개 피해
 dmg-pois		prop_518	독 피해 (x 초에 걸쳐)
+dmg-undead		prop_538	언데드에게 주는 피해 증가 %
 dru		prop_488	드루이드 기술 레벨
 enr		prop_421	마력
 ethereal		prop_Ethereal	에테리얼(무형)
@@ -60,6 +55,8 @@ extra-fire		prop_750	화염 기술 피해 증가 %
 extra-ltng		prop_743	번개 기술 피해 증가 %
 extra-mag		prop_1879	마법 기술 피해
 extra-pois		prop_783	독 기술 피해 증가 %
+fire-max		prop_459	최대 화염 피해
+fire-min		prop_458	최소 화염 피해
 freeze		prop_570	대상 빙결
 gethit-skill	101	prop_631	(반격시)x% 확률로 %레벨 [신성한 빛줄기] 시전
 gethit-skill	38	prop_433	(반격시)x% 확률로 %레벨 [번개 줄기] 시전
@@ -73,6 +70,8 @@ hp%		prop_673	최대 생명력 증가 %
 lifesteal		prop_462	적중당 생명력 훔침
 light		prop_422	시야
 light-thorns		prop_611	공격자가 번개 피해를 받음
+ltng-max		prop_479	최대 번개 피해
+ltng-min		prop_478	최소 번개 피해
 mag%		prop_461	마법 아이템 발견 확률 증가
 mana		prop_400	마나
 mana%		prop_617	최대 마나 증가 %
@@ -144,18 +143,25 @@ skill	Teeth	prop_1003	이빨 (강령술사 전용)
 skill	Wake of Fire Sentry	prop_1116	불의 파동 (암살자 전용)
 skill	feral rage	prop_959	흉포한 격노 (드루이드 전용)
 skilltab	0	prop_454	활과 쇠뇌 기술 (아마존 전용)
+skilltab	1	prop_455	지속 효과와 마법 기술 (아마존 전용)
 skilltab	10	prop_444	공격 오라 (성기사 전용)
 skilltab	11	prop_445	방어 오라 (성기사 전용)
 skilltab	12	prop_404	전투 기술 (야만용사 전용)
 skilltab	13	prop_405	전투 숙련 (야만용사 전용)
 skilltab	14	prop_406	전투 숙련 (야만용사 전용)
+skilltab	15	prop_485	소환 기술 (드루이드 전용)
 skilltab	16	prop_486	변신 기술 (드루이드 전용)
+skilltab	17	prop_487	원소 기술 (드루이드 전용)
+skilltab	18	prop_408	덫 (암살자 전용)
 skilltab	19	prop_409	그림자 단련 (암살자 전용)
 skilltab	2	prop_456	투척과 창 기술(아마존 전용)
 skilltab	20	prop_410	무술 (암살자 전용)
 skilltab	21	prop_1546	악마 기술 (악마술사 전용)
 skilltab	22	prop_1547	기괴 기술 (악마술사 전용)
 skilltab	23	prop_1548	혼돈 기술 (악마술사 전용)
+skilltab	3	prop_515	화염 기술 (원소술사 전용)
+skilltab	4	prop_516	번개 기술 (원소술사 전용)
+skilltab	5	prop_517	냉기 기술 (원소술사 전용)
 skilltab	6	prop_499	저주 (강령술사 전용)
 skilltab	7	prop_500	독과 뼈 기술 (강령술사 전용)
 skilltab	8	prop_485	소환 기술 (강령술사 전용)

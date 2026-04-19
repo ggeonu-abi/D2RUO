@@ -5097,258 +5097,6 @@
       }
     ]
   },
-  "Vortex Shield": {
-    "name_ko": "🛡️ [성기사 전용 방패] 볼텍스 쉴드 (베이스)",
-    "name_en": "🛡️ [Paladin Shields] Vortex Shield (Base)",
-    "item_type_en": "Paladin Shields",
-    "item_type_ko": "성기사 전용 방패",
-    "base_stats": {
-      "item_type": "armor",
-      "namestr": "paf",
-      "armor_type": "ashd",
-      "minac": 182,
-      "maxac": 225,
-      "reqstr": 148,
-      "reqdex": 0,
-      "durability": 90
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "65",
-        "original_idx": 5,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "121",
-        "original_idx": 6,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ac%",
-        "min": "0",
-        "max": "65",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Defense",
-        "desc_ko": "방어력 증가"
-      },
-      {
-        "type": "res-all",
-        "min": "0",
-        "max": "45",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "All Resistances",
-        "desc_ko": "모든 저항"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "4",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      }
-    ]
-  },
-  "Sacred Rondache": {
-    "name_ko": "🛡️ [성기사 전용 방패] 세이크리드 론다쉬 (베이스)",
-    "name_en": "🛡️ [Paladin Shields] Sacred Rondache (Base)",
-    "item_type_en": "Paladin Shields",
-    "item_type_ko": "성기사 전용 방패",
-    "base_stats": {
-      "item_type": "armor",
-      "namestr": "pac",
-      "armor_type": "ashd",
-      "minac": 138,
-      "maxac": 164,
-      "reqstr": 109,
-      "reqdex": 0,
-      "durability": 68
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "65",
-        "original_idx": 5,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "121",
-        "original_idx": 6,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ac%",
-        "min": "0",
-        "max": "65",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Defense",
-        "desc_ko": "방어력 증가"
-      },
-      {
-        "type": "res-all",
-        "min": "0",
-        "max": "45",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "All Resistances",
-        "desc_ko": "모든 저항"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "4",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      }
-    ]
-  },
-  "Sacred Targe": {
-    "name_ko": "🛡️ [성기사 전용 방패] 세이크리드 타아지 (베이스)",
-    "name_en": "🛡️ [Paladin Shields] Sacred Targe (Base)",
-    "item_type_en": "Paladin Shields",
-    "item_type_ko": "성기사 전용 방패",
-    "base_stats": {
-      "item_type": "armor",
-      "namestr": "pab",
-      "armor_type": "ashd",
-      "minac": 126,
-      "maxac": 158,
-      "reqstr": 86,
-      "reqdex": 0,
-      "durability": 45
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "65",
-        "original_idx": 5,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "121",
-        "original_idx": 6,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ac%",
-        "min": "0",
-        "max": "65",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Defense",
-        "desc_ko": "방어력 증가"
-      },
-      {
-        "type": "res-all",
-        "min": "0",
-        "max": "45",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "All Resistances",
-        "desc_ko": "모든 저항"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "4",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      }
-    ]
-  },
   "Great Poleaxe": {
     "name_ko": "⚔️ [폴암(미늘창)] 그레이트 폴액스 (베이스)",
     "name_en": "⚔️ [Polearms] Great Poleaxe (Base)",
@@ -7230,6 +6978,258 @@
         "type": "sock",
         "min": "0",
         "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Sacred Targe": {
+    "name_ko": "🛡️ [성기사 전용 방패] 세이크리드 타아지 (베이스)",
+    "name_en": "🛡️ [Paladin Shields] Sacred Targe (Base)",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "pab",
+      "armor_type": "ashd",
+      "minac": 126,
+      "maxac": 158,
+      "reqstr": 86,
+      "reqdex": 0,
+      "durability": 45
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "65",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "121",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "65",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "res-all",
+        "min": "0",
+        "max": "45",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "4",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Sacred Rondache": {
+    "name_ko": "🛡️ [성기사 전용 방패] 세이크리드 론다쉬 (베이스)",
+    "name_en": "🛡️ [Paladin Shields] Sacred Rondache (Base)",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "pac",
+      "armor_type": "ashd",
+      "minac": 138,
+      "maxac": 164,
+      "reqstr": 109,
+      "reqdex": 0,
+      "durability": 68
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "65",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "121",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "65",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "res-all",
+        "min": "0",
+        "max": "45",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "4",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Vortex Shield": {
+    "name_ko": "🛡️ [성기사 전용 방패] 볼텍스 쉴드 (베이스)",
+    "name_en": "🛡️ [Paladin Shields] Vortex Shield (Base)",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "paf",
+      "armor_type": "ashd",
+      "minac": 182,
+      "maxac": 225,
+      "reqstr": 148,
+      "reqdex": 0,
+      "durability": 90
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "65",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "121",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "65",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "res-all",
+        "min": "0",
+        "max": "45",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "4",
         "original_idx": 2,
         "param": "",
         "param_en": "",
