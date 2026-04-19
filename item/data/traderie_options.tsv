@@ -106,6 +106,7 @@ res-fire		prop_427	화염 저항 %
 res-ltng		prop_428	번개 저항 %
 res-mag		prop_936	마법 저항 %
 res-pois		prop_401	독 저항 %
+res-pois-len		prop_419	독 지속시간 감소
 skill	110	prop_1038	번개 저항 (성기사 전용)
 skill	111	prop_577	복수(성기사 전용)
 skill	26		속사 (아마존 전용)
