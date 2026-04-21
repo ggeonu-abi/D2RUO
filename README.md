@@ -126,6 +126,7 @@
 | 파일/폴더명 | 설명 |
 | :--- | :--- |
 | `DUO.exe` | 프로그램 메인 실행 파일 |
+| `act_map.json` | ⚠️ 테러존 지역 레벨(지옥 난이도) 및 Act 분류 필수 데이터 (삭제 금지) |
 | `area.json` | ⚠️ 테러존 다국어 번역 필수 데이터 (삭제 금지) |
 | `d2_overlay_config.json` | 사용자 환경설정 저장 파일 (자동 생성) |
 | `profiles/` | 캡처한 버프 스킬 아이콘 및 설정(`skills.json`)이 저장되는 폴더 |
@@ -297,6 +298,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | File / Folder | Description |
 | :--- | :--- |
 | `DUO.exe` | Main executable file. |
+| `act_map.json` | ⚠️ Essential TZ area level (Hell) and Act classification data (Do not delete). |
 | `area.json` | ⚠️ Essential TZ translation data (Do not delete). |
 | `d2_overlay_config.json` | Auto-saved user preferences (UI, fonts, volume). |
 | `profiles/` | Folder containing your captured buff icons and `skills.json`. |
