@@ -18,6 +18,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 21,
     "options": [
       {
         "type": "ac%",
@@ -114,6 +115,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 29,
     "options": [
       {
         "type": "gethit-skill",
@@ -218,6 +220,7 @@
         "ko": "해머"
       }
     ],
+    "lvl_req": 63,
     "options": [
       {
         "type": "aura",
@@ -367,6 +370,7 @@
         "ko": "메이스"
       }
     ],
+    "lvl_req": 35,
     "options": [
       {
         "type": "swing2",
@@ -483,6 +487,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 47,
     "options": [
       {
         "type": "hit-skill",
@@ -567,6 +572,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 61,
     "options": [
       {
         "type": "aura",
@@ -704,6 +710,7 @@
         "ko": "원거리 무기(활/크로스보우)"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "hit-skill",
@@ -835,6 +842,7 @@
         "ko": "모든 무기"
       }
     ],
+    "lvl_req": 69,
     "options": [
       {
         "type": "indestruct",
@@ -1006,6 +1014,7 @@
         "ko": "모든 무기"
       }
     ],
+    "lvl_req": 57,
     "options": [
       {
         "type": "allskills",
@@ -1141,6 +1150,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 63,
     "options": [
       {
         "type": "allskills",
@@ -1270,6 +1280,7 @@
         "ko": "클러"
       }
     ],
+    "lvl_req": 57,
     "options": [
       {
         "type": "hit-skill",
@@ -1391,6 +1402,7 @@
         "ko": "폴암(미늘창)"
       }
     ],
+    "lvl_req": 47,
     "options": [
       {
         "type": "hit-skill",
@@ -1522,6 +1534,7 @@
         "ko": "도끼"
       }
     ],
+    "lvl_req": 55,
     "options": [
       {
         "type": "indestruct",
@@ -1675,6 +1688,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 51,
     "options": [
       {
         "type": "hit-skill",
@@ -1802,6 +1816,7 @@
         "ko": "검"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "hit-skill",
@@ -1955,6 +1970,7 @@
         "ko": "해머"
       }
     ],
+    "lvl_req": 67,
     "options": [
       {
         "type": "hit-skill",
@@ -2094,6 +2110,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 61,
     "options": [
       {
         "type": "hit-skill",
@@ -2221,6 +2238,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 61,
     "options": [
       {
         "type": "hit-skill",
@@ -2348,6 +2366,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "gethit-skill",
@@ -2477,6 +2496,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "gethit-skill",
@@ -2602,6 +2622,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 47,
     "options": [
       {
         "type": "balance2",
@@ -2721,6 +2742,7 @@
         "ko": "원거리 무기(활/크로스보우)"
       }
     ],
+    "lvl_req": 25,
     "options": [
       {
         "type": "aura",
@@ -2848,6 +2870,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "allskills",
@@ -2975,6 +2998,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 45,
     "options": [
       {
         "type": "hit-skill",
@@ -3069,6 +3093,7 @@
         "ko": "근접 무기"
       }
     ],
+    "lvl_req": 63,
     "options": [
       {
         "type": "indestruct",
@@ -3201,20 +3226,24 @@
     "name_en": "Exile",
     "name_ko": "추방",
     "runes_ko": [
-      "앰",
-      "베르",
+      "벡스",
+      "오움",
       "이스트",
-      "솔",
-      "수르"
+      "돌"
     ],
     "runes_en": [
-      "Amn",
-      "Ber",
+      "Vex",
+      "Ohm",
       "Ist",
-      "Sol",
-      "Sur"
+      "Dol"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Paladin Shields",
+        "ko": "성기사 전용 방패"
+      }
+    ],
+    "lvl_req": 57,
     "options": [
       {
         "type": "hit-skill",
@@ -3350,6 +3379,7 @@
         "ko": "원거리 무기(활/크로스보우)"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "aura",
@@ -3493,6 +3523,7 @@
         "ko": "해머"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "swing2",
@@ -3622,6 +3653,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 55,
     "options": [
       {
         "type": "aura",
@@ -3744,6 +3776,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 59,
     "options": [
       {
         "type": "gethit-skill",
@@ -3897,6 +3930,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 59,
     "options": [
       {
         "type": "gethit-skill",
@@ -4044,6 +4078,7 @@
         "ko": "근접 무기"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "swing2",
@@ -4172,6 +4207,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 47,
     "options": [
       {
         "type": "gethit-skill",
@@ -4287,6 +4323,7 @@
         "ko": "도끼"
       }
     ],
+    "lvl_req": 59,
     "options": [
       {
         "type": "hit-skill",
@@ -4436,6 +4473,7 @@
         "ko": "모든 무기"
       }
     ],
+    "lvl_req": 67,
     "options": [
       {
         "type": "levelup-skill",
@@ -4571,6 +4609,7 @@
         "ko": "원거리 무기(활/크로스보우)"
       }
     ],
+    "lvl_req": 39,
     "options": [
       {
         "type": "aura",
@@ -4700,6 +4739,7 @@
         "ko": "메이스"
       }
     ],
+    "lvl_req": 55,
     "options": [
       {
         "type": "allskills",
@@ -4847,6 +4887,7 @@
         "ko": "셉터"
       }
     ],
+    "lvl_req": 21,
     "options": [
       {
         "type": "dmg%",
@@ -4977,6 +5018,7 @@
         "ko": "근접 무기"
       }
     ],
+    "lvl_req": 27,
     "options": [
       {
         "type": "allskills",
@@ -5107,6 +5149,7 @@
         "ko": "원거리 무기(활/크로스보우)"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "hit-skill",
@@ -5246,6 +5289,7 @@
         "ko": "창"
       }
     ],
+    "lvl_req": 63,
     "options": [
       {
         "type": "kill-skill",
@@ -5379,6 +5423,7 @@
         "ko": "원거리 무기(활/크로스보우)"
       }
     ],
+    "lvl_req": 27,
     "options": [
       {
         "type": "aura",
@@ -5518,6 +5563,7 @@
         "ko": "셉터"
       }
     ],
+    "lvl_req": 25,
     "options": [
       {
         "type": "dmg%",
@@ -5642,6 +5688,7 @@
         "ko": "도끼"
       }
     ],
+    "lvl_req": 53,
     "options": [
       {
         "type": "swing2",
@@ -5783,6 +5830,7 @@
         "ko": "도끼"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "att-skill",
@@ -5912,6 +5960,7 @@
         "ko": "셉터"
       }
     ],
+    "lvl_req": 43,
     "options": [
       {
         "type": "hit-skill",
@@ -6035,6 +6084,7 @@
         "ko": "스태프"
       }
     ],
+    "lvl_req": 19,
     "options": [
       {
         "type": "fireskill",
@@ -6140,6 +6190,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 41,
     "options": [
       {
         "type": "dmg%",
@@ -6246,6 +6297,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 27,
     "options": [
       {
         "type": "allskills",
@@ -6332,6 +6384,7 @@
         "ko": "근접 무기"
       }
     ],
+    "lvl_req": 15,
     "options": [
       {
         "type": "dmg%",
@@ -6450,6 +6503,7 @@
         "ko": "원거리 무기(활/크로스보우)"
       }
     ],
+    "lvl_req": 39,
     "options": [
       {
         "type": "skilltab",
@@ -6565,6 +6619,7 @@
         "ko": "스태프"
       }
     ],
+    "lvl_req": 37,
     "options": [
       {
         "type": "sor",
@@ -6706,6 +6761,7 @@
         "ko": "원거리 무기(활/크로스보우)"
       }
     ],
+    "lvl_req": 67,
     "options": [
       {
         "type": "aura",
@@ -6842,6 +6898,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 25,
     "options": [
       {
         "type": "hit-skill",
@@ -6932,6 +6989,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 13,
     "options": [
       {
         "type": "ac%",
@@ -7048,6 +7106,7 @@
         "ko": "메이스"
       }
     ],
+    "lvl_req": 49,
     "options": [
       {
         "type": "indestruct",
@@ -7199,6 +7258,7 @@
         "ko": "창"
       }
     ],
+    "lvl_req": 41,
     "options": [
       {
         "type": "kill-skill",
@@ -7352,6 +7412,7 @@
         "ko": "스태프"
       }
     ],
+    "lvl_req": 69,
     "options": [
       {
         "type": "indestruct",
@@ -7511,6 +7572,7 @@
         "ko": "모든 무기"
       }
     ],
+    "lvl_req": 43,
     "options": [
       {
         "type": "swing2",
@@ -7654,6 +7716,7 @@
         "ko": "클러"
       }
     ],
+    "lvl_req": 23,
     "options": [
       {
         "type": "block2",
@@ -7783,6 +7846,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 29,
     "options": [
       {
         "type": "hit-skill",
@@ -7879,6 +7943,7 @@
         "ko": "메이스"
       }
     ],
+    "lvl_req": 43,
     "options": [
       {
         "type": "hit-skill",
@@ -8030,6 +8095,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "hit-skill",
@@ -8159,6 +8225,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 65,
     "options": [
       {
         "type": "hit-skill",
@@ -8290,6 +8357,7 @@
         "ko": "클러"
       }
     ],
+    "lvl_req": 67,
     "options": [
       {
         "type": "gethit-skill",
@@ -8419,6 +8487,7 @@
         "ko": "창"
       }
     ],
+    "lvl_req": 67,
     "options": [
       {
         "type": "gethit-skill",
@@ -8554,6 +8623,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 53,
     "options": [
       {
         "type": "hit-skill",
@@ -8646,6 +8716,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 49,
     "options": [
       {
         "type": "balance2",
@@ -8755,6 +8826,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 27,
     "options": [
       {
         "type": "ac%",
@@ -8873,6 +8945,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 49,
     "options": [
       {
         "type": "hit-skill",
@@ -8963,6 +9036,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 29,
     "options": [
       {
         "type": "block2",
@@ -9067,6 +9141,7 @@
         "ko": "셉터"
       }
     ],
+    "lvl_req": 53,
     "options": [
       {
         "type": "hit-skill",
@@ -9200,6 +9275,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 49,
     "options": [
       {
         "type": "balance2",
@@ -9323,6 +9399,7 @@
         "ko": "모든 무기"
       }
     ],
+    "lvl_req": 55,
     "options": [
       {
         "type": "allskills",
@@ -9480,6 +9557,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 37,
     "options": [
       {
         "type": "balance2",
@@ -9582,6 +9660,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 25,
     "options": [
       {
         "type": "allskills",
@@ -9727,6 +9806,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 25,
     "options": [
       {
         "type": "allskills",
@@ -9864,6 +9944,7 @@
         "ko": "방패"
       }
     ],
+    "lvl_req": 37,
     "options": [
       {
         "type": "allskills",
@@ -9981,6 +10062,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 17,
     "options": [
       {
         "type": "move2",
@@ -10095,6 +10177,7 @@
         "ko": "메이스"
       }
     ],
+    "lvl_req": 13,
     "options": [
       {
         "type": "swing2",
@@ -10192,6 +10275,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 47,
     "options": [
       {
         "type": "balance2",
@@ -10305,6 +10389,7 @@
         "ko": "근접 무기"
       }
     ],
+    "lvl_req": 25,
     "options": [
       {
         "type": "dmg%",
@@ -10391,6 +10476,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 43,
     "options": [
       {
         "type": "hit-skill",
@@ -10489,6 +10575,7 @@
         "ko": "검"
       }
     ],
+    "lvl_req": 41,
     "options": [
       {
         "type": "hit-skill",
@@ -10664,6 +10751,7 @@
         "ko": "모든 무기"
       }
     ],
+    "lvl_req": 49,
     "options": [
       {
         "type": "ignore-ac",
@@ -10767,6 +10855,7 @@
         "ko": "단검"
       }
     ],
+    "lvl_req": 69,
     "options": [
       {
         "type": "indestruct",
@@ -10881,6 +10970,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 43,
     "options": [
       {
         "type": "dex",
@@ -10943,6 +11033,7 @@
         "ko": "원드(완드)"
       }
     ],
+    "lvl_req": 35,
     "options": [
       {
         "type": "skilltab",
@@ -11055,6 +11146,7 @@
         "ko": "근접 무기"
       }
     ],
+    "lvl_req": 61,
     "options": [
       {
         "type": "hit-skill",
@@ -11180,6 +11272,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 45,
     "options": [
       {
         "type": "pierce",
@@ -11300,6 +11393,7 @@
         "ko": "원거리 무기(활/크로스보우)"
       }
     ],
+    "lvl_req": 63,
     "options": [
       {
         "type": "hit-skill",
@@ -11433,6 +11527,7 @@
         "ko": "원거리 무기(활/크로스보우)"
       }
     ],
+    "lvl_req": 21,
     "options": [
       {
         "type": "gethit-skill",
@@ -11539,6 +11634,7 @@
         "ko": "갑옷"
       }
     ],
+    "lvl_req": 39,
     "options": [
       {
         "type": "move2",
@@ -11634,6 +11730,7 @@
         "ko": "모든 무기"
       }
     ],
+    "lvl_req": 39,
     "options": [
       {
         "type": "hit-skill",
@@ -11726,6 +11823,7 @@
         "ko": "클러"
       }
     ],
+    "lvl_req": 53,
     "options": [
       {
         "type": "charge-noconsume",
@@ -11853,6 +11951,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 67,
     "options": [
       {
         "type": "hit-skill",
@@ -11965,6 +12064,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 35,
     "options": [
       {
         "type": "balance2",
@@ -12051,6 +12151,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 35,
     "options": [
       {
         "type": "balance2",
@@ -12137,6 +12238,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 35,
     "options": [
       {
         "type": "balance2",
@@ -12234,6 +12336,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 35,
     "options": [
       {
         "type": "aura",
@@ -12329,6 +12432,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 35,
     "options": [
       {
         "type": "balance2",
@@ -12436,6 +12540,7 @@
         "ko": "투구"
       }
     ],
+    "lvl_req": 51,
     "options": [
       {
         "type": "gethit-skill",
@@ -12548,6 +12653,7 @@
         "ko": "성기사 전용 방패"
       }
     ],
+    "lvl_req": 53,
     "options": [
       {
         "type": "gethit-skill",
@@ -12665,6 +12771,7 @@
         "ko": "단검"
       }
     ],
+    "lvl_req": 57,
     "options": [
       {
         "type": "gethit-skill",
