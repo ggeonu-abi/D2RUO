@@ -1322,6 +1322,126 @@
       }
     ]
   },
+  "amazon_bow": {
+    "name_ko": "🏹 아마존용 활 (모든 활)",
+    "name_en": "🏹 All Amazon Bows",
+    "traderie_tag": "Amazon Bow",
+    "options": [
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "5",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "amazon_spear": {
+    "name_ko": "🔱 아마존 전용 창 (모든 창/투창)",
+    "name_en": "🔱 All Amazon Spears/Javelins",
+    "traderie_tag": "Amazon Spear",
+    "options": [
+      {
+        "type": "skilltab",
+        "param": "2",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Javelin and Spear Skills (Amazon Only)",
+        "param_ko": "투창과 창 기술 (아마존 전용)"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
   "ring": {
     "name_ko": "반지",
     "name_en": "Ring",
@@ -5517,28 +5637,28 @@
       }
     ]
   },
-  "Matriarchal Spear": {
-    "name_ko": "⚔️ [아마존 전용 창] 메이트리어컬 스피어 (베이스)",
-    "name_en": "⚔️ [Amazon Spears] Matriarchal Spear (Base)",
-    "item_type_en": "Amazon Spears",
-    "item_type_ko": "아마존 전용 창",
+  "War Pike": {
+    "name_ko": "⚔️ [창] 워 파이크 (베이스)",
+    "name_en": "⚔️ [Spears] War Pike (Base)",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_stats": {
       "item_type": "weapon",
-      "namestr": "amd",
-      "weapon_type1": "aspe",
+      "namestr": "7p7",
+      "weapon_type1": "spea",
       "weapon_type2": "",
       "mindam": 0,
       "maxdam": 0,
-      "2handmindam": 65,
-      "2handmaxdam": 95,
+      "2handmindam": 33,
+      "2handmaxdam": 178,
       "minmisdam": 0,
       "maxmisdam": 0,
       "1or2handed": false,
       "2handed": true,
-      "speed": "",
-      "reqstr": 114,
-      "reqdex": 142,
-      "durability": 28
+      "speed": "20",
+      "reqstr": 165,
+      "reqdex": 106,
+      "durability": 25
     },
     "options": [
       {
@@ -5609,6 +5729,76 @@
       "reqstr": 138,
       "reqdex": 59,
       "durability": 26
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Flail": {
+    "name_ko": "⚔️ [메이스] 프레일 (베이스)",
+    "name_en": "⚔️ [Maces] Flail (Base)",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "fla",
+      "weapon_type1": "mace",
+      "weapon_type2": "",
+      "mindam": 1,
+      "maxdam": 24,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "-10",
+      "reqstr": 41,
+      "reqdex": 35,
+      "durability": 30
     },
     "options": [
       {
@@ -5937,98 +6127,28 @@
       }
     ]
   },
-  "Matriarchal Bow": {
-    "name_ko": "⚔️ [아마존 전용 활] 메이트리어컬 보우 (베이스)",
-    "name_en": "⚔️ [Amazon Bows] Matriarchal Bow (Base)",
-    "item_type_en": "Amazon Bows",
-    "item_type_ko": "아마존 전용 활",
+  "Crusader Bow": {
+    "name_ko": "⚔️ [활] 크루세이더 보우 (베이스)",
+    "name_en": "⚔️ [Bows] Crusader Bow (Base)",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_stats": {
       "item_type": "weapon",
-      "namestr": "amb",
-      "weapon_type1": "abow",
+      "namestr": "6l7",
+      "weapon_type1": "bow",
       "weapon_type2": "",
       "mindam": 0,
       "maxdam": 0,
-      "2handmindam": 20,
-      "2handmaxdam": 47,
-      "minmisdam": 0,
-      "maxmisdam": 0,
-      "1or2handed": false,
-      "2handed": true,
-      "speed": "-10",
-      "reqstr": 87,
-      "reqdex": 187,
-      "durability": 48
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "0",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      }
-    ]
-  },
-  "Grand Matron Bow": {
-    "name_ko": "⚔️ [아마존 전용 활] 그랜드 메이트런 보우 (베이스)",
-    "name_en": "⚔️ [Amazon Bows] Grand Matron Bow (Base)",
-    "item_type_en": "Amazon Bows",
-    "item_type_ko": "아마존 전용 활",
-    "base_stats": {
-      "item_type": "weapon",
-      "namestr": "amc",
-      "weapon_type1": "abow",
-      "weapon_type2": "",
-      "mindam": 0,
-      "maxdam": 0,
-      "2handmindam": 14,
-      "2handmaxdam": 72,
+      "2handmindam": 15,
+      "2handmaxdam": 63,
       "minmisdam": 0,
       "maxmisdam": 0,
       "1or2handed": false,
       "2handed": true,
       "speed": "10",
-      "reqstr": 108,
-      "reqdex": 152,
-      "durability": 55
+      "reqstr": 97,
+      "reqdex": 121,
+      "durability": 44
     },
     "options": [
       {
@@ -6729,6 +6849,76 @@
       "reqstr": 25,
       "reqdex": 0,
       "durability": 50
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Battle Staff": {
+    "name_ko": "⚔️ [스태프] 배틀 스태프 (베이스)",
+    "name_en": "⚔️ [Staves] Battle Staff (Base)",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "bst",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 6,
+      "2handmaxdam": 13,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 0,
+      "reqdex": 0,
+      "durability": 40
     },
     "options": [
       {
@@ -8562,6 +8752,322 @@
         "original_idx": 12,
         "param_en": "Sigil: Death",
         "param_ko": "인장: 죽음"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Matriarchal Bow": {
+    "name_ko": "🏹 [아마존 전용 활] 메이트리어컬 보우 (베이스)",
+    "name_en": "🏹 [Amazon Bows] Matriarchal Bow (Base)",
+    "item_type_en": "Amazon Bows",
+    "item_type_ko": "아마존 전용 활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "amb",
+      "weapon_type1": "abow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 20,
+      "2handmaxdam": 47,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "-10",
+      "reqstr": 87,
+      "reqdex": 187,
+      "durability": 48
+    },
+    "options": [
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "5",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Grand Matron Bow": {
+    "name_ko": "🏹 [아마존 전용 활] 그랜드 메이트런 보우 (베이스)",
+    "name_en": "🏹 [Amazon Bows] Grand Matron Bow (Base)",
+    "item_type_en": "Amazon Bows",
+    "item_type_ko": "아마존 전용 활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "amc",
+      "weapon_type1": "abow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 14,
+      "2handmaxdam": 72,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "10",
+      "reqstr": 108,
+      "reqdex": 152,
+      "durability": 55
+    },
+    "options": [
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "5",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Matriarchal Spear": {
+    "name_ko": "🔱 [아마존 전용 창] 메이트리어컬 스피어 (베이스)",
+    "name_en": "🔱 [Amazon Spears] Matriarchal Spear (Base)",
+    "item_type_en": "Amazon Spears",
+    "item_type_ko": "아마존 전용 창",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "amd",
+      "weapon_type1": "aspe",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 65,
+      "2handmaxdam": 95,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 114,
+      "reqdex": 142,
+      "durability": 28
+    },
+    "options": [
+      {
+        "type": "skilltab",
+        "param": "2",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Javelin and Spear Skills (Amazon Only)",
+        "param_ko": "투창과 창 기술 (아마존 전용)"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Matriarchal Javelin": {
+    "name_ko": "🔱 [아마존 전용 투창] 메이트리어컬 재벌린 (베이스)",
+    "name_en": "🔱 [Amazon Javelins] Matriarchal Javelin (Base)",
+    "item_type_en": "Amazon Javelins",
+    "item_type_ko": "아마존 전용 투창",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "amf",
+      "weapon_type1": "ajav",
+      "weapon_type2": "",
+      "mindam": 30,
+      "maxdam": 54,
+      "2handmindam": 0,
+      "2handmaxdam": 0,
+      "minmisdam": 35,
+      "maxmisdam": 66,
+      "1or2handed": false,
+      "2handed": false,
+      "speed": "-10",
+      "reqstr": 107,
+      "reqdex": 151,
+      "durability": 6
+    },
+    "options": [
+      {
+        "type": "skilltab",
+        "param": "2",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Javelin and Spear Skills (Amazon Only)",
+        "param_ko": "투창과 창 기술 (아마존 전용)"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
       },
       {
         "type": "ethereal",
