@@ -2,6 +2,8 @@
   "The Gnasher": {
     "name_en": "The Gnasher",
     "name_ko": "갉아먹는 자",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Hand Axe",
     "base_name_ko": "핸드 액스",
     "base_stats": {
@@ -73,6 +75,8 @@
   "Deathspade": {
     "name_en": "Deathspade",
     "name_ko": "죽음의 날",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Axe",
     "base_name_ko": "액스",
     "base_stats": {
@@ -155,6 +159,8 @@
   "Bladebone": {
     "name_en": "Bladebone",
     "name_ko": "칼날뼈",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Double Axe",
     "base_name_ko": "더블 액스",
     "base_stats": {
@@ -247,6 +253,8 @@
   "Skull Splitter": {
     "name_en": "Skull Splitter",
     "name_ko": "두개골 절단기",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Military Pick",
     "base_name_ko": "밀리터리 픽",
     "base_stats": {
@@ -339,6 +347,8 @@
   "Rakescar": {
     "name_en": "Rakescar",
     "name_ko": "갈퀴흉터",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "War Axe",
     "base_name_ko": "워 액스",
     "base_stats": {
@@ -420,6 +430,8 @@
   "Axe of Fechmar": {
     "name_en": "Axe of Fechmar",
     "name_ko": "페크마르의 도끼",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Large Axe",
     "base_name_ko": "라지 액스",
     "base_stats": {
@@ -491,6 +503,8 @@
   "Goreshovel": {
     "name_en": "Goreshovel",
     "name_ko": "피투성이삽",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Broad Axe",
     "base_name_ko": "브로드 액스",
     "base_stats": {
@@ -573,6 +587,8 @@
   "The Chieftain": {
     "name_en": "The Chieftain",
     "name_ko": "족장",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Battle Axe",
     "base_name_ko": "배틀 액스",
     "base_stats": {
@@ -655,6 +671,8 @@
   "Brainhew": {
     "name_en": "Brainhew",
     "name_ko": "뇌절단기",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Great Axe",
     "base_name_ko": "그레이트 액스",
     "base_stats": {
@@ -748,6 +766,8 @@
   "Humongous": {
     "name_en": "Humongous",
     "name_ko": "무지막지",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Giant Axe",
     "base_name_ko": "자이언트 액스",
     "base_stats": {
@@ -829,6 +849,8 @@
   "Torch of Iro": {
     "name_en": "Torch of Iro",
     "name_ko": "이로의 횃불",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "base_name_en": "Wand",
     "base_name_ko": "원드",
     "base_stats": {
@@ -932,6 +954,8 @@
   "Maelstrom": {
     "name_en": "Maelstrom",
     "name_ko": "소용돌이",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "base_name_en": "Yew Wand",
     "base_name_ko": "유 원드",
     "base_stats": {
@@ -1052,6 +1076,8 @@
   "Gravenspine": {
     "name_en": "Gravenspine",
     "name_ko": "새김등뼈",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "base_name_en": "Bone Wand",
     "base_name_ko": "본 원드",
     "base_stats": {
@@ -1154,6 +1180,8 @@
   "Ume's Lament": {
     "name_en": "Ume's Lament",
     "name_ko": "우메의 탄식",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "base_name_en": "Grim Wand",
     "base_name_ko": "그림 원드",
     "base_stats": {
@@ -1255,6 +1283,8 @@
   "Felloak": {
     "name_en": "Felloak",
     "name_ko": "쓰러진 참나무",
+    "item_type_en": "Clubs",
+    "item_type_ko": "클럽",
     "base_name_en": "Club",
     "base_name_ko": "클럽",
     "base_stats": {
@@ -1346,6 +1376,8 @@
   "Knell Striker": {
     "name_en": "Knell Striker",
     "name_ko": "종을 울리는 자",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "base_name_en": "Scepter",
     "base_name_ko": "셉터",
     "base_stats": {
@@ -1449,6 +1481,8 @@
   "Rusthandle": {
     "name_en": "Rusthandle",
     "name_ko": "녹슨손잡이",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "base_name_en": "Grand Scepter",
     "base_name_ko": "그랜드 셉터",
     "base_stats": {
@@ -1562,6 +1596,8 @@
   "Stormeye": {
     "name_en": "Stormeye",
     "name_ko": "폭풍눈",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "base_name_en": "War Scepter",
     "base_name_ko": "워 셉터",
     "base_stats": {
@@ -1673,6 +1709,8 @@
   "Stoutnail": {
     "name_en": "Stoutnail",
     "name_ko": "굵은못",
+    "item_type_en": "Clubs",
+    "item_type_ko": "클럽",
     "base_name_en": "Spiked Club",
     "base_name_ko": "스파이크 클럽",
     "base_stats": {
@@ -1754,6 +1792,8 @@
   "Crushflange": {
     "name_en": "Crushflange",
     "name_ko": "분쇄테",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "base_name_en": "Mace",
     "base_name_ko": "메이스",
     "base_stats": {
@@ -1857,6 +1897,8 @@
   "Bloodrise": {
     "name_en": "Bloodrise",
     "name_ko": "피오름",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "base_name_en": "Morning Star",
     "base_name_ko": "모닝스타",
     "base_stats": {
@@ -1970,6 +2012,8 @@
   "The General's Tan Do Li Ga": {
     "name_en": "The General's Tan Do Li Ga",
     "name_ko": "장군의 단도리깨",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "base_name_en": "Flail",
     "base_name_ko": "프레일",
     "base_stats": {
@@ -2072,6 +2116,8 @@
   "Ironstone": {
     "name_en": "Ironstone",
     "name_ko": "무쇠돌",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "War Hammer",
     "base_name_ko": "워 해머",
     "base_stats": {
@@ -2163,6 +2209,8 @@
   "Bonesnap": {
     "name_en": "Bonesnap",
     "name_ko": "뼈절단기",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "Maul",
     "base_name_ko": "마울",
     "base_stats": {
@@ -2245,6 +2293,8 @@
   "Steeldriver": {
     "name_en": "Steeldriver",
     "name_ko": "강철박이",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "Great Maul",
     "base_name_ko": "그레이트 마울",
     "base_stats": {
@@ -2326,6 +2376,8 @@
   "Rixot's Keen": {
     "name_en": "Rixot's Keen",
     "name_ko": "릭소트의 날카로움",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Short Sword",
     "base_name_ko": "숏소드",
     "base_stats": {
@@ -2419,6 +2471,8 @@
   "Blood Crescent": {
     "name_en": "Blood Crescent",
     "name_ko": "피의 초승달",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Scimitar",
     "base_name_ko": "시미터",
     "base_stats": {
@@ -2523,6 +2577,8 @@
   "Skewer of Krintiz": {
     "name_en": "Skewer of Krintiz",
     "name_ko": "크린티즈의 꼬챙이",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Sabre",
     "base_name_ko": "세이버",
     "base_stats": {
@@ -2616,6 +2672,8 @@
   "Gleamscythe": {
     "name_en": "Gleamscythe",
     "name_ko": "서광칼낫",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Falchion",
     "base_name_ko": "펄션",
     "base_stats": {
@@ -2709,6 +2767,8 @@
   "Azurewrath": {
     "name_en": "Azurewrath",
     "name_ko": "푸른 서슬",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Phase Blade",
     "base_name_ko": "페이즈 블레이드",
     "base_stats": {
@@ -2822,6 +2882,8 @@
   "Griswold's Edge": {
     "name_en": "Griswold's Edge",
     "name_ko": "그리스월드의 날",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Broad Sword",
     "base_name_ko": "브로드소드",
     "base_stats": {
@@ -2914,6 +2976,8 @@
   "Hellplague": {
     "name_en": "Hellplague",
     "name_ko": "지옥역병",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Long Sword",
     "base_name_ko": "롱소드",
     "base_stats": {
@@ -3006,6 +3070,8 @@
   "Culwen's Point": {
     "name_en": "Culwen's Point",
     "name_ko": "컬웬의 날붙이",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "War Sword",
     "base_name_ko": "워 소드",
     "base_stats": {
@@ -3099,6 +3165,8 @@
   "Shadowfang": {
     "name_en": "Shadowfang",
     "name_ko": "그림자송곳니",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Two-Handed Sword",
     "base_name_ko": "투핸드 소드",
     "base_stats": {
@@ -3192,6 +3260,8 @@
   "Soulflay": {
     "name_en": "Soulflay",
     "name_ko": "영혼난도",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Claymore",
     "base_name_ko": "클레이모어",
     "base_stats": {
@@ -3274,6 +3344,8 @@
   "Kinemil's Awl": {
     "name_en": "Kinemil's Awl",
     "name_ko": "키네밀의 송곳",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Giant Sword",
     "base_name_ko": "자이언트 소드",
     "base_stats": {
@@ -3354,6 +3426,8 @@
   "Blacktongue": {
     "name_en": "Blacktongue",
     "name_ko": "검은혀",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Bastard Sword",
     "base_name_ko": "바스타드 소드",
     "base_stats": {
@@ -3447,6 +3521,8 @@
   "Ripsaw": {
     "name_en": "Ripsaw",
     "name_ko": "톱날검",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Flamberge",
     "base_name_ko": "플랑베르쥬",
     "base_stats": {
@@ -3518,6 +3594,8 @@
   "The Patriarch": {
     "name_en": "The Patriarch",
     "name_ko": "장로",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Great Sword",
     "base_name_ko": "그레이트 소드",
     "base_stats": {
@@ -3611,6 +3689,8 @@
   "Gull": {
     "name_en": "Gull",
     "name_ko": "속임수",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Dagger",
     "base_name_ko": "대거",
     "base_stats": {
@@ -3670,6 +3750,8 @@
   "The Diggler": {
     "name_en": "The Diggler",
     "name_ko": "디글러",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Dirk",
     "base_name_ko": "더크",
     "base_stats": {
@@ -3763,6 +3845,8 @@
   "The Jade Tan Do": {
     "name_en": "The Jade Tan Do",
     "name_ko": "비취 단도",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Kris",
     "base_name_ko": "크리스",
     "base_stats": {
@@ -3845,6 +3929,8 @@
   "Spectral Shard": {
     "name_en": "Spectral Shard",
     "name_ko": "혼령 파편",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Blade",
     "base_name_ko": "블레이드",
     "base_stats": {
@@ -3916,6 +4002,8 @@
   "The Dragon Chang": {
     "name_en": "The Dragon Chang",
     "name_ko": "용창",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "Spear",
     "base_name_ko": "스피어",
     "base_stats": {
@@ -3998,6 +4086,8 @@
   "Razortine": {
     "name_en": "Razortine",
     "name_ko": "서슬가지",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "Trident",
     "base_name_ko": "트라이던트",
     "base_stats": {
@@ -4091,6 +4181,8 @@
   "Bloodthief": {
     "name_en": "Bloodthief",
     "name_ko": "피도둑",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "Brandistock",
     "base_name_ko": "브랜디스탁",
     "base_stats": {
@@ -4173,6 +4265,8 @@
   "Lance of Yaggai": {
     "name_en": "Lance of Yaggai",
     "name_ko": "야가이의 기병창",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "Spetum",
     "base_name_ko": "스페텀",
     "base_stats": {
@@ -4243,6 +4337,8 @@
   "The Tannr Gorerod": {
     "name_en": "The Tannr Gorerod",
     "name_ko": "탄르 고어로드",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "Pike",
     "base_name_ko": "파이크",
     "base_stats": {
@@ -4346,6 +4442,8 @@
   "Dimoak's Hew": {
     "name_en": "Dimoak's Hew",
     "name_ko": "디모악의 절단",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Bardiche",
     "base_name_ko": "바디쉬",
     "base_stats": {
@@ -4417,6 +4515,8 @@
   "Steelgoad": {
     "name_en": "Steelgoad",
     "name_ko": "강철 몰이막대",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Voulge",
     "base_name_ko": "불즈",
     "base_stats": {
@@ -4510,6 +4610,8 @@
   "Soul Harvest": {
     "name_en": "Soul Harvest",
     "name_ko": "혼령 수확자",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Scythe",
     "base_name_ko": "싸이드",
     "base_stats": {
@@ -4603,6 +4705,8 @@
   "The Battlebranch": {
     "name_en": "The Battlebranch",
     "name_ko": "전투가지",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Poleaxe",
     "base_name_ko": "폴액스",
     "base_stats": {
@@ -4685,6 +4789,8 @@
   "Woestave": {
     "name_en": "Woestave",
     "name_ko": "재앙의 지팡이",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Halberd",
     "base_name_ko": "헬버드",
     "base_stats": {
@@ -4800,6 +4906,8 @@
   "The Grim Reaper": {
     "name_en": "The Grim Reaper",
     "name_ko": "사신의 낫",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "War Scythe",
     "base_name_ko": "워 싸이드",
     "base_stats": {
@@ -4893,6 +5001,8 @@
   "Bane Ash": {
     "name_en": "Bane Ash",
     "name_ko": "재앙의 재",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Short Staff",
     "base_name_ko": "숏스태프",
     "base_stats": {
@@ -5004,6 +5114,8 @@
   "Serpent Lord": {
     "name_en": "Serpent Lord",
     "name_ko": "구렁이 군주",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Long Staff",
     "base_name_ko": "롱스태프",
     "base_stats": {
@@ -5118,6 +5230,8 @@
   "Spire of Lazarus": {
     "name_en": "Spire of Lazarus",
     "name_ko": "라자루스의 첨탑",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Gnarled Staff",
     "base_name_ko": "나알드 스태프",
     "base_stats": {
@@ -5251,6 +5365,8 @@
   "The Salamander": {
     "name_en": "The Salamander",
     "name_ko": "불도마뱀",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Battle Staff",
     "base_name_ko": "배틀 스태프",
     "base_stats": {
@@ -5351,6 +5467,8 @@
   "The Iron Jang Bong": {
     "name_en": "The Iron Jang Bong",
     "name_ko": "무쇠 장봉",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "War Staff",
     "base_name_ko": "워 스태프",
     "base_stats": {
@@ -5473,6 +5591,8 @@
   "Pluckeye": {
     "name_en": "Pluckeye",
     "name_ko": "눈살",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Short Bow",
     "base_name_ko": "숏보우",
     "base_stats": {
@@ -5566,6 +5686,8 @@
   "Witherstring": {
     "name_en": "Witherstring",
     "name_ko": "마른시위",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Hunter's Bow",
     "base_name_ko": "헌터보우",
     "base_stats": {
@@ -5647,6 +5769,8 @@
   "Raven Claw": {
     "name_en": "Raven Claw",
     "name_ko": "큰까마귀 발톱",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Long Bow",
     "base_name_ko": "롱보우",
     "base_stats": {
@@ -5729,6 +5853,8 @@
   "Rogue's Bow": {
     "name_en": "Rogue's Bow",
     "name_ko": "도적의 활",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Composite Bow",
     "base_name_ko": "컴포지트 보우",
     "base_stats": {
@@ -5822,6 +5948,8 @@
   "Stormstrike": {
     "name_en": "Stormstrike",
     "name_ko": "폭풍격",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Short Battle Bow",
     "base_name_ko": "숏 배틀 보우",
     "base_stats": {
@@ -5915,6 +6043,8 @@
   "Wizendraw": {
     "name_en": "Wizendraw",
     "name_ko": "슬기매김",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Long Battle Bow",
     "base_name_ko": "롱 배틀 보우",
     "base_stats": {
@@ -6030,6 +6160,8 @@
   "Hellclap": {
     "name_en": "Hellclap",
     "name_ko": "지옥맞이",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Short War Bow",
     "base_name_ko": "숏 워 보우",
     "base_stats": {
@@ -6133,6 +6265,8 @@
   "Blastbark": {
     "name_en": "Blastbark",
     "name_ko": "폭발껍질",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Long War Bow",
     "base_name_ko": "롱 워 보우",
     "base_stats": {
@@ -6214,6 +6348,8 @@
   "Leadcrow": {
     "name_en": "Leadcrow",
     "name_ko": "납까마귀",
+    "item_type_en": "Crossbows",
+    "item_type_ko": "크로스보우",
     "base_name_en": "Light Crossbow",
     "base_name_ko": "라이트 크로스보우",
     "base_stats": {
@@ -6307,6 +6443,8 @@
   "Ichorsting": {
     "name_en": "Ichorsting",
     "name_ko": "신혈쐐기",
+    "item_type_en": "Crossbows",
+    "item_type_ko": "크로스보우",
     "base_name_en": "Crossbow",
     "base_name_ko": "크로스보우",
     "base_stats": {
@@ -6400,6 +6538,8 @@
   "Hellcast": {
     "name_en": "Hellcast",
     "name_ko": "지옥발사기",
+    "item_type_en": "Crossbows",
+    "item_type_ko": "크로스보우",
     "base_name_en": "Heavy Crossbow",
     "base_name_ko": "헤비 크로스보우",
     "base_stats": {
@@ -6504,6 +6644,8 @@
   "Doomslinger": {
     "name_en": "Doomslinger",
     "name_ko": "멸궁",
+    "item_type_en": "Crossbows",
+    "item_type_ko": "크로스보우",
     "base_name_en": "Repeating Crossbow",
     "base_name_ko": "리피팅 크로스보우",
     "base_stats": {
@@ -6586,6 +6728,8 @@
   "Biggin's Bonnet": {
     "name_en": "Biggin's Bonnet",
     "name_ko": "비긴의 모자",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Cap",
     "base_name_ko": "캡",
     "base_stats": {
@@ -6660,6 +6804,8 @@
   "Tarnhelm": {
     "name_en": "Tarnhelm",
     "name_ko": "타른헬름",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Skull Cap",
     "base_name_ko": "스컬 캡",
     "base_stats": {
@@ -6712,6 +6858,8 @@
   "Coif of Glory": {
     "name_en": "Coif of Glory",
     "name_ko": "영예의 두건모",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Helm",
     "base_name_ko": "헬름",
     "base_stats": {
@@ -6786,6 +6934,8 @@
   "Duskdeep": {
     "name_en": "Duskdeep",
     "name_ko": "황혼심연",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Full Helm",
     "base_name_ko": "풀 헬름",
     "base_stats": {
@@ -6871,6 +7021,8 @@
   "Wormskull": {
     "name_en": "Wormskull",
     "name_ko": "벌레두개골",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Bone Helm",
     "base_name_ko": "본 헬름",
     "base_stats": {
@@ -6945,6 +7097,8 @@
   "Howltusk": {
     "name_en": "Howltusk",
     "name_ko": "울부짖는 엄니",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Great Helm",
     "base_name_ko": "그레이트 헬름",
     "base_stats": {
@@ -7030,6 +7184,8 @@
   "Undead Crown": {
     "name_en": "Undead Crown",
     "name_ko": "언데드 왕관",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Crown",
     "base_name_ko": "크라운",
     "base_stats": {
@@ -7136,6 +7292,8 @@
   "The Face of Horror": {
     "name_en": "The Face of Horror",
     "name_ko": "섬뜩한 얼굴",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Mask",
     "base_name_ko": "마스크",
     "base_stats": {
@@ -7210,6 +7368,8 @@
   "Greyform": {
     "name_en": "Greyform",
     "name_ko": "회색 형체",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Quilted Armor",
     "base_name_ko": "퀼티드 아머",
     "base_stats": {
@@ -7295,6 +7455,8 @@
   "Blinkbat's Form": {
     "name_en": "Blinkbat's Form",
     "name_ko": "점멸박쥐의 형상",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Leather Armor",
     "base_name_ko": "레더 아머",
     "base_stats": {
@@ -7368,6 +7530,8 @@
   "The Centurion": {
     "name_en": "The Centurion",
     "name_ko": "백인대장",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Hard Leather Armor",
     "base_name_ko": "하드 레더 아머",
     "base_stats": {
@@ -7475,6 +7639,8 @@
   "Twitchthroe": {
     "name_en": "Twitchthroe",
     "name_ko": "뒤틀린 단말마",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Studded Leather",
     "base_name_ko": "스터디드 레더",
     "base_stats": {
@@ -7560,6 +7726,8 @@
   "Darkglow": {
     "name_en": "Darkglow",
     "name_ko": "어둠빛",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Ring Mail",
     "base_name_ko": "링 메일",
     "base_stats": {
@@ -7645,6 +7813,8 @@
   "Hawkmail": {
     "name_en": "Hawkmail",
     "name_ko": "매 사슬갑옷",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Scale Mail",
     "base_name_ko": "스케일 메일",
     "base_stats": {
@@ -7719,6 +7889,8 @@
   "Sparking Mail": {
     "name_en": "Sparking Mail",
     "name_ko": "불꽃 튀는 사슬 갑옷",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Chain Mail",
     "base_name_ko": "체인 메일",
     "base_stats": {
@@ -7782,6 +7954,8 @@
   "Venom Ward": {
     "name_en": "Venom Ward",
     "name_ko": "맹독 호신부",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Breast Plate",
     "base_name_ko": "브레스트 플레이트",
     "base_stats": {
@@ -7856,6 +8030,8 @@
   "Iceblink": {
     "name_en": "Iceblink",
     "name_ko": "얼음빛",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Splint Mail",
     "base_name_ko": "스플린트 메일",
     "base_stats": {
@@ -7930,6 +8106,8 @@
   "Boneflesh": {
     "name_en": "Boneflesh",
     "name_ko": "뼈살점",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Plate Mail",
     "base_name_ko": "플레이트 메일",
     "base_stats": {
@@ -7993,6 +8171,8 @@
   "Rockfleece": {
     "name_en": "Rockfleece",
     "name_ko": "바위털가죽",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Field Plate",
     "base_name_ko": "필드 플레이트",
     "base_stats": {
@@ -8067,6 +8247,8 @@
   "Rattlecage": {
     "name_en": "Rattlecage",
     "name_ko": "성가신 철창",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Gothic Plate",
     "base_name_ko": "고딕 플레이트",
     "base_stats": {
@@ -8130,6 +8312,8 @@
   "Goldskin": {
     "name_en": "Goldskin",
     "name_ko": "황금 가죽",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Full Plate Mail",
     "base_name_ko": "풀 플레이트 메일",
     "base_stats": {
@@ -8204,6 +8388,8 @@
   "Silks of the Victor": {
     "name_en": "Silks of the Victor",
     "name_ko": "승자의 비단",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Ancient Armor",
     "base_name_ko": "에인션트 아머",
     "base_stats": {
@@ -8267,6 +8453,8 @@
   "Heavenly Garb": {
     "name_en": "Heavenly Garb",
     "name_ko": "천상의 의복",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Light Plate",
     "base_name_ko": "라이트 플레이트",
     "base_stats": {
@@ -8352,6 +8540,8 @@
   "Pelta Lunata": {
     "name_en": "Pelta Lunata",
     "name_ko": "펠타 루나타",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Buckler",
     "base_name_ko": "버클러",
     "base_stats": {
@@ -8459,6 +8649,8 @@
   "Umbral Disk": {
     "name_en": "Umbral Disk",
     "name_ko": "그림자 원반",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Small Shield",
     "base_name_ko": "스몰 쉴드",
     "base_stats": {
@@ -8566,6 +8758,8 @@
   "Stormguild": {
     "name_en": "Stormguild",
     "name_ko": "폭풍길드",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Large Shield",
     "base_name_ko": "라지 쉴드",
     "base_stats": {
@@ -8673,6 +8867,8 @@
   "Wall of the Eyeless": {
     "name_en": "Wall of the Eyeless",
     "name_ko": "눈 없는 자의 벽",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Bone Shield",
     "base_name_ko": "본 쉴드",
     "base_stats": {
@@ -8758,6 +8954,8 @@
   "Swordback Hold": {
     "name_en": "Swordback Hold",
     "name_ko": "검등 잡이",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Spiked Shield",
     "base_name_ko": "스파이크 쉴드",
     "base_stats": {
@@ -8843,6 +9041,8 @@
   "Steelclash": {
     "name_en": "Steelclash",
     "name_ko": "강철격돌",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Kite Shield",
     "base_name_ko": "카이트 쉴드",
     "base_stats": {
@@ -8961,6 +9161,8 @@
   "Bverrit Keep": {
     "name_en": "Bverrit Keep",
     "name_ko": "브베리트 성채",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Tower Shield",
     "base_name_ko": "타워 쉴드",
     "base_stats": {
@@ -9057,6 +9259,8 @@
   "The Ward": {
     "name_en": "The Ward",
     "name_ko": "호신부",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Gothic Shield",
     "base_name_ko": "고딕 쉴드",
     "base_stats": {
@@ -9142,6 +9346,8 @@
   "The Hand of Broc": {
     "name_en": "The Hand of Broc",
     "name_ko": "브록의 손",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Leather Gloves",
     "base_name_ko": "레더 글러브",
     "base_stats": {
@@ -9227,6 +9433,8 @@
   "Bloodfist": {
     "name_en": "Bloodfist",
     "name_ko": "피주먹",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Heavy Gloves",
     "base_name_ko": "헤비 글러브",
     "base_stats": {
@@ -9312,6 +9520,8 @@
   "Chance Guards": {
     "name_en": "Chance Guards",
     "name_ko": "행운의 장갑",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Chain Gloves",
     "base_name_ko": "체인 글러브",
     "base_stats": {
@@ -9397,6 +9607,8 @@
   "Magefist": {
     "name_en": "Magefist",
     "name_ko": "마수",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Light Gauntlets",
     "base_name_ko": "라이트 건틀릿",
     "base_stats": {
@@ -9482,6 +9694,8 @@
   "Frostburn": {
     "name_en": "Frostburn",
     "name_ko": "서리불꽃",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Gauntlets",
     "base_name_ko": "건틀릿",
     "base_stats": {
@@ -9556,6 +9770,8 @@
   "Hotspur": {
     "name_en": "Hotspur",
     "name_ko": "다혈질",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Boots",
     "base_name_ko": "부츠",
     "base_stats": {
@@ -9641,6 +9857,8 @@
   "Gorefoot": {
     "name_en": "Gorefoot",
     "name_ko": "핏덩이발",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Heavy Boots",
     "base_name_ko": "헤비 부츠",
     "base_stats": {
@@ -9736,6 +9954,8 @@
   "Treads of Cthon": {
     "name_en": "Treads of Cthon",
     "name_ko": "크톤의 발 보호대",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Chain Boots",
     "base_name_ko": "체인 부츠",
     "base_stats": {
@@ -9821,6 +10041,8 @@
   "Goblin Toe": {
     "name_en": "Goblin Toe",
     "name_ko": "고블린 발가락",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Light Plated Boots",
     "base_name_ko": "라이트 플레이트 부츠",
     "base_stats": {
@@ -9906,6 +10128,8 @@
   "Tearhaunch": {
     "name_en": "Tearhaunch",
     "name_ko": "둔부찢개",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Greaves",
     "base_name_ko": "그리브",
     "base_stats": {
@@ -10001,6 +10225,8 @@
   "Lenymo": {
     "name_en": "Lenymo",
     "name_ko": "레니모",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Sash",
     "base_name_ko": "새시",
     "base_stats": {
@@ -10064,6 +10290,8 @@
   "Snakecord": {
     "name_en": "Snakecord",
     "name_ko": "뱀노끈",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Light Belt",
     "base_name_ko": "라이트 벨트",
     "base_stats": {
@@ -10149,6 +10377,8 @@
   "Nightsmoke": {
     "name_en": "Nightsmoke",
     "name_ko": "밤연기",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Belt",
     "base_name_ko": "벨트",
     "base_stats": {
@@ -10234,6 +10464,8 @@
   "Goldwrap": {
     "name_en": "Goldwrap",
     "name_ko": "금박 허리띠",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Heavy Belt",
     "base_name_ko": "헤비 벨트",
     "base_stats": {
@@ -10319,6 +10551,8 @@
   "Bladebuckle": {
     "name_en": "Bladebuckle",
     "name_ko": "칼날 죔쇠",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Plated Belt",
     "base_name_ko": "플레이트 벨트",
     "base_stats": {
@@ -10415,6 +10649,8 @@
   "Nokozan Relic": {
     "name_en": "Nokozan Relic",
     "name_ko": "노코잔 유물",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -10484,6 +10720,8 @@
   "The Eye of Etlich": {
     "name_en": "The Eye of Etlich",
     "name_ko": "에틀리크의 눈",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -10552,6 +10790,8 @@
   "The Mahim-Oak Curio": {
     "name_en": "The Mahim-Oak Curio",
     "name_ko": "마힘오크 수집품",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -10654,6 +10894,8 @@
   "Nagelring": {
     "name_en": "Nagelring",
     "name_ko": "나겔링 반지",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -10712,6 +10954,8 @@
   "Manald Heal": {
     "name_en": "Manald Heal",
     "name_ko": "마날드 치유 반지",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -10770,6 +11014,8 @@
   "The Stone of Jordan": {
     "name_en": "The Stone of Jordan",
     "name_ko": "요르단의 반지",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -10827,6 +11073,8 @@
   "Amulet of the Viper": {
     "name_en": "Amulet of the Viper",
     "name_ko": "독사의 목걸이",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Top of the Horadric Staff",
     "base_name_ko": "호라드림 지팡이 꼭지",
     "base_stats": {
@@ -10874,6 +11122,8 @@
   "Staff of Kings": {
     "name_en": "Staff of Kings",
     "name_ko": "왕들의 지팡이",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Shaft of the Horadric Staff",
     "base_name_ko": "호라드림 지팡이 자루",
     "base_stats": {
@@ -10933,6 +11183,8 @@
   "Horadric Staff": {
     "name_en": "Horadric Staff",
     "name_ko": "호라드림 지팡이",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Horadric Staff",
     "base_name_ko": "호라드림 지팡이",
     "base_stats": {
@@ -11025,6 +11277,8 @@
   "Hell Forge Hammer": {
     "name_en": "Hell Forge Hammer",
     "name_ko": "지옥의 대장간 망치",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "Hell Forge Hammer",
     "base_name_ko": "지옥의 대장간 망치",
     "base_stats": {
@@ -11094,6 +11348,8 @@
   "Khalim's Flail": {
     "name_en": "Khalim's Flail",
     "name_ko": "칼림의 도리깨",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "base_name_en": "Khalim's Flail",
     "base_name_ko": "칼림의 도리깨",
     "base_stats": {
@@ -11163,6 +11419,8 @@
   "Khalim's Will": {
     "name_en": "Khalim's Will",
     "name_ko": "칼림의 의지",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "base_name_en": "Khalim's Will",
     "base_name_ko": "칼림의 의지",
     "base_stats": {
@@ -11254,6 +11512,8 @@
   "Coldkill": {
     "name_en": "Coldkill",
     "name_ko": "차가운 죽음",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Hatchet",
     "base_name_ko": "해칫",
     "base_stats": {
@@ -11354,6 +11614,8 @@
   "Butcher's Pupil": {
     "name_en": "Butcher's Pupil",
     "name_ko": "도살자의 제자",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Cleaver",
     "base_name_ko": "클리버",
     "base_stats": {
@@ -11447,6 +11709,8 @@
   "Islestrike": {
     "name_en": "Islestrike",
     "name_ko": "섬습격자",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Twin Axe",
     "base_name_ko": "트윈 액스",
     "base_stats": {
@@ -11582,6 +11846,8 @@
   "Pompeii's Wrath": {
     "name_en": "Pompeii's Wrath",
     "name_ko": "폼페이의 진노",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Crowbill",
     "base_name_ko": "크로우빌",
     "base_stats": {
@@ -11662,6 +11928,8 @@
   "Guardian Naga": {
     "name_en": "Guardian Naga",
     "name_ko": "수호자 나가",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Naga",
     "base_name_ko": "나가",
     "base_stats": {
@@ -11753,6 +12021,8 @@
   "Warlord's Trust": {
     "name_en": "Warlord's Trust",
     "name_ko": "군장의 신뢰",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Military Axe",
     "base_name_ko": "밀리터리 액스",
     "base_stats": {
@@ -11846,6 +12116,8 @@
   "Spellsteel": {
     "name_en": "Spellsteel",
     "name_ko": "주문 강철",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Bearded Axe",
     "base_name_ko": "비어디드 액스",
     "base_stats": {
@@ -11975,6 +12247,8 @@
   "Stormrider": {
     "name_en": "Stormrider",
     "name_ko": "폭풍 기수",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Tabar",
     "base_name_ko": "타바",
     "base_stats": {
@@ -12085,6 +12359,8 @@
   "Boneslayer Blade": {
     "name_en": "Boneslayer Blade",
     "name_ko": "뼈학살자 칼날",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Gothic Axe",
     "base_name_ko": "고딕 액스",
     "base_stats": {
@@ -12197,6 +12473,8 @@
   "The Minotaur": {
     "name_en": "The Minotaur",
     "name_ko": "미노타우루스",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Ancient Axe",
     "base_name_ko": "에인션트 액스",
     "base_stats": {
@@ -12301,6 +12579,8 @@
   "Suicide Branch": {
     "name_en": "Suicide Branch",
     "name_ko": "자해의 가지",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "base_name_en": "Burnt Wand",
     "base_name_ko": "번트 원드",
     "base_stats": {
@@ -12404,6 +12684,8 @@
   "Carin Shard": {
     "name_en": "Carin Shard",
     "name_ko": "카린 파편",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "base_name_en": "Petrified Wand",
     "base_name_ko": "페트리파이드 원드",
     "base_stats": {
@@ -12516,6 +12798,8 @@
   "Arm of King Leoric": {
     "name_en": "Arm of King Leoric",
     "name_ko": "레오릭 왕의 팔",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "base_name_en": "Tomb Wand",
     "base_name_ko": "툼 원드",
     "base_stats": {
@@ -12651,6 +12935,8 @@
   "Blackhand Key": {
     "name_en": "Blackhand Key",
     "name_ko": "검은손 열쇠",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "base_name_en": "Grave Wand",
     "base_name_ko": "그레이브 원드",
     "base_stats": {
@@ -12772,6 +13058,8 @@
   "Dark Clan Crusher": {
     "name_en": "Dark Clan Crusher",
     "name_ko": "어둠의 일족 분쇄자",
+    "item_type_en": "Clubs",
+    "item_type_ko": "클럽",
     "base_name_en": "Cudgel",
     "base_name_ko": "커절",
     "base_stats": {
@@ -12875,6 +13163,8 @@
   "Zakarum's Hand": {
     "name_en": "Zakarum's Hand",
     "name_ko": "자카룸의 손",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "base_name_en": "Rune Scepter",
     "base_name_ko": "룬 셉터",
     "base_stats": {
@@ -13007,6 +13297,8 @@
   "The Fetid Sprinkler": {
     "name_en": "The Fetid Sprinkler",
     "name_ko": "썩은 뿌리개",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "base_name_en": "Holy Water Sprinkler",
     "base_name_ko": "홀리 워터 스프링클러",
     "base_stats": {
@@ -13117,6 +13409,8 @@
   "Hand of Blessed Light": {
     "name_en": "Hand of Blessed Light",
     "name_ko": "축복받은 빛의 손",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "base_name_en": "Divine Scepter",
     "base_name_ko": "디바인 셉터",
     "base_stats": {
@@ -13260,6 +13554,8 @@
   "Fleshrender": {
     "name_en": "Fleshrender",
     "name_ko": "살점 분쇄봉",
+    "item_type_en": "Clubs",
+    "item_type_ko": "클럽",
     "base_name_en": "Barbed Club",
     "base_name_ko": "바브드 클럽",
     "base_stats": {
@@ -13394,6 +13690,8 @@
   "Sureshrill Frost": {
     "name_en": "Sureshrill Frost",
     "name_ko": "외마디 서리",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "base_name_en": "Flanged Mace",
     "base_name_ko": "플랜지드 메이스",
     "base_stats": {
@@ -13495,6 +13793,8 @@
   "Moonfall": {
     "name_en": "Moonfall",
     "name_ko": "달내림",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "base_name_en": "Jagged Star",
     "base_name_ko": "재기드 스타",
     "base_stats": {
@@ -13605,6 +13905,8 @@
   "Baezil's Vortex": {
     "name_en": "Baezil's Vortex",
     "name_ko": "배질의 소용돌이",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "base_name_en": "Knout",
     "base_name_ko": "나우트",
     "base_stats": {
@@ -13715,6 +14017,8 @@
   "Earthshaker": {
     "name_en": "Earthshaker",
     "name_ko": "대지진의 망치",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "Battle Hammer",
     "base_name_ko": "배틀 해머",
     "base_stats": {
@@ -13825,6 +14129,8 @@
   "Bloodtree Stump": {
     "name_en": "Bloodtree Stump",
     "name_ko": "피나무 그루터기",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "War Club",
     "base_name_ko": "워 클럽",
     "base_stats": {
@@ -13936,6 +14242,8 @@
   "The Gavel of Pain": {
     "name_en": "The Gavel of Pain",
     "name_ko": "고통의 망치",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "Martel de Fer",
     "base_name_ko": "마르텔 드 페르",
     "base_stats": {
@@ -14044,6 +14352,8 @@
   "Bloodletter": {
     "name_en": "Bloodletter",
     "name_ko": "유혈자",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Gladius",
     "base_name_ko": "글래디우스",
     "base_stats": {
@@ -14168,6 +14478,8 @@
   "Coldsteel Eye": {
     "name_en": "Coldsteel Eye",
     "name_ko": "얼음강철 눈",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Cutlass",
     "base_name_ko": "커틀러스",
     "base_stats": {
@@ -14272,6 +14584,8 @@
   "Hexfire": {
     "name_en": "Hexfire",
     "name_ko": "사술불길",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Shamshir",
     "base_name_ko": "샴쉬르",
     "base_stats": {
@@ -14374,6 +14688,8 @@
   "Blade of Ali Baba": {
     "name_en": "Blade of Ali Baba",
     "name_ko": "알리바바의 칼날",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Tulwar",
     "base_name_ko": "털워",
     "base_stats": {
@@ -14467,6 +14783,8 @@
   "Ginther's Rift": {
     "name_en": "Ginther's Rift",
     "name_ko": "긴터의 균열",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Dimensional Blade",
     "base_name_ko": "디멘셔널 블레이드",
     "base_stats": {
@@ -14560,6 +14878,8 @@
   "Headstriker": {
     "name_en": "Headstriker",
     "name_ko": "머리분쇄기",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Battle Sword",
     "base_name_ko": "배틀 소드",
     "base_stats": {
@@ -14642,6 +14962,8 @@
   "Plague Bearer": {
     "name_en": "Plague Bearer",
     "name_ko": "역병 유발자",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Rune Sword",
     "base_name_ko": "룬 소드",
     "base_stats": {
@@ -14732,6 +15054,8 @@
   "The Atlantean": {
     "name_en": "The Atlantean",
     "name_ko": "아틀란티안",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Ancient Sword",
     "base_name_ko": "에인션트 소드",
     "base_stats": {
@@ -14847,6 +15171,8 @@
   "Crainte Vomir": {
     "name_en": "Crainte Vomir",
     "name_ko": "공포 구토자",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Espandon",
     "base_name_ko": "에스팬돈",
     "base_stats": {
@@ -14940,6 +15266,8 @@
   "Bing Sz Wang": {
     "name_en": "Bing Sz Wang",
     "name_ko": "얼음의 왕",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Dacian Falx",
     "base_name_ko": "다키안 팔크스",
     "base_stats": {
@@ -15031,6 +15359,8 @@
   "The Vile Husk": {
     "name_en": "The Vile Husk",
     "name_ko": "지독한 껍질",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Tusk Sword",
     "base_name_ko": "터스크 소드",
     "base_stats": {
@@ -15122,6 +15452,8 @@
   "Cloudcrack": {
     "name_en": "Cloudcrack",
     "name_ko": "구름가르개",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Gothic Sword",
     "base_name_ko": "고딕 소드",
     "base_stats": {
@@ -15242,6 +15574,8 @@
   "Todesfaelle Flamme": {
     "name_en": "Todesfaelle Flamme",
     "name_ko": "죽음나락 불길",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Zweihander",
     "base_name_ko": "즈바이핸더",
     "base_stats": {
@@ -15340,6 +15674,8 @@
   "Swordguard": {
     "name_en": "Swordguard",
     "name_ko": "검막이",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Executioner Sword",
     "base_name_ko": "엑시큐셔너 소드",
     "base_stats": {
@@ -15466,6 +15802,8 @@
   "Spineripper": {
     "name_en": "Spineripper",
     "name_ko": "척추적출자",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Poignard",
     "base_name_ko": "포이나드",
     "base_stats": {
@@ -15581,6 +15919,8 @@
   "Heart Carver": {
     "name_en": "Heart Carver",
     "name_ko": "심장 도리개",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Rondel",
     "base_name_ko": "런들",
     "base_stats": {
@@ -15682,6 +16022,8 @@
   "Blackbog's Sharp": {
     "name_en": "Blackbog's Sharp",
     "name_ko": "블랙보그의 날붙이",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Cinquedeas",
     "base_name_ko": "싱쿠디아",
     "base_stats": {
@@ -15794,6 +16136,8 @@
   "Stormspike": {
     "name_en": "Stormspike",
     "name_ko": "폭풍쐐기",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Stiletto",
     "base_name_ko": "스틸레토",
     "base_stats": {
@@ -15874,6 +16218,8 @@
   "The Impaler": {
     "name_en": "The Impaler",
     "name_ko": "꿰뚫는 자",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "War Spear",
     "base_name_ko": "워 스피어",
     "base_stats": {
@@ -15987,6 +16333,8 @@
   "Kelpie Snare": {
     "name_en": "Kelpie Snare",
     "name_ko": "켈피 올가미",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "Fuscina",
     "base_name_ko": "푸스키나",
     "base_stats": {
@@ -16080,6 +16428,8 @@
   "Soulfeast Tine": {
     "name_en": "Soulfeast Tine",
     "name_ko": "영혼포식 뿔",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "War Fork",
     "base_name_ko": "워 포크",
     "base_stats": {
@@ -16184,6 +16534,8 @@
   "Hone Sundan": {
     "name_en": "Hone Sundan",
     "name_ko": "골 토막",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "Yari",
     "base_name_ko": "야리",
     "base_stats": {
@@ -16266,6 +16618,8 @@
   "Spire of Honor": {
     "name_en": "Spire of Honor",
     "name_ko": "명예의 첨탑",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "Lance",
     "base_name_ko": "랜스",
     "base_stats": {
@@ -16390,6 +16744,8 @@
   "The Meat Scraper": {
     "name_en": "The Meat Scraper",
     "name_ko": "고기 긁개",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Lochaber Axe",
     "base_name_ko": "로카버 액스",
     "base_stats": {
@@ -16481,6 +16837,8 @@
   "Blackleach Blade": {
     "name_en": "Blackleach Blade",
     "name_ko": "검은거머리 칼날",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Bill",
     "base_name_ko": "빌",
     "base_stats": {
@@ -16572,6 +16930,8 @@
   "Athena's Wrath": {
     "name_en": "Athena's Wrath",
     "name_ko": "아테나의 진노",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Battle Scythe",
     "base_name_ko": "배틀 싸이드",
     "base_stats": {
@@ -16665,6 +17025,8 @@
   "Pierre Tombale Couant": {
     "name_en": "Pierre Tombale Couant",
     "name_ko": "피에르 통발 쿠앙",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Partizan",
     "base_name_ko": "파르티잔",
     "base_stats": {
@@ -16769,6 +17131,8 @@
   "Husoldal Evo": {
     "name_en": "Husoldal Evo",
     "name_ko": "후솔달 에보",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Bec-de-Corbin",
     "base_name_ko": "벡드코방",
     "base_stats": {
@@ -16862,6 +17226,8 @@
   "Grim's Burning Dead": {
     "name_en": "Grim's Burning Dead",
     "name_ko": "사신의 불타는 망자",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Grim Scythe",
     "base_name_ko": "그림 싸이드",
     "base_stats": {
@@ -16988,6 +17354,8 @@
   "Razorswitch": {
     "name_en": "Razorswitch",
     "name_ko": "서슬돌기",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Jo Staff",
     "base_name_ko": "조 스태프",
     "base_stats": {
@@ -17102,6 +17470,8 @@
   "Ribcracker": {
     "name_en": "Ribcracker",
     "name_ko": "늑골분쇄기",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Quarterstaff",
     "base_name_ko": "쿼터스태프",
     "base_stats": {
@@ -17238,6 +17608,8 @@
   "Chromatic Ire": {
     "name_en": "Chromatic Ire",
     "name_ko": "찬란한 분노",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Cedar Staff",
     "base_name_ko": "시더 스태프",
     "base_stats": {
@@ -17360,6 +17732,8 @@
   "Warpspear": {
     "name_en": "Warpspear",
     "name_ko": "왜곡창",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Gothic Staff",
     "base_name_ko": "고딕 스태프",
     "base_stats": {
@@ -17460,6 +17834,8 @@
   "Skull Collector": {
     "name_en": "Skull Collector",
     "name_ko": "두개골 수집가",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Rune Staff",
     "base_name_ko": "룬 스태프",
     "base_stats": {
@@ -17541,6 +17917,8 @@
   "Skystrike": {
     "name_en": "Skystrike",
     "name_ko": "하늘일격",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Edge Bow",
     "base_name_ko": "엣지 보우",
     "base_stats": {
@@ -17643,6 +18021,8 @@
   "Riphook": {
     "name_en": "Riphook",
     "name_ko": "파열갈고리",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Razor Bow",
     "base_name_ko": "레이저 보우",
     "base_stats": {
@@ -17736,6 +18116,8 @@
   "Kuko Shakaku": {
     "name_en": "Kuko Shakaku",
     "name_ko": "쿠코 샤카쿠",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Cedar Bow",
     "base_name_ko": "시더 보우",
     "base_stats": {
@@ -17826,6 +18208,8 @@
   "Endlesshail": {
     "name_en": "Endlesshail",
     "name_ko": "끝없는 우박",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Double Bow",
     "base_name_ko": "더블 보우",
     "base_stats": {
@@ -17918,6 +18302,8 @@
   "Witchwild String": {
     "name_en": "Witchwild String",
     "name_ko": "마녀림의 시위",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Short Siege Bow",
     "base_name_ko": "숏 시즈 보우",
     "base_stats": {
@@ -18009,6 +18395,8 @@
   "Cliffkiller": {
     "name_en": "Cliffkiller",
     "name_ko": "벼랑몰이",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Large Siege Bow",
     "base_name_ko": "라지 시즈 보우",
     "base_stats": {
@@ -18101,6 +18489,8 @@
   "Magewrath": {
     "name_en": "Magewrath",
     "name_ko": "마술사의 진노",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Rune Bow",
     "base_name_ko": "룬 보우",
     "base_stats": {
@@ -18226,6 +18616,8 @@
   "Goldstrike Arch": {
     "name_en": "Goldstrike Arch",
     "name_ko": "황금일격 활",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Gothic Bow",
     "base_name_ko": "고딕 보우",
     "base_stats": {
@@ -18328,6 +18720,8 @@
   "Langer Briser": {
     "name_en": "Langer Briser",
     "name_ko": "랑거 브리저",
+    "item_type_en": "Crossbows",
+    "item_type_ko": "크로스보우",
     "base_name_en": "Arbalest",
     "base_name_ko": "아발리스트",
     "base_stats": {
@@ -18432,6 +18826,8 @@
   "Pus Spitter": {
     "name_en": "Pus Spitter",
     "name_ko": "고름 쏘개",
+    "item_type_en": "Crossbows",
+    "item_type_ko": "크로스보우",
     "base_name_en": "Siege Crossbow",
     "base_name_ko": "시즈 크로스보우",
     "base_stats": {
@@ -18543,6 +18939,8 @@
   "Buriza-Do Kyanon": {
     "name_en": "Buriza-Do Kyanon",
     "name_ko": "눈보라 포",
+    "item_type_en": "Crossbows",
+    "item_type_ko": "크로스보우",
     "base_name_en": "Ballista",
     "base_name_ko": "발리스타",
     "base_stats": {
@@ -18658,6 +19056,8 @@
   "Demon Machine": {
     "name_en": "Demon Machine",
     "name_ko": "악마의 기계",
+    "item_type_en": "Crossbows",
+    "item_type_ko": "크로스보우",
     "base_name_en": "Chu-Ko-Nu",
     "base_name_ko": "추코누",
     "base_stats": {
@@ -18762,6 +19162,8 @@
   "Peasant Crown": {
     "name_en": "Peasant Crown",
     "name_ko": "평민의 왕관",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "War Hat",
     "base_name_ko": "워 햇",
     "base_stats": {
@@ -18847,6 +19249,8 @@
   "Rockstopper": {
     "name_en": "Rockstopper",
     "name_ko": "바위막이",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Sallet",
     "base_name_ko": "샐릿",
     "base_stats": {
@@ -18943,6 +19347,8 @@
   "Stealskull": {
     "name_en": "Stealskull",
     "name_ko": "두개골 도둑",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Casque",
     "base_name_ko": "캐스크",
     "base_stats": {
@@ -19028,6 +19434,8 @@
   "Darksight Helm": {
     "name_en": "Darksight Helm",
     "name_ko": "어둑눈 투구",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Basinet",
     "base_name_ko": "배서넷",
     "base_stats": {
@@ -19120,6 +19528,8 @@
   "Valkyrie Wing": {
     "name_en": "Valkyrie Wing",
     "name_ko": "발키리 날개",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Winged Helm",
     "base_name_ko": "윙드 헬름",
     "base_stats": {
@@ -19194,6 +19604,8 @@
   "Crown of Thieves": {
     "name_en": "Crown of Thieves",
     "name_ko": "도둑의 왕관",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Grand Crown",
     "base_name_ko": "그랜드 크라운",
     "base_stats": {
@@ -19290,6 +19702,8 @@
   "Blackhorn's Face": {
     "name_en": "Blackhorn's Face",
     "name_ko": "블랙혼의 얼굴",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Death Mask",
     "base_name_ko": "데스 마스크",
     "base_stats": {
@@ -19375,6 +19789,8 @@
   "Vampire Gaze": {
     "name_en": "Vampire Gaze",
     "name_ko": "흡혈귀의 눈길",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Grim Helm",
     "base_name_ko": "그림 헬름",
     "base_stats": {
@@ -19471,6 +19887,8 @@
   "The Spirit Shroud": {
     "name_en": "The Spirit Shroud",
     "name_ko": "혼령 장막",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Ghost Armor",
     "base_name_ko": "고스트 아머",
     "base_stats": {
@@ -19545,6 +19963,8 @@
   "Skin of the Vipermagi": {
     "name_en": "Skin of the Vipermagi",
     "name_ko": "독사마술사의 가죽",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Serpentskin Armor",
     "base_name_ko": "서펀트스킨 아머",
     "base_stats": {
@@ -19619,6 +20039,8 @@
   "Skin of the Flayed One": {
     "name_en": "Skin of the Flayed One",
     "name_ko": "벗겨진 자의 가죽",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Demonhide Armor",
     "base_name_ko": "데몬하이드 아머",
     "base_stats": {
@@ -19704,6 +20126,8 @@
   "Iron Pelt": {
     "name_en": "Iron Pelt",
     "name_ko": "무쇠 털가죽",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Trellised Armor",
     "base_name_ko": "트렐리스드 아머",
     "base_stats": {
@@ -19789,6 +20213,8 @@
   "Spirit Forge": {
     "name_en": "Spirit Forge",
     "name_ko": "영혼의 용광로",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Linked Mail",
     "base_name_ko": "링크드 메일",
     "base_stats": {
@@ -19885,6 +20311,8 @@
   "Crow Caw": {
     "name_en": "Crow Caw",
     "name_ko": "까마귀 울음",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Tigulated Mail",
     "base_name_ko": "티귤레이티드 메일",
     "base_stats": {
@@ -19970,6 +20398,8 @@
   "Shaftstop": {
     "name_en": "Shaftstop",
     "name_ko": "장대막이",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Mesh Armor",
     "base_name_ko": "메쉬 아머",
     "base_stats": {
@@ -20033,6 +20463,8 @@
   "Duriel's Shell": {
     "name_en": "Duriel's Shell",
     "name_ko": "두리엘의 껍질",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Cuirass",
     "base_name_ko": "퀴래스",
     "base_stats": {
@@ -20162,6 +20594,8 @@
   "Skullder's Ire": {
     "name_en": "Skullder's Ire",
     "name_ko": "스쿨더의 분노",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Russet Armor",
     "base_name_ko": "러셋 아머",
     "base_stats": {
@@ -20247,6 +20681,8 @@
   "Guardian Angel": {
     "name_en": "Guardian Angel",
     "name_ko": "수호 천사",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Templar Coat",
     "base_name_ko": "템플러 코트",
     "base_stats": {
@@ -20343,6 +20779,8 @@
   "Toothrow": {
     "name_en": "Toothrow",
     "name_ko": "강철니",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Sharktooth Armor",
     "base_name_ko": "샤크투스 아머",
     "base_stats": {
@@ -20439,6 +20877,8 @@
   "Atma's Wail": {
     "name_en": "Atma's Wail",
     "name_ko": "아트마의 통곡",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Embossed Plate",
     "base_name_ko": "임바스트 플레이트",
     "base_stats": {
@@ -20546,6 +20986,8 @@
   "Black Hades": {
     "name_en": "Black Hades",
     "name_ko": "검은 하데스",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Chaos Armor",
     "base_name_ko": "카오스 아머",
     "base_stats": {
@@ -20631,6 +21073,8 @@
   "Corpsemourn": {
     "name_en": "Corpsemourn",
     "name_ko": "망자의 애도",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Ornate Plate",
     "base_name_ko": "오네이트 플레이트",
     "base_stats": {
@@ -20723,6 +21167,8 @@
   "Que-Hegan's Wisdom": {
     "name_en": "Que-Hegan's Wisdom",
     "name_ko": "쿠에 히간의 지혜",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Mage Plate",
     "base_name_ko": "메이지 플레이트",
     "base_stats": {
@@ -20819,6 +21265,8 @@
   "Visceratuant": {
     "name_en": "Visceratuant",
     "name_ko": "적출자",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Defender",
     "base_name_ko": "디펜더",
     "base_stats": {
@@ -20893,6 +21341,8 @@
   "Moser's Blessed Circle": {
     "name_en": "Moser's Blessed Circle",
     "name_ko": "모저의 축복받은 고리",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Round Shield",
     "base_name_ko": "라운드 쉴드",
     "base_stats": {
@@ -20967,6 +21417,8 @@
   "Stormchaser": {
     "name_en": "Stormchaser",
     "name_ko": "폭풍추격자",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Scutum",
     "base_name_ko": "스큐텀",
     "base_stats": {
@@ -21081,6 +21533,8 @@
   "Tiamat's Rebuke": {
     "name_en": "Tiamat's Rebuke",
     "name_ko": "티아마트의 질책",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Dragon Shield",
     "base_name_ko": "드래곤 쉴드",
     "base_stats": {
@@ -21193,6 +21647,8 @@
   "Gerke's Sanctuary": {
     "name_en": "Gerke's Sanctuary",
     "name_ko": "게르케의 성역",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Pavise",
     "base_name_ko": "파비스",
     "base_stats": {
@@ -21289,6 +21745,8 @@
   "Radament's Sphere": {
     "name_en": "Radament's Sphere",
     "name_ko": "라다먼트의 명주",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Ancient Shield",
     "base_name_ko": "에인션트 쉴드",
     "base_stats": {
@@ -21392,6 +21850,8 @@
   "Lidless Wall": {
     "name_en": "Lidless Wall",
     "name_ko": "각성의 벽",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Grim Shield",
     "base_name_ko": "그림 쉴드",
     "base_stats": {
@@ -21488,6 +21948,8 @@
   "Lance Guard": {
     "name_en": "Lance Guard",
     "name_ko": "기병창 보호구",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Barbed Shield",
     "base_name_ko": "바브드 쉴드",
     "base_stats": {
@@ -21573,6 +22035,8 @@
   "Venom Grip": {
     "name_en": "Venom Grip",
     "name_ko": "맹독 손아귀",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Demonhide Gloves",
     "base_name_ko": "데몬하이드 글러브",
     "base_stats": {
@@ -21669,6 +22133,8 @@
   "Gravepalm": {
     "name_en": "Gravepalm",
     "name_ko": "무덤손바닥",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Sharkskin Gloves",
     "base_name_ko": "샤크스킨 글러브",
     "base_stats": {
@@ -21743,6 +22209,8 @@
   "Ghoulhide": {
     "name_en": "Ghoulhide",
     "name_ko": "구울 가죽",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Heavy Bracers",
     "base_name_ko": "헤비 브레이서",
     "base_stats": {
@@ -21817,6 +22285,8 @@
   "Lava Gout": {
     "name_en": "Lava Gout",
     "name_ko": "용암 불똥",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Battle Gauntlets",
     "base_name_ko": "배틀 건틀릿",
     "base_stats": {
@@ -21911,6 +22381,8 @@
   "Hellmouth": {
     "name_en": "Hellmouth",
     "name_ko": "지옥어귀",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "War Gauntlets",
     "base_name_ko": "워 건틀릿",
     "base_stats": {
@@ -21992,6 +22464,8 @@
   "Infernostride": {
     "name_en": "Infernostride",
     "name_ko": "지옥불걸음",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Demonhide Boots",
     "base_name_ko": "데몬하이드 부츠",
     "base_stats": {
@@ -22108,6 +22582,8 @@
   "Waterwalk": {
     "name_en": "Waterwalk",
     "name_ko": "물나그네",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Sharkskin Boots",
     "base_name_ko": "샤크스킨 부츠",
     "base_stats": {
@@ -22215,6 +22691,8 @@
   "Silkweave": {
     "name_en": "Silkweave",
     "name_ko": "비단매듭",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Mesh Boots",
     "base_name_ko": "메쉬 부츠",
     "base_stats": {
@@ -22289,6 +22767,8 @@
   "War Traveler": {
     "name_en": "War Traveler",
     "name_ko": "전쟁 여행자",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Battle Boots",
     "base_name_ko": "배틀 부츠",
     "base_stats": {
@@ -22407,6 +22887,8 @@
   "Gore Rider": {
     "name_en": "Gore Rider",
     "name_ko": "선혈 기수",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "War Boots",
     "base_name_ko": "워 부츠",
     "base_stats": {
@@ -22514,6 +22996,8 @@
   "String of Ears": {
     "name_en": "String of Ears",
     "name_ko": "귀 꿰미",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Demonhide Sash",
     "base_name_ko": "데몬하이드 새시",
     "base_stats": {
@@ -22599,6 +23083,8 @@
   "Razortail": {
     "name_en": "Razortail",
     "name_ko": "서슬꼬리",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Sharkskin Belt",
     "base_name_ko": "샤크스킨 벨트",
     "base_stats": {
@@ -22684,6 +23170,8 @@
   "Gloom's Trap": {
     "name_en": "Gloom's Trap",
     "name_ko": "어스름의 덫",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Mesh Belt",
     "base_name_ko": "메쉬 벨트",
     "base_stats": {
@@ -22769,6 +23257,8 @@
   "Snowclash": {
     "name_en": "Snowclash",
     "name_ko": "눈싸움",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Battle Belt",
     "base_name_ko": "배틀 벨트",
     "base_stats": {
@@ -22872,6 +23362,8 @@
   "Thundergod's Vigor": {
     "name_en": "Thundergod's Vigor",
     "name_ko": "천둥신의 박력",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "War Belt",
     "base_name_ko": "워 벨트",
     "base_stats": {
@@ -22986,6 +23478,8 @@
   "Harlequin Crest": {
     "name_en": "Harlequin Crest",
     "name_ko": "할리퀸 관모",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Shako",
     "base_name_ko": "샤코",
     "base_stats": {
@@ -23104,6 +23598,8 @@
   "Veil of Steel": {
     "name_en": "Veil of Steel",
     "name_ko": "강철의 베일",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Spired Helm",
     "base_name_ko": "스파이어드 헬름",
     "base_stats": {
@@ -23200,6 +23696,8 @@
   "The Gladiator's Bane": {
     "name_en": "The Gladiator's Bane",
     "name_ko": "검투사의 재앙",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Wire Fleece",
     "base_name_ko": "와이어 플리스",
     "base_stats": {
@@ -23318,6 +23816,8 @@
   "Arkaine's Valor": {
     "name_en": "Arkaine's Valor",
     "name_ko": "아르케인의 용맹",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Balrog Skin",
     "base_name_ko": "발록 스킨",
     "base_stats": {
@@ -23392,6 +23892,8 @@
   "Blackoak Shield": {
     "name_en": "Blackoak Shield",
     "name_ko": "검은참나무 방패",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Luna",
     "base_name_ko": "루나",
     "base_stats": {
@@ -23497,6 +23999,8 @@
   "Stormshield": {
     "name_en": "Stormshield",
     "name_ko": "폭풍막이",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Monarch",
     "base_name_ko": "모너크",
     "base_stats": {
@@ -23615,6 +24119,8 @@
   "Hellslayer": {
     "name_en": "Hellslayer",
     "name_ko": "지옥학살자",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Decapitator",
     "base_name_ko": "디캐피테이터",
     "base_stats": {
@@ -23718,6 +24224,8 @@
   "Messerschmidt's Reaver": {
     "name_en": "Messerschmidt's Reaver",
     "name_ko": "메서슈미트의 도끼",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Champion Axe",
     "base_name_ko": "챔피언 액스",
     "base_stats": {
@@ -23844,6 +24352,8 @@
   "Baranar's Star": {
     "name_en": "Baranar's Star",
     "name_ko": "바라나르의 별",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "base_name_en": "Devil Star",
     "base_name_ko": "데빌 스타",
     "base_stats": {
@@ -23980,6 +24490,8 @@
   "Schaefer's Hammer": {
     "name_en": "Schaefer's Hammer",
     "name_ko": "섀퍼의 망치",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "Legendary Mallet",
     "base_name_ko": "레전더리 맬릿",
     "base_stats": {
@@ -24125,6 +24637,8 @@
   "The Cranium Basher": {
     "name_en": "The Cranium Basher",
     "name_ko": "두개골 분쇄망치",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "Thunder Maul",
     "base_name_ko": "썬더 마울",
     "base_stats": {
@@ -24248,6 +24762,8 @@
   "Lightsabre": {
     "name_en": "Lightsabre",
     "name_ko": "라이트세이버",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Phase Blade",
     "base_name_ko": "페이즈 블레이드",
     "base_stats": {
@@ -24384,6 +24900,8 @@
   "Doombringer": {
     "name_en": "Doombringer",
     "name_ko": "궤멸자",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Champion Sword",
     "base_name_ko": "챔피언 소드",
     "base_stats": {
@@ -24486,6 +25004,8 @@
   "The Grandfather": {
     "name_en": "The Grandfather",
     "name_ko": "한아비",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Colossus Blade",
     "base_name_ko": "콜로서스 블레이드",
     "base_stats": {
@@ -24612,6 +25132,8 @@
   "Wizardspike": {
     "name_en": "Wizardspike",
     "name_ko": "마법사의 쐐기검",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Bone Knife",
     "base_name_ko": "본 나이프",
     "base_stats": {
@@ -24705,6 +25227,8 @@
   "Constricting Ring": {
     "name_en": "Constricting Ring",
     "name_ko": "죄어오는 반지",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -24763,6 +25287,8 @@
   "Stormspire": {
     "name_en": "Stormspire",
     "name_ko": "폭풍첨탑",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Giant Thresher",
     "base_name_ko": "자이언트 쓰레셔",
     "base_stats": {
@@ -24885,6 +25411,8 @@
   "Eaglehorn": {
     "name_en": "Eaglehorn",
     "name_ko": "수리뿔",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Crusader Bow",
     "base_name_ko": "크루세이더 보우",
     "base_stats": {
@@ -24978,6 +25506,8 @@
   "Windforce": {
     "name_en": "Windforce",
     "name_ko": "바람살",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Hydra Bow",
     "base_name_ko": "히드라 보우",
     "base_stats": {
@@ -25093,6 +25623,8 @@
   "Bul-Kathos' Wedding Band": {
     "name_en": "Bul-Kathos' Wedding Band",
     "name_ko": "불카토스의 결혼반지",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -25151,6 +25683,8 @@
   "The Cat's Eye": {
     "name_en": "The Cat's Eye",
     "name_ko": "고양이 눈",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -25220,6 +25754,8 @@
   "The Rising Sun": {
     "name_en": "The Rising Sun",
     "name_ko": "떠오르는 태양",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -25299,6 +25835,8 @@
   "Crescent Moon": {
     "name_en": "Crescent Moon",
     "name_ko": "초승달",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -25379,6 +25917,8 @@
   "Mara's Kaleidoscope": {
     "name_en": "Mara's Kaleidoscope",
     "name_ko": "마라의 만화경",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -25459,6 +25999,8 @@
   "Atma's Scarab": {
     "name_en": "Atma's Scarab",
     "name_ko": "아트마의 스카라베",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -25537,6 +26079,8 @@
   "Dwarf Star": {
     "name_en": "Dwarf Star",
     "name_ko": "왜성",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -25617,6 +26161,8 @@
   "Raven Frost": {
     "name_en": "Raven Frost",
     "name_ko": "칠흑 서리",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -25697,6 +26243,8 @@
   "Highlord's Wrath": {
     "name_en": "Highlord's Wrath",
     "name_ko": "대군주의 진노",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -25777,6 +26325,8 @@
   "Saracen's Chance": {
     "name_en": "Saracen's Chance",
     "name_ko": "사라센의 기회",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -25855,6 +26405,8 @@
   "Arreat's Face": {
     "name_en": "Arreat's Face",
     "name_ko": "아리앗의 얼굴",
+    "item_type_en": "Barbarian Helms",
+    "item_type_ko": "야만용사 전용 투구",
     "base_name_en": "Slayer Guard",
     "base_name_ko": "슬레이어 가드",
     "base_stats": {
@@ -25971,6 +26523,8 @@
   "Homunculus": {
     "name_en": "Homunculus",
     "name_ko": "호문쿨루스",
+    "item_type_en": "Necromancer Shrunken Heads",
+    "item_type_ko": "네크로맨서 전용 방패",
     "base_name_en": "Hierophant Trophy",
     "base_name_ko": "하이어러팬트 트로피",
     "base_stats": {
@@ -26087,6 +26641,8 @@
   "Titan's Revenge": {
     "name_en": "Titan's Revenge",
     "name_ko": "거인의 복수",
+    "item_type_en": "Amazon Javelins",
+    "item_type_ko": "아마존 전용 투창",
     "base_name_en": "Ceremonial Javelin",
     "base_name_ko": "세러모니얼 재벌린",
     "base_stats": {
@@ -26222,6 +26778,8 @@
   "Lycander's Aim": {
     "name_en": "Lycander's Aim",
     "name_ko": "라이칸더의 조준",
+    "item_type_en": "Amazon Bows",
+    "item_type_ko": "아마존 전용 활",
     "base_name_en": "Ceremonial Bow",
     "base_name_ko": "세러모니얼 보우",
     "base_stats": {
@@ -26346,6 +26904,8 @@
   "Lycander's Flank": {
     "name_en": "Lycander's Flank",
     "name_ko": "라이칸더의 측방",
+    "item_type_en": "Amazon Spears",
+    "item_type_ko": "아마존 전용 창",
     "base_name_en": "Ceremonial Pike",
     "base_name_ko": "세러모니얼 파이크",
     "base_stats": {
@@ -26470,6 +27030,8 @@
   "The Oculus": {
     "name_en": "The Oculus",
     "name_ko": "망울",
+    "item_type_en": "Orbs",
+    "item_type_ko": "오브",
     "base_name_en": "Swirling Crystal",
     "base_name_ko": "스월링 크리스탈",
     "base_stats": {
@@ -26594,6 +27156,8 @@
   "Herald of Zakarum": {
     "name_en": "Herald of Zakarum",
     "name_ko": "자카룸의 전령",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
     "base_name_en": "Gilded Shield",
     "base_name_ko": "길디드 쉴드",
     "base_stats": {
@@ -26710,6 +27274,8 @@
   "Bartuc's Cut-Throat": {
     "name_en": "Bartuc's Cut-Throat",
     "name_ko": "바르툭의 목 따개",
+    "item_type_en": "Claw",
+    "item_type_ko": "클러",
     "base_name_en": "Greater Talons",
     "base_name_ko": "그레이터 탤런",
     "base_stats": {
@@ -26834,6 +27400,8 @@
   "Jalal's Mane": {
     "name_en": "Jalal's Mane",
     "name_ko": "잘랄의 갈기",
+    "item_type_en": "Druid Pelts",
+    "item_type_ko": "드루이드 전용 투구",
     "base_name_en": "Totemic Mask",
     "base_name_ko": "토테믹 마스크",
     "base_stats": {
@@ -26950,6 +27518,8 @@
   "The Scalper": {
     "name_en": "The Scalper",
     "name_ko": "무두도끼",
+    "item_type_en": "Throwing Axes",
+    "item_type_ko": "투척 도끼",
     "base_name_en": "Francisca",
     "base_name_ko": "프란시스카",
     "base_stats": {
@@ -27054,6 +27624,8 @@
   "Bloodmoon": {
     "name_en": "Bloodmoon",
     "name_ko": "핏빛 달",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Elegant Blade",
     "base_name_ko": "엘리건트 블레이드",
     "base_stats": {
@@ -27134,6 +27706,8 @@
   "Djinn Slayer": {
     "name_en": "Djinn Slayer",
     "name_ko": "신령 학살자",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Ataghan",
     "base_name_ko": "아타간",
     "base_stats": {
@@ -27238,6 +27812,8 @@
   "Deathbit": {
     "name_en": "Deathbit",
     "name_ko": "죽음조각",
+    "item_type_en": "Throwing Knives",
+    "item_type_ko": "투척 단검",
     "base_name_en": "Battle Dart",
     "base_name_ko": "배틀 다트",
     "base_stats": {
@@ -27331,6 +27907,8 @@
   "Warshrike": {
     "name_en": "Warshrike",
     "name_ko": "전쟁표창",
+    "item_type_en": "Throwing Knives",
+    "item_type_ko": "투척 단검",
     "base_name_en": "Winged Knife",
     "base_name_ko": "윙드 나이프",
     "base_stats": {
@@ -27422,6 +28000,8 @@
   "Gut Siphon": {
     "name_en": "Gut Siphon",
     "name_ko": "내장 흡수",
+    "item_type_en": "Crossbows",
+    "item_type_ko": "크로스보우",
     "base_name_en": "Demon Crossbow",
     "base_name_ko": "데몬 크로스보우",
     "base_stats": {
@@ -27504,6 +28084,8 @@
   "Razor's Edge": {
     "name_en": "Razor's Edge",
     "name_ko": "서슬푸른 날붙이",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Tomahawk",
     "base_name_ko": "토마호크",
     "base_stats": {
@@ -27586,6 +28168,8 @@
   "Demon Limb": {
     "name_en": "Demon Limb",
     "name_ko": "악마의 사지",
+    "item_type_en": "Clubs",
+    "item_type_ko": "클럽",
     "base_name_en": "Tyrant Club",
     "base_name_ko": "타이런트 클럽",
     "base_stats": {
@@ -27698,6 +28282,8 @@
   "Steel Shade": {
     "name_en": "Steel Shade",
     "name_ko": "강철 그늘",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Armet",
     "base_name_ko": "아메트",
     "base_stats": {
@@ -27761,6 +28347,8 @@
   "Tomb Reaver": {
     "name_en": "Tomb Reaver",
     "name_ko": "무덤 강탈자",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Cryptic Axe",
     "base_name_ko": "크립틱 액스",
     "base_stats": {
@@ -27898,6 +28486,8 @@
   "Death's Web": {
     "name_en": "Death's Web",
     "name_ko": "죽음의 거미줄",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "base_name_en": "Unearthed Wand",
     "base_name_ko": "언어스드 원드",
     "base_stats": {
@@ -27988,6 +28578,8 @@
   "Nature's Peace": {
     "name_en": "Nature's Peace",
     "name_ko": "자연의 평화",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -28055,6 +28647,8 @@
   "Seraph's Hymn": {
     "name_en": "Seraph's Hymn",
     "name_ko": "천사의 찬송가",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -28144,6 +28738,8 @@
   "Fleshripper": {
     "name_en": "Fleshripper",
     "name_ko": "살점갈퀴",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Fanged Knife",
     "base_name_ko": "팽드 나이프",
     "base_stats": {
@@ -28248,6 +28844,8 @@
   "Horizon's Tornado": {
     "name_en": "Horizon's Tornado",
     "name_ko": "지평선의 회오리",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "base_name_en": "Scourge",
     "base_name_ko": "스컬지",
     "base_stats": {
@@ -28338,6 +28936,8 @@
   "Stone Crusher": {
     "name_en": "Stone Crusher",
     "name_ko": "돌 분쇄자",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "Legendary Mallet",
     "base_name_ko": "레전더리 맬릿",
     "base_stats": {
@@ -28441,6 +29041,8 @@
   "Jade Talon": {
     "name_en": "Jade Talon",
     "name_ko": "비취 발톱",
+    "item_type_en": "Claw",
+    "item_type_ko": "클러",
     "base_name_en": "Wrist Sword",
     "base_name_ko": "리스트 소드",
     "base_stats": {
@@ -28530,6 +29132,8 @@
   "Shadow Dancer": {
     "name_en": "Shadow Dancer",
     "name_ko": "그림자 춤꾼",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Myrmidon Greaves",
     "base_name_ko": "뮈르미돈 그리브",
     "base_stats": {
@@ -28613,6 +29217,8 @@
   "Cerebus' Bite": {
     "name_en": "Cerebus' Bite",
     "name_ko": "세레부스의 이빨",
+    "item_type_en": "Druid Pelts",
+    "item_type_ko": "드루이드 전용 투구",
     "base_name_en": "Blood Spirit",
     "base_name_ko": "블러드 스피리트",
     "base_stats": {
@@ -28695,6 +29301,8 @@
   "Tyrael's Might": {
     "name_en": "Tyrael's Might",
     "name_ko": "티리엘의 권능",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Sacred Armor",
     "base_name_ko": "세이크리드 아머",
     "base_stats": {
@@ -28813,6 +29421,8 @@
   "Soul Drainer": {
     "name_en": "Soul Drainer",
     "name_ko": "영혼 흡수자",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Vambraces",
     "base_name_ko": "뱀브레이스",
     "base_stats": {
@@ -28885,6 +29495,8 @@
   "Rune Master": {
     "name_en": "Rune Master",
     "name_ko": "룬 지배자",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Ettin Axe",
     "base_name_ko": "에틴 액스",
     "base_stats": {
@@ -28956,6 +29568,8 @@
   "Death Cleaver": {
     "name_en": "Death Cleaver",
     "name_ko": "죽음 가르개",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Berserker Axe",
     "base_name_ko": "버서커 액스",
     "base_stats": {
@@ -29038,6 +29652,8 @@
   "Executioner's Justice": {
     "name_en": "Executioner's Justice",
     "name_ko": "집행자의 정의",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Glorious Axe",
     "base_name_ko": "글로리어스 액스",
     "base_stats": {
@@ -29118,6 +29734,8 @@
   "Stoneraven": {
     "name_en": "Stoneraven",
     "name_ko": "돌까마귀",
+    "item_type_en": "Amazon Spears",
+    "item_type_ko": "아마존 전용 창",
     "base_name_en": "Matriarchal Spear",
     "base_name_ko": "메이트리어컬 스피어",
     "base_stats": {
@@ -29198,6 +29816,8 @@
   "Leviathan": {
     "name_en": "Leviathan",
     "name_ko": "거대괴수",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Kraken Shell",
     "base_name_ko": "크라켄 쉘",
     "base_stats": {
@@ -29272,6 +29892,8 @@
   "Wisp Projector": {
     "name_en": "Wisp Projector",
     "name_ko": "위습 투사기",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -29344,6 +29966,8 @@
   "Gargoyle's Bite": {
     "name_en": "Gargoyle's Bite",
     "name_ko": "가고일의 이빨",
+    "item_type_en": "Javelins",
+    "item_type_ko": "투창",
     "base_name_en": "Winged Harpoon",
     "base_name_ko": "윙드 하푼",
     "base_stats": {
@@ -29424,6 +30048,8 @@
   "Lacerator": {
     "name_en": "Lacerator",
     "name_ko": "난도질 도끼",
+    "item_type_en": "Throwing Axes",
+    "item_type_ko": "투척 도끼",
     "base_name_en": "Winged Axe",
     "base_name_ko": "윙드 액스",
     "base_stats": {
@@ -29526,6 +30152,8 @@
   "Mang Song's Lesson": {
     "name_en": "Mang Song's Lesson",
     "name_ko": "망 송의 가르침",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Archon Staff",
     "base_name_ko": "아콘 스태프",
     "base_stats": {
@@ -29629,6 +30257,8 @@
   "Viperfork": {
     "name_en": "Viperfork",
     "name_ko": "맹독갈퀴",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "Mancatcher",
     "base_name_ko": "맨캐쳐",
     "base_stats": {
@@ -29720,6 +30350,8 @@
   "Ethereal Edge": {
     "name_en": "Ethereal Edge",
     "name_ko": "무형의 날붙이",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "Silver-edged Axe",
     "base_name_ko": "실버 엣지드 액스",
     "base_stats": {
@@ -29835,6 +30467,8 @@
   "Demonhorn's Edge": {
     "name_en": "Demonhorn's Edge",
     "name_ko": "악마뿔의 날",
+    "item_type_en": "Barbarian Helms",
+    "item_type_ko": "야만용사 전용 투구",
     "base_name_en": "Destroyer Helm",
     "base_name_ko": "디스트로이어 헬름",
     "base_stats": {
@@ -29925,6 +30559,8 @@
   "The Reaper's Toll": {
     "name_en": "The Reaper's Toll",
     "name_ko": "사신의 종소리",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Thresher",
     "base_name_ko": "쓰레셔",
     "base_stats": {
@@ -30027,6 +30663,8 @@
   "Spirit Keeper": {
     "name_en": "Spirit Keeper",
     "name_ko": "영혼 수호자",
+    "item_type_en": "Druid Pelts",
+    "item_type_ko": "드루이드 전용 투구",
     "base_name_en": "Earth Spirit",
     "base_name_ko": "어스 스피리트",
     "base_stats": {
@@ -30123,6 +30761,8 @@
   "Hellrack": {
     "name_en": "Hellrack",
     "name_ko": "지옥포",
+    "item_type_en": "Crossbows",
+    "item_type_ko": "크로스보우",
     "base_name_en": "Colossus Crossbow",
     "base_name_ko": "콜로서스 크로스보우",
     "base_stats": {
@@ -30214,6 +30854,8 @@
   "Alma Negra": {
     "name_en": "Alma Negra",
     "name_ko": "알마 네그라",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
     "base_name_en": "Sacred Rondache",
     "base_name_ko": "세이크리드 론다쉬",
     "base_stats": {
@@ -30310,6 +30952,8 @@
   "Darkforce Spawn": {
     "name_en": "Darkforce Spawn",
     "name_ko": "어둠의 종자",
+    "item_type_en": "Necromancer Shrunken Heads",
+    "item_type_ko": "네크로맨서 전용 방패",
     "base_name_en": "Bloodlord Skull",
     "base_name_ko": "블러드로드 스컬",
     "base_stats": {
@@ -30389,6 +31033,8 @@
   "Widowmaker": {
     "name_en": "Widowmaker",
     "name_ko": "과부제조기",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "base_name_en": "Ward Bow",
     "base_name_ko": "워드 보우",
     "base_stats": {
@@ -30469,6 +31115,8 @@
   "Blood Raven's Charge": {
     "name_en": "Blood Raven's Charge",
     "name_ko": "핏빛 큰까마귀의 돌진",
+    "item_type_en": "Amazon Bows",
+    "item_type_ko": "아마존 전용 활",
     "base_name_en": "Matriarchal Bow",
     "base_name_ko": "메이트리어컬 보우",
     "base_stats": {
@@ -30547,6 +31195,8 @@
   "Ghostflame": {
     "name_en": "Ghostflame",
     "name_ko": "유령불꽃",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Legend Spike",
     "base_name_ko": "레전드 스파이크",
     "base_stats": {
@@ -30651,6 +31301,8 @@
   "Shadow Killer": {
     "name_en": "Shadow Killer",
     "name_ko": "죽음의 그림자",
+    "item_type_en": "Claw",
+    "item_type_ko": "클러",
     "base_name_en": "Battle Cestus",
     "base_name_ko": "배틀 세스터스",
     "base_stats": {
@@ -30753,6 +31405,8 @@
   "Gimmershred": {
     "name_en": "Gimmershred",
     "name_ko": "아른날",
+    "item_type_en": "Throwing Axes",
+    "item_type_ko": "투척 도끼",
     "base_name_en": "Flying Axe",
     "base_name_ko": "플라잉 액스",
     "base_stats": {
@@ -30846,6 +31500,8 @@
   "Griffon's Eye": {
     "name_en": "Griffon's Eye",
     "name_ko": "그리폰의 눈",
+    "item_type_en": "Circlets",
+    "item_type_ko": "서클릿",
     "base_name_en": "Diadem",
     "base_name_ko": "다이어뎀",
     "base_stats": {
@@ -30920,6 +31576,8 @@
   "Windhammer": {
     "name_en": "Windhammer",
     "name_ko": "바람망치",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "Ogre Maul",
     "base_name_ko": "오우거 마울",
     "base_stats": {
@@ -30999,6 +31657,8 @@
   "Thunderstroke": {
     "name_en": "Thunderstroke",
     "name_ko": "천둥일격",
+    "item_type_en": "Amazon Javelins",
+    "item_type_ko": "아마존 전용 투창",
     "base_name_en": "Matriarchal Javelin",
     "base_name_ko": "메이트리어컬 재벌린",
     "base_stats": {
@@ -31098,6 +31758,8 @@
   "Demon's Arch": {
     "name_en": "Demon's Arch",
     "name_ko": "악마의 호",
+    "item_type_en": "Javelins",
+    "item_type_ko": "투창",
     "base_name_en": "Balrog Spear",
     "base_name_ko": "발록 스피어",
     "base_stats": {
@@ -31191,6 +31853,8 @@
   "Boneflame": {
     "name_en": "Boneflame",
     "name_ko": "뼈불길",
+    "item_type_en": "Necromancer Shrunken Heads",
+    "item_type_ko": "네크로맨서 전용 방패",
     "base_name_en": "Succubus Skull",
     "base_name_ko": "써큐버스 스컬",
     "base_stats": {
@@ -31263,6 +31927,8 @@
   "Steel Pillar": {
     "name_en": "Steel Pillar",
     "name_ko": "강철 기둥",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "War Pike",
     "base_name_ko": "워 파이크",
     "base_stats": {
@@ -31356,6 +32022,8 @@
   "Nightwing's Veil": {
     "name_en": "Nightwing's Veil",
     "name_ko": "밤날개의 너울",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Spired Helm",
     "base_name_ko": "스파이어드 헬름",
     "base_stats": {
@@ -31452,6 +32120,8 @@
   "Crown of Ages": {
     "name_en": "Crown of Ages",
     "name_ko": "시대의 왕관",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Corona",
     "base_name_ko": "코로나",
     "base_stats": {
@@ -31559,6 +32229,8 @@
   "Andariel's Visage": {
     "name_en": "Andariel's Visage",
     "name_ko": "안다리엘의 두개골",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Demonhead",
     "base_name_ko": "데몬헤드",
     "base_stats": {
@@ -31684,6 +32356,8 @@
   "Dragonscale": {
     "name_en": "Dragonscale",
     "name_ko": "용비늘",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
     "base_name_en": "Zakarum Shield",
     "base_name_ko": "자카룸 쉴드",
     "base_stats": {
@@ -31778,6 +32452,8 @@
   "Steel Carapace": {
     "name_en": "Steel Carapace",
     "name_ko": "강철 갑피",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Shadow Plate",
     "base_name_ko": "쉐도우 플레이트",
     "base_stats": {
@@ -31872,6 +32548,8 @@
   "Medusa's Gaze": {
     "name_en": "Medusa's Gaze",
     "name_ko": "메두사의 눈길",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Aegis",
     "base_name_ko": "이지스",
     "base_stats": {
@@ -31953,6 +32631,8 @@
   "Ravenlore": {
     "name_en": "Ravenlore",
     "name_ko": "까마귀전승",
+    "item_type_en": "Druid Pelts",
+    "item_type_ko": "드루이드 전용 투구",
     "base_name_en": "Sky Spirit",
     "base_name_ko": "스카이 스피리트",
     "base_stats": {
@@ -32035,6 +32715,8 @@
   "Boneshade": {
     "name_en": "Boneshade",
     "name_ko": "뼈그늘",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "base_name_en": "Lich Wand",
     "base_name_ko": "리치 원드",
     "base_stats": {
@@ -32144,6 +32826,8 @@
   "Flamebellow": {
     "name_en": "Flamebellow",
     "name_ko": "기염검",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Balrog Blade",
     "base_name_ko": "발록 블레이드",
     "base_stats": {
@@ -32255,6 +32939,8 @@
   "Death's Fathom": {
     "name_en": "Death's Fathom",
     "name_ko": "죽음의 깊이",
+    "item_type_en": "Orbs",
+    "item_type_ko": "오브",
     "base_name_en": "Dimensional Shard",
     "base_name_ko": "디멘셔널 샤드",
     "base_stats": {
@@ -32337,6 +33023,8 @@
   "Wolfhowl": {
     "name_en": "Wolfhowl",
     "name_ko": "울부짖는 늑대",
+    "item_type_en": "Barbarian Helms",
+    "item_type_ko": "야만용사 전용 투구",
     "base_name_en": "Fury Visor",
     "base_name_ko": "퓨리 바이저",
     "base_stats": {
@@ -32445,6 +33133,8 @@
   "Spirit Ward": {
     "name_en": "Spirit Ward",
     "name_ko": "혼령 호신부",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Ward",
     "base_name_ko": "워드",
     "base_stats": {
@@ -32528,6 +33218,8 @@
   "Kira's Guardian": {
     "name_en": "Kira's Guardian",
     "name_ko": "키라의 수호자",
+    "item_type_en": "Circlets",
+    "item_type_ko": "서클릿",
     "base_name_en": "Tiara",
     "base_name_ko": "티아라",
     "base_stats": {
@@ -32591,6 +33283,8 @@
   "Ormus' Robes": {
     "name_en": "Ormus' Robes",
     "name_ko": "오르무스의 장포",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Dusk Shroud",
     "base_name_ko": "더스크 슈라우드",
     "base_stats": {
@@ -32687,6 +33381,8 @@
   "Gheed's Fortune": {
     "name_en": "Gheed's Fortune",
     "name_ko": "기드의 행운",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -32734,6 +33430,8 @@
   "Stormlash": {
     "name_en": "Stormlash",
     "name_ko": "폭풍채찍",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "base_name_en": "Scourge",
     "base_name_ko": "스컬지",
     "base_stats": {
@@ -32855,6 +33553,8 @@
   "Halaberd's Reign": {
     "name_en": "Halaberd's Reign",
     "name_ko": "할라버드의 통치",
+    "item_type_en": "Barbarian Helms",
+    "item_type_ko": "야만용사 전용 투구",
     "base_name_en": "Conqueror Crown",
     "base_name_ko": "컨커러 크라운",
     "base_stats": {
@@ -32947,6 +33647,8 @@
   "Spike Thorn": {
     "name_en": "Spike Thorn",
     "name_ko": "쐐기 가시",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Blade Barrier",
     "base_name_ko": "블레이드 배리어",
     "base_stats": {
@@ -33032,6 +33734,8 @@
   "Dracul's Grasp": {
     "name_en": "Dracul's Grasp",
     "name_ko": "드라쿨의 손아귀",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Vampirebone Gloves",
     "base_name_ko": "뱀파이어본 글러브",
     "base_stats": {
@@ -33115,6 +33819,8 @@
   "Frostwind": {
     "name_en": "Frostwind",
     "name_ko": "서리바람",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Cryptic Sword",
     "base_name_ko": "크립틱 소드",
     "base_stats": {
@@ -33217,6 +33923,8 @@
   "Templar's Might": {
     "name_en": "Templar's Might",
     "name_ko": "기사단의 위세",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "base_name_en": "Sacred Armor",
     "base_name_ko": "세이크리드 아머",
     "base_stats": {
@@ -33311,6 +34019,8 @@
   "Eschuta's Temper": {
     "name_en": "Eschuta's Temper",
     "name_ko": "에슈타의 성미",
+    "item_type_en": "Orbs",
+    "item_type_ko": "오브",
     "base_name_en": "Eldritch Orb",
     "base_name_ko": "엘드리치 오브",
     "base_stats": {
@@ -33393,6 +34103,8 @@
   "Firelizard's Talons": {
     "name_en": "Firelizard's Talons",
     "name_ko": "불도마뱀의 발톱",
+    "item_type_en": "Claw",
+    "item_type_ko": "클러",
     "base_name_en": "Feral Claws",
     "base_name_ko": "페럴 클러",
     "base_stats": {
@@ -33493,6 +34205,8 @@
   "Sandstorm Trek": {
     "name_en": "Sandstorm Trek",
     "name_ko": "모래폭풍 여로",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Scarabshell Boots",
     "base_name_ko": "스캐럽쉘 부츠",
     "base_stats": {
@@ -33611,6 +34325,8 @@
   "Marrowwalk": {
     "name_en": "Marrowwalk",
     "name_ko": "골수걸음",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Boneweave Boots",
     "base_name_ko": "본위브 부츠",
     "base_stats": {
@@ -33735,6 +34451,8 @@
   "Heaven's Light": {
     "name_en": "Heaven's Light",
     "name_ko": "천상의 빛",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "base_name_en": "Mighty Scepter",
     "base_name_ko": "마이티 셉터",
     "base_stats": {
@@ -33860,6 +34578,8 @@
   "Arachnid Mesh": {
     "name_en": "Arachnid Mesh",
     "name_ko": "거미 그물띠",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Spiderweb Sash",
     "base_name_ko": "스파이더웹 새시",
     "base_stats": {
@@ -33943,6 +34663,8 @@
   "Nosferatu's Coil": {
     "name_en": "Nosferatu's Coil",
     "name_ko": "노스페라투의 고리",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Vampirefang Belt",
     "base_name_ko": "뱀파이어팽 벨트",
     "base_stats": {
@@ -34028,6 +34750,8 @@
   "Metalgrid": {
     "name_en": "Metalgrid",
     "name_ko": "금속 격자",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -34093,6 +34817,8 @@
   "Verdungo's Hearty Cord": {
     "name_en": "Verdungo's Hearty Cord",
     "name_ko": "베르둔고의 튼튼한 노끈",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Mithril Coil",
     "base_name_ko": "미스릴 코일",
     "base_stats": {
@@ -34178,6 +34904,8 @@
   "Carrion Wind": {
     "name_en": "Carrion Wind",
     "name_ko": "부패의 바람",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -34263,6 +34991,8 @@
   "Giant Skull": {
     "name_en": "Giant Skull",
     "name_ko": "거인 두개골",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Bone Visage",
     "base_name_ko": "본 비지즈",
     "base_stats": {
@@ -34337,6 +35067,8 @@
   "Astreon's Iron Ward": {
     "name_en": "Astreon's Iron Ward",
     "name_ko": "아스트레온의 무쇠 호신부",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "base_name_en": "Caduceus",
     "base_name_ko": "카두세우스",
     "base_stats": {
@@ -34471,6 +35203,8 @@
   "Annihilus": {
     "name_en": "Annihilus",
     "name_ko": "어나이얼러스",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Small Charm",
     "base_name_ko": "작은 부적",
     "base_stats": {
@@ -34529,6 +35263,8 @@
   "Arioc's Needle": {
     "name_en": "Arioc's Needle",
     "name_ko": "아리옥의 바늘",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
     "base_name_en": "Hyperion Spear",
     "base_name_ko": "하이페리온 스피어",
     "base_stats": {
@@ -34622,6 +35358,8 @@
   "Cranebeak": {
     "name_en": "Cranebeak",
     "name_ko": "학부리",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "base_name_en": "War Spike",
     "base_name_ko": "워 스파이크",
     "base_stats": {
@@ -34713,6 +35451,8 @@
   "Nord's Tenderizer": {
     "name_en": "Nord's Tenderizer",
     "name_ko": "노르드의 고기 방망이",
+    "item_type_en": "Clubs",
+    "item_type_ko": "클럽",
     "base_name_en": "Truncheon",
     "base_name_ko": "트런천",
     "base_stats": {
@@ -34825,6 +35565,8 @@
   "Earth Shifter": {
     "name_en": "Earth Shifter",
     "name_ko": "대지 변형자",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "base_name_en": "Thunder Maul",
     "base_name_ko": "썬더 마울",
     "base_stats": {
@@ -34933,6 +35675,8 @@
   "Wraith Flight": {
     "name_en": "Wraith Flight",
     "name_ko": "망령의 비행",
+    "item_type_en": "Javelins",
+    "item_type_ko": "투창",
     "base_name_en": "Ghost Glaive",
     "base_name_ko": "고스트 글레이브",
     "base_stats": {
@@ -35015,6 +35759,8 @@
   "Bonehew": {
     "name_en": "Bonehew",
     "name_ko": "뼈자르개",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "base_name_en": "Ogre Axe",
     "base_name_ko": "오우거 액스",
     "base_stats": {
@@ -35104,6 +35850,8 @@
   "Ondal's Wisdom": {
     "name_en": "Ondal's Wisdom",
     "name_ko": "온달의 지혜",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "base_name_en": "Elder Staff",
     "base_name_ko": "엘더 스태프",
     "base_stats": {
@@ -35207,6 +35955,8 @@
   "The Redeemer": {
     "name_en": "The Redeemer",
     "name_ko": "구원자",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "base_name_en": "Mighty Scepter",
     "base_name_ko": "마이티 셉터",
     "base_stats": {
@@ -35341,6 +36091,8 @@
   "Head Hunter's Glory": {
     "name_en": "Head Hunter's Glory",
     "name_ko": "머리 사냥꾼의 영예",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "base_name_en": "Troll Nest",
     "base_name_ko": "트롤 네스트",
     "base_stats": {
@@ -35426,6 +36178,8 @@
   "Steelrend": {
     "name_en": "Steelrend",
     "name_ko": "강철찢개",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "base_name_en": "Ogre Gauntlets",
     "base_name_ko": "오우거 건틀릿",
     "base_stats": {
@@ -35489,6 +36243,8 @@
   "Rainbow Facet": {
     "name_en": "Rainbow Facet",
     "name_ko": "무지개 자락",
+    "item_type_en": "Jewel",
+    "item_type_ko": "주얼",
     "base_name_en": "Jewel",
     "base_name_ko": "주얼",
     "base_stats": {
@@ -35545,6 +36301,8 @@
   "Hellfire Torch": {
     "name_en": "Hellfire Torch",
     "name_ko": "지옥불 횃불",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Large Charm",
     "base_name_ko": "큰 부적",
     "base_stats": {
@@ -35621,6 +36379,8 @@
   "Cold Rupture": {
     "name_en": "Cold Rupture",
     "name_ko": "추위의 파열",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -35657,6 +36417,8 @@
   "Flame Rift": {
     "name_en": "Flame Rift",
     "name_ko": "불길의 균열",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -35693,6 +36455,8 @@
   "Crack of the Heavens": {
     "name_en": "Crack of the Heavens",
     "name_ko": "천상의 틈",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -35729,6 +36493,8 @@
   "Rotting Fissure": {
     "name_en": "Rotting Fissure",
     "name_ko": "부패의 분열",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -35765,6 +36531,8 @@
   "Bone Break": {
     "name_en": "Bone Break",
     "name_ko": "뼈의 분쇄",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -35801,6 +36569,8 @@
   "Black Cleft": {
     "name_en": "Black Cleft",
     "name_ko": "칠흑의 천공",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -35837,6 +36607,8 @@
   "Ars Al'Diabolos": {
     "name_en": "Ars Al'Diabolos",
     "name_ko": "아르스 알디아볼로스",
+    "item_type_en": "Armor",
+    "item_type_ko": "갑옷",
     "base_name_en": "Blasphemous Grimoire",
     "base_name_ko": "신성모독 마법서",
     "base_stats": {
@@ -35950,6 +36722,8 @@
   "Ars Tor'Baalos": {
     "name_en": "Ars Tor'Baalos",
     "name_ko": "아르스 토르바알로스",
+    "item_type_en": "Armor",
+    "item_type_ko": "갑옷",
     "base_name_en": "Blasphemous Compendium",
     "base_name_ko": "신성모독 전서",
     "base_stats": {
@@ -36060,6 +36834,8 @@
   "Ars Dul'Mephistos": {
     "name_en": "Ars Dul'Mephistos",
     "name_ko": "아르스 둘메피스토스",
+    "item_type_en": "Armor",
+    "item_type_ko": "갑옷",
     "base_name_en": "Occult Tome",
     "base_name_ko": "비술 고서",
     "base_stats": {
@@ -36176,6 +36952,8 @@
   "Measured Wrath": {
     "name_en": "Measured Wrath",
     "name_ko": "신중한 진노",
+    "item_type_en": "Armor",
+    "item_type_ko": "갑옷",
     "base_name_en": "Burnt Text",
     "base_name_ko": "불탄 문헌",
     "base_stats": {
@@ -36300,6 +37078,8 @@
   "Dreadfang": {
     "name_en": "Dreadfang",
     "name_ko": "공포송곳니",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "base_name_en": "Legend Sword",
     "base_name_ko": "레전드 소드",
     "base_stats": {
@@ -36412,6 +37192,8 @@
   "Wraithstep": {
     "name_en": "Wraithstep",
     "name_ko": "망령걸음",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "base_name_en": "Mirrored Boots",
     "base_name_ko": "미러드 부츠",
     "base_stats": {
@@ -36497,6 +37279,8 @@
   "Bloodpact Shard": {
     "name_en": "Bloodpact Shard",
     "name_ko": "피의 맹약 파편",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "base_name_en": "Mithril Point",
     "base_name_ko": "미스릴 포인트",
     "base_stats": {
@@ -36609,6 +37393,8 @@
   "Sling": {
     "name_en": "Sling",
     "name_ko": "새총",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -36687,6 +37473,8 @@
   "Opalvein": {
     "name_en": "Opalvein",
     "name_ko": "오팔맥",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "base_name_en": "Ring",
     "base_name_ko": "반지",
     "base_stats": {
@@ -36765,6 +37553,8 @@
   "Entropy Locket": {
     "name_en": "Entropy Locket",
     "name_ko": "엔트로피 로켓",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "base_name_en": "Amulet",
     "base_name_ko": "목걸이",
     "base_stats": {
@@ -36843,6 +37633,8 @@
   "Gheed's Wager": {
     "name_en": "Gheed's Wager",
     "name_ko": "기드의 내기",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "base_name_en": "Troll Belt",
     "base_name_ko": "트롤 벨트",
     "base_stats": {
@@ -36939,6 +37731,8 @@
   "Hellwarden's Will": {
     "name_en": "Hellwarden's Will",
     "name_ko": "지옥파수꾼의 의지",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "base_name_en": "Death Mask",
     "base_name_ko": "데스 마스크",
     "base_stats": {
@@ -37035,6 +37829,8 @@
   "Defender's Bile": {
     "name_en": "Defender's Bile",
     "name_ko": "수호자의 역정",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Jewel",
     "base_name_ko": "주얼",
     "base_stats": {
@@ -37124,6 +37920,8 @@
   "Guardian's Thunder": {
     "name_en": "Guardian's Thunder",
     "name_ko": "감시자의 천둥",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Jewel",
     "base_name_ko": "주얼",
     "base_stats": {
@@ -37213,6 +38011,8 @@
   "Protector's Frost": {
     "name_en": "Protector's Frost",
     "name_ko": "보호자의 서리",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Jewel",
     "base_name_ko": "주얼",
     "base_stats": {
@@ -37302,6 +38102,8 @@
   "Defender's Fire": {
     "name_en": "Defender's Fire",
     "name_ko": "수호자의 불",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Jewel",
     "base_name_ko": "주얼",
     "base_stats": {
@@ -37391,6 +38193,8 @@
   "Protector's Stone": {
     "name_en": "Protector's Stone",
     "name_ko": "보호자의 돌",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Jewel",
     "base_name_ko": "주얼",
     "base_stats": {
@@ -37480,6 +38284,8 @@
   "Guardian's Light": {
     "name_en": "Guardian's Light",
     "name_ko": "감시자의 빛",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Jewel",
     "base_name_ko": "주얼",
     "base_stats": {
@@ -37569,6 +38375,8 @@
   "Latent Cold Rupture": {
     "name_en": "Latent Cold Rupture",
     "name_ko": "잠복하는 추위의 파열",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -37605,6 +38413,8 @@
   "Renewed Cold Rupture": {
     "name_en": "Renewed Cold Rupture",
     "name_ko": "새로워진 추위의 파열",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -37707,6 +38517,8 @@
   "Latent Flame Rift": {
     "name_en": "Latent Flame Rift",
     "name_ko": "잠복하는 불길의 균열",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -37743,6 +38555,8 @@
   "Latent Crack of the Heavens": {
     "name_en": "Latent Crack of the Heavens",
     "name_ko": "잠복하는 천상의 틈",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -37779,6 +38593,8 @@
   "Latent Rotting Fissure": {
     "name_en": "Latent Rotting Fissure",
     "name_ko": "잠복하는 부패의 분열",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -37815,6 +38631,8 @@
   "Latent Bone Break": {
     "name_en": "Latent Bone Break",
     "name_ko": "잠복하는 뼈의 분쇄",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -37851,6 +38669,8 @@
   "Latent Black Cleft": {
     "name_en": "Latent Black Cleft",
     "name_ko": "잠복하는 칠흑의 천공",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -37887,6 +38707,8 @@
   "Renewed Flame Rift": {
     "name_en": "Renewed Flame Rift",
     "name_ko": "새로워진 불길의 균열",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -37978,6 +38800,8 @@
   "Renewed Crack of the Heavens": {
     "name_en": "Renewed Crack of the Heavens",
     "name_ko": "새로워진 천상의 틈",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -38069,6 +38893,8 @@
   "Renewed Rotting Fissure": {
     "name_en": "Renewed Rotting Fissure",
     "name_ko": "새로워진 부패의 분열",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -38160,6 +38986,8 @@
   "Renewed Bone Break": {
     "name_en": "Renewed Bone Break",
     "name_ko": "새로워진 뼈의 분쇄",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {
@@ -38251,6 +39079,8 @@
   "Renewed Black Cleft": {
     "name_en": "Renewed Black Cleft",
     "name_ko": "새로워진 칠흑의 천공",
+    "item_type_en": "",
+    "item_type_ko": "",
     "base_name_en": "Grand Charm",
     "base_name_ko": "거대 부적",
     "base_stats": {

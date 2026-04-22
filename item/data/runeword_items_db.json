@@ -2089,7 +2089,7 @@
   },
   "Dragon (Armor)": {
     "name_en": "Dragon (Armor)",
-    "name_ko": "용 (갑옷/투구)",
+    "name_ko": "용 (갑옷)",
     "runes_ko": [
       "수르",
       "로",
@@ -2345,7 +2345,7 @@
   },
   "Dream (Armor)": {
     "name_en": "Dream (Armor)",
-    "name_ko": "꿈 (갑옷/투구)",
+    "name_ko": "꿈 (갑옷)",
     "runes_ko": [
       "이오",
       "자",
@@ -3753,7 +3753,7 @@
   },
   "Fortitude (Armor)": {
     "name_en": "Fortitude (Armor)",
-    "name_ko": "인내 (갑옷/투구)",
+    "name_ko": "인내 (갑옷)",
     "runes_ko": [
       "엘",
       "솔",

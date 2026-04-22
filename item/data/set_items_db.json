@@ -2,6 +2,8 @@
   "Civerb's Ward": {
     "name_en": "Civerb's Ward",
     "name_ko": "시버브의 수호물",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "set_name_en": "Civerb's Vestments",
     "set_name_ko": "시버브의 예복",
     "base_name_en": "Large Shield",
@@ -117,6 +119,8 @@
   "Civerb's Icon": {
     "name_en": "Civerb's Icon",
     "name_ko": "시버브의 우상",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "set_name_en": "Civerb's Vestments",
     "set_name_ko": "시버브의 예복",
     "base_name_en": "Amulet",
@@ -227,6 +231,8 @@
   "Civerb's Cudgel": {
     "name_en": "Civerb's Cudgel",
     "name_ko": "시버브의 곤봉",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "set_name_en": "Civerb's Vestments",
     "set_name_ko": "시버브의 예복",
     "base_name_en": "Grand Scepter",
@@ -360,6 +366,8 @@
   "Hsarus' Iron Heel": {
     "name_en": "Hsarus' Iron Heel",
     "name_ko": "흐사루스의 무쇠 발꿈치",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "Hsarus' Defense",
     "set_name_ko": "흐사루스의 방어",
     "base_name_en": "Chain Boots",
@@ -453,6 +461,8 @@
   "Hsarus' Iron Fist": {
     "name_en": "Hsarus' Iron Fist",
     "name_ko": "흐사루스의 무쇠 주먹",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "set_name_en": "Hsarus' Defense",
     "set_name_ko": "흐사루스의 방어",
     "base_name_en": "Buckler",
@@ -546,6 +556,8 @@
   "Hsarus' Iron Stay": {
     "name_en": "Hsarus' Iron Stay",
     "name_ko": "흐사루스의 무쇠 고정대",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Hsarus' Defense",
     "set_name_ko": "흐사루스의 방어",
     "base_name_en": "Belt",
@@ -639,6 +651,8 @@
   "Cleglaw's Tooth": {
     "name_en": "Cleglaw's Tooth",
     "name_ko": "클리글로의 이빨",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "set_name_en": "Cleglaw's Brace",
     "set_name_ko": "클리글로의 버팀목",
     "base_name_en": "Long Sword",
@@ -751,6 +765,8 @@
   "Cleglaw's Claw": {
     "name_en": "Cleglaw's Claw",
     "name_ko": "클리글로의 발톱",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "set_name_en": "Cleglaw's Brace",
     "set_name_ko": "클리글로의 버팀목",
     "base_name_en": "Small Shield",
@@ -855,6 +871,8 @@
   "Cleglaw's Pincers": {
     "name_en": "Cleglaw's Pincers",
     "name_ko": "클리글로의 집게",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "Cleglaw's Brace",
     "set_name_ko": "클리글로의 버팀목",
     "base_name_en": "Chain Gloves",
@@ -959,6 +977,8 @@
   "Iratha's Collar": {
     "name_en": "Iratha's Collar",
     "name_ko": "이라타의 목깃",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "set_name_en": "Iratha's Finery",
     "set_name_ko": "이라타의 장식",
     "base_name_en": "Amulet",
@@ -1104,6 +1124,8 @@
   "Iratha's Cuff": {
     "name_en": "Iratha's Cuff",
     "name_ko": "이라타의 소매 장식",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "Iratha's Finery",
     "set_name_ko": "이라타의 장식",
     "base_name_en": "Light Gauntlets",
@@ -1254,6 +1276,8 @@
   "Iratha's Coil": {
     "name_en": "Iratha's Coil",
     "name_ko": "이라타의 고리",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Iratha's Finery",
     "set_name_ko": "이라타의 장식",
     "base_name_en": "Crown",
@@ -1404,6 +1428,8 @@
   "Iratha's Cord": {
     "name_en": "Iratha's Cord",
     "name_ko": "이라타의 노끈",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Iratha's Finery",
     "set_name_ko": "이라타의 장식",
     "base_name_en": "Heavy Belt",
@@ -1554,6 +1580,8 @@
   "Isenhart's Lightbrand": {
     "name_en": "Isenhart's Lightbrand",
     "name_ko": "아이젠하트의 빛 낙인",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "set_name_en": "Isenhart's Armory",
     "set_name_ko": "아이젠하트의 무기고",
     "base_name_en": "Broad Sword",
@@ -1690,6 +1718,8 @@
   "Isenhart's Parry": {
     "name_en": "Isenhart's Parry",
     "name_ko": "아이젠하트의 회피",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "set_name_en": "Isenhart's Armory",
     "set_name_ko": "아이젠하트의 무기고",
     "base_name_en": "Gothic Shield",
@@ -1818,6 +1848,8 @@
   "Isenhart's Case": {
     "name_en": "Isenhart's Case",
     "name_ko": "아이젠하트의 통",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Isenhart's Armory",
     "set_name_ko": "아이젠하트의 무기고",
     "base_name_en": "Breast Plate",
@@ -1946,6 +1978,8 @@
   "Isenhart's Horns": {
     "name_en": "Isenhart's Horns",
     "name_ko": "아이젠하트의 뿔",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Isenhart's Armory",
     "set_name_ko": "아이젠하트의 무기고",
     "base_name_en": "Full Helm",
@@ -2074,6 +2108,8 @@
   "Vidala's Barb": {
     "name_en": "Vidala's Barb",
     "name_ko": "비달라의 미늘",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "set_name_en": "Vidala's Rig",
     "set_name_ko": "비달라의 장치",
     "base_name_en": "Long Battle Bow",
@@ -2198,6 +2234,8 @@
   "Vidala's Fetlock": {
     "name_en": "Vidala's Fetlock",
     "name_ko": "비달라의 구절",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "Vidala's Rig",
     "set_name_ko": "비달라의 장치",
     "base_name_en": "Light Plated Boots",
@@ -2326,6 +2364,8 @@
   "Vidala's Ambush": {
     "name_en": "Vidala's Ambush",
     "name_ko": "비달라의 매복",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Vidala's Rig",
     "set_name_ko": "비달라의 장치",
     "base_name_en": "Leather Armor",
@@ -2454,6 +2494,8 @@
   "Vidala's Snare": {
     "name_en": "Vidala's Snare",
     "name_ko": "비달라의 덫",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "set_name_en": "Vidala's Rig",
     "set_name_ko": "비달라의 장치",
     "base_name_en": "Amulet",
@@ -2577,6 +2619,8 @@
   "Milabrega's Orb": {
     "name_en": "Milabrega's Orb",
     "name_ko": "밀라브레가의 보주",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "set_name_en": "Milabrega's Regalia",
     "set_name_ko": "밀라브레가의 상징",
     "base_name_en": "Kite Shield",
@@ -2716,6 +2760,8 @@
   "Milabrega's Rod": {
     "name_en": "Milabrega's Rod",
     "name_ko": "밀라브레가의 막대",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "set_name_en": "Milabrega's Regalia",
     "set_name_ko": "밀라브레가의 상징",
     "base_name_en": "War Scepter",
@@ -2884,6 +2930,8 @@
   "Milabrega's Diadem": {
     "name_en": "Milabrega's Diadem",
     "name_ko": "밀라브레가의 머리관",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Milabrega's Regalia",
     "set_name_ko": "밀라브레가의 상징",
     "base_name_en": "Crown",
@@ -3023,6 +3071,8 @@
   "Milabrega's Robe": {
     "name_en": "Milabrega's Robe",
     "name_ko": "밀라브레가의 장포",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Milabrega's Regalia",
     "set_name_ko": "밀라브레가의 상징",
     "base_name_en": "Ancient Armor",
@@ -3162,6 +3212,8 @@
   "Cathan's Rule": {
     "name_en": "Cathan's Rule",
     "name_ko": "카탄의 지배",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "set_name_en": "Cathan's Traps",
     "set_name_ko": "카탄의 덫",
     "base_name_en": "Battle Staff",
@@ -3319,6 +3371,8 @@
   "Cathan's Mesh": {
     "name_en": "Cathan's Mesh",
     "name_ko": "카탄의 그물망",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Cathan's Traps",
     "set_name_ko": "카탄의 덫",
     "base_name_en": "Chain Mail",
@@ -3458,6 +3512,8 @@
   "Cathan's Visage": {
     "name_en": "Cathan's Visage",
     "name_ko": "카탄의 얼굴",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Cathan's Traps",
     "set_name_ko": "카탄의 덫",
     "base_name_en": "Mask",
@@ -3597,6 +3653,8 @@
   "Cathan's Sigil": {
     "name_en": "Cathan's Sigil",
     "name_ko": "카탄의 인장",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "set_name_en": "Cathan's Traps",
     "set_name_ko": "카탄의 덫",
     "base_name_en": "Amulet",
@@ -3731,6 +3789,8 @@
   "Cathan's Seal": {
     "name_en": "Cathan's Seal",
     "name_ko": "카탄의 문장",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "set_name_en": "Cathan's Traps",
     "set_name_ko": "카탄의 덫",
     "base_name_en": "Ring",
@@ -3865,6 +3925,8 @@
   "Tancred's Crowbill": {
     "name_en": "Tancred's Crowbill",
     "name_ko": "탄크레드의 크로우빌",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "set_name_en": "Tancred's Battlegear",
     "set_name_ko": "탄크레드의 전투 장비",
     "base_name_en": "Military Pick",
@@ -3990,6 +4052,8 @@
   "Tancred's Spine": {
     "name_en": "Tancred's Spine",
     "name_ko": "탄크레드의 가시",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Tancred's Battlegear",
     "set_name_ko": "탄크레드의 전투 장비",
     "base_name_en": "Full Plate Mail",
@@ -4107,6 +4171,8 @@
   "Tancred's Hobnails": {
     "name_en": "Tancred's Hobnails",
     "name_ko": "탄크레드의 구두징",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "Tancred's Battlegear",
     "set_name_ko": "탄크레드의 전투 장비",
     "base_name_en": "Boots",
@@ -4224,6 +4290,8 @@
   "Tancred's Weird": {
     "name_en": "Tancred's Weird",
     "name_ko": "탄크레드의 기묘",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "set_name_en": "Tancred's Battlegear",
     "set_name_ko": "탄크레드의 전투 장비",
     "base_name_en": "Amulet",
@@ -4336,6 +4404,8 @@
   "Tancred's Skull": {
     "name_en": "Tancred's Skull",
     "name_ko": "탄크레드의 두개골",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Tancred's Battlegear",
     "set_name_ko": "탄크레드의 전투 장비",
     "base_name_en": "Bone Helm",
@@ -4453,6 +4523,8 @@
   "Sigon's Gage": {
     "name_en": "Sigon's Gage",
     "name_ko": "시곤의 전투 장갑",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "Sigon's Complete Steel",
     "set_name_ko": "시곤의 온전한 강철",
     "base_name_en": "Gauntlets",
@@ -4581,6 +4653,8 @@
   "Sigon's Visor": {
     "name_en": "Sigon's Visor",
     "name_ko": "시곤의 챙",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Sigon's Complete Steel",
     "set_name_ko": "시곤의 온전한 강철",
     "base_name_en": "Great Helm",
@@ -4709,6 +4783,8 @@
   "Sigon's Shelter": {
     "name_en": "Sigon's Shelter",
     "name_ko": "시곤의 안식처",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Sigon's Complete Steel",
     "set_name_ko": "시곤의 온전한 강철",
     "base_name_en": "Gothic Plate",
@@ -4837,6 +4913,8 @@
   "Sigon's Sabot": {
     "name_en": "Sigon's Sabot",
     "name_ko": "시곤의 나막신",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "Sigon's Complete Steel",
     "set_name_ko": "시곤의 온전한 강철",
     "base_name_en": "Greaves",
@@ -4965,6 +5043,8 @@
   "Sigon's Wrap": {
     "name_en": "Sigon's Wrap",
     "name_ko": "시곤의 싸개",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Sigon's Complete Steel",
     "set_name_ko": "시곤의 온전한 강철",
     "base_name_en": "Plated Belt",
@@ -5093,6 +5173,8 @@
   "Sigon's Guard": {
     "name_en": "Sigon's Guard",
     "name_ko": "시곤의 보호구",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "set_name_en": "Sigon's Complete Steel",
     "set_name_ko": "시곤의 온전한 강철",
     "base_name_en": "Tower Shield",
@@ -5221,6 +5303,8 @@
   "Infernal Cranium": {
     "name_en": "Infernal Cranium",
     "name_ko": "지옥불 두개골",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Infernal Tools",
     "set_name_ko": "지옥불 도구",
     "base_name_en": "Cap",
@@ -5360,6 +5444,8 @@
   "Infernal Torch": {
     "name_en": "Infernal Torch",
     "name_ko": "지옥불 횃불",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "set_name_en": "Infernal Tools",
     "set_name_ko": "지옥불 도구",
     "base_name_en": "Grim Wand",
@@ -5517,6 +5603,8 @@
   "Infernal Sign": {
     "name_en": "Infernal Sign",
     "name_ko": "지옥불 징조",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Infernal Tools",
     "set_name_ko": "지옥불 도구",
     "base_name_en": "Heavy Belt",
@@ -5656,6 +5744,8 @@
   "Berserker's Headgear": {
     "name_en": "Berserker's Headgear",
     "name_ko": "광전사의 머리 방어구",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Berserker's Arsenal",
     "set_name_ko": "광전사의 무기고",
     "base_name_en": "Helm",
@@ -5748,6 +5838,8 @@
   "Berserker's Hauberk": {
     "name_en": "Berserker's Hauberk",
     "name_ko": "광전사의 흉갑",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Berserker's Arsenal",
     "set_name_ko": "광전사의 무기고",
     "base_name_en": "Splint Mail",
@@ -5840,6 +5932,8 @@
   "Berserker's Hatchet": {
     "name_en": "Berserker's Hatchet",
     "name_ko": "광전사의 해칫",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
     "set_name_en": "Berserker's Arsenal",
     "set_name_ko": "광전사의 무기고",
     "base_name_en": "Double Axe",
@@ -5940,6 +6034,8 @@
   "Death's Hand": {
     "name_en": "Death's Hand",
     "name_ko": "죽음의 손",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "Death's Disguise",
     "set_name_ko": "죽음의 위장",
     "base_name_en": "Leather Gloves",
@@ -6033,6 +6129,8 @@
   "Death's Guard": {
     "name_en": "Death's Guard",
     "name_ko": "죽음의 경비",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Death's Disguise",
     "set_name_ko": "죽음의 위장",
     "base_name_en": "Sash",
@@ -6126,6 +6224,8 @@
   "Death's Touch": {
     "name_en": "Death's Touch",
     "name_ko": "죽음의 손길",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "set_name_en": "Death's Disguise",
     "set_name_ko": "죽음의 위장",
     "base_name_en": "War Sword",
@@ -6227,6 +6327,8 @@
   "Angelic Sickle": {
     "name_en": "Angelic Sickle",
     "name_ko": "천사의 낫",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "set_name_en": "Angelic Raiment",
     "set_name_ko": "천사의 의복",
     "base_name_en": "Sabre",
@@ -6352,6 +6454,8 @@
   "Angelic Mantle": {
     "name_en": "Angelic Mantle",
     "name_ko": "천사의 어깨걸이",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Angelic Raiment",
     "set_name_ko": "천사의 의복",
     "base_name_en": "Ring Mail",
@@ -6469,6 +6573,8 @@
   "Angelic Halo": {
     "name_en": "Angelic Halo",
     "name_ko": "천사의 후광",
+    "item_type_en": "Ring",
+    "item_type_ko": "반지",
     "set_name_en": "Angelic Raiment",
     "set_name_ko": "천사의 의복",
     "base_name_en": "Ring",
@@ -6581,6 +6687,8 @@
   "Angelic Wings": {
     "name_en": "Angelic Wings",
     "name_ko": "천사의 날개",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "set_name_en": "Angelic Raiment",
     "set_name_ko": "천사의 의복",
     "base_name_en": "Amulet",
@@ -6693,6 +6801,8 @@
   "Arctic Horn": {
     "name_en": "Arctic Horn",
     "name_ko": "극지 뿔",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
     "set_name_en": "Arctic Gear",
     "set_name_ko": "극지 장비",
     "base_name_en": "Short War Bow",
@@ -6807,6 +6917,8 @@
   "Arctic Furs": {
     "name_en": "Arctic Furs",
     "name_ko": "극지 모피",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Arctic Gear",
     "set_name_ko": "극지 장비",
     "base_name_en": "Quilted Armor",
@@ -6913,6 +7025,8 @@
   "Arctic Binding": {
     "name_en": "Arctic Binding",
     "name_ko": "극지 허리띠",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Arctic Gear",
     "set_name_ko": "극지 장비",
     "base_name_en": "Light Belt",
@@ -7019,6 +7133,8 @@
   "Arctic Mitts": {
     "name_en": "Arctic Mitts",
     "name_ko": "극지 장갑",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "Arctic Gear",
     "set_name_ko": "극지 장비",
     "base_name_en": "Light Gauntlets",
@@ -7125,6 +7241,8 @@
   "Arcanna's Sign": {
     "name_en": "Arcanna's Sign",
     "name_ko": "아르카나의 징조",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "set_name_en": "Arcanna's Tricks",
     "set_name_ko": "아르카나의 속임수",
     "base_name_en": "Amulet",
@@ -7248,6 +7366,8 @@
   "Arcanna's Deathwand": {
     "name_en": "Arcanna's Deathwand",
     "name_ko": "아르카나의 죽음마법봉",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "set_name_en": "Arcanna's Tricks",
     "set_name_ko": "아르카나의 속임수",
     "base_name_en": "War Staff",
@@ -7394,6 +7514,8 @@
   "Arcanna's Head": {
     "name_en": "Arcanna's Head",
     "name_ko": "아르카나의 머리",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Arcanna's Tricks",
     "set_name_ko": "아르카나의 속임수",
     "base_name_en": "Skull Cap",
@@ -7522,6 +7644,8 @@
   "Arcanna's Flesh": {
     "name_en": "Arcanna's Flesh",
     "name_ko": "아르카나의 살점",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Arcanna's Tricks",
     "set_name_ko": "아르카나의 속임수",
     "base_name_en": "Light Plate",
@@ -7650,6 +7774,8 @@
   "Natalya's Totem": {
     "name_en": "Natalya's Totem",
     "name_ko": "나탈랴의 토템",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Natalya's Odium",
     "set_name_ko": "나탈랴의 혐오",
     "base_name_en": "Grim Helm",
@@ -7846,6 +7972,8 @@
   "Natalya's Mark": {
     "name_en": "Natalya's Mark",
     "name_ko": "나탈랴의 표식",
+    "item_type_en": "Claw",
+    "item_type_ko": "클러",
     "set_name_en": "Natalya's Odium",
     "set_name_ko": "나탈랴의 혐오",
     "base_name_en": "Scissors Suwayyah",
@@ -8072,6 +8200,8 @@
   "Natalya's Shadow": {
     "name_en": "Natalya's Shadow",
     "name_ko": "나탈랴의 그림자",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Natalya's Odium",
     "set_name_ko": "나탈랴의 혐오",
     "base_name_en": "Loricated Mail",
@@ -8277,6 +8407,8 @@
   "Natalya's Soul": {
     "name_en": "Natalya's Soul",
     "name_ko": "나탈랴의 영혼",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "Natalya's Odium",
     "set_name_ko": "나탈랴의 혐오",
     "base_name_en": "Mesh Boots",
@@ -8484,6 +8616,8 @@
   "Aldur's Stony Gaze": {
     "name_en": "Aldur's Stony Gaze",
     "name_ko": "알두르의 냉랭한 눈길",
+    "item_type_en": "Druid Pelts",
+    "item_type_ko": "드루이드 전용 투구",
     "set_name_en": "Aldur's Watchtower",
     "set_name_ko": "알두르의 감시탑",
     "base_name_en": "Hunter's Guise",
@@ -8691,6 +8825,8 @@
   "Aldur's Deception": {
     "name_en": "Aldur's Deception",
     "name_ko": "알두르의 기만",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Aldur's Watchtower",
     "set_name_ko": "알두르의 감시탑",
     "base_name_en": "Shadow Plate",
@@ -8905,6 +9041,8 @@
   "Aldur's Rhythm": {
     "name_en": "Aldur's Rhythm",
     "name_ko": "알두르의 운율",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "set_name_en": "Aldur's Watchtower",
     "set_name_ko": "알두르의 감시탑",
     "base_name_en": "Jagged Star",
@@ -9141,6 +9279,8 @@
   "Aldur's Advance": {
     "name_en": "Aldur's Advance",
     "name_ko": "알두르의 진보",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "Aldur's Watchtower",
     "set_name_ko": "알두르의 감시탑",
     "base_name_en": "Battle Boots",
@@ -9359,6 +9499,8 @@
   "Immortal King's Will": {
     "name_en": "Immortal King's Will",
     "name_ko": "불멸왕의 의지",
+    "item_type_en": "Barbarian Helms",
+    "item_type_ko": "야만용사 전용 투구",
     "set_name_en": "Immortal King",
     "set_name_ko": "불멸왕",
     "base_name_en": "Avenger Guard",
@@ -9555,6 +9697,8 @@
   "Immortal King's Soul Cage": {
     "name_en": "Immortal King's Soul Cage",
     "name_ko": "불멸왕의 영혼집",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Immortal King",
     "set_name_ko": "불멸왕",
     "base_name_en": "Sacred Armor",
@@ -9727,6 +9871,8 @@
   "Immortal King's Detail": {
     "name_en": "Immortal King's Detail",
     "name_ko": "불멸왕의 장식띠",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Immortal King",
     "set_name_ko": "불멸왕",
     "base_name_en": "War Belt",
@@ -9903,6 +10049,8 @@
   "Immortal King's Forge": {
     "name_en": "Immortal King's Forge",
     "name_ko": "불멸왕의 용광로",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "Immortal King",
     "set_name_ko": "불멸왕",
     "base_name_en": "War Gauntlets",
@@ -10077,6 +10225,8 @@
   "Immortal King's Pillar": {
     "name_en": "Immortal King's Pillar",
     "name_ko": "불멸왕의 기둥",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "Immortal King",
     "set_name_ko": "불멸왕",
     "base_name_en": "War Boots",
@@ -10253,6 +10403,8 @@
   "Immortal King's Stone Crusher": {
     "name_en": "Immortal King's Stone Crusher",
     "name_ko": "불멸왕의 파석추",
+    "item_type_en": "Hammers",
+    "item_type_ko": "해머",
     "set_name_en": "Immortal King",
     "set_name_ko": "불멸왕",
     "base_name_en": "Ogre Maul",
@@ -10470,6 +10622,8 @@
   "Tal Rasha's Fine-Spun Cloth": {
     "name_en": "Tal Rasha's Fine-Spun Cloth",
     "name_ko": "탈 라샤의 고운 띠",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Tal Rasha's Wrappings",
     "set_name_ko": "탈 라샤의 수의",
     "base_name_en": "Mesh Belt",
@@ -10655,6 +10809,8 @@
   "Tal Rasha's Adjudication": {
     "name_en": "Tal Rasha's Adjudication",
     "name_ko": "탈 라샤의 선고",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "set_name_en": "Tal Rasha's Wrappings",
     "set_name_ko": "탈 라샤의 수의",
     "base_name_en": "Amulet",
@@ -10835,6 +10991,8 @@
   "Tal Rasha's Lidless Eye": {
     "name_en": "Tal Rasha's Lidless Eye",
     "name_ko": "탈 라샤의 잠들지 않는 눈",
+    "item_type_en": "Orbs",
+    "item_type_ko": "오브",
     "set_name_en": "Tal Rasha's Wrappings",
     "set_name_ko": "탈 라샤의 수의",
     "base_name_en": "Swirling Crystal",
@@ -11047,6 +11205,8 @@
   "Tal Rasha's Guardianship": {
     "name_en": "Tal Rasha's Guardianship",
     "name_ko": "탈 라샤의 보호",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Tal Rasha's Wrappings",
     "set_name_ko": "탈 라샤의 수의",
     "base_name_en": "Lacquered Plate",
@@ -11254,6 +11414,8 @@
   "Tal Rasha's Horadric Crest": {
     "name_en": "Tal Rasha's Horadric Crest",
     "name_ko": "탈 라샤의 호라드림 관모",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Tal Rasha's Wrappings",
     "set_name_ko": "탈 라샤의 수의",
     "base_name_en": "Death Mask",
@@ -11450,6 +11612,8 @@
   "Griswold's Valor": {
     "name_en": "Griswold's Valor",
     "name_ko": "그리스월드의 용맹",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Griswold's Legacy",
     "set_name_ko": "그리스월드의 유산",
     "base_name_en": "Corona",
@@ -11633,6 +11797,8 @@
   "Griswold's Heart": {
     "name_en": "Griswold's Heart",
     "name_ko": "그리스월드의 심장",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Griswold's Legacy",
     "set_name_ko": "그리스월드의 유산",
     "base_name_en": "Ornate Plate",
@@ -11803,6 +11969,8 @@
   "Griswold's Redemption": {
     "name_en": "Griswold's Redemption",
     "name_ko": "그리스월드의 구원",
+    "item_type_en": "Scepters",
+    "item_type_ko": "셉터",
     "set_name_en": "Griswold's Legacy",
     "set_name_ko": "그리스월드의 유산",
     "base_name_en": "Caduceus",
@@ -11983,6 +12151,8 @@
   "Griswold's Honor": {
     "name_en": "Griswold's Honor",
     "name_ko": "그리스월드의 명예",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
     "set_name_en": "Griswold's Legacy",
     "set_name_ko": "그리스월드의 유산",
     "base_name_en": "Vortex Shield",
@@ -12155,6 +12325,8 @@
   "Trang-Oul's Guise": {
     "name_en": "Trang-Oul's Guise",
     "name_ko": "트래그울의 허울",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Trang-Oul's Avatar",
     "set_name_ko": "트래그울의 화신",
     "base_name_en": "Bone Visage",
@@ -12387,6 +12559,8 @@
   "Trang-Oul's Scales": {
     "name_en": "Trang-Oul's Scales",
     "name_ko": "트래그울의 비늘",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Trang-Oul's Avatar",
     "set_name_ko": "트래그울의 화신",
     "base_name_en": "Chaos Armor",
@@ -12628,6 +12802,8 @@
   "Trang-Oul's Wing": {
     "name_en": "Trang-Oul's Wing",
     "name_ko": "트래그울의 날개",
+    "item_type_en": "Necromancer Shrunken Heads",
+    "item_type_ko": "네크로맨서 전용 방패",
     "set_name_en": "Trang-Oul's Avatar",
     "set_name_ko": "트래그울의 화신",
     "base_name_en": "Cantor Trophy",
@@ -12880,6 +13056,8 @@
   "Trang-Oul's Claws": {
     "name_en": "Trang-Oul's Claws",
     "name_ko": "트래그울의 발톱",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "Trang-Oul's Avatar",
     "set_name_ko": "트래그울의 화신",
     "base_name_en": "Heavy Bracers",
@@ -13099,6 +13277,8 @@
   "Trang-Oul's Girth": {
     "name_en": "Trang-Oul's Girth",
     "name_ko": "트래그울의 끈",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Trang-Oul's Avatar",
     "set_name_ko": "트래그울의 화신",
     "base_name_en": "Troll Belt",
@@ -13353,6 +13533,8 @@
   "M'avina's True Sight": {
     "name_en": "M'avina's True Sight",
     "name_ko": "마비나의 진실의 눈",
+    "item_type_en": "Circlets",
+    "item_type_ko": "서클릿",
     "set_name_en": "M'avina's Battle Hymn",
     "set_name_ko": "마비나의 전투 찬가",
     "base_name_en": "Diadem",
@@ -13514,6 +13696,8 @@
   "M'avina's Embrace": {
     "name_en": "M'avina's Embrace",
     "name_ko": "마비나의 포옹",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "M'avina's Battle Hymn",
     "set_name_ko": "마비나의 전투 찬가",
     "base_name_en": "Kraken Shell",
@@ -13693,6 +13877,8 @@
   "M'avina's Icy Clutch": {
     "name_en": "M'avina's Icy Clutch",
     "name_ko": "마비나의 얼음 같은 손길",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "M'avina's Battle Hymn",
     "set_name_ko": "마비나의 전투 찬가",
     "base_name_en": "Battle Gauntlets",
@@ -13876,6 +14062,8 @@
   "M'avina's Tenet": {
     "name_en": "M'avina's Tenet",
     "name_ko": "마비나의 신조",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "M'avina's Battle Hymn",
     "set_name_ko": "마비나의 전투 찬가",
     "base_name_en": "Sharkskin Belt",
@@ -14037,6 +14225,8 @@
   "M'avina's Caster": {
     "name_en": "M'avina's Caster",
     "name_ko": "마비나의 활",
+    "item_type_en": "Amazon Bows",
+    "item_type_ko": "아마존 전용 활",
     "set_name_en": "M'avina's Battle Hymn",
     "set_name_ko": "마비나의 전투 찬가",
     "base_name_en": "Grand Matron Bow",
@@ -14206,6 +14396,8 @@
   "Telling of Beads": {
     "name_en": "Telling of Beads",
     "name_ko": "구슬 묵주",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "set_name_en": "The Disciple",
     "set_name_ko": "사도",
     "base_name_en": "Amulet",
@@ -14355,6 +14547,8 @@
   "Laying of Hands": {
     "name_en": "Laying of Hands",
     "name_ko": "안수",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "The Disciple",
     "set_name_ko": "사도",
     "base_name_en": "Bramble Mitts",
@@ -14518,6 +14712,8 @@
   "Rite of Passage": {
     "name_en": "Rite of Passage",
     "name_ko": "통과의례",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "The Disciple",
     "set_name_ko": "사도",
     "base_name_en": "Demonhide Boots",
@@ -14672,6 +14868,8 @@
   "Dark Adherent": {
     "name_en": "Dark Adherent",
     "name_ko": "어둠의 추종자",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "The Disciple",
     "set_name_ko": "사도",
     "base_name_en": "Dusk Shroud",
@@ -14824,6 +15022,8 @@
   "Credendum": {
     "name_en": "Credendum",
     "name_ko": "신조",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "The Disciple",
     "set_name_ko": "사도",
     "base_name_en": "Mithril Coil",
@@ -14978,6 +15178,8 @@
   "Dangoon's Teaching": {
     "name_en": "Dangoon's Teaching",
     "name_ko": "단군의 가르침",
+    "item_type_en": "Maces",
+    "item_type_ko": "메이스",
     "set_name_en": "Heaven's Brethren",
     "set_name_ko": "천상의 동포",
     "base_name_en": "Reinforced Mace",
@@ -15155,6 +15357,8 @@
   "Taebaek's Glory": {
     "name_en": "Taebaek's Glory",
     "name_ko": "태백의 영예",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "set_name_en": "Heaven's Brethren",
     "set_name_ko": "천상의 동포",
     "base_name_en": "Ward",
@@ -15349,6 +15553,8 @@
   "Haemosu's Adamant": {
     "name_en": "Haemosu's Adamant",
     "name_ko": "해모수의 견고",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Heaven's Brethren",
     "set_name_ko": "천상의 동포",
     "base_name_en": "Cuirass",
@@ -15521,6 +15727,8 @@
   "Ondal's Almighty": {
     "name_en": "Ondal's Almighty",
     "name_ko": "온달의 사랑",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Heaven's Brethren",
     "set_name_ko": "천상의 동포",
     "base_name_en": "Spired Helm",
@@ -15702,6 +15910,8 @@
   "Guillaume's Face": {
     "name_en": "Guillaume's Face",
     "name_ko": "기욤의 얼굴",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Orphan's Call",
     "set_name_ko": "고아의 부름",
     "base_name_en": "Winged Helm",
@@ -15887,6 +16097,8 @@
   "Wilhelm's Pride": {
     "name_en": "Wilhelm's Pride",
     "name_ko": "빌헬름의 자부심",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Orphan's Call",
     "set_name_ko": "고아의 부름",
     "base_name_en": "Battle Belt",
@@ -16061,6 +16273,8 @@
   "Magnus' Skin": {
     "name_en": "Magnus' Skin",
     "name_ko": "마그누스의 가죽",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "Orphan's Call",
     "set_name_ko": "고아의 부름",
     "base_name_en": "Sharkskin Gloves",
@@ -16246,6 +16460,8 @@
   "Whitstan's Guard": {
     "name_en": "Whitstan's Guard",
     "name_ko": "위트스탄의 보호구",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
     "set_name_en": "Orphan's Call",
     "set_name_ko": "고아의 부름",
     "base_name_en": "Round Shield",
@@ -16431,6 +16647,8 @@
   "Hwanin's Splendor": {
     "name_en": "Hwanin's Splendor",
     "name_ko": "환인의 광채",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Hwanin's Majesty",
     "set_name_ko": "환인의 위엄",
     "base_name_en": "Grand Crown",
@@ -16570,6 +16788,8 @@
   "Hwanin's Refuge": {
     "name_en": "Hwanin's Refuge",
     "name_ko": "환인의 피난처",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Hwanin's Majesty",
     "set_name_ko": "환인의 위엄",
     "base_name_en": "Tigulated Mail",
@@ -16707,6 +16927,8 @@
   "Hwanin's Blessing": {
     "name_en": "Hwanin's Blessing",
     "name_ko": "환인의 축복",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Hwanin's Majesty",
     "set_name_ko": "환인의 위엄",
     "base_name_en": "Belt",
@@ -16846,6 +17068,8 @@
   "Hwanin's Justice": {
     "name_en": "Hwanin's Justice",
     "name_ko": "환인의 정의",
+    "item_type_en": "Polearms",
+    "item_type_ko": "폴암(미늘창)",
     "set_name_en": "Hwanin's Majesty",
     "set_name_ko": "환인의 위엄",
     "base_name_en": "Bill",
@@ -17013,6 +17237,8 @@
   "Sazabi's Cobalt Redeemer": {
     "name_en": "Sazabi's Cobalt Redeemer",
     "name_ko": "사자비의 코발트 구원자",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "set_name_en": "Sazabi's Grand Tribute",
     "set_name_ko": "사자비의 대공물",
     "base_name_en": "Cryptic Sword",
@@ -17202,6 +17428,8 @@
   "Sazabi's Ghost Liberator": {
     "name_en": "Sazabi's Ghost Liberator",
     "name_ko": "사자비의 유령 해방자",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Sazabi's Grand Tribute",
     "set_name_ko": "사자비의 대공물",
     "base_name_en": "Balrog Skin",
@@ -17361,6 +17589,8 @@
   "Sazabi's Mental Sheath": {
     "name_en": "Sazabi's Mental Sheath",
     "name_ko": "사자비의 정신 보호구",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Sazabi's Grand Tribute",
     "set_name_ko": "사자비의 대공물",
     "base_name_en": "Basinet",
@@ -17509,6 +17739,8 @@
   "Bul-Kathos' Sacred Charge": {
     "name_en": "Bul-Kathos' Sacred Charge",
     "name_ko": "불카토스의 신성한 임무",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "set_name_en": "Bul-Kathos' Children",
     "set_name_ko": "불카토스의 자손",
     "base_name_en": "Colossus Blade",
@@ -17674,6 +17906,8 @@
   "Bul-Kathos' Tribal Guardian": {
     "name_en": "Bul-Kathos' Tribal Guardian",
     "name_ko": "불카토스의 부족 수호자",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
     "set_name_en": "Bul-Kathos' Children",
     "set_name_ko": "불카토스의 자손",
     "base_name_en": "Mythical Sword",
@@ -17850,6 +18084,8 @@
   "Cow King's Horns": {
     "name_en": "Cow King's Horns",
     "name_ko": "젖소 왕의 뿔",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Cow King's Leathers",
     "set_name_ko": "젖소 왕의 보호구",
     "base_name_en": "War Hat",
@@ -18029,6 +18265,8 @@
   "Cow King's Hide": {
     "name_en": "Cow King's Hide",
     "name_ko": "젖소 왕의 날가죽",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Cow King's Leathers",
     "set_name_ko": "젖소 왕의 보호구",
     "base_name_en": "Studded Leather",
@@ -18206,6 +18444,8 @@
   "Cow King's Hooves": {
     "name_en": "Cow King's Hooves",
     "name_ko": "젖소 왕의 발굽",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "Cow King's Leathers",
     "set_name_ko": "젖소 왕의 보호구",
     "base_name_en": "Heavy Boots",
@@ -18396,6 +18636,8 @@
   "Naj's Puzzler": {
     "name_en": "Naj's Puzzler",
     "name_ko": "나즈의 수수께끼",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
     "set_name_en": "Naj's Ancient Vestige",
     "set_name_ko": "나즈의 고대 흔적",
     "base_name_en": "Elder Staff",
@@ -18626,6 +18868,8 @@
   "Naj's Light Plate": {
     "name_en": "Naj's Light Plate",
     "name_ko": "나즈의 경판갑",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Naj's Ancient Vestige",
     "set_name_ko": "나즈의 고대 흔적",
     "base_name_en": "Hellforge Plate",
@@ -18829,6 +19073,8 @@
   "Naj's Circlet": {
     "name_en": "Naj's Circlet",
     "name_ko": "나즈의 띠관",
+    "item_type_en": "Circlets",
+    "item_type_ko": "서클릿",
     "set_name_en": "Naj's Ancient Vestige",
     "set_name_ko": "나즈의 고대 흔적",
     "base_name_en": "Circlet",
@@ -19019,6 +19265,8 @@
   "Sander's Paragon": {
     "name_en": "Sander's Paragon",
     "name_ko": "샌더의 귀감",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Sander's Folly",
     "set_name_ko": "샌더의 어리석음",
     "base_name_en": "Cap",
@@ -19147,6 +19395,8 @@
   "Sander's Riprap": {
     "name_en": "Sander's Riprap",
     "name_ko": "샌더의 사석",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "Sander's Folly",
     "set_name_ko": "샌더의 어리석음",
     "base_name_en": "Heavy Boots",
@@ -19286,6 +19536,8 @@
   "Sander's Taboo": {
     "name_en": "Sander's Taboo",
     "name_ko": "샌더의 금기",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "Sander's Folly",
     "set_name_ko": "샌더의 어리석음",
     "base_name_en": "Heavy Gloves",
@@ -19425,6 +19677,8 @@
   "Sander's Superstition": {
     "name_en": "Sander's Superstition",
     "name_ko": "샌더의 미신",
+    "item_type_en": "Wands",
+    "item_type_ko": "원드(완드)",
     "set_name_en": "Sander's Folly",
     "set_name_ko": "샌더의 어리석음",
     "base_name_en": "Bone Wand",
@@ -19593,6 +19847,8 @@
   "Warlord's Conquest": {
     "name_en": "Warlord's Conquest",
     "name_ko": "군장의 정복",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "Warlord's Glory",
     "set_name_ko": "군장의 영예",
     "base_name_en": "Gauntlets",
@@ -19719,6 +19975,8 @@
   "Warlord's Lust": {
     "name_en": "Warlord's Lust",
     "name_ko": "군장의 욕정",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Warlord's Glory",
     "set_name_ko": "군장의 영예",
     "base_name_en": "Great Helm",
@@ -19845,6 +20103,8 @@
   "Warlord's Mantle": {
     "name_en": "Warlord's Mantle",
     "name_ko": "군장의 책임",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Warlord's Glory",
     "set_name_ko": "군장의 영예",
     "base_name_en": "Full Plate Mail",
@@ -19971,6 +20231,8 @@
   "Warlord's Crushers": {
     "name_en": "Warlord's Crushers",
     "name_ko": "군장의 분쇄자",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "Warlord's Glory",
     "set_name_ko": "군장의 영예",
     "base_name_en": "Greaves",
@@ -20097,6 +20359,8 @@
   "Warlord's Authority": {
     "name_en": "Warlord's Authority",
     "name_ko": "군장의 권위",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Warlord's Glory",
     "set_name_ko": "군장의 영예",
     "base_name_en": "Plated Belt",
@@ -20223,6 +20487,8 @@
   "Bane's Oathmaker": {
     "name_en": "Bane's Oathmaker",
     "name_ko": "재앙의 맹약자",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "set_name_en": "Bane's Garments",
     "set_name_ko": "재앙의 복장",
     "base_name_en": "Kris",
@@ -20335,6 +20601,8 @@
   "Bane's Wraithskin": {
     "name_en": "Bane's Wraithskin",
     "name_ko": "재앙의 망령껍질",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Bane's Garments",
     "set_name_ko": "재앙의 복장",
     "base_name_en": "Hard Leather Armor",
@@ -20439,6 +20707,8 @@
   "Bane's Authority": {
     "name_en": "Bane's Authority",
     "name_ko": "재앙의 권위",
+    "item_type_en": "Belts",
+    "item_type_ko": "허리띠",
     "set_name_en": "Bane's Garments",
     "set_name_ko": "재앙의 복장",
     "base_name_en": "Light Belt",
@@ -20543,6 +20813,8 @@
   "Horazon's Countenance": {
     "name_en": "Horazon's Countenance",
     "name_ko": "호라존의 표정",
+    "item_type_en": "Helms",
+    "item_type_ko": "투구",
     "set_name_en": "Horazon's Splendor",
     "set_name_ko": "호라존의 광채",
     "base_name_en": "Demonhead",
@@ -20715,6 +20987,8 @@
   "Horazon's Dominion": {
     "name_en": "Horazon's Dominion",
     "name_ko": "호라존의 지배",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
     "set_name_en": "Horazon's Splendor",
     "set_name_ko": "호라존의 광채",
     "base_name_en": "Russet Armor",
@@ -20907,6 +21181,8 @@
   "Horazon's Hold": {
     "name_en": "Horazon's Hold",
     "name_ko": "호라존의 장악",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "set_name_en": "Horazon's Splendor",
     "set_name_ko": "호라존의 광채",
     "base_name_en": "Demonhide Gloves",
@@ -21090,6 +21366,8 @@
   "Horazon's Legacy": {
     "name_en": "Horazon's Legacy",
     "name_ko": "호라존의 유산",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "set_name_en": "Horazon's Splendor",
     "set_name_ko": "호라존의 광채",
     "base_name_en": "Mirrored Boots",
@@ -21284,6 +21562,8 @@
   "Horazon's Secrets": {
     "name_en": "Horazon's Secrets",
     "name_ko": "호라존의 비밀",
+    "item_type_en": "Armor",
+    "item_type_ko": "갑옷",
     "set_name_en": "Horazon's Splendor",
     "set_name_ko": "호라존의 광채",
     "base_name_en": "Occult Codex",

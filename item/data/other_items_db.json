@@ -2,6 +2,8 @@
   "circlet": {
     "name_ko": "👑 서클릿 (모든 서클릿류)",
     "name_en": "👑 All Circlets",
+    "item_type_en": "Circlets",
+    "item_type_ko": "서클릿",
     "traderie_tag": "Circlet",
     "options": [
       {
@@ -379,6 +381,8 @@
   "glove": {
     "name_ko": "🧤 장갑 (모든 장갑)",
     "name_en": "🧤 All Gloves",
+    "item_type_en": "Gloves",
+    "item_type_ko": "장갑",
     "traderie_tag": "Glove",
     "options": [
       {
@@ -543,6 +547,8 @@
   "boot": {
     "name_ko": "👢 장화 (모든 부츠)",
     "name_en": "👢 All Boots",
+    "item_type_en": "Boots",
+    "item_type_ko": "장화",
     "traderie_tag": "Boot",
     "options": [
       {
@@ -671,6 +677,8 @@
   "paladin_shield": {
     "name_ko": "🛡️ 성기사 방패 (모든 방패)",
     "name_en": "🛡️ All Paladin Shields",
+    "item_type_en": "Paladin Shields",
+    "item_type_ko": "성기사 전용 방패",
     "traderie_tag": "Paladin Shield",
     "options": [
       {
@@ -744,6 +752,8 @@
   "warlock_dagger": {
     "name_ko": "🗡️ 악마술사 단검 (모든 단검)",
     "name_en": "🗡️ All Warlock Daggers",
+    "item_type_en": "Daggers",
+    "item_type_ko": "단검",
     "traderie_tag": "Dagger",
     "options": [
       {
@@ -871,6 +881,8 @@
   "amulet_all": {
     "name_ko": "📿 목걸이 (모든 목걸이)",
     "name_en": "📿 All Amulets",
+    "item_type_en": "Amulet",
+    "item_type_ko": "목걸이",
     "traderie_tag": "Amulet",
     "options": [
       {
@@ -1325,6 +1337,8 @@
   "amazon_bow": {
     "name_ko": "🏹 아마존용 활 (모든 활)",
     "name_en": "🏹 All Amazon Bows",
+    "item_type_en": "Amazon Bows",
+    "item_type_ko": "아마존 전용 활",
     "traderie_tag": "Amazon Bow",
     "options": [
       {
@@ -1385,6 +1399,8 @@
   "amazon_spear": {
     "name_ko": "🔱 아마존 전용 창 (모든 창/투창)",
     "name_en": "🔱 All Amazon Spears/Javelins",
+    "item_type_en": "Amazon Spears",
+    "item_type_ko": "아마존 전용 창",
     "traderie_tag": "Amazon Spear",
     "options": [
       {
