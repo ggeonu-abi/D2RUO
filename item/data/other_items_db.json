@@ -3909,6 +3909,873 @@
       }
     ]
   },
+  "Kraken Shell": {
+    "name_ko": "🛡️ [갑옷] 크라켄 쉘 (베이스)",
+    "name_en": "🛡️ [Body Armors] Kraken Shell (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uld",
+      "armor_type": "tors",
+      "minac": 417,
+      "maxac": 523,
+      "reqstr": 174,
+      "reqdex": 0,
+      "durability": 48
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Hellforge Plate": {
+    "name_ko": "🛡️ [갑옷] 헬포지 플레이트 (베이스)",
+    "name_en": "🛡️ [Body Armors] Hellforge Plate (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "ult",
+      "armor_type": "tors",
+      "minac": 421,
+      "maxac": 530,
+      "reqstr": 196,
+      "reqdex": 0,
+      "durability": 60
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Balrog Skin": {
+    "name_ko": "🛡️ [갑옷] 발록 스킨 (베이스)",
+    "name_en": "🛡️ [Body Armors] Balrog Skin (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "upl",
+      "armor_type": "tors",
+      "minac": 410,
+      "maxac": 517,
+      "reqstr": 165,
+      "reqdex": 0,
+      "durability": 30
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Boneweave": {
+    "name_ko": "🛡️ [갑옷] 본위브 (베이스)",
+    "name_en": "🛡️ [Body Armors] Boneweave (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uhn",
+      "armor_type": "tors",
+      "minac": 399,
+      "maxac": 505,
+      "reqstr": 158,
+      "reqdex": 0,
+      "durability": 45
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Loricated Mail": {
+    "name_ko": "🛡️ [갑옷] 로러케이티드 메일 (베이스)",
+    "name_en": "🛡️ [Body Armors] Loricated Mail (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "ucl",
+      "armor_type": "tors",
+      "minac": 390,
+      "maxac": 496,
+      "reqstr": 149,
+      "reqdex": 0,
+      "durability": 36
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Diamond Mail": {
+    "name_ko": "🛡️ [갑옷] 다이아몬드 메일 (베이스)",
+    "name_en": "🛡️ [Body Armors] Diamond Mail (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "ung",
+      "armor_type": "tors",
+      "minac": 383,
+      "maxac": 489,
+      "reqstr": 131,
+      "reqdex": 0,
+      "durability": 26
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Wire Fleece": {
+    "name_ko": "🛡️ [갑옷] 와이어 플리스 (베이스)",
+    "name_en": "🛡️ [Body Armors] Wire Fleece (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "utu",
+      "armor_type": "tors",
+      "minac": 375,
+      "maxac": 481,
+      "reqstr": 111,
+      "reqdex": 0,
+      "durability": 32
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Scarab Husk": {
+    "name_ko": "🛡️ [갑옷] 스캐럽 허스크 (베이스)",
+    "name_en": "🛡️ [Body Armors] Scarab Husk (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "ula",
+      "armor_type": "tors",
+      "minac": 369,
+      "maxac": 474,
+      "reqstr": 95,
+      "reqdex": 0,
+      "durability": 28
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Wyrmhide": {
+    "name_ko": "🛡️ [갑옷] 웜하이드 (베이스)",
+    "name_en": "🛡️ [Body Armors] Wyrmhide (Base)",
+    "item_type_en": "Body Armors",
+    "item_type_ko": "갑옷",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uea",
+      "armor_type": "tors",
+      "minac": 364,
+      "maxac": 470,
+      "reqstr": 84,
+      "reqdex": 0,
+      "durability": 24
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Ward": {
+    "name_ko": "🛡️ [방패] 워드 (베이스)",
+    "name_en": "🛡️ [Shields] Ward (Base)",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uts",
+      "armor_type": "shie",
+      "minac": 153,
+      "maxac": 170,
+      "reqstr": 185,
+      "reqdex": 0,
+      "durability": 100
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Aegis": {
+    "name_ko": "🛡️ [방패] 이지스 (베이스)",
+    "name_en": "🛡️ [Shields] Aegis (Base)",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uow",
+      "armor_type": "shie",
+      "minac": 145,
+      "maxac": 161,
+      "reqstr": 219,
+      "reqdex": 0,
+      "durability": 92
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Monarch": {
+    "name_ko": "🛡️ [방패] 모너크 (베이스)",
+    "name_en": "🛡️ [Shields] Monarch (Base)",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uit",
+      "armor_type": "shie",
+      "minac": 133,
+      "maxac": 148,
+      "reqstr": 156,
+      "reqdex": 0,
+      "durability": 86
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Hyperion": {
+    "name_ko": "🛡️ [방패] 하이페리온 (베이스)",
+    "name_en": "🛡️ [Shields] Hyperion (Base)",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "urg",
+      "armor_type": "shie",
+      "minac": 119,
+      "maxac": 135,
+      "reqstr": 127,
+      "reqdex": 0,
+      "durability": 82
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Luna": {
+    "name_ko": "🛡️ [방패] 루나 (베이스)",
+    "name_en": "🛡️ [Shields] Luna (Base)",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uml",
+      "armor_type": "shie",
+      "minac": 108,
+      "maxac": 123,
+      "reqstr": 100,
+      "reqdex": 0,
+      "durability": 84
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Heater": {
+    "name_ko": "🛡️ [방패] 히터 (베이스)",
+    "name_en": "🛡️ [Shields] Heater (Base)",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "uuc",
+      "armor_type": "shie",
+      "minac": 95,
+      "maxac": 110,
+      "reqstr": 77,
+      "reqdex": 0,
+      "durability": 88
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Blade Barrier": {
+    "name_ko": "🛡️ [방패] 블레이드 배리어 (베이스)",
+    "name_en": "🛡️ [Shields] Blade Barrier (Base)",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "upk",
+      "armor_type": "shie",
+      "minac": 147,
+      "maxac": 163,
+      "reqstr": 118,
+      "reqdex": 0,
+      "durability": 83
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Troll Nest": {
+    "name_ko": "🛡️ [방패] 트롤 네스트 (베이스)",
+    "name_en": "🛡️ [Shields] Troll Nest (Base)",
+    "item_type_en": "Shields",
+    "item_type_ko": "방패",
+    "base_stats": {
+      "item_type": "armor",
+      "namestr": "ush",
+      "armor_type": "shie",
+      "minac": 158,
+      "maxac": 173,
+      "reqstr": 106,
+      "reqdex": 0,
+      "durability": 74
+    },
+    "options": [
+      {
+        "type": "ac%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
   "Bone Visage": {
     "name_ko": "🛡️ [투구] 본 비지즈 (베이스)",
     "name_en": "🛡️ [Helms] Bone Visage (Base)",
@@ -5697,6 +6564,146 @@
       }
     ]
   },
+  "Hyperion Spear": {
+    "name_ko": "⚔️ [창] 하이페리온 스피어 (베이스)",
+    "name_en": "⚔️ [Spears] Hyperion Spear (Base)",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7sr",
+      "weapon_type1": "spea",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 35,
+      "2handmaxdam": 119,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "-10",
+      "reqstr": 155,
+      "reqdex": 120,
+      "durability": 30
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Ghost Spear": {
+    "name_ko": "⚔️ [창] 고스트 스피어 (베이스)",
+    "name_en": "⚔️ [Spears] Ghost Spear (Base)",
+    "item_type_en": "Spears",
+    "item_type_ko": "창",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7st",
+      "weapon_type1": "spea",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 18,
+      "2handmaxdam": 155,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 122,
+      "reqdex": 163,
+      "durability": 28
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
   "War Pike": {
     "name_ko": "⚔️ [창] 워 파이크 (베이스)",
     "name_en": "⚔️ [Spears] War Pike (Base)",
@@ -5789,6 +6796,216 @@
       "reqstr": 138,
       "reqdex": 59,
       "durability": 26
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Decapitator": {
+    "name_ko": "⚔️ [도끼] 디캐피테이터 (베이스)",
+    "name_en": "⚔️ [Axes] Decapitator (Base)",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7bt",
+      "weapon_type1": "axe",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 49,
+      "2handmaxdam": 137,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "10",
+      "reqstr": 189,
+      "reqdex": 33,
+      "durability": 40
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Glorious Axe": {
+    "name_ko": "⚔️ [도끼] 글로리어스 액스 (베이스)",
+    "name_en": "⚔️ [Axes] Glorious Axe (Base)",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7gi",
+      "weapon_type1": "axe",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 60,
+      "2handmaxdam": 124,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "10",
+      "reqstr": 164,
+      "reqdex": 55,
+      "durability": 50
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Champion Axe": {
+    "name_ko": "⚔️ [도끼] 챔피언 액스 (베이스)",
+    "name_en": "⚔️ [Axes] Champion Axe (Base)",
+    "item_type_en": "Axes",
+    "item_type_ko": "도끼",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7ga",
+      "weapon_type1": "axe",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 59,
+      "2handmaxdam": 94,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "-10",
+      "reqstr": 167,
+      "reqdex": 59,
+      "durability": 50
     },
     "options": [
       {
@@ -6629,6 +7846,76 @@
       "reqstr": 185,
       "reqdex": 87,
       "durability": 50
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
+      }
+    ]
+  },
+  "Champion Sword": {
+    "name_ko": "⚔️ [검] 챔피언 소드 (베이스)",
+    "name_en": "⚔️ [Swords] Champion Sword (Base)",
+    "item_type_en": "Swords",
+    "item_type_ko": "검",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "7b7",
+      "weapon_type1": "swor",
+      "weapon_type2": "",
+      "mindam": 24,
+      "maxdam": 54,
+      "2handmindam": 71,
+      "2handmaxdam": 83,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": true,
+      "2handed": true,
+      "speed": "-10",
+      "reqstr": 163,
+      "reqdex": 103,
+      "durability": 40
     },
     "options": [
       {
