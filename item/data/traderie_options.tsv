@@ -98,7 +98,7 @@ red-dmg		prop_413	피해 감소
 red-dmg%		prop_1865	받는 물리 피해 감소 %
 red-mag		prop_414	마법 피해 감소
 regen		prop_417	생명력 회복
-regen-mana			마나 재생 %
+regen-mana		prop_569	마나 재생 %
 res-all		prop_441	모든 저항 %
 res-cold		prop_426	냉기 저항 %
 res-fire		prop_427	화염 저항 %
@@ -108,7 +108,7 @@ res-pois		prop_401	독 저항 %
 res-pois-len		prop_419	독 지속시간 감소
 skill	110	prop_1038	번개 저항 (성기사 전용)
 skill	111	prop_577	복수(성기사 전용)
-skill	26		속사 (아마존 전용)
+skill	26	prop_683	속사 (아마존 전용)
 skill	66	prop_1002	피해 증폭 (강령술사 전용)
 skill	74	prop_1009	시체 폭발 (강령술사 전용)
 skill	76	prop_574	가시 박힌 철관 (강령술사 전용)
@@ -130,10 +130,10 @@ skill	Flame Wave	prop_1575	화염 파도
 skill	Hex: Bane	prop_1562	주술: 재앙 (악마술사 전용)
 skill	Hex: Purge	prop_1566	주술: 처단 (악마술사 전용)
 skill	Hex: Siphon	prop_1563	주술: 흡수 (악마술사 전용)
-skill	Holy Bolt		신성한 빛줄기 (성기사 전용)
+skill	Holy Bolt	prop_642	신성한 빛줄기 (성기사 전용)
 skill	Inferno Sentry	prop_769	지옥불의 파동 (암살자 전용)
 skill	Miasma Chain	prop_1576	독기 사술 (악맘술사 전용)
-skill	Redemption		속죄 (성기사 전용)
+skill	Redemption	prop_1047	속죄 (성기사 전용)
 skill	Ring of Fire	prop_1571	화염 고리
 skill	Sigil: Death	prop_1577	인장: 죽음 (악마술사 전용)
 skill	Sigil: Lethargy	prop_1570	인장: 무기력 (악마술사 전용)

@@ -1001,16 +1001,6 @@
       },
       {
         "type": "skill",
-        "param": "74",
-        "min": "1",
-        "max": "3",
-        "original_idx": 6,
-        "param_en": "Corpse Explosion",
-        "param_ko": "시체 폭발",
-        "charclass": "nec"
-      },
-      {
-        "type": "skill",
         "param": "77",
         "min": "1",
         "max": "3",
@@ -1021,22 +1011,32 @@
       },
       {
         "type": "skill",
-        "param": "66",
-        "min": "1",
-        "max": "3",
-        "original_idx": 8,
-        "param_en": "Amplify Damage",
-        "param_ko": "피해 증폭",
-        "charclass": "nec"
-      },
-      {
-        "type": "skill",
         "param": "76",
         "min": "1",
         "max": "3",
         "original_idx": 9,
         "param_en": "Iron Maiden",
         "param_ko": "가시 박힌 철관",
+        "charclass": "nec"
+      },
+      {
+        "type": "skill",
+        "param": "74",
+        "min": "1",
+        "max": "3",
+        "original_idx": 6,
+        "param_en": "Corpse Explosion",
+        "param_ko": "시체 폭발",
+        "charclass": "nec"
+      },
+      {
+        "type": "skill",
+        "param": "66",
+        "min": "1",
+        "max": "3",
+        "original_idx": 8,
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭",
         "charclass": "nec"
       },
       {
@@ -1228,22 +1228,22 @@
       },
       {
         "type": "skill",
-        "param": "77",
-        "min": "3",
-        "max": "3",
-        "original_idx": 5,
-        "param_en": "Terror",
-        "param_ko": "공포",
-        "charclass": "nec"
-      },
-      {
-        "type": "skill",
         "param": "87",
         "min": "2",
         "max": "2",
         "original_idx": 6,
         "param_en": "Decrepify",
         "param_ko": "노화",
+        "charclass": "nec"
+      },
+      {
+        "type": "skill",
+        "param": "77",
+        "min": "3",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Terror",
+        "param_ko": "공포",
         "charclass": "nec"
       },
       {
@@ -1655,12 +1655,12 @@
       },
       {
         "type": "skill",
-        "param": "110",
-        "min": "3",
-        "max": "5",
-        "original_idx": 5,
-        "param_en": "Resist Lightning",
-        "param_ko": "번개 저항",
+        "param": "121",
+        "min": "1",
+        "max": "1",
+        "original_idx": 7,
+        "param_en": "Fist of the Heavens",
+        "param_ko": "천상의 주먹",
         "charclass": "pal"
       },
       {
@@ -1675,12 +1675,12 @@
       },
       {
         "type": "skill",
-        "param": "121",
-        "min": "1",
-        "max": "1",
-        "original_idx": 7,
-        "param_en": "Fist of the Heavens",
-        "param_ko": "천상의 주먹",
+        "param": "110",
+        "min": "3",
+        "max": "5",
+        "original_idx": 5,
+        "param_en": "Resist Lightning",
+        "param_ko": "번개 저항",
         "charclass": "pal"
       },
       {
@@ -5059,22 +5059,22 @@
       },
       {
         "type": "skill",
-        "param": "36",
-        "min": "5",
-        "max": "5",
-        "original_idx": 7,
-        "param_en": "Fire Bolt",
-        "param_ko": "화염탄",
-        "charclass": "sor"
-      },
-      {
-        "type": "skill",
         "param": "37",
         "min": "2",
         "max": "2",
         "original_idx": 8,
         "param_en": "Warmth",
         "param_ko": "온기",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "36",
+        "min": "5",
+        "max": "5",
+        "original_idx": 7,
+        "param_en": "Fire Bolt",
+        "param_ko": "화염탄",
         "charclass": "sor"
       },
       {
@@ -11537,15 +11537,6 @@
     },
     "options": [
       {
-        "type": "hit-skill",
-        "param": "45",
-        "min": "10",
-        "max": "10",
-        "original_idx": 5,
-        "param_en": "Ice Blast",
-        "param_ko": "얼음 작렬"
-      },
-      {
         "type": "gethit-skill",
         "param": "44",
         "min": "10",
@@ -11553,6 +11544,15 @@
         "original_idx": 6,
         "param_en": "Frost Nova",
         "param_ko": "서릿발"
+      },
+      {
+        "type": "hit-skill",
+        "param": "45",
+        "min": "10",
+        "max": "10",
+        "original_idx": 5,
+        "param_en": "Ice Blast",
+        "param_ko": "얼음 작렬"
       },
       {
         "type": "swing3",
@@ -11768,22 +11768,22 @@
       },
       {
         "type": "skill",
-        "param": "233",
-        "min": "1",
-        "max": "1",
-        "original_idx": 9,
-        "param_en": "Maul",
-        "param_ko": "후려치기",
-        "charclass": "dru"
-      },
-      {
-        "type": "skill",
         "param": "248",
         "min": "1",
         "max": "1",
         "original_idx": 10,
         "param_en": "Fury",
         "param_ko": "분노",
+        "charclass": "dru"
+      },
+      {
+        "type": "skill",
+        "param": "233",
+        "min": "1",
+        "max": "1",
+        "original_idx": 9,
+        "param_en": "Maul",
+        "param_ko": "후려치기",
         "charclass": "dru"
       },
       {
@@ -12272,6 +12272,15 @@
     },
     "options": [
       {
+        "type": "gethit-skill",
+        "param": "38",
+        "min": "15",
+        "max": "5",
+        "original_idx": 8,
+        "param_en": "Charged Bolt",
+        "param_ko": "번개 줄기"
+      },
+      {
         "type": "hit-skill",
         "param": "53",
         "min": "5",
@@ -12287,15 +12296,6 @@
         "max": "20",
         "original_idx": 2,
         "chance_str": "10",
-        "param_en": "Charged Bolt",
-        "param_ko": "번개 줄기"
-      },
-      {
-        "type": "gethit-skill",
-        "param": "38",
-        "min": "15",
-        "max": "5",
-        "original_idx": 8,
         "param_en": "Charged Bolt",
         "param_ko": "번개 줄기"
       },
@@ -12871,16 +12871,6 @@
       },
       {
         "type": "skill",
-        "param": "77",
-        "min": "2",
-        "max": "2",
-        "original_idx": 7,
-        "param_en": "Terror",
-        "param_ko": "공포",
-        "charclass": "nec"
-      },
-      {
-        "type": "skill",
         "param": "80",
         "min": "2",
         "max": "2",
@@ -12891,12 +12881,12 @@
       },
       {
         "type": "skill",
-        "param": "69",
-        "min": "3",
-        "max": "3",
-        "original_idx": 9,
-        "param_en": "Skeleton Mastery",
-        "param_ko": "해골 숙련",
+        "param": "77",
+        "min": "2",
+        "max": "2",
+        "original_idx": 7,
+        "param_en": "Terror",
+        "param_ko": "공포",
         "charclass": "nec"
       },
       {
@@ -12907,6 +12897,16 @@
         "original_idx": 10,
         "param_en": "Raise Skeleton",
         "param_ko": "해골 되살리기",
+        "charclass": "nec"
+      },
+      {
+        "type": "skill",
+        "param": "69",
+        "min": "3",
+        "max": "3",
+        "original_idx": 9,
+        "param_en": "Skeleton Mastery",
+        "param_ko": "해골 숙련",
         "charclass": "nec"
       },
       {
@@ -13242,22 +13242,22 @@
       },
       {
         "type": "skill",
-        "param": "114",
-        "min": "2",
-        "max": "2",
-        "original_idx": 8,
-        "param_en": "Holy Freeze",
-        "param_ko": "신성한 빙결",
-        "charclass": "pal"
-      },
-      {
-        "type": "skill",
         "param": "118",
         "min": "2",
         "max": "2",
         "original_idx": 9,
         "param_en": "Holy Shock",
         "param_ko": "신성한 충격",
+        "charclass": "pal"
+      },
+      {
+        "type": "skill",
+        "param": "114",
+        "min": "2",
+        "max": "2",
+        "original_idx": 8,
+        "param_en": "Holy Freeze",
+        "param_ko": "신성한 빙결",
         "charclass": "pal"
       },
       {
@@ -13488,22 +13488,22 @@
       },
       {
         "type": "skill",
-        "param": "101",
-        "min": "4",
-        "max": "4",
-        "original_idx": 8,
-        "param_en": "Holy Bolt",
-        "param_ko": "신성한 빛줄기",
-        "charclass": "pal"
-      },
-      {
-        "type": "skill",
         "param": "121",
         "min": "2",
         "max": "2",
         "original_idx": 9,
         "param_en": "Fist of the Heavens",
         "param_ko": "천상의 주먹",
+        "charclass": "pal"
+      },
+      {
+        "type": "skill",
+        "param": "101",
+        "min": "4",
+        "max": "4",
+        "original_idx": 8,
+        "param_en": "Holy Bolt",
+        "param_ko": "신성한 빛줄기",
         "charclass": "pal"
       },
       {
@@ -14278,15 +14278,6 @@
         "desc_ko": "indestruct"
       },
       {
-        "type": "hit-skill",
-        "param": "66",
-        "min": "5",
-        "max": "1",
-        "original_idx": 1,
-        "param_en": "Amplify Damage",
-        "param_ko": "피해 증폭"
-      },
-      {
         "type": "gethit-skill",
         "param": "76",
         "min": "5",
@@ -14294,6 +14285,15 @@
         "original_idx": 2,
         "param_en": "Iron Maiden",
         "param_ko": "가시 박힌 철관"
+      },
+      {
+        "type": "hit-skill",
+        "param": "66",
+        "min": "5",
+        "max": "1",
+        "original_idx": 1,
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
       },
       {
         "type": "dmg%",
@@ -14433,22 +14433,22 @@
       },
       {
         "type": "skill",
-        "param": "127",
-        "min": "2",
-        "max": "4",
-        "original_idx": 7,
-        "param_en": "Blade Mastery",
-        "param_ko": "칼 숙련",
-        "charclass": "bar"
-      },
-      {
-        "type": "skill",
         "param": "151",
         "min": "1",
         "max": "3",
         "original_idx": 8,
         "param_en": "Whirlwind",
         "param_ko": "소용돌이",
+        "charclass": "bar"
+      },
+      {
+        "type": "skill",
+        "param": "127",
+        "min": "2",
+        "max": "4",
+        "original_idx": 7,
+        "param_en": "Blade Mastery",
+        "param_ko": "칼 숙련",
         "charclass": "bar"
       },
       {
@@ -15989,12 +15989,12 @@
       },
       {
         "type": "skill",
-        "param": "131",
+        "param": "150",
         "min": "4",
         "max": "4",
-        "original_idx": 5,
-        "param_en": "Find Potion",
-        "param_ko": "물약 발견",
+        "original_idx": 7,
+        "param_en": "Grim Ward",
+        "param_ko": "섬뜩한 호신부",
         "charclass": "bar"
       },
       {
@@ -16009,12 +16009,12 @@
       },
       {
         "type": "skill",
-        "param": "150",
+        "param": "131",
         "min": "4",
         "max": "4",
-        "original_idx": 7,
-        "param_en": "Grim Ward",
-        "param_ko": "섬뜩한 호신부",
+        "original_idx": 5,
+        "param_en": "Find Potion",
+        "param_ko": "물약 발견",
         "charclass": "bar"
       }
     ]
@@ -16081,12 +16081,12 @@
       },
       {
         "type": "skill",
-        "param": "73",
-        "min": "5",
-        "max": "5",
-        "original_idx": 6,
-        "param_en": "Poison Dagger",
-        "param_ko": "맹독 단도",
+        "param": "92",
+        "min": "4",
+        "max": "4",
+        "original_idx": 8,
+        "param_en": "Poison Nova",
+        "param_ko": "맹독 확산",
         "charclass": "nec"
       },
       {
@@ -16101,12 +16101,12 @@
       },
       {
         "type": "skill",
-        "param": "92",
-        "min": "4",
-        "max": "4",
-        "original_idx": 8,
-        "param_en": "Poison Nova",
-        "param_ko": "맹독 확산",
+        "param": "73",
+        "min": "5",
+        "max": "5",
+        "original_idx": 6,
+        "param_en": "Poison Dagger",
+        "param_ko": "맹독 단도",
         "charclass": "nec"
       },
       {
@@ -16298,17 +16298,6 @@
         "desc_ko": "상처 악화 확률"
       },
       {
-        "type": "noheal",
-        "param": "",
-        "min": "1",
-        "max": "1",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Prevent Monster Heal",
-        "desc_ko": "괴물 회복 저지"
-      },
-      {
         "type": "skill",
         "param": "19",
         "min": "5",
@@ -16327,6 +16316,17 @@
         "param_en": "Power Strike",
         "param_ko": "전기의 일격",
         "charclass": "ama"
+      },
+      {
+        "type": "noheal",
+        "param": "",
+        "min": "1",
+        "max": "1",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Prevent Monster Heal",
+        "desc_ko": "괴물 회복 저지"
       }
     ]
   },
@@ -17656,12 +17656,12 @@
       },
       {
         "type": "skill",
-        "param": "61",
+        "param": "65",
         "min": "1",
         "max": "1",
-        "original_idx": 6,
-        "param_en": "Fire Mastery",
-        "param_ko": "화염 숙련",
+        "original_idx": 8,
+        "param_en": "Cold Mastery",
+        "param_ko": "냉기 숙련",
         "charclass": "sor"
       },
       {
@@ -17676,12 +17676,12 @@
       },
       {
         "type": "skill",
-        "param": "65",
+        "param": "61",
         "min": "1",
         "max": "1",
-        "original_idx": 8,
-        "param_en": "Cold Mastery",
-        "param_ko": "냉기 숙련",
+        "original_idx": 6,
+        "param_en": "Fire Mastery",
+        "param_ko": "화염 숙련",
         "charclass": "sor"
       },
       {
@@ -17780,6 +17780,16 @@
       },
       {
         "type": "skill",
+        "param": "58",
+        "min": "3",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Energy Shield",
+        "param_ko": "마력 보호막",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
         "param": "54",
         "min": "3",
         "max": "3",
@@ -17796,16 +17806,6 @@
         "original_idx": 4,
         "param_en": "Telekinesis",
         "param_ko": "염력",
-        "charclass": "sor"
-      },
-      {
-        "type": "skill",
-        "param": "58",
-        "min": "3",
-        "max": "3",
-        "original_idx": 5,
-        "param_en": "Energy Shield",
-        "param_ko": "마력 보호막",
         "charclass": "sor"
       },
       {
@@ -18851,15 +18851,6 @@
     },
     "options": [
       {
-        "type": "hit-skill",
-        "param": "91",
-        "min": "4",
-        "max": "1",
-        "original_idx": 2,
-        "param_en": "Lower Resist",
-        "param_ko": "저항 감소"
-      },
-      {
         "type": "gethit-skill",
         "param": "92",
         "min": "9",
@@ -18867,6 +18858,15 @@
         "original_idx": 5,
         "param_en": "Poison Nova",
         "param_ko": "맹독 확산"
+      },
+      {
+        "type": "hit-skill",
+        "param": "91",
+        "min": "4",
+        "max": "1",
+        "original_idx": 2,
+        "param_en": "Lower Resist",
+        "param_ko": "저항 감소"
       },
       {
         "type": "nec",
@@ -23296,6 +23296,16 @@
       },
       {
         "type": "skill",
+        "param": "60",
+        "min": "2",
+        "max": "2",
+        "original_idx": 8,
+        "param_en": "Chilling Armor",
+        "param_ko": "냉기 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
         "param": "59",
         "min": "2",
         "max": "2",
@@ -23312,16 +23322,6 @@
         "original_idx": 7,
         "param_en": "Glacial Spike",
         "param_ko": "빙하 가시",
-        "charclass": "sor"
-      },
-      {
-        "type": "skill",
-        "param": "60",
-        "min": "2",
-        "max": "2",
-        "original_idx": 8,
-        "param_en": "Chilling Armor",
-        "param_ko": "냉기 갑옷",
         "charclass": "sor"
       },
       {
@@ -23400,22 +23400,22 @@
       },
       {
         "type": "skill",
-        "param": "34",
-        "min": "3",
-        "max": "3",
-        "original_idx": 8,
-        "param_en": "Lightning Strike",
-        "param_ko": "번개의 일격",
-        "charclass": "ama"
-      },
-      {
-        "type": "skill",
         "param": "35",
         "min": "3",
         "max": "3",
         "original_idx": 9,
         "param_en": "Lightning Fury",
         "param_ko": "번개의 격노",
+        "charclass": "ama"
+      },
+      {
+        "type": "skill",
+        "param": "34",
+        "min": "3",
+        "max": "3",
+        "original_idx": 8,
+        "param_en": "Lightning Strike",
+        "param_ko": "번개의 일격",
         "charclass": "ama"
       },
       {
@@ -24154,17 +24154,6 @@
         "param_ko": "화염구"
       },
       {
-        "type": "dmg%",
-        "param": "",
-        "min": "100",
-        "max": "100",
-        "original_idx": 6,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
         "type": "dmg%/lvl",
         "param": "24",
         "min": "",
@@ -24174,6 +24163,17 @@
         "param_ko": "24",
         "desc_en": "Enhanced Maximum Damage",
         "desc_ko": "최대 피해 증가"
+      },
+      {
+        "type": "dmg%",
+        "param": "",
+        "min": "100",
+        "max": "100",
+        "original_idx": 6,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "dmg-fire",
@@ -24249,17 +24249,6 @@
     },
     "options": [
       {
-        "type": "dmg%",
-        "param": "",
-        "min": "200",
-        "max": "200",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
         "type": "dmg%/lvl",
         "param": "20",
         "min": "",
@@ -24269,6 +24258,17 @@
         "param_ko": "20",
         "desc_en": "Enhanced Maximum Damage",
         "desc_ko": "최대 피해 증가"
+      },
+      {
+        "type": "dmg%",
+        "param": "",
+        "min": "200",
+        "max": "200",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "att%",
@@ -25447,17 +25447,6 @@
         "desc_ko": "아마존 기술 레벨"
       },
       {
-        "type": "dmg%",
-        "param": "",
-        "min": "200",
-        "max": "200",
-        "original_idx": 4,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
         "type": "dmg%/lvl",
         "param": "16",
         "min": "",
@@ -25467,6 +25456,17 @@
         "param_ko": "16",
         "desc_en": "Enhanced Maximum Damage",
         "desc_ko": "최대 피해 증가"
+      },
+      {
+        "type": "dmg%",
+        "param": "",
+        "min": "200",
+        "max": "200",
+        "original_idx": 4,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
       },
       {
         "type": "ignore-ac",
@@ -32565,15 +32565,6 @@
     },
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Lower Resist",
-        "min": "10",
-        "max": "7",
-        "original_idx": 3,
-        "param_en": "Lower Resist",
-        "param_ko": "저항 감소"
-      },
-      {
         "type": "death-skill",
         "param": "Nova",
         "min": "100",
@@ -32581,6 +32572,15 @@
         "original_idx": 5,
         "param_en": "Nova",
         "param_ko": "번개 파장"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Lower Resist",
+        "min": "10",
+        "max": "7",
+        "original_idx": 3,
+        "param_en": "Lower Resist",
+        "param_ko": "저항 감소"
       },
       {
         "type": "lifesteal",
@@ -32763,22 +32763,12 @@
       },
       {
         "type": "skill",
-        "param": "Teeth",
-        "min": "4",
-        "max": "5",
-        "original_idx": 3,
-        "param_en": "Teeth",
-        "param_ko": "이빨",
-        "charclass": "nec"
-      },
-      {
-        "type": "skill",
-        "param": "Bone Armor",
-        "min": "4",
-        "max": "5",
-        "original_idx": 4,
-        "param_en": "Bone Armor",
-        "param_ko": "뼈 갑옷",
+        "param": "Bone Spirit",
+        "min": "1",
+        "max": "2",
+        "original_idx": 6,
+        "param_en": "Bone Spirit",
+        "param_ko": "뼈 영혼",
         "charclass": "nec"
       },
       {
@@ -32793,22 +32783,32 @@
       },
       {
         "type": "skill",
-        "param": "Bone Spirit",
-        "min": "1",
-        "max": "2",
-        "original_idx": 6,
-        "param_en": "Bone Spirit",
-        "param_ko": "뼈 영혼",
-        "charclass": "nec"
-      },
-      {
-        "type": "skill",
         "param": "Bone Wall",
         "min": "2",
         "max": "3",
         "original_idx": 7,
         "param_en": "Bone Wall",
         "param_ko": "뼈의 벽",
+        "charclass": "nec"
+      },
+      {
+        "type": "skill",
+        "param": "Bone Armor",
+        "min": "4",
+        "max": "5",
+        "original_idx": 4,
+        "param_en": "Bone Armor",
+        "param_ko": "뼈 갑옷",
+        "charclass": "nec"
+      },
+      {
+        "type": "skill",
+        "param": "Teeth",
+        "min": "4",
+        "max": "5",
+        "original_idx": 3,
+        "param_en": "Teeth",
+        "param_ko": "이빨",
         "charclass": "nec"
       },
       {
@@ -33050,12 +33050,12 @@
       },
       {
         "type": "oskill",
-        "param": "Wearwolf",
+        "param": "Feral Rage",
         "min": "3",
         "max": "6",
-        "original_idx": 6,
-        "param_en": "Werewolf",
-        "param_ko": "늑대인간"
+        "original_idx": 9,
+        "param_en": "Feral Rage",
+        "param_ko": "흉포한 격노"
       },
       {
         "type": "oskill",
@@ -33068,12 +33068,12 @@
       },
       {
         "type": "oskill",
-        "param": "Feral Rage",
+        "param": "Wearwolf",
         "min": "3",
         "max": "6",
-        "original_idx": 9,
-        "param_en": "Feral Rage",
-        "param_ko": "흉포한 격노"
+        "original_idx": 6,
+        "param_en": "Werewolf",
+        "param_ko": "늑대인간"
       },
       {
         "type": "ac%",
@@ -33602,22 +33602,22 @@
       },
       {
         "type": "skill",
-        "param": "Battle Orders",
-        "min": "1",
-        "max": "2",
-        "original_idx": 6,
-        "param_en": "Battle Orders",
-        "param_ko": "전투 지시",
-        "charclass": "bar"
-      },
-      {
-        "type": "skill",
         "param": "Battle Command",
         "min": "1",
         "max": "2",
         "original_idx": 7,
         "param_en": "Battle Command",
         "param_ko": "전투 명령",
+        "charclass": "bar"
+      },
+      {
+        "type": "skill",
+        "param": "Battle Orders",
+        "min": "1",
+        "max": "2",
+        "original_idx": 6,
+        "param_en": "Battle Orders",
+        "param_ko": "전투 지시",
         "charclass": "bar"
       },
       {
@@ -34171,22 +34171,22 @@
       },
       {
         "type": "skill",
-        "param": "Wake of Fire Sentry",
-        "min": "1",
-        "max": "2",
-        "original_idx": 6,
-        "param_en": "Wake of Fire",
-        "param_ko": "불의 파동",
-        "charclass": "ass"
-      },
-      {
-        "type": "skill",
         "param": "Inferno Sentry",
         "min": "1",
         "max": "2",
         "original_idx": 7,
         "param_en": "Wake of Inferno",
         "param_ko": "지옥불의 파동",
+        "charclass": "ass"
+      },
+      {
+        "type": "skill",
+        "param": "Wake of Fire Sentry",
+        "min": "1",
+        "max": "2",
+        "original_idx": 6,
+        "param_en": "Wake of Fire",
+        "param_ko": "불의 파동",
         "charclass": "ass"
       },
       {
@@ -36758,12 +36758,12 @@
       },
       {
         "type": "skill",
-        "param": "Demonic Mastery",
+        "param": "Consume",
         "min": "2",
         "max": "3",
-        "original_idx": 3,
-        "param_en": "Demonic Mastery",
-        "param_ko": "악마 숙련",
+        "original_idx": 6,
+        "param_en": "Consume",
+        "param_ko": "소모",
         "charclass": "war"
       },
       {
@@ -36788,12 +36788,12 @@
       },
       {
         "type": "skill",
-        "param": "Consume",
+        "param": "Demonic Mastery",
         "min": "2",
         "max": "3",
-        "original_idx": 6,
-        "param_en": "Consume",
-        "param_ko": "소모",
+        "original_idx": 3,
+        "param_en": "Demonic Mastery",
+        "param_ko": "악마 숙련",
         "charclass": "war"
       },
       {
@@ -37001,12 +37001,12 @@
       },
       {
         "type": "skill",
-        "param": "Summon Tainted",
+        "param": "Flame Wave",
         "min": "1",
         "max": "3",
-        "original_idx": 5,
-        "param_en": "Summon Tainted",
-        "param_ko": "오염된 자 소환",
+        "original_idx": 7,
+        "param_en": "Flame Wave",
+        "param_ko": "화염 파도",
         "charclass": "war"
       },
       {
@@ -37021,12 +37021,12 @@
       },
       {
         "type": "skill",
-        "param": "Flame Wave",
+        "param": "Summon Tainted",
         "min": "1",
         "max": "3",
-        "original_idx": 7,
-        "param_en": "Flame Wave",
-        "param_ko": "화염 파도",
+        "original_idx": 5,
+        "param_en": "Summon Tainted",
+        "param_ko": "오염된 자 소환",
         "charclass": "war"
       },
       {
@@ -37327,12 +37327,12 @@
       },
       {
         "type": "skill",
-        "param": "Blood Oath",
-        "min": "2",
+        "param": "Bind Demon",
+        "min": "1",
         "max": "3",
-        "original_idx": 4,
-        "param_en": "Blood Oath",
-        "param_ko": "피의 맹세",
+        "original_idx": 6,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
         "charclass": "war"
       },
       {
@@ -37347,12 +37347,12 @@
       },
       {
         "type": "skill",
-        "param": "Bind Demon",
-        "min": "1",
+        "param": "Blood Oath",
+        "min": "2",
         "max": "3",
-        "original_idx": 6,
-        "param_en": "Bind Demon",
-        "param_ko": "악마 속박",
+        "original_idx": 4,
+        "param_en": "Blood Oath",
+        "param_ko": "피의 맹세",
         "charclass": "war"
       },
       {

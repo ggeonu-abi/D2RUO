@@ -136,6 +136,12 @@
 
 ---
 
+> **⚖️ 오픈소스 라이선스 고지:**
+> * 본 프로그램은 LGPLv3 라이선스를 따르는 **PySide6**를 동적 링크하여 사용하고 있습니다. 단일 실행 파일(`.exe`) 배포 특성상 라이브러리 교체를 위한 재링크(Relink)를 원하시는 분은 하단의 연락처(이메일)로 요청해 주시면 빌드용 오브젝트 파일(Object File)을 제공해 드립니다.
+> * 게임 화면 내 텍스트 인식(OCR)을 위해 Apache 2.0 라이선스를 따르는 **Tesseract OCR** 및 **pytesseract**를 사용하고 있습니다.
+
+---
+
 ## <a id="environment-kr"></a>💻 테스트 환경 및 주의사항 (Troubleshooting)
 
 이 프로그램은 아래의 환경에서 개발 및 테스트되었습니다. 사용자 환경에 따라 약간의 차이가 있을 수 있습니다.
@@ -305,6 +311,12 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | `sounds/` | Place your custom `.mp3` or `.wav` files here for buff alerts. |
 | `item/data/` | Database files (`.json`, `.tsv`) used for the item search dictionary. |
 | `fonts/` | Default built-in fonts. You can add your own font files here. |
+
+---
+
+> **⚖️ Open Source License Notice:**
+> * This program dynamically links **PySide6**, which is licensed under LGPLv3. Due to the nature of single executable (`.exe`) distribution, if you wish to relink the library, please request the object files via the email provided below.
+> * This program uses **Tesseract OCR** and **pytesseract** for text recognition on the game screen, which are licensed under the Apache License 2.0.
 
 ---
 

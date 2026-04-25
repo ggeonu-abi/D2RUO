@@ -800,12 +800,13 @@
       },
       {
         "type": "skill",
-        "param": "Miasma Chain",
+        "param": "Bind Demon",
         "min": "0",
         "max": "0",
-        "original_idx": 7,
-        "param_en": "Miasma Chain",
-        "param_ko": "독기 사슬"
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
       },
       {
         "type": "skill",
@@ -819,13 +820,12 @@
       },
       {
         "type": "skill",
-        "param": "Bind Demon",
+        "param": "Miasma Chain",
         "min": "0",
         "max": "0",
-        "original_idx": 9,
-        "param_en": "Bind Demon",
-        "param_ko": "악마 속박",
-        "charclass": "war"
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
       },
       {
         "type": "skill",
@@ -2048,6 +2048,28 @@
         "param_ko": "",
         "desc_en": "Poison Resist",
         "desc_ko": "독 저항"
+      },
+      {
+        "type": "gold%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 46,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Extra Gold from Monsters",
+        "desc_ko": "괴물에게서 얻는 금화 증가"
+      },
+      {
+        "type": "mag%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 45,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Better Chance of Getting Magic Items",
+        "desc_ko": "마법 아이템 발견 확률 증가"
       }
     ]
   },
@@ -2491,6 +2513,28 @@
         "param_ko": "",
         "desc_en": "Poison Resist",
         "desc_ko": "독 저항"
+      },
+      {
+        "type": "gold%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 46,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Extra Gold from Monsters",
+        "desc_ko": "괴물에게서 얻는 금화 증가"
+      },
+      {
+        "type": "mag%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 45,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Better Chance of Getting Magic Items",
+        "desc_ko": "마법 아이템 발견 확률 증가"
       }
     ]
   },
@@ -7985,12 +8029,13 @@
       },
       {
         "type": "skill",
-        "param": "Miasma Chain",
+        "param": "Bind Demon",
         "min": "0",
         "max": "0",
-        "original_idx": 7,
-        "param_en": "Miasma Chain",
-        "param_ko": "독기 사슬"
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
       },
       {
         "type": "skill",
@@ -8004,13 +8049,12 @@
       },
       {
         "type": "skill",
-        "param": "Bind Demon",
+        "param": "Miasma Chain",
         "min": "0",
         "max": "0",
-        "original_idx": 9,
-        "param_en": "Bind Demon",
-        "param_ko": "악마 속박",
-        "charclass": "war"
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
       },
       {
         "type": "skill",
@@ -8131,12 +8175,13 @@
       },
       {
         "type": "skill",
-        "param": "Miasma Chain",
+        "param": "Bind Demon",
         "min": "0",
         "max": "0",
-        "original_idx": 7,
-        "param_en": "Miasma Chain",
-        "param_ko": "독기 사슬"
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
       },
       {
         "type": "skill",
@@ -8150,13 +8195,12 @@
       },
       {
         "type": "skill",
-        "param": "Bind Demon",
+        "param": "Miasma Chain",
         "min": "0",
         "max": "0",
-        "original_idx": 9,
-        "param_en": "Bind Demon",
-        "param_ko": "악마 속박",
-        "charclass": "war"
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
       },
       {
         "type": "skill",
@@ -8277,12 +8321,13 @@
       },
       {
         "type": "skill",
-        "param": "Miasma Chain",
+        "param": "Bind Demon",
         "min": "0",
         "max": "0",
-        "original_idx": 7,
-        "param_en": "Miasma Chain",
-        "param_ko": "독기 사슬"
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
       },
       {
         "type": "skill",
@@ -8296,13 +8341,12 @@
       },
       {
         "type": "skill",
-        "param": "Bind Demon",
+        "param": "Miasma Chain",
         "min": "0",
         "max": "0",
-        "original_idx": 9,
-        "param_en": "Bind Demon",
-        "param_ko": "악마 속박",
-        "charclass": "war"
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
       },
       {
         "type": "skill",
@@ -8423,12 +8467,13 @@
       },
       {
         "type": "skill",
-        "param": "Miasma Chain",
+        "param": "Bind Demon",
         "min": "0",
         "max": "0",
-        "original_idx": 7,
-        "param_en": "Miasma Chain",
-        "param_ko": "독기 사슬"
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
       },
       {
         "type": "skill",
@@ -8442,13 +8487,12 @@
       },
       {
         "type": "skill",
-        "param": "Bind Demon",
+        "param": "Miasma Chain",
         "min": "0",
         "max": "0",
-        "original_idx": 9,
-        "param_en": "Bind Demon",
-        "param_ko": "악마 속박",
-        "charclass": "war"
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
       },
       {
         "type": "skill",
@@ -8569,12 +8613,13 @@
       },
       {
         "type": "skill",
-        "param": "Miasma Chain",
+        "param": "Bind Demon",
         "min": "0",
         "max": "0",
-        "original_idx": 7,
-        "param_en": "Miasma Chain",
-        "param_ko": "독기 사슬"
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
       },
       {
         "type": "skill",
@@ -8588,13 +8633,12 @@
       },
       {
         "type": "skill",
-        "param": "Bind Demon",
+        "param": "Miasma Chain",
         "min": "0",
         "max": "0",
-        "original_idx": 9,
-        "param_en": "Bind Demon",
-        "param_ko": "악마 속박",
-        "charclass": "war"
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
       },
       {
         "type": "skill",
@@ -8715,12 +8759,13 @@
       },
       {
         "type": "skill",
-        "param": "Miasma Chain",
+        "param": "Bind Demon",
         "min": "0",
         "max": "0",
-        "original_idx": 7,
-        "param_en": "Miasma Chain",
-        "param_ko": "독기 사슬"
+        "original_idx": 9,
+        "param_en": "Bind Demon",
+        "param_ko": "악마 속박",
+        "charclass": "war"
       },
       {
         "type": "skill",
@@ -8734,13 +8779,12 @@
       },
       {
         "type": "skill",
-        "param": "Bind Demon",
+        "param": "Miasma Chain",
         "min": "0",
         "max": "0",
-        "original_idx": 9,
-        "param_en": "Bind Demon",
-        "param_ko": "악마 속박",
-        "charclass": "war"
+        "original_idx": 7,
+        "param_en": "Miasma Chain",
+        "param_ko": "독기 사슬"
       },
       {
         "type": "skill",

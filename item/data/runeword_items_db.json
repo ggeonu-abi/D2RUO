@@ -274,16 +274,6 @@
         "desc_ko": "상처 악화 확률"
       },
       {
-        "type": "noheal",
-        "param": "",
-        "min": "1",
-        "max": "1",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Prevent Monster Heal",
-        "desc_ko": "괴물 회복 저지"
-      },
-      {
         "type": "oskill",
         "param": "Wearbear",
         "min": "3",
@@ -300,6 +290,16 @@
         "original_idx": 7,
         "param_en": "Lycanthropy",
         "param_ko": "변신술"
+      },
+      {
+        "type": "noheal",
+        "param": "",
+        "min": "1",
+        "max": "1",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Prevent Monster Heal",
+        "desc_ko": "괴물 회복 저지"
       },
       {
         "type": "str",
@@ -490,15 +490,6 @@
     "lvl_req": 47,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Bone Spear",
-        "min": "15",
-        "max": "10",
-        "original_idx": 1,
-        "param_en": "Bone Spear",
-        "param_ko": "뼈 창"
-      },
-      {
         "type": "gethit-skill",
         "param": "Bone Armor",
         "min": "15",
@@ -506,6 +497,15 @@
         "original_idx": 2,
         "param_en": "Bone Armor",
         "param_ko": "뼈 갑옷"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Bone Spear",
+        "min": "15",
+        "max": "10",
+        "original_idx": 1,
+        "param_en": "Bone Spear",
+        "param_ko": "뼈 창"
       },
       {
         "type": "nec",
@@ -713,15 +713,6 @@
     "lvl_req": 65,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Bone Spear",
-        "min": "100",
-        "max": "18",
-        "original_idx": 3,
-        "param_en": "Bone Spear",
-        "param_ko": "뼈 창"
-      },
-      {
         "type": "gethit-skill",
         "param": "Amplify Damage",
         "min": "35",
@@ -729,6 +720,15 @@
         "original_idx": 4,
         "param_en": "Amplify Damage",
         "param_ko": "피해 증폭"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Bone Spear",
+        "min": "100",
+        "max": "18",
+        "original_idx": 3,
+        "param_en": "Bone Spear",
+        "param_ko": "뼈 창"
       },
       {
         "type": "explosivearrow",
@@ -1070,16 +1070,6 @@
         "desc_ko": "적중당 생명력 훔침"
       },
       {
-        "type": "noheal",
-        "param": "",
-        "min": "1",
-        "max": "1",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Prevent Monster Heal",
-        "desc_ko": "괴물 회복 저지"
-      },
-      {
         "type": "oskill",
         "param": "Battle Command",
         "min": "2",
@@ -1105,6 +1095,16 @@
         "original_idx": 6,
         "param_en": "Battle Cry",
         "param_ko": "전투의 함성"
+      },
+      {
+        "type": "noheal",
+        "param": "",
+        "min": "1",
+        "max": "1",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Prevent Monster Heal",
+        "desc_ko": "괴물 회복 저지"
       },
       {
         "type": "regen",
@@ -1548,15 +1548,6 @@
         "desc_ko": "indestruct"
       },
       {
-        "type": "att-skill",
-        "param": "Glacial Spike",
-        "min": "25",
-        "max": "18",
-        "original_idx": 4,
-        "param_en": "Glacial Spike",
-        "param_ko": "빙하 가시"
-      },
-      {
         "type": "death-skill",
         "param": "Chain Lightning",
         "min": "100",
@@ -1564,6 +1555,15 @@
         "original_idx": 5,
         "param_en": "Chain Lightning",
         "param_ko": "연쇄 번개"
+      },
+      {
+        "type": "att-skill",
+        "param": "Glacial Spike",
+        "min": "25",
+        "max": "18",
+        "original_idx": 4,
+        "param_en": "Glacial Spike",
+        "param_ko": "빙하 가시"
       },
       {
         "type": "dmg%",
@@ -1691,15 +1691,6 @@
     "lvl_req": 51,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Confuse",
-        "min": "11",
-        "max": "18",
-        "original_idx": 1,
-        "param_en": "Confuse",
-        "param_ko": "혼란"
-      },
-      {
         "type": "gethit-skill",
         "param": "Terror",
         "min": "14",
@@ -1725,6 +1716,15 @@
         "original_idx": 6,
         "param_en": "Delirium",
         "param_ko": "착란"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Confuse",
+        "min": "11",
+        "max": "18",
+        "original_idx": 1,
+        "param_en": "Confuse",
+        "param_ko": "혼란"
       },
       {
         "type": "allskills",
@@ -1819,13 +1819,13 @@
     "lvl_req": 65,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Molten Boulder",
-        "min": "5",
-        "max": "23",
-        "original_idx": 3,
-        "param_en": "Molten Boulder",
-        "param_ko": "타오르는 바위"
+        "type": "death-skill",
+        "param": "Meteor",
+        "min": "100",
+        "max": "45",
+        "original_idx": 4,
+        "param_en": "Meteor",
+        "param_ko": "운석 낙하"
       },
       {
         "type": "att-skill",
@@ -1838,21 +1838,21 @@
       },
       {
         "type": "hit-skill",
+        "param": "Molten Boulder",
+        "min": "5",
+        "max": "23",
+        "original_idx": 3,
+        "param_en": "Molten Boulder",
+        "param_ko": "타오르는 바위"
+      },
+      {
+        "type": "hit-skill",
         "param": "Volcano",
         "min": "23",
         "max": "12",
         "original_idx": 6,
         "param_en": "Volcano",
         "param_ko": "화산"
-      },
-      {
-        "type": "death-skill",
-        "param": "Meteor",
-        "min": "100",
-        "max": "45",
-        "original_idx": 4,
-        "param_en": "Meteor",
-        "param_ko": "운석 낙하"
       },
       {
         "type": "dmg%",
@@ -2113,15 +2113,6 @@
     "lvl_req": 61,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Hydra",
-        "min": "12",
-        "max": "15",
-        "original_idx": 4,
-        "param_en": "Hydra",
-        "param_ko": "히드라"
-      },
-      {
         "type": "gethit-skill",
         "param": "Venom",
         "min": "20",
@@ -2129,6 +2120,15 @@
         "original_idx": 5,
         "param_en": "Venom",
         "param_ko": "맹독"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Hydra",
+        "min": "12",
+        "max": "15",
+        "original_idx": 4,
+        "param_en": "Hydra",
+        "param_ko": "히드라"
       },
       {
         "type": "aura",
@@ -2241,15 +2241,6 @@
     "lvl_req": 61,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Hydra",
-        "min": "12",
-        "max": "15",
-        "original_idx": 4,
-        "param_en": "Hydra",
-        "param_ko": "히드라"
-      },
-      {
         "type": "gethit-skill",
         "param": "Venom",
         "min": "20",
@@ -2257,6 +2248,15 @@
         "original_idx": 5,
         "param_en": "Venom",
         "param_ko": "맹독"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Hydra",
+        "min": "12",
+        "max": "15",
+        "original_idx": 4,
+        "param_en": "Hydra",
+        "param_ko": "히드라"
       },
       {
         "type": "aura",
@@ -3001,15 +3001,6 @@
     "lvl_req": 45,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Fire Ball",
-        "min": "5",
-        "max": "15",
-        "original_idx": 1,
-        "param_en": "Fire Ball",
-        "param_ko": "화염구"
-      },
-      {
         "type": "gethit-skill",
         "param": "Blaze",
         "min": "5",
@@ -3017,6 +3008,15 @@
         "original_idx": 2,
         "param_en": "Blaze",
         "param_ko": "불길"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Fire Ball",
+        "min": "5",
+        "max": "15",
+        "original_idx": 1,
+        "param_en": "Fire Ball",
+        "param_ko": "화염구"
       },
       {
         "type": "sor",
@@ -4166,6 +4166,16 @@
         "desc_ko": "상처 악화 확률"
       },
       {
+        "type": "skill",
+        "param": "147",
+        "min": "5",
+        "max": "5",
+        "original_idx": 7,
+        "param_en": "Frenzy",
+        "param_ko": "광분",
+        "charclass": "bar"
+      },
+      {
         "type": "noheal",
         "param": "",
         "min": "1",
@@ -4175,16 +4185,6 @@
         "param_ko": "",
         "desc_en": "Prevent Monster Heal",
         "desc_ko": "괴물 회복 저지"
-      },
-      {
-        "type": "skill",
-        "param": "147",
-        "min": "5",
-        "max": "5",
-        "original_idx": 7,
-        "param_en": "Frenzy",
-        "param_ko": "광분",
-        "charclass": "bar"
       }
     ]
   },
@@ -4476,15 +4476,6 @@
     "lvl_req": 67,
     "options": [
       {
-        "type": "levelup-skill",
-        "param": "Blaze",
-        "min": "100",
-        "max": "36",
-        "original_idx": 4,
-        "param_en": "Blaze",
-        "param_ko": "불길"
-      },
-      {
         "type": "death-skill",
         "param": "Meteor",
         "min": "100",
@@ -4492,6 +4483,15 @@
         "original_idx": 5,
         "param_en": "Meteor",
         "param_ko": "운석 낙하"
+      },
+      {
+        "type": "levelup-skill",
+        "param": "Blaze",
+        "min": "100",
+        "max": "36",
+        "original_idx": 4,
+        "param_en": "Blaze",
+        "param_ko": "불길"
       },
       {
         "type": "aura",
@@ -5756,6 +5756,15 @@
         "desc_ko": "상처 악화 확률"
       },
       {
+        "type": "oskill",
+        "param": "Vengeance",
+        "min": "1",
+        "max": "1",
+        "original_idx": 6,
+        "param_en": "Vengeance",
+        "param_ko": "복수"
+      },
+      {
         "type": "noheal",
         "param": "",
         "min": "1",
@@ -5764,15 +5773,6 @@
         "param_ko": "",
         "desc_en": "Prevent Monster Heal",
         "desc_ko": "괴물 회복 저지"
-      },
-      {
-        "type": "oskill",
-        "param": "Vengeance",
-        "min": "1",
-        "max": "1",
-        "original_idx": 6,
-        "param_en": "Vengeance",
-        "param_ko": "복수"
       },
       {
         "type": "str",
@@ -5833,6 +5833,15 @@
     "lvl_req": 65,
     "options": [
       {
+        "type": "gethit-skill",
+        "param": "Fade",
+        "min": "6",
+        "max": "11",
+        "original_idx": 4,
+        "param_en": "Fade",
+        "param_ko": "흐리기"
+      },
+      {
         "type": "att-skill",
         "param": "Charged Bolt",
         "min": "20",
@@ -5849,15 +5858,6 @@
         "original_idx": 3,
         "param_en": "Life Tap",
         "param_ko": "생명력 추출"
-      },
-      {
-        "type": "gethit-skill",
-        "param": "Fade",
-        "min": "6",
-        "max": "11",
-        "original_idx": 4,
-        "param_en": "Fade",
-        "param_ko": "흐리기"
       },
       {
         "type": "aura",
@@ -6119,22 +6119,22 @@
       },
       {
         "type": "skill",
-        "param": "36",
-        "min": "3",
-        "max": "3",
-        "original_idx": 5,
-        "param_en": "Fire Bolt",
-        "param_ko": "화염탄",
-        "charclass": "sor"
-      },
-      {
-        "type": "skill",
         "param": "37",
         "min": "3",
         "max": "3",
         "original_idx": 6,
         "param_en": "Warmth",
         "param_ko": "온기",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "36",
+        "min": "3",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Fire Bolt",
+        "param_ko": "화염탄",
         "charclass": "sor"
       },
       {
@@ -6548,12 +6548,12 @@
       },
       {
         "type": "skill",
-        "param": "9",
+        "param": "17",
         "min": "3",
         "max": "3",
-        "original_idx": 3,
-        "param_en": "Critical Strike",
-        "param_ko": "치명타",
+        "original_idx": 5,
+        "param_en": "Slow Missiles",
+        "param_ko": "투사체 감속",
         "charclass": "ama"
       },
       {
@@ -6568,12 +6568,12 @@
       },
       {
         "type": "skill",
-        "param": "17",
+        "param": "9",
         "min": "3",
         "max": "3",
-        "original_idx": 5,
-        "param_en": "Slow Missiles",
-        "param_ko": "투사체 감속",
+        "original_idx": 3,
+        "param_en": "Critical Strike",
+        "param_ko": "치명타",
         "charclass": "ama"
       },
       {
@@ -6901,15 +6901,6 @@
     "lvl_req": 25,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Taunt",
-        "min": "10",
-        "max": "1",
-        "original_idx": 1,
-        "param_en": "Taunt",
-        "param_ko": "도발"
-      },
-      {
         "type": "gethit-skill",
         "param": "Howl",
         "min": "3",
@@ -6917,6 +6908,15 @@
         "original_idx": 2,
         "param_en": "Howl",
         "param_ko": "포효"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Taunt",
+        "min": "10",
+        "max": "1",
+        "original_idx": 1,
+        "param_en": "Taunt",
+        "param_ko": "도발"
       },
       {
         "type": "bar",
@@ -7629,21 +7629,21 @@
       },
       {
         "type": "oskill",
-        "param": "Zeal",
-        "min": "1",
-        "max": "1",
-        "original_idx": 2,
-        "param_en": "Zeal",
-        "param_ko": "열의"
-      },
-      {
-        "type": "oskill",
         "param": "Berserk",
         "min": "1",
         "max": "1",
         "original_idx": 4,
         "param_en": "Berserk",
         "param_ko": "광폭화"
+      },
+      {
+        "type": "oskill",
+        "param": "Zeal",
+        "min": "1",
+        "max": "1",
+        "original_idx": 2,
+        "param_en": "Zeal",
+        "param_ko": "열의"
       },
       {
         "type": "stupidity",
@@ -7849,15 +7849,6 @@
     "lvl_req": 29,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Valkyrie",
-        "min": "2",
-        "max": "15",
-        "original_idx": 1,
-        "param_en": "Valkyrie",
-        "param_ko": "발키리"
-      },
-      {
         "type": "gethit-skill",
         "param": "Slow Missiles",
         "min": "4",
@@ -7865,6 +7856,15 @@
         "original_idx": 2,
         "param_en": "Slow Missiles",
         "param_ko": "투사체 감속"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Valkyrie",
+        "min": "2",
+        "max": "15",
+        "original_idx": 1,
+        "param_en": "Valkyrie",
+        "param_ko": "발키리"
       },
       {
         "type": "ama",
@@ -8948,15 +8948,6 @@
     "lvl_req": 49,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Twister",
-        "min": "5",
-        "max": "15",
-        "original_idx": 1,
-        "param_en": "Twister",
-        "param_ko": "돌개바람"
-      },
-      {
         "type": "gethit-skill",
         "param": "Cyclone Armor",
         "min": "5",
@@ -8964,6 +8955,15 @@
         "original_idx": 2,
         "param_en": "Cyclone Armor",
         "param_ko": "회오리 갑옷"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Twister",
+        "min": "5",
+        "max": "15",
+        "original_idx": 1,
+        "param_en": "Twister",
+        "param_ko": "돌개바람"
       },
       {
         "type": "dru",
@@ -9144,15 +9144,6 @@
     "lvl_req": 53,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Tornado",
-        "min": "20",
-        "max": "16",
-        "original_idx": 4,
-        "param_en": "Tornado",
-        "param_ko": "회오리바람"
-      },
-      {
         "type": "att-skill",
         "param": "Frozen Orb",
         "min": "16",
@@ -9160,6 +9151,15 @@
         "original_idx": 5,
         "param_en": "Frozen Orb",
         "param_ko": "얼음 보주"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Tornado",
+        "min": "20",
+        "max": "16",
+        "original_idx": 4,
+        "param_en": "Tornado",
+        "param_ko": "회오리바람"
       },
       {
         "type": "att%",
@@ -10479,15 +10479,6 @@
     "lvl_req": 43,
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Venom",
-        "min": "25",
-        "max": "15",
-        "original_idx": 1,
-        "param_en": "Venom",
-        "param_ko": "맹독"
-      },
-      {
         "type": "gethit-skill",
         "param": "Fade",
         "min": "5",
@@ -10495,6 +10486,15 @@
         "original_idx": 2,
         "param_en": "Fade",
         "param_ko": "흐리기"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Venom",
+        "min": "25",
+        "max": "15",
+        "original_idx": 1,
+        "param_en": "Venom",
+        "param_ko": "맹독"
       },
       {
         "type": "ass",
@@ -11057,16 +11057,6 @@
       },
       {
         "type": "skill",
-        "param": "68",
-        "min": "3",
-        "max": "3",
-        "original_idx": 5,
-        "param_en": "Bone Armor",
-        "param_ko": "뼈 갑옷",
-        "charclass": "nec"
-      },
-      {
-        "type": "skill",
         "param": "84",
         "min": "2",
         "max": "2",
@@ -11083,6 +11073,16 @@
         "original_idx": 7,
         "param_en": "Skeleton Mastery",
         "param_ko": "해골 숙련",
+        "charclass": "nec"
+      },
+      {
+        "type": "skill",
+        "param": "68",
+        "min": "3",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Bone Armor",
+        "param_ko": "뼈 갑옷",
         "charclass": "nec"
       },
       {

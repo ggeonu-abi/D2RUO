@@ -11030,12 +11030,12 @@
       },
       {
         "type": "skill",
-        "param": "Fire Mastery",
+        "param": "Cold Mastery",
         "min": "1",
         "max": "2",
-        "original_idx": 5,
-        "param_en": "Fire Mastery",
-        "param_ko": "화염 숙련",
+        "original_idx": 7,
+        "param_en": "Cold Mastery",
+        "param_ko": "냉기 숙련",
         "charclass": "sor"
       },
       {
@@ -11050,12 +11050,12 @@
       },
       {
         "type": "skill",
-        "param": "Cold Mastery",
+        "param": "Fire Mastery",
         "min": "1",
         "max": "2",
-        "original_idx": 7,
-        "param_en": "Cold Mastery",
-        "param_ko": "냉기 숙련",
+        "original_idx": 5,
+        "param_en": "Fire Mastery",
+        "param_ko": "화염 숙련",
         "charclass": "sor"
       },
       {
