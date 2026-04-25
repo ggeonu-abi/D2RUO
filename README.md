@@ -75,6 +75,7 @@
 | | `Tab` | (검색창 내) 유니크 / 룬워드 탭 전환 |
 | | `↑` / `↓` | (검색창 내) 검색 결과 상하 이동 |
 | | `ESC` | 검색창 닫기 |
+| **아이템 자동 인식** | `Ctrl` + `R` | 아이템 자동 인식 영역 캡쳐 시작 |
 | **버프 타이머** | `PageUp` / `PageDown` | 버프 스킬 프로필 전환 |
 | | 사용자가 설정한 키 | 지정한 버프 타이머 실행 |
 | **스피드런 타이머** | `Home` | 타이머 시작 / 일시정지 |
@@ -133,6 +134,7 @@
 | `sounds/` | 버프 종료 임박 시 사용할 사용자 지정 알림음 보관 폴더 |
 | `item/data/` | 아이템 사전 검색에 사용되는 데이터베이스 파일(`.json`, `.tsv`) 보관 폴더 |
 | `fonts/` | 폰트 폴더 (현재 배포 저작권 문제가 없는 폰트 파일만 추가되어 있습니다. 원하시는 폰트를 직접 추가해서 사용하세요.) |
+| `models/` | 아이템 자동인식에 필요한 모듈들이 저장되는 폴더 |
 
 ---
 
@@ -253,6 +255,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | | `Tab` | (In Search) Toggle Unique / Runeword Tabs |
 | | `↑` / `↓` | (In Search) Navigate Search Results |
 | | `ESC` | Close Search Window |
+| **Item Recognition** | `Ctrl` + `R` | Start capturing automatic item recognition area |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
 | | User Defined Keys | Trigger Specific Buff Timer |
 | **Speedrun Timer** | `Home` | Start / Pause Timer |
@@ -311,6 +314,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | `sounds/` | Place your custom `.mp3` or `.wav` files here for buff alerts. |
 | `item/data/` | Database files (`.json`, `.tsv`) used for the item search dictionary. |
 | `fonts/` | Default built-in fonts. You can add your own font files here. |
+| `models/` | Folder where modules required for automatic item recognition are stored. |
 
 ---
 
