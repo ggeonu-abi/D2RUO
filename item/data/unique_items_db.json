@@ -4602,8 +4602,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -8641,8 +8641,8 @@
         "original_idx": 8,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -8750,8 +8750,8 @@
         "original_idx": 8,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -8859,8 +8859,8 @@
         "original_idx": 8,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -9153,8 +9153,8 @@
         "original_idx": 9,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -9251,8 +9251,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -12351,8 +12351,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -13672,8 +13672,8 @@
         "original_idx": 9,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       },
       {
         "type": "dmg-undead",
@@ -14111,8 +14111,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       },
       {
         "type": "dmg-undead",
@@ -14224,8 +14224,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       },
       {
         "type": "dmg-undead",
@@ -14470,8 +14470,8 @@
         "original_idx": 9,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -14576,8 +14576,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -14870,8 +14870,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -15163,8 +15163,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -16526,8 +16526,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -17590,8 +17590,8 @@
         "original_idx": 9,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       },
       {
         "type": "dmg-undead",
@@ -20118,8 +20118,8 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -20205,8 +20205,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -20586,8 +20586,8 @@
         "original_idx": 10,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -20673,8 +20673,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -20869,8 +20869,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -20978,8 +20978,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -21639,8 +21639,8 @@
         "original_idx": 9,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -21737,8 +21737,8 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -21842,8 +21842,8 @@
         "original_idx": 8,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -22373,8 +22373,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -22456,8 +22456,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -22879,8 +22879,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -22988,8 +22988,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -23075,8 +23075,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -23688,8 +23688,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -23808,8 +23808,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -23991,8 +23991,8 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -24344,8 +24344,8 @@
         "original_idx": 8,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ]
   },
@@ -24472,8 +24472,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       },
       {
         "type": "dmg-undead",
@@ -33715,8 +33715,8 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       },
       {
         "type": "sock",

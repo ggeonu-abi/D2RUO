@@ -8488,8 +8488,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dur",
-        "desc_ko": "dur"
+        "desc_en": "Maximum Durability",
+        "desc_ko": "최대 내구도"
       }
     ],
     "set_bonuses": {

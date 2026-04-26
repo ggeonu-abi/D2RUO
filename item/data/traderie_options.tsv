@@ -31,6 +31,7 @@ balance1		prop_430	타격 회복 속도
 balance3		prop_430	타격 회복 속도
 bar		prop_403	바바리안 기술 레벨
 block		prop_446	막기 확률 증가
+block2		prop_449	막기 속도
 cast1		prop_520	시전 속도 증가 %
 cast3		prop_520	시전 속도 증가 %
 cheap		prop_764	상점 물품 가격 하락

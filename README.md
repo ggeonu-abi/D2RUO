@@ -152,10 +152,20 @@
 * **Game:** 디아블로 2: 레저렉션 (주로 전체화면 모드에서 테스트하며 창모드도 병행. 권장: 전체화면 모드)
 * **Build:** Python 3.12 (PySide6)
 
-**🛡️ 백신 오탐지 안내**
-키보드 단축키 감지(`keyboard`) 기능을 사용하여 일부 백신(Windows Defender 등)에서 **오탐지(False Positive)** 할 수 있습니다. 
-* 실행이 차단되거나 파일이 삭제되면, 폴더를 **백신 검사 제외 대상**으로 등록해 주세요.
-* 윈도우 **스마트 앱 컨트롤(Smart App Control)** 이 켜져 있다면 해제해야 실행 가능합니다.
+**🛡️ 백신 오탐지(False Positive) 대처 안내**
+이 프로그램은 게임 내 단축키 감지를 위해 `keyboard` 모듈을 사용합니다. 이로 인해 Windows Defender를 비롯한 일부 백신 프로그램이 이를 악성 코드로 오인하여 실행을 차단하거나 파일을 삭제할 수 있습니다. 
+*(쉬운 설명: 키보드 입력을 가로채는 기능은 해킹 프로그램들이 자주 쓰는 방식이라 백신이 일단 의심하고 차단하는 자연스러운 현상입니다.)*
+
+주로 다음과 같은 진단명으로 오탐지될 수 있습니다:
+* **Windows Defender:** `Program:Win32/Contebrew.A!ml` *(쉬운 설명: 진단명 끝의 '!ml'은 머신러닝(Machine Learning) 기반 탐지를 의미합니다. 명확한 악성코드라기보다는 프로그램의 작동 방식을 AI가 기계적으로 분석해 예방 차원에서 차단했을 확률이 높습니다.)*
+* **기타 백신 프로그램:** `Gen:Variant.Adware.Tedy.8867` 등
+
+만약 실행이 차단되거나 프로그램 파일이 사라진다면 아래의 방법들을 적용해 보세요:
+
+1. **백신 검사 제외 대상 등록 (권장):** 압축을 푼 DUO 프로그램 폴더 전체를 백신의 '검사 제외 항목(예외 처리)'으로 등록해 주세요.
+2. **스마트 앱 컨트롤 해제:** Windows 11의 **스마트 앱 컨트롤(Smart App Control)** 기능이 켜져 있다면 이를 해제해야 정상적으로 실행 가능합니다.
+3. **신뢰할 수 있는 경로에서 실행:** 바탕화면이나 다운로드 폴더 대신, `C:\Users\사용자이름\AppData\Local` 또는 `C:\Program Files` 하위에 새 폴더를 만들고 그곳에 압축을 풀어 실행하시면 시스템 관리 폴더로 인식되어 오탐지 확률을 줄일 수 있습니다.
+4. **GitHub Star 누르기:** 배포 중인 GitHub 레포지토리에 별(Star) ⭐을 많이 눌러주시면, 프로그램의 사용자 신뢰도 지표가 높아져 장기적으로 스마트스크린 등의 오탐지를 줄이는 데 도움이 될 수 있습니다.
 
 ---
 
@@ -331,10 +341,20 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * **Game:** Diablo 2: Resurrected (Recommended: Fullscreen Mode)
 * **Build:** Python 3.12 (PySide6)
 
-**🛡️ Security & False Positives**
-This program uses the `keyboard` module to detect hotkeys. Some antivirus software (e.g., Windows Defender) may flag it as a **False Positive**.
-* **Fix:** Add the program folder to your antivirus **exclusion list**.
-* Turn off **Smart App Control** in Windows 11 if it blocks execution.
+**🛡️ Security & False Positives (Antivirus Blocks/Deletions)**
+This program uses the `keyboard` module to detect your in-game hotkeys. Because keylogging-like behavior is common in malware, some antivirus software (like Windows Defender) may incorrectly flag and delete the file or block its execution. 
+*(Easy Explanation: Intercepting keyboard input is a method frequently used by malicious programs, so it is a natural phenomenon for antivirus software to be suspicious and block it by default.)*
+
+You may encounter false positive detection names such as:
+* **Windows Defender:** `Program:Win32/Contebrew.A!ml` *(Easy Explanation: The '!ml' stands for Machine Learning. This means the antivirus AI flagged the file based on behavioral guessing rather than an exact virus signature match.)*
+* **Other Antivirus Software:** `Gen:Variant.Adware.Tedy.8867`, etc.
+
+If the program won't run or the executable file is deleted automatically, please try the following steps:
+
+1. **Add to Exclusions (Recommended):** Add the extracted DUO folder to your antivirus **exclusion/exception list**.
+2. **Disable Smart App Control:** If you are using Windows 11, you may need to turn off **Smart App Control** if it blocks execution.
+3. **Run from a Trusted Directory:** Creating a folder and running the program from within `AppData/Local` or `Program Files` instead of your Desktop/Downloads folder can sometimes reduce the chances of false positives as they are standard system directories.
+4. **Star the GitHub Repo:** Leaving a Star ⭐ on this GitHub repository helps build the software's reputation metric over time, which may help reduce false positives from reputation-based filters like Windows SmartScreen.
 
 ---
 
