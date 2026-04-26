@@ -7737,426 +7737,6 @@
       }
     ]
   },
-  "War Staff": {
-    "name_ko": "⚔️ [스태프] 워 스태프",
-    "name_en": "⚔️ [Staves] War Staff",
-    "item_type_en": "Staves",
-    "item_type_ko": "스태프",
-    "base_stats": {
-      "item_type": "weapon",
-      "namestr": "wst",
-      "weapon_type1": "staf",
-      "weapon_type2": "",
-      "mindam": 0,
-      "maxdam": 0,
-      "2handmindam": 12,
-      "2handmaxdam": 28,
-      "minmisdam": 0,
-      "maxmisdam": 0,
-      "1or2handed": false,
-      "2handed": true,
-      "speed": "20",
-      "reqstr": 0,
-      "reqdex": 0,
-      "durability": 50
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "0",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Sockets",
-        "desc_ko": "홈 있음"
-      }
-    ]
-  },
-  "Rune Staff": {
-    "name_ko": "⚔️ [스태프] 룬 스태프",
-    "name_en": "⚔️ [Staves] Rune Staff",
-    "item_type_en": "Staves",
-    "item_type_ko": "스태프",
-    "base_stats": {
-      "item_type": "weapon",
-      "namestr": "8ws",
-      "weapon_type1": "staf",
-      "weapon_type2": "",
-      "mindam": 0,
-      "maxdam": 0,
-      "2handmindam": 24,
-      "2handmaxdam": 58,
-      "minmisdam": 0,
-      "maxmisdam": 0,
-      "1or2handed": false,
-      "2handed": true,
-      "speed": "20",
-      "reqstr": 25,
-      "reqdex": 0,
-      "durability": 50
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "0",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Sockets",
-        "desc_ko": "홈 있음"
-      }
-    ]
-  },
-  "Battle Staff": {
-    "name_ko": "⚔️ [스태프] 배틀 스태프",
-    "name_en": "⚔️ [Staves] Battle Staff",
-    "item_type_en": "Staves",
-    "item_type_ko": "스태프",
-    "base_stats": {
-      "item_type": "weapon",
-      "namestr": "bst",
-      "weapon_type1": "staf",
-      "weapon_type2": "",
-      "mindam": 0,
-      "maxdam": 0,
-      "2handmindam": 6,
-      "2handmaxdam": 13,
-      "minmisdam": 0,
-      "maxmisdam": 0,
-      "1or2handed": false,
-      "2handed": true,
-      "speed": "",
-      "reqstr": 0,
-      "reqdex": 0,
-      "durability": 40
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "0",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Sockets",
-        "desc_ko": "홈 있음"
-      }
-    ]
-  },
-  "Archon Staff": {
-    "name_ko": "⚔️ [스태프] 아콘 스태프",
-    "name_en": "⚔️ [Staves] Archon Staff",
-    "item_type_en": "Staves",
-    "item_type_ko": "스태프",
-    "base_stats": {
-      "item_type": "weapon",
-      "namestr": "6ws",
-      "weapon_type1": "staf",
-      "weapon_type2": "",
-      "mindam": 0,
-      "maxdam": 0,
-      "2handmindam": 83,
-      "2handmaxdam": 99,
-      "minmisdam": 0,
-      "maxmisdam": 0,
-      "1or2handed": false,
-      "2handed": true,
-      "speed": "10",
-      "reqstr": 34,
-      "reqdex": 0,
-      "durability": 26
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "0",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Sockets",
-        "desc_ko": "홈 있음"
-      }
-    ]
-  },
-  "Shillelagh": {
-    "name_ko": "⚔️ [스태프] 쉴레일리",
-    "name_en": "⚔️ [Staves] Shillelagh",
-    "item_type_en": "Staves",
-    "item_type_ko": "스태프",
-    "base_stats": {
-      "item_type": "weapon",
-      "namestr": "6bs",
-      "weapon_type1": "staf",
-      "weapon_type2": "",
-      "mindam": 0,
-      "maxdam": 0,
-      "2handmindam": 65,
-      "2handmaxdam": 108,
-      "minmisdam": 0,
-      "maxmisdam": 0,
-      "1or2handed": false,
-      "2handed": true,
-      "speed": "",
-      "reqstr": 52,
-      "reqdex": 27,
-      "durability": 40
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "0",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Sockets",
-        "desc_ko": "홈 있음"
-      }
-    ]
-  },
-  "Elder Staff": {
-    "name_ko": "⚔️ [스태프] 엘더 스태프",
-    "name_en": "⚔️ [Staves] Elder Staff",
-    "item_type_en": "Staves",
-    "item_type_ko": "스태프",
-    "base_stats": {
-      "item_type": "weapon",
-      "namestr": "6cs",
-      "weapon_type1": "staf",
-      "weapon_type2": "",
-      "mindam": 0,
-      "maxdam": 0,
-      "2handmindam": 80,
-      "2handmaxdam": 93,
-      "minmisdam": 0,
-      "maxmisdam": 0,
-      "1or2handed": false,
-      "2handed": true,
-      "speed": "",
-      "reqstr": 44,
-      "reqdex": 37,
-      "durability": 35
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "0",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Sockets",
-        "desc_ko": "홈 있음"
-      }
-    ]
-  },
   "Sacred Targe": {
     "name_ko": "🛡️ [성기사 전용 방패] 세이크리드 타아지",
     "name_en": "🛡️ [Paladin Shields] Sacred Targe",
@@ -13044,6 +12624,726 @@
         "param_ko": "",
         "desc_en": "to Attack Rating",
         "desc_ko": "명중률"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "War Staff": {
+    "name_ko": "🦯 [스태프] 워 스태프",
+    "name_en": "🦯 [Staves] War Staff",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "wst",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 12,
+      "2handmaxdam": 28,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "20",
+      "reqstr": 0,
+      "reqdex": 0,
+      "durability": 50
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Chilling Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 6,
+        "param_en": "Chilling Armor",
+        "param_ko": "냉기 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Energy Shield",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Energy Shield",
+        "param_ko": "마력 보호막",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Thunder Storm",
+        "min": "1",
+        "max": "3",
+        "original_idx": 9,
+        "param_en": "Thunder Storm",
+        "param_ko": "뇌우",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Shiver Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 7,
+        "param_en": "Shiver Armor",
+        "param_ko": "오한 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Frozen Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 8,
+        "param_en": "Frozen Armor",
+        "param_ko": "얼어붙은 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Rune Staff": {
+    "name_ko": "🦯 [스태프] 룬 스태프",
+    "name_en": "🦯 [Staves] Rune Staff",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "8ws",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 24,
+      "2handmaxdam": 58,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "20",
+      "reqstr": 25,
+      "reqdex": 0,
+      "durability": 50
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Chilling Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 6,
+        "param_en": "Chilling Armor",
+        "param_ko": "냉기 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Energy Shield",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Energy Shield",
+        "param_ko": "마력 보호막",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Thunder Storm",
+        "min": "1",
+        "max": "3",
+        "original_idx": 9,
+        "param_en": "Thunder Storm",
+        "param_ko": "뇌우",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Shiver Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 7,
+        "param_en": "Shiver Armor",
+        "param_ko": "오한 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Frozen Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 8,
+        "param_en": "Frozen Armor",
+        "param_ko": "얼어붙은 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Battle Staff": {
+    "name_ko": "🦯 [스태프] 배틀 스태프",
+    "name_en": "🦯 [Staves] Battle Staff",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "bst",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 6,
+      "2handmaxdam": 13,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 0,
+      "reqdex": 0,
+      "durability": 40
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Chilling Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 6,
+        "param_en": "Chilling Armor",
+        "param_ko": "냉기 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Energy Shield",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Energy Shield",
+        "param_ko": "마력 보호막",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Thunder Storm",
+        "min": "1",
+        "max": "3",
+        "original_idx": 9,
+        "param_en": "Thunder Storm",
+        "param_ko": "뇌우",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Shiver Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 7,
+        "param_en": "Shiver Armor",
+        "param_ko": "오한 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Frozen Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 8,
+        "param_en": "Frozen Armor",
+        "param_ko": "얼어붙은 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Archon Staff": {
+    "name_ko": "🦯 [스태프] 아콘 스태프",
+    "name_en": "🦯 [Staves] Archon Staff",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6ws",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 83,
+      "2handmaxdam": 99,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "10",
+      "reqstr": 34,
+      "reqdex": 0,
+      "durability": 26
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Chilling Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 6,
+        "param_en": "Chilling Armor",
+        "param_ko": "냉기 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Energy Shield",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Energy Shield",
+        "param_ko": "마력 보호막",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Thunder Storm",
+        "min": "1",
+        "max": "3",
+        "original_idx": 9,
+        "param_en": "Thunder Storm",
+        "param_ko": "뇌우",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Shiver Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 7,
+        "param_en": "Shiver Armor",
+        "param_ko": "오한 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Frozen Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 8,
+        "param_en": "Frozen Armor",
+        "param_ko": "얼어붙은 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Shillelagh": {
+    "name_ko": "🦯 [스태프] 쉴레일리",
+    "name_en": "🦯 [Staves] Shillelagh",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6bs",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 65,
+      "2handmaxdam": 108,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 52,
+      "reqdex": 27,
+      "durability": 40
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Chilling Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 6,
+        "param_en": "Chilling Armor",
+        "param_ko": "냉기 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Energy Shield",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Energy Shield",
+        "param_ko": "마력 보호막",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Thunder Storm",
+        "min": "1",
+        "max": "3",
+        "original_idx": 9,
+        "param_en": "Thunder Storm",
+        "param_ko": "뇌우",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Shiver Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 7,
+        "param_en": "Shiver Armor",
+        "param_ko": "오한 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Frozen Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 8,
+        "param_en": "Frozen Armor",
+        "param_ko": "얼어붙은 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "ethereal",
+        "min": "0",
+        "max": "1",
+        "original_idx": 1,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "ethereal",
+        "desc_ko": "ethereal"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "6",
+        "original_idx": 2,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Elder Staff": {
+    "name_ko": "🦯 [스태프] 엘더 스태프",
+    "name_en": "🦯 [Staves] Elder Staff",
+    "item_type_en": "Staves",
+    "item_type_ko": "스태프",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6cs",
+      "weapon_type1": "staf",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 80,
+      "2handmaxdam": 93,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 44,
+      "reqdex": 37,
+      "durability": 35
+    },
+    "options": [
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "skill",
+        "param": "Chilling Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 6,
+        "param_en": "Chilling Armor",
+        "param_ko": "냉기 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Energy Shield",
+        "min": "1",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Energy Shield",
+        "param_ko": "마력 보호막",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Thunder Storm",
+        "min": "1",
+        "max": "3",
+        "original_idx": 9,
+        "param_en": "Thunder Storm",
+        "param_ko": "뇌우",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Shiver Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 7,
+        "param_en": "Shiver Armor",
+        "param_ko": "오한 갑옷",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "Frozen Armor",
+        "min": "1",
+        "max": "3",
+        "original_idx": 8,
+        "param_en": "Frozen Armor",
+        "param_ko": "얼어붙은 갑옷",
+        "charclass": "sor"
       },
       {
         "type": "ethereal",
