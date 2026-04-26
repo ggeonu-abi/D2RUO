@@ -1,3 +1,4 @@
+			
 abs-cold		prop_702	냉기 흡수
 abs-cold%		prop_702	냉기 흡수 %
 abs-fire		prop_659	화염 흡수
@@ -19,6 +20,7 @@ att-demon		prop_512	악마에 대한 명중률
 att-skill	47	prop_660	(공격시)x% 확률로 %레벨 [화염구] 시전
 att-skill	53	prop_547	(공격시)x% 확률로 %레벨 [연쇄번개] 시전
 att-undead		prop_537	언데드에 대한 명중률
+att/lvl		prop_411	명중률 (캐릭터 레벨에 비례)
 aura	Concentration	prop_881	장착시 오라레벨 - 집중
 aura	Defiance	prop_839	장착시 오라레벨 - 대항
 aura	Fanaticism	prop_803	장착시 오라레벨 - 광신
@@ -48,6 +50,7 @@ dmg-max		prop_448	최대 피해
 dmg-min		prop_416	최소 피해
 dmg-pois		prop_518	독 피해 (x 초에 걸쳐)
 dmg-undead		prop_538	언데드에게 주는 피해 증가 %
+dmg/lvl		prop_535	최대 피해 (캐릭터 레벨에 비례)
 dru		prop_488	드루이드 기술 레벨
 enr		prop_421	마력
 ethereal		prop_Ethereal	에테리얼(무형)
@@ -64,8 +67,10 @@ gethit-skill	38	prop_433	(반격시)x% 확률로 %레벨 [번개 줄기] 시전
 gethit-skill	56	prop_718	(반격시)x% 확률로 %레벨 [운석 낙하] 시전
 gethit-skill	59	prop_694	(반격시)x% 확률로 %레벨 [눈보라] 시전
 gold%		prop_460	괴물에게서 얻는 금화 증가
+half-freeze		prop_Half%20Freeze%20Duration	빙결 지속시간 절반 감소
 heal-kill		prop_721	적 처치 시 생명력 회복
 hit-skill	38	prop_628	(타격시)x% 확률로 %레벨 [번개 줄기] 시전
+hit-skill	66	prop_543	(타격시)x% 확률로 %레벨 [피해 증폭] 시전
 hp		prop_418	생명력
 hp%		prop_673	최대 생명력 증가 %
 lifesteal		prop_462	적중당 생명력 훔침

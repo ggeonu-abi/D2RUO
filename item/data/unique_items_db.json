@@ -14775,8 +14775,8 @@
         "original_idx": 1,
         "param_en": "3",
         "param_ko": "3",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -14921,8 +14921,8 @@
         "original_idx": 4,
         "param_en": "8",
         "param_ko": "8",
-        "desc_en": "to Maximum Damage",
-        "desc_ko": "최대 피해"
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
       },
       {
         "type": "deadly/lvl",
@@ -16610,8 +16610,8 @@
         "original_idx": 1,
         "param_en": "3",
         "param_ko": "3",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -16889,8 +16889,8 @@
         "original_idx": 5,
         "param_en": "10",
         "param_ko": "10",
-        "desc_en": "to Maximum Damage",
-        "desc_ko": "최대 피해"
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
       },
       {
         "type": "lifesteal",
@@ -16995,8 +16995,8 @@
         "original_idx": 5,
         "param_en": "8",
         "param_ko": "8",
-        "desc_en": "to Maximum Damage",
-        "desc_ko": "최대 피해"
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
       },
       {
         "type": "dex",
@@ -18387,8 +18387,8 @@
         "original_idx": 6,
         "param_en": "2",
         "param_ko": "2",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -18909,8 +18909,8 @@
         "original_idx": 8,
         "param_en": "10",
         "param_ko": "10",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
       },
       {
         "type": "dmg-pois",
@@ -19004,8 +19004,8 @@
         "original_idx": 4,
         "param_en": "20",
         "param_ko": "20",
-        "desc_en": "to Maximum Damage",
-        "desc_ko": "최대 피해"
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
       },
       {
         "type": "dmg-cold",
@@ -20303,8 +20303,8 @@
         "original_idx": 7,
         "param_en": "2",
         "param_ko": "2",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -21065,8 +21065,8 @@
         "original_idx": 4,
         "param_en": "3",
         "param_ko": "3",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -21409,8 +21409,8 @@
         "original_idx": 3,
         "param_en": "2",
         "param_ko": "2",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -24564,8 +24564,8 @@
         "original_idx": 6,
         "param_en": "16",
         "param_ko": "16",
-        "desc_en": "to Maximum Damage",
-        "desc_ko": "최대 피해"
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
       },
       {
         "type": "att/lvl",
@@ -24575,8 +24575,8 @@
         "original_idx": 3,
         "param_en": "16",
         "param_ko": "16",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
       },
       {
         "type": "dmg-ltng",
@@ -25058,8 +25058,8 @@
         "original_idx": 7,
         "param_en": "20",
         "param_ko": "20",
-        "desc_en": "to Maximum Damage",
-        "desc_ko": "최대 피해"
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
       },
       {
         "type": "att%",
@@ -25487,8 +25487,8 @@
         "original_idx": 2,
         "param_en": "12",
         "param_ko": "12",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
       },
       {
         "type": "dex",
@@ -25560,8 +25560,8 @@
         "original_idx": 2,
         "param_en": "25",
         "param_ko": "25",
-        "desc_en": "to Maximum Damage",
-        "desc_ko": "최대 피해"
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
       },
       {
         "type": "manasteal",
@@ -27804,8 +27804,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -28478,8 +28478,8 @@
         "original_idx": 10,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -29560,8 +29560,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -30846,8 +30846,8 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -32221,8 +32221,8 @@
         "original_idx": 8,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -33726,8 +33726,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -34560,8 +34560,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       },
       {
         "type": "dmg-undead",
@@ -35059,8 +35059,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -35842,8 +35842,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -36170,8 +36170,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },

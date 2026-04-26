@@ -373,8 +373,8 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -744,8 +744,8 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -873,8 +873,8 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -1311,10 +1311,32 @@
         "desc_ko": "독 저항"
       },
       {
+        "type": "half-freeze",
+        "min": "0",
+        "max": "0",
+        "original_idx": 21,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Half Freeze Duration",
+        "desc_ko": "빙결 지속시간 절반으로 감소"
+      },
+      {
+        "type": "res-pois-len",
+        "min": "0",
+        "max": "75",
+        "original_idx": 20,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Poison Length Reduced by",
+        "desc_ko": "독 지속시간 감소"
+      },
+      {
         "type": "gold%",
         "min": "0",
         "max": "80",
-        "original_idx": 21,
+        "original_idx": 23,
         "param": "",
         "param_en": "",
         "param_ko": "",
@@ -1325,7 +1347,7 @@
         "type": "mag%",
         "min": "0",
         "max": "35",
-        "original_idx": 20,
+        "original_idx": 22,
         "param": "",
         "param_en": "",
         "param_ko": "",
@@ -1342,19 +1364,40 @@
     "traderie_tag": "Amazon Bow",
     "options": [
       {
+        "type": "hit-skill-var",
+        "param": "66",
+        "min": "1",
+        "max": "20",
+        "original_idx": 2,
+        "chance_str": "0",
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
+      },
+      {
         "type": "skilltab",
         "param": "0",
         "min": "1",
         "max": "3",
-        "original_idx": 5,
+        "original_idx": 1,
         "param_en": "Bow and Crossbow Skills (Amazon Only)",
         "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "swing2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Increased Attack Speed",
+        "desc_ko": "공격 속도"
       },
       {
         "type": "dmg%",
         "min": "0",
         "max": "0",
-        "original_idx": 3,
+        "original_idx": 6,
         "param": "",
         "param_en": "",
         "param_ko": "",
@@ -1362,10 +1405,43 @@
         "desc_ko": "피해 증가(%)"
       },
       {
+        "type": "dmg-min",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
+      },
+      {
         "type": "att",
         "min": "0",
         "max": "0",
-        "original_idx": 4,
+        "original_idx": 9,
         "param": "",
         "param_en": "",
         "param_ko": "",
@@ -1373,26 +1449,92 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "ethereal",
+        "type": "att/lvl",
         "min": "0",
-        "max": "1",
-        "original_idx": 1,
+        "max": "0",
+        "original_idx": 4,
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "manasteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "min": "0",
+        "max": "30",
+        "original_idx": 12,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "min": "0",
+        "max": "30",
+        "original_idx": 13,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
       },
       {
         "type": "sock",
         "min": "0",
         "max": "5",
-        "original_idx": 2,
+        "original_idx": 16,
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -1453,8 +1595,8 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
@@ -1475,11 +1617,22 @@
         "desc_ko": "시전 속도"
       },
       {
+        "type": "att",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
         "type": "manasteal",
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 13,
+        "original_idx": 16,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Mana stolen per hit",
@@ -1490,7 +1643,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 12,
+        "original_idx": 15,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Life stolen per hit",
@@ -1501,7 +1654,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 2,
+        "original_idx": 3,
         "param_en": "",
         "param_ko": "",
         "desc_en": "to Strength",
@@ -1512,7 +1665,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 3,
+        "original_idx": 4,
         "param_en": "",
         "param_ko": "",
         "desc_en": "to Dexterity",
@@ -1523,7 +1676,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 4,
+        "original_idx": 5,
         "param_en": "",
         "param_ko": "",
         "desc_en": "to Life",
@@ -1534,7 +1687,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 5,
+        "original_idx": 6,
         "param_en": "",
         "param_ko": "",
         "desc_en": "to Mana",
@@ -1545,7 +1698,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 7,
+        "original_idx": 8,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Cold Resist",
@@ -1556,7 +1709,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 9,
+        "original_idx": 10,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Lightning Resist",
@@ -1567,7 +1720,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 6,
+        "original_idx": 7,
         "param_en": "",
         "param_ko": "",
         "desc_en": "All Resistances",
@@ -1578,7 +1731,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 8,
+        "original_idx": 9,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Fire Resist",
@@ -1589,18 +1742,62 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 10,
+        "original_idx": 11,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Poison Resist",
         "desc_ko": "독 저항"
       },
       {
+        "type": "half-freeze",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 13,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Half Freeze Duration",
+        "desc_ko": "빙결 지속시간 절반으로 감소"
+      },
+      {
+        "type": "res-pois-len",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 12,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Poison Length Reduced by",
+        "desc_ko": "독 지속시간 감소"
+      },
+      {
+        "type": "heal-kill",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 17,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life after each Kill",
+        "desc_ko": "적 처치 시 생명력"
+      },
+      {
+        "type": "mana-kill",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 18,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana after each Kill",
+        "desc_ko": "적 처치 시 마나"
+      },
+      {
         "type": "mag%",
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 11,
+        "original_idx": 14,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Better Chance of Getting Magic Items",
@@ -1922,7 +2119,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 44,
+        "original_idx": 46,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Mana stolen per hit",
@@ -1933,7 +2130,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 43,
+        "original_idx": 45,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Life stolen per hit",
@@ -2050,11 +2247,33 @@
         "desc_ko": "독 저항"
       },
       {
+        "type": "half-freeze",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 44,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Half Freeze Duration",
+        "desc_ko": "빙결 지속시간 절반으로 감소"
+      },
+      {
+        "type": "res-pois-len",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 43,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Poison Length Reduced by",
+        "desc_ko": "독 지속시간 감소"
+      },
+      {
         "type": "gold%",
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 46,
+        "original_idx": 48,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Extra Gold from Monsters",
@@ -2065,7 +2284,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 45,
+        "original_idx": 47,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Better Chance of Getting Magic Items",
@@ -2515,11 +2734,33 @@
         "desc_ko": "독 저항"
       },
       {
-        "type": "gold%",
+        "type": "half-freeze",
         "param": "",
         "min": "0",
         "max": "0",
         "original_idx": 46,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Half Freeze Duration",
+        "desc_ko": "빙결 지속시간 절반으로 감소"
+      },
+      {
+        "type": "res-pois-len",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 45,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Poison Length Reduced by",
+        "desc_ko": "독 지속시간 감소"
+      },
+      {
+        "type": "gold%",
+        "param": "",
+        "min": "0",
+        "max": "0",
+        "original_idx": 48,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Extra Gold from Monsters",
@@ -2530,7 +2771,7 @@
         "param": "",
         "min": "0",
         "max": "0",
-        "original_idx": 45,
+        "original_idx": 47,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Better Chance of Getting Magic Items",
@@ -3553,8 +3794,8 @@
     ]
   },
   "Archon Plate": {
-    "name_ko": "🛡️ [갑옷] 아콘 플레이트 (베이스)",
-    "name_en": "🛡️ [Body Armors] Archon Plate (Base)",
+    "name_ko": "🛡️ [갑옷] 아콘 플레이트",
+    "name_en": "🛡️ [Body Armors] Archon Plate",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -3631,14 +3872,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Lacquered Plate": {
-    "name_ko": "🛡️ [갑옷] 래커드 플레이트 (베이스)",
-    "name_en": "🛡️ [Body Armors] Lacquered Plate (Base)",
+    "name_ko": "🛡️ [갑옷] 래커드 플레이트",
+    "name_en": "🛡️ [Body Armors] Lacquered Plate",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -3715,14 +3956,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Dusk Shroud": {
-    "name_ko": "🛡️ [갑옷] 더스크 슈라우드 (베이스)",
-    "name_en": "🛡️ [Body Armors] Dusk Shroud (Base)",
+    "name_ko": "🛡️ [갑옷] 더스크 슈라우드",
+    "name_en": "🛡️ [Body Armors] Dusk Shroud",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -3799,14 +4040,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Sacred Armor": {
-    "name_ko": "🛡️ [갑옷] 세이크리드 아머 (베이스)",
-    "name_en": "🛡️ [Body Armors] Sacred Armor (Base)",
+    "name_ko": "🛡️ [갑옷] 세이크리드 아머",
+    "name_en": "🛡️ [Body Armors] Sacred Armor",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -3883,14 +4124,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Gothic Plate": {
-    "name_ko": "🛡️ [갑옷] 고딕 플레이트 (베이스)",
-    "name_en": "🛡️ [Body Armors] Gothic Plate (Base)",
+    "name_ko": "🛡️ [갑옷] 고딕 플레이트",
+    "name_en": "🛡️ [Body Armors] Gothic Plate",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -3967,14 +4208,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Mage Plate": {
-    "name_ko": "🛡️ [갑옷] 메이지 플레이트 (베이스)",
-    "name_en": "🛡️ [Body Armors] Mage Plate (Base)",
+    "name_ko": "🛡️ [갑옷] 메이지 플레이트",
+    "name_en": "🛡️ [Body Armors] Mage Plate",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -4051,14 +4292,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Great Hauberk": {
-    "name_ko": "🛡️ [갑옷] 그레이트 허버크 (베이스)",
-    "name_en": "🛡️ [Body Armors] Great Hauberk (Base)",
+    "name_ko": "🛡️ [갑옷] 그레이트 허버크",
+    "name_en": "🛡️ [Body Armors] Great Hauberk",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -4135,14 +4376,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Kraken Shell": {
-    "name_ko": "🛡️ [갑옷] 크라켄 쉘 (베이스)",
-    "name_en": "🛡️ [Body Armors] Kraken Shell (Base)",
+    "name_ko": "🛡️ [갑옷] 크라켄 쉘",
+    "name_en": "🛡️ [Body Armors] Kraken Shell",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -4219,14 +4460,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Hellforge Plate": {
-    "name_ko": "🛡️ [갑옷] 헬포지 플레이트 (베이스)",
-    "name_en": "🛡️ [Body Armors] Hellforge Plate (Base)",
+    "name_ko": "🛡️ [갑옷] 헬포지 플레이트",
+    "name_en": "🛡️ [Body Armors] Hellforge Plate",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -4303,14 +4544,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Balrog Skin": {
-    "name_ko": "🛡️ [갑옷] 발록 스킨 (베이스)",
-    "name_en": "🛡️ [Body Armors] Balrog Skin (Base)",
+    "name_ko": "🛡️ [갑옷] 발록 스킨",
+    "name_en": "🛡️ [Body Armors] Balrog Skin",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -4387,14 +4628,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Boneweave": {
-    "name_ko": "🛡️ [갑옷] 본위브 (베이스)",
-    "name_en": "🛡️ [Body Armors] Boneweave (Base)",
+    "name_ko": "🛡️ [갑옷] 본위브",
+    "name_en": "🛡️ [Body Armors] Boneweave",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -4471,14 +4712,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Loricated Mail": {
-    "name_ko": "🛡️ [갑옷] 로러케이티드 메일 (베이스)",
-    "name_en": "🛡️ [Body Armors] Loricated Mail (Base)",
+    "name_ko": "🛡️ [갑옷] 로러케이티드 메일",
+    "name_en": "🛡️ [Body Armors] Loricated Mail",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -4555,14 +4796,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Diamond Mail": {
-    "name_ko": "🛡️ [갑옷] 다이아몬드 메일 (베이스)",
-    "name_en": "🛡️ [Body Armors] Diamond Mail (Base)",
+    "name_ko": "🛡️ [갑옷] 다이아몬드 메일",
+    "name_en": "🛡️ [Body Armors] Diamond Mail",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -4639,14 +4880,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Wire Fleece": {
-    "name_ko": "🛡️ [갑옷] 와이어 플리스 (베이스)",
-    "name_en": "🛡️ [Body Armors] Wire Fleece (Base)",
+    "name_ko": "🛡️ [갑옷] 와이어 플리스",
+    "name_en": "🛡️ [Body Armors] Wire Fleece",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -4723,14 +4964,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Scarab Husk": {
-    "name_ko": "🛡️ [갑옷] 스캐럽 허스크 (베이스)",
-    "name_en": "🛡️ [Body Armors] Scarab Husk (Base)",
+    "name_ko": "🛡️ [갑옷] 스캐럽 허스크",
+    "name_en": "🛡️ [Body Armors] Scarab Husk",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -4807,14 +5048,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Wyrmhide": {
-    "name_ko": "🛡️ [갑옷] 웜하이드 (베이스)",
-    "name_en": "🛡️ [Body Armors] Wyrmhide (Base)",
+    "name_ko": "🛡️ [갑옷] 웜하이드",
+    "name_en": "🛡️ [Body Armors] Wyrmhide",
     "item_type_en": "Body Armors",
     "item_type_ko": "갑옷",
     "base_stats": {
@@ -4891,14 +5132,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Bone Visage": {
-    "name_ko": "🪖 [투구] 본 비지즈 (베이스)",
-    "name_en": "🪖 [Helms] Bone Visage (Base)",
+    "name_ko": "🪖 [투구] 본 비지즈",
+    "name_en": "🪖 [Helms] Bone Visage",
     "item_type_en": "Helms",
     "item_type_ko": "투구",
     "base_stats": {
@@ -4953,14 +5194,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Spired Helm": {
-    "name_ko": "🪖 [투구] 스파이어드 헬름 (베이스)",
-    "name_en": "🪖 [Helms] Spired Helm (Base)",
+    "name_ko": "🪖 [투구] 스파이어드 헬름",
+    "name_en": "🪖 [Helms] Spired Helm",
     "item_type_en": "Helms",
     "item_type_ko": "투구",
     "base_stats": {
@@ -5015,14 +5256,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Corona": {
-    "name_ko": "🪖 [투구] 코로나 (베이스)",
-    "name_en": "🪖 [Helms] Corona (Base)",
+    "name_ko": "🪖 [투구] 코로나",
+    "name_en": "🪖 [Helms] Corona",
     "item_type_en": "Helms",
     "item_type_ko": "투구",
     "base_stats": {
@@ -5077,14 +5318,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Demonhead": {
-    "name_ko": "🪖 [투구] 데몬헤드 (베이스)",
-    "name_en": "🪖 [Helms] Demonhead (Base)",
+    "name_ko": "🪖 [투구] 데몬헤드",
+    "name_en": "🪖 [Helms] Demonhead",
     "item_type_en": "Helms",
     "item_type_ko": "투구",
     "base_stats": {
@@ -5139,14 +5380,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Ward": {
-    "name_ko": "🛡️ [방패] 워드 (베이스)",
-    "name_en": "🛡️ [Shields] Ward (Base)",
+    "name_ko": "🛡️ [방패] 워드",
+    "name_en": "🛡️ [Shields] Ward",
     "item_type_en": "Shields",
     "item_type_ko": "방패",
     "base_stats": {
@@ -5223,14 +5464,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Aegis": {
-    "name_ko": "🛡️ [방패] 이지스 (베이스)",
-    "name_en": "🛡️ [Shields] Aegis (Base)",
+    "name_ko": "🛡️ [방패] 이지스",
+    "name_en": "🛡️ [Shields] Aegis",
     "item_type_en": "Shields",
     "item_type_ko": "방패",
     "base_stats": {
@@ -5307,14 +5548,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Monarch": {
-    "name_ko": "🛡️ [방패] 모너크 (베이스)",
-    "name_en": "🛡️ [Shields] Monarch (Base)",
+    "name_ko": "🛡️ [방패] 모너크",
+    "name_en": "🛡️ [Shields] Monarch",
     "item_type_en": "Shields",
     "item_type_ko": "방패",
     "base_stats": {
@@ -5391,14 +5632,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Hyperion": {
-    "name_ko": "🛡️ [방패] 하이페리온 (베이스)",
-    "name_en": "🛡️ [Shields] Hyperion (Base)",
+    "name_ko": "🛡️ [방패] 하이페리온",
+    "name_en": "🛡️ [Shields] Hyperion",
     "item_type_en": "Shields",
     "item_type_ko": "방패",
     "base_stats": {
@@ -5475,14 +5716,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Luna": {
-    "name_ko": "🛡️ [방패] 루나 (베이스)",
-    "name_en": "🛡️ [Shields] Luna (Base)",
+    "name_ko": "🛡️ [방패] 루나",
+    "name_en": "🛡️ [Shields] Luna",
     "item_type_en": "Shields",
     "item_type_ko": "방패",
     "base_stats": {
@@ -5559,14 +5800,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Heater": {
-    "name_ko": "🛡️ [방패] 히터 (베이스)",
-    "name_en": "🛡️ [Shields] Heater (Base)",
+    "name_ko": "🛡️ [방패] 히터",
+    "name_en": "🛡️ [Shields] Heater",
     "item_type_en": "Shields",
     "item_type_ko": "방패",
     "base_stats": {
@@ -5643,14 +5884,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Blade Barrier": {
-    "name_ko": "🛡️ [방패] 블레이드 배리어 (베이스)",
-    "name_en": "🛡️ [Shields] Blade Barrier (Base)",
+    "name_ko": "🛡️ [방패] 블레이드 배리어",
+    "name_en": "🛡️ [Shields] Blade Barrier",
     "item_type_en": "Shields",
     "item_type_ko": "방패",
     "base_stats": {
@@ -5727,14 +5968,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Troll Nest": {
-    "name_ko": "🛡️ [방패] 트롤 네스트 (베이스)",
-    "name_en": "🛡️ [Shields] Troll Nest (Base)",
+    "name_ko": "🛡️ [방패] 트롤 네스트",
+    "name_en": "🛡️ [Shields] Troll Nest",
     "item_type_en": "Shields",
     "item_type_ko": "방패",
     "base_stats": {
@@ -5811,14 +6052,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Great Poleaxe": {
-    "name_ko": "⚔️ [폴암(미늘창)] 그레이트 폴액스 (베이스)",
-    "name_en": "⚔️ [Polearms] Great Poleaxe (Base)",
+    "name_ko": "⚔️ [폴암(미늘창)] 그레이트 폴액스",
+    "name_en": "⚔️ [Polearms] Great Poleaxe",
     "item_type_en": "Polearms",
     "item_type_ko": "폴암(미늘창)",
     "base_stats": {
@@ -5881,14 +6122,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Thresher": {
-    "name_ko": "⚔️ [폴암(미늘창)] 쓰레셔 (베이스)",
-    "name_en": "⚔️ [Polearms] Thresher (Base)",
+    "name_ko": "⚔️ [폴암(미늘창)] 쓰레셔",
+    "name_en": "⚔️ [Polearms] Thresher",
     "item_type_en": "Polearms",
     "item_type_ko": "폴암(미늘창)",
     "base_stats": {
@@ -5951,14 +6192,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Giant Thresher": {
-    "name_ko": "⚔️ [폴암(미늘창)] 자이언트 쓰레셔 (베이스)",
-    "name_en": "⚔️ [Polearms] Giant Thresher (Base)",
+    "name_ko": "⚔️ [폴암(미늘창)] 자이언트 쓰레셔",
+    "name_en": "⚔️ [Polearms] Giant Thresher",
     "item_type_en": "Polearms",
     "item_type_ko": "폴암(미늘창)",
     "base_stats": {
@@ -6021,14 +6262,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Cryptic Axe": {
-    "name_ko": "⚔️ [폴암(미늘창)] 크립틱 액스 (베이스)",
-    "name_en": "⚔️ [Polearms] Cryptic Axe (Base)",
+    "name_ko": "⚔️ [폴암(미늘창)] 크립틱 액스",
+    "name_en": "⚔️ [Polearms] Cryptic Axe",
     "item_type_en": "Polearms",
     "item_type_ko": "폴암(미늘창)",
     "base_stats": {
@@ -6091,14 +6332,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Colossus Voulge": {
-    "name_ko": "⚔️ [폴암(미늘창)] 콜로서스 불즈 (베이스)",
-    "name_en": "⚔️ [Polearms] Colossus Voulge (Base)",
+    "name_ko": "⚔️ [폴암(미늘창)] 콜로서스 불즈",
+    "name_en": "⚔️ [Polearms] Colossus Voulge",
     "item_type_en": "Polearms",
     "item_type_ko": "폴암(미늘창)",
     "base_stats": {
@@ -6161,14 +6402,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Mancatcher": {
-    "name_ko": "⚔️ [창] 맨캐쳐 (베이스)",
-    "name_en": "⚔️ [Spears] Mancatcher (Base)",
+    "name_ko": "⚔️ [창] 맨캐쳐",
+    "name_en": "⚔️ [Spears] Mancatcher",
     "item_type_en": "Spears",
     "item_type_ko": "창",
     "base_stats": {
@@ -6231,14 +6472,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Hyperion Spear": {
-    "name_ko": "⚔️ [창] 하이페리온 스피어 (베이스)",
-    "name_en": "⚔️ [Spears] Hyperion Spear (Base)",
+    "name_ko": "⚔️ [창] 하이페리온 스피어",
+    "name_en": "⚔️ [Spears] Hyperion Spear",
     "item_type_en": "Spears",
     "item_type_ko": "창",
     "base_stats": {
@@ -6301,14 +6542,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Ghost Spear": {
-    "name_ko": "⚔️ [창] 고스트 스피어 (베이스)",
-    "name_en": "⚔️ [Spears] Ghost Spear (Base)",
+    "name_ko": "⚔️ [창] 고스트 스피어",
+    "name_en": "⚔️ [Spears] Ghost Spear",
     "item_type_en": "Spears",
     "item_type_ko": "창",
     "base_stats": {
@@ -6371,14 +6612,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "War Pike": {
-    "name_ko": "⚔️ [창] 워 파이크 (베이스)",
-    "name_en": "⚔️ [Spears] War Pike (Base)",
+    "name_ko": "⚔️ [창] 워 파이크",
+    "name_en": "⚔️ [Spears] War Pike",
     "item_type_en": "Spears",
     "item_type_ko": "창",
     "base_stats": {
@@ -6441,14 +6682,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Berserker Axe": {
-    "name_ko": "⚔️ [도끼] 버서커 액스 (베이스)",
-    "name_en": "⚔️ [Axes] Berserker Axe (Base)",
+    "name_ko": "⚔️ [도끼] 버서커 액스",
+    "name_en": "⚔️ [Axes] Berserker Axe",
     "item_type_en": "Axes",
     "item_type_ko": "도끼",
     "base_stats": {
@@ -6511,14 +6752,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Decapitator": {
-    "name_ko": "⚔️ [도끼] 디캐피테이터 (베이스)",
-    "name_en": "⚔️ [Axes] Decapitator (Base)",
+    "name_ko": "⚔️ [도끼] 디캐피테이터",
+    "name_en": "⚔️ [Axes] Decapitator",
     "item_type_en": "Axes",
     "item_type_ko": "도끼",
     "base_stats": {
@@ -6581,14 +6822,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Glorious Axe": {
-    "name_ko": "⚔️ [도끼] 글로리어스 액스 (베이스)",
-    "name_en": "⚔️ [Axes] Glorious Axe (Base)",
+    "name_ko": "⚔️ [도끼] 글로리어스 액스",
+    "name_en": "⚔️ [Axes] Glorious Axe",
     "item_type_en": "Axes",
     "item_type_ko": "도끼",
     "base_stats": {
@@ -6651,14 +6892,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Champion Axe": {
-    "name_ko": "⚔️ [도끼] 챔피언 액스 (베이스)",
-    "name_en": "⚔️ [Axes] Champion Axe (Base)",
+    "name_ko": "⚔️ [도끼] 챔피언 액스",
+    "name_en": "⚔️ [Axes] Champion Axe",
     "item_type_en": "Axes",
     "item_type_ko": "도끼",
     "base_stats": {
@@ -6721,14 +6962,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Flail": {
-    "name_ko": "⚔️ [메이스] 프레일 (베이스)",
-    "name_en": "⚔️ [Maces] Flail (Base)",
+    "name_ko": "⚔️ [메이스] 프레일",
+    "name_en": "⚔️ [Maces] Flail",
     "item_type_en": "Maces",
     "item_type_ko": "메이스",
     "base_stats": {
@@ -6791,14 +7032,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Thunder Maul": {
-    "name_ko": "⚔️ [해머] 썬더 마울 (베이스)",
-    "name_en": "⚔️ [Hammers] Thunder Maul (Base)",
+    "name_ko": "⚔️ [해머] 썬더 마울",
+    "name_en": "⚔️ [Hammers] Thunder Maul",
     "item_type_en": "Hammers",
     "item_type_ko": "해머",
     "base_stats": {
@@ -6861,294 +7102,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      }
-    ]
-  },
-  "Shadow Bow": {
-    "name_ko": "⚔️ [활] 쉐도우 보우 (베이스)",
-    "name_en": "⚔️ [Bows] Shadow Bow (Base)",
-    "item_type_en": "Bows",
-    "item_type_ko": "활",
-    "base_stats": {
-      "item_type": "weapon",
-      "namestr": "6lb",
-      "weapon_type1": "bow",
-      "weapon_type2": "",
-      "mindam": 0,
-      "maxdam": 0,
-      "2handmindam": 15,
-      "2handmaxdam": 59,
-      "minmisdam": 0,
-      "maxmisdam": 0,
-      "1or2handed": false,
-      "2handed": true,
-      "speed": "",
-      "reqstr": 52,
-      "reqdex": 188,
-      "durability": 28
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "0",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      }
-    ]
-  },
-  "Blade Bow": {
-    "name_ko": "⚔️ [활] 블레이드 보우 (베이스)",
-    "name_en": "⚔️ [Bows] Blade Bow (Base)",
-    "item_type_en": "Bows",
-    "item_type_ko": "활",
-    "base_stats": {
-      "item_type": "weapon",
-      "namestr": "6hb",
-      "weapon_type1": "bow",
-      "weapon_type2": "",
-      "mindam": 0,
-      "maxdam": 0,
-      "2handmindam": 21,
-      "2handmaxdam": 41,
-      "minmisdam": 0,
-      "maxmisdam": 0,
-      "1or2handed": false,
-      "2handed": true,
-      "speed": "-10",
-      "reqstr": 76,
-      "reqdex": 119,
-      "durability": 32
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "0",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      }
-    ]
-  },
-  "Hydra Bow": {
-    "name_ko": "⚔️ [활] 히드라 보우 (베이스)",
-    "name_en": "⚔️ [Bows] Hydra Bow (Base)",
-    "item_type_en": "Bows",
-    "item_type_ko": "활",
-    "base_stats": {
-      "item_type": "weapon",
-      "namestr": "6lw",
-      "weapon_type1": "bow",
-      "weapon_type2": "",
-      "mindam": 0,
-      "maxdam": 0,
-      "2handmindam": 10,
-      "2handmaxdam": 68,
-      "minmisdam": 0,
-      "maxmisdam": 0,
-      "1or2handed": false,
-      "2handed": true,
-      "speed": "10",
-      "reqstr": 134,
-      "reqdex": 167,
-      "durability": 55
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "0",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      }
-    ]
-  },
-  "Crusader Bow": {
-    "name_ko": "⚔️ [활] 크루세이더 보우 (베이스)",
-    "name_en": "⚔️ [Bows] Crusader Bow (Base)",
-    "item_type_en": "Bows",
-    "item_type_ko": "활",
-    "base_stats": {
-      "item_type": "weapon",
-      "namestr": "6l7",
-      "weapon_type1": "bow",
-      "weapon_type2": "",
-      "mindam": 0,
-      "maxdam": 0,
-      "2handmindam": 15,
-      "2handmaxdam": 63,
-      "minmisdam": 0,
-      "maxmisdam": 0,
-      "1or2handed": false,
-      "2handed": true,
-      "speed": "10",
-      "reqstr": 97,
-      "reqdex": 121,
-      "durability": 44
-    },
-    "options": [
-      {
-        "type": "dmg%",
-        "min": "0",
-        "max": "0",
-        "original_idx": 3,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가(%)"
-      },
-      {
-        "type": "att",
-        "min": "0",
-        "max": "0",
-        "original_idx": 4,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Attack Rating",
-        "desc_ko": "명중률"
-      },
-      {
-        "type": "ethereal",
-        "min": "0",
-        "max": "1",
-        "original_idx": 1,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
-      },
-      {
-        "type": "sock",
-        "min": "0",
-        "max": "6",
-        "original_idx": 2,
-        "param": "",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Crystal Sword": {
-    "name_ko": "⚔️ [검] 크리스탈 소드 (베이스)",
-    "name_en": "⚔️ [Swords] Crystal Sword (Base)",
+    "name_ko": "⚔️ [검] 크리스탈 소드",
+    "name_en": "⚔️ [Swords] Crystal Sword",
     "item_type_en": "Swords",
     "item_type_ko": "검",
     "base_stats": {
@@ -7211,14 +7172,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Phase Blade": {
-    "name_ko": "⚔️ [검] 페이즈 블레이드 (베이스)",
-    "name_en": "⚔️ [Swords] Phase Blade (Base)",
+    "name_ko": "⚔️ [검] 페이즈 블레이드",
+    "name_en": "⚔️ [Swords] Phase Blade",
     "item_type_en": "Swords",
     "item_type_ko": "검",
     "base_stats": {
@@ -7281,14 +7242,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Cryptic Sword": {
-    "name_ko": "⚔️ [검] 크립틱 소드 (베이스)",
-    "name_en": "⚔️ [Swords] Cryptic Sword (Base)",
+    "name_ko": "⚔️ [검] 크립틱 소드",
+    "name_en": "⚔️ [Swords] Cryptic Sword",
     "item_type_en": "Swords",
     "item_type_ko": "검",
     "base_stats": {
@@ -7351,14 +7312,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Conquest Sword": {
-    "name_ko": "⚔️ [검] 컨퀘스트 소드 (베이스)",
-    "name_en": "⚔️ [Swords] Conquest Sword (Base)",
+    "name_ko": "⚔️ [검] 컨퀘스트 소드",
+    "name_en": "⚔️ [Swords] Conquest Sword",
     "item_type_en": "Swords",
     "item_type_ko": "검",
     "base_stats": {
@@ -7421,14 +7382,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Mythical Sword": {
-    "name_ko": "⚔️ [검] 미시컬 소드 (베이스)",
-    "name_en": "⚔️ [Swords] Mythical Sword (Base)",
+    "name_ko": "⚔️ [검] 미시컬 소드",
+    "name_en": "⚔️ [Swords] Mythical Sword",
     "item_type_en": "Swords",
     "item_type_ko": "검",
     "base_stats": {
@@ -7491,14 +7452,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Balrog Blade": {
-    "name_ko": "⚔️ [검] 발록 블레이드 (베이스)",
-    "name_en": "⚔️ [Swords] Balrog Blade (Base)",
+    "name_ko": "⚔️ [검] 발록 블레이드",
+    "name_en": "⚔️ [Swords] Balrog Blade",
     "item_type_en": "Swords",
     "item_type_ko": "검",
     "base_stats": {
@@ -7561,14 +7522,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Champion Sword": {
-    "name_ko": "⚔️ [검] 챔피언 소드 (베이스)",
-    "name_en": "⚔️ [Swords] Champion Sword (Base)",
+    "name_ko": "⚔️ [검] 챔피언 소드",
+    "name_en": "⚔️ [Swords] Champion Sword",
     "item_type_en": "Swords",
     "item_type_ko": "검",
     "base_stats": {
@@ -7631,14 +7592,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Colossus Blade": {
-    "name_ko": "⚔️ [검] 콜로서스 블레이드 (베이스)",
-    "name_en": "⚔️ [Swords] Colossus Blade (Base)",
+    "name_ko": "⚔️ [검] 콜로서스 블레이드",
+    "name_en": "⚔️ [Swords] Colossus Blade",
     "item_type_en": "Swords",
     "item_type_ko": "검",
     "base_stats": {
@@ -7701,14 +7662,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Colossus Sword": {
-    "name_ko": "⚔️ [검] 콜로서스 소드 (베이스)",
-    "name_en": "⚔️ [Swords] Colossus Sword (Base)",
+    "name_ko": "⚔️ [검] 콜로서스 소드",
+    "name_en": "⚔️ [Swords] Colossus Sword",
     "item_type_en": "Swords",
     "item_type_ko": "검",
     "base_stats": {
@@ -7771,14 +7732,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "War Staff": {
-    "name_ko": "⚔️ [스태프] 워 스태프 (베이스)",
-    "name_en": "⚔️ [Staves] War Staff (Base)",
+    "name_ko": "⚔️ [스태프] 워 스태프",
+    "name_en": "⚔️ [Staves] War Staff",
     "item_type_en": "Staves",
     "item_type_ko": "스태프",
     "base_stats": {
@@ -7841,14 +7802,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Rune Staff": {
-    "name_ko": "⚔️ [스태프] 룬 스태프 (베이스)",
-    "name_en": "⚔️ [Staves] Rune Staff (Base)",
+    "name_ko": "⚔️ [스태프] 룬 스태프",
+    "name_en": "⚔️ [Staves] Rune Staff",
     "item_type_en": "Staves",
     "item_type_ko": "스태프",
     "base_stats": {
@@ -7911,14 +7872,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Battle Staff": {
-    "name_ko": "⚔️ [스태프] 배틀 스태프 (베이스)",
-    "name_en": "⚔️ [Staves] Battle Staff (Base)",
+    "name_ko": "⚔️ [스태프] 배틀 스태프",
+    "name_en": "⚔️ [Staves] Battle Staff",
     "item_type_en": "Staves",
     "item_type_ko": "스태프",
     "base_stats": {
@@ -7981,14 +7942,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Archon Staff": {
-    "name_ko": "⚔️ [스태프] 아콘 스태프 (베이스)",
-    "name_en": "⚔️ [Staves] Archon Staff (Base)",
+    "name_ko": "⚔️ [스태프] 아콘 스태프",
+    "name_en": "⚔️ [Staves] Archon Staff",
     "item_type_en": "Staves",
     "item_type_ko": "스태프",
     "base_stats": {
@@ -8051,14 +8012,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Shillelagh": {
-    "name_ko": "⚔️ [스태프] 쉴레일리 (베이스)",
-    "name_en": "⚔️ [Staves] Shillelagh (Base)",
+    "name_ko": "⚔️ [스태프] 쉴레일리",
+    "name_en": "⚔️ [Staves] Shillelagh",
     "item_type_en": "Staves",
     "item_type_ko": "스태프",
     "base_stats": {
@@ -8121,14 +8082,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Elder Staff": {
-    "name_ko": "⚔️ [스태프] 엘더 스태프 (베이스)",
-    "name_en": "⚔️ [Staves] Elder Staff (Base)",
+    "name_ko": "⚔️ [스태프] 엘더 스태프",
+    "name_en": "⚔️ [Staves] Elder Staff",
     "item_type_en": "Staves",
     "item_type_ko": "스태프",
     "base_stats": {
@@ -8191,14 +8152,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Sacred Targe": {
-    "name_ko": "🛡️ [성기사 전용 방패] 세이크리드 타아지 (베이스)",
-    "name_en": "🛡️ [Paladin Shields] Sacred Targe (Base)",
+    "name_ko": "🛡️ [성기사 전용 방패] 세이크리드 타아지",
+    "name_en": "🛡️ [Paladin Shields] Sacred Targe",
     "item_type_en": "Paladin Shields",
     "item_type_ko": "성기사 전용 방패",
     "base_stats": {
@@ -8275,14 +8236,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Sacred Rondache": {
-    "name_ko": "🛡️ [성기사 전용 방패] 세이크리드 론다쉬 (베이스)",
-    "name_en": "🛡️ [Paladin Shields] Sacred Rondache (Base)",
+    "name_ko": "🛡️ [성기사 전용 방패] 세이크리드 론다쉬",
+    "name_en": "🛡️ [Paladin Shields] Sacred Rondache",
     "item_type_en": "Paladin Shields",
     "item_type_ko": "성기사 전용 방패",
     "base_stats": {
@@ -8359,14 +8320,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Vortex Shield": {
-    "name_ko": "🛡️ [성기사 전용 방패] 볼텍스 쉴드 (베이스)",
-    "name_en": "🛡️ [Paladin Shields] Vortex Shield (Base)",
+    "name_ko": "🛡️ [성기사 전용 방패] 볼텍스 쉴드",
+    "name_en": "🛡️ [Paladin Shields] Vortex Shield",
     "item_type_en": "Paladin Shields",
     "item_type_ko": "성기사 전용 방패",
     "base_stats": {
@@ -8443,14 +8404,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Royal Shield": {
-    "name_ko": "🛡️ [성기사 전용 방패] 로얄 쉴드 (베이스)",
-    "name_en": "🛡️ [Paladin Shields] Royal Shield (Base)",
+    "name_ko": "🛡️ [성기사 전용 방패] 로얄 쉴드",
+    "name_en": "🛡️ [Paladin Shields] Royal Shield",
     "item_type_en": "Paladin Shields",
     "item_type_ko": "성기사 전용 방패",
     "base_stats": {
@@ -8527,14 +8488,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Circlet": {
-    "name_ko": "👑 [서클릿] 써클릿 (베이스)",
-    "name_en": "👑 [Circlets] Circlet (Base)",
+    "name_ko": "👑 [서클릿] 써클릿",
+    "name_en": "👑 [Circlets] Circlet",
     "item_type_en": "Circlets",
     "item_type_ko": "서클릿",
     "base_stats": {
@@ -8915,14 +8876,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Coronet": {
-    "name_ko": "👑 [서클릿] 코로니트 (베이스)",
-    "name_en": "👑 [Circlets] Coronet (Base)",
+    "name_ko": "👑 [서클릿] 코로니트",
+    "name_en": "👑 [Circlets] Coronet",
     "item_type_en": "Circlets",
     "item_type_ko": "서클릿",
     "base_stats": {
@@ -9303,14 +9264,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Tiara": {
-    "name_ko": "👑 [서클릿] 티아라 (베이스)",
-    "name_en": "👑 [Circlets] Tiara (Base)",
+    "name_ko": "👑 [서클릿] 티아라",
+    "name_en": "👑 [Circlets] Tiara",
     "item_type_en": "Circlets",
     "item_type_ko": "서클릿",
     "base_stats": {
@@ -9691,14 +9652,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Diadem": {
-    "name_ko": "👑 [서클릿] 다이어뎀 (베이스)",
-    "name_en": "👑 [Circlets] Diadem (Base)",
+    "name_ko": "👑 [서클릿] 다이어뎀",
+    "name_en": "👑 [Circlets] Diadem",
     "item_type_en": "Circlets",
     "item_type_ko": "서클릿",
     "base_stats": {
@@ -10079,14 +10040,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Kris": {
-    "name_ko": "🗡️ [단검] 크리스 (베이스)",
-    "name_en": "🗡️ [Daggers] Kris (Base)",
+    "name_ko": "🗡️ [단검] 크리스",
+    "name_en": "🗡️ [Daggers] Kris",
     "item_type_en": "Daggers",
     "item_type_ko": "단검",
     "base_stats": {
@@ -10225,14 +10186,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Blade": {
-    "name_ko": "🗡️ [단검] 블레이드 (베이스)",
-    "name_en": "🗡️ [Daggers] Blade (Base)",
+    "name_ko": "🗡️ [단검] 블레이드",
+    "name_en": "🗡️ [Daggers] Blade",
     "item_type_en": "Daggers",
     "item_type_ko": "단검",
     "base_stats": {
@@ -10371,14 +10332,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Cinquedeas": {
-    "name_ko": "🗡️ [단검] 싱쿠디아 (베이스)",
-    "name_en": "🗡️ [Daggers] Cinquedeas (Base)",
+    "name_ko": "🗡️ [단검] 싱쿠디아",
+    "name_en": "🗡️ [Daggers] Cinquedeas",
     "item_type_en": "Daggers",
     "item_type_ko": "단검",
     "base_stats": {
@@ -10517,14 +10478,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Stiletto": {
-    "name_ko": "🗡️ [단검] 스틸레토 (베이스)",
-    "name_en": "🗡️ [Daggers] Stiletto (Base)",
+    "name_ko": "🗡️ [단검] 스틸레토",
+    "name_en": "🗡️ [Daggers] Stiletto",
     "item_type_en": "Daggers",
     "item_type_ko": "단검",
     "base_stats": {
@@ -10663,14 +10624,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Fanged Knife": {
-    "name_ko": "🗡️ [단검] 팽드 나이프 (베이스)",
-    "name_en": "🗡️ [Daggers] Fanged Knife (Base)",
+    "name_ko": "🗡️ [단검] 팽드 나이프",
+    "name_en": "🗡️ [Daggers] Fanged Knife",
     "item_type_en": "Daggers",
     "item_type_ko": "단검",
     "base_stats": {
@@ -10809,14 +10770,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Legend Spike": {
-    "name_ko": "🗡️ [단검] 레전드 스파이크 (베이스)",
-    "name_en": "🗡️ [Daggers] Legend Spike (Base)",
+    "name_ko": "🗡️ [단검] 레전드 스파이크",
+    "name_en": "🗡️ [Daggers] Legend Spike",
     "item_type_en": "Daggers",
     "item_type_ko": "단검",
     "base_stats": {
@@ -10955,14 +10916,1606 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Shadow Bow": {
+    "name_ko": "🏹 [활] 쉐도우 보우",
+    "name_en": "🏹 [Bows] Shadow Bow",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6lb",
+      "weapon_type1": "bow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 15,
+      "2handmaxdam": 59,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 52,
+      "reqdex": 188,
+      "durability": 28
+    },
+    "options": [
+      {
+        "type": "hit-skill-var",
+        "param": "66",
+        "min": "1",
+        "max": "20",
+        "original_idx": 2,
+        "chance_str": "0",
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
+      },
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "1",
+        "max": "3",
+        "original_idx": 1,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "swing2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Increased Attack Speed",
+        "desc_ko": "공격 속도"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "dmg-min",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "att/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "manasteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "min": "0",
+        "max": "30",
+        "original_idx": 12,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "min": "0",
+        "max": "30",
+        "original_idx": 13,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "5",
+        "original_idx": 16,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Blade Bow": {
+    "name_ko": "🏹 [활] 블레이드 보우",
+    "name_en": "🏹 [Bows] Blade Bow",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6hb",
+      "weapon_type1": "bow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 21,
+      "2handmaxdam": 41,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "-10",
+      "reqstr": 76,
+      "reqdex": 119,
+      "durability": 32
+    },
+    "options": [
+      {
+        "type": "hit-skill-var",
+        "param": "66",
+        "min": "1",
+        "max": "20",
+        "original_idx": 2,
+        "chance_str": "0",
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
+      },
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "1",
+        "max": "3",
+        "original_idx": 1,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "swing2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Increased Attack Speed",
+        "desc_ko": "공격 속도"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "dmg-min",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "att/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "manasteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "min": "0",
+        "max": "30",
+        "original_idx": 12,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "min": "0",
+        "max": "30",
+        "original_idx": 13,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "5",
+        "original_idx": 16,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Hydra Bow": {
+    "name_ko": "🏹 [활] 히드라 보우",
+    "name_en": "🏹 [Bows] Hydra Bow",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6lw",
+      "weapon_type1": "bow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 10,
+      "2handmaxdam": 68,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "10",
+      "reqstr": 134,
+      "reqdex": 167,
+      "durability": 55
+    },
+    "options": [
+      {
+        "type": "hit-skill-var",
+        "param": "66",
+        "min": "1",
+        "max": "20",
+        "original_idx": 2,
+        "chance_str": "0",
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
+      },
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "1",
+        "max": "3",
+        "original_idx": 1,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "swing2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Increased Attack Speed",
+        "desc_ko": "공격 속도"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "dmg-min",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "att/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "manasteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "min": "0",
+        "max": "30",
+        "original_idx": 12,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "min": "0",
+        "max": "30",
+        "original_idx": 13,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "5",
+        "original_idx": 16,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Crusader Bow": {
+    "name_ko": "🏹 [활] 크루세이더 보우",
+    "name_en": "🏹 [Bows] Crusader Bow",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6l7",
+      "weapon_type1": "bow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 15,
+      "2handmaxdam": 63,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "10",
+      "reqstr": 97,
+      "reqdex": 121,
+      "durability": 44
+    },
+    "options": [
+      {
+        "type": "hit-skill-var",
+        "param": "66",
+        "min": "1",
+        "max": "20",
+        "original_idx": 2,
+        "chance_str": "0",
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
+      },
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "1",
+        "max": "3",
+        "original_idx": 1,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "swing2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Increased Attack Speed",
+        "desc_ko": "공격 속도"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "dmg-min",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "att/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "manasteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "min": "0",
+        "max": "30",
+        "original_idx": 12,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "min": "0",
+        "max": "30",
+        "original_idx": 13,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "5",
+        "original_idx": 16,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Great Bow": {
+    "name_ko": "🏹 [활] 그레이트 보우",
+    "name_en": "🏹 [Bows] Great Bow",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6cb",
+      "weapon_type1": "bow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 12,
+      "2handmaxdam": 52,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "-10",
+      "reqstr": 121,
+      "reqdex": 107,
+      "durability": 36
+    },
+    "options": [
+      {
+        "type": "hit-skill-var",
+        "param": "66",
+        "min": "1",
+        "max": "20",
+        "original_idx": 2,
+        "chance_str": "0",
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
+      },
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "1",
+        "max": "3",
+        "original_idx": 1,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "swing2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Increased Attack Speed",
+        "desc_ko": "공격 속도"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "dmg-min",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "att/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "manasteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "min": "0",
+        "max": "30",
+        "original_idx": 12,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "min": "0",
+        "max": "30",
+        "original_idx": 13,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "5",
+        "original_idx": 16,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Diamond Bow": {
+    "name_ko": "🏹 [활] 다이아몬드 보우",
+    "name_en": "🏹 [Bows] Diamond Bow",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6s7",
+      "weapon_type1": "bow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 33,
+      "2handmaxdam": 40,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 89,
+      "reqdex": 132,
+      "durability": 40
+    },
+    "options": [
+      {
+        "type": "hit-skill-var",
+        "param": "66",
+        "min": "1",
+        "max": "20",
+        "original_idx": 2,
+        "chance_str": "0",
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
+      },
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "1",
+        "max": "3",
+        "original_idx": 1,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "swing2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Increased Attack Speed",
+        "desc_ko": "공격 속도"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "dmg-min",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "att/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "manasteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "min": "0",
+        "max": "30",
+        "original_idx": 12,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "min": "0",
+        "max": "30",
+        "original_idx": 13,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "5",
+        "original_idx": 16,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Ward Bow": {
+    "name_ko": "🏹 [활] 워드 보우",
+    "name_en": "🏹 [Bows] Ward Bow",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6sw",
+      "weapon_type1": "bow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 20,
+      "2handmaxdam": 53,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "",
+      "reqstr": 72,
+      "reqdex": 146,
+      "durability": 48
+    },
+    "options": [
+      {
+        "type": "hit-skill-var",
+        "param": "66",
+        "min": "1",
+        "max": "20",
+        "original_idx": 2,
+        "chance_str": "0",
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
+      },
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "1",
+        "max": "3",
+        "original_idx": 1,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "swing2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Increased Attack Speed",
+        "desc_ko": "공격 속도"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "dmg-min",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "att/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "manasteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "min": "0",
+        "max": "30",
+        "original_idx": 12,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "min": "0",
+        "max": "30",
+        "original_idx": 13,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "5",
+        "original_idx": 16,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
+      }
+    ]
+  },
+  "Spider Bow": {
+    "name_ko": "🏹 [활] 스파이더 보우",
+    "name_en": "🏹 [Bows] Spider Bow",
+    "item_type_en": "Bows",
+    "item_type_ko": "활",
+    "base_stats": {
+      "item_type": "weapon",
+      "namestr": "6sb",
+      "weapon_type1": "bow",
+      "weapon_type2": "",
+      "mindam": 0,
+      "maxdam": 0,
+      "2handmindam": 23,
+      "2handmaxdam": 50,
+      "minmisdam": 0,
+      "maxmisdam": 0,
+      "1or2handed": false,
+      "2handed": true,
+      "speed": "5",
+      "reqstr": 64,
+      "reqdex": 143,
+      "durability": 20
+    },
+    "options": [
+      {
+        "type": "hit-skill-var",
+        "param": "66",
+        "min": "1",
+        "max": "20",
+        "original_idx": 2,
+        "chance_str": "0",
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
+      },
+      {
+        "type": "skilltab",
+        "param": "0",
+        "min": "1",
+        "max": "3",
+        "original_idx": 1,
+        "param_en": "Bow and Crossbow Skills (Amazon Only)",
+        "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "swing2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Increased Attack Speed",
+        "desc_ko": "공격 속도"
+      },
+      {
+        "type": "dmg%",
+        "min": "0",
+        "max": "0",
+        "original_idx": 6,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가(%)"
+      },
+      {
+        "type": "dmg-min",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "att",
+        "min": "0",
+        "max": "0",
+        "original_idx": 9,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Attack Rating",
+        "desc_ko": "명중률"
+      },
+      {
+        "type": "att/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 4,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "manasteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "min": "0",
+        "max": "30",
+        "original_idx": 12,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "min": "0",
+        "max": "30",
+        "original_idx": 13,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "sock",
+        "min": "0",
+        "max": "5",
+        "original_idx": 16,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Matriarchal Bow": {
-    "name_ko": "🏹 [아마존 전용 활] 메이트리어컬 보우 (베이스)",
-    "name_en": "🏹 [Amazon Bows] Matriarchal Bow (Base)",
+    "name_ko": "🏹 [아마존 전용 활] 메이트리어컬 보우",
+    "name_en": "🏹 [Amazon Bows] Matriarchal Bow",
     "item_type_en": "Amazon Bows",
     "item_type_ko": "아마존 전용 활",
     "base_stats": {
@@ -10985,19 +12538,40 @@
     },
     "options": [
       {
+        "type": "hit-skill-var",
+        "param": "66",
+        "min": "1",
+        "max": "20",
+        "original_idx": 2,
+        "chance_str": "0",
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
+      },
+      {
         "type": "skilltab",
         "param": "0",
         "min": "1",
         "max": "3",
-        "original_idx": 5,
+        "original_idx": 1,
         "param_en": "Bow and Crossbow Skills (Amazon Only)",
         "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "swing2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Increased Attack Speed",
+        "desc_ko": "공격 속도"
       },
       {
         "type": "dmg%",
         "min": "0",
         "max": "0",
-        "original_idx": 3,
+        "original_idx": 6,
         "param": "",
         "param_en": "",
         "param_ko": "",
@@ -11005,10 +12579,43 @@
         "desc_ko": "피해 증가(%)"
       },
       {
+        "type": "dmg-min",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
+      },
+      {
         "type": "att",
         "min": "0",
         "max": "0",
-        "original_idx": 4,
+        "original_idx": 9,
         "param": "",
         "param_en": "",
         "param_ko": "",
@@ -11016,32 +12623,98 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "ethereal",
+        "type": "att/lvl",
         "min": "0",
-        "max": "1",
-        "original_idx": 1,
+        "max": "0",
+        "original_idx": 4,
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "manasteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "min": "0",
+        "max": "30",
+        "original_idx": 12,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "min": "0",
+        "max": "30",
+        "original_idx": 13,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
       },
       {
         "type": "sock",
         "min": "0",
         "max": "5",
-        "original_idx": 2,
+        "original_idx": 16,
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Grand Matron Bow": {
-    "name_ko": "🏹 [아마존 전용 활] 그랜드 메이트런 보우 (베이스)",
-    "name_en": "🏹 [Amazon Bows] Grand Matron Bow (Base)",
+    "name_ko": "🏹 [아마존 전용 활] 그랜드 메이트런 보우",
+    "name_en": "🏹 [Amazon Bows] Grand Matron Bow",
     "item_type_en": "Amazon Bows",
     "item_type_ko": "아마존 전용 활",
     "base_stats": {
@@ -11064,19 +12737,40 @@
     },
     "options": [
       {
+        "type": "hit-skill-var",
+        "param": "66",
+        "min": "1",
+        "max": "20",
+        "original_idx": 2,
+        "chance_str": "0",
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
+      },
+      {
         "type": "skilltab",
         "param": "0",
         "min": "1",
         "max": "3",
-        "original_idx": 5,
+        "original_idx": 1,
         "param_en": "Bow and Crossbow Skills (Amazon Only)",
         "param_ko": "활과 쇠뇌 기술 (아마존 전용)"
+      },
+      {
+        "type": "swing2",
+        "min": "0",
+        "max": "0",
+        "original_idx": 5,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Increased Attack Speed",
+        "desc_ko": "공격 속도"
       },
       {
         "type": "dmg%",
         "min": "0",
         "max": "0",
-        "original_idx": 3,
+        "original_idx": 6,
         "param": "",
         "param_en": "",
         "param_ko": "",
@@ -11084,10 +12778,43 @@
         "desc_ko": "피해 증가(%)"
       },
       {
+        "type": "dmg-min",
+        "min": "0",
+        "max": "0",
+        "original_idx": 7,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
+      },
+      {
+        "type": "dmg-max",
+        "min": "0",
+        "max": "0",
+        "original_idx": 8,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage",
+        "desc_ko": "최대 피해"
+      },
+      {
+        "type": "dmg/lvl",
+        "min": "0",
+        "max": "0",
+        "original_idx": 3,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Maximum Damage (Based on Character Level)",
+        "desc_ko": "최대 피해 (캐릭터 레벨 비례)"
+      },
+      {
         "type": "att",
         "min": "0",
         "max": "0",
-        "original_idx": 4,
+        "original_idx": 9,
         "param": "",
         "param_en": "",
         "param_ko": "",
@@ -11095,32 +12822,98 @@
         "desc_ko": "명중률"
       },
       {
-        "type": "ethereal",
+        "type": "att/lvl",
         "min": "0",
-        "max": "1",
-        "original_idx": 1,
+        "max": "0",
+        "original_idx": 4,
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "ethereal",
-        "desc_ko": "ethereal"
+        "desc_en": "Attack Rating (Based on Character Level)",
+        "desc_ko": "명중률 (캐릭터 레벨 비례)"
+      },
+      {
+        "type": "manasteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 11,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "lifesteal",
+        "min": "0",
+        "max": "0",
+        "original_idx": 10,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
+      },
+      {
+        "type": "str",
+        "min": "0",
+        "max": "30",
+        "original_idx": 12,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "dex",
+        "min": "0",
+        "max": "30",
+        "original_idx": 13,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Dexterity",
+        "desc_ko": "민첩"
+      },
+      {
+        "type": "hp",
+        "min": "0",
+        "max": "0",
+        "original_idx": 14,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana",
+        "min": "0",
+        "max": "0",
+        "original_idx": 15,
+        "param": "",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
       },
       {
         "type": "sock",
         "min": "0",
         "max": "5",
-        "original_idx": 2,
+        "original_idx": 16,
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Matriarchal Spear": {
-    "name_ko": "🔱 [아마존 전용 창] 메이트리어컬 스피어 (베이스)",
-    "name_en": "🔱 [Amazon Spears] Matriarchal Spear (Base)",
+    "name_ko": "🔱 [아마존 전용 창] 메이트리어컬 스피어",
+    "name_en": "🔱 [Amazon Spears] Matriarchal Spear",
     "item_type_en": "Amazon Spears",
     "item_type_ko": "아마존 전용 창",
     "base_stats": {
@@ -11192,14 +12985,14 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   },
   "Matriarchal Javelin": {
-    "name_ko": "🔱 [아마존 전용 투창] 메이트리어컬 재벌린 (베이스)",
-    "name_en": "🔱 [Amazon Javelins] Matriarchal Javelin (Base)",
+    "name_ko": "🔱 [아마존 전용 투창] 메이트리어컬 재벌린",
+    "name_en": "🔱 [Amazon Javelins] Matriarchal Javelin",
     "item_type_en": "Amazon Javelins",
     "item_type_ko": "아마존 전용 투창",
     "base_stats": {
@@ -11271,8 +13064,8 @@
         "param": "",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
+        "desc_en": "Sockets",
+        "desc_ko": "홈 있음"
       }
     ]
   }
