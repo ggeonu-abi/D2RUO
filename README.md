@@ -46,19 +46,22 @@
 ## <a id="getting-started-kr"></a>🚀 시작하기 (Quick Start)
 
 ### 1. 다운로드 및 준비
-1. 우측 **Releases** 메뉴에서 최신 버전의 **`.zip` 파일**을 다운로드 후 압축을 풉니다.
+1. [👉 최신 릴리즈 페이지(클릭)](https://github.com/ggeonu-abi/D2RUO/releases/latest/download/DUO_Setup.exe)로 이동하여 최신 버전의 **설치 파일**(`DUO_Setup.exe`)을 다운로드하여 실행합니다.
+   > 💡 **배포 방식 변경 안내:** 기존 압축 파일(`.zip`) 방식에서 발생하던 잦은 백신 오탐지(False Positive) 문제를 해결하기 위해 정식 설치형 배포로 변경되었습니다. 
+   > *(쉬운 설명: 기존 방식은 실행할 때마다 임시 폴더에 파일을 생성하는 구조라 백신이 의심하기 쉬웠습니다. 이제는 일반적인 프로그램처럼 정해진 경로에 정식으로 설치되므로 백신이 안전한 프로그램으로 인식할 확률이 크게 높아집니다.)*
+   * **기본 설치 경로:** `%LocalAppData%\Programs\D2R Utility Overlay` (폴더 주소창에 복사/붙여넣기 하시면 바로 이동됩니다)
 2. 원활한 데이터 수신을 위해 [d2tz.info 회원가입/로그인](https://www.d2tz.info/login) 후 **User Profile**에서 개인 **API Key(Token)** 를 복사합니다.
 
 > **💡 버전 업데이트 시 기존 설정 유지 방법**
 > * **자동 업데이트 (권장):** 프로그램 실행 시 최신 버전 알림이 뜨면 하단의 **`⚡ 자동 업데이트`** 버튼을 클릭하세요. 기존 설정(UI 위치, 폰트, 프로필 등)이 모두 유지된 채 안전하게 자동 설치 및 재실행됩니다.
-> * **수동 업데이트:** 깃허브에서 새 버전을 직접 다운로드할 경우, 기존에 쓰던 폴더에서 `d2_overlay_config.json`, `profiles` 폴더를 복사하여 새 버전 폴더에 덮어쓰기 하시면 됩니다.
+> * **수동 업데이트:** 깃허브에서 새 버전의 설치 파일(`.exe`)을 직접 다운로드해서 설치하신 경우, 기존 프로그램을 지울 필요 없이 그대로 설치를 진행하시면 기존 설정(`d2_overlay_config.json`, `profiles` 폴더 등)이 안전하게 유지됩니다. (만약의 경우에도 이 파일들을 백업하여 이용하시면 됩니다.)
 
 ![자동 업데이트 버튼 표시 화면](images/auto-update_kor.png)
 > 💡 새 버전이 감지되면 화면 상단에 **`⚡ 자동 업데이트`** 버튼이 나타납니다.
 
 ### 2. 실행 및 설정
 1. **디아블로 2: 레저렉션**을 실행합니다. (전체화면 모드 권장)
-2. `DUO.exe` 파일을 실행합니다. *(게임 클라이언트를 관리자 권한으로 실행했다면 이 프로그램도 관리자 권한으로 실행해야 합니다.)*
+2. 바탕화면이나 시작 메뉴에 생성된 **D2R Utility Overlay** 단축 아이콘을 실행합니다. *(게임 클라이언트를 관리자 권한으로 실행했다면 이 프로그램도 관리자 권한으로 실행해야 합니다.)*
 3. 단축키 **`Ctrl` + `Shift` + `S`** 를 누르거나 시스템 트레이(우측 하단 시계 옆) 아이콘을 우클릭하여 **`⚙️ 환경설정`** 창을 엽니다.
 4. 환경설정 창에 복사한 **API Key(Token)** 를 붙여넣고 언어, 폰트, 오버레이 위치 등 입맛에 맞게 세팅합니다.
 
@@ -93,13 +96,13 @@
 
 **2. 실시간 아이템 사전 검색**
 * **강력하고 유연한 다중 검색:** 영문/한글 공식 명칭은 물론, **베이스 아이템**, 룬워드에 들어가는 **조합 룬**, 유저들이 자주 쓰는 **별칭**(예: '샤코', '오심') 등을 **띄어쓰기로 자유롭게 조합하여 검색**할 수 있습니다. 예를 들어 검색창에 여러 단어를 띄어 적으면 해당 조건이 모두 포함된 아이템만 빠르게 압축하여 찾아줍니다.
-* **트레더리(Traderie) 완벽 연동 및 맞춤 즐겨찾기:** 버튼 한 번으로 선택한 아이템의 트레더리 시세 페이지를 엽니다. 변동 옵션 수치를 입력란에 적고 검색하면 해당 값이 트레더리 검색 조건으로 자동 적용됩니다. **또한, 이렇게 설정한 변동 옵션 수치를 '즐겨찾기'에 등록해두면 매번 옵션을 다시 입력할 필요 없이 즐겨찾기 탭에서 언제든 클릭 한 번으로 당시 설정된 옵션 그대로의 실시간 트레더리 시세를 빠르게 확인할 수 있습니다.** (버튼을 우클릭하여 선호하는 브라우저를 기본으로 고정 가능)
+* **트레더리(Traderie) 완벽 연동 및 맞춤 즐겨찾기:** 버튼 한 번으로 선택한 아이템의 트레더리 시세 페이지를 엽니다. 변동 옵션 수치를 입력란에 적고 검색하면 해당 값이 트레더리 검색 조건으로 자동 적용됩니다. **또한, 이렇게 설정한 변동 옵션 수치를 '즐겨찾기'에 등록해두면 매번 옵션을 다시 입력할 필요 없이 즐겨찾기 탭에서 언제든 클릭 한 번으로 당시 설정된 옵션 그대로의 실시간 트레더리 시세를 빠르게 확인할 수 있습니다.**
 * **고급 즐겨찾기 관리:** 즐겨찾기 목록에서 항목을 **우클릭하여 이름을 변경하거나 복제**할 수 있습니다. 또한, 이미 등록된 즐겨찾기의 옵션 수치를 변경한 후 하단의 **[💾 옵션 저장]** 버튼을 눌러 손쉽게 데이터를 업데이트할 수 있습니다.
 * **편의성:** 검색된 세부 옵션을 바로 클립보드에 복사할 수 있으며, 검색창이 포커스를 잃으면 자동으로 반투명해져 게임 플레이를 방해하지 않습니다.
 
 **3. 강력한 버프 오버레이**
 * **프로필 및 스킬 관리:** 캐릭터나 빌드별로 다수의 버프 프로필을 생성·복제할 수 있으며, 게임 화면 내 스킬 아이콘을 직접 캡처하여 쉽게 단축키와 지속시간을 등록할 수 있습니다.
-* **스마트 버프 초기화 무시:** 창을 닫기 위해 누른 단축키(예: ESC) 때문에 버프 타이머까지 함께 초기화되는 것을 방지합니다. 인벤토리나 파티창 단축키 등을 '초기화 키 무시할 직전 키'로 등록해두면, 창을 열고 닫을 때 원치 않는 버프 초기화가 일어나지 않아 더욱 쾌적하게 게임을 즐길 수 있습니다. (토글 방식의 단축키 연속 2회 입력 시 무시 상태 자동 해제 지원)
+* **스마트 버프 초기화 무시:** 창을 닫기 위해 누른 단축키(예: ESC) 때문에 버프 타이머까지 함께 초기화되는 것을 방지합니다. 인벤토리나 파티창 단축키 등을 '초기화 키 무시할 직전 키'로 등록해두면, 창을 열고 닫을 때 원치 않는 버프 초기화가 일어나지 않아 더욱 쾌적하게 게임을 즐길 수 있습니다.
 * **디테일한 시각 효과:** 아이콘 크기, 타이머 및 단축키 텍스트의 크기와 표시 위치, 시간 표시 형식(초 또는 분 단위)을 내 입맛에 맞게 자유롭게 커스텀할 수 있습니다.
 * **커스텀 알림음:** 기본 음원 외에 `sounds` 폴더에 원하는 파일(`.wav`, `.mp3`)을 넣어 스킬별로 개별 알림음과 볼륨, 깜빡임 경고 시작 시간을 지정할 수 있습니다.
 
@@ -116,13 +119,15 @@
 ---
 
 ## <a id="custom-tips-kr"></a>💡 커스텀 꿀팁 (Custom Tips)
-* **폰트 변경:** `fonts` 폴더 내에 폰트 파일을 넣으시면 환경설정에서 선택하여 적용할 수 있습니다.
-* **알림음 변경:** `sounds` 폴더에 원하는 음원 파일(`.wav`, `.mp3`)을 넣으시면 알림음 설정 시 선택하여 적용할 수 있습니다.
-* **프로필 복사 및 공유:** `profiles` 폴더 내에 직접 생성한 버프 프로필들이 저장됩니다. 게임 내에서도 프로필 복제 기능이 제공되지만, 이 폴더를 통째로 복사해서 다른 분들과 편하게 공유하거나 안전하게 백업하실 수 있습니다.
+* **폰트 변경:** 윈도우 폴더 주소창에 `%LocalAppData%\Programs\D2R Utility Overlay\fonts` 를 복사하여 붙여넣고 이동한 뒤 폰트 파일을 넣으시면 환경설정에서 선택하여 적용할 수 있습니다.
+* **알림음 변경:** 윈도우 폴더 주소창에 `%LocalAppData%\Programs\D2R Utility Overlay\sounds` 를 입력해 이동한 뒤 원하는 음원 파일(`.wav`, `.mp3`)을 넣으시면 알림음 설정 시 선택하여 적용할 수 있습니다.
+* **프로필 복사 및 공유:** 폴더 주소창에 `%LocalAppData%\Programs\D2R Utility Overlay\profiles` 를 입력하면 직접 생성한 버프 프로필들이 저장된 곳이 열립니다. 이 폴더를 통째로 복사해서 다른 분들과 편하게 공유하거나 안전하게 백업하실 수 있습니다.
 
 ---
 
 ## <a id="files-kr"></a>📂 파일 및 폴더 설명
+
+프로그램 설치 경로(`C:\Users\<사용자명>\AppData\Local\Programs\D2R Utility Overlay`) 내의 주요 파일 구조입니다.
 
 | 파일/폴더명 | 설명 |
 | :--- | :--- |
@@ -133,13 +138,13 @@
 | `profiles/` | 캡처한 버프 스킬 아이콘 및 설정(`skills.json`)이 저장되는 폴더 |
 | `sounds/` | 버프 종료 임박 시 사용할 사용자 지정 알림음 보관 폴더 |
 | `item/data/` | 아이템 사전 검색에 사용되는 데이터베이스 파일(`.json`, `.tsv`) 보관 폴더 |
-| `fonts/` | 폰트 폴더 (현재 배포 저작권 문제가 없는 폰트 파일만 추가되어 있습니다. 원하시는 폰트를 직접 추가해서 사용하세요.) |
+| `fonts/` | 폰트 폴더 (원하시는 폰트를 직접 추가해서 사용하세요.) |
 | `models/` | 아이템 자동인식에 필요한 모듈들이 저장되는 폴더 |
 
 ---
 
 > **⚖️ 오픈소스 라이선스 고지:**
-> * 본 프로그램은 LGPLv3 라이선스를 따르는 **PySide6**를 동적 링크하여 사용하고 있습니다. 단일 실행 파일(`.exe`) 배포 특성상 라이브러리 교체를 위한 재링크(Relink)를 원하시는 분은 하단의 연락처(이메일)로 요청해 주시면 빌드용 오브젝트 파일(Object File)을 제공해 드립니다.
+> * 본 프로그램은 LGPLv3 라이선스를 따르는 **PySide6**를 동적 링크하여 사용하고 있습니다. 
 > * 게임 화면 내 텍스트 인식(OCR)을 위해 Apache 2.0 라이선스를 따르는 **Tesseract OCR** 및 **pytesseract**를 사용하고 있습니다.
 
 ---
@@ -153,19 +158,18 @@
 * **Build:** Python 3.12 (PySide6)
 
 **🛡️ 백신 오탐지(False Positive) 대처 안내**
-이 프로그램은 게임 내 단축키 감지를 위해 `keyboard` 모듈을 사용합니다. 이로 인해 Windows Defender를 비롯한 일부 백신 프로그램이 이를 악성 코드로 오인하여 실행을 차단하거나 파일을 삭제할 수 있습니다. 
+이 프로그램은 게임 내 단축키 감지를 위해 `keyboard` 모듈을 사용합니다. 정식 설치형(`.exe`) 배포 방식을 도입하여 오탐지 확률을 크게 낮추었으나, 여전히 일부 백신 프로그램이 이를 악성 코드로 오인하여 실행을 차단할 수 있습니다. 
 *(쉬운 설명: 키보드 입력을 가로채는 기능은 해킹 프로그램들이 자주 쓰는 방식이라 백신이 일단 의심하고 차단하는 자연스러운 현상입니다.)*
 
 주로 다음과 같은 진단명으로 오탐지될 수 있습니다:
-* **Windows Defender:** `Program:Win32/Contebrew.A!ml` *(쉬운 설명: 진단명 끝의 '!ml'은 머신러닝(Machine Learning) 기반 탐지를 의미합니다. 명확한 악성코드라기보다는 프로그램의 작동 방식을 AI가 기계적으로 분석해 예방 차원에서 차단했을 확률이 높습니다.)*
-* **기타 백신 프로그램:** `Gen:Variant.Adware.Tedy.8867` 등
+* **Windows Defender:** `Program:Win32/Contebrew.A!ml` *(쉬운 설명: 진단명 끝의 '!ml'은 머신러닝 기반 탐지를 의미합니다. 프로그램의 작동 방식을 AI가 기계적으로 분석해 예방 차원에서 차단했을 확률이 높습니다.)*
 
 만약 실행이 차단되거나 프로그램 파일이 사라진다면 아래의 방법들을 적용해 보세요:
 
-1. **백신 검사 제외 대상 등록 (권장):** 압축을 푼 DUO 프로그램 폴더 전체를 백신의 '검사 제외 항목(예외 처리)'으로 등록해 주세요.
-2. **스마트 앱 컨트롤 해제:** Windows 11의 **스마트 앱 컨트롤(Smart App Control)** 기능이 켜져 있다면 이를 해제해야 정상적으로 실행 가능합니다.
-3. **신뢰할 수 있는 경로에서 실행:** 바탕화면이나 다운로드 폴더 대신, `C:\Users\사용자이름\AppData\Local` 또는 `C:\Program Files` 하위에 새 폴더를 만들고 그곳에 압축을 풀어 실행하시면 시스템 관리 폴더로 인식되어 오탐지 확률을 줄일 수 있습니다.
-4. **GitHub Star 누르기:** 배포 중인 GitHub 레포지토리에 별(Star) ⭐을 많이 눌러주시면, 프로그램의 사용자 신뢰도 지표가 높아져 장기적으로 스마트스크린 등의 오탐지를 줄이는 데 도움이 될 수 있습니다.
+1. **백신 검사 제외 대상 등록 (권장):** 프로그램 실행이 되지 않으실 경우, 기본 설치 경로인 `C:\Users\<사용자명>\AppData\Local\Programs\D2R Utility Overlay` 폴더 전체를 백신의 '검사 제외 항목(예외 처리)'으로 등록해 주세요.
+2. **설치 경로 유지:** 기본 경로인 `AppData\Local` 폴더는 윈도우 시스템이 일반적인 앱 데이터로 인지하는 안전한 구역이므로 오탐지 확률을 줄여줍니다. 경로를 임의로 변경하지 않는 것을 권장합니다.
+3. **스마트 앱 컨트롤 해제:** Windows 11의 **스마트 앱 컨트롤(Smart App Control)** 기능이 켜져 있다면 이를 해제해야 정상적으로 실행 가능합니다.
+4. **GitHub Star 누르기:** 배포 중인 GitHub 레포지토리에 별(Star) ⭐을 많이 눌러주시면, 프로그램의 사용자 신뢰도 지표가 높아져 장기적으로 스마트스크린 등의 오탐지를 줄이는 데 큰 도움이 됩니다.
 
 ---
 
@@ -238,19 +242,22 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ## <a id="getting-started-en"></a>🚀 Getting Started
 
 ### 1. Download & Preparation
-1. Click the latest version in the **Releases** section on the right and download the **`.zip` file**.
+1. Go to the [👉 Latest Release Page (Click)](https://github.com/ggeonu-abi/D2RUO/releases/latest/download/DUO_Setup.exe), download the **installer (`DUO_Setup.exe`)**, and run it.
+   > 💡 **Notice on Distribution Change:** To significantly reduce frequent antivirus false positives caused by the previous `.zip` extraction method, the app is now distributed as a standard installer. 
+   > *(Easy Explanation: The previous method extracted files silently to a temporary folder upon execution, which antiviruses often suspect as malware behavior. By properly installing the app to a standard directory, it is much more likely to be recognized as a safe and legitimate program.)*
+   * **Default Installation Path:** `%LocalAppData%\Programs\D2R Utility Overlay` (You can copy & paste this into your file explorer address bar)
 2. Sign up/Login to [d2tz.info](https://www.d2tz.info/login) and copy your **API Key (Token)** from the User Profile page.
 
 > **💡 How to keep your settings when updating:**
-> * **Auto-Update (Recommended):** Simply click the **`⚡ Auto-Update`** button on the overlay when a new version is detected. It will safely download and install the update while preserving all your custom settings and profiles.
-> * **Manual Update:** If you download the `.zip` file manually, copy and paste your old `d2_overlay_config.json` and `profiles` folder into the new version's folder.
+> * **Auto-Update (Recommended):** Simply click the **`⚡ Auto-Update`** button on the overlay when a new version is detected. It will safely download and install the update in the background while preserving all your custom settings and profiles.
+> * **Manual Update:** If you download the new `.exe` installer manually, simply run it. It will safely overwrite the files while preserving your old `d2_overlay_config.json` and `profiles`.
 
 ![Auto-Update button display screen](images/auto-update_eng.png)
 > 💡 When a new version is detected, the **`⚡ Auto-Update`** button appears at the top of the screen.
 
 ### 2. Run & Configure
 1. Run **Diablo 2: Resurrected**. (Fullscreen Mode recommended).
-2. Run `DUO.exe`. *(Run as administrator if your D2R client is also running as admin).*
+2. Run the **D2R Utility Overlay** shortcut created on your Desktop or Start Menu. *(Run as administrator if your D2R client is also running as admin).*
 3. Press **`Ctrl` + `Shift` + `S`** or right-click the system tray icon to open the **`⚙️ Settings`** window.
 4. Paste your **API Key (Token)** into the settings and customize layouts, hotkeys, and features.
 
@@ -283,53 +290,55 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 **2. In-game Item Search Dictionary**
 * **Powerful & Flexible Search Engine:** Search quickly and accurately by English/Korean names, **base items**, required runes, or well-known **aliases**. You can **use spaces to combine these keywords** to find exactly what you're looking for.
-* **Seamless Traderie Integration & Custom Favorites:** Click the button to instantly open the item's market value page in your browser. If you input values for variable options, those exact stats are automatically applied as search filters on Traderie. **Furthermore, you can save these customized variable stats to your 'Favorites'. This allows you to easily check the live Traderie market price for those exact custom stats anytime with a single click from the Favorites tab, saving you the hassle of re-entering values.**
-* **Advanced Favorites Management:** You can **right-click a favorite item to rename or duplicate it**. Also, you can modify the stats of an already registered favorite and click the **[💾 Save Opts]** button at the bottom to easily update the saved data.
-* **Ultimate Convenience:** Instantly copy item details to your clipboard. The search window automatically becomes semi-transparent when it loses focus so it won't block your game view.
+* **Seamless Traderie Integration & Custom Favorites:** Click the button to instantly open the item's market value page in your browser. Save customized variable stats to your 'Favorites' for quick live price checks.
+* **Advanced Favorites Management:** You can **right-click a favorite item to rename or duplicate it**. Also, you can modify the stats of an already registered favorite and click the **[💾 Save Opts]** button to update the data.
+* **Ultimate Convenience:** Instantly copy item details to your clipboard. The search window automatically becomes semi-transparent when it loses focus.
 
 **3. Powerful Buff Overlay**
-* **Profile & Skill Management:** Create, duplicate, and manage multiple buff profiles for different characters or builds. Register new skills effortlessly using the built-in screen capture tool to set hotkeys and durations.
-* **Smart Buff Clear Ignore:** Prevent accidental buff timer resets. By registering keys like your inventory or party window hotkeys as 'Ignore if Prev Key', pressing your clear hotkey (e.g., ESC) to close those windows will no longer unintentionally reset your active buffs. (Supports auto-cancellation on double key presses)
+* **Profile & Skill Management:** Create, duplicate, and manage multiple buff profiles. Register new skills effortlessly using the built-in screen capture tool.
+* **Smart Buff Clear Ignore:** Prevent accidental buff timer resets by registering keys like your inventory hotkey as 'Ignore if Prev Key'. 
 * **Highly Customizable UI:** Adjust icon sizes, timer and hotkey text sizes/positions, and time display formats (seconds or MM:SS) to suit your preferences.
-* **Custom Alerts:** Assign custom audio files (`.wav`, `.mp3`) placed in the `sounds` folder to individual skills, and configure specific volumes and flash alert thresholds.
+* **Custom Alerts:** Assign custom audio files (`.wav`, `.mp3`) to individual skills, and configure specific volumes and flash alert thresholds.
 
 **4. Speedrun Timer**
-* **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference (faster/slower) from the previous run using color-coded delta values.
-* **Real-time Statistics:** Provides a clean, fixed-size UI that displays your current elapsed time alongside detailed stats such as total runs, average clear time, and your best record.
+* **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference from the previous run.
+* **Real-time Statistics:** Provides a clean, fixed-size UI that displays your current elapsed time alongside runs, average clear time, and your best record.
 
 **5. UI & Convenience**
 * **Click-through:** Mouse clicks pass right through the overlay.
-* **Auto-Hide:** Automatically hides when switching to a browser or another app. Fully supports multi-client setups.
+* **Auto-Hide:** Automatically hides when switching to another app. Fully supports multi-client setups.
 * **Free Layout:** Drag and drop panels anywhere. Vertical modes are also supported.
-* **Auto-Update:** Notifies you of new versions with quick links to Release Notes and a 1-click update button.
+* **Auto-Update:** seamless background updates with a 1-click update button.
 
 ---
 
 ## <a id="custom-tips-en"></a>💡 Custom Tips
-* **Custom Fonts:** Place your font files inside the `fonts` folder, and they will be available for selection in the settings.
-* **Custom Alert Sounds:** Place your desired audio files (`.wav`, `.mp3`) inside the `sounds` folder to use them as custom alerts.
-* **Profile Sharing & Backup:** Custom buff profiles are saved in the `profiles` folder. While in-game duplication is supported, you can also copy this entire folder to easily back up your profiles or share them with others.
+* **Custom Fonts:** Copy and paste `%LocalAppData%\Programs\D2R Utility Overlay\fonts` into your file explorer address bar, place your font files inside, and they will be available for selection in the settings.
+* **Custom Alert Sounds:** Copy and paste `%LocalAppData%\Programs\D2R Utility Overlay\sounds` into your file explorer, and place your desired audio files inside to use them as custom alerts.
+* **Profile Sharing & Backup:** Copy and paste `%LocalAppData%\Programs\D2R Utility Overlay\profiles` to open the folder where your custom buff profiles are saved. You can copy this entire folder to easily back up your profiles or share them with others.
 
 ---
 
 ## <a id="files-en"></a>📂 File & Folder Descriptions
 
+Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\Local\Programs\D2R Utility Overlay`):
+
 | File / Folder | Description |
 | :--- | :--- |
 | `DUO.exe` | Main executable file. |
-| `act_map.json` | ⚠️ Essential TZ area level (Hell) and Act classification data (Do not delete). |
+| `act_map.json` | ⚠️ Essential TZ area level and Act data (Do not delete). |
 | `area.json` | ⚠️ Essential TZ translation data (Do not delete). |
-| `d2_overlay_config.json` | Auto-saved user preferences (UI, fonts, volume). |
+| `d2_overlay_config.json` | Auto-saved user preferences. |
 | `profiles/` | Folder containing your captured buff icons and `skills.json`. |
 | `sounds/` | Place your custom `.mp3` or `.wav` files here for buff alerts. |
-| `item/data/` | Database files (`.json`, `.tsv`) used for the item search dictionary. |
+| `item/data/` | Database files used for the item search dictionary. |
 | `fonts/` | Default built-in fonts. You can add your own font files here. |
 | `models/` | Folder where modules required for automatic item recognition are stored. |
 
 ---
 
 > **⚖️ Open Source License Notice:**
-> * This program dynamically links **PySide6**, which is licensed under LGPLv3. Due to the nature of single executable (`.exe`) distribution, if you wish to relink the library, please request the object files via the email provided below.
+> * This program dynamically links **PySide6**, which is licensed under LGPLv3. 
 > * This program uses **Tesseract OCR** and **pytesseract** for text recognition on the game screen, which are licensed under the Apache License 2.0.
 
 ---
@@ -342,19 +351,15 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * **Build:** Python 3.12 (PySide6)
 
 **🛡️ Security & False Positives (Antivirus Blocks/Deletions)**
-This program uses the `keyboard` module to detect your in-game hotkeys. Because keylogging-like behavior is common in malware, some antivirus software (like Windows Defender) may incorrectly flag and delete the file or block its execution. 
+This program uses the `keyboard` module to detect your in-game hotkeys. Although switching to a standard installer (`.exe`) distribution significantly reduces false positives, some antivirus software may still incorrectly flag and block its execution. 
 *(Easy Explanation: Intercepting keyboard input is a method frequently used by malicious programs, so it is a natural phenomenon for antivirus software to be suspicious and block it by default.)*
 
-You may encounter false positive detection names such as:
-* **Windows Defender:** `Program:Win32/Contebrew.A!ml` *(Easy Explanation: The '!ml' stands for Machine Learning. This means the antivirus AI flagged the file based on behavioral guessing rather than an exact virus signature match.)*
-* **Other Antivirus Software:** `Gen:Variant.Adware.Tedy.8867`, etc.
+If the program won't run or the shortcut does not work, please try the following steps:
 
-If the program won't run or the executable file is deleted automatically, please try the following steps:
-
-1. **Add to Exclusions (Recommended):** Add the extracted DUO folder to your antivirus **exclusion/exception list**.
-2. **Disable Smart App Control:** If you are using Windows 11, you may need to turn off **Smart App Control** if it blocks execution.
-3. **Run from a Trusted Directory:** Creating a folder and running the program from within `AppData/Local` or `Program Files` instead of your Desktop/Downloads folder can sometimes reduce the chances of false positives as they are standard system directories.
-4. **Star the GitHub Repo:** Leaving a Star ⭐ on this GitHub repository helps build the software's reputation metric over time, which may help reduce false positives from reputation-based filters like Windows SmartScreen.
+1. **Add to Exclusions (Recommended):** Add the installation folder (`C:\Users\<YourUsername>\AppData\Local\Programs\D2R Utility Overlay`) to your antivirus **exclusion/exception list**.
+2. **Keep the Default Path:** Installing the program in the default `AppData\Local` directory helps reduce false positives, as it is a standard system directory for application data. It is recommended not to change this path.
+3. **Disable Smart App Control:** If you are using Windows 11, you may need to turn off **Smart App Control** if it blocks execution.
+4. **Star the GitHub Repo:** Leaving a Star ⭐ on this GitHub repository helps build the software's reputation metric over time, which may help reduce false positives from reputation-based filters.
 
 ---
 
@@ -362,18 +367,14 @@ If the program won't run or the executable file is deleted automatically, please
 
 ### 💡 Bug Reports & Feature Requests (Feedback)
 If you encounter any **bugs** or have ideas for **new features**, please feel free to let me know using the methods below!
-* **GitHub Issues (Recommended):** Please leave a post on the [GitHub Issues page (Click)](https://github.com/ggeonu-abi/D2RUO/issues) for the fastest response and organized tracking.
-* **Email:** If you are not familiar with GitHub, you can always send an email to `miabohoja1@gmail.com`.
+* **GitHub Issues (Recommended):** Please leave a post on the [GitHub Issues page (Click)](https://github.com/ggeonu-abi/D2RUO/issues).
+* **Email:** You can always send an email to `miabohoja1@gmail.com`.
 
 ### ☕ Support (Donation)
 **This program is 100% free to use for everyone!**
 However, if you found this tool helpful for your gameplay and wish to support its ongoing development, you can optionally buy the developer a coffee. Your support is always greatly appreciated!
 
 * [👉 Buy me a coffee via PayPal (For non-Korean users)](https://paypal.me/haruyozzang/4)
-
-> Please scan the QR code below using your smartphone's camera!
-
-<img src="images/paypal.png" width="250" alt="Paypal QR Code">
 
 ---
 
