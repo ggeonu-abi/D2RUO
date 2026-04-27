@@ -78,7 +78,7 @@
 | | `Tab` | (검색창 내) 유니크 / 룬워드 탭 전환 |
 | | `↑` / `↓` | (검색창 내) 검색 결과 상하 이동 |
 | | `ESC` | 검색창 닫기 |
-| **아이템 자동 인식** | `Ctrl` + `R` | 아이템 자동 인식 영역 캡쳐 시작 |
+| **아이템 자동 인식** | `Ctrl` + `R` | 아이템 자동 인식 영역 캡쳐 시작(윈도우11 이용자 전용) |
 | **버프 타이머** | `PageUp` / `PageDown` | 버프 스킬 프로필 전환 |
 | | 사용자가 설정한 키 | 지정한 버프 타이머 실행 |
 | **스피드런 타이머** | `Home` | 타이머 시작 / 일시정지 |
@@ -272,7 +272,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | | `Tab` | (In Search) Toggle Unique / Runeword Tabs |
 | | `↑` / `↓` | (In Search) Navigate Search Results |
 | | `ESC` | Close Search Window |
-| **Item Recognition** | `Ctrl` + `R` | Start capturing automatic item recognition area |
+| **Item Recognition** | `Ctrl` + `R` | Start capturing automatic item recognition area (Windows 11 users only) |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
 | | User Defined Keys | Trigger Specific Buff Timer |
 | **Speedrun Timer** | `Home` | Start / Pause Timer |
