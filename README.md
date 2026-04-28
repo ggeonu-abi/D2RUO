@@ -96,6 +96,10 @@
 
 **2. 실시간 아이템 사전 검색**
 * **강력하고 유연한 다중 검색:** 영문/한글 공식 명칭은 물론, **베이스 아이템**, 룬워드에 들어가는 **조합 룬**, 유저들이 자주 쓰는 **별칭**(예: '샤코', '오심') 등을 **띄어쓰기로 자유롭게 조합하여 검색**할 수 있습니다. 예를 들어 검색창에 여러 단어를 띄어 적으면 해당 조건이 모두 포함된 아이템만 빠르게 압축하여 찾아줍니다.
+* **✨ 아이템 자동 인식 (OCR) 및 맞춤 설정:** 단축키를 이용해 게임 내 아이템의 변동 옵션 수치를 자동으로 읽어와 입력칸에 채워줍니다. 아이템 검색 창 하단에서 다음과 같은 추가 설정이 가능합니다.
+  * **단축키 변경 기능:** 기본 캡처 단축키를 사용자가 원하는 키 조합으로 즉시 변경할 수 있습니다.
+  * **변동옵션 입력 방식 선택:** 인식된 수치를 상황에 맞게 다양한 방식(min, max, min + max 및 비율 적용 등)으로 선택하여 자동 입력할 수 있습니다.
+  > *(쉬운 설명: 트레더리에 검색할 때 아이템 옵션 수치를 일일이 손으로 적을 필요 없이, 단축키 한 번이면 프로그램이 화면을 읽어 자동으로 입력해 주는 편리한 기능입니다. 최소값이나 최대값 중 원하는 것만 골라서 입력되도록 세밀하게 조정할 수도 있습니다.)*
 * **트레더리(Traderie) 완벽 연동 및 맞춤 즐겨찾기:** 버튼 한 번으로 선택한 아이템의 트레더리 시세 페이지를 엽니다. 변동 옵션 수치를 입력란에 적고 검색하면 해당 값이 트레더리 검색 조건으로 자동 적용됩니다. **또한, 이렇게 설정한 변동 옵션 수치를 '즐겨찾기'에 등록해두면 매번 옵션을 다시 입력할 필요 없이 즐겨찾기 탭에서 언제든 클릭 한 번으로 당시 설정된 옵션 그대로의 실시간 트레더리 시세를 빠르게 확인할 수 있습니다.**
 * **고급 즐겨찾기 관리:** 즐겨찾기 목록에서 항목을 **우클릭하여 이름을 변경하거나 복제**할 수 있습니다. 또한, 이미 등록된 즐겨찾기의 옵션 수치를 변경한 후 하단의 **[💾 옵션 저장]** 버튼을 눌러 손쉽게 데이터를 업데이트할 수 있습니다.
 * **편의성:** 검색된 세부 옵션을 바로 클립보드에 복사할 수 있으며, 검색창이 포커스를 잃으면 자동으로 반투명해져 게임 플레이를 방해하지 않습니다.
@@ -119,9 +123,10 @@
 ---
 
 ## <a id="custom-tips-kr"></a>💡 커스텀 꿀팁 (Custom Tips)
-* **폰트 변경:** 윈도우 폴더 주소창에 `%LocalAppData%\Programs\D2R Utility Overlay\fonts` 를 복사하여 붙여넣고 이동한 뒤 폰트 파일을 넣으시면 환경설정에서 선택하여 적용할 수 있습니다.
-* **알림음 변경:** 윈도우 폴더 주소창에 `%LocalAppData%\Programs\D2R Utility Overlay\sounds` 를 입력해 이동한 뒤 원하는 음원 파일(`.wav`, `.mp3`)을 넣으시면 알림음 설정 시 선택하여 적용할 수 있습니다.
-* **프로필 복사 및 공유:** 폴더 주소창에 `%LocalAppData%\Programs\D2R Utility Overlay\profiles` 를 입력하면 직접 생성한 버프 프로필들이 저장된 곳이 열립니다. 이 폴더를 통째로 복사해서 다른 분들과 편하게 공유하거나 안전하게 백업하실 수 있습니다.
+* **설치 폴더 열기:** 시스템 트레이(우측 하단 시계 옆)의 DUO 아이콘을 우클릭하여 `📂 설치 폴더 열기`를 클릭하면 프로그램이 설치된 폴더로 즉시 이동할 수 있습니다. 아래의 커스텀 작업 시 이 기능을 적극 활용하세요!
+* **폰트 변경:** 설치 폴더를 연 뒤, `fonts` 폴더 안에 폰트 파일을 넣으시면 환경설정에서 선택하여 적용할 수 있습니다.
+* **알림음 변경:** 설치 폴더 내의 `sounds` 폴더에 원하는 음원 파일(`.wav`, `.mp3`)을 넣으시면 알림음 설정 시 선택하여 적용할 수 있습니다.
+* **프로필 복사 및 공유:** 설치 폴더 내의 `profiles` 폴더를 통째로 복사하면 직접 생성한 버프 프로필을 다른 분들과 편하게 공유하거나 안전하게 백업하실 수 있습니다.
 
 ---
 
@@ -290,6 +295,10 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 **2. In-game Item Search Dictionary**
 * **Powerful & Flexible Search Engine:** Search quickly and accurately by English/Korean names, **base items**, required runes, or well-known **aliases**. You can **use spaces to combine these keywords** to find exactly what you're looking for.
+* **✨ Auto Recognition (OCR) & Custom Settings:** Use a hotkey to automatically scan and fill in the variable stats of in-game items. You can configure the following additional settings at the bottom of the item search window:
+  * **Hotkey Change:** Easily change the default capture hotkey to any key combination you prefer.
+  * **Stat Fill Mode Selection:** Choose exactly how the scanned numbers are applied (min only, max only, min + max, and even percentage adjustments).
+  > *(Easy Explanation: You no longer need to manually type item stats. Just press the hotkey, and the program will read the screen to automatically fill in the values for your Traderie search. You can also fine-tune it to input only minimum or maximum values as needed.)*
 * **Seamless Traderie Integration & Custom Favorites:** Click the button to instantly open the item's market value page in your browser. Save customized variable stats to your 'Favorites' for quick live price checks.
 * **Advanced Favorites Management:** You can **right-click a favorite item to rename or duplicate it**. Also, you can modify the stats of an already registered favorite and click the **[💾 Save Opts]** button to update the data.
 * **Ultimate Convenience:** Instantly copy item details to your clipboard. The search window automatically becomes semi-transparent when it loses focus.
@@ -313,9 +322,10 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ---
 
 ## <a id="custom-tips-en"></a>💡 Custom Tips
-* **Custom Fonts:** Copy and paste `%LocalAppData%\Programs\D2R Utility Overlay\fonts` into your file explorer address bar, place your font files inside, and they will be available for selection in the settings.
-* **Custom Alert Sounds:** Copy and paste `%LocalAppData%\Programs\D2R Utility Overlay\sounds` into your file explorer, and place your desired audio files inside to use them as custom alerts.
-* **Profile Sharing & Backup:** Copy and paste `%LocalAppData%\Programs\D2R Utility Overlay\profiles` to open the folder where your custom buff profiles are saved. You can copy this entire folder to easily back up your profiles or share them with others.
+* **Open Install Folder:** Right-click the DUO icon in the system tray (bottom right) and select **`📂 Open Install Folder`** to instantly access the directory. Use this convenient feature for the customizations below!
+* **Custom Fonts:** Place your font files inside the `fonts` folder located in the install folder, and they will be available for selection in the settings.
+* **Custom Alert Sounds:** Place your desired audio files (`.wav`, `.mp3`) inside the `sounds` folder to use them as custom alerts.
+* **Profile Sharing & Backup:** Copy the `profiles` folder within the install directory to easily back up your custom buff profiles or share them with others.
 
 ---
 
@@ -375,6 +385,8 @@ If you encounter any **bugs** or have ideas for **new features**, please feel fr
 However, if you found this tool helpful for your gameplay and wish to support its ongoing development, you can optionally buy the developer a coffee. Your support is always greatly appreciated!
 
 * [👉 Buy me a coffee via PayPal (For non-Korean users)](https://paypal.me/haruyozzang/4)
+
+<img src="images/paypal.png" width="250" alt="paypal QR code">
 
 ---
 
