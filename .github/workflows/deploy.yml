@@ -19,6 +19,9 @@ jobs:
         uses: actions/checkout@v4
       - name: Install, build, and upload your site
         uses: withastro/action@v3
+        with:
+          package-manager: npm  # 👈 이 줄을 추가하여 npm을 사용한다고 알려줍니다.
+          path: ./d2ruo-docs
 
   deploy:
     needs: build
