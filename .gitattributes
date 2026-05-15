@@ -1,0 +1,5 @@
+# 릴리즈 압축 파일(.zip, .tar.gz) 생성 시 제외할 항목들
+d2ruo-docs/  export-ignore
+.github/     export-ignore
+.nojekyll    export-ignore
+.gitignore   export-ignore
