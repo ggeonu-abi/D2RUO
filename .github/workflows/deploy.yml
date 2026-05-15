@@ -20,7 +20,8 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         with:
-          package-manager: npm  # 👈 이 줄을 추가하여 npm을 사용한다고 알려줍니다.
+          package-manager: npm
+          node-version: 22
           path: ./d2ruo-docs
 
   deploy:
