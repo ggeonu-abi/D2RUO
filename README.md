@@ -196,6 +196,18 @@
 
 ---
 
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+  <span style="margin-right: 6px;"><a href="https://lifemoneyhub.com">D2RUO</a> © 2026 by <a href="https://lifemoneyhub.com">Vellen</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></span>
+  <div style="display:flex; align-items:center; gap:2px; line-height:0;">
+   <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="height: 1.2em; margin:0; display:block;">
+   <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="height: 1.2em; margin:0; display:block;">
+   <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="height: 1.2em; margin:0; display:block;">
+   <img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="height: 1.2em; margin:0; display:block;">
+  </div>
+</div>
+
+**Credits:** Data provided by [D2TZ.info](https://www.d2tz.info/)
+
 <br><br><br>
 
 ---
@@ -390,10 +402,14 @@ However, if you found this tool helpful for your gameplay and wish to support it
 
 ---
 
-<a href="https://lifemoneyhub.com">D2RUO</a> © 2026 by <a href="https://lifemoneyhub.com">Vellen</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
-<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
-<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
-<img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
-<img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+  <span style="margin-right: 6px;"><a href="https://lifemoneyhub.com">D2RUO</a> © 2026 by <a href="https://lifemoneyhub.com">Vellen</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></span>
+  <div style="display:flex; align-items:center; gap:2px; line-height:0;">
+   <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="height: 1.2em; margin:0; display:block;">
+   <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="height: 1.2em; margin:0; display:block;">
+   <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="height: 1.2em; margin:0; display:block;">
+   <img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="height: 1.2em; margin:0; display:block;">
+  </div>
+</div>
 
 **Credits:** Data provided by [D2TZ.info](https://www.d2tz.info/)
