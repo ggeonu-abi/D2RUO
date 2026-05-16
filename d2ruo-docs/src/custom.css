@@ -1,3 +1,10 @@
 /* 현재 선택된 브라우저 언어(lang)에 따라 반대쪽 언어의 왼쪽 메뉴(TOC)를 완전히 숨김 */
 html[lang="en"] .ko-menu { display: none !important; }
 html[lang="ko"] .en-menu { display: none !important; }
+
+/* 하위 메뉴(H3) 들여쓰기 시각적 보정 */
+.h3-item { 
+  opacity: 0.85; 
+  font-size: 0.9em !important; 
+  padding-left: 1.5rem !important; 
+}
