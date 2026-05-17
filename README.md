@@ -78,7 +78,8 @@
 | | `Tab` | (검색창 내) 유니크 / 룬워드 탭 전환 |
 | | `↑` / `↓` | (검색창 내) 검색 결과 상하 이동 |
 | | `ESC` | 검색창 닫기 |
-| **아이템 자동 인식** | `Ctrl` + `R` | 아이템 자동 인식 영역 캡쳐 시작(윈도우11 이용자 전용) |
+| **아이템 자동 인식** | `Ctrl` + `R` | 영역 드래그 수동 캡처 |
+| | `Ctrl` + `T` | ⚡ 아이템 툴팁 자동 박스 인식 |
 | **버프 타이머** | `PageUp` / `PageDown` | 버프 스킬 프로필 전환 |
 | | 사용자가 설정한 키 | 지정한 버프 타이머 실행 |
 | **스피드런 타이머** | `Home` | 타이머 시작 / 일시정지 |
@@ -96,7 +97,9 @@
 
 **2. 실시간 아이템 사전 검색**
 * **강력하고 유연한 다중 검색:** 영문/한글 공식 명칭은 물론, **베이스 아이템**, 룬워드에 들어가는 **조합 룬**, 유저들이 자주 쓰는 **별칭**(예: '샤코', '오심') 등을 **띄어쓰기로 자유롭게 조합하여 검색**할 수 있습니다. 예를 들어 검색창에 여러 단어를 띄어 적으면 해당 조건이 모두 포함된 아이템만 빠르게 압축하여 찾아줍니다.
-* **✨ 아이템 자동 인식 (OCR) 및 맞춤 설정:** 단축키를 이용해 게임 내 아이템의 변동 옵션 수치를 자동으로 읽어와 입력칸에 채워줍니다. 아이템 검색 창 하단에서 다음과 같은 추가 설정이 가능합니다.
+* **✨ 아이템 자동 인식 (OCR) 및 맞춤 설정:** 두 가지 스캔 방식을 지원하여 게임 내 아이템의 변동 옵션 수치를 자동으로 읽어와 입력칸에 채워줍니다. 아이템 검색 창 하단에서 다음과 같은 추가 설정이 가능합니다.(윈도우11 전용)
+  * **영역 드래그 인식:** 단축키(기본 `Ctrl` + `R`)로 원하는 영역을 직접 드래그하여 인식합니다.
+  * **자동 박스 인식:** 단축키(기본 `Ctrl` + `T`)로 화면 내 툴팁 상자를 자동으로 탐지하여 인식합니다.
   * **단축키 변경 기능:** 기본 캡처 단축키를 사용자가 원하는 키 조합으로 즉시 변경할 수 있습니다.
   * **변동옵션 입력 방식 선택:** 인식된 수치를 상황에 맞게 다양한 방식(min, max, min + max 및 비율 적용 등)으로 선택하여 자동 입력할 수 있습니다.
   > *(쉬운 설명: 트레더리에 검색할 때 아이템 옵션 수치를 일일이 손으로 적을 필요 없이, 단축키 한 번이면 프로그램이 화면을 읽어 자동으로 입력해 주는 편리한 기능입니다. 최소값이나 최대값 중 원하는 것만 골라서 입력되도록 세밀하게 조정할 수도 있습니다.)*
@@ -289,7 +292,8 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | | `Tab` | (In Search) Toggle Unique / Runeword Tabs |
 | | `↑` / `↓` | (In Search) Navigate Search Results |
 | | `ESC` | Close Search Window |
-| **Item Recognition** | `Ctrl` + `R` | Start capturing automatic item recognition area (Windows 11 users only) |
+| **Item Recognition** | `Ctrl` + `R` | Drag scan item area manually |
+| | `Ctrl` + `T` | ⚡ Auto-detect item tooltip box |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
 | | User Defined Keys | Trigger Specific Buff Timer |
 | **Speedrun Timer** | `Home` | Start / Pause Timer |
@@ -307,8 +311,10 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 **2. In-game Item Search Dictionary**
 * **Powerful & Flexible Search Engine:** Search quickly and accurately by English/Korean names, **base items**, required runes, or well-known **aliases**. You can **use spaces to combine these keywords** to find exactly what you're looking for.
-* **✨ Auto Recognition (OCR) & Custom Settings:** Use a hotkey to automatically scan and fill in the variable stats of in-game items. You can configure the following additional settings at the bottom of the item search window:
-  * **Hotkey Change:** Easily change the default capture hotkey to any key combination you prefer.
+* **✨ Auto Recognition (OCR) & Custom Settings:** Supports two scanning methods to automatically scan and fill in the variable stats of in-game items. (Windows 11 only) You can configure the following additional settings at the bottom of the item search window:
+  * **Drag Scan:** Use a hotkey (default `Ctrl` + `R`) to manually select an area.
+  * **Auto Box Scan:** Use a hotkey (default `Ctrl` + `T`) to auto-detect the item tooltip box.
+  * **Hotkey Change:** Easily change the default capture hotkeys to any key combinations you prefer.
   * **Stat Fill Mode Selection:** Choose exactly how the scanned numbers are applied (min only, max only, min + max, and even percentage adjustments).
   > *(Easy Explanation: You no longer need to manually type item stats. Just press the hotkey, and the program will read the screen to automatically fill in the values for your Traderie search. You can also fine-tune it to input only minimum or maximum values as needed.)*
 * **Seamless Traderie Integration & Custom Favorites:** Click the button to instantly open the item's market value page in your browser. Save customized variable stats to your 'Favorites' for quick live price checks.
