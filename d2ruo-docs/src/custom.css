@@ -8,3 +8,25 @@ html[lang="ko"] .en-menu { display: none !important; }
   font-size: 0.9em !important; 
   padding-left: 1.5rem !important; 
 }
+
+/* 📱 모바일 화면(50rem 이하) 상단 헤더 우측 메뉴(언어/테마) 강제 표시 */
+@media (max-width: 50rem) {
+  /* 상단 헤더 영역(.right-group)을 숨기지 않고 다시 나타나게 함 */
+  .right-group {
+    display: flex !important;
+    align-items: center;
+  }
+  
+  /* 공간 확보를 위해 타이틀(D2RUO) 텍스트 크기와 줄바꿈 방지 설정 */
+  .site-title {
+    font-size: 1.1rem !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* 사이드바 하단 메뉴 안에 중복으로 생성되는 기본 언어/테마 버튼 숨김 */
+  .mobile-preferences {
+    display: none !important;
+  }
+}
