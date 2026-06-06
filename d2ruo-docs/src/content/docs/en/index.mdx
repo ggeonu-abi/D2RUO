@@ -166,6 +166,19 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 * **Game:** Diablo 2: Resurrected (Recommended: Fullscreen Mode)
 * **Build:** Python 3.12 (PySide6)
 
+**🌐 Microsoft Edge "is not commonly downloaded" Warning**
+If Microsoft Edge or Windows SmartScreen blocks the download, it is simply because the file is newly released and has not yet built up a download reputation history with Microsoft. It is safe to bypass.
+1. Open the Edge download list (`Ctrl` + `J`).
+2. Click the **three dots (...)** next to the blocked file and select **[Keep]**.
+3. In the pop-up warning, click **[Show more]** and then select **[Keep anyway]** to complete the download.
+*(Easy Explanation: This is a preventative warning triggered because the software is from an independent developer. The file is safe, so you can confidently click 'Keep anyway' to proceed.)*
+
+**🖥️ For OLED / HDR Users (Tooltip Auto-Detection Issues)**
+If you are playing on a high-resolution OLED/HDR monitor and the automatic item detection consistently fails, it might be due to Windows HDR screen capture distortion making the item tooltip background too transparent for the OCR to read. 
+
+As a potential workaround, try going to your **D2R In-game Settings -> Game Play -> Accessibility -> and enable "Large Font Mode"**. This setting may increase the tooltip's background opacity, which could significantly improve the text recognition contrast. While this has proven helpful for some users, please note that results may vary depending on your specific display configuration.
+*(Easy Explanation: Due to how HDR rendering works, captured screenshots can sometimes make the item description background too see-through, blending the text into the game world. Enabling Large Font Mode thickens and darkens the background, making it much easier for the program to scan the text clearly.)*
+
 **🛡️ Security & False Positives (Antivirus Blocks/Deletions)**
 This program uses the `keyboard` module to detect your in-game hotkeys. Although switching to a standard installer (`.exe`) distribution significantly reduces false positives, some antivirus software may still incorrectly flag and block its execution. 
 *(Easy Explanation: Intercepting keyboard input is a method frequently used by malicious programs, so it is a natural phenomenon for antivirus software to be suspicious and block it by default.)*

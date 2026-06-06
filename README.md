@@ -165,6 +165,19 @@
 * **Game:** 디아블로 2: 레저렉션 (주로 전체화면 모드에서 테스트하며 창모드도 병행. 권장: 전체화면 모드)
 * **Build:** Python 3.12 (PySide6)
 
+**🌐 마이크로소프트 엣지(Edge) "일반적으로 다운로드되지 않습니다" 경고 대처**
+엣지 브라우저나 윈도우 스마트스크린에서 다운로드를 차단하는 것은 악성코드라서가 아니라, 출시 초기라 다운로드 유저 수가 적어 안전 평판 데이터가 아직 쌓이지 않았기 때문입니다. 안심하고 아래 순서대로 유지해 주세요.
+1. 엣지 다운로드 목록(`Ctrl` + `J`)을 엽니다.
+2. 다운로드된 파일 항목의 우측 **점 세 개(...)** 버튼을 눌러 **[유지]** 를 선택합니다.
+3. 추가 안내 창이 뜨면 **[더 보기]** 를 클릭한 후, **[그래도 계속]** 을 누르면 정상적으로 설치 파일이 받아집니다.
+*(쉬운 설명: 대기업 프로그램이 아니면 브라우저가 예방 차원에서 경고를 띄우는 자연스러운 현상입니다. 위험한 파일이 아니니 안심하고 다운로드를 계속 진행하시면 됩니다.)*
+
+**🖥️ OLED / HDR 사용자 안내 (툴팁 자동 인식 오류 관련)**
+고해상도 OLED 또는 HDR 모니터를 사용하는 환경에서 아이템 자동 인식 기능이 지속적으로 실패하는 경우, 윈도우 HDR 화면 캡처 시 발생하는 왜곡으로 인해 아이템 툴팁 배경이 너무 투명해져서 OCR(문자 인식) 프로그램이 이를 읽지 못하는 문제일 수 있습니다.
+
+이를 해결하기 위한 한 가지 방법으로, 디아블로 2 레저렉션 게임 내 설정인 **[게임플레이] -> [손쉬운 사용] -> [큰 글자 모드]를 활성화**해 보세요. 이 설정을 켜면 툴팁 배경의 불투명도가 높아져 문자 인식률을 높이는 데 필요한 대비(Contrast)가 크게 개선될 수 있습니다. 일부 사용자 환경에서 효과가 있는 것으로 확인되었으나, 디스플레이 설정 및 사양에 따라 결과는 달라질 수 있습니다.
+*(쉬운 설명: HDR 모니터 특성상 화면을 캡처할 때 배경이 너무 투명해지면, 프로그램이 글자와 배경을 구별하기 힘들어집니다. 게임 안에서 큰 글꼴 모드를 켜면 글자 배경이 더 어두워지고 선명해져서 프로그램이 글씨를 훨씬 잘 읽을 수 있게 됩니다.)*
+
 **🛡️ 백신 오탐지(False Positive) 대처 안내**
 이 프로그램은 게임 내 단축키 감지를 위해 `keyboard` 모듈을 사용합니다. 정식 설치형(`.exe`) 배포 방식을 도입하여 오탐지 확률을 크게 낮추었으나, 여전히 일부 백신 프로그램이 이를 악성 코드로 오인하여 실행을 차단할 수 있습니다. 
 *(쉬운 설명: 키보드 입력을 가로채는 기능은 해킹 프로그램들이 자주 쓰는 방식이라 백신이 일단 의심하고 차단하는 자연스러운 현상입니다.)*
@@ -377,6 +390,19 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 * **Display:** 2560x1440 (QHD)
 * **Game:** Diablo 2: Resurrected (Recommended: Fullscreen Mode)
 * **Build:** Python 3.12 (PySide6)
+
+**🌐 Microsoft Edge "is not commonly downloaded" Warning**
+If Microsoft Edge or Windows SmartScreen blocks the download, it is simply because the file is newly released and has not yet built up a download reputation history with Microsoft. It is safe to bypass.
+1. Open the Edge download list (`Ctrl` + `J`).
+2. Click the **three dots (...)** next to the blocked file and select **[Keep]**.
+3. In the pop-up warning, click **[Show more]** and then select **[Keep anyway]** to complete the download.
+*(Easy Explanation: This is a preventative warning triggered because the software is from an independent developer. The file is safe, so you can confidently click 'Keep anyway' to proceed.)*
+
+**🖥️ For OLED / HDR Users (Tooltip Auto-Detection Issues)**
+If you are playing on a high-resolution OLED/HDR monitor and the automatic item detection consistently fails, it might be due to Windows HDR screen capture distortion making the item tooltip background too transparent for the OCR to read. 
+
+As a potential workaround, try going to your **D2R In-game Settings -> Game Play -> Accessibility -> and enable "Large Font Mode"**. This setting may increase the tooltip's background opacity, which could significantly improve the text recognition contrast. While this has proven helpful for some users, please note that results may vary depending on your specific display configuration.
+*(Easy Explanation: Due to how HDR rendering works, captured screenshots can sometimes make the item description background too see-through, blending the text into the game world. Enabling Large Font Mode thickens and darkens the background, making it much easier for the program to scan the text clearly.)*
 
 **🛡️ Security & False Positives (Antivirus Blocks/Deletions)**
 This program uses the `keyboard` module to detect your in-game hotkeys. Although switching to a standard installer (`.exe`) distribution significantly reduces false positives, some antivirus software may still incorrectly flag and block its execution. 
