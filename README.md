@@ -109,6 +109,7 @@
 
 **3. 강력한 버프 오버레이**
 * **프로필 및 스킬 관리:** 캐릭터나 빌드별로 다수의 버프 프로필을 생성·복제할 수 있으며, 게임 화면 내 스킬 아이콘을 직접 캡처하여 쉽게 단축키와 지속시간을 등록할 수 있습니다.
+* **게임 퇴장 시 자동 초기화:** 기존의 단축키(예: ESC)를 통한 수동 초기화 방식에 더해, 게임 진입 및 퇴장을 자동으로 인식하여 버프 타이머를 초기화하는 기능이 추가되었습니다. 환경설정에서 활성화할 수 있으며, 기존 단축키 방식도 그대로 사용 가능하므로 자동 인식이 원활하지 않을 때 유용하게 병용할 수 있습니다.
 * **스마트 버프 초기화 무시:** 창을 닫기 위해 누른 단축키(예: ESC) 때문에 버프 타이머까지 함께 초기화되는 것을 방지합니다. 인벤토리나 파티창 단축키 등을 '초기화 키 무시할 직전 키'로 등록해두면, 창을 열고 닫을 때 원치 않는 버프 초기화가 일어나지 않아 더욱 쾌적하게 게임을 즐길 수 있습니다.
 * **디테일한 시각 효과:** 아이콘 크기, 타이머 및 단축키 텍스트의 크기와 표시 위치, 시간 표시 형식(초 또는 분 단위)을 내 입맛에 맞게 자유롭게 커스텀할 수 있습니다.
 * **커스텀 알림음:** 기본 음원 외에 `sounds` 폴더에 원하는 파일(`.wav`, `.mp3`)을 넣어 스킬별로 개별 알림음과 볼륨, 깜빡임 경고 시작 시간을 지정할 수 있습니다.
@@ -120,8 +121,9 @@
 **5. 완벽한 게임 통합 & UI 편의성**
 * **클릭 관통 (Click-through):** 오버레이가 마우스 클릭을 방해하지 않습니다.
 * **자동 숨김 & 창 모드 지원:** 게임 창이 활성화되었을 때만 표출되며, 멀티 로더 환경도 완벽하게 지원합니다.
+* **아이템 표시 여부 스마트 알림:** 게임 내 '아이템 표시 전환(토글)' 옵션 사용 시, 방에 진입한 후 깜빡하고 옵션을 켜지 않는 상황을 방지해 줍니다. (특히 전리품 필터를 사용할 때 헷갈리기 쉽습니다.) 방 입장 후 아이템 표시 기능이 활성화되지 않았다면 화면 상단에 알림 메시지를 띄워줍니다. (환경설정에서 아이템 표시 단축키를 등록해야 정상 작동합니다.)
 * **자유로운 레이아웃:** 드래그 앤 드롭으로 패널 위치를 조정할 수 있고 세로 배치 모드도 지원합니다.
-* **자동 업데이트:** 최신 버전 감지 시 UI 하단에 릴리즈 노트 확인 및 자동 업데이트 버튼이 나타납니다.
+* **자동 업데이트:** 최신 버전 감지 시 UI 상단에 릴리즈 노트 확인 및 자동 업데이트 버튼이 나타납니다.
 
 ---
 
@@ -336,6 +338,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 **3. Powerful Buff Overlay**
 * **Profile & Skill Management:** Create, duplicate, and manage multiple buff profiles. Register new skills effortlessly using the built-in screen capture tool.
+* **Auto-Reset on Game Exit:** In addition to the traditional hotkey (e.g., ESC) reset method, the overlay can now automatically detect when you enter or leave a game to reset your buff timers. This can be enabled in settings. The traditional hotkey reset still works seamlessly and can be used as a reliable fallback.
 * **Smart Buff Clear Ignore:** Prevent accidental buff timer resets by registering keys like your inventory hotkey as 'Ignore if Prev Key'. 
 * **Highly Customizable UI:** Adjust icon sizes, timer and hotkey text sizes/positions, and time display formats (seconds or MM:SS) to suit your preferences.
 * **Custom Alerts:** Assign custom audio files (`.wav`, `.mp3`) to individual skills, and configure specific volumes and flash alert thresholds.
@@ -347,6 +350,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 **5. UI & Convenience**
 * **Click-through:** Mouse clicks pass right through the overlay.
 * **Auto-Hide:** Automatically hides when switching to another app. Fully supports multi-client setups.
+* **Smart Item Display Reminder:** If you use the 'Toggle Item Display' option in-game, you might sometimes forget if it's turned on (especially when using loot filters). If you haven't activated the item display after entering a new game, a helpful reminder message will appear at the top of the screen. (Requires registering your item display hotkey in the settings to function properly).
 * **Free Layout:** Drag and drop panels anywhere. Vertical modes are also supported.
 * **Auto-Update:** seamless background updates with a 1-click update button.
 
