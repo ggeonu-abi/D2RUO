@@ -5,7 +5,7 @@
 
 디아블로 2: 레저렉션 플레이를 더욱 쾌적하게 만들어주는 **다기능 유틸리티 오버레이(DUO)** 프로그램입니다. 기존의 **다음 공역(Terror Zone)** 및 **우버디아(Diablo Clone)** 실시간 추적 기능은 물론, 사용자 맞춤형 **버프 스킬 타이머** 및 **실시간 아이템 사전 검색** 등 게임에 유용한 다양한 편의 기능들을 화면 위에 실시간으로 제공합니다.
 
-> **📢 알림:** 기능이 많아지면서 하나하나 테스트하는 데 시간이 많이 소요되고 있습니다. (예: 테러존 API 갱신 테스트 시 최소 30분 대기 등) 따라서 일부 버그나 미흡한 점이 있더라도 너그럽게 양해 부탁드립니다. 저 또한 게임 플레이 시 이 프로그램을 항상 사용하고 있으므로, 오류를 발견하는 대로 최대한 빠르게 수정하여 업데이트하겠습니다! [👉 개발자에게 피드백 및 도움 주러 가기](#support-kr)
+> **⚠️ 사용 주의 및 면책 조항 (Disclaimer):** 본 프로그램(DUO)은 게임의 메모리를 변조하지 않는 화면 캡처(OCR) 기반의 외부 오버레이입니다. 그러나 블리자드 이용약관(EULA)에 명시된 '게임 플레이를 돕거나 자동화하는 인가되지 않은 제3자 외부 프로그램'으로 간주될 여지가 있습니다. 본 프로그램 사용으로 인해 발생하는 **계정 정지 등 모든 불이익에 대한 책임은 전적으로 사용자 본인**에게 있습니다. 위험성을 충분히 인지하시고 동의하시는 분만 사용해 주시기 바랍니다.
 
 ---
 
@@ -237,7 +237,7 @@
 
 A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance your Diablo 2: Resurrected gameplay. In addition to real-time tracking for the upcoming **Terror Zone** and **Diablo Clone** progression across servers, it provides various quality-of-life utilities, such as a highly customizable **Buff Skill Timer** and an **In-game Item Search Dictionary**, directly on your game screen.
 
-> **📢 Notice:** As the number of features continues to grow, testing each one takes a considerable amount of time. Therefore, please be understanding if you encounter any minor bugs. Since I also actively use this program for my own gameplay, I will make sure to fix any discovered errors as quickly as possible! [👉 Go to Feedback & Support](#support-en)
+> **⚠️ Disclaimer & Terms of Use:** DUO is an external overlay based on screen capture (OCR) that does not modify the game's memory. However, it may be considered an 'unauthorized third-party program that facilitates or automates gameplay' under Blizzard's End User License Agreement (EULA). **The user assumes all responsibility and risk** for any consequences, including account suspension, that may arise from using this program. Please use it at your own risk.
 
 ---
 
