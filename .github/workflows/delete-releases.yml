@@ -1,0 +1,20 @@
+name: 오래된 릴리즈 자동 삭제
+
+on:
+  schedule:
+    # 매일 자정(UTC 기준)에 자동 실행되도록 설정
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 깃허브 웹사이트에서 수동으로 실행할 수 있는 버튼 활성화
+
+jobs:
+  delete-older-releases:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete older releases
+        # 마켓플레이스의 릴리즈 삭제 자동화 액션 사용
+        uses: dev-drprasad/delete-older-releases@v0.3.4
+        with:
+          keep_latest: 50 # 최신 50개의 릴리즈만 유지 (0을 입력하면 모두 삭제)
+          delete_tags: true # 릴리즈와 연결된 태그도 함께 삭제
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
