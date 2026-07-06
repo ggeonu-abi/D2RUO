@@ -6,6 +6,9 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch: # 깃허브 웹사이트에서 수동으로 실행할 수 있는 버튼 활성화
 
+permissions:
+  contents: write
+
 jobs:
   delete-older-releases:
     runs-on: ubuntu-latest
