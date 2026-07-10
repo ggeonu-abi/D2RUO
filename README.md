@@ -5,7 +5,10 @@
 
 디아블로 2: 레저렉션 플레이를 더욱 쾌적하게 만들어주는 **다기능 유틸리티 오버레이(DUO)** 프로그램입니다. 기존의 **다음 공역(Terror Zone)** 및 **우버디아(Diablo Clone)** 실시간 추적 기능은 물론, 사용자 맞춤형 **버프 스킬 타이머** 및 **실시간 아이템 사전 검색** 등 게임에 유용한 다양한 편의 기능들을 화면 위에 실시간으로 제공합니다.
 
-> **⚠️ 사용 주의 및 면책 조항 (Disclaimer):** 본 프로그램(DUO)은 게임의 메모리를 변조하지 않는 화면 캡처(OCR) 기반의 외부 오버레이입니다. 그러나 블리자드 이용약관(EULA)에 명시된 '게임 플레이를 돕거나 자동화하는 인가되지 않은 제3자 외부 프로그램'으로 간주될 여지가 있습니다. 본 프로그램 사용으로 인해 발생하는 **계정 정지 등 모든 불이익에 대한 책임은 전적으로 사용자 본인**에게 있습니다. 위험성을 충분히 인지하시고 동의하시는 분만 사용해 주시기 바랍니다.
+> **⚠️ 사용 주의 및 안전성 안내 (Disclaimer & Safety Notice):**
+> * **구조적 안전성:** 본 프로그램(DUO)은 게임 클라이언트 파일을 변조하거나 게임의 핵심 데이터인 **메모리(RAM)에 일절 접근하지 않는 100% 화면 캡처(OCR) 기반 외부 앱**입니다. 디스코드 화면 공유나 방송 송출 프로그램(OBS)과 완벽히 동일한 원리로 구동되므로, 안티치트 시스템(Warden)을 자극할 물리적 접점이 없어 기존의 파일 변조 모드(Mod)나 메모리 변조 툴보다 **압도적으로 안전**합니다.
+> * **자동화 기능 전무:** 마우스 클릭이나 키보드 입력을 자동으로 제어하는 매크로(물약 자동 복용, 자동 조준 등) 기능이 일절 포함되어 있지 않으며, 오직 순수한 시각적·청각적 정보 알림만 제공합니다.
+> * **면책 조항 고지:** 다만, 블리자드 이용약관(EULA)의 '공식 인가되지 않은 제3자 외부 프로그램'이라는 포괄적 규정 특성상, 온라인 멀티플레이 환경에서 100% 면책을 보장하는 외부 도구는 존재하지 않습니다. 본 프로그램의 사용으로 인해 발생하는 만에 하나의 계정 정지 등 모든 불이익에 대한 책임은 전적으로 사용자 본인에게 있으므로, 위험성을 인지하고 동의하시는 분만 사용해 주시기 바랍니다.
 
 ---
 
@@ -180,6 +183,18 @@
 이를 해결하기 위한 한 가지 방법으로, 디아블로 2 레저렉션 게임 내 설정인 **[게임플레이] -> [손쉬운 사용] -> [큰 글자 모드]를 활성화**해 보세요. 이 설정을 켜면 툴팁 배경의 불투명도가 높아져 문자 인식률을 높이는 데 필요한 대비(Contrast)가 크게 개선될 수 있습니다. 일부 사용자 환경에서 효과가 있는 것으로 확인되었으나, 디스플레이 설정 및 사양에 따라 결과는 달라질 수 있습니다.
 *(쉬운 설명: HDR 모니터 특성상 화면을 캡처할 때 배경이 너무 투명해지면, 프로그램이 글자와 배경을 구별하기 힘들어집니다. 게임 안에서 큰 글꼴 모드를 켜면 글자 배경이 더 어두워지고 선명해져서 프로그램이 글씨를 훨씬 잘 읽을 수 있게 됩니다.)*
 
+**✂️ OCR(아이템 자동 인식) 기능이 작동하지 않는 경우 (윈도우 10 -> 11 업그레이드 유저)**
+윈도우 10에서 윈도우 11으로 업그레이드 하신 경우, 간혹 윈도우 기본 캡처 도구가 11 버전으로 정상 업데이트되지 않아 OCR 기능에 오류가 발생할 수 있습니다. 이 경우 사용자가 직접 캡처 도구를 업데이트해 주셔야 정상 작동합니다.
+1. PowerShell을 열고 `(Get-AppxPackage -Name Microsoft.ScreenSketch).InstallLocation` 명령을 입력하세요.
+2. 결과로 출력되는 설치 경로에 11버전이 아닌 10버전이 포함되어 있다면 업데이트가 누락된 상황입니다.
+3. 만약 결과가 11버전으로 나오더라도 기능이 동작하지 않는다면, 캡처 도구가 시스템에 정상적으로 설치되지 않았거나 꼬여있는 상태일 수 있습니다.
+4. 위 상황들에 해당한다면 [마이크로소프트 문제 해결 및 캡처도구 다운로드 링크](https://support.microsoft.com/en-us/windows/uninstall-and-reinstall-paint-and-snipping-tool-d21261f8-1c3a-4776-9262-2d34928b1962)를 참고하여 캡처 도구를 완전히 삭제 후 재설치 및 업데이트를 진행해 주세요.
+*(쉬운 설명: 윈도우 버전은 올라갔는데 캡처 도구는 구형 버전 그대로 멈춰있거나 시스템 상에서 엉켜있어 화면을 제대로 캡처하여 읽지 못하는 증상입니다. 버전이 11로 나와도 작동하지 않는다면, 링크를 통해 최신 캡처 도구를 지우고 다시 설치해 주시면 깔끔하게 해결됩니다.)*
+
+**👥 멀티로더 사용 시 기능이 동작하지 않는 경우 (관리자 권한)**
+멀티로더를 사용하여 게임을 실행하실 경우 게임이 보통 관리자 권한으로 실행됩니다. 이 경우에는 **본 오버레이 프로그램(DUO) 또한 관리자 권한으로 실행해야만** 정상적으로 오버레이 기능과 단축키가 작동합니다. 바탕화면의 DUO 바로가기 아이콘을 우클릭하여 '관리자 권한으로 실행'을 선택해 주세요. (기존 본문에 안내가 있으나 문제 해결을 위해 다시 한번 기입합니다.)
+*(쉬운 설명: 게임이 관리자 권한(더 높은 권한)으로 켜져 있으면, 우리 오버레이 프로그램도 똑같이 높은 권한을 가져야 게임 화면 위에 무언가를 띄우거나 키보드 입력을 감지할 수 있습니다.)*
+
 **🛡️ 백신 오탐지(False Positive) 대처 안내**
 이 프로그램은 게임 내 단축키 감지를 위해 `keyboard` 모듈을 사용합니다. 정식 설치형(`.exe`) 배포 방식을 도입하여 오탐지 확률을 크게 낮추었으나, 여전히 일부 백신 프로그램이 이를 악성 코드로 오인하여 실행을 차단할 수 있습니다. 
 *(쉬운 설명: 키보드 입력을 가로채는 기능은 해킹 프로그램들이 자주 쓰는 방식이라 백신이 일단 의심하고 차단하는 자연스러운 현상입니다.)*
@@ -237,7 +252,10 @@
 
 A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance your Diablo 2: Resurrected gameplay. In addition to real-time tracking for the upcoming **Terror Zone** and **Diablo Clone** progression across servers, it provides various quality-of-life utilities, such as a highly customizable **Buff Skill Timer** and an **In-game Item Search Dictionary**, directly on your game screen.
 
-> **⚠️ Disclaimer & Terms of Use:** DUO is an external overlay based on screen capture (OCR) that does not modify the game's memory. However, it may be considered an 'unauthorized third-party program that facilitates or automates gameplay' under Blizzard's End User License Agreement (EULA). **The user assumes all responsibility and risk** for any consequences, including account suspension, that may arise from using this program. Please use it at your own risk.
+> **⚠️ Disclaimer & Safety Notice:**
+> * **Structural Safety:** DUO is a 100% screen-capture (OCR) based external application that **never modifies, hooks, or accesses the game's memory (RAM) or client files**. It operates on the exact same technical mechanisms as standard recording/streaming software (such as OBS Studio or Discord screen share). Because it maintains zero contact with the game's internal data structures, it does not trigger Blizzard's anti-cheat system (Warden), making it **exponentially safer** than traditional client mods or memory-reading overlays.
+> * **Zero Automation:** This utility contains absolutely no automated macro elements, such as auto-potion or automated keystrokes/mouse movements. It functions strictly as a non-intrusive visual and audio alert assistant.
+> * **Terms of Use:** However, under the broad definition of 'unauthorized third-party software' in Blizzard's EULA, no external utility can claim absolute immunity in a multiplayer environment. **The user assumes all responsibility and risk** for any consequences, including account restrictions, that may arise from using this program. Please use it at your own discretion.
 
 ---
 
@@ -407,6 +425,18 @@ If you are playing on a high-resolution OLED/HDR monitor and the automatic item 
 
 As a potential workaround, try going to your **D2R In-game Settings -> Game Play -> Accessibility -> and enable "Large Font Mode"**. This setting may increase the tooltip's background opacity, which could significantly improve the text recognition contrast. While this has proven helpful for some users, please note that results may vary depending on your specific display configuration.
 *(Easy Explanation: Due to how HDR rendering works, captured screenshots can sometimes make the item description background too see-through, blending the text into the game world. Enabling Large Font Mode thickens and darkens the background, making it much easier for the program to scan the text clearly.)*
+
+**✂️ OCR (Auto Item Recognition) Not Working (Windows 10 to 11 Upgrade)**
+If you upgraded from Windows 10 to Windows 11, the Windows Snipping Tool might not have updated correctly, causing the OCR feature to fail. In this case, you must manually update the Snipping Tool for it to function normally.
+1. Open PowerShell and enter the command: `(Get-AppxPackage -Name Microsoft.ScreenSketch).InstallLocation`
+2. If the output path shows a version 10 instead of 11, your Snipping Tool has not been updated.
+3. Even if the output path shows version 11, if the feature still does not work, the Snipping Tool might be corrupted or not installed correctly on your system.
+4. In any of these cases, please refer to the [Microsoft troubleshooting and download page](https://support.microsoft.com/en-us/windows/uninstall-and-reinstall-paint-and-snipping-tool-d21261f8-1c3a-4776-9262-2d34928b1962) to completely uninstall and reinstall the app.
+*(Easy Explanation: Your Windows was upgraded, but the screenshot tool was left behind on the old version or got corrupted, making it unable to capture and read the screen correctly. Reinstalling the newest version via the link will fix the issue even if the version number looks fine.)*
+
+**👥 Overlay Not Working When Using Multi-Loader (Run as Administrator)**
+When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly. Right-click the DUO shortcut and select 'Run as administrator'. (This is mentioned in the quick start, but noted here again for troubleshooting.)
+*(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys.)*
 
 **🛡️ Security & False Positives (Antivirus Blocks/Deletions)**
 This program uses the `keyboard` module to detect your in-game hotkeys. Although switching to a standard installer (`.exe`) distribution significantly reduces false positives, some antivirus software may still incorrectly flag and block its execution. 

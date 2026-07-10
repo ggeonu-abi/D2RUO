@@ -10,7 +10,10 @@ tableOfContents: false
 
 A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance your Diablo 2: Resurrected gameplay. In addition to real-time tracking for the upcoming **Terror Zone** and **Diablo Clone** progression across servers, it provides various quality-of-life utilities, such as a highly customizable **Buff Skill Timer** and an **In-game Item Search Dictionary**, directly on your game screen.
 
-> **⚠️ Disclaimer & Terms of Use:** DUO is an external overlay based on screen capture (OCR) that does not modify the game's memory. However, it may be considered an 'unauthorized third-party program that facilitates or automates gameplay' under Blizzard's End User License Agreement (EULA). **The user assumes all responsibility and risk** for any consequences, including account suspension, that may arise from using this program. Please use it at your own risk.
+> **⚠️ Disclaimer & Safety Notice:**
+> * **Structural Safety:** DUO is a 100% screen-capture (OCR) based external application that **never modifies, hooks, or accesses the game's memory (RAM) or client files**. It operates on the exact same technical mechanisms as standard recording/streaming software (such as OBS Studio or Discord screen share). Because it maintains zero contact with the game's internal data structures, it does not trigger Blizzard's anti-cheat system (Warden), making it **exponentially safer** than traditional client mods or memory-reading overlays.
+> * **Zero Automation:** This utility contains absolutely no automated macro elements, such as auto-potion or automated keystrokes/mouse movements. It functions strictly as a non-intrusive visual and audio alert assistant.
+> * **Terms of Use:** However, under the broad definition of 'unauthorized third-party software' in Blizzard's EULA, no external utility can claim absolute immunity in a multiplayer environment. **The user assumes all responsibility and risk** for any consequences, including account restrictions, that may arise from using this program. Please use it at your own discretion.
 
 ---
 
@@ -180,6 +183,18 @@ If you are playing on a high-resolution OLED/HDR monitor and the automatic item 
 
 As a potential workaround, try going to your **D2R In-game Settings -> Game Play -> Accessibility -> and enable "Large Font Mode"**. This setting may increase the tooltip's background opacity, which could significantly improve the text recognition contrast. While this has proven helpful for some users, please note that results may vary depending on your specific display configuration.
 *(Easy Explanation: Due to how HDR rendering works, captured screenshots can sometimes make the item description background too see-through, blending the text into the game world. Enabling Large Font Mode thickens and darkens the background, making it much easier for the program to scan the text clearly.)*
+
+**✂️ OCR (Auto Item Recognition) Not Working (Windows 10 to 11 Upgrade)**
+If you upgraded from Windows 10 to Windows 11, the Windows Snipping Tool might not have updated correctly, causing the OCR feature to fail. In this case, you must manually update the Snipping Tool for it to function normally.
+1. Open PowerShell and enter the command: `(Get-AppxPackage -Name Microsoft.ScreenSketch).InstallLocation`
+2. If the output path shows a version 10 instead of 11, your Snipping Tool has not been updated.
+3. Even if the output path shows version 11, if the feature still does not work, the Snipping Tool might be corrupted or not installed correctly on your system.
+4. In any of these cases, please refer to the <a href="https://support.microsoft.com/en-us/windows/uninstall-and-reinstall-paint-and-snipping-tool-d21261f8-1c3a-4776-9262-2d34928b1962" target="_blank" rel="noopener noreferrer">Microsoft troubleshooting and download page</a> to completely uninstall and reinstall the app.
+*(Easy Explanation: Your Windows was upgraded, but the screenshot tool was left behind on the old version or got corrupted, making it unable to capture and read the screen correctly. Reinstalling the newest version via the link will fix the issue even if the version number looks fine.)*
+
+**👥 Overlay Not Working When Using Multi-Loader (Run as Administrator)**
+When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly. Right-click the DUO shortcut and select 'Run as administrator'. (This is mentioned in the quick start, but noted here again for troubleshooting.)
+*(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys.)*
 
 **🛡️ Security & False Positives (Antivirus Blocks/Deletions)**
 This program uses the `keyboard` module to detect your in-game hotkeys. Although switching to a standard installer (`.exe`) distribution significantly reduces false positives, some antivirus software may still incorrectly flag and block its execution. 
