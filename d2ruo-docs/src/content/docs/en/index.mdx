@@ -54,8 +54,6 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 ### <a id="h3-en-13"></a>1. Download & Preparation
 1. Go to the <a href="https://github.com/ggeonu-abi/D2RUO/releases/latest/download/DUO_Setup.exe" target="_blank" rel="noopener noreferrer">👉 Latest Release Page (Click)</a>, download the **installer (`DUO_Setup.exe`)**, and run it.
-   > 💡 **Notice on Distribution Change:** To significantly reduce frequent antivirus false positives caused by the previous `.zip` extraction method, the app is now distributed as a standard installer. 
-   > *(Easy Explanation: The previous method extracted files silently to a temporary folder upon execution, which antiviruses often suspect as malware behavior. By properly installing the app to a standard directory, it is much more likely to be recognized as a safe and legitimate program.)*
    * **Default Installation Path:** `%LocalAppData%\Programs\D2R Utility Overlay` (You can copy & paste this into your file explorer address bar)
 2. Sign up/Login to <a href="https://www.d2tz.info/login" target="_blank" rel="noopener noreferrer">d2tz.info</a> and copy your **API Key (Token)** from the User Profile page.
 
@@ -85,6 +83,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | | `ESC` | Close Search Window |
 | **Item Recognition** | `Ctrl` + `R` | Drag scan item area manually |
 | | `Ctrl` + `T` | ⚡ Auto-detect item tooltip box |
+| **QoL Features** | `Shift` + `C` | Copy current game name (for quick Relay Runs) |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
 | | User Defined Keys | Trigger Specific Buff Timer |
 | **Speedrun Timer** | `Home` | Start / Pause Timer |
@@ -95,40 +94,42 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 ## <a id="features-en"></a>✨ Key Features
 
-**1. Real-time TZ & DClone Tracker**
-* **Custom Favorite Alerts:** Get text blinks and sound notifications when your favorite zones are discovered and 5 mins before they start.
-* **Uber Alerts:** Choose your expansion (LoD/RotW) and get notified when DClone stages increase.
-* **Smart Polling:** Highly optimized API calls to prevent traffic waste.
+**1. 😈 Real-time TZ & DClone Tracker**
+* 🎯 **Custom Favorite Alerts:** Get text blinks and sound notifications when your favorite zones are discovered and 5 mins before they start.
+* 🔔 **Uber Alerts:** Choose your expansion (LoD/RotW) and get notified when DClone stages increase.
+* ⚡ **Smart Polling:** Highly optimized API calls to prevent traffic waste.
 
-**2. In-game Item Search Dictionary**
-* **Powerful & Flexible Search Engine:** Search quickly and accurately by English/Korean names, **base items**, required runes, or well-known **aliases**. You can **use spaces to combine these keywords** to find exactly what you're looking for.
-* **✨ Auto Recognition (OCR) & Custom Settings:** Supports two scanning methods to automatically scan and fill in the variable stats of in-game items. (Windows 11 only) You can configure the following additional settings at the bottom of the item search window:
-  * **Drag Scan:** Use a hotkey (default `Ctrl` + `R`) to manually select an area.
-  * **Auto Box Scan:** Use a hotkey (default `Ctrl` + `T`) to auto-detect the item tooltip box.
-  * **Hotkey Change:** Easily change the default capture hotkeys to any key combinations you prefer.
-  * **Stat Fill Mode Selection:** Choose exactly how the scanned numbers are applied (min only, max only, min + max, and even percentage adjustments).
-  > *(Easy Explanation: You no longer need to manually type item stats. Just press the hotkey, and the program will read the screen to automatically fill in the values for your Traderie search. You can also fine-tune it to input only minimum or maximum values as needed.)*
-* **Seamless Traderie Integration & Custom Favorites:** Click the button to instantly open the item's market value page in your browser. Save customized variable stats to your 'Favorites' for quick live price checks.
-* **Advanced Favorites Management:** You can **right-click a favorite item to rename or duplicate it**. Also, you can modify the stats of an already registered favorite and click the **[💾 Save Opts]** button to update the data.
-* **Ultimate Convenience:** Instantly copy item details to your clipboard. The search window automatically becomes semi-transparent when it loses focus.
+**2. 📖 In-game Item Search Dictionary**
+* 🔍 **Powerful & Flexible Search Engine:** Search quickly by English/Korean names, **base items**, required runes, or well-known **aliases**. Use spaces to combine these keywords effortlessly.
+* 🤖 **Auto Recognition (OCR) & Custom Settings (Win 11 Only):** Quickly scan items by dragging (`Ctrl` + `R`) or using the auto-detect box (`Ctrl` + `T`). 
+  * Choose exactly how the scanned numbers are applied (e.g., min only, max only, or percentage adjustments).
+  > *(Easy Explanation: You no longer need to manually type item stats. Just press the hotkey, and the program will read the screen to automatically fill in the values for your Traderie search.)*
+* 📈 **Seamless Traderie Integration:** Click the button to instantly open the market page. Save your customized variable stats to your 'Favorites' for 1-click live price checks anytime.
+* 💾 **Item Drop History (DB) [NEW]:** Automatically records the stats and drop locations of your looted items, which can be reviewed anytime. Links with the new Region Statistics feature below!
 
-**3. Powerful Buff Overlay**
-* **Profile & Skill Management:** Create, duplicate, and manage multiple buff profiles. Register new skills effortlessly using the built-in screen capture tool.
-* **Auto-Reset on Game Exit:** In addition to the traditional hotkey (e.g., ESC) reset method, the overlay can now automatically detect when you enter or leave a game to reset your buff timers. This can be enabled in settings. The traditional hotkey reset still works seamlessly and can be used as a reliable fallback.
-* **Smart Buff Clear Ignore:** Prevent accidental buff timer resets by registering keys like your inventory hotkey as 'Ignore if Prev Key'. 
-* **Highly Customizable UI:** Adjust icon sizes, timer and hotkey text sizes/positions, and time display formats (seconds or MM:SS) to suit your preferences.
-* **Custom Alerts:** Assign custom audio files (`.wav`, `.mp3`) to individual skills, and configure specific volumes and flash alert thresholds.
+**3. 🛡️ Powerful Buff Overlay**
+* 📑 **Profile & Skill Management:** Create multiple profiles for different builds. Easily capture skill icons directly from the game screen to register hotkeys and durations.
+* 🚨 **Center Screen Countdown [NEW]:** Check important skills to trigger a flashing countdown right in the center of your screen when the buff is about to expire, ensuring you never miss a recast during intense fights.
+* 🔄 **Smart Reset & Ignore System:**
+  * **Auto-Reset:** Automatically resets your buff timers upon entering or leaving a game.
+  * **Ignore Keys:** Prevent accidental buff resets by registering keys like your inventory hotkey as 'Ignore if Prev Key'.
+* 🎨 **Highly Customizable:** Adjust icon sizes, text sizes/positions, and formats. Assign custom audio files (`.wav`, `.mp3`) to individual skills using the `sounds` folder.
 
-**4. Speedrun Timer**
-* **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference from the previous run.
-* **Real-time Statistics:** Provides a clean, fixed-size UI that displays your current elapsed time alongside runs, average clear time, and your best record.
+**4. 🗺️ Region & Monster Tracking [NEW]**
+* ⏱️ **Region Entry & Statistics:** Tracks the exact time spent in each area and compiles statistics. Provides a popup for the previous area's time and links with the 'Item Drop DB' to analyze your most profitable farming spots.
+* 🧭 **Mini Guide Map:** For areas with fixed exit generation rules, a mini-map pointing to the exit direction appears in the bottom right corner (Toggleable and display time configurable).
+* 👁️ **Monster Attribute Alert (Warlock specific):** Set specific monster attributes you need (e.g., for Bind Demon). When matching monsters are detected, an instant popup and sound alert will notify you, saving you the hassle of hovering over each one.
 
-**5. UI & Convenience**
-* **Click-through:** Mouse clicks pass right through the overlay.
-* **Auto-Hide:** Automatically hides when switching to another app. Fully supports multi-client setups.
-* **Smart Item Display Reminder:** If you use the 'Toggle Item Display' option in-game, you might sometimes forget if it's turned on (especially when using loot filters). If you haven't activated the item display after entering a new game, a helpful reminder message will appear at the top of the screen. (Requires registering your item display hotkey in the settings to function properly).
-* **Free Layout:** Drag and drop panels anywhere. Vertical modes are also supported.
-* **Auto-Update:** seamless background updates with a 1-click update button.
+**5. ⏱️ Speedrun Timer**
+* 📊 **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference (+/-) from the previous run using color coding.
+* 📌 **Real-time Statistics:** Provides a clean, fixed-size UI that displays your current elapsed time alongside runs, average clear time, and your best record.
+
+**6. 💡 UI & Convenience Features**
+* 🖱️ **Click-through:** Mouse clicks pass right through the overlay, ensuring uninterrupted gameplay.
+* 💬 **Smart Chat Hotkey Block [NEW]:** Opening the chat window with `Enter` safely disables overlay hotkeys (buffs, item search) to prevent misclicks and accidental triggers.
+* 📋 **Quick Game Name Copy [NEW]:** Easily copy the current game's name with a single hotkey (`Shift` + `C`). Perfect for quick copy-pasting during sequential relay runs.
+* 🔔 **Smart Item Display Reminder:** If you use the 'Toggle Item Display' option in-game and forget to turn it on after joining a room (especially with loot filters), a helpful reminder message will appear at the top of the screen.
+* 🔄 **Free Layout & Auto-Update:** Drag and drop panels anywhere. Enjoy seamless background updates with a simple 1-click update button.
 
 ---
 
@@ -147,6 +148,7 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 | File / Folder | Description |
 | :--- | :--- |
 | `DUO.exe` | Main executable file. |
+| `d2r_stats.db` | SQLite database storing your region statistics and item drop history. |
 | `act_map.json` | ⚠️ Essential TZ area level and Act data (Do not delete). |
 | `area.json` | ⚠️ Essential TZ translation data (Do not delete). |
 | `d2_overlay_config.json` | Auto-saved user preferences. |
@@ -155,6 +157,15 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 | `item/data/` | Database files used for the item search dictionary. |
 | `fonts/` | Default built-in fonts. You can add your own font files here. |
 | `models/` | Folder where modules required for automatic item recognition are stored. |
+| `assets\guides\` | Images used for displaying the mini guide map. |
+
+> **📝 Log Files (`.log`)**
+> These files record the operational status of the program. When a file's size grows, it is automatically backed up with a `.1` extension, while the latest information is continuously written to the `.log` file. **If you encounter any issues, providing these log files when submitting an issue will enable much faster and more accurate analysis.**
+> * `app_debug.log` : Default overarching log file.
+> * `api_usage.log` : d2tzinfo data request logs (Terror Zone, DClone).
+> * `ocr_debug.log` : Text recognition (OCR) operation logs.
+> * `area_debug.log` : Region name recognition operation logs.
+> * `monster_debug.log` : Monster recognition operation logs.
 
 ---
 
