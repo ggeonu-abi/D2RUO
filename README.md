@@ -92,12 +92,12 @@
 
 ## <a id="features-kr"></a>✨ 주요 기능 (Key Features)
 
-**1. 😈 테러존 & 우버디아 트래킹 (Terror Zone & DClone)**
+### 1. 😈 테러존 & 우버디아 트래킹 (Terror Zone & DClone)
 * 🎯 **스마트 즐겨찾기 알림:** 원하는 공역 지정 시 발견 즉시, 그리고 시작 5분 전에 텍스트 깜빡임 및 소리로 알려줍니다.
 * 🔔 **우버디아 맞춤 알림:** 확장팩(LoD/RotW) 선택이 가능하며 단계 상승 시 소리 알림을 제공합니다.
 * ⚡ **초절전 스마트 폴링:** 트래픽 낭비 방지를 위해 갱신이 필요한 시점에만 API를 정교하게 호출합니다.
 
-**2. 📖 실시간 아이템 사전 검색 (Item Dictionary)**
+### 2. 📖 실시간 아이템 사전 검색 (Item Dictionary)
 * 🔍 **강력하고 유연한 다중 검색:** 영문/한글 공식 명칭, **베이스 아이템**, **조합 룬**, **별칭**(예: '샤코', '오심') 등을 **띄어쓰기로 자유롭게 조합하여 검색**할 수 있습니다. 
 * 🤖 **아이템 자동 인식 (OCR) 및 맞춤 설정 (윈도우11 전용):** 단축키로 영역 드래그(`Ctrl` + `R`) 또는 툴팁 자동 박스 인식(`Ctrl` + `T`)이 가능합니다.
   * 변동옵션을 상황에 맞게 다양한 방식(최소, 최대, 비율 적용 등)으로 선택하여 자동 입력합니다.
@@ -105,7 +105,7 @@
 * 📈 **트레더리(Traderie) 완벽 연동 & 즐겨찾기:** 버튼 한 번으로 시세 페이지를 엽니다. 변동 옵션 수치를 즐겨찾기에 등록해두면 클릭 한 번으로 당시 설정된 옵션 그대로 실시간 시세를 빠르게 확인할 수 있습니다.
 * 💾 **아이템 획득 기록 (DB) [새로운 기능]:** 어떤 옵션의 아이템을 어느 지역에서 득템했는지 기록을 남기고 언제든 조회할 수 있습니다. 이 기능은 하단의 '지역 통계 기능'과 연동됩니다.
 
-**3. 🛡️ 강력한 버프 오버레이 (Buff Overlay)**
+### 3. 🛡️ 강력한 버프 오버레이 (Buff Overlay)
 * 📑 **프로필 및 스킬 관리:** 빌드별로 프로필을 생성하고, 게임 화면 내 스킬 아이콘을 직접 캡처하여 쉽게 단축키와 지속시간을 등록할 수 있습니다.
 * 🚨 **중앙 카운트다운 알림 [새로운 기능]:** 스킬 중에 중요하다고 생각되는 항목에 체크해두시면, 알림이 시작될 때 화면 가운데에 카운트다운 및 깜빡임이 추가로 표시되어 전투 중에도 재시전 타이밍을 절대 놓치지 않게 도와줍니다.
 * 🔄 **스마트 버프 초기화 및 무시:** 
@@ -113,16 +113,16 @@
   * **초기화 무시 설정:** 인벤토리나 파티창 단축키 등을 등록해두면, 창을 닫기 위해 누른 키(예: ESC) 때문에 버프가 리셋되는 것을 막아줍니다.
 * 🎨 **디테일한 커스텀:** 아이콘 크기, 타이머 위치, 시간 형식을 입맛에 맞게 조정하고, `sounds` 폴더에 원하는 음원을 넣어 개별 알림음으로 지정할 수 있습니다.
 
-**4. 🗺️ 지역 및 몬스터 추적 (Region & Monster Tracker) [새로운 기능]**
+### 4. 🗺️ 지역 및 몬스터 추적 (Region & Monster Tracker) [새로운 기능]
 * ⏱️ **지역 진입 인식 및 통계:** 어느 지역에 얼마나 머물렀는지 인식하고 체류 시간 통계를 산출합니다. 직전 지역의 체류 시간을 팝업으로 즉시 확인 가능하며, 아이템 DB 기능과 연동되어 득템 명당을 분석할 수 있습니다.
 * 🧭 **미니 가이드맵:** 출구 생성에 규칙이 있는 지역의 경우, 화면 우측 하단에 출구 방향 미니맵을 표시합니다. (설정에서 표시 여부 및 시간 조절 가능)
 * 👁️ **몬스터 속성 알림 (Warlock 전용):** 악마 속박(Bind Demon) 등을 위해 특정 속성을 찾아야 할 때, 설정해둔 조건이 일치하는 몬스터를 팝업과 알림음으로 표시해 줍니다. 몬스터마다 커서를 올려 확인하는 수고를 덜어줍니다.
 
-**5. ⏱️ 스피드런 타이머 (Speedrun Timer)**
+### 5. ⏱️ 스피드런 타이머 (Speedrun Timer)
 * 📊 **기록 비교 및 통계:** 장비 교체나 빌드 변경에 따른 클리어 타임 변화를 측정하는 데 최적화되어 있습니다. 직전 런 대비 시간 단축/지연 여부를 색상(+/-)으로 직관적으로 보여줍니다.
 * 📌 **실시간 상세 데이터:** 화면 늘어남 없이 고정된 UI로 누적 실행 횟수, 평균 소요 시간, 최고 기록을 깔끔하게 제공합니다.
 
-**6. 💡 완벽한 게임 통합 & UI 편의성**
+### 6. 💡 완벽한 게임 통합 & UI 편의성
 * 🖱️ **클릭 관통 (Click-through):** 오버레이가 마우스 클릭을 방해하지 않습니다.
 * 💬 **스마트 단축키 차단 [새로운 기능]:** 엔터(Enter) 키로 채팅창을 열어둔 상태에서는 버프 스킬이나 아이템 단축키가 반응하지 않도록 개선하여 오작동을 방지합니다.
 * 📋 **게임 명칭 복사 [새로운 기능]:** 릴레이 방(예: 이름 뒤 숫자 증가) 진행 시, 현재 입장한 방 이름을 단축키(`Shift` + `C`) 한 번으로 복사하여 다음 방 입장 시 빠르게 붙여넣기할 수 있습니다.
@@ -347,12 +347,12 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 ## <a id="features-en"></a>✨ Key Features
 
-**1. 😈 Real-time TZ & DClone Tracker**
+### 1. 😈 Real-time TZ & DClone Tracker
 * 🎯 **Custom Favorite Alerts:** Get text blinks and sound notifications when your favorite zones are discovered and 5 mins before they start.
 * 🔔 **Uber Alerts:** Choose your expansion (LoD/RotW) and get notified when DClone stages increase.
 * ⚡ **Smart Polling:** Highly optimized API calls to prevent traffic waste.
 
-**2. 📖 In-game Item Search Dictionary**
+### 2. 📖 In-game Item Search Dictionary
 * 🔍 **Powerful & Flexible Search Engine:** Search quickly by English/Korean names, **base items**, required runes, or well-known **aliases**. Use spaces to combine these keywords effortlessly.
 * 🤖 **Auto Recognition (OCR) & Custom Settings (Win 11 Only):** Quickly scan items by dragging (`Ctrl` + `R`) or using the auto-detect box (`Ctrl` + `T`). 
   * Choose exactly how the scanned numbers are applied (e.g., min only, max only, or percentage adjustments).
@@ -360,7 +360,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * 📈 **Seamless Traderie Integration:** Click the button to instantly open the market page. Save your customized variable stats to your 'Favorites' for 1-click live price checks anytime.
 * 💾 **Item Drop History (DB) [NEW]:** Automatically records the stats and drop locations of your looted items, which can be reviewed anytime. Links with the new Region Statistics feature below!
 
-**3. 🛡️ Powerful Buff Overlay**
+### 3. 🛡️ Powerful Buff Overlay
 * 📑 **Profile & Skill Management:** Create multiple profiles for different builds. Easily capture skill icons directly from the game screen to register hotkeys and durations.
 * 🚨 **Center Screen Countdown [NEW]:** Check important skills to trigger a flashing countdown right in the center of your screen when the buff is about to expire, ensuring you never miss a recast during intense fights.
 * 🔄 **Smart Reset & Ignore System:**
@@ -368,16 +368,16 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * **Ignore Keys:** Prevent accidental buff resets by registering keys like your inventory hotkey as 'Ignore if Prev Key'.
 * 🎨 **Highly Customizable:** Adjust icon sizes, text sizes/positions, and formats. Assign custom audio files (`.wav`, `.mp3`) to individual skills using the `sounds` folder.
 
-**4. 🗺️ Region & Monster Tracking [NEW]**
+### 4. 🗺️ Region & Monster Tracking [NEW]
 * ⏱️ **Region Entry & Statistics:** Tracks the exact time spent in each area and compiles statistics. Provides a popup for the previous area's time and links with the 'Item Drop DB' to analyze your most profitable farming spots.
 * 🧭 **Mini Guide Map:** For areas with fixed exit generation rules, a mini-map pointing to the exit direction appears in the bottom right corner (Toggleable and display time configurable).
 * 👁️ **Monster Attribute Alert (Warlock specific):** Set specific monster attributes you need (e.g., for Bind Demon). When matching monsters are detected, an instant popup and sound alert will notify you, saving you the hassle of hovering over each one.
 
-**5. ⏱️ Speedrun Timer**
+### 5. ⏱️ Speedrun Timer
 * 📊 **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference (+/-) from the previous run using color coding.
 * 📌 **Real-time Statistics:** Provides a clean, fixed-size UI that displays your current elapsed time alongside runs, average clear time, and your best record.
 
-**6. 💡 UI & Convenience Features**
+### 6. 💡 UI & Convenience Features
 * 🖱️ **Click-through:** Mouse clicks pass right through the overlay, ensuring uninterrupted gameplay.
 * 💬 **Smart Chat Hotkey Block [NEW]:** Opening the chat window with `Enter` safely disables overlay hotkeys (buffs, item search) to prevent misclicks and accidental triggers.
 * 📋 **Quick Game Name Copy [NEW]:** Easily copy the current game's name with a single hotkey (`Shift` + `C`). Perfect for quick copy-pasting during sequential relay runs.
