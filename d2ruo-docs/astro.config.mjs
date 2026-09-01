@@ -46,7 +46,7 @@ export default defineConfig({
         { label: ' 6. 💡 완벽한 게임 통합 & UI 편의성', link: '#h3-ko-12', attrs: { class: 'ko-menu h3-item' } },
         { label: '💡 커스텀 꿀팁', link: '#custom-tips-kr', attrs: { class: 'ko-menu' } },
         { label: '📂 파일 및 폴더 설명', link: '#files-kr', attrs: { class: 'ko-menu' } },
-        { label: '💻 테스트 환경 및 주의사항', link: '#environment-kr', attrs: { class: 'ko-menu' } },
+        { label: '💻 테스트 환경 및 문제 해결 / FAQ', link: '#environment-kr', attrs: { class: 'ko-menu' } },
         { label: '☕ 피드백 & 후원하기', link: '#support-kr', attrs: { class: 'ko-menu' } },
         { label: ' 💡 버그 신고 및 기능 제안', link: '#h3-ko-13', attrs: { class: 'ko-menu h3-item' } },
         { label: ' ☕ 후원하기', link: '#h3-ko-14', attrs: { class: 'ko-menu h3-item' } },
@@ -68,7 +68,7 @@ export default defineConfig({
         { label: ' 6. 💡 UI & Convenience Features', link: '#h3-en-26', attrs: { class: 'en-menu h3-item' } },
         { label: '💡 Custom Tips', link: '#custom-tips-en', attrs: { class: 'en-menu' } },
         { label: '📂 File & Folder Descriptions', link: '#files-en', attrs: { class: 'en-menu' } },
-        { label: '💻 Tested Environment & Troubleshooting', link: '#environment-en', attrs: { class: 'en-menu' } },
+        { label: '💻 Tested Environment & Troubleshooting / FAQ', link: '#environment-en', attrs: { class: 'en-menu' } },
         { label: '☕ Contact & Support', link: '#support-en', attrs: { class: 'en-menu' } },
         { label: ' 💡 Bug Reports & Feature Requests', link: '#h3-en-27', attrs: { class: 'en-menu h3-item' } },
         { label: ' ☕ Support', link: '#h3-en-28', attrs: { class: 'en-menu h3-item' } }

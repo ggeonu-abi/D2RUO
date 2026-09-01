@@ -24,7 +24,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * [✨ Key Features](#features-en)
 * [💡 Custom Tips](#custom-tips-en)
 * [📂 File & Folder Descriptions](#files-en)
-* [💻 Tested Environment & Troubleshooting](#environment-en)
+* [💻 Tested Environment & Troubleshooting / FAQ](#environment-en)
 * [☕ Contact & Support](#support-en)
 
 ---
@@ -175,7 +175,7 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 
 ---
 
-## <a id="environment-en"></a>💻 Tested Environment & Troubleshooting
+## <a id="environment-en"></a>💻 Tested Environment & Troubleshooting / FAQ
 
 * **OS:** Windows 11 Pro 25H2 (64-bit)
 * **Display:** 2560x1440 (QHD)
@@ -202,6 +202,26 @@ If you upgraded from Windows 10 to Windows 11, the Windows Snipping Tool might n
 3. Even if the output path shows version 11, if the feature still does not work, the Snipping Tool might be corrupted or not installed correctly on your system.
 4. In any of these cases, please refer to the <a href="https://support.microsoft.com/en-us/windows/uninstall-and-reinstall-paint-and-snipping-tool-d21261f8-1c3a-4776-9262-2d34928b1962" target="_blank" rel="noopener noreferrer">Microsoft troubleshooting and download page</a> to completely uninstall and reinstall the app.
 *(Easy Explanation: Your Windows was upgraded, but the screenshot tool was left behind on the old version or got corrupted, making it unable to capture and read the screen correctly. Reinstalling the newest version via the link will fix the issue even if the version number looks fine.)*
+
+**👾 Auto Monster Attribute OCR / Detection Troubleshooting (FAQ)**
+If the automatic monster attribute detection or popup/audio alert is not working properly, please review the following checklist:
+
+1. **Windows 11 OS & System Updates:**
+   * The text recognition (OCR) engine runs on Windows 11 features. Please ensure your Windows 11 system and Snipping Tool app are up to date.
+2. **OCR Detection Area Settings:**
+   * Open Settings (`Ctrl` + `Shift` + `S`) -> **[👾 Monster OCR]** tab and verify that the detection region coordinates match your current display resolution and game layout.
+   * If necessary, click **`🎯 Select New Area with Mouse`** and drag across the top-center area of the screen where monster names and attributes appear to recalibrate coordinates.
+3. **Overlapping Text / Overlay Interference (Screen Capture Method):**
+   * If other text or overlay UI elements (such as Terror Zone info banners) overlap within the capture box, OCR accuracy may degrade.
+   * 💡 **Recommended Tip:** Set the **`Screen Capture Method`** to **`Capture Diablo Window Only`** in Settings. This captures only the clean game client window without any interference from external overlay layers.
+4. **Required Attributes (`*`) & Min. Optional Attributes Setting:**
+   * In the attribute list, any attribute prefixed with an asterisk (`*`) (e.g. `*Demon`, `*Cursed`) is a **strictly required condition** that must match completely.
+   * If the **Min. Optional Attributes** count is set higher than what the monster actually has, the alert will not trigger. (Set it to `0` if you only want alerts triggered by required attributes).
+5. **Character Class in Active Buff Profile (Warlock Only):**
+   * Monster Attribute OCR is designed specifically for the Warlock class ('Bind Demon' skill utility). To eliminate unnecessary CPU overhead, **detection only runs when the currently active Buff Profile is configured as `Warlock` (악마술사)**.
+   * If a profile for another character class (e.g., Sorceress, Paladin) is active, monster detection automatically pauses. Please ensure your active buff profile's class is set to Warlock.
+
+*(Easy Explanation: Make sure you are on Windows 11 with the capture region set to your screen, and try switching the capture method to 'Capture Diablo Window Only' to avoid overlay interference. Also check your required attributes (*), optional count, and make sure your active buff profile belongs to a Warlock!)*
 
 **👥 Overlay Not Working When Using Multi-Loader (Run as Administrator)**
 When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly. Right-click the DUO shortcut and select 'Run as administrator'. (This is mentioned in the quick start, but noted here again for troubleshooting.)

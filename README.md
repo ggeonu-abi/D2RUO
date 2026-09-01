@@ -19,7 +19,7 @@
 * [✨ 주요 기능 (Key Features)](#features-kr)
 * [💡 커스텀 꿀팁 (Custom Tips)](#custom-tips-kr)
 * [📂 파일 및 폴더 설명](#files-kr)
-* [💻 테스트 환경 및 주의사항 (Troubleshooting)](#environment-kr)
+* [💻 테스트 환경 및 문제 해결 / FAQ (Troubleshooting)](#environment-kr)
 * [☕ 피드백 & 후원하기 (Contact & Support)](#support-kr)
 
 ---
@@ -173,7 +173,7 @@
 
 ---
 
-## <a id="environment-kr"></a>💻 테스트 환경 및 주의사항 (Troubleshooting)
+## <a id="environment-kr"></a>💻 테스트 환경 및 문제 해결 / FAQ (Troubleshooting)
 
 이 프로그램은 아래의 환경에서 개발 및 테스트되었습니다. 사용자 환경에 따라 약간의 차이가 있을 수 있습니다.
 * **OS:** Windows 11 Pro 25H2 (64-bit)
@@ -201,6 +201,26 @@
 3. 만약 결과가 11버전으로 나오더라도 기능이 동작하지 않는다면, 캡처 도구가 시스템에 정상적으로 설치되지 않았거나 꼬여있는 상태일 수 있습니다.
 4. 위 상황들에 해당한다면 [마이크로소프트 문제 해결 및 캡처도구 다운로드 링크](https://support.microsoft.com/en-us/windows/uninstall-and-reinstall-paint-and-snipping-tool-d21261f8-1c3a-4776-9262-2d34928b1962)를 참고하여 캡처 도구를 완전히 삭제 후 재설치 및 업데이트를 진행해 주세요.
 *(쉬운 설명: 윈도우 버전은 올라갔는데 캡처 도구는 구형 버전 그대로 멈춰있거나 시스템 상에서 엉켜있어 화면을 제대로 캡처하여 읽지 못하는 증상입니다. 버전이 11로 나와도 작동하지 않는다면, 링크를 통해 최신 캡처 도구를 지우고 다시 설치해 주시면 깔끔하게 해결됩니다.)*
+
+**👾 몬스터 속성 자동 인식(Monster OCR)이 작동하지 않거나 알림이 안 뜨는 경우 (FAQ)**
+몬스터 속성 자동 인식 및 팝업/소리 알림이 원활하게 동작하지 않을 때는 아래 체크리스트를 순서대로 확인해 주세요.
+
+1. **Windows 11 OS 및 최신 업데이트 상태 확인:**
+   * 본 프로그램의 화면 문자 인식(OCR) 기능은 Windows 11 환경을 기반으로 동작합니다. 윈도우 11 최신 업데이트 및 기본 캡처 도구가 최신 버전인지 확인해 주세요.
+2. **인식 영역(OCR) 좌표 설정 확인:**
+   * 환경설정(`Ctrl` + `Shift` + `S`) -> **[👾 몬스터 인식]** 탭에서 **화면 인식 영역**이 현재 사용 중인 디스플레이 해상도 및 게임 화면 위치에 맞게 지정되어 있는지 확인해 주세요.
+   * 필요 시 **`🎯 영역 마우스로 새로 지정`** 버튼을 누른 뒤, 몬스터에 마우스를 올렸을 때 화면 상단 중앙에 나타나는 이름 및 속성 텍스트 영역을 직접 드래그하여 좌표를 새로 맞춰주세요.
+3. **캡처 영역 내 다른 글자/오버레이 간섭 여부 (화면 캡쳐 방식 권장):**
+   * 몬스터 인식 캡처 영역 안에 화면 상단 테러존 안내 등 다른 오버레이 UI나 글자가 겹쳐 있으면 문자인식에 간섭이 생길 수 있습니다.
+   * 💡 **권장 팁:** 환경설정의 **`화면 캡쳐 방식`** 을 **`디아블로 화면만 캡쳐`** 로 설정하시면, 외부 오버레이나 다른 창의 방해 없이 순수한 디아블로 게임 화면만 캡처하므로 인식 방해를 완벽히 방지할 수 있습니다.
+4. **필수 속성(`*`) 및 최소 부가옵션 개수 설정 확인:**
+   * 인식할 속성 목록에서 속성명 앞에 별표(`*`)가 붙은 속성(예: `*악마`, `*저주받음`)은 **모든 필수 조건이 100% 일치**해야만 감지됩니다.
+   * **최소 부가옵션 개수**가 너무 높게 설정되어 있으면 조건을 충족하지 못해 알림이 발생하지 않습니다. (필수 속성만 매칭되면 알림을 받고 싶으신 경우 `0`으로 설정)
+5. **활성화된 버프 프로필의 캐릭터 직업 확인 (악마술사 전용 기능):**
+   * 몬스터 속성 인식 기능은 악마술사(Warlock)의 '악마 속박(Bind Demon)' 스킬 지원을 위해 설계되었으며, 불필요한 시스템 자원(CPU) 낭비를 방지하기 위해 **현재 활성화된 버프 프로필의 캐릭터 직업이 `악마술사`로 설정되어 있을 때만 동작**합니다.
+   * 다른 직업(원소술사, 성기사 등) 프로필이 켜져 있는 상태에서는 몬스터 탐지가 대기 상태로 유지되므로, 환경설정의 버프 프로필 관리에서 직업이 '악마술사'로 지정된 프로필을 사용 중인지 확인해 주세요.
+
+*(쉬운 설명: 윈도우 11 최신 상태에서 내 화면에 맞게 인식 영역을 잡았는지 확인하고, 상단 테러존 등의 글자 간섭을 피하려면 캡처 방식을 '디아블로 화면만 캡쳐'로 변경해 보세요. 또한 필수(*)와 부가옵션 조건이 맞는지, 현재 켜둔 버프 프로필이 악마술사 직업으로 되어 있는지도 꼭 체크해 주세요!)*
 
 **👥 멀티로더 사용 시 기능이 동작하지 않는 경우 (관리자 권한)**
 멀티로더를 사용하여 게임을 실행하실 경우 게임이 보통 관리자 권한으로 실행됩니다. 이 경우에는 **본 오버레이 프로그램(DUO) 또한 관리자 권한으로 실행해야만** 정상적으로 오버레이 기능과 단축키가 작동합니다. 바탕화면의 DUO 바로가기 아이콘을 우클릭하여 '관리자 권한으로 실행'을 선택해 주세요. (기존 본문에 안내가 있으나 문제 해결을 위해 다시 한번 기입합니다.)
@@ -277,7 +297,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * [✨ Key Features](#features-en)
 * [💡 Custom Tips](#custom-tips-en)
 * [📂 File & Folder Descriptions](#files-en)
-* [💻 Tested Environment & Troubleshooting](#environment-en)
+* [💻 Tested Environment & Troubleshooting / FAQ](#environment-en)
 * [☕ Contact & Support](#support-en)
 
 ---
@@ -428,7 +448,7 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 
 ---
 
-## <a id="environment-en"></a>💻 Tested Environment & Troubleshooting
+## <a id="environment-en"></a>💻 Tested Environment & Troubleshooting / FAQ
 
 * **OS:** Windows 11 Pro 25H2 (64-bit)
 * **Display:** 2560x1440 (QHD)
@@ -455,6 +475,26 @@ If you upgraded from Windows 10 to Windows 11, the Windows Snipping Tool might n
 3. Even if the output path shows version 11, if the feature still does not work, the Snipping Tool might be corrupted or not installed correctly on your system.
 4. In any of these cases, please refer to the [Microsoft troubleshooting and download page](https://support.microsoft.com/en-us/windows/uninstall-and-reinstall-paint-and-snipping-tool-d21261f8-1c3a-4776-9262-2d34928b1962) to completely uninstall and reinstall the app.
 *(Easy Explanation: Your Windows was upgraded, but the screenshot tool was left behind on the old version or got corrupted, making it unable to capture and read the screen correctly. Reinstalling the newest version via the link will fix the issue even if the version number looks fine.)*
+
+**👾 Auto Monster Attribute OCR / Detection Troubleshooting (FAQ)**
+If the automatic monster attribute detection or popup/audio alert is not working properly, please review the following checklist:
+
+1. **Windows 11 OS & System Updates:**
+   * The text recognition (OCR) engine runs on Windows 11 features. Please ensure your Windows 11 system and Snipping Tool app are up to date.
+2. **OCR Detection Area Settings:**
+   * Open Settings (`Ctrl` + `Shift` + `S`) -> **[👾 Monster OCR]** tab and verify that the detection region coordinates match your current display resolution and game layout.
+   * If necessary, click **`🎯 Select New Area with Mouse`** and drag across the top-center area of the screen where monster names and attributes appear to recalibrate coordinates.
+3. **Overlapping Text / Overlay Interference (Screen Capture Method):**
+   * If other text or overlay UI elements (such as Terror Zone info banners) overlap within the capture box, OCR accuracy may degrade.
+   * 💡 **Recommended Tip:** Set the **`Screen Capture Method`** to **`Capture Diablo Window Only`** in Settings. This captures only the clean game client window without any interference from external overlay layers.
+4. **Required Attributes (`*`) & Min. Optional Attributes Setting:**
+   * In the attribute list, any attribute prefixed with an asterisk (`*`) (e.g. `*Demon`, `*Cursed`) is a **strictly required condition** that must match completely.
+   * If the **Min. Optional Attributes** count is set higher than what the monster actually has, the alert will not trigger. (Set it to `0` if you only want alerts triggered by required attributes).
+5. **Character Class in Active Buff Profile (Warlock Only):**
+   * Monster Attribute OCR is designed specifically for the Warlock class ('Bind Demon' skill utility). To eliminate unnecessary CPU overhead, **detection only runs when the currently active Buff Profile is configured as `Warlock` (악마술사)**.
+   * If a profile for another character class (e.g., Sorceress, Paladin) is active, monster detection automatically pauses. Please ensure your active buff profile's class is set to Warlock.
+
+*(Easy Explanation: Make sure you are on Windows 11 with the capture region set to your screen, and try switching the capture method to 'Capture Diablo Window Only' to avoid overlay interference. Also check your required attributes (*), optional count, and make sure your active buff profile belongs to a Warlock!)*
 
 **👥 Overlay Not Working When Using Multi-Loader (Run as Administrator)**
 When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly. Right-click the DUO shortcut and select 'Run as administrator'. (This is mentioned in the quick start, but noted here again for troubleshooting.)
