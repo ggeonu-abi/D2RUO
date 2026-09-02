@@ -81,6 +81,7 @@
 | | `ESC` | 검색창 닫기 |
 | **아이템 자동 인식** | `Ctrl` + `R` | 영역 드래그 수동 캡처 |
 | | `Ctrl` + `T` | ⚡ 아이템 툴팁 자동 박스 인식 |
+| **장비/세팅 스냅샷** | `Ctrl` + `B` | 📷 장비 / 세팅 스크린샷 매니저 열기 / 닫기 |
 | **게임 진행 보조** | `Shift` + `C` | 현재 방 이름 복사 (릴레이 방 입장 편의) |
 | **버프 타이머** | `PageUp` / `PageDown` | 버프 스킬 프로필 전환 |
 | | 사용자가 설정한 키 | 지정한 버프 타이머 실행 |
@@ -122,7 +123,22 @@
 * 📊 **기록 비교 및 통계:** 장비 교체나 빌드 변경에 따른 클리어 타임 변화를 측정하는 데 최적화되어 있습니다. 직전 런 대비 시간 단축/지연 여부를 색상(+/-)으로 직관적으로 보여줍니다.
 * 📌 **실시간 상세 데이터:** 화면 늘어남 없이 고정된 UI로 누적 실행 횟수, 평균 소요 시간, 최고 기록을 깔끔하게 제공합니다.
 
-### 6. 💡 완벽한 게임 통합 & UI 편의성
+### 6. 📷 장비 & 스킬 세팅 캡처 매니저 (Gear & Skill Build Snapshot) [새로운 기능]
+* 🛡️ **부위별 슬롯 캡처:** 본체 장비(12개 슬롯: 투구, 갑옷, 주/스왑 무기 및 방패, 장갑, 벨트, 신발, 목걸이, 반지 1/2), 용병 장비(3개 슬롯: 투구, 갑옷, 무기), 부적(참), 스텟/고급 통계(1~3) 및 스킬트리(1~4)까지 빌드의 모든 구성을 부위별로 캡처하여 체계적으로 관리할 수 있습니다.
+* ⚡ **스마트 자동 & 드래그 캡처 지원:**
+  * **⚡ 자동 캡처:** 슬롯의 '자동' 버튼 클릭 후 게임 내에서 아이템에 마우스를 올리고 **`Space`** 키를 누르면 툴팁 영역을 자동으로 감지하여 깔끔하게 캡처합니다. (취소: `ESC`)
+  * **⌨ 드래그 캡처:** 슬롯의 '드래그' 버튼 클릭 후 **`Space`** 키를 누르면 영역 지정 창이 열리며, 마우스 드래그로 원하는 부위를 직접 캡처할 수 있습니다. (취소: `ESC`)
+* 📜 **자유로운 부적(참) 추가/관리:** 번개파괴참, 횃불, 애니참, 스몰참 등 원하는 이름으로 부적 슬롯을 무제한으로 추가하고 개별 캡처할 수 있습니다.
+* 🔍 **캡처 이미지에서 아이템 사전 & 시세 연동:** 슬롯에 등록된 장비/부적 카드의 `🔍` 버튼을 누르면 고성능 OCR이 아이템 정보를 즉시 읽어 DUO 아이템 사전으로 연결하며, 트레더리(Traderie) 실시간 시세까지 원클릭으로 조회할 수 있습니다.
+* 🖼️ **깔끔한 일괄 합성 & 원클릭 클립보드 복사:**
+  * **🛡️ 장비/부적 합치기:** 본체 장비, 용병 장비, 부적을 균형 있는 3열 세로형 카드 레이아웃의 이미지 1장으로 깔끔하게 자동 합성합니다.
+  * **🌟 전체 다 합치기:** 장비 + 용병 + 부적 + 스텟/고급 통계 및 스킬트리까지 모든 세팅을 보기 좋은 하나의 세로형 이미지로 합성합니다.
+  * **📋 클립보드 복사:** 완성된 합성 이미지뿐만 아니라, **각 슬롯의 개별 이미지(확대 창)** 에서도 버튼 한 번으로 클립보드에 즉시 복사하여 디스코드, 카페, 커뮤니티 등에 바로 붙여넣기(`Ctrl` + `V`)로 공유할 수 있습니다.
+* 📂 **개별 파일 저장 & 멀티 빌드 관리:**
+  * **개별 이미지 파일 자동 보관:** 상단의 **`📂 저장 폴더 열기`** 버튼을 누르면 캡처된 각 부위별 원본 이미지 파일(`.png`)들이 저장된 폴더를 바로 열어 자유롭게 확인하고 활용할 수 있습니다.
+  * **멀티 빌드 관리 & 줌 뷰어:** 여러 캐릭터나 빌드별로 프로필을 분리하여 생성/복제/검색할 수 있으며, 카드 썸네일 클릭 시 고해상도 원본 이미지를 마우스 드래그(Pan)로 확대 조회할 수 있습니다.
+
+### 7. 💡 완벽한 게임 통합 & UI 편의성
 * 🖱️ **클릭 관통 (Click-through):** 오버레이가 마우스 클릭을 방해하지 않습니다.
 * 💬 **스마트 단축키 차단 [새로운 기능]:** 엔터(Enter) 키로 채팅창을 열어둔 상태에서는 버프 스킬이나 아이템 단축키가 반응하지 않도록 개선하여 오작동을 방지합니다.
 * 📋 **게임 명칭 복사 [새로운 기능]:** 릴레이 방(예: 이름 뒤 숫자 증가) 진행 시, 현재 입장한 방 이름을 단축키(`Shift` + `C`) 한 번으로 복사하여 다음 방 입장 시 빠르게 붙여넣기할 수 있습니다.
@@ -136,6 +152,7 @@
 * **폰트 변경:** 설치 폴더를 연 뒤, `fonts` 폴더 안에 폰트 파일을 넣으시면 환경설정에서 선택하여 적용할 수 있습니다.
 * **알림음 변경:** 설치 폴더 내의 `sounds` 폴더에 원하는 음원 파일(`.wav`, `.mp3`)을 넣으시면 알림음 설정 시 선택하여 적용할 수 있습니다.
 * **프로필 복사 및 공유:** 설치 폴더 내의 `profiles` 폴더를 통째로 복사하면 직접 생성한 버프 프로필을 다른 분들과 편하게 공유하거나 안전하게 백업하실 수 있습니다.
+* **빌드 스냅샷 백업 및 공유:** `builds` 폴더 내의 각 빌드 폴더를 백업하거나 다른 사용자에게 전달하면 캡처한 장비 세팅 및 합성 이미지를 그대로 공유하거나 보관할 수 있습니다.
 
 ---
 
@@ -151,6 +168,7 @@
 | `area.json` | ⚠️ 테러존 다국어 번역 필수 데이터 (삭제 금지) |
 | `d2_overlay_config.json` | 사용자 환경설정 저장 파일 (자동 생성) |
 | `profiles/` | 캡처한 버프 스킬 아이콘 및 설정(`skills.json`)이 저장되는 폴더 |
+| `builds/` | 빌드별 장비/스킬 스크린샷 이미지 및 세팅 데이터(`build_info.json`) 보관 폴더 |
 | `sounds/` | 버프 종료 임박 시 사용할 사용자 지정 알림음 보관 폴더 |
 | `item/data/` | 아이템 사전 검색에 사용되는 데이터베이스 파일(`.json`, `.tsv`) 보관 폴더 |
 | `fonts/` | 폰트 폴더 (원하시는 폰트를 직접 추가해서 사용하세요.) |
@@ -158,7 +176,7 @@
 | `assets\guides\` | 미니 가이드맵 표시용 이미지들 |
 
 > **📝 로그 파일 안내 (`.log`)**
-> 로그 파일은 프로그램 작동 상태를 기록하며, 파일 용량이 커지면 기존 파일명 뒤에 `.1`이 붙어 백업되고 최신 정보는 `.log` 파일에 기록됩니다. **문제 발생 시 이슈(Issue) 등록 시 아래의 로그 파일들을 함께 첨부해 주시면 보다 빠르고 정확한 분석 및 원인 파악이 가능합니다.**
+> 로그 파일은 프로그램 작동 상태를 기록하며, 파일 용량이 커지면 파일명에 `_backup`이 붙어 백업(예: `app_debug_backup.log`)되고 최신 정보는 `.log` 파일에 기록됩니다. **문제 발생 시 이슈(Issue) 등록 시 아래의 로그 파일들을 함께 첨부해 주시면 보다 빠르고 정확한 분석 및 원인 파악이 가능합니다.**
 > * `app_debug.log` : 기본 로그 파일
 > * `api_usage.log` : d2tzinfo 데이터 요청 기록 (테러존, 우버디아)
 > * `ocr_debug.log` : 글자 인식 동작 관련 로그 파일
@@ -356,6 +374,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | | `ESC` | Close Search Window |
 | **Item Recognition** | `Ctrl` + `R` | Drag scan item area manually |
 | | `Ctrl` + `T` | ⚡ Auto-detect item tooltip box |
+| **Build Snapshot** | `Ctrl` + `B` | 📷 Open / Close Gear & Skill Build Snapshot Manager |
 | **QoL Features** | `Shift` + `C` | Copy current game name (for quick Relay Runs) |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
 | | User Defined Keys | Trigger Specific Buff Timer |
@@ -397,7 +416,22 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * 📊 **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference (+/-) from the previous run using color coding.
 * 📌 **Real-time Statistics:** Provides a clean, fixed-size UI that displays your current elapsed time alongside runs, average clear time, and your best record.
 
-### 6. 💡 UI & Convenience Features
+### 6. 📷 Gear & Skill Build Snapshot Manager [NEW]
+* 🛡️ **Comprehensive Slot-by-Slot Capture:** Manage and capture your entire build setup by individual slots — Character Gear (12 slots: Helm, Armor, Main/Swap Weapons & Shields, Gloves, Belt, Boots, Amulet, Rings 1 & 2), Mercenary Gear (3 slots: Helm, Armor, Weapon), Charms, and Character Stats & Skill Trees (Tabs 1–4).
+* ⚡ **Smart Auto & Drag Capture Modes:**
+  * **⚡ Auto Capture:** Click 'Auto' on any slot, hover over the item in-game, and press **`Space`** to automatically detect and cleanly crop the item tooltip. (Cancel: `ESC`)
+  * **⌨ Drag Capture:** Click 'Drag' on any slot and press **`Space`** to open the drag selection window to manually capture any screen region. (Cancel: `ESC`)
+* 📜 **Dynamic Custom Charms:** Add, name, and manage unlimited custom charm slots (e.g., Sunder Charms, Hellfire Torch, Annihilus, Small Charms).
+* 🔍 **OCR Item Dictionary & Traderie Sync:** Click the `🔍` button on any captured gear/charm card to instantly recognize item stats via OCR, search in the DUO Item Dictionary, and check live market prices on Traderie with a single click.
+* 🖼️ **Clean Batch Image Compositing & 1-Click Clipboard Copy:**
+  * **🛡️ Merge Gear & Charms:** Automatically combines character gear, mercenary setup, and charms into a single clean 3-column vertical image.
+  * **🌟 Merge Full Build:** Merges your entire setup — gear, mercenary, charms, stats, and skill trees — into one comprehensive build snapshot image.
+  * **📋 Copy to Clipboard:** In addition to the final merged image, **individual slot images (via the zoom preview dialog)** can also be copied directly to your clipboard with one click for effortless sharing (`Ctrl` + `V`) in Discord and gaming communities.
+* 📂 **Individual File Saving & Multi-Build Management:**
+  * **Direct Folder Access:** Click the **`📂 Open Folder`** button to view and manage individual captured image files (`.png`) saved cleanly for each slot.
+  * **Multi-Build Management & Zoom Viewer:** Create, clone, rename, and search multiple build setups. Click any card thumbnail to open a high-resolution viewer with smooth mouse drag panning.
+
+### 7. 💡 UI & Convenience Features
 * 🖱️ **Click-through:** Mouse clicks pass right through the overlay, ensuring uninterrupted gameplay.
 * 💬 **Smart Chat Hotkey Block [NEW]:** Opening the chat window with `Enter` safely disables overlay hotkeys (buffs, item search) to prevent misclicks and accidental triggers.
 * 📋 **Quick Game Name Copy [NEW]:** Easily copy the current game's name with a single hotkey (`Shift` + `C`). Perfect for quick copy-pasting during sequential relay runs.
@@ -411,6 +445,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * **Custom Fonts:** Place your font files inside the `fonts` folder located in the install folder, and they will be available for selection in the settings.
 * **Custom Alert Sounds:** Place your desired audio files (`.wav`, `.mp3`) inside the `sounds` folder to use them as custom alerts.
 * **Profile Sharing & Backup:** Copy the `profiles` folder within the install directory to easily back up your custom buff profiles or share them with others.
+* **Build Snapshot Backup & Sharing:** You can back up or share individual build folders inside the `builds` directory to keep or transfer your captured gear setups and composite images.
 
 ---
 
@@ -426,6 +461,7 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 | `area.json` | ⚠️ Essential TZ translation data (Do not delete). |
 | `d2_overlay_config.json` | Auto-saved user preferences. |
 | `profiles/` | Folder containing your captured buff icons and `skills.json`. |
+| `builds/` | Folder containing gear/skill screenshots and build configuration data (`build_info.json`) per build. |
 | `sounds/` | Place your custom `.mp3` or `.wav` files here for buff alerts. |
 | `item/data/` | Database files used for the item search dictionary. |
 | `fonts/` | Default built-in fonts. You can add your own font files here. |
@@ -433,7 +469,7 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 | `assets\guides\` | Images used for displaying the mini guide map. |
 
 > **📝 Log Files (`.log`)**
-> These files record the operational status of the program. When a file's size grows, it is automatically backed up with a `.1` extension, while the latest information is continuously written to the `.log` file. **If you encounter any issues, providing these log files when submitting an issue will enable much faster and more accurate analysis.**
+> These files record the operational status of the program. When a file's size grows, it is automatically backed up with a `_backup` suffix (e.g., `app_debug_backup.log`), while the latest information is continuously written to the `.log` file. **If you encounter any issues, providing these log files when submitting an issue will enable much faster and more accurate analysis.**
 > * `app_debug.log` : Default overarching log file.
 > * `api_usage.log` : d2tzinfo data request logs (Terror Zone, DClone).
 > * `ocr_debug.log` : Text recognition (OCR) operation logs.
