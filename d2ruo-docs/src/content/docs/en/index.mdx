@@ -119,7 +119,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ### <a id="h3-en-25"></a>4. 🗺️ Region & Monster Tracking [NEW]
 * ⏱️ **Region Entry & Statistics:** Tracks the exact time spent in each area and compiles statistics. Provides a popup for the previous area's time and links with the 'Item Drop DB' to analyze your most profitable farming spots.
 * 🧭 **Mini Guide Map:** For areas with fixed exit generation rules, a mini-map pointing to the exit direction appears in the bottom right corner (Toggleable and display time configurable).
-* 👁️ **Monster Attribute Alert (Warlock specific):** Set specific monster attributes you need (e.g., for Bind Demon). When matching monsters are detected, an instant popup and sound alert will notify you, saving you the hassle of hovering over each one.
+* 👁️ **Monster Attribute Alert (Warlock specific / Win 11 OCR):** When hunting for specific attributes (e.g., for Bind Demon), DUO scans monster attributes on screen in real time and triggers visual popups and sound cues. (Operates using the Windows 11 Snipping Tool OCR engine, identical to Auto Item Recognition.)
 
 ### <a id="h3-en-26"></a>5. ⏱️ Speedrun Timer
 * 📊 **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference (+/-) from the previous run using color coding.
@@ -174,11 +174,13 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 | `sounds/` | Place your custom `.mp3` or `.wav` files here for buff alerts. |
 | `item/data/` | Database files used for the item search dictionary. |
 | `fonts/` | Default built-in fonts. You can add your own font files here. |
-| `models/` | Folder where modules required for automatic item recognition are stored. |
+| `models/` | Folder where OCR modules required for all recognition features (items, monster attributes, areas, etc.) are stored. |
 | `assets\guides\` | Images used for displaying the mini guide map. |
+| `log/` | Folder where operational logs (`.log`) and debug/capture images are stored. |
 
 > **📝 Log Files (`.log`)**
-> These files record the operational status of the program. When a file's size grows, it is automatically backed up with a `_backup` suffix (e.g., `app_debug_backup.log`), while the latest information is continuously written to the `.log` file. **If you encounter any issues, providing these log files when submitting an issue will enable much faster and more accurate analysis.**
+> Log files and debug/capture images are organized inside the `log/` folder. You can easily open this folder anytime by right-clicking the system tray icon and selecting **"📁 Open Log Folder"**.
+> These files record the operational status of the program. When a file's size grows, it is automatically backed up with a `_backup` suffix (e.g., `app_debug_backup.log`), while the latest information is continuously written to the `.log` file. **If you encounter any issues, providing the log files and debug images inside the `log/` folder when submitting an issue will enable much faster and more accurate analysis.**
 > * `app_debug.log` : Default overarching log file.
 > * `api_usage.log` : d2tzinfo data request logs (Terror Zone, DClone).
 > * `ocr_debug.log` : Text recognition (OCR) operation logs.
@@ -213,19 +215,23 @@ If you are playing on a high-resolution OLED/HDR monitor and the automatic item 
 As a potential workaround, try going to your **D2R In-game Settings -> Game Play -> Accessibility -> and enable "Large Font Mode"**. This setting may increase the tooltip's background opacity, which could significantly improve the text recognition contrast. While this has proven helpful for some users, please note that results may vary depending on your specific display configuration.
 *(Easy Explanation: Due to how HDR rendering works, captured screenshots can sometimes make the item description background too see-through, blending the text into the game world. Enabling Large Font Mode thickens and darkens the background, making it much easier for the program to scan the text clearly.)*
 
-**✂️ OCR (Auto Item Recognition) Not Working (Windows 10 to 11 Upgrade)**
-If you upgraded from Windows 10 to Windows 11, the Windows Snipping Tool might not have updated correctly, causing the OCR feature to fail. In this case, you must manually update the Snipping Tool for it to function normally.
+**✂️ OCR (Text Recognition: Items, Monster Attributes, etc.) Not Working (Snipping Tool Troubleshooting)**
+All on-screen text recognition (OCR) features in DUO—including **Auto Item Recognition** (`Ctrl`+`R`, `Ctrl`+`T`), **Monster Attribute Detection** (Warlock utility), **Area Entrance Detection**, and **Build Snapshot Gear OCR**—share and rely on the modern Windows 11 Snipping Tool OCR engine.
+
+If you upgraded from Windows 10 to Windows 11, or if a Windows update had issues, the Snipping Tool might not have updated to version 11 properly, or its package files may be corrupted. In this scenario, **not only item recognition, but also monster attribute detection and all other OCR functions will fail to scan on-screen text**. In this case, you must check, update, or reinstall the Snipping Tool as outlined below to restore all recognition features.
+
 1. Open PowerShell and enter the command: `(Get-AppxPackage -Name Microsoft.ScreenSketch).InstallLocation`
-2. If the output path shows a version 10 instead of 11, your Snipping Tool has not been updated.
-3. Even if the output path shows version 11, if the feature still does not work, the Snipping Tool might be corrupted or not installed correctly on your system.
+2. If the output path shows a version 10 instead of 11, your Snipping Tool has not been updated to the Windows 11 version.
+3. Even if the output path shows version 11, if item or monster attribute detection still does not work at all, the Snipping Tool might be corrupted or improperly registered in your system.
 4. In any of these cases, please refer to the <a href="https://support.microsoft.com/en-us/windows/uninstall-and-reinstall-paint-and-snipping-tool-d21261f8-1c3a-4776-9262-2d34928b1962" target="_blank" rel="noopener noreferrer">Microsoft troubleshooting and download page</a> to completely uninstall and reinstall the app.
-*(Easy Explanation: Your Windows was upgraded, but the screenshot tool was left behind on the old version or got corrupted, making it unable to capture and read the screen correctly. Reinstalling the newest version via the link will fix the issue even if the version number looks fine.)*
+
+*(Easy Explanation: All text-reading capabilities in DUO—such as item stats scanning, monster attribute alerts, and area name tracking—share the Windows 11 Snipping Tool OCR engine. If your Windows was upgraded to 11 but the Snipping Tool was left behind on an older version or became corrupted, the app will not be able to read any on-screen text, causing both item recognition and monster attribute detection to fail. Reinstalling the newest version via the link will fix the issue for all recognition features.)*
 
 **👾 Auto Monster Attribute OCR / Detection Troubleshooting (FAQ)**
 If the automatic monster attribute detection or popup/audio alert is not working properly, please review the following checklist:
 
-1. **Windows 11 OS & System Updates:**
-   * The text recognition (OCR) engine runs on Windows 11 features. Please ensure your Windows 11 system and Snipping Tool app are up to date.
+1. **Windows 11 OS & Snipping Tool Updates (Most Critical):**
+   * All screen text recognition (OCR) features in DUO—both Item Recognition and Monster Attribute Detection—share the Windows 11 Snipping Tool OCR engine. If monster attributes are not being detected at all, please refer to the **[✂️ OCR Not Working (Snipping Tool Troubleshooting)]** section right above to verify and update/reinstall your Snipping Tool.
 2. **OCR Detection Area Settings:**
    * Open Settings (`Ctrl` + `Shift` + `S`) -> **[👾 Monster OCR]** tab and verify that the detection region coordinates match your current display resolution and game layout.
    * If necessary, click **`🎯 Select New Area with Mouse`** and drag across the top-center area of the screen where monster names and attributes appear to recalibrate coordinates.
