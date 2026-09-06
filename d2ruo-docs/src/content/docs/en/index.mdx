@@ -97,15 +97,19 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 ### <a id="h3-en-22"></a>1. 😈 Real-time TZ & DClone Tracker
 * 🎯 **Custom Favorite Alerts:** Get text blinks and sound notifications when your favorite zones are discovered and 5 mins before they start.
-* 🔔 **Uber Alerts:** Choose your expansion (LoD/RotW) and get notified when DClone stages increase.
-* ⚡ **Smart Polling:** Highly optimized API calls to prevent traffic waste.
+* 🔔 **Uber Alerts & Spawn Detection:** Choose your expansion (LoD/RotW) and get notified when DClone stages increase. Also provides warning chimes and voice alerts if DClone progress drops unexpectedly (spawned and reset between polling cycles).
+* ⚡ **Smart Polling:** Highly optimized API calls to prevent traffic waste, automatically switching to high-speed boost mode upon detecting stage changes.
 
 ### <a id="h3-en-23"></a>2. 📖 In-game Item Search Dictionary
 * 🔍 **Powerful & Flexible Search Engine:** Search quickly by English/Korean names, **base items**, required runes, or well-known **aliases**. Use spaces to combine these keywords effortlessly.
 * 🤖 **Auto Recognition (OCR) & Custom Settings (Win 11 Only):** Quickly scan items by dragging (`Ctrl` + `R`) or using the auto-detect box (`Ctrl` + `T`). 
   * Choose exactly how the scanned numbers are applied (e.g., min only, max only, or percentage adjustments).
   > *(Easy Explanation: You no longer need to manually type item stats. Just press the hotkey, and the program will read the screen to automatically fill in the values for your Traderie search.)*
-* 📈 **Seamless Traderie Integration:** Click the button to instantly open the market page. Save your customized variable stats to your 'Favorites' for 1-click live price checks anytime.
+* 📈 **Seamless Traderie Integration (Price Check & Quick Listing) [NEW]:**
+  * **🛒 Live Market Search:** Instantly opens the Traderie market page with your configured variable stats pre-applied.
+  * **📝 Quick Listing (Price Check):** Opens the Traderie listing page with all scanned variable stats pre-filled. Simply click 'Create Listing' and enter your price to list items for sale in seconds!
+  * **📦 Category Item Base Auto-Detection & Selector:** When scanning broad categories like 'All Boots' or 'All Gloves', DUO automatically detects the specific base item (e.g., Sharkskin Boots) from OCR text. Live search browses all boots broadly, while the listing button targets the exact base for immediate sale.
+  * **⚡ Instant Tooltips:** Hovering over search/listing buttons or base dropdown displays descriptive tooltips with 0ms delay.
 * 💾 **Item Drop History (DB) [NEW]:** Automatically records the stats and drop locations of your looted items, which can be reviewed anytime. Links with the new Region Statistics feature below!
 
 ### <a id="h3-en-24"></a>3. 🛡️ Powerful Buff Overlay
@@ -140,10 +144,14 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * **Direct Folder Access:** Click the **`📂 Open Folder`** button to view and manage individual captured image files (`.png`) saved cleanly for each slot.
   * **Multi-Build Management & Zoom Viewer:** Create, clone, rename, and search multiple build setups. Click any card thumbnail to open a high-resolution viewer with smooth mouse drag panning.
 
-### <a id="h3-en-28"></a>7. 💡 UI & Convenience Features
+### <a id="h3-en-28"></a>7. 📺 OBS Studio Streaming Support & UI Convenience [NEW]
+* 🎥 **Dedicated OBS Stream Overlay (Window Capture):**
+  * Enable `OBS Stream Overlay` in Settings to register a dedicated `DUO - Stream Overlay` window for OBS Studio **[Window Capture]**.
+  * All active overlays (Terror Zone, Uber Diablo, Buff Timers, etc.) are rendered 1:1 onto a single transparent canvas, providing a smooth, flicker-free stream overlay.
+  * Maintains stable output on stream even when alt-tabbing or switching active applications.
 * 🖱️ **Click-through:** Mouse clicks pass right through the overlay, ensuring uninterrupted gameplay.
-* 💬 **Smart Chat Hotkey Block [NEW]:** Opening the chat window with `Enter` safely disables overlay hotkeys (buffs, item search) to prevent misclicks and accidental triggers.
-* 📋 **Quick Game Name Copy [NEW]:** Easily copy the current game's name with a single hotkey (`Shift` + `C`). Perfect for quick copy-pasting during sequential relay runs.
+* 💬 **Smart Chat Hotkey Block:** Opening the chat window with `Enter` safely disables overlay hotkeys (buffs, item search) to prevent misclicks and accidental triggers.
+* 📋 **Quick Game Name Copy:** Easily copy the current game's name with a single hotkey (`Shift` + `C`). Perfect for quick copy-pasting during sequential relay runs.
 * 🔔 **Smart Item Display Reminder:** If you use the 'Toggle Item Display' option in-game and forget to turn it on after joining a room (especially with loot filters), a helpful reminder message will appear at the top of the screen.
 * 🔄 **Free Layout & Auto-Update:** Drag and drop panels anywhere. Enjoy seamless background updates with a simple 1-click update button.
 
