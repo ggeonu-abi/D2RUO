@@ -584,9 +584,7 @@ If you encounter any **bugs** or have ideas for **new features**, please feel fr
 **This program is 100% free to use for everyone!**
 However, if you found this tool helpful for your gameplay and wish to support its ongoing development, you can optionally buy the developer a coffee. Your support is always greatly appreciated!
 
-* [👉 Buy me a coffee via PayPal (For non-Korean users)](https://paypal.me/haruyozzang/4)
-
-<img src="images/paypal.png" width="250" alt="paypal QR code">
+* [👉 Buy me a coffee on Ko-fi](https://ko-fi.com/mrtunnelvision)
 
 ---
 
