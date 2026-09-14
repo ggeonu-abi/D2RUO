@@ -5,10 +5,13 @@
 
 디아블로 2: 레저렉션 플레이를 더욱 쾌적하게 만들어주는 **다기능 유틸리티 오버레이(DUO)** 프로그램입니다. 기존의 **다음 공역(Terror Zone)** 및 **우버디아(Diablo Clone)** 실시간 추적 기능은 물론, 사용자 맞춤형 **버프 스킬 타이머** 및 **실시간 아이템 사전 검색** 등 게임에 유용한 다양한 편의 기능들을 화면 위에 실시간으로 제공합니다.
 
-> **⚠️ 사용 주의 및 안전성 안내 (Disclaimer & Safety Notice):**
-> * **구조적 안전성:** 본 프로그램(DUO)은 게임 클라이언트 파일을 변조하거나 게임의 핵심 데이터인 **메모리(RAM)에 일절 접근하지 않는 100% 화면 캡처(OCR) 기반 외부 앱**입니다. 디스코드 화면 공유나 방송 송출 프로그램(OBS)과 완벽히 동일한 원리로 구동되므로, 안티치트 시스템(Warden)을 자극할 물리적 접점이 없어 기존의 파일 변조 모드(Mod)나 메모리 변조 툴보다 **압도적으로 안전**합니다.
-> * **자동화 기능 전무:** 마우스 클릭이나 키보드 입력을 자동으로 제어하는 매크로(물약 자동 복용, 자동 조준 등) 기능이 일절 포함되어 있지 않으며, 오직 순수한 시각적·청각적 정보 알림만 제공합니다.
-> * **면책 조항 고지:** 다만, 블리자드 이용약관(EULA)의 '공식 인가되지 않은 제3자 외부 프로그램'이라는 포괄적 규정 특성상, 온라인 멀티플레이 환경에서 100% 면책을 보장하는 외부 도구는 존재하지 않습니다. 본 프로그램의 사용으로 인해 발생하는 만에 하나의 계정 정지 등 모든 불이익에 대한 책임은 전적으로 사용자 본인에게 있으므로, 위험성을 인지하고 동의하시는 분만 사용해 주시기 바랍니다.
+> **⚠️ 사용 주의 및 안내 (Disclaimer):**
+> 
+> DUO는 게임 클라이언트의 메모리(RAM)나 게임 파일을 읽거나 수정하지 않으며, 디스코드 화면 공유나 방송 송출 프로그램(OBS)과 유사한 원리인 화면 캡처와 OCR을 기반으로 동작하도록 설계되었습니다. 또한 게임 내 캐릭터의 이동, 공격, 스킬 사용 등을 자동으로 수행하지 않습니다.
+> 
+> 다만 DUO는 Blizzard가 공식적으로 승인하거나 제공하는 프로그램이 아니며, Blizzard의 이용약관 및 제3자 프로그램 정책에 대한 최종적인 판단은 Blizzard에 있습니다. 따라서 계정의 안전이나 제재 가능성을 보장하지 않습니다.
+> 
+> 사용자는 자신의 책임하에 프로그램을 이용해야 합니다.
 
 ---
 
@@ -311,10 +314,13 @@
 
 A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance your Diablo 2: Resurrected gameplay. In addition to real-time tracking for the upcoming **Terror Zone** and **Diablo Clone** progression across servers, it provides various quality-of-life utilities, such as a highly customizable **Buff Skill Timer** and an **In-game Item Search Dictionary**, directly on your game screen.
 
-> **⚠️ Disclaimer & Safety Notice:**
-> * **Structural Safety:** DUO is a 100% screen-capture (OCR) based external application that **never modifies, hooks, or accesses the game's memory (RAM) or client files**. It operates on the exact same technical mechanisms as standard recording/streaming software (such as OBS Studio or Discord screen share). Because it maintains zero contact with the game's internal data structures, it does not trigger Blizzard's anti-cheat system (Warden), making it **exponentially safer** than traditional client mods or memory-reading overlays.
-> * **Zero Automation:** This utility contains absolutely no automated macro elements, such as auto-potion or automated keystrokes/mouse movements. It functions strictly as a non-intrusive visual and audio alert assistant.
-> * **Terms of Use:** However, under the broad definition of 'unauthorized third-party software' in Blizzard's EULA, no external utility can claim absolute immunity in a multiplayer environment. **The user assumes all responsibility and risk** for any consequences, including account restrictions, that may arise from using this program. Please use it at your own discretion.
+> **⚠️ Disclaimer:**
+> 
+> DUO does not read or modify the game client's memory (RAM) or game files, and is designed to operate based on screen capture and OCR—using similar principles as standard streaming and screen-sharing software (such as OBS Studio or Discord). In addition, it does not perform in-game character movement, attacks, skill usage, or any automated actions.
+> 
+> However, DUO is not officially endorsed or provided by Blizzard, and the final judgment regarding Blizzard's Terms of Use and third-party software policies rests with Blizzard. Therefore, DUO does not guarantee account safety or immunity from sanctions.
+> 
+> Users must use this software at their own risk and responsibility.
 
 ---
 
