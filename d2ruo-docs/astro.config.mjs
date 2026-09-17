@@ -7,7 +7,7 @@ export default defineConfig({
 
   integrations: [
     starlight({
-      title: 'D2RUO',
+      title: 'DUO',
       
       locales: {
         root: {
