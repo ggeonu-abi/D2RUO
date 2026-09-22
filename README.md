@@ -23,27 +23,39 @@
 * [💡 커스텀 꿀팁 (Custom Tips)](#custom-tips-kr)
 * [📂 파일 및 폴더 설명](#files-kr)
 * [💻 테스트 환경 및 문제 해결 / FAQ (Troubleshooting)](#environment-kr)
+  * [1. 마이크로소프트 엣지 다운로드 경고 대처](#edge-download-kr)
+  * [2. OLED / HDR 사용자 안내 (툴팁 인식 오류)](#oled-hdr-kr)
+  * [3. OCR 기능 오류 해결 (캡처 도구 삭제 후 재설치)](#ocr-trouble-kr)
+  * [4. 몬스터 속성 자동 인식 FAQ](#monster-ocr-kr)
+  * [5. 멀티로더 사용 시 관리자 권한 안내](#multiloader-kr)
+  * [6. 백신 오탐지(False Positive) 대처 안내](#antivirus-kr)
 * [☕ 피드백 & 후원하기 (Contact & Support)](#support-kr)
 
 ---
 
 ## <a id="screenshots-kr"></a>📸 스크린샷 (Screenshots)
 
-### 1. 테러존 & 우버디아 오버레이
+**1. 테러존 & 우버디아 오버레이**
 ![다음 공역과 진행률 표시 화면](images/tz_kor.png)
 ![우버디아 진행율 서버별 표시](images/uber_kor.png)
 > 화면 상단에 다음 공역 정보 및 남은 시간을, 우측 하단에 대륙별 우버디아 진행도를 직관적인 블록(`■■■□□□`)으로 표시합니다.
 
-### 2. 사용자 맞춤형 버프 오버레이 및 프로필 관리
+<br>
+
+**2. 사용자 맞춤형 버프 오버레이 및 프로필 관리**
 ![버프 오버레이 표시 화면](images/buff-overlay.png)
 ![버프 프로필 설정 화면](images/buff_profile_kor.png)
 > 내가 원하는 스킬 아이콘을 직접 캡처하여 버프 지속 시간을 설정하고 관리할 수 있습니다. 직관적인 설정 화면에서 캐릭터나 빌드별로 프로필을 나누어 스킬을 그룹화해 보세요.
 
-### 3. 실시간 아이템 사전 검색
+<br>
+
+**3. 실시간 아이템 사전 검색**
 ![아이템 사전 검색 화면](images/item_fav_kor.png)
 > 게임 내에서 바로 유니크/룬워드 아이템의 옵션, 재료, 별칭 등을 검색하고 트레더리(Traderie) 시세까지 즉시 확인할 수 있습니다.
 
-### 4. 스피드런 타이머 (Speedrun Timer)
+<br>
+
+**4. 스피드런 타이머 (Speedrun Timer)**
 ![스피드런 타이머 화면](images/timer_kor.png)
 > 장비 교체나 빌드 변경 후 클리어 타임이 얼마나 단축되었는지 직관적으로 비교하고 상세 통계를 기록할 수 있습니다.
 
@@ -212,36 +224,65 @@
 * **Game:** 디아블로 2: 레저렉션 (주로 전체화면 모드에서 테스트하며 창모드도 병행. 권장: 전체화면 모드)
 * **Build:** Python 3.12 (PySide6)
 
-**🌐 마이크로소프트 엣지(Edge) "일반적으로 다운로드되지 않습니다" 경고 대처**
+### <a id="edge-download-kr"></a>1. 🌐 마이크로소프트 엣지(Edge) "일반적으로 다운로드되지 않습니다" 경고 대처
 엣지 브라우저나 윈도우 스마트스크린에서 다운로드를 차단하는 것은 악성코드라서가 아니라, 출시 초기라 다운로드 유저 수가 적어 안전 평판 데이터가 아직 쌓이지 않았기 때문입니다. 안심하고 아래 순서대로 유지해 주세요.
 1. 엣지 다운로드 목록(`Ctrl` + `J`)을 엽니다.
 2. 다운로드된 파일 항목의 우측 **점 세 개(...)** 버튼을 눌러 **[유지]** 를 선택합니다.
 3. 추가 안내 창이 뜨면 **[더 보기]** 를 클릭한 후, **[그래도 계속]** 을 누르면 정상적으로 설치 파일이 받아집니다.
 *(쉬운 설명: 대기업 프로그램이 아니면 브라우저가 예방 차원에서 경고를 띄우는 자연스러운 현상입니다. 위험한 파일이 아니니 안심하고 다운로드를 계속 진행하시면 됩니다.)*
 
-**🖥️ OLED / HDR 사용자 안내 (툴팁 자동 인식 오류 관련)**
+---
+
+### <a id="oled-hdr-kr"></a>2. 🖥️ OLED / HDR 사용자 안내 (툴팁 자동 인식 오류 관련)
 고해상도 OLED 또는 HDR 모니터를 사용하는 환경에서 아이템 자동 인식 기능이 지속적으로 실패하는 경우, 윈도우 HDR 화면 캡처 시 발생하는 왜곡으로 인해 아이템 툴팁 배경이 너무 투명해져서 OCR(문자 인식) 프로그램이 이를 읽지 못하는 문제일 수 있습니다.
 
 이를 해결하기 위한 한 가지 방법으로, 디아블로 2 레저렉션 게임 내 설정인 **[게임플레이] -> [손쉬운 사용] -> [큰 글자 모드]를 활성화**해 보세요. 이 설정을 켜면 툴팁 배경의 불투명도가 높아져 문자 인식률을 높이는 데 필요한 대비(Contrast)가 크게 개선될 수 있습니다. 일부 사용자 환경에서 효과가 있는 것으로 확인되었으나, 디스플레이 설정 및 사양에 따라 결과는 달라질 수 있습니다.
 *(쉬운 설명: HDR 모니터 특성상 화면을 캡처할 때 배경이 너무 투명해지면, 프로그램이 글자와 배경을 구별하기 힘들어집니다. 게임 안에서 큰 글꼴 모드를 켜면 글자 배경이 더 어두워지고 선명해져서 프로그램이 글씨를 훨씬 잘 읽을 수 있게 됩니다.)*
 
-**✂️ OCR(화면 문자 인식: 아이템 및 몬스터 속성 인식 등) 기능이 작동하지 않는 경우 (캡처 도구 문제 해결)**
-본 프로그램의 **모든 화면 문자 인식(OCR) 기능** — **아이템 자동 인식**(`Ctrl`+`R`, `Ctrl`+`T`), **몬스터 속성 자동 인식**(악마술사 전용), **지역 진입 감지**, **세팅 매니저 장비 OCR** 등 — 은 Windows 11 기본 캡처 도구(Snipping Tool)의 내장 OCR 엔진을 공통으로 추출하여 구동됩니다.
+---
 
-따라서 윈도우 10에서 윈도우 11으로 업그레이드 하셨거나 시스템 업데이트 중 문제가 발생한 경우, 윈도우 기본 캡처 도구가 11 버전으로 정상 업데이트되지 않거나 내부 파일이 꼬여 **아이템 인식뿐만 아니라 몬스터 속성 감지 등 프로그램 내 모든 OCR 기능에서 글자를 전혀 읽지 못하는 오류**가 발생할 수 있습니다. 이 경우 아래 순서대로 캡처 도구를 점검하고 최신 버전으로 업데이트/재설치해 주셔야 모든 인식 기능이 정상 작동합니다.
+### <a id="ocr-trouble-kr"></a>3. ✂️ OCR(화면 문자 인식: 아이템 및 몬스터 속성 인식 등) 기능이 작동하지 않는 경우 (캡처 도구 문제 해결)
+본 프로그램의 **모든 화면 문자 인식(OCR) 기능** — **아이템 자동 인식**(`Ctrl`+`R`, `Ctrl`+`T`), **몬스터 속성 자동 인식**(악마술사 전용), **지역 진입 감지**, **세팅 매니저 장비 OCR** 등 — 은 Windows 11 기본 캡처 도구의 내장 OCR 엔진을 공통으로 이용합니다.
 
-1. PowerShell을 열고 `(Get-AppxPackage -Name Microsoft.ScreenSketch).InstallLocation` 명령을 입력하세요.
-2. 결과로 출력되는 설치 경로에 11버전이 아닌 10버전이 포함되어 있다면 캡처 도구 업데이트가 누락된 상황입니다.
-3. 만약 결과 경로가 11버전으로 나오더라도 아이템이나 몬스터 속성 인식이 전혀 동작하지 않는다면, 캡처 도구가 시스템에 정상적으로 설치되지 않았거나 내부 파일이 꼬여있는 상태일 수 있습니다.
-4. 위 상황들에 해당한다면 [마이크로소프트 문제 해결 및 캡처도구 다운로드 링크](https://support.microsoft.com/en-us/windows/uninstall-and-reinstall-paint-and-snipping-tool-d21261f8-1c3a-4776-9262-2d34928b1962)를 참고하여 캡처 도구를 완전히 삭제 후 재설치 및 업데이트를 진행해 주세요.
+> 💡 **앱 명칭 안내:** Microsoft Store나 윈도우 환경에 따라 해당 앱의 이름이 **'캡처 도구'** 또는 **'캡처 및 스케치'** (영문: Snipping Tool / Snip & Sketch)로 표시될 수 있습니다. 둘 다 동일한 프로그램이므로 검색 및 삭제 시 참고하세요.
 
-*(쉬운 설명: 아이템 자동 인식, 몬스터 속성 알림, 지역 이름 인식 등 DUO의 모든 글자 읽기 기능은 윈도우 11 최신 캡처 도구의 인식 엔진을 공유합니다. 윈도우 버전은 올라갔는데 캡처 도구는 구형 버전 그대로 멈춰있거나 시스템 상에서 엉켜있으면 화면 속 글씨를 전혀 읽지 못해 아이템과 몬스터 속성 모두 인식이 안 됩니다. 버전이 11로 나와도 작동하지 않는다면, 링크를 통해 최신 캡처 도구를 지우고 다시 설치해 주시면 모든 인식 기능이 깔끔하게 해결됩니다.)*
+#### ❓ 윈도우 11 클린 설치 직후에도 글자 인식이 안 되는 원인
+* **윈도우 11 초기 구버전 번들 탑재:** 윈도우 11을 새로 클린 설치했거나 PowerShell에서 11버전으로 확인되더라도, 윈도우 설치 시점에 기본 탑재된 캡처 도구가 **OCR(텍스트 추출/텍스트 동작) 기능이 지원되기 전의 구버전**인 경우가 많습니다. (캡처 도구가 일정 최신 빌드 이상이어야만 OCR 엔진이 내장되어 정상 동작합니다.)
+* **스토어에서 '업데이트' 버튼이 안 뜨는 문제:** 이미 구버전 앱이 시스템에 깔려있는 상태에서는 Microsoft Store에 들어가도 '업데이트' 버튼이 뜨지 않고 그냥 **[열기]** 로만 표시되어 최신 버전으로 갱신되지 않습니다.
+* **해결의 핵심:** 따라서 **반드시 기존 앱을 먼저 완전히 삭제(제거)한 후 스토어에서 새로 설치**해야만 최신 OCR 엔진이 포함된 빌드가 정상적으로 내려받아집니다.
 
-**👾 몬스터 속성 자동 인식(Monster OCR)이 작동하지 않거나 알림이 안 뜨는 경우 (FAQ)**
+#### 💡 가장 쉽고 빠른 해결 방법 (권장: 캡처 도구 삭제 후 스토어에서 재설치)
+인식 문제가 발생했을 때 복잡하게 버전을 확인할 필요 없이 **기존 앱을 삭제한 뒤 스토어에서 다시 설치하는 것**만으로 대부분의 문제가 즉시 해결됩니다.
+
+1. **기존 앱 삭제 (가장 중요):**
+   * 윈도우 **[시작]** 버튼 우클릭 -> **[설치된 앱]**(또는 제어판 / 설정 -> 앱 -> 설치된 앱)으로 이동합니다.
+   * 앱 목록에서 **'캡처 도구'** 또는 **'캡처 및 스케치'** (Snipping Tool)를 찾습니다.
+   * 우측의 **점 세 개(...)** 버튼을 누르고 **[제거]** 를 선택하여 시스템에서 완전히 삭제합니다.
+2. **최신 버전 재설치:**
+   * **Microsoft Store** 앱을 실행하여 검색창에 **'캡처 도구'** 또는 **'캡처 및 스케치'** 를 검색하거나, [마이크로소프트 문제 해결 및 캡처도구 다운로드 링크](https://support.microsoft.com/en-us/windows/uninstall-and-reinstall-paint-and-snipping-tool-d21261f8-1c3a-4776-9262-2d34928b1962)를 통해 최신 버전으로 새로 다운로드하여 설치합니다.
+3. **프로그램 재실행 및 확인:**
+   * 캡처 도구 재설치가 완료되면 DUO 프로그램을 재실행하여 아이템 자동 인식이나 몬스터 속성 인식이 정상 작동하는지 확인합니다.
+
+#### 🔍 참고: PowerShell을 통한 캡처 도구 버전 확인
+만약 위 방법으로도 인식이 계속되지 않거나 시스템의 캡처 도구 설치 버전을 직접 확인해보고 싶으신 경우 아래 순서대로 점검할 수 있습니다.
+1. Windows 검색창에 `PowerShell`을 검색하여 실행합니다.
+2. 아래 명령어를 입력합니다:
+   ```powershell
+   (Get-AppxPackage -Name Microsoft.ScreenSketch).InstallLocation
+   ```
+3. **결과 확인:**
+   * 출력되는 설치 경로에 11버전이 아닌 10버전(예: `10.xxx...`)이 포함되어 있다면 윈도우 10 시절의 구버전 캡처 도구가 남아있는 상황입니다.
+   * 경로가 11버전으로 나오더라도 인식이 전혀 동작하지 않는다면 OCR을 지원하지 않는 윈도우 11 초기 구버전이거나 내부 파일이 손상된 상태이므로, 위의 **[삭제 후 재설치]** 과정을 꼭 진행해 주세요.
+
+*(쉬운 설명: 윈도우 11을 방금 새로 깔았더라도 기본 번들 캡처 도구가 구버전이면 글자를 전혀 읽지 못합니다. 게다가 구버전이 깔려있으면 스토어에 들어가도 '업데이트'가 안 뜨기 때문에, 반드시 [설치된 앱]에서 캡처 도구(또는 캡처 및 스케치)를 지우고 스토어에서 새로 다운로드받으셔야 최신 OCR 엔진이 설치됩니다. PowerShell 확인은 버전 점검이 필요할 때 참고 정보로만 확인하시면 됩니다.)*
+
+---
+
+### <a id="monster-ocr-kr"></a>4. 👾 몬스터 속성 자동 인식(Monster OCR)이 작동하지 않거나 알림이 안 뜨는 경우 (FAQ)
 몬스터 속성 자동 인식 및 팝업/소리 알림이 원활하게 동작하지 않을 때는 아래 체크리스트를 순서대로 확인해 주세요.
 
 1. **Windows 11 OS 및 기본 캡처 도구 최신 상태 확인 (가장 중요):**
-   * 본 프로그램의 화면 문자 인식(OCR) 기능(아이템 인식, 몬스터 속성 인식 등)은 Windows 11 기본 캡처 도구 엔진을 기반으로 동작합니다. 몬스터 속성을 전혀 읽지 못하거나 알림이 뜨지 않는다면, 바로 위의 **[✂️ OCR(화면 문자 인식) 기능이 작동하지 않는 경우]** 안내를 참고하여 캡처 도구 버전 확인 및 재설치를 진행해 주세요.
+   * 본 프로그램의 화면 문자 인식(OCR) 기능(아이템 인식, 몬스터 속성 인식 등)은 Windows 11 기본 캡처 도구 엔진을 기반으로 동작합니다. 몬스터 속성을 전혀 읽지 못하거나 알림이 뜨지 않는다면, 바로 위의 **[✂️ 3. OCR(화면 문자 인식) 기능이 작동하지 않는 경우]** 안내를 참고하여 캡처 도구 삭제 후 재설치를 진행해 주세요.
 2. **인식 영역(OCR) 좌표 설정 확인:**
    * 환경설정(`Ctrl` + `Shift` + `S`) -> **[👾 몬스터 인식]** 탭에서 **화면 인식 영역**이 현재 사용 중인 디스플레이 해상도 및 게임 화면 위치에 맞게 지정되어 있는지 확인해 주세요.
    * 필요 시 **`🎯 영역 마우스로 새로 지정`** 버튼을 누른 뒤, 몬스터에 마우스를 올렸을 때 화면 상단 중앙에 나타나는 이름 및 속성 텍스트 영역을 직접 드래그하여 좌표를 새로 맞춰주세요.
@@ -257,11 +298,15 @@
 
 *(쉬운 설명: 윈도우 11 최신 상태에서 내 화면에 맞게 인식 영역을 잡았는지 확인하고, 상단 테러존 등의 글자 간섭을 피하려면 캡처 방식을 '디아블로 화면만 캡쳐'로 변경해 보세요. 또한 필수(*)와 부가옵션 조건이 맞는지, 현재 켜둔 버프 프로필이 악마술사 직업으로 되어 있는지도 꼭 체크해 주세요!)*
 
-**👥 멀티로더 사용 시 기능이 동작하지 않는 경우 (관리자 권한)**
+---
+
+### <a id="multiloader-kr"></a>5. 👥 멀티로더 사용 시 기능이 동작하지 않는 경우 (관리자 권한)
 멀티로더를 사용하여 게임을 실행하실 경우 게임이 보통 관리자 권한으로 실행됩니다. 이 경우에는 **본 오버레이 프로그램(DUO) 또한 관리자 권한으로 실행해야만** 정상적으로 오버레이 기능과 단축키가 작동합니다. 바탕화면의 DUO 바로가기 아이콘을 우클릭하여 '관리자 권한으로 실행'을 선택해 주세요. (기존 본문에 안내가 있으나 문제 해결을 위해 다시 한번 기입합니다.)
 *(쉬운 설명: 게임이 관리자 권한(더 높은 권한)으로 켜져 있으면, 우리 오버레이 프로그램도 똑같이 높은 권한을 가져야 게임 화면 위에 무언가를 띄우거나 키보드 입력을 감지할 수 있습니다.)*
 
-**🛡️ 백신 오탐지(False Positive) 대처 안내**
+---
+
+### <a id="antivirus-kr"></a>6. 🛡️ 백신 오탐지(False Positive) 대처 안내
 이 프로그램은 게임 내 단축키 감지를 위해 `keyboard` 모듈을 사용합니다. 정식 설치형(`.exe`) 배포 방식을 도입하여 오탐지 확률을 크게 낮추었으나, 여전히 일부 백신 프로그램이 이를 악성 코드로 오인하여 실행을 차단할 수 있습니다. 
 *(쉬운 설명: 키보드 입력을 가로채는 기능은 해킹 프로그램들이 자주 쓰는 방식이라 백신이 일단 의심하고 차단하는 자연스러운 현상입니다.)*
 
@@ -332,26 +377,38 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * [💡 Custom Tips](#custom-tips-en)
 * [📂 File & Folder Descriptions](#files-en)
 * [💻 Tested Environment & Troubleshooting / FAQ](#environment-en)
+  * [1. Microsoft Edge Download Warning](#edge-download-en)
+  * [2. OLED / HDR Users (Tooltip OCR Issues)](#oled-hdr-en)
+  * [3. OCR Not Working (Snipping Tool Uninstall & Reinstall)](#ocr-trouble-en)
+  * [4. Monster Attribute Detection FAQ](#monster-ocr-en)
+  * [5. Multi-Loader & Administrator Privileges](#multiloader-en)
+  * [6. Security & False Positives (Antivirus)](#antivirus-en)
 * [☕ Contact & Support](#support-en)
 
 ---
 
 ## <a id="screenshots-en"></a>📸 Screenshots
 
-### 1. Next Terror Zone & DClone Progress
+**1. Next Terror Zone & DClone Progress**
 ![Terror Zone Screen](images/tz_eng.png)
 ![Diablo Clone Screen](images/uber_eng.png)
 
-### 2. Buff Overlay & Profile Management
+<br>
+
+**2. Buff Overlay & Profile Management**
 ![Buff Overlay Screen](images/buff-overlay.png)
 ![Buff Profile Settings Screen](images/buff_profile_eng.png)
 > Capture any skill icon directly from the game screen to set up and manage your own buff durations. Group your skills by profile for different characters or builds using the intuitive settings UI.
 
-### 3. Real-time Item Search Dictionary
+<br>
+
+**3. Real-time Item Search Dictionary**
 ![Item Search Screen](images/item_fav_eng.png)
 > Instantly search for Unique/Runeword items, base materials, aliases, and check their market value on Traderie without tabbing out of the game.
 
-### 4. Speedrun Timer
+<br>
+
+**4. Speedrun Timer**
 ![Speedrun Timer Screen](images/timer_eng.png)
 > Intuitively compare and record how much your clear time has improved after changing your equipment or builds.
 
@@ -517,36 +574,65 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 * **Game:** Diablo 2: Resurrected (Recommended: Fullscreen Mode)
 * **Build:** Python 3.12 (PySide6)
 
-**🌐 Microsoft Edge "is not commonly downloaded" Warning**
+### <a id="edge-download-en"></a>1. 🌐 Microsoft Edge "is not commonly downloaded" Warning
 If Microsoft Edge or Windows SmartScreen blocks the download, it is simply because the file is newly released and has not yet built up a download reputation history with Microsoft. It is safe to bypass.
 1. Open the Edge download list (`Ctrl` + `J`).
 2. Click the **three dots (...)** next to the blocked file and select **[Keep]**.
 3. In the pop-up warning, click **[Show more]** and then select **[Keep anyway]** to complete the download.
 *(Easy Explanation: This is a preventative warning triggered because the software is from an independent developer. The file is safe, so you can confidently click 'Keep anyway' to proceed.)*
 
-**🖥️ For OLED / HDR Users (Tooltip Auto-Detection Issues)**
+---
+
+### <a id="oled-hdr-en"></a>2. 🖥️ For OLED / HDR Users (Tooltip Auto-Detection Issues)
 If you are playing on a high-resolution OLED/HDR monitor and the automatic item detection consistently fails, it might be due to Windows HDR screen capture distortion making the item tooltip background too transparent for the OCR to read. 
 
 As a potential workaround, try going to your **D2R In-game Settings -> Game Play -> Accessibility -> and enable "Large Font Mode"**. This setting may increase the tooltip's background opacity, which could significantly improve the text recognition contrast. While this has proven helpful for some users, please note that results may vary depending on your specific display configuration.
 *(Easy Explanation: Due to how HDR rendering works, captured screenshots can sometimes make the item description background too see-through, blending the text into the game world. Enabling Large Font Mode thickens and darkens the background, making it much easier for the program to scan the text clearly.)*
 
-**✂️ OCR (Text Recognition: Items, Monster Attributes, etc.) Not Working (Snipping Tool Troubleshooting)**
+---
+
+### <a id="ocr-trouble-en"></a>3. ✂️ OCR (Text Recognition: Items, Monster Attributes, etc.) Not Working (Snipping Tool Troubleshooting)
 All on-screen text recognition (OCR) features in DUO—including **Auto Item Recognition** (`Ctrl`+`R`, `Ctrl`+`T`), **Monster Attribute Detection** (Warlock utility), **Area Entrance Detection**, and **Build Snapshot Gear OCR**—share and rely on the modern Windows 11 Snipping Tool OCR engine.
 
-If you upgraded from Windows 10 to Windows 11, or if a Windows update had issues, the Snipping Tool might not have updated to version 11 properly, or its package files may be corrupted. In this scenario, **not only item recognition, but also monster attribute detection and all other OCR functions will fail to scan on-screen text**. In this case, you must check, update, or reinstall the Snipping Tool as outlined below to restore all recognition features.
+> 💡 **App Name Note:** Depending on your Microsoft Store region and system environment, this app may be named **'Snipping Tool'** or **'Snip & Sketch'** (Korean: 캡처 도구 / 캡처 및 스케치). Both refer to the exact same application, so keep this in mind when searching or uninstalling.
 
-1. Open PowerShell and enter the command: `(Get-AppxPackage -Name Microsoft.ScreenSketch).InstallLocation`
-2. If the output path shows a version 10 instead of 11, your Snipping Tool has not been updated to the Windows 11 version.
-3. Even if the output path shows version 11, if item or monster attribute detection still does not work at all, the Snipping Tool might be corrupted or improperly registered in your system.
-4. In any of these cases, please refer to the [Microsoft troubleshooting and download page](https://support.microsoft.com/en-us/windows/uninstall-and-reinstall-paint-and-snipping-tool-d21261f8-1c3a-4776-9262-2d34928b1962) to completely uninstall and reinstall the app.
+#### ❓ Why Text Recognition Fails Even on a Fresh/Clean Windows 11 Install
+* **Early Bundled Version Lacks OCR:** Even after a fresh clean install of Windows 11, or when PowerShell reports version 11, the pre-installed version bundled with Windows is often an **early build from before Microsoft introduced the OCR (text actions/extraction) engine**. (A specific modern build of Snipping Tool is required for the OCR engine to function.)
+* **No "Update" Option in Microsoft Store:** When an older pre-installed version is already registered in the system, the Microsoft Store page often only displays an **[Open]** button instead of an **[Update]** button, preventing it from updating automatically.
+* **The Solution:** You **must completely uninstall the existing app first**, and then reinstall it from the Microsoft Store. This forces the Store to deliver the newest build containing the full OCR engine.
 
-*(Easy Explanation: All text-reading capabilities in DUO—such as item stats scanning, monster attribute alerts, and area name tracking—share the Windows 11 Snipping Tool OCR engine. If your Windows was upgraded to 11 but the Snipping Tool was left behind on an older version or became corrupted, the app will not be able to read any on-screen text, causing both item recognition and monster attribute detection to fail. Reinstalling the newest version via the link will fix the issue for all recognition features.)*
+#### 💡 Quickest & Recommended Solution: Uninstall and Reinstall from Microsoft Store
+When recognition errors occur, uninstalling the existing app and reinstalling it from the Store will immediately resolve the issue in nearly all cases without needing complex configuration.
 
-**👾 Auto Monster Attribute OCR / Detection Troubleshooting (FAQ)**
+1. **Uninstall Existing App (Most Critical):**
+   * Right-click the Windows **[Start]** button -> open **[Installed apps]** (or Control Panel / Settings -> Apps -> Installed apps).
+   * Search for **'Snipping Tool'** or **'Snip & Sketch'** in the list.
+   * Click the **three dots (...)** button and select **[Uninstall]** to completely remove it from your system.
+2. **Reinstall Latest Version from Store:**
+   * Open the **Microsoft Store** app and search for **'Snipping Tool'** or **'Snip & Sketch'**, or visit the [Microsoft troubleshooting and download page](https://support.microsoft.com/en-us/windows/uninstall-and-reinstall-paint-and-snipping-tool-d21261f8-1c3a-4776-9262-2d34928b1962) to download and install the latest version.
+3. **Restart DUO & Verify:**
+   * Once reinstalled, relaunch DUO and test if Item Recognition and Monster Attribute Detection work properly.
+
+#### 🔍 Reference: Check Snipping Tool Version via PowerShell
+If recognition still fails or you want to technically verify your installed Snipping Tool package, you can run the following check:
+1. Search for `PowerShell` in Windows search and open it.
+2. Enter the command:
+   ```powershell
+   (Get-AppxPackage -Name Microsoft.ScreenSketch).InstallLocation
+   ```
+3. **Review Output:**
+   * If the output path displays version 10 (e.g., `10.xxx...`) instead of 11, an outdated Windows 10 package is still present.
+   * Even if the path displays version 11, if recognition fails, it is an early build lacking OCR support or corrupted package files. Follow the **[Uninstall and Reinstall]** steps above.
+
+*(Easy Explanation: Even if you just cleanly installed Windows 11, the default Snipping Tool bundled with it may be an outdated version that cannot read text. Because the Microsoft Store won't show an "Update" button while the old version is installed, you must first uninstall 'Snipping Tool' (or 'Snip & Sketch') from [Installed apps] and then reinstall it from the Store to receive the latest OCR engine. The PowerShell command is only for secondary version reference.)*
+
+---
+
+### <a id="monster-ocr-en"></a>4. 👾 Auto Monster Attribute OCR / Detection Troubleshooting (FAQ)
 If the automatic monster attribute detection or popup/audio alert is not working properly, please review the following checklist:
 
 1. **Windows 11 OS & Snipping Tool Updates (Most Critical):**
-   * All screen text recognition (OCR) features in DUO—both Item Recognition and Monster Attribute Detection—share the Windows 11 Snipping Tool OCR engine. If monster attributes are not being detected at all, please refer to the **[✂️ OCR Not Working (Snipping Tool Troubleshooting)]** section right above to verify and update/reinstall your Snipping Tool.
+   * All screen text recognition (OCR) features in DUO—both Item Recognition and Monster Attribute Detection—share the Windows 11 Snipping Tool OCR engine. If monster attributes are not being detected at all, please refer to the **[✂️ 3. OCR Not Working (Snipping Tool Troubleshooting)]** section right above to uninstall and reinstall your Snipping Tool.
 2. **OCR Detection Area Settings:**
    * Open Settings (`Ctrl` + `Shift` + `S`) -> **[👾 Monster OCR]** tab and verify that the detection region coordinates match your current display resolution and game layout.
    * If necessary, click **`🎯 Select New Area with Mouse`** and drag across the top-center area of the screen where monster names and attributes appear to recalibrate coordinates.
@@ -562,11 +648,15 @@ If the automatic monster attribute detection or popup/audio alert is not working
 
 *(Easy Explanation: Make sure you are on Windows 11 with the capture region set to your screen, and try switching the capture method to 'Capture Diablo Window Only' to avoid overlay interference. Also check your required attributes (*), optional count, and make sure your active buff profile belongs to a Warlock!)*
 
-**👥 Overlay Not Working When Using Multi-Loader (Run as Administrator)**
+---
+
+### <a id="multiloader-en"></a>5. 👥 Overlay Not Working When Using Multi-Loader (Run as Administrator)
 When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly. Right-click the DUO shortcut and select 'Run as administrator'. (This is mentioned in the quick start, but noted here again for troubleshooting.)
 *(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys.)*
 
-**🛡️ Security & False Positives (Antivirus Blocks/Deletions)**
+---
+
+### <a id="antivirus-en"></a>6. 🛡️ Security & False Positives (Antivirus Blocks/Deletions)
 This program uses the `keyboard` module to detect your in-game hotkeys. Although switching to a standard installer (`.exe`) distribution significantly reduces false positives, some antivirus software may still incorrectly flag and block its execution. 
 *(Easy Explanation: Intercepting keyboard input is a method frequently used by malicious programs, so it is a natural phenomenon for antivirus software to be suspicious and block it by default.)*
 
