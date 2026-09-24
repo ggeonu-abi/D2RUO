@@ -118,33 +118,45 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ### <a id="h3-en-15"></a>2. 📖 In-game Item Search Dictionary
 * 🔍 **Powerful & Flexible Search Engine:** Search quickly by English/Korean names, **base items**, required runes, or well-known **aliases**. Use spaces to combine these keywords effortlessly.
 * 🤖 **Auto Recognition (OCR) & Custom Settings (Win 11 Only):** Quickly scan items by dragging (`Ctrl` + `R`) or using the auto-detect box (`Ctrl` + `T`). 
-  * Choose exactly how the scanned numbers are applied (e.g., min only, max only, or percentage adjustments).
+  * **Precision Variable Stat Auto-Fill:** Offers versatile modes to automatically calculate and populate stat ranges for Traderie searches:
+    * `Value ± %`, `Value ± Val`: Automatically calculates ranges centered around the actual scanned numbers (by percentage or fixed values).
+    * `Min + Val`, `Max - Val`: Fixed integer additions/subtractions from min/max stats.
+    * `Min + %`, `Max - %`: Percentage-based adjustments from min/max stats.
+    * `Min + Max`, `Min Only`, `Max Only`: Fixed bounds.
+    * Intuitive +/- stepper buttons for effortless tweaking, with item roll tiers (Perfect/High) accurately evaluated against the **actual recognized values**.
   > *(Easy Explanation: You no longer need to manually type item stats. Just press the hotkey, and the program will read the screen to automatically fill in the values for your Traderie search.)*
-* 📈 **Seamless Traderie Integration (Price Check & Quick Listing) [NEW]:**
+* 📈 **Seamless Traderie Integration (Price Check & Quick Listing):**
   * **🛒 Live Market Search:** Instantly opens the Traderie market page with your configured variable stats pre-applied.
   * **📝 Quick Listing (Price Check):** Opens the Traderie listing page with all scanned variable stats pre-filled. Simply click 'Create Listing' and enter your price to list items for sale in seconds!
   * **📦 Category Item Base Auto-Detection & Selector:** When scanning broad categories like 'All Boots' or 'All Gloves', DUO automatically detects the specific base item (e.g., Sharkskin Boots) from OCR text. Live search browses all boots broadly, while the listing button targets the exact base for immediate sale.
   * **⚡ Instant Tooltips:** Hovering over search/listing buttons or base dropdown displays descriptive tooltips with 0ms delay.
-* 💾 **Item Drop History (DB) [NEW]:** Automatically records the stats and drop locations of your looted items, which can be reviewed anytime. Links with the new Region Statistics feature below!
+* 💾 **Item Drop History (Auto DB Logging & Drop History):**
+  * **⚡ Auto DB Logging on OCR:** Scanning an item (`Ctrl` + `T` / `Ctrl` + `R`) while farming automatically logs its full stats, current area, and difficulty directly into the local SQLite database (`d2r_stats.db`).
+  * **🛡️ Smart Filtering:** Automatically skips crafted 'Runewords' and town scans to prevent clutter, keeping only authentic drop data.
+  * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 
 ### <a id="h3-en-16"></a>3. 🛡️ Powerful Buff Overlay
 * 📑 **Profile & Skill Management:** Create multiple profiles for different builds. Easily capture skill icons directly from the game screen to register hotkeys and durations.
-* 🚨 **Center Screen Countdown [NEW]:** Check important skills to trigger a flashing countdown right in the center of your screen when the buff is about to expire, ensuring you never miss a recast during intense fights.
+* 🚨 **Center Screen Countdown:** Check important skills to trigger a flashing countdown right in the center of your screen when the buff is about to expire, ensuring you never miss a recast during intense fights.
 * 🔄 **Smart Reset & Ignore System:**
   * **Auto-Reset:** Automatically resets your buff timers upon entering or leaving a game.
   * **Ignore Keys:** Prevent accidental buff resets by registering keys like your inventory hotkey as 'Ignore if Prev Key'.
 * 🎨 **Highly Customizable:** Adjust icon sizes, text sizes/positions, and formats. Assign custom audio files (`.wav`, `.mp3`) to individual skills using the `sounds` folder.
 
-### <a id="h3-en-17"></a>4. 🗺️ Region & Monster Tracking [NEW]
+### <a id="h3-en-17"></a>4. 🗺️ Region & Monster Tracking
 * ⏱️ **Region Entry & Statistics:** Tracks the exact time spent in each area and compiles statistics. Provides a popup for the previous area's time and links with the 'Item Drop DB' to analyze your most profitable farming spots.
+* 🗣️ **Previous Area Stay Time Voice Alert (TTS):** When moving between areas, DUO announces your previous area's stay time via natural TTS audio (e.g., "The Chaos Sanctuary 2 minutes 35 seconds") alongside the visual popup. Keep your eyes focused on gameplay while hearing your run times in real time. (Toggle and adjust volume in Settings -> Area Settings).
 * 🧭 **Mini Guide Map:** For areas with fixed exit generation rules, a mini-map pointing to the exit direction appears in the bottom right corner (Toggleable and display time configurable).
 * 👁️ **Monster Attribute Alert (Warlock specific / Win 11 OCR):** When hunting for specific attributes (e.g., for Bind Demon), DUO scans monster attributes on screen in real time and triggers visual popups and sound cues. (Operates using the Windows 11 Snipping Tool OCR engine, identical to Auto Item Recognition.)
 
 ### <a id="h3-en-18"></a>5. ⏱️ Speedrun Timer
+* 🔄 **Game Enter/Exit Auto-Sync:**
+  * **Auto Start & Lap Recording:** When enabled in the Settings -> Timer tab, the timer automatically starts upon entering a game and stops/records your lap time upon exit. Seamlessly tracks consecutive runs without touching manual hotkeys.
+  * **Pause while in Town:** Automatically pauses the timer while in town, starting when entering hunting grounds and pausing upon town return. Accurately benchmark pure field and boss combat clear times.
 * 📊 **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference (+/-) from the previous run using color coding.
 * 📌 **Real-time Statistics:** Provides a clean, fixed-size UI that displays your current elapsed time alongside runs, average clear time, and your best record.
 
-### <a id="h3-en-19"></a>6. 📷 Gear & Skill Build Snapshot Manager [NEW]
+### <a id="h3-en-19"></a>6. 📷 Gear & Skill Build Snapshot Manager
 * 🛡️ **Comprehensive Slot-by-Slot Capture:** Manage and capture your entire build setup by individual slots — Character Gear (12 slots: Helm, Armor, Main/Swap Weapons & Shields, Gloves, Belt, Boots, Amulet, Rings 1 & 2), Mercenary Gear (3 slots: Helm, Armor, Weapon), Charms, and Character Stats & Skill Trees (Tabs 1–4).
 * ⚡ **Smart Auto & Drag Capture Modes:**
   * **⚡ Auto Capture:** Click 'Auto' on any slot, hover over the item in-game, and press **`Space`** to automatically detect and cleanly crop the item tooltip. (Cancel: `ESC`)
@@ -159,12 +171,13 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * **Direct Folder Access:** Click the **`📂 Open Folder`** button to view and manage individual captured image files (`.png`) saved cleanly for each slot.
   * **Multi-Build Management & Zoom Viewer:** Create, clone, rename, and search multiple build setups. Click any card thumbnail to open a high-resolution viewer with smooth mouse drag panning.
 
-### <a id="h3-en-20"></a>7. 📺 OBS Studio Streaming Support & UI Convenience [NEW]
+### <a id="h3-en-20"></a>7. 📺 OBS Studio Streaming Support & UI Convenience
 * 🎥 **Dedicated OBS Stream Overlay (Window Capture):**
   * Enable `OBS Stream Overlay` in Settings to register a dedicated `DUO - Stream Overlay` window for OBS Studio **[Window Capture]**.
   * All active overlays (Terror Zone, Uber Diablo, Buff Timers, etc.) are rendered 1:1 onto a single transparent canvas, providing a smooth, flicker-free stream overlay.
   * Maintains stable output on stream even when alt-tabbing or switching active applications.
 * 🖱️ **Click-through:** Mouse clicks pass right through the overlay, ensuring uninterrupted gameplay.
+* 🛡️ **Administrator Privilege Detection & 1-Click Relaunch Helper:** When Diablo II is running with administrator privileges (e.g., multi-loader), DUO automatically detects it and displays a prompt dialog. Click the **[Restart as Administrator]** button to elevate and restart DUO in one click without manually hunting down shortcuts.
 * 💬 **Smart Chat Hotkey Block:** Opening the chat window with `Enter` safely disables overlay hotkeys (buffs, item search) to prevent misclicks and accidental triggers.
 * 📋 **Quick Game Name Copy:** Easily copy the current game's name with a single hotkey (`Shift` + `C`). Perfect for quick copy-pasting during sequential relay runs.
 * 🔔 **Smart Item Display Reminder:** If you use the 'Toggle Item Display' option in-game and forget to turn it on after joining a room (especially with loot filters), a helpful reminder message will appear at the top of the screen.
@@ -302,8 +315,10 @@ If the automatic monster attribute detection or popup/audio alert is not working
 ---
 
 ### <a id="multiloader-en"></a>5. 👥 Overlay Not Working When Using Multi-Loader (Run as Administrator)
-When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly. Right-click the DUO shortcut and select 'Run as administrator'. (This is mentioned in the quick start, but noted here again for troubleshooting.)
-*(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys.)*
+When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly.
+* **💡 1-Click Relaunch Helper:** DUO automatically detects when D2R runs with administrator privileges and displays a **helpful prompt**. Simply click **`[Restart as Administrator]`** in the dialog to elevate and restart immediately via UAC.
+* To run manually, right-click the DUO desktop shortcut and select 'Run as administrator'.
+*(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys. DUO now detects this automatically and lets you relaunch with one click!)*
 
 ---
 
