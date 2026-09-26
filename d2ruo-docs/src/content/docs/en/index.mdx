@@ -150,6 +150,12 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 ### <a id="h3-en-18"></a>4. 🗺️ Region & Monster Tracking
 * ⏱️ **Region Entry & Statistics:** Tracks the exact time spent in each area and compiles statistics. Provides a popup for the previous area's time and links with the 'Item Drop DB' to analyze your most profitable farming spots.
+* 🎯 **Multi-Client Specific D2R Window Target (Game State & Region Tracking):**
+  * When running multiple D2R clients simultaneously via multi-loader, you can designate a **[Target Window]** in Settings -> **[📍 Area Settings]**.
+  * **All Diablo Windows (Default):** Game enter/exit detection, area transitions, stay-time popups, and TTS announcements operate across all D2R windows.
+  * **Target Specific D2R Window:** Select a specific client (`[D2R #1]`, `[D2R #2]`, or custom title) so that **game enter/exit detection, area transitions, and stay-time tracking only run when that specific window is active (focused)**.
+  * **Preserves Buff Timers & Farming Stats:** Completely prevents secondary account actions (e.g., buff barbs or chant sorceresses idling in the lobby or town) from accidentally triggering a lobby exit that would reset your main character's buff timers, disrupt the speedrun timer, or contaminate farming statistics.
+  * **Smart Detection & Intuitive Calibration:** Includes descriptive tooltips, recently active client tagging (`⭐ (Recently Active)`), a refresh (`🔄`) button, offline setting preservation (`[Offline]`), and automatically aligns mouse-drag calibration and coordinate preview with the selected target window.
 * 🗣️ **Previous Area Stay Time Voice Alert (TTS):** When moving between areas, DUO announces your previous area's stay time via natural TTS audio (e.g., "The Chaos Sanctuary 2 minutes 35 seconds") alongside the visual popup. Keep your eyes focused on gameplay while hearing your run times in real time. (Toggle and adjust volume in Settings -> Area Settings).
 * 🧭 **Mini Guide Map:** For areas with fixed exit generation rules, a mini-map pointing to the exit direction appears in the bottom right corner (Toggleable and display time configurable).
 * 👁️ **Monster Attribute Alert (Warlock specific / Win 11 OCR):** When hunting for specific attributes (e.g., for Bind Demon), DUO scans monster attributes on screen in real time and triggers visual popups and sound cues. (Operates using the Windows 11 Snipping Tool OCR engine, identical to Auto Item Recognition.)
@@ -337,11 +343,11 @@ If the automatic monster attribute detection or popup/audio alert is not working
 
 ---
 
-### <a id="multiloader-en"></a>5. 👥 Overlay Not Working When Using Multi-Loader (Run as Administrator & Multi-Client Buff Target)
+### <a id="multiloader-en"></a>5. 👥 Overlay Not Working When Using Multi-Loader (Run as Administrator & Multi-Client Target Windows)
 When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly.
 * **💡 1-Click Relaunch Helper:** DUO automatically detects when D2R runs with administrator privileges and displays a **helpful prompt**. Simply click **`[Restart as Administrator]`** in the dialog to elevate and restart immediately via UAC.
 * To run manually, right-click the DUO desktop shortcut and select 'Run as administrator'.
-* **💡 Tailored Multi-Client Buff Timers:** When running multiple game clients (e.g., main char + buff barb), use the **[Target Window]** option in each skill's settings dialog. Assigning a skill to a specific client ensures that buff hotkeys only trigger when that specific client is active, eliminating cross-window hotkey conflicts.
+* **💡 Tailored Multi-Client Buff & Game State/Area Tracking Targets:** When running multiple game clients (e.g., main char + buff barb), use the **[Target Window]** option in each skill's settings dialog as well as the **[Target Window]** selector in the **[📍 Area Settings]** tab. Designating specific clients ensures that buff hotkeys, game enter/exit triggers, and area stay-time tracking only operate on your intended character, eliminating cross-window conflicts and premature buff resets.
 *(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys. DUO now detects this automatically and lets you relaunch with one click!)*
 
 ---

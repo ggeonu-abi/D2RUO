@@ -148,6 +148,12 @@
 
 ### 4. 🗺️ 지역 및 몬스터 추적 (Region & Monster Tracker)
 * ⏱️ **지역 진입 인식 및 통계:** 어느 지역에 얼마나 머물렀는지 인식하고 체류 시간 통계를 산출합니다. 직전 지역의 체류 시간을 팝업으로 즉시 확인 가능하며, 아이템 DB 기능과 연동되어 득템 명당을 분석할 수 있습니다.
+* 🎯 **다중 클라이언트(다클라) 타겟 D2R 창 지정 (게임 상태 & 지역 탐지):**
+  * 멀티로더 등을 통해 여러 개의 D2R 창을 동시에 실행하여 플레이할 때, 환경설정의 **[📍 지역 설정]** 탭에서 **[인식 대상 창]** 을 지정할 수 있습니다.
+  * **모든 디아블로 창 (기본값):** 어떤 D2R 창이 활성화되어 있어도 게임 진입/퇴장 및 지역 진입, 체류 시간 통계/음성 안내가 정상 동작합니다.
+  * **특정 D2R 창 지정:** 현재 실행 중인 클라이언트(`[D2R #1]`, `[D2R #2]` 또는 고유 창 제목) 중 원하는 창을 지정하여, **해당 D2R 창이 활성화(포커스)된 상태에서만 게임 진입/퇴장 및 지역 이동 탐지, 체류 시간 측정이 동작**하도록 제한합니다.
+  * **사냥 흐름 및 버프 보존:** 부계정(버프 바바/포탈/인챈 소서 등) 창으로 화면을 전환했을 때 부계정의 로비 화면이나 마을 체류로 인해 **본 캐릭터의 버프 타이머가 강제 초기화되거나 스피드런 타이머, 지역 체류 시간 및 사냥 통계가 왜곡되는 문제를 완벽히 방지**합니다.
+  * **스마트 감지 및 연동 편의:** 최근 활성화된 창 태그(`⭐ (방금 활성화된 창)`), 새로고침(`🔄`) 버튼을 지원하며, 지정했던 창이 일시적으로 종료되어도 설정이 보존(`[오프라인]`)됩니다. 또한 직관적인 마우스 툴팁 안내와 함께 지역 명칭 및 방제 인식 영역 마우스 드래그 지정/미리보기 시에도 지정된 타겟 창을 우선 참조합니다.
 * 🗣️ **직전 지역 체류시간 음성 안내 (TTS):** 사냥터를 이동할 때 이전 지역에서 머물렀던 시간(예: "혼돈의 성역 2분 35초")을 화면 팝업뿐만 아니라 자연스러운 TTS 음성으로 실시간 읽어줍니다. 사냥 중 화면에서 시선을 떼지 않고도 각 코스별 클리어 타임을 귀로 편리하게 확인할 수 있습니다. (환경설정의 지역 설정 탭에서 켜기/끄기 및 볼륨 조절 가능)
 * 🧭 **미니 가이드맵:** 출구 생성에 규칙이 있는 지역의 경우, 화면 우측 하단에 출구 방향 미니맵을 표시합니다. (설정에서 표시 여부 및 시간 조절 가능)
 * 👁️ **몬스터 속성 알림 (Warlock 전용 / 윈도우 11 OCR 기반):** 악마 속박(Bind Demon) 등을 위해 특정 속성을 찾아야 할 때, 화면 속 몬스터 텍스트를 실시간 인식하여 설정해둔 조건이 일치하는 몬스터를 팝업과 알림음으로 즉시 알려줍니다. (아이템 자동 인식과 동일하게 Windows 11 기본 캡처 도구의 OCR 엔진을 기반으로 동작합니다.)
@@ -184,8 +190,9 @@
   * 바알방, 카우방, 디아방, 탈방 등 방 번호가 순차적으로 증가하는 연속 릴레이 런 진행 시, 게임 화면 우측 상단의 방제 영역을 단축키(`Shift` + `C`) 한 번으로 초고속 OCR 스캔하여 클립보드에 즉시 복사합니다.
   * 복사 완료 시 화면 상단에 복사된 방제가 강조된 토스트 팝업(`방제 복사 완료 : Cow-02`)이 표시되어 직관적으로 확인할 수 있습니다.
   * 다음 방 참가 시 로비에서 `Ctrl` + `V`로 붙여넣고 끝자리 번호만 변경(+1)하여 신속하게 입장할 수 있습니다.
-* 🎯 **마우스 드래그 인식 영역 지정:**
-  * 환경설정의 **[📍 지역 설정]** -> **[방제(게임 명칭) 인식 영역 지정]** 에서 **`🎯 영역 마우스로 새로 지정`** 버튼을 클릭하여, 화면 해상도나 인터페이스 크기에 맞게 방제가 위치한 영역을 마우스 드래그로 손쉽게 지정할 수 있습니다.
+* 🎯 **마우스 드래그 인식 영역 지정 & 2열 UI 최적화:**
+  * 환경설정의 **[📍 지역 설정]** 탭 하단에서 **[지역 명칭]** 과 **[방제(게임 명칭)]** 설정 그룹을 좌/우 2열로 깔끔하게 배치하여 스크롤 없이 한눈에 조작할 수 있습니다.
+  * **`🎯 영역 마우스로 새로 지정`** 버튼을 클릭하여, 화면 해상도나 인터페이스 크기에 맞게 방제가 위치한 영역을 마우스 드래그로 손쉽게 지정할 수 있습니다.
   * 기본 영역(화면 우측 상단 25%, 높이 8%)으로 언제든지 원클릭 초기화가 가능합니다.
 * 🎛️ **정밀한 좌표 미세 조정 & 실시간 미리보기:**
   * X, Y, W, H 스핀박스를 통해 인식 영역을 픽셀 단위로 미세 조정할 수 있으며, 영역 변경 시 화면 위에 반투명 오버레이로 인식 영역을 실시간 미리보기로 확인시켜 줍니다.
@@ -336,11 +343,11 @@
 
 ---
 
-### <a id="multiloader-kr"></a>5. 👥 멀티로더 사용 시 기능이 동작하지 않는 경우 (관리자 권한 및 다클라 버프 설정)
+### <a id="multiloader-kr"></a>5. 👥 멀티로더 사용 시 기능이 동작하지 않는 경우 (관리자 권한 및 다클라 버프/게임 상태/지역 설정)
 멀티로더를 사용하여 게임을 실행하실 경우 게임이 보통 관리자 권한으로 실행됩니다. 이 경우에는 **본 오버레이 프로그램(DUO) 또한 관리자 권한으로 실행해야만** 정상적으로 오버레이 기능과 단축키가 작동합니다.
 * **💡 원클릭 관리자 권한 재실행 도우미:** DUO는 디아블로 2가 관리자 권한으로 실행된 것을 자동으로 감지하여 **권장 안내 팝업**을 띄워줍니다. 팝업에서 **`[관리자 권한으로 재실행]`** 버튼을 누르시면 번거로운 수동 조작 없이 UAC 승인 후 즉시 관리자 권한으로 전환되어 정상 작동합니다.
 * 수동으로 실행하실 때는 바탕화면의 DUO 바로가기 아이콘을 우클릭하여 '관리자 권한으로 실행'을 선택해 주세요.
-* **💡 다클라 맞춤 버프 타이머 설정:** 멀티로더 환경에서 여러 캐릭터(예: 본캐와 버프 바바 등)를 동시에 켤 때, 버프 스킬 설정창의 **[인식 대상 창]** 에서 특정 D2R 클라이언트 창을 지정해 두시면, 다른 창을 플레이할 때 버프 단축키가 겹쳐서 오작동하는 문제를 완벽히 방지할 수 있습니다.
+* **💡 다클라 맞춤 버프 및 게임 상태/지역 탐지 대상 창 설정:** 멀티로더 환경에서 여러 캐릭터(예: 본캐와 버프 바바 등)를 동시에 켤 때, 버프 스킬 설정창의 **[인식 대상 창]** 뿐만 아니라 **[📍 지역 설정]** 탭의 **[인식 대상 창]** 에서 원하는 클라이언트 창을 지정해 두시면, 다른 창을 플레이할 때 버프 단축키가 겹치거나 부계정의 로비/지역 이동으로 인해 본캐의 버프가 리셋되고 체류 시간 및 사냥 통계가 왜곡되는 문제를 완벽히 방지할 수 있습니다.
 *(쉬운 설명: 게임이 관리자 권한(더 높은 권한)으로 켜져 있으면, 우리 오버레이 프로그램도 똑같이 높은 권한을 가져야 게임 화면 위에 무언가를 띄우거나 키보드 입력을 감지할 수 있습니다. DUO가 이를 알아서 감지하고 버튼 하나로 재실행해 드리니 팝업이 뜨면 재실행 버튼을 눌러주시면 됩니다.)*
 
 ---
@@ -538,6 +545,12 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 ### 4. 🗺️ Region & Monster Tracking
 * ⏱️ **Region Entry & Statistics:** Tracks the exact time spent in each area and compiles statistics. Provides a popup for the previous area's time and links with the 'Item Drop DB' to analyze your most profitable farming spots.
+* 🎯 **Multi-Client Specific D2R Window Target (Game State & Region Tracking):**
+  * When running multiple D2R clients simultaneously via multi-loader, you can designate a **[Target Window]** in Settings -> **[📍 Area Settings]**.
+  * **All Diablo Windows (Default):** Game enter/exit detection, area transitions, stay-time popups, and TTS announcements operate across all D2R windows.
+  * **Target Specific D2R Window:** Select a specific client (`[D2R #1]`, `[D2R #2]`, or custom title) so that **game enter/exit detection, area transitions, and stay-time tracking only run when that specific window is active (focused)**.
+  * **Preserves Buff Timers & Farming Stats:** Completely prevents secondary account actions (e.g., buff barbs or chant sorceresses idling in the lobby or town) from accidentally triggering a lobby exit that would reset your main character's buff timers, disrupt the speedrun timer, or contaminate farming statistics.
+  * **Smart Detection & Intuitive Calibration:** Includes descriptive tooltips, recently active client tagging (`⭐ (Recently Active)`), a refresh (`🔄`) button, offline setting preservation (`[Offline]`), and automatically aligns mouse-drag calibration and coordinate preview with the selected target window.
 * 🗣️ **Previous Area Stay Time Voice Alert (TTS):** When moving between areas, DUO announces your previous area's stay time via natural TTS audio (e.g., "The Chaos Sanctuary 2 minutes 35 seconds") alongside the visual popup. Keep your eyes focused on gameplay while hearing your run times in real time. (Toggle and adjust volume in Settings -> Area Settings).
 * 🧭 **Mini Guide Map:** For areas with fixed exit generation rules, a mini-map pointing to the exit direction appears in the bottom right corner (Toggleable and display time configurable).
 * 👁️ **Monster Attribute Alert (Warlock specific / Win 11 OCR):** When hunting for specific attributes (e.g., for Bind Demon), DUO scans monster attributes on screen in real time and triggers visual popups and sound cues. (Operates using the Windows 11 Snipping Tool OCR engine, identical to Auto Item Recognition.)
@@ -574,8 +587,9 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * During sequential relay runs (e.g., Baal-01, Chaos-02, Cow-03), press the hotkey (`Shift` + `C`) to instantly scan the top-right game name area via OCR and copy the room name directly to your clipboard.
   * An on-screen toast alert confirms the copied name (e.g., `Game Name Copied : Cow-02`) so you can visually verify the exact room name captured.
   * Simply paste (`Ctrl` + `V`) into the join lobby and increment the trailing number (+1) for seamless and rapid consecutive runs.
-* 🎯 **Interactive Mouse Drag Area Selection:**
-  * In Settings -> **[📍 Area Settings]** -> **[Game Name OCR Region]**, click **`🎯 Select New Area with Mouse`** to easily calibrate the OCR detection box to match your display resolution and custom UI scaling by dragging directly on the game screen.
+* 🎯 **Interactive Mouse Drag Area Selection & 2-Column Compact UI:**
+  * In Settings -> **[📍 Area Settings]**, the **[Area Name OCR Region]** and **[Game Name OCR Region]** groups are arranged side-by-side in a clean 2-column layout to maximize vertical space and eliminate scrolling.
+  * Click **`🎯 Select New Area with Mouse`** to easily calibrate the OCR detection box to match your display resolution and custom UI scaling by dragging directly on the game screen.
   * One-click reset restores the default recommended region (top-right 25% width, 8% height) at any time.
 * 🎛️ **Pixel-Level Coordinate Tuning & Live Preview:**
   * Fine-tune the detection box using X, Y, W, and H spinboxes, and visualize the scanning boundary via the real-time semi-transparent preview overlay.
@@ -725,11 +739,11 @@ If the automatic monster attribute detection or popup/audio alert is not working
 
 ---
 
-### <a id="multiloader-en"></a>5. 👥 Overlay Not Working When Using Multi-Loader (Run as Administrator & Multi-Client Buff Target)
+### <a id="multiloader-en"></a>5. 👥 Overlay Not Working When Using Multi-Loader (Run as Administrator & Multi-Client Target Windows)
 When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly.
 * **💡 1-Click Relaunch Helper:** DUO automatically detects when D2R runs with administrator privileges and displays a **helpful prompt**. Simply click **`[Restart as Administrator]`** in the dialog to elevate and restart immediately via UAC.
 * To run manually, right-click the DUO desktop shortcut and select 'Run as administrator'.
-* **💡 Tailored Multi-Client Buff Timers:** When running multiple game clients (e.g., main char + buff barb), use the **[Target Window]** option in each skill's settings dialog. Assigning a skill to a specific client ensures that buff hotkeys only trigger when that specific client is active, eliminating cross-window hotkey conflicts.
+* **💡 Tailored Multi-Client Buff & Game State/Area Tracking Targets:** When running multiple game clients (e.g., main char + buff barb), use the **[Target Window]** option in each skill's settings dialog as well as the **[Target Window]** selector in the **[📍 Area Settings]** tab. Designating specific clients ensures that buff hotkeys, game enter/exit triggers, and area stay-time tracking only operate on your intended character, eliminating cross-window conflicts and premature buff resets.
 *(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys. DUO now detects this automatically and lets you relaunch with one click!)*
 
 ---
