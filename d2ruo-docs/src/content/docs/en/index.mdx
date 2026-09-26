@@ -8,7 +8,7 @@ tableOfContents: false
 
 
 
-A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance your Diablo 2: Resurrected gameplay. In addition to real-time tracking for the upcoming **Terror Zone** and **Diablo Clone** progression across servers, it provides various quality-of-life utilities, such as a highly customizable **Buff Skill Timer** and an **In-game Item Search Dictionary**, directly on your game screen.
+A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance your Diablo 2: Resurrected gameplay. In addition to real-time tracking for the upcoming **Terror Zone** and **Diablo Clone** progression across servers, it provides various quality-of-life utilities, such as a highly customizable **Buff Skill Timer**, a **Terror Zone Herald Counter**, and an **In-game Item Search Dictionary**, directly on your game screen.
 
 > **⚠️ Disclaimer:**
 > 
@@ -32,7 +32,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * [2. OLED / HDR Users (Tooltip OCR Issues)](#oled-hdr-en)
   * [3. OCR Not Working (Snipping Tool Uninstall & Reinstall)](#ocr-trouble-en)
   * [4. Monster Attribute Detection FAQ](#monster-ocr-en)
-  * [5. Multi-Loader & Administrator Privileges](#multiloader-en)
+  * [5. Multi-Loader & Administrator Privileges (Multi-Client Settings)](#multiloader-en)
   * [6. Security & False Positives (Antivirus)](#antivirus-en)
 * [☕ Contact & Support](#support-en)
 
@@ -67,7 +67,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 ## <a id="getting-started-en"></a>🚀 Getting Started
 
-### <a id="h3-en-12"></a>1. Download & Preparation
+### <a id="h3-en-13"></a>1. Download & Preparation
 1. Go to the <a href="https://github.com/ggeonu-abi/D2RUO/releases/latest/download/DUO_Setup.exe" target="_blank" rel="noopener noreferrer">👉 Latest Release Page (Click)</a>, download the **installer (`DUO_Setup.exe`)**, and run it.
    * **Default Installation Path:** `%LocalAppData%\Programs\D2R Utility Overlay` (You can copy & paste this into your file explorer address bar)
 2. Sign up/Login to <a href="https://www.d2tz.info/login" target="_blank" rel="noopener noreferrer">d2tz.info</a> and copy your **API Key (Token)** from the User Profile page.
@@ -79,7 +79,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ![Auto-Update button display screen](/D2RUO/images/auto-update_eng.png)
 > 💡 When a new version is detected, the **`⚡ Auto-Update`** button appears at the top of the screen.
 
-### <a id="h3-en-13"></a>2. Run & Configure
+### <a id="h3-en-14"></a>2. Run & Configure
 1. Run **Diablo 2: Resurrected**. (Fullscreen Mode recommended).
 2. Run the **D2R Utility Overlay** shortcut created on your Desktop or Start Menu. *(Run as administrator if your D2R client is also running as admin).*
 3. Press **`Ctrl` + `Shift` + `S`** or right-click the system tray icon to open the **`⚙️ Settings`** window.
@@ -99,7 +99,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | **Item Recognition** | `Ctrl` + `R` | Drag scan item area manually |
 | | `Ctrl` + `T` | ⚡ Auto-detect item tooltip box |
 | **Build Snapshot** | `Ctrl` + `B` | 📷 Open / Close Gear & Skill Build Snapshot Manager |
-| **QoL Features** | `Shift` + `C` | Copy current game name (for quick Relay Runs) |
+| **QoL Features** | `Shift` + `C` | Auto-capture relay game name & copy to clipboard |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
 | | User Defined Keys | Trigger Specific Buff Timer |
 | **Speedrun Timer** | `Home` | Start / Pause Timer |
@@ -110,12 +110,12 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 ## <a id="features-en"></a>✨ Key Features
 
-### <a id="h3-en-14"></a>1. 😈 Real-time TZ & DClone Tracker
+### <a id="h3-en-15"></a>1. 😈 Real-time TZ & DClone Tracker
 * 🎯 **Custom Favorite Alerts:** Get text blinks and sound notifications when your favorite zones are discovered and 5 mins before they start.
 * 🔔 **Uber Alerts & Spawn Detection:** Choose your expansion (LoD/RotW) and get notified when DClone stages increase. Also provides warning chimes and voice alerts if DClone progress drops unexpectedly (spawned and reset between polling cycles).
 * ⚡ **Smart Polling:** Highly optimized API calls to prevent traffic waste, automatically switching to high-speed boost mode upon detecting stage changes.
 
-### <a id="h3-en-15"></a>2. 📖 In-game Item Search Dictionary
+### <a id="h3-en-16"></a>2. 📖 In-game Item Search Dictionary
 * 🔍 **Powerful & Flexible Search Engine:** Search quickly by English/Korean names, **base items**, required runes, or well-known **aliases**. Use spaces to combine these keywords effortlessly.
 * 🤖 **Auto Recognition (OCR) & Custom Settings (Win 11 Only):** Quickly scan items by dragging (`Ctrl` + `R`) or using the auto-detect box (`Ctrl` + `T`). 
   * **Precision Variable Stat Auto-Fill:** Offers versatile modes to automatically calculate and populate stat ranges for Traderie searches:
@@ -135,28 +135,38 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * **🛡️ Smart Filtering:** Automatically skips crafted 'Runewords' and town scans to prevent clutter, keeping only authentic drop data.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 
-### <a id="h3-en-16"></a>3. 🛡️ Powerful Buff Overlay
+### <a id="h3-en-17"></a>3. 🛡️ Powerful Buff Overlay
 * 📑 **Profile & Skill Management:** Create multiple profiles for different builds. Easily capture skill icons directly from the game screen to register hotkeys and durations.
+* 🎯 **Multi-Client Specific D2R Window Target:**
+  * When running 2+ Diablo II: Resurrected clients simultaneously via multi-loader (e.g., Main Character + Shout Barbarian / Enchant Sorceress), you can assign a **[Target Window]** for each buff skill in the skill settings dialog.
+  * **All Diablo Windows (Default):** The hotkey activates the timer regardless of which D2R window is active.
+  * **Target Specific D2R Window:** Choose a specific client from the list of running windows (`[D2R #1]`, `[D2R #2]`, or custom window titles). The buff timer will **only trigger when that specific window is currently in the foreground (focused)**, completely preventing accidental buff triggers while controlling other game windows.
+  * **Smart Detection & Safe Fallback:** Recently active clients are highlighted with a `⭐ (Recently Active)` tag, and a refresh (`🔄`) button is provided. If the designated target client is closed or not found, DUO automatically falls back to all-window mode with an on-screen toast alert, ensuring you never miss a recast.
 * 🚨 **Center Screen Countdown:** Check important skills to trigger a flashing countdown right in the center of your screen when the buff is about to expire, ensuring you never miss a recast during intense fights.
 * 🔄 **Smart Reset & Ignore System:**
   * **Auto-Reset:** Automatically resets your buff timers upon entering or leaving a game.
   * **Ignore Keys:** Prevent accidental buff resets by registering keys like your inventory hotkey as 'Ignore if Prev Key'.
 * 🎨 **Highly Customizable:** Adjust icon sizes, text sizes/positions, and formats. Assign custom audio files (`.wav`, `.mp3`) to individual skills using the `sounds` folder.
 
-### <a id="h3-en-17"></a>4. 🗺️ Region & Monster Tracking
+### <a id="h3-en-18"></a>4. 🗺️ Region & Monster Tracking
 * ⏱️ **Region Entry & Statistics:** Tracks the exact time spent in each area and compiles statistics. Provides a popup for the previous area's time and links with the 'Item Drop DB' to analyze your most profitable farming spots.
 * 🗣️ **Previous Area Stay Time Voice Alert (TTS):** When moving between areas, DUO announces your previous area's stay time via natural TTS audio (e.g., "The Chaos Sanctuary 2 minutes 35 seconds") alongside the visual popup. Keep your eyes focused on gameplay while hearing your run times in real time. (Toggle and adjust volume in Settings -> Area Settings).
 * 🧭 **Mini Guide Map:** For areas with fixed exit generation rules, a mini-map pointing to the exit direction appears in the bottom right corner (Toggleable and display time configurable).
 * 👁️ **Monster Attribute Alert (Warlock specific / Win 11 OCR):** When hunting for specific attributes (e.g., for Bind Demon), DUO scans monster attributes on screen in real time and triggers visual popups and sound cues. (Operates using the Windows 11 Snipping Tool OCR engine, identical to Auto Item Recognition.)
+* 👑 **Terror Zone Herald Spawn Alert & Counter (All Classes):**
+  * **Real-time Automatic Herald Detection:** Automatically detects Stages 1 to 5 Heralds (Fright, Dread, Fear, Horror, Terror) in real-time when hovering over monsters in Terror Zones, displaying an unobtrusive 1-line banner (e.g. `[Herald Stage 5] (Total 5 | Stg5 2)`) with a chime. (Multi-language support)
+  * **Available for All Character Classes:** Unlike Warlock-only attribute alerts, Herald spawn alerts operate **seamlessly across all character class profiles** without restrictions.
+  * **Smart Duplicate Prevention:** Prevents repeated chimes or duplicate counts during extended combat, kiting, or re-targeting the same herald.
+  * **Session Cumulative Statistics & Room Auto-Sync:** Automatically resets room states on game enter/exit, and tracks total herald encounters and Stage 5 spawns across your session. Settings -> **[👾 Monster OCR]** tab provides dedicated toggle controls, display options, and a manual reset (`↺`) button.
 
-### <a id="h3-en-18"></a>5. ⏱️ Speedrun Timer
+### <a id="h3-en-19"></a>5. ⏱️ Speedrun Timer
 * 🔄 **Game Enter/Exit Auto-Sync:**
   * **Auto Start & Lap Recording:** When enabled in the Settings -> Timer tab, the timer automatically starts upon entering a game and stops/records your lap time upon exit. Seamlessly tracks consecutive runs without touching manual hotkeys.
   * **Pause while in Town:** Automatically pauses the timer while in town, starting when entering hunting grounds and pausing upon town return. Accurately benchmark pure field and boss combat clear times.
 * 📊 **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference (+/-) from the previous run using color coding.
 * 📌 **Real-time Statistics:** Provides a clean, fixed-size UI that displays your current elapsed time alongside runs, average clear time, and your best record.
 
-### <a id="h3-en-19"></a>6. 📷 Gear & Skill Build Snapshot Manager
+### <a id="h3-en-20"></a>6. 📷 Gear & Skill Build Snapshot Manager
 * 🛡️ **Comprehensive Slot-by-Slot Capture:** Manage and capture your entire build setup by individual slots — Character Gear (12 slots: Helm, Armor, Main/Swap Weapons & Shields, Gloves, Belt, Boots, Amulet, Rings 1 & 2), Mercenary Gear (3 slots: Helm, Armor, Weapon), Charms, and Character Stats & Skill Trees (Tabs 1–4).
 * ⚡ **Smart Auto & Drag Capture Modes:**
   * **⚡ Auto Capture:** Click 'Auto' on any slot, hover over the item in-game, and press **`Space`** to automatically detect and cleanly crop the item tooltip. (Cancel: `ESC`)
@@ -171,7 +181,20 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * **Direct Folder Access:** Click the **`📂 Open Folder`** button to view and manage individual captured image files (`.png`) saved cleanly for each slot.
   * **Multi-Build Management & Zoom Viewer:** Create, clone, rename, and search multiple build setups. Click any card thumbnail to open a high-resolution viewer with smooth mouse drag panning.
 
-### <a id="h3-en-20"></a>7. 📺 OBS Studio Streaming Support & UI Convenience
+### <a id="h3-en-21"></a>7. 📋 Relay Game Name OCR Capture & Copy
+* ⚡ **1-Click High-Speed Game Name OCR & Copy:**
+  * During sequential relay runs (e.g., Baal-01, Chaos-02, Cow-03), press the hotkey (`Shift` + `C`) to instantly scan the top-right game name area via OCR and copy the room name directly to your clipboard.
+  * An on-screen toast alert confirms the copied name (e.g., `Game Name Copied : Cow-02`) so you can visually verify the exact room name captured.
+  * Simply paste (`Ctrl` + `V`) into the join lobby and increment the trailing number (+1) for seamless and rapid consecutive runs.
+* 🎯 **Interactive Mouse Drag Area Selection:**
+  * In Settings -> **[📍 Area Settings]** -> **[Game Name OCR Region]**, click **`🎯 Select New Area with Mouse`** to easily calibrate the OCR detection box to match your display resolution and custom UI scaling by dragging directly on the game screen.
+  * One-click reset restores the default recommended region (top-right 25% width, 8% height) at any time.
+* 🎛️ **Pixel-Level Coordinate Tuning & Live Preview:**
+  * Fine-tune the detection box using X, Y, W, and H spinboxes, and visualize the scanning boundary via the real-time semi-transparent preview overlay.
+* ⌨️ **Full Hotkey Customization:**
+  * Customize the hotkey to any key combination (default: `Shift` + `C`), or quickly reset (`↺`) or disable (`✖`) it via the dedicated UI controls.
+
+### <a id="h3-en-22"></a>8. 📺 OBS Studio Streaming Support & UI Convenience
 * 🎥 **Dedicated OBS Stream Overlay (Window Capture):**
   * Enable `OBS Stream Overlay` in Settings to register a dedicated `DUO - Stream Overlay` window for OBS Studio **[Window Capture]**.
   * All active overlays (Terror Zone, Uber Diablo, Buff Timers, etc.) are rendered 1:1 onto a single transparent canvas, providing a smooth, flicker-free stream overlay.
@@ -179,7 +202,6 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * 🖱️ **Click-through:** Mouse clicks pass right through the overlay, ensuring uninterrupted gameplay.
 * 🛡️ **Administrator Privilege Detection & 1-Click Relaunch Helper:** When Diablo II is running with administrator privileges (e.g., multi-loader), DUO automatically detects it and displays a prompt dialog. Click the **[Restart as Administrator]** button to elevate and restart DUO in one click without manually hunting down shortcuts.
 * 💬 **Smart Chat Hotkey Block:** Opening the chat window with `Enter` safely disables overlay hotkeys (buffs, item search) to prevent misclicks and accidental triggers.
-* 📋 **Quick Game Name Copy:** Easily copy the current game's name with a single hotkey (`Shift` + `C`). Perfect for quick copy-pasting during sequential relay runs.
 * 🔔 **Smart Item Display Reminder:** If you use the 'Toggle Item Display' option in-game and forget to turn it on after joining a room (especially with loot filters), a helpful reminder message will appear at the top of the screen.
 * 🔄 **Free Layout & Auto-Update:** Drag and drop panels anywhere. Enjoy seamless background updates with a simple 1-click update button.
 
@@ -256,7 +278,7 @@ As a potential workaround, try going to your **D2R In-game Settings -> Game Play
 ---
 
 ### <a id="ocr-trouble-en"></a>3. ✂️ OCR (Text Recognition: Items, Monster Attributes, etc.) Not Working (Snipping Tool Troubleshooting)
-All on-screen text recognition (OCR) features in DUO—including **Auto Item Recognition** (`Ctrl`+`R`, `Ctrl`+`T`), **Monster Attribute Detection** (Warlock utility), **Area Entrance Detection**, and **Build Snapshot Gear OCR**—share and rely on the modern Windows 11 Snipping Tool OCR engine.
+All on-screen text recognition (OCR) features in DUO—including **Auto Item Recognition** (`Ctrl`+`R`, `Ctrl`+`T`), **Relay Game Name Capture** (`Shift`+`C`), **Monster Attribute Detection** (Warlock utility), **Area Entrance Detection**, and **Build Snapshot Gear OCR**—share and rely on the modern Windows 11 Snipping Tool OCR engine.
 
 > 💡 **App Name Note:** Depending on your Microsoft Store region and system environment, this app may be named **'Snipping Tool'** or **'Snip & Sketch'** (Korean: 캡처 도구 / 캡처 및 스케치). Both refer to the exact same application, so keep this in mind when searching or uninstalling.
 
@@ -309,15 +331,17 @@ If the automatic monster attribute detection or popup/audio alert is not working
 5. **Character Class in Active Buff Profile (Warlock Only):**
    * Monster Attribute OCR is designed specifically for the Warlock class ('Bind Demon' skill utility). To eliminate unnecessary CPU overhead, **detection only runs when the currently active Buff Profile is configured as `Warlock` (악마술사)**.
    * If a profile for another character class (e.g., Sorceress, Paladin) is active, monster detection automatically pauses. Please ensure your active buff profile's class is set to Warlock.
+   * 💡 **Note (Herald Alerts Work for All Classes):** Terror Zone Herald spawn alerts work universally across **all character classes** regardless of the active profile. If Herald alerts do not appear, please verify that the **[Terror Zone Herald Spawn Alert]** option is checked in Settings -> **[👾 Monster OCR]** tab.
 
-*(Easy Explanation: Make sure you are on Windows 11 with the capture region set to your screen, and try switching the capture method to 'Capture Diablo Window Only' to avoid overlay interference. Also check your required attributes (*), optional count, and make sure your active buff profile belongs to a Warlock!)*
+*(Easy Explanation: Make sure you are on Windows 11 with the capture region set to your screen, and try switching the capture method to 'Capture Diablo Window Only' to avoid overlay interference. Also check your required attributes (*), optional count, and make sure your active buff profile belongs to a Warlock! Note that Terror Zone Herald alerts work for all classes at all times, so you only need to ensure the Herald alert option is enabled.)*
 
 ---
 
-### <a id="multiloader-en"></a>5. 👥 Overlay Not Working When Using Multi-Loader (Run as Administrator)
+### <a id="multiloader-en"></a>5. 👥 Overlay Not Working When Using Multi-Loader (Run as Administrator & Multi-Client Buff Target)
 When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly.
 * **💡 1-Click Relaunch Helper:** DUO automatically detects when D2R runs with administrator privileges and displays a **helpful prompt**. Simply click **`[Restart as Administrator]`** in the dialog to elevate and restart immediately via UAC.
 * To run manually, right-click the DUO desktop shortcut and select 'Run as administrator'.
+* **💡 Tailored Multi-Client Buff Timers:** When running multiple game clients (e.g., main char + buff barb), use the **[Target Window]** option in each skill's settings dialog. Assigning a skill to a specific client ensures that buff hotkeys only trigger when that specific client is active, eliminating cross-window hotkey conflicts.
 *(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys. DUO now detects this automatically and lets you relaunch with one click!)*
 
 ---
@@ -337,12 +361,12 @@ If the program won't run or the shortcut does not work, please try the following
 
 ## <a id="support-en"></a>☕ Contact & Support
 
-### <a id="h3-en-21"></a>💡 Bug Reports & Feature Requests (Feedback)
+### <a id="h3-en-23"></a>💡 Bug Reports & Feature Requests (Feedback)
 If you encounter any **bugs** or have ideas for **new features**, please feel free to let me know using the methods below!
 * **GitHub Issues (Recommended):** Please leave a post on the <a href="https://github.com/ggeonu-abi/D2RUO/issues" target="_blank" rel="noopener noreferrer">GitHub Issues page (Click)</a>.
 * **Email:** You can always send an email to `miabohoja1@gmail.com`.
 
-### <a id="h3-en-22"></a>☕ Support (Donation)
+### <a id="h3-en-24"></a>☕ Support (Donation)
 **This program is 100% free to use for everyone!**
 However, if you found this tool helpful for your gameplay and wish to support its ongoing development, you can optionally buy the developer a coffee. Your support is always greatly appreciated!
 
