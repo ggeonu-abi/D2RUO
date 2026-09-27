@@ -138,8 +138,12 @@
 * 🎯 **다중 클라이언트(다클라) 타겟 D2R 창 지정:**
   * 멀티로더 등을 통해 2개 이상의 디아블로 창을 동시에 실행하여 플레이할 때(예: 본 캐릭터 + 함성 바바 / 인챈트 소서 등), 각 스킬 상세 설정에서 **[인식 대상 창]** 을 개별 지정할 수 있습니다.
   * **모든 디아블로 창 (기본값):** 어떤 D2R 창이 활성화되어 있어도 단축키가 즉시 작동합니다.
-  * **특정 D2R 창 지정:** 현재 실행 중인 클라이언트 목록(`[D2R #1]`, `[D2R #2]` 등 또는 고유 창 제목) 중 원하는 창을 직접 지정하여, **해당 D2R 창이 활성화(포커스)된 상태에서만 버프 단축키가 작동**하도록 제한합니다. 다른 계정 창 조작 중 키가 겹쳐서 원치 않는 버프 타이머가 오작동하는 것을 완벽히 방지합니다.
+  * **특정 D2R 창 지정:** 현재 실행 중인 클라이언트 목록(`[D2R #1]`, `[D2R #2]` 등 또는 고유 창 제목) 중 원하는 창을 직접 지정하여, **해당 D2R 창이 활성화(포커스)된 상태에서만 버프 단축키가 작동**하도록 제한합니다. 다른 계정 창 조작 중 키가 겹쳐서 원치 않는 버프 타이머가 오작동하는 것을 완벽히 방지하며, 스킬 목록 테이블에서도 텍스트가 잘리지 않도록 핵심 번호/명칭으로 깔끔하게 축약(`F1 (#1)`, `F1 (#2:Sorc…)`) 표시되고 툴팁으로 전체 정보를 확인할 수 있습니다.
   * **스마트 감지 및 자동 폴백(Fallback):** 방금 활성화되었던 창을 `⭐ (방금 활성화된 창)` 태그로 표시해 주며, 목록 새로고침(`🔄`) 버튼을 지원합니다. 만약 지정했던 타겟 창이 종료되어 찾을 수 없을 때는 버프 누락을 방지하기 위해 전체 창 모드로 자동 전환되며 상단 토스트 알림으로 안전하게 안내합니다.
+* 🔀 **배타적 버프 그룹 (상호 배제 / Mutual Exclusion):**
+  * 원소술사(소서리스)의 얼음 갑옷 3종(얼어붙은/오한/마력 깃든 갑옷), 성기사(팔라딘) 오라류(광신/신성한 빙결/선고 등), 암살자의 버스트/페이드, 강령술사의 골렘류처럼 **동시에 1개만 활성화되어야 하는 스킬들을 그룹(`G1`~`G5`)으로 지정**할 수 있습니다.
+  * 같은 그룹에 속한 스킬 중 하나가 켜지면 **이전에 켜져 있던 동일 그룹의 다른 버프 타이머는 자동으로 즉시 꺼집니다.**
+  * 스킬 관리 테이블에 전용 **[그룹]** 열과 컬러 뱃지(`[G1]`, `[G2]` 등)가 추가되어 상호 배제 그룹을 한눈에 식별하고 클릭하여 빠르게 변경할 수 있습니다.
 * 🚨 **중앙 카운트다운 알림:** 스킬 중에 중요하다고 생각되는 항목에 체크해두시면, 알림이 시작될 때 화면 가운데에 카운트다운 및 깜빡임이 추가로 표시되어 전투 중에도 재시전 타이밍을 절대 놓치지 않게 도와줍니다.
 * 🔄 **스마트 버프 초기화 및 무시:** 
   * **자동 초기화:** 방 입장/퇴장 시 타이머를 자동으로 초기화합니다.
@@ -190,9 +194,8 @@
   * 바알방, 카우방, 디아방, 탈방 등 방 번호가 순차적으로 증가하는 연속 릴레이 런 진행 시, 게임 화면 우측 상단의 방제 영역을 단축키(`Shift` + `C`) 한 번으로 초고속 OCR 스캔하여 클립보드에 즉시 복사합니다.
   * 복사 완료 시 화면 상단에 복사된 방제가 강조된 토스트 팝업(`방제 복사 완료 : Cow-02`)이 표시되어 직관적으로 확인할 수 있습니다.
   * 다음 방 참가 시 로비에서 `Ctrl` + `V`로 붙여넣고 끝자리 번호만 변경(+1)하여 신속하게 입장할 수 있습니다.
-* 🎯 **마우스 드래그 인식 영역 지정 & 2열 UI 최적화:**
-  * 환경설정의 **[📍 지역 설정]** 탭 하단에서 **[지역 명칭]** 과 **[방제(게임 명칭)]** 설정 그룹을 좌/우 2열로 깔끔하게 배치하여 스크롤 없이 한눈에 조작할 수 있습니다.
-  * **`🎯 영역 마우스로 새로 지정`** 버튼을 클릭하여, 화면 해상도나 인터페이스 크기에 맞게 방제가 위치한 영역을 마우스 드래그로 손쉽게 지정할 수 있습니다.
+* 🎯 **마우스 드래그 인식 영역 지정:**
+  * 환경설정의 **[📍 지역 설정]** -> **[방제(게임 명칭) 인식 영역 지정]** 에서 **`🎯 영역 마우스로 새로 지정`** 버튼을 클릭하여, 화면 해상도나 인터페이스 크기에 맞게 방제가 위치한 영역을 마우스 드래그로 손쉽게 지정할 수 있습니다.
   * 기본 영역(화면 우측 상단 25%, 높이 8%)으로 언제든지 원클릭 초기화가 가능합니다.
 * 🎛️ **정밀한 좌표 미세 조정 & 실시간 미리보기:**
   * X, Y, W, H 스핀박스를 통해 인식 영역을 픽셀 단위로 미세 조정할 수 있으며, 영역 변경 시 화면 위에 반투명 오버레이로 인식 영역을 실시간 미리보기로 확인시켜 줍니다.
@@ -535,8 +538,12 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * 🎯 **Multi-Client Specific D2R Window Target:**
   * When running 2+ Diablo II: Resurrected clients simultaneously via multi-loader (e.g., Main Character + Shout Barbarian / Enchant Sorceress), you can assign a **[Target Window]** for each buff skill in the skill settings dialog.
   * **All Diablo Windows (Default):** The hotkey activates the timer regardless of which D2R window is active.
-  * **Target Specific D2R Window:** Choose a specific client from the list of running windows (`[D2R #1]`, `[D2R #2]`, or custom window titles). The buff timer will **only trigger when that specific window is currently in the foreground (focused)**, completely preventing accidental buff triggers while controlling other game windows.
+  * **Target Specific D2R Window:** Choose a specific client from the list of running windows (`[D2R #1]`, `[D2R #2]`, or custom window titles). The buff timer will **only trigger when that specific window is currently in the foreground (focused)**, completely preventing accidental buff triggers while controlling other game windows. In the skill list table, target window names are cleanly abbreviated (e.g. `F1 (#1)`, `F1 (#2:Sorc…)`) to prevent text clipping while retaining full details in tooltips.
   * **Smart Detection & Safe Fallback:** Recently active clients are highlighted with a `⭐ (Recently Active)` tag, and a refresh (`🔄`) button is provided. If the designated target client is closed or not found, DUO automatically falls back to all-window mode with an on-screen toast alert, ensuring you never miss a recast.
+* 🔀 **Exclusive Buff Groups (Mutual Exclusion):**
+  * Group mutually exclusive skills that cannot be active simultaneously into dedicated groups (`G1`–`G5`), such as Sorceress Armors (Frozen / Shiver / Chilling Armor), Paladin Auras (Fanaticism / Holy Freeze / Conviction), Assassin Burst of Speed / Fade, or Necromancer Golems.
+  * Activating any buff in a group will **automatically and instantly cancel other running buff timers within the same group**.
+  * The Buff Manager table features a dedicated **[Group]** column with distinct colored badges (`[G1]`, `[G2]`, etc.) for viewing and reconfiguring grouped skills at a glance.
 * 🚨 **Center Screen Countdown:** Check important skills to trigger a flashing countdown right in the center of your screen when the buff is about to expire, ensuring you never miss a recast during intense fights.
 * 🔄 **Smart Reset & Ignore System:**
   * **Auto-Reset:** Automatically resets your buff timers upon entering or leaving a game.
@@ -587,9 +594,8 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * During sequential relay runs (e.g., Baal-01, Chaos-02, Cow-03), press the hotkey (`Shift` + `C`) to instantly scan the top-right game name area via OCR and copy the room name directly to your clipboard.
   * An on-screen toast alert confirms the copied name (e.g., `Game Name Copied : Cow-02`) so you can visually verify the exact room name captured.
   * Simply paste (`Ctrl` + `V`) into the join lobby and increment the trailing number (+1) for seamless and rapid consecutive runs.
-* 🎯 **Interactive Mouse Drag Area Selection & 2-Column Compact UI:**
-  * In Settings -> **[📍 Area Settings]**, the **[Area Name OCR Region]** and **[Game Name OCR Region]** groups are arranged side-by-side in a clean 2-column layout to maximize vertical space and eliminate scrolling.
-  * Click **`🎯 Select New Area with Mouse`** to easily calibrate the OCR detection box to match your display resolution and custom UI scaling by dragging directly on the game screen.
+* 🎯 **Interactive Mouse Drag Area Selection:**
+  * In Settings -> **[📍 Area Settings]** -> **[Game Name OCR Region]**, click **`🎯 Select New Area with Mouse`** to easily calibrate the OCR detection box to match your display resolution and custom UI scaling by dragging directly on the game screen.
   * One-click reset restores the default recommended region (top-right 25% width, 8% height) at any time.
 * 🎛️ **Pixel-Level Coordinate Tuning & Live Preview:**
   * Fine-tune the detection box using X, Y, W, and H spinboxes, and visualize the scanning boundary via the real-time semi-transparent preview overlay.
