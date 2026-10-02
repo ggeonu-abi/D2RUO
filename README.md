@@ -202,7 +202,21 @@
 * ⌨️ **자유로운 단축키 커스텀:**
   * 기본 단축키인 `Shift` + `C` 외에도 사용자가 원하는 단축키로 자유롭게 변경할 수 있으며, 초기화(`↺`) 및 비활성화(`✖`) 버튼을 지원합니다.
 
-### 8. 📺 방송 송출(OBS Studio) 지원 및 UI 편의성
+### 8. 📊 오늘의 파밍 리포트 (Daily Farming Report)
+* 📈 **종합 사냥 결산 인포그래픽 카드 생성:**
+  * 하루 또는 최근 3일/7일 동안 진행한 사냥 데이터를 집계하여, 디아블로 감성의 완성도 높은 고해상도 인포그래픽 카드 이미지로 자동 렌더링합니다.
+  * 시스템 트레이 우클릭 메뉴의 **[📊 오늘의 파밍 리포트]** 또는 환경설정의 **[지역 통계]** 탭 상단 버튼을 통해 언제든 즉시 조회할 수 있습니다.
+* ⏱️ **정밀한 사냥 & 런 통계:**
+  * 마을(Town) 체류 시간을 분리하고 필드/던전에서의 **순수 사냥 시간**, **총 런 횟수**, **평균 런 타임**을 정밀하게 산출합니다.
+  * 사냥터별 방문 횟수와 클리어 타임을 시각적인 비율 게이지 바와 함께 상위 사냥터 TOP 7으로 요약합니다.
+* 🎁 **획득 아이템(Loot) 및 전령(Herald) 결산:**
+  * 사냥 중 스캔(`Ctrl + T`)된 유니크, 세트, 룬 등의 득템 내역을 등급별 시그니처 색상 뱃지 및 획득 장소/시간과 함께 하이라이트로 정리합니다.
+  * 공포의 영역 전령 조우 횟수(총합 및 5단계 출현 수, 단계별 분포)를 한눈에 파악할 수 있습니다.
+* 📋 **원클릭 클립보드 복사 & 이미지 저장:**
+  * **[📋 이미지로 클립보드 복사]** 버튼을 누르면 완성된 고화질 리포트 카드가 즉시 클립보드에 복사되어, 디스코드, 카페, 커뮤니티 게시판에 `Ctrl + V`로 손쉽게 붙여넣고 사냥 성과를 공유할 수 있습니다.
+  * **[💾 이미지 파일로 저장]** 을 통해 원하는 경로에 PNG 이미지로 영구 보관할 수도 있습니다.
+
+### 9. 📺 방송 송출(OBS Studio) 지원 및 UI 편의성
 * 🎥 **OBS Studio 전용 스트림 오버레이 (윈도우 캡처 지원):**
   * 환경설정에서 `OBS 송출용 오버레이 활성화`를 켜면, OBS Studio의 **[윈도우 캡처]** 소스에서 `DUO - Stream Overlay` 창을 추가할 수 있습니다.
   * 테러존, 우버디아, 버프 타이머 등 게임 화면 위의 모든 오버레이를 1:1 위치 그대로 투명 캔버스 위에 일괄 렌더링하여 깜빡임 없이 안정적으로 방송 송출 화면에 합성합니다.
@@ -602,7 +616,21 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * ⌨️ **Full Hotkey Customization:**
   * Customize the hotkey to any key combination (default: `Shift` + `C`), or quickly reset (`↺`) or disable (`✖`) it via the dedicated UI controls.
 
-### 8. 📺 OBS Studio Streaming Support & UI Convenience
+### 8. 📊 Daily Farming Report
+* 📈 **Comprehensive Farming Infographic Card:**
+  * Automatically aggregates your farming data over Today, Yesterday, Last 3 Days, or Last 7 Days into a sleek, Diablo-themed high-resolution infographic card image.
+  * Accessible anytime via the system tray right-click menu **[📊 Daily Farming Report]** or via the dedicated button in Settings -> **[Region Stats]** tab.
+* ⏱️ **Accurate Hunting & Lap Analytics:**
+  * Accurately isolates town downtime to measure **pure field combat time**, **total runs**, and **average clear times**.
+  * Visualizes your most visited zones and clear times via clean horizontal ratio bars highlighting your Top 7 farming spots.
+* 🎁 **Loot Highlights & Terror Zone Herald Summary:**
+  * Showcases in-game scanned (`Ctrl + T`) items—categorized with authentic rarity color badges (Unique, Set, Rune, etc.) alongside drop locations and timestamps.
+  * Displays Terror Zone Herald encounters across all stages (1–5), highlighting Stage 5 Terror Herald spawns.
+* 📋 **1-Click Clipboard Copy & Image Export:**
+  * Click **[📋 Copy Image to Clipboard]** to immediately copy the full report image to your clipboard for effortless pasting (`Ctrl` + `V`) into Discord, forums, and gaming communities.
+  * Export clean PNG files anytime with **[💾 Save Image to File]** for archiving.
+
+### 9. 📺 OBS Studio Streaming Support & UI Convenience
 * 🎥 **Dedicated OBS Stream Overlay (Window Capture):**
   * Enable `OBS Stream Overlay` in Settings to register a dedicated `DUO - Stream Overlay` window for OBS Studio **[Window Capture]**.
   * All active overlays (Terror Zone, Uber Diablo, Buff Timers, etc.) are rendered 1:1 onto a single transparent canvas, providing a smooth, flicker-free stream overlay.
