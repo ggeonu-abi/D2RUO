@@ -91,8 +91,9 @@
 | :--- | :---: | :--- |
 | **공통 설정** | `Ctrl` + `Shift` + `S` | 환경설정 창 즉시 열기 (게임 중) |
 | **아이템 검색** | `Ctrl` + `F` | 아이템 사전 검색창 열기 |
-| | `Tab` | (검색창 내) 유니크 / 룬워드 탭 전환 |
+| | `Tab` | (검색창 내) 탭 순환 전환 (유니크/룬워드/세트/룬/기타/즐겨찾기) |
 | | `↑` / `↓` | (검색창 내) 검색 결과 상하 이동 |
+| | `Ctrl` + `Enter` | (검색창 내) 룬 번호/검색 항목 즉시 DB 기록 후 창 닫기 |
 | | `ESC` | 검색창 닫기 |
 | **아이템 자동 인식** | `Ctrl` + `R` | 영역 드래그 수동 캡처 |
 | | `Ctrl` + `T` | ⚡ 아이템 툴팁 자동 박스 인식 |
@@ -131,6 +132,10 @@
 * 💾 **아이템 획득 기록 (DB 자동 기록 및 이력보기):**
   * **⚡ 아이템 자동 인식 시 DB 자동 기록:** 사냥터에서 아이템 자동 인식(`Ctrl` + `T` / `Ctrl` + `R`) 시, 현재 사냥 중인 지역과 난이도를 기준으로 획득 기록이 SQLite DB(`d2r_stats.db`)에 즉시 자동 저장됩니다.
   * **🛡️ 스마트 필터링:** 제작 아이템인 '룬워드'나 마을(Town)에서 정리 중 스캔한 아이템은 불필요한 데이터가 쌓이지 않도록 자동으로 감지하여 기록에서 제외합니다.
+  * **⚡ 빠른 룬 득템 등록 칩 패널:** 룬(Rune) 탭 상단에 주요 고급 룬(벡스~조드) 및 실용 룬(랄, 헬, 렘~굴) 전용 퀵 칩 버튼을 제공하여, 사냥 중 룬 획득 시 클릭 한 번으로 현재 지역/난이도 기준 즉시 DB에 기록(토스트 알림)할 수 있습니다. (마을에서는 지역 선택 팝업 자동 연동)
+  * **⌨️ 검색창 `Ctrl` + `Enter` 초고속 기록:** 검색창에 룬 번호(예: `30`)나 아이템 이름을 입력하고 `Ctrl` + `Enter`를 누르면 즉시 DB 기록을 완료하고 사전 창을 닫아 게임으로 신속히 복귀합니다.
+  * **🖱️ [💾 DB 기록] 버튼 스마트 분기:** 일반 클릭 시 현재 사냥터 기준으로 즉시 저장(마을인 경우 지역 선택 팝업), `Shift` + 클릭 시 상세 다이얼로그(지역/난이도/몬스터명)를 호출합니다.
+  * **컴팩트 하단 설정 & 툴팁 지원:** 하단 옵션 체크박스(`연대기 자동 등록`, `DB 자동 기록`, `보정 서랍 팝업`)를 컴팩트하게 정렬하고, 마우스 오버 시 직관적인 기능 안내 툴팁을 제공합니다.
   * **📜 이력보기 및 지역 통계 완벽 연동:** 검색창 우측 사이드 서랍의 **[이력보기]** 탭에서 과거 주웠던 동일 아이템들의 상세 수치와 획득 장소를 비교할 수 있으며, 환경설정의 **[지역 통계]** 탭에서 사냥터별 드랍 아이템 목록 및 득템 명당 통계를 한눈에 분석할 수 있습니다.
 
 ### 3. 🛡️ 강력한 버프 오버레이 (Buff Overlay)
@@ -507,8 +512,9 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | :--- | :---: | :--- |
 | **Global** | `Ctrl` + `Shift` + `S` | Open Settings Instantly |
 | **Item Search** | `Ctrl` + `F` | Open Item Search Window |
-| | `Tab` | (In Search) Toggle Unique / Runeword Tabs |
+| | `Tab` | (In Search) Cycle Tabs (Unique/Runeword/Set/Rune/Other/Fav) |
 | | `↑` / `↓` | (In Search) Navigate Search Results |
+| | `Ctrl` + `Enter` | (In Search) Instant DB record for rune/item & close window |
 | | `ESC` | Close Search Window |
 | **Item Recognition** | `Ctrl` + `R` | Drag scan item area manually |
 | | `Ctrl` + `T` | ⚡ Auto-detect item tooltip box |
@@ -547,6 +553,10 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * 💾 **Item Drop History (Auto DB Logging & Drop History):**
   * **⚡ Auto DB Logging on OCR:** Scanning an item (`Ctrl` + `T` / `Ctrl` + `R`) while farming automatically logs its full stats, current area, and difficulty directly into the local SQLite database (`d2r_stats.db`).
   * **🛡️ Smart Filtering:** Automatically skips crafted 'Runewords' and town scans to prevent clutter, keeping only authentic drop data.
+  * **⚡ Quick Rune Drop Entry:** The Rune tab features dedicated quick chips for High Runes (Vex–Zod) and Mid Runes (Ral, Hel, Lem–Gul) for 1-click drop logging in the field with toast notifications. (Prompts area picker if in town)
+  * **⌨️ Instant Save via `Ctrl` + `Enter`:** Enter a rune number (e.g. `30`) or item name in the search bar and press `Ctrl` + `Enter` to log the drop to DB instantly and return to game.
+  * **🖱️ Smart [💾 Save DB] Button:** Regular click instantly records based on current area/difficulty (opens area picker in town); `Shift` + Click opens the detailed entry dialog (Area/Difficulty/Monster).
+  * **Streamlined Bottom Controls & Tooltips:** Compact bottom checkboxes (`Auto-Chronicle`, `Auto-DB Record`, `Auto-Popup Drawer`) with informative hover tooltips and full multi-language optimization.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 
 ### 3. 🛡️ Powerful Buff Overlay

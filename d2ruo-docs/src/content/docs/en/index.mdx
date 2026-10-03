@@ -93,8 +93,9 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | :--- | :---: | :--- |
 | **Global** | `Ctrl` + `Shift` + `S` | Open Settings Instantly |
 | **Item Search** | `Ctrl` + `F` | Open Item Search Window |
-| | `Tab` | (In Search) Toggle Unique / Runeword Tabs |
+| | `Tab` | (In Search) Cycle Tabs (Unique/Runeword/Set/Rune/Other/Fav) |
 | | `↑` / `↓` | (In Search) Navigate Search Results |
+| | `Ctrl` + `Enter` | (In Search) Instant DB record for rune/item & close window |
 | | `ESC` | Close Search Window |
 | **Item Recognition** | `Ctrl` + `R` | Drag scan item area manually |
 | | `Ctrl` + `T` | ⚡ Auto-detect item tooltip box |
@@ -133,6 +134,10 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * 💾 **Item Drop History (Auto DB Logging & Drop History):**
   * **⚡ Auto DB Logging on OCR:** Scanning an item (`Ctrl` + `T` / `Ctrl` + `R`) while farming automatically logs its full stats, current area, and difficulty directly into the local SQLite database (`d2r_stats.db`).
   * **🛡️ Smart Filtering:** Automatically skips crafted 'Runewords' and town scans to prevent clutter, keeping only authentic drop data.
+  * **⚡ Quick Rune Drop Entry:** The Rune tab features dedicated quick chips for High Runes (Vex–Zod) and Mid Runes (Ral, Hel, Lem–Gul) for 1-click drop logging in the field with toast notifications. (Prompts area picker if in town)
+  * **⌨️ Instant Save via `Ctrl` + `Enter`:** Enter a rune number (e.g. `30`) or item name in the search bar and press `Ctrl` + `Enter` to log the drop to DB instantly and return to game.
+  * **🖱️ Smart [💾 Save DB] Button:** Regular click instantly records based on current area/difficulty (opens area picker in town); `Shift` + Click opens the detailed entry dialog (Area/Difficulty/Monster).
+  * **Streamlined Bottom Controls & Tooltips:** Compact bottom checkboxes (`Auto-Chronicle`, `Auto-DB Record`, `Auto-Popup Drawer`) with informative hover tooltips and full multi-language optimization.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 
 ### <a id="h3-en-18"></a>3. 🛡️ Powerful Buff Overlay
