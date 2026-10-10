@@ -34,6 +34,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * [4. Monster Attribute Detection FAQ](#monster-ocr-en)
   * [5. Multi-Loader & Administrator Privileges (Multi-Client Settings)](#multiloader-en)
   * [6. Security & False Positives (Antivirus)](#antivirus-en)
+  * [7. "Run on Windows Startup" Not Working](#startup-trouble-en)
 * [☕ Contact & Support](#support-en)
 
 ---
@@ -371,7 +372,7 @@ If the automatic monster attribute detection or popup/audio alert is not working
 ### <a id="multiloader-en"></a>5. 👥 Overlay Not Working When Using Multi-Loader (Run as Administrator & Multi-Client Target Windows)
 When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly.
 * **💡 1-Click Relaunch Helper:** DUO automatically detects when D2R runs with administrator privileges and displays a **helpful prompt**. Simply click **`[Restart as Administrator]`** in the dialog to elevate and restart immediately via UAC.
-* To run manually, right-click the DUO desktop shortcut and select 'Run as administrator'.
+* To run manually, right-click the DUO desktop shortcut and select 'Run as administrator'. *(⚠️ Note: Avoid checking 'Run this program as an administrator' permanently under Properties ➔ Compatibility, as Windows UAC policy will block 'Run on Windows Startup' at boot. Use DUO's 1-click elevation button instead.)*
 * **💡 Tailored Multi-Client Buff & Game State/Area Tracking Targets:** When running multiple game clients (e.g., main char + buff barb), use the **[Target Window]** option in each skill's settings dialog as well as the **[Target Window]** selector in the **[📍 Area Settings]** tab. Designating specific clients ensures that buff hotkeys, game enter/exit triggers, and area stay-time tracking only operate on your intended character, eliminating cross-window conflicts and premature buff resets.
 *(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys. DUO now detects this automatically and lets you relaunch with one click!)*
 
@@ -387,6 +388,33 @@ If the program won't run or the shortcut does not work, please try the following
 2. **Keep the Default Path:** Installing the program in the default `AppData\Local` directory helps reduce false positives, as it is a standard system directory for application data. It is recommended not to change this path.
 3. **Disable Smart App Control:** If you are using Windows 11, you may need to turn off **Smart App Control** if it blocks execution.
 4. **Star the GitHub Repo:** Leaving a Star ⭐ on this GitHub repository helps build the software's reputation metric over time, which may help reduce false positives from reputation-based filters.
+
+---
+
+### <a id="startup-trouble-en"></a>7. 🚀 "Run on Windows Startup" Not Working (Administrator Privileges & Task Manager FAQ)
+If DUO does not launch automatically when Windows boots even though **[Run on Windows Startup]** is enabled, please check the following causes and solutions:
+
+#### ❓ 1. Executable is Configured with "Run this program as an administrator" (Most Common)
+* **Cause**: Due to Windows UAC security architecture, Windows logon cannot display UAC prompts during startup. If an application is configured with **"Run this program as an administrator"** in its file Properties, **Windows silently drops/blocks it from launching at boot** without any warning.
+* **💡 Recommended Solution (Easiest & Best)**:
+  1. Right-click `DUO.exe` in `%LocalAppData%\Programs\D2R Utility Overlay\` (or its desktop shortcut) ➔ **[Properties]** ➔ **[Compatibility]** tab.
+  2. **Uncheck `[Run this program as an administrator]`**, then click Apply and OK.
+  3. Re-enable **[Run on Windows Startup]** in DUO Settings.
+  > **Q. D2R (or multi-loader) runs as admin. Will DUO still work if started with normal privileges?**  
+  > **A. Yes, absolutely!** DUO starts quietly in the system tray with normal privileges upon boot. When D2R is running with admin privileges, DUO automatically detects the permission mismatch and displays a **1-click `[Restart as Administrator]` prompt**. Simply click the button to elevate smoothly on-demand, giving you both boot automation and effortless admin integration.
+
+#### ❓ 2. Always Running as Admin on Boot via Windows Task Scheduler
+* If you want DUO to start as Administrator immediately upon boot without any prompts, use **Windows Task Scheduler** (the only official method supported by Windows to bypass UAC at startup):
+  1. Search for **Task Scheduler** in the Windows Start menu.
+  2. Click **Create Task** in the Actions panel on the right.
+  3. **General tab**: Name it `DUO` and check **`Run with highest privileges`**.
+  4. **Triggers tab**: Click New ➔ Begin the task: **`At log on`** ➔ Click OK.
+  5. **Actions tab**: Click New ➔ Action: `Start a program`, browse to `DUO.exe` (Default path: `C:\Users\<YourUsername>\AppData\Local\Programs\D2R Utility Overlay\DUO.exe`).
+  6. **Conditions tab**: Uncheck `Start the task only if the computer is on AC power` (recommended for laptops) ➔ Click OK to save.
+
+#### ❓ 3. Disabled in Windows Task Manager Startup Tab
+* **Cause**: If DUO was disabled in the Windows Task Manager Startup tab, Windows stores a disabled flag in the registry (`StartupApproved`) and skips it during boot.
+* **Solution**: Press `Ctrl + Shift + Esc` (Task Manager) ➔ **[Startup apps]** tab ➔ Locate **DUO** (or D2R Utility Overlay) ➔ If the status is 'Disabled', right-click and select **Enable**.
 
 ---
 

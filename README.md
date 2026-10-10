@@ -29,6 +29,7 @@
   * [4. 몬스터 속성 자동 인식 FAQ](#monster-ocr-kr)
   * [5. 멀티로더 사용 시 관리자 권한 안내 및 다클라 설정](#multiloader-kr)
   * [6. 백신 오탐지(False Positive) 대처 안내](#antivirus-kr)
+  * [7. 윈도우 시작 시 자동 실행이 동작하지 않는 경우](#startup-trouble-kr)
 * [☕ 피드백 & 후원하기 (Contact & Support)](#support-kr)
 
 ---
@@ -370,7 +371,7 @@
 ### <a id="multiloader-kr"></a>5. 👥 멀티로더 사용 시 기능이 동작하지 않는 경우 (관리자 권한 및 다클라 버프/게임 상태/지역 설정)
 멀티로더를 사용하여 게임을 실행하실 경우 게임이 보통 관리자 권한으로 실행됩니다. 이 경우에는 **본 오버레이 프로그램(DUO) 또한 관리자 권한으로 실행해야만** 정상적으로 오버레이 기능과 단축키가 작동합니다.
 * **💡 원클릭 관리자 권한 재실행 도우미:** DUO는 디아블로 2가 관리자 권한으로 실행된 것을 자동으로 감지하여 **권장 안내 팝업**을 띄워줍니다. 팝업에서 **`[관리자 권한으로 재실행]`** 버튼을 누르시면 번거로운 수동 조작 없이 UAC 승인 후 즉시 관리자 권한으로 전환되어 정상 작동합니다.
-* 수동으로 실행하실 때는 바탕화면의 DUO 바로가기 아이콘을 우클릭하여 '관리자 권한으로 실행'을 선택해 주세요.
+* 수동으로 실행하실 때는 바탕화면의 DUO 바로가기 아이콘을 우클릭하여 '관리자 권한으로 실행'을 선택해 주세요. *(⚠️ 단, 속성 ➔ 호환성 탭에서 '관리자 권한으로 이 프로그램 실행'을 영구 체크해 두시면 윈도우 보안 정책(UAC)상 '부팅 시 자동 실행'이 차단되므로, 부팅 자동 실행을 쓰신다면 체크하지 마시고 듀오의 원클릭 재실행 버튼을 사용해 주세요.)*
 * **💡 다클라 맞춤 버프 및 게임 상태/지역 탐지 대상 창 설정:** 멀티로더 환경에서 여러 캐릭터(예: 본캐와 버프 바바 등)를 동시에 켤 때, 버프 스킬 설정창의 **[인식 대상 창]** 뿐만 아니라 **[📍 지역 설정]** 탭의 **[인식 대상 창]** 에서 원하는 클라이언트 창을 지정해 두시면, 다른 창을 플레이할 때 버프 단축키가 겹치거나 부계정의 로비/지역 이동으로 인해 본캐의 버프가 리셋되고 체류 시간 및 사냥 통계가 왜곡되는 문제를 완벽히 방지할 수 있습니다.
 *(쉬운 설명: 게임이 관리자 권한(더 높은 권한)으로 켜져 있으면, 우리 오버레이 프로그램도 똑같이 높은 권한을 가져야 게임 화면 위에 무언가를 띄우거나 키보드 입력을 감지할 수 있습니다. DUO가 이를 알아서 감지하고 버튼 하나로 재실행해 드리니 팝업이 뜨면 재실행 버튼을 눌러주시면 됩니다.)*
 
@@ -389,6 +390,34 @@
 2. **설치 경로 유지:** 기본 경로인 `AppData\Local` 폴더는 윈도우 시스템이 일반적인 앱 데이터로 인지하는 안전한 구역이므로 오탐지 확률을 줄여줍니다. 경로를 임의로 변경하지 않는 것을 권장합니다.
 3. **스마트 앱 컨트롤 해제:** Windows 11의 **스마트 앱 컨트롤(Smart App Control)** 기능이 켜져 있다면 이를 해제해야 정상적으로 실행 가능합니다.
 4. **GitHub Star 누르기:** 배포 중인 GitHub 레포지토리에 별(Star) ⭐을 많이 눌러주시면, 프로그램의 사용자 신뢰도 지표가 높아져 장기적으로 스마트스크린 등의 오탐지를 줄이는 데 큰 도움이 됩니다.
+
+---
+
+### <a id="startup-trouble-kr"></a>7. 🚀 윈도우 시작 시 자동 실행이 동작하지 않는 경우 (관리자 권한 및 시작프로그램 설정 FAQ)
+환경설정이나 트레이 메뉴에서 **[윈도우 시작 시 자동 실행]**을 켜두었는데도 컴퓨터 부팅 시 DUO가 자동으로 켜지지 않는다면 아래 원인과 해결 방법을 확인해 주세요.
+
+#### ❓ 1. 실행 파일에 '관리자 권한으로 실행'이 설정되어 있는 경우 (가장 흔한 원인)
+* **원인**: Windows(Windows 10/11)의 보안 정책(UAC)상, 윈도우 로그인/부팅 단계에서는 보안 승인 창을 띄울 수 없도록 차단되어 있습니다. 따라서 실행 파일 속성에 **'관리자 권한으로 이 프로그램 실행'** 옵션이 체크되어 있으면, 시작프로그램에 등록되어 있어도 **Windows 운영체제가 부팅 시 아무런 알림 없이 실행을 차단(Silent Block)**합니다.
+* **💡 권장 해결 방법 (가장 편리함)**:
+  1. DUO 설치 폴더(`%LocalAppData%\Programs\D2R Utility Overlay\`)의 `DUO.exe` 또는 바탕화면 바로가기 아이콘을 마우스 우클릭 ➔ **[속성]** ➔ **[호환성]** 탭으로 이동합니다.
+  2. **`[관리자 권한으로 이 프로그램 실행]` 체크박스를 해제**하고 [적용] 및 [확인]을 누릅니다.
+  3. DUO 환경설정에서 **[윈도우 시작 시 자동 실행]**을 다시 켜줍니다.
+  > **Q. 디아블로 2(멀티로더)가 관리자 권한으로 실행되는데, DUO를 일반 권한으로 켜도 되나요?**  
+  > **A. 네, 완전히 괜찮습니다!** DUO는 컴퓨터 부팅 시 일반 권한으로 트레이에 조용히 켜져 있다가, 디아블로 2가 실행되었을 때 관리자 권한이 필요한 상황을 스스로 감지하여 **`[관리자 권한으로 재실행]` 원클릭 안내 팝업**을 띄워줍니다. 팝업에서 버튼 하나만 누르면 즉시 관리자 권한으로 자동 승격되므로, 부팅 자동 실행과 관리자 권한 연동을 둘 다 완벽하게 누리실 수 있습니다.
+
+#### ❓ 2. 부팅 시점부터 무조건 관리자 권한으로 띄우고 싶은 경우 (작업 스케줄러 활용)
+* 팝업을 거치지 않고 컴퓨터가 켜질 때부터 항상 관리자 권한으로 띄우고 싶다면, 윈도우 레지스트리 시작프로그램 대신 **Windows 작업 스케줄러(Task Scheduler)**를 사용해야 합니다 (Windows 보안 제약을 우회하여 UAC 창 없이 부팅 시 관리자 권한을 부여하는 유일한 공식 방법입니다).
+* **설정 방법**:
+  1. `시작` ➔ `작업 스케줄러` 검색 후 실행
+  2. 오른쪽 패널에서 **[작업 만들기]** 클릭
+  3. **[일반] 탭**: 이름에 `DUO` 입력, 하단의 **`가장 높은 수준의 권한으로 실행`** 체크
+  4. **[트리거] 탭**: [새로 만들기] ➔ 작업 시작을 **`로그온할 때`**로 선택 후 [확인]
+  5. **[동작] 탭**: [새로 만들기] ➔ 동작: `프로그램 시작`, 프로그램/스크립트에 `DUO.exe` 경로 찾아보기로 지정 (기본 경로: `C:\Users\<사용자명>\AppData\Local\Programs\D2R Utility Overlay\DUO.exe`)
+  6. **[조건] 탭**: `컴퓨터의 AC 전원이 켜져 있는 경우에만 작업 시작` 체크 해제 (노트북 배터리 환경 대비) 후 [확인] 저장
+
+#### ❓ 3. Windows 작업 관리자에서 '시작프로그램'이 '사용 안 함'으로 꺼져 있는 경우
+* **원인**: Windows 10/11의 작업 관리자 시작프로그램 목록에서 DUO가 '사용 안 함(Disabled)'으로 꺼져 있으면, 앱 내에서 토글을 켜도 윈도우가 실행을 차단합니다.
+* **해결 방법**: `Ctrl + Shift + Esc` (작업 관리자) ➔ **[시작프로그램]** 탭 ➔ **DUO** (또는 D2R Utility Overlay) 항목을 찾아 상태가 '사용 안 함'으로 되어 있다면 우클릭 ➔ **[사용]**으로 변경해 주세요.
 
 ---
 
@@ -453,6 +482,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * [4. Monster Attribute Detection FAQ](#monster-ocr-en)
   * [5. Multi-Loader & Administrator Privileges (Multi-Client Settings)](#multiloader-en)
   * [6. Security & False Positives (Antivirus)](#antivirus-en)
+  * [7. "Run on Windows Startup" Not Working](#startup-trouble-en)
 * [☕ Contact & Support](#support-en)
 
 ---
@@ -790,7 +820,7 @@ If the automatic monster attribute detection or popup/audio alert is not working
 ### <a id="multiloader-en"></a>5. 👥 Overlay Not Working When Using Multi-Loader (Run as Administrator & Multi-Client Target Windows)
 When using a multi-loader, the game is usually run with administrator privileges. In this case, you **must also run this overlay program (DUO) as an administrator** for it to work properly.
 * **💡 1-Click Relaunch Helper:** DUO automatically detects when D2R runs with administrator privileges and displays a **helpful prompt**. Simply click **`[Restart as Administrator]`** in the dialog to elevate and restart immediately via UAC.
-* To run manually, right-click the DUO desktop shortcut and select 'Run as administrator'.
+* To run manually, right-click the DUO desktop shortcut and select 'Run as administrator'. *(⚠️ Note: Avoid checking 'Run this program as an administrator' permanently under Properties ➔ Compatibility, as Windows UAC policy will block 'Run on Windows Startup' at boot. Use DUO's 1-click elevation button instead.)*
 * **💡 Tailored Multi-Client Buff & Game State/Area Tracking Targets:** When running multiple game clients (e.g., main char + buff barb), use the **[Target Window]** option in each skill's settings dialog as well as the **[Target Window]** selector in the **[📍 Area Settings]** tab. Designating specific clients ensures that buff hotkeys, game enter/exit triggers, and area stay-time tracking only operate on your intended character, eliminating cross-window conflicts and premature buff resets.
 *(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys. DUO now detects this automatically and lets you relaunch with one click!)*
 
@@ -806,6 +836,33 @@ If the program won't run or the shortcut does not work, please try the following
 2. **Keep the Default Path:** Installing the program in the default `AppData\Local` directory helps reduce false positives, as it is a standard system directory for application data. It is recommended not to change this path.
 3. **Disable Smart App Control:** If you are using Windows 11, you may need to turn off **Smart App Control** if it blocks execution.
 4. **Star the GitHub Repo:** Leaving a Star ⭐ on this GitHub repository helps build the software's reputation metric over time, which may help reduce false positives from reputation-based filters.
+
+---
+
+### <a id="startup-trouble-en"></a>7. 🚀 "Run on Windows Startup" Not Working (Administrator Privileges & Task Manager FAQ)
+If DUO does not launch automatically when Windows boots even though **[Run on Windows Startup]** is enabled, please check the following causes and solutions:
+
+#### ❓ 1. Executable is Configured with "Run this program as an administrator" (Most Common)
+* **Cause**: Due to Windows UAC security architecture, Windows logon cannot display UAC prompts during startup. If an application is configured with **"Run this program as an administrator"** in its file Properties, **Windows silently drops/blocks it from launching at boot** without any warning.
+* **💡 Recommended Solution (Easiest & Best)**:
+  1. Right-click `DUO.exe` in `%LocalAppData%\Programs\D2R Utility Overlay\` (or its desktop shortcut) ➔ **[Properties]** ➔ **[Compatibility]** tab.
+  2. **Uncheck `[Run this program as an administrator]`**, then click Apply and OK.
+  3. Re-enable **[Run on Windows Startup]** in DUO Settings.
+  > **Q. D2R (or multi-loader) runs as admin. Will DUO still work if started with normal privileges?**  
+  > **A. Yes, absolutely!** DUO starts quietly in the system tray with normal privileges upon boot. When D2R is running with admin privileges, DUO automatically detects the permission mismatch and displays a **1-click `[Restart as Administrator]` prompt**. Simply click the button to elevate smoothly on-demand, giving you both boot automation and effortless admin integration.
+
+#### ❓ 2. Always Running as Admin on Boot via Windows Task Scheduler
+* If you want DUO to start as Administrator immediately upon boot without any prompts, use **Windows Task Scheduler** (the only official method supported by Windows to bypass UAC at startup):
+  1. Search for **Task Scheduler** in the Windows Start menu.
+  2. Click **Create Task** in the Actions panel on the right.
+  3. **General tab**: Name it `DUO` and check **`Run with highest privileges`**.
+  4. **Triggers tab**: Click New ➔ Begin the task: **`At log on`** ➔ Click OK.
+  5. **Actions tab**: Click New ➔ Action: `Start a program`, browse to `DUO.exe` (Default path: `C:\Users\<YourUsername>\AppData\Local\Programs\D2R Utility Overlay\DUO.exe`).
+  6. **Conditions tab**: Uncheck `Start the task only if the computer is on AC power` (recommended for laptops) ➔ Click OK to save.
+
+#### ❓ 3. Disabled in Windows Task Manager Startup Tab
+* **Cause**: If DUO was disabled in the Windows Task Manager Startup tab, Windows stores a disabled flag in the registry (`StartupApproved`) and skips it during boot.
+* **Solution**: Press `Ctrl + Shift + Esc` (Task Manager) ➔ **[Startup apps]** tab ➔ Locate **DUO** (or D2R Utility Overlay) ➔ If the status is 'Disabled', right-click and select **Enable**.
 
 ---
 

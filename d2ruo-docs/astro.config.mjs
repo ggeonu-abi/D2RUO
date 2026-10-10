@@ -52,6 +52,7 @@ export default defineConfig({
         { label: ' 4. 👾 몬스터 속성 자동 인식', link: '#monster-ocr-kr', attrs: { class: 'ko-menu h3-item' } },
         { label: ' 5. 👥 멀티로더 사용 시 기능이 동작하지 않는 경우', link: '#multiloader-kr', attrs: { class: 'ko-menu h3-item' } },
         { label: ' 6. 🛡️ 백신 오탐지', link: '#antivirus-kr', attrs: { class: 'ko-menu h3-item' } },
+        { label: ' 7. 🚀 윈도우 시작 시 자동 실행이 동작하지 않는 경우', link: '#startup-trouble-kr', attrs: { class: 'ko-menu h3-item' } },
         { label: '☕ 피드백 & 후원하기', link: '#support-kr', attrs: { class: 'ko-menu' } },
         { label: ' 💡 버그 신고 및 기능 제안', link: '#h3-ko-12', attrs: { class: 'ko-menu h3-item' } },
         { label: ' ☕ 후원하기', link: '#h3-ko-13', attrs: { class: 'ko-menu h3-item' } },
@@ -79,6 +80,7 @@ export default defineConfig({
         { label: ' 4. 👾 Auto Monster Attribute OCR / Detection Troubleshooting', link: '#monster-ocr-en', attrs: { class: 'en-menu h3-item' } },
         { label: ' 5. 👥 Overlay Not Working When Using Multi-Loader', link: '#multiloader-en', attrs: { class: 'en-menu h3-item' } },
         { label: ' 6. 🛡️ Security & False Positives', link: '#antivirus-en', attrs: { class: 'en-menu h3-item' } },
+        { label: ' 7. 🚀 "Run on Windows Startup" Not Working', link: '#startup-trouble-en', attrs: { class: 'en-menu h3-item' } },
         { label: '☕ Contact & Support', link: '#support-en', attrs: { class: 'en-menu' } },
         { label: ' 💡 Bug Reports & Feature Requests', link: '#h3-en-25', attrs: { class: 'en-menu h3-item' } },
         { label: ' ☕ Support', link: '#h3-en-26', attrs: { class: 'en-menu h3-item' } }
