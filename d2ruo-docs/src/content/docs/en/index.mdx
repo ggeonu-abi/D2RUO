@@ -134,11 +134,15 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * **⚡ Instant Tooltips:** Hovering over search/listing buttons or base dropdown displays descriptive tooltips with 0ms delay.
 * 💾 **Item Drop History (Auto DB Logging & Drop History):**
   * **⚡ Auto DB Logging on OCR:** Scanning an item (`Ctrl` + `T` / `Ctrl` + `R`) while farming automatically logs its full stats, current area, and difficulty directly into the local SQLite database (`d2r_stats.db`).
-  * **🛡️ Smart Filtering:** Automatically skips crafted 'Runewords' and town scans to prevent clutter, keeping only authentic drop data.
-  * **⚡ Quick Rune Drop Entry:** The Rune tab features dedicated quick chips for High Runes (Vex–Zod) and Mid Runes (Ral, Hel, Lem–Gul) for 1-click drop logging in the field with toast notifications. (Prompts area picker if in town)
+  * **⚡ Quick Drop Entry Chips (Runes & Misc):**
+    * **Rune Tab:** 1-click quick chips for High Runes (Vex–Zod) and Mid Runes (Ral, Hel, Lem–Gul). Logs drop to DB instantly with toast notification.
+    * **Misc Tab:** 1-click quick chips for Torch Keys (Terror/Hate/Destruction), Uber Ancient Statues (5 types), and Token/Essences. Smartly resolves destination area (Keys map to Tower 5/Arcane/Vaught; Essences/Statues map to their respective boss rooms).
+  * **🏘️ Smart Logging While in Town (Use Last Field & Town Selection):**
+    * **`Use Last Field` Option (Default ON):** When scanning items (`Ctrl + T`) or clicking `[💾 Save DB]` in town after batch Cain identification, drops are automatically logged under your **last visited hunting area** with a toast alert without interrupting modal dialogs.
+    * **Town Selection for Crafted Items (Runewords/Charms):** For items crafted in town (Runewords, Horadric Cube recipes), the manual DB dialog provides a **`[🏰 Current Town]`** 1-click quick chip, and town hubs are pinned at the top of each act list in the area dropdown for effortless selection.
   * **⌨️ Instant Save via `Ctrl` + `Enter`:** Enter a rune number (e.g. `30`) or item name in the search bar and press `Ctrl` + `Enter` to log the drop to DB instantly and return to game.
-  * **🖱️ Smart [💾 Save DB] Button:** Regular click instantly records based on current area/difficulty (opens area picker in town); `Shift` + Click opens the detailed entry dialog (Area/Difficulty/Monster).
-  * **Streamlined Bottom Controls & Tooltips:** Compact bottom checkboxes (`Auto-Chronicle`, `Auto-DB Record`, `Auto-Popup Drawer`) with informative hover tooltips and full multi-language optimization.
+  * **🖱️ Smart [💾 Save DB] Button:** Regular click instantly records based on current area or last field in town; `Shift` + Click opens the detailed entry dialog (Area/Difficulty/Monster).
+  * **Clean 2x2 Bottom Controls & Tooltips:** Checkboxes are neatly aligned in a 2x2 grid (`Auto-Chronicle` & `Auto-Popup Drawer` / `Auto-DB Record` & `Use Last Field`) to prevent clutter while keeping perfect horizontal balance.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 
 ### <a id="h3-en-18"></a>3. 🛡️ Powerful Buff Overlay
