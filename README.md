@@ -27,7 +27,7 @@
   * [2. OLED / HDR 사용자 안내 (툴팁 인식 오류)](#oled-hdr-kr)
   * [3. OCR 기능 오류 해결 (캡처 도구 삭제 후 재설치)](#ocr-trouble-kr)
   * [4. 몬스터 속성 자동 인식 FAQ](#monster-ocr-kr)
-  * [5. 멀티로더 사용 시 관리자 권한 안내 및 다클라 설정](#multiloader-kr)
+  * [5. 멀티로더 사용 시 관리자 권한 안내 및 다클라 설정 (제목표시줄 사라짐 FAQ 포함)](#multiloader-kr)
   * [6. 백신 오탐지(False Positive) 대처 안내](#antivirus-kr)
   * [7. 윈도우 시작 시 자동 실행이 동작하지 않는 경우](#startup-trouble-kr)
 * [☕ 피드백 & 후원하기 (Contact & Support)](#support-kr)
@@ -86,7 +86,7 @@
 
 ## <a id="hotkeys-kr"></a>⌨️ 단축키 안내 (Hotkeys)
 
-오버레이를 더욱 빠르고 편리하게 제어하기 위한 단축키입니다. (단축키는 환경설정에서 변경 가능)
+오버레이를 더욱 빠르고 편리하게 제어하기 위한 단축키입니다. (아이템 인식 단축키는 아이템 사전 창 하단에서, 버프 단축키는 각 스킬 설정에서 변경 가능)
 
 | 구분 | 단축키 | 기능 설명 |
 | :--- | :---: | :--- |
@@ -97,7 +97,7 @@
 | | `Ctrl` + `Enter` | (검색창 내) 룬 번호/검색 항목 즉시 DB 기록 후 창 닫기 |
 | | `ESC` | 검색창 닫기 |
 | **아이템 자동 인식** | `Ctrl` + `R` | 영역 드래그 수동 캡처 |
-| | `Ctrl` + `T` | ⚡ 아이템 툴팁 자동 박스 인식 |
+| | `Ctrl` + `T` | ⚡ 아이템 툴팁 자동 박스 인식 *(멀티로더 사용 시 제목표시줄 숨김 충돌 주의: [FAQ 5번 참고](#multiloader-kr))* |
 | **장비/세팅 스냅샷** | `Ctrl` + `B` | 📷 장비 / 세팅 스크린샷 매니저 열기 / 닫기 |
 | **게임 진행 보조** | `Shift` + `C` | 릴레이 방제 자동 캡처 및 클립보드 복사 (연속 런 편의) |
 | **버프 타이머** | `PageUp` / `PageDown` | 버프 스킬 프로필 전환 |
@@ -377,7 +377,13 @@
 * **💡 원클릭 관리자 권한 재실행 도우미:** DUO는 디아블로 2가 관리자 권한으로 실행된 것을 자동으로 감지하여 **권장 안내 팝업**을 띄워줍니다. 팝업에서 **`[관리자 권한으로 재실행]`** 버튼을 누르시면 번거로운 수동 조작 없이 UAC 승인 후 즉시 관리자 권한으로 전환되어 정상 작동합니다.
 * 수동으로 실행하실 때는 바탕화면의 DUO 바로가기 아이콘을 우클릭하여 '관리자 권한으로 실행'을 선택해 주세요. *(⚠️ 단, 속성 ➔ 호환성 탭에서 '관리자 권한으로 이 프로그램 실행'을 영구 체크해 두시면 윈도우 보안 정책(UAC)상 '부팅 시 자동 실행'이 차단되므로, 부팅 자동 실행을 쓰신다면 체크하지 마시고 듀오의 원클릭 재실행 버튼을 사용해 주세요.)*
 * **💡 다클라 맞춤 버프 및 게임 상태/지역 탐지 대상 창 설정:** 멀티로더 환경에서 여러 캐릭터(예: 본캐와 버프 바바 등)를 동시에 켤 때, 버프 스킬 설정창의 **[인식 대상 창]** 뿐만 아니라 **[📍 지역 설정]** 탭의 **[인식 대상 창]** 에서 원하는 클라이언트 창을 지정해 두시면, 다른 창을 플레이할 때 버프 단축키가 겹치거나 부계정의 로비/지역 이동으로 인해 본캐의 버프가 리셋되고 체류 시간 및 사냥 통계가 왜곡되는 문제를 완벽히 방지할 수 있습니다.
-*(쉬운 설명: 게임이 관리자 권한(더 높은 권한)으로 켜져 있으면, 우리 오버레이 프로그램도 똑같이 높은 권한을 가져야 게임 화면 위에 무언가를 띄우거나 키보드 입력을 감지할 수 있습니다. DUO가 이를 알아서 감지하고 버튼 하나로 재실행해 드리니 팝업이 뜨면 재실행 버튼을 눌러주시면 됩니다.)*
+* **💡 멀티로더 사용 중 디아블로 창의 제목표시줄이 사라지는 경우 (`Ctrl` + `T` 단축키 충돌 안내):**
+  * **원인:** 일부 디아블로 2 멀티로더 프로그램에는 창모드 게임 창의 **상단 제목표시줄(타이틀 바)을 숨기거나 복구하는 자체 토글 단축키가 `Ctrl` + `T`** 로 기본 지정되어 있습니다.
+  * **안내:** DUO 프로그램에는 **게임 창의 제목표시줄을 없애거나 변경하는 기능이 일체 포함되어 있지 않습니다.** DUO의 기본 아이템 툴팁 인식 단축키(`Ctrl` + `T`)를 누를 때 멀티로더가 키 입력을 함께 감지하여 제목표시줄을 숨긴 것이 원인입니다.
+  * **해결 방법:**
+    1. 제목표시줄이 사라졌을 때 다시 **`Ctrl` + `T`** 를 누르면 멀티로더 기능에 의해 제목표시줄이 다시 나타납니다.
+    2. 단축키 중복 간섭을 피하시려면, **아이템 사전(`Ctrl` + `F`) 창 하단 우측의 단축키 설정**에서 아이템 툴팁 인식 단축키를 `Ctrl` + `T` 대신 다른 키(예: `Ctrl` + `G`, `Ctrl` + `E` 등)로 변경하여 사용하시는 것을 권장합니다.
+*(쉬운 설명: 게임이 관리자 권한(더 높은 권한)으로 켜져 있으면, 우리 오버레이 프로그램도 똑같이 높은 권한을 가져야 게임 화면 위에 무언가를 띄우거나 키보드 입력을 감지할 수 있습니다. DUO가 이를 알아서 감지하고 버튼 하나로 재실행해 드리니 팝업이 뜨면 재실행 버튼을 눌러주시면 됩니다. 또한 창모드 제목표시줄이 갑자기 사라진다면 듀오 때문이 아니라 멀티로더의 제목표시줄 토글 단축키(Ctrl + T)가 눌린 것이니, Ctrl + T를 다시 누르시거나 아이템 사전(Ctrl + F) 하단에서 듀오의 인식 단축키를 변경해 주세요.)*
 
 ---
 
@@ -484,7 +490,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * [2. OLED / HDR Users (Tooltip OCR Issues)](#oled-hdr-en)
   * [3. OCR Not Working (Snipping Tool Uninstall & Reinstall)](#ocr-trouble-en)
   * [4. Monster Attribute Detection FAQ](#monster-ocr-en)
-  * [5. Multi-Loader & Administrator Privileges (Multi-Client Settings)](#multiloader-en)
+  * [5. Multi-Loader Usage & Admin Privileges / Multi-Client Settings (Title Bar Disappearance FAQ)](#multiloader-en)
   * [6. Security & False Positives (Antivirus)](#antivirus-en)
   * [7. "Run on Windows Startup" Not Working](#startup-trouble-en)
 * [☕ Contact & Support](#support-en)
@@ -536,11 +542,13 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 1. Run **Diablo 2: Resurrected**. (Fullscreen Mode recommended).
 2. Run the **D2R Utility Overlay** shortcut created on your Desktop or Start Menu. *(Run as administrator if your D2R client is also running as admin).*
 3. Press **`Ctrl` + `Shift` + `S`** or right-click the system tray icon to open the **`⚙️ Settings`** window.
-4. Paste your **API Key (Token)** into the settings and customize layouts, hotkeys, and features.
+4. Paste your **API Key (Token)** into the settings and customize layouts, fonts, and overlay positions.
 
 ---
 
 ## <a id="hotkeys-en"></a>⌨️ Hotkeys
+
+Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can be changed at the bottom-right of the Item Search window; Buff hotkeys in skill settings)
 
 | Category | Hotkey | Function |
 | :--- | :---: | :--- |
@@ -551,7 +559,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | | `Ctrl` + `Enter` | (In Search) Instant DB record for rune/item & close window |
 | | `ESC` | Close Search Window |
 | **Item Recognition** | `Ctrl` + `R` | Drag scan item area manually |
-| | `Ctrl` + `T` | ⚡ Auto-detect item tooltip box |
+| | `Ctrl` + `T` | ⚡ Auto-detect item tooltip box *(Note: Multi-loader title bar toggle conflict: see [FAQ #5](#multiloader-en))* |
 | **Build Snapshot** | `Ctrl` + `B` | 📷 Open / Close Gear & Skill Build Snapshot Manager |
 | **QoL Features** | `Shift` + `C` | Auto-capture relay game name & copy to clipboard |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
@@ -830,7 +838,13 @@ When using a multi-loader, the game is usually run with administrator privileges
 * **💡 1-Click Relaunch Helper:** DUO automatically detects when D2R runs with administrator privileges and displays a **helpful prompt**. Simply click **`[Restart as Administrator]`** in the dialog to elevate and restart immediately via UAC.
 * To run manually, right-click the DUO desktop shortcut and select 'Run as administrator'. *(⚠️ Note: Avoid checking 'Run this program as an administrator' permanently under Properties ➔ Compatibility, as Windows UAC policy will block 'Run on Windows Startup' at boot. Use DUO's 1-click elevation button instead.)*
 * **💡 Tailored Multi-Client Buff & Game State/Area Tracking Targets:** When running multiple game clients (e.g., main char + buff barb), use the **[Target Window]** option in each skill's settings dialog as well as the **[Target Window]** selector in the **[📍 Area Settings]** tab. Designating specific clients ensures that buff hotkeys, game enter/exit triggers, and area stay-time tracking only operate on your intended character, eliminating cross-window conflicts and premature buff resets.
-*(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys. DUO now detects this automatically and lets you relaunch with one click!)*
+* **💡 Game Title Bar Disappears When Using Multi-Loader (`Ctrl` + `T` Hotkey Conflict):**
+  * **Cause:** Certain Diablo 2 multi-loader programs have a built-in hotkey assigned to **`Ctrl` + `T` to toggle/hide the window title bar** in windowed mode.
+  * **Notice:** DUO **does not contain any feature or code to remove or alter the game window's title bar.** When you press DUO's default Item Tooltip Recognition hotkey (`Ctrl` + `T`), the multi-loader intercepts the same hotkey combination and toggles off the title bar.
+  * **Solution:**
+    1. Press **`Ctrl` + `T`** again to toggle the title bar back on via the multi-loader.
+    2. To prevent hotkey interference, open the **Item Search Dictionary (`Ctrl` + `F`) and rebind the Item Tooltip Recognition hotkey at the bottom-right** from `Ctrl` + `T` to another key combination (e.g., `Ctrl` + `G` or `Ctrl` + `E`).
+*(Easy Explanation: If the game is running with higher (administrator) privileges, the overlay app also needs the exact same privileges to display things on top of the game window and detect your hotkeys. DUO now detects this automatically and lets you relaunch with one click! Also, if your window title bar disappears, it is not caused by DUO, but by the multi-loader's own title bar toggle shortcut (Ctrl + T). Pressing Ctrl + T again will restore it, or you can change DUO's hotkey at the bottom of the Item Search window (Ctrl + F).)*
 
 ---
 
