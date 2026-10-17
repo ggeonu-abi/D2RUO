@@ -3,6 +3,12 @@
 <a name="korean"></a>
 # 🛡️ 디아블로 2: 레저렉션 다기능 유틸리티 오버레이 (D2R Utility Overlay - DUO)
 
+[![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010%20(64--bit)-0078D6.svg?logo=windows)](#compatibility-kr)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Safe%20%26%20Clean-005BBB?logo=virustotal)](https://www.virustotal.com/gui/file/d5290c41104092fff538bd566a402d8f83dc15fa4cb610c51ecc824d76864267)
+[![License](https://img.shields.io/badge/Type-Freeware%20(CC%20BY--NC--ND%204.0)-green.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Language](https://img.shields.io/badge/Language-Korean%20%7C%20English-orange.svg)](#korean)
+[![Game](https://img.shields.io/badge/Game-Diablo%20II:%20Resurrected-darkred.svg)](https://diablo2.blizzard.com/)
+
 디아블로 2: 레저렉션 플레이를 더욱 쾌적하게 만들어주는 **다기능 유틸리티 오버레이(DUO)** 프로그램입니다. 기존의 **다음 공역(Terror Zone)** 및 **우버디아(Diablo Clone)** 실시간 추적 기능은 물론, 사용자 맞춤형 **버프 스킬 타이머**, **공포의 영역 전령 카운터**, **실시간 아이템 사전 검색** 등 게임에 유용한 다양한 편의 기능들을 화면 위에 실시간으로 제공합니다.
 
 > **⚠️ 사용 주의 및 안내 (Disclaimer):**
@@ -18,8 +24,18 @@
 ## 📑 목차 (Table of Contents)
 * [📸 스크린샷 (Screenshots)](#screenshots-kr)
 * [🚀 시작하기 (Quick Start)](#getting-started-kr)
+* [💻 시스템 요구 사양 및 호환성 (Compatibility)](#compatibility-kr)
 * [⌨️ 단축키 안내 (Hotkeys)](#hotkeys-kr)
 * [✨ 주요 기능 (Key Features)](#features-kr)
+  * [1. 테러존 & 우버디아 트래킹](#feature-tz-kr)
+  * [2. 실시간 아이템 사전 검색 (OCR & 트레더리 & DB)](#feature-item-kr)
+  * [3. 강력한 버프 오버레이 (다클라 타겟 창 & 배타적 그룹)](#feature-buff-kr)
+  * [4. 지역 및 몬스터 추적 (체류시간 TTS & 전령 감지)](#feature-tracker-kr)
+  * [5. 스피드런 타이머 (방 자동 연동 & 마을 일시정지)](#feature-timer-kr)
+  * [6. 장비 & 스킬 세팅 캡처 매니저](#feature-snapshot-kr)
+  * [7. 릴레이 방제 자동 캡처 & 복사](#feature-relay-kr)
+  * [8. 오늘의 파밍 리포트](#feature-report-kr)
+  * [9. 방송 송출(OBS Studio) 지원 및 UI 편의성](#feature-obs-kr)
 * [💡 커스텀 꿀팁 (Custom Tips)](#custom-tips-kr)
 * [📂 파일 및 폴더 설명](#files-kr)
 * [💻 테스트 환경 및 문제 해결 / FAQ (Troubleshooting)](#environment-kr)
@@ -27,7 +43,7 @@
   * [2. OLED / HDR 사용자 안내 (툴팁 인식 오류)](#oled-hdr-kr)
   * [3. OCR 기능 오류 해결 (캡처 도구 삭제 후 재설치)](#ocr-trouble-kr)
   * [4. 몬스터 속성 자동 인식 FAQ](#monster-ocr-kr)
-  * [5. 멀티로더 사용 시 관리자 권한 안내 및 다클라 설정 (제목표시줄 사라짐 FAQ 포함)](#multiloader-kr)
+  * [5. 멀티로더 사용 시 관리자 권한 안내 및 다클라 설정](#multiloader-kr)
   * [6. 백신 오탐지(False Positive) 대처 안내](#antivirus-kr)
   * [7. 윈도우 시작 시 자동 실행이 동작하지 않는 경우](#startup-trouble-kr)
 * [☕ 피드백 & 후원하기 (Contact & Support)](#support-kr)
@@ -60,6 +76,18 @@
 ![스피드런 타이머 화면](images/timer_kor.png)
 > 장비 교체나 빌드 변경 후 클리어 타임이 얼마나 단축되었는지 직관적으로 비교하고 상세 통계를 기록할 수 있습니다.
 
+<br>
+
+**5. 장비 & 스킬 세팅 캡처 매니저 (Build Snapshot)**
+![장비 및 스킬 세팅 캡처 매니저 화면](images/build_snapshot_kor.png)
+> 캐릭터 본체 장비, 용병, 부적(참), 스텟 및 스킬트리까지 모든 세팅을 슬롯별로 간편하게 캡처하고, 깔끔한 3열 세로형 카드 이미지 1장으로 자동 합성하여 디스코드나 커뮤니티에 원클릭으로 공유(`Ctrl` + `V`)할 수 있습니다.
+
+<br>
+
+**6. 오늘의 파밍 리포트 (Daily Farming Report)**
+![오늘의 파밍 리포트 화면](images/D2R_Farming_Report_kor.png)
+> 당일 사냥한 순수 사냥 시간, 런 횟수, 평균 런 타임, TOP 7 사냥터 분석은 물론, 획득한 아이템의 완성도(으뜸/최상급)와 가치 티어(`[S+]`, `[S]`, `[A]`)를 집계하여 디아블로 감성의 완성도 높은 고해상도 인포그래픽 카드로 제공합니다.
+
 ---
 
 ## <a id="getting-started-kr"></a>🚀 시작하기 (Quick Start)
@@ -67,11 +95,12 @@
 ### 1. 다운로드 및 준비
 1. [👉 최신 릴리즈 페이지(클릭)](https://github.com/ggeonu-abi/D2RUO/releases/latest/download/DUO_Setup.exe)로 이동하여 최신 버전의 **설치 파일**(`DUO_Setup.exe`)을 다운로드하여 실행합니다.
    * **기본 설치 경로:** `%LocalAppData%\Programs\D2R Utility Overlay` (폴더 주소창에 복사/붙여넣기 하시면 바로 이동됩니다)
+   * 🛡️ **무결성 및 악성코드 사전 검증:** 안심하고 이용하실 수 있도록 배포 파일에 대한 바이러스토탈 검사를 완료했습니다. ([VirusTotal 진단 보고서 확인](https://www.virustotal.com/gui/file/d5290c41104092fff538bd566a402d8f83dc15fa4cb610c51ecc824d76864267))
 2. 원활한 데이터 수신을 위해 [d2tz.info 회원가입/로그인](https://www.d2tz.info/login) 후 **User Profile**에서 개인 **API Key(Token)** 를 복사합니다.
 
 > **💡 버전 업데이트 시 기존 설정 유지 방법**
 > * **자동 업데이트 (권장):** 프로그램 실행 시 최신 버전 알림이 뜨면 하단의 **`⚡ 자동 업데이트`** 버튼을 클릭하세요. 기존 설정(UI 위치, 폰트, 프로필 등)이 모두 유지된 채 안전하게 자동 설치 및 재실행됩니다.
-> * **수동 업데이트:** 깃허브에서 새 버전의 설치 파일(`.exe`)을 직접 다운로드해서 설치하신 경우, 기존 프로그램을 지울 필요 없이 그대로 설치를 진행하시면 기존 설정(`d2_overlay_config.json`, `profiles` 폴더 등)이 안전하게 유지됩니다. (만약의 경우에도 이 파일들을 백업하여 이용하시면 됩니다.)
+> * **수동 업데이트:** 깃허브에서 새 버전의 설치 파일(`.exe`)을 직접 다운로드해서 설치하신 경우, 기존 프로그램을 지울 필요 없이 그대로 설치를 진행하시면 기존 설정(`d2r_overlay_config.json`, `profiles` 폴더 등)이 안전하게 유지됩니다. (만약의 경우에도 이 파일들을 백업하여 이용하시면 됩니다.)
 
 ![자동 업데이트 버튼 표시 화면](images/auto-update_kor.png)
 > 💡 새 버전이 감지되면 화면 상단에 **`⚡ 자동 업데이트`** 버튼이 나타납니다.
@@ -84,7 +113,35 @@
 
 ---
 
+## <a id="compatibility-kr"></a>💻 시스템 요구 사양 및 OS 호환성 (Compatibility)
+
+DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 화면 문자 인식(OCR) 기능은 Windows 11 기본 캡처 도구의 OneOCR 엔진을 활용하므로 OS 버전에 따라 지원 기능에 차이가 있습니다.
+
+| 기능 구분 | Windows 11 (22H2 이상 권장) | Windows 10 | 비고 |
+| :--- | :---: | :---: | :--- |
+| **테러존 & 우버디아 오버레이** | ✅ 지원 | ✅ 지원 | 실시간 API 데이터 수신 |
+| **사용자 맞춤 버프 타이머** | ✅ 지원 | ✅ 지원 | 다클라 타겟 창 / 배타적 그룹 지원 |
+| **스피드런 타이머** | ✅ 지원 | ✅ 지원 | 방 입장/퇴장 자동 연동 |
+| **아이템 사전 검색 (텍스트 검색)** | ✅ 지원 | ✅ 지원 | 유니크/룬워드/별칭 검색 |
+| **아이템 툴팁/드래그 자동 인식 (OCR)** | ✅ **완벽 지원** | ⚠️ 미지원 | Windows 11 기본 캡처 도구 엔진 필요 |
+| **릴레이 방제 자동 캡처 (`Shift`+`C`)** | ✅ **완벽 지원** | ⚠️ 미지원 | Windows 11 기본 캡처 도구 엔진 필요 |
+| **몬스터 속성 인식 & 전령 출현 카운트** | ✅ **완벽 지원** | ⚠️ 미지원 | Windows 11 기본 캡처 도구 엔진 필요 |
+| **장비 & 스킬 세팅 매니저 (스냅샷)** | ✅ 지원 | ✅ 지원 | 슬롯별 캡처 및 이미지 합성 지원 (OCR 검색만 Win11) |
+| **OBS Studio 전용 방송 송출 캔버스** | ✅ 지원 | ✅ 지원 | 윈도우 캡처(Window Capture) 지원 |
+
+> **💡 Windows 10 사용자 안내:** 테러존/우버디아 오버레이, 버프 타이머, 스피드런 타이머, 아이템 수동 검색 등은 정상 동작하지만, 화면 글자 자동 인식(아이템 OCR, 방제 캡처, 전령 카운터) 기능을 원활히 사용하시려면 **Windows 11 환경을 권장**합니다.
+
+---
+
 ## <a id="hotkeys-kr"></a>⌨️ 단축키 안내 (Hotkeys)
+
+> [!TIP]
+> **🎮 자주 쓰는 핵심 단축키 TOP 5**
+> * **`Ctrl` + `Shift` + `S`** : **환경설정** 즉시 열기 (게임 중)
+> * **`Ctrl` + `F`** : **아이템 사전** 검색창 열기
+> * **`Ctrl` + `T`** : 마우스 올린 **아이템 툴팁 초고속 자동 인식** (트레더리 시세/DB 기록)
+> * **`Shift` + `C`** : 연속 런을 위한 **릴레이 방제 자동 캡처** 및 클립보드 복사
+> * **`Ctrl` + `B`** : **장비 & 스킬 세팅 매니저** 열기 / 닫기
 
 오버레이를 더욱 빠르고 편리하게 제어하기 위한 단축키입니다. (아이템 인식 단축키는 아이템 사전 창 하단에서, 버프 단축키는 각 스킬 설정에서 변경 가능)
 
@@ -110,12 +167,12 @@
 
 ## <a id="features-kr"></a>✨ 주요 기능 (Key Features)
 
-### 1. 😈 테러존 & 우버디아 트래킹 (Terror Zone & DClone)
+### <a id="feature-tz-kr"></a>1. 😈 테러존 & 우버디아 트래킹 (Terror Zone & DClone)
 * 🎯 **스마트 즐겨찾기 알림:** 원하는 공역 지정 시 발견 즉시, 그리고 시작 5분 전에 텍스트 깜빡임 및 소리로 알려줍니다.
 * 🔔 **우버디아 맞춤 알림 & 출현 감지:** 확장팩(LoD/RotW) 선택이 가능하며 단계 상승 시 소리/TTS 알림을 제공합니다. 갱신 주기 사이 우버디아가 이미 출현하여 단계가 리셋(하락)된 경우에도 출현 가능성 경고음과 음성으로 신속하게 알려줍니다.
 * ⚡ **초절전 스마트 폴링:** 트래픽 낭비 방지를 위해 갱신이 필요한 시점에만 API를 정교하게 호출하며, 단계 변동 감지 시 자동으로 고속 갱신(부스트) 모드로 전환됩니다.
 
-### 2. 📖 실시간 아이템 사전 검색 (Item Dictionary)
+### <a id="feature-item-kr"></a>2. 📖 실시간 아이템 사전 검색 (Item Dictionary)
 * 🔍 **강력하고 유연한 다중 검색:** 영문/한글 공식 명칭, **베이스 아이템**, **조합 룬**, **별칭**(예: '샤코', '오심') 등을 **띄어쓰기로 자유롭게 조합하여 검색**할 수 있습니다. 
 * 🤖 **아이템 자동 인식 (OCR) 및 맞춤 설정 (윈도우11 전용):** 단축키로 영역 드래그(`Ctrl` + `R`) 또는 툴팁 자동 박스 인식(`Ctrl` + `T`)이 가능합니다.
   * **정밀한 변동옵션 자동 입력:** 트레더리 검색 시 원하는 범위를 유연하게 설정할 수 있도록 다양한 입력 방식을 지원합니다.
@@ -143,7 +200,7 @@
   * **정돈된 2x2 하단 옵션 & 툴팁:** 하단 체크박스를 `연대기 자동 등록`, `보정 서랍 팝업`(1행: 인식/수집)과 `DB 자동 기록`, `마지막 사냥터 적용`(2행: DB 드롭 기록)으로 깔끔하게 2x2 그리드 정렬하여 공간 부족 없이 한눈에 파악할 수 있습니다.
   * **📜 이력보기 및 지역 통계 완벽 연동:** 검색창 우측 사이드 서랍의 **[이력보기]** 탭에서 과거 주웠던 동일 아이템들의 상세 수치와 획득 장소를 비교할 수 있으며, 환경설정의 **[지역 통계]** 탭에서 사냥터별 드랍 아이템 목록 및 득템 명당 통계를 한눈에 분석할 수 있습니다.
 
-### 3. 🛡️ 강력한 버프 오버레이 (Buff Overlay)
+### <a id="feature-buff-kr"></a>3. 🛡️ 강력한 버프 오버레이 (Buff Overlay)
 * 📑 **프로필 및 스킬 관리:** 빌드별로 프로필을 생성하고, 게임 화면 내 스킬 아이콘을 직접 캡처하여 쉽게 단축키와 지속시간을 등록할 수 있습니다.
 * 🎯 **다중 클라이언트(다클라) 타겟 D2R 창 지정:**
   * 멀티로더 등을 통해 2개 이상의 디아블로 창을 동시에 실행하여 플레이할 때(예: 본 캐릭터 + 함성 바바 / 인챈트 소서 등), 각 스킬 상세 설정에서 **[인식 대상 창]** 을 개별 지정할 수 있습니다.
@@ -160,7 +217,7 @@
   * **초기화 무시 설정:** 인벤토리나 파티창 단축키 등을 등록해두면, 창을 닫기 위해 누른 키(예: ESC) 때문에 버프가 리셋되는 것을 막아줍니다.
 * 🎨 **디테일한 커스텀:** 아이콘 크기, 타이머 위치, 시간 형식을 입맛에 맞게 조정하고, `sounds` 폴더에 원하는 음원을 넣어 개별 알림음으로 지정할 수 있습니다.
 
-### 4. 🗺️ 지역 및 몬스터 추적 (Region & Monster Tracker)
+### <a id="feature-tracker-kr"></a>4. 🗺️ 지역 및 몬스터 추적 (Region & Monster Tracker)
 * ⏱️ **지역 진입 인식 및 통계:** 어느 지역에 얼마나 머물렀는지 인식하고 체류 시간 통계를 산출합니다. 직전 지역의 체류 시간을 팝업으로 즉시 확인 가능하며, 아이템 DB 기능과 연동되어 득템 명당을 분석할 수 있습니다.
 * 🎯 **다중 클라이언트(다클라) 타겟 D2R 창 지정 (게임 상태 & 지역 탐지):**
   * 멀티로더 등을 통해 여러 개의 D2R 창을 동시에 실행하여 플레이할 때, 환경설정의 **[📍 지역 설정]** 탭에서 **[인식 대상 창]** 을 지정할 수 있습니다.
@@ -177,14 +234,14 @@
   * **스마트 중복 방지:** 전투 중 마우스를 다시 올리거나 교전이 길어져도 동일한 전령에 대해 알림이 반복되거나 카운트가 중복으로 올라가지 않도록 깔끔하게 처리됩니다.
   * **세션 누적 통계 & 방 자동 연동:** 방 입장/퇴장 시 방별 상태가 자동으로 초기화되며, 프로그램 실행 동안 조우한 전령 총합 및 5단계 출현 횟수를 누적 집계합니다. 환경설정의 **[👾 몬스터 인식]** 탭에서 알림 켜기/끄기, 표시 항목 설정(총 전령 수, 5단계 수) 및 통계 초기화(`↺`)를 지원합니다.
 
-### 5. ⏱️ 스피드런 타이머 (Speedrun Timer)
+### <a id="feature-timer-kr"></a>5. ⏱️ 스피드런 타이머 (Speedrun Timer)
 * 🔄 **게임 진입/퇴장 자동 연동 (Auto-Sync):**
   * **자동 시작 및 랩타임 저장:** 환경설정 타이머 탭에서 해당 옵션을 켜두면, 방에 입장할 때 타이머가 자동으로 시작되고 방을 나가면 타이머가 자동으로 정지되면서 런 소요 시간(랩타임)이 즉시 기록됩니다. 수동 단축키 조작 없이 연속 런을 완벽하게 자동 측정할 수 있습니다.
   * **마을 체류 중 일시정지 (Pause in Town):** 게임 시작 시 마을에 머무는 동안에는 측정을 대기하고 사냥터로 나가는 순간부터 시간을 재거나, 마을 복귀 시 일시정지하는 옵션을 지원하여 정비 시간을 제외한 순수 필드/보스 사냥 시간만을 정밀하게 비교할 수 있습니다.
 * 📊 **기록 비교 및 통계:** 장비 교체나 빌드 변경에 따른 클리어 타임 변화를 측정하는 데 최적화되어 있습니다. 직전 런 대비 시간 단축/지연 여부를 색상(+/-)으로 직관적으로 보여줍니다.
 * 📌 **실시간 상세 데이터:** 화면 늘어남 없이 고정된 UI로 누적 실행 횟수, 평균 소요 시간, 최고 기록을 깔끔하게 제공합니다.
 
-### 6. 📷 장비 & 스킬 세팅 캡처 매니저 (Gear & Skill Build Snapshot)
+### <a id="feature-snapshot-kr"></a>6. 📷 장비 & 스킬 세팅 캡처 매니저 (Gear & Skill Build Snapshot)
 * 🛡️ **부위별 슬롯 캡처:** 본체 장비(12개 슬롯: 투구, 갑옷, 주/스왑 무기 및 방패, 장갑, 벨트, 신발, 목걸이, 반지 1/2), 용병 장비(3개 슬롯: 투구, 갑옷, 무기), 부적(참), 스텟/고급 통계(1~3) 및 스킬트리(1~4)까지 빌드의 모든 구성을 부위별로 캡처하여 체계적으로 관리할 수 있습니다.
 * ⚡ **스마트 자동 & 드래그 캡처 지원:**
   * **⚡ 자동 캡처:** 슬롯의 '자동' 버튼 클릭 후 게임 내에서 아이템에 마우스를 올리고 **`Space`** 키를 누르면 툴팁 영역을 자동으로 감지하여 깔끔하게 캡처합니다. (취소: `ESC`)
@@ -199,7 +256,7 @@
   * **개별 이미지 파일 자동 보관:** 상단의 **`📂 저장 폴더 열기`** 버튼을 누르면 캡처된 각 부위별 원본 이미지 파일(`.png`)들이 저장된 폴더를 바로 열어 자유롭게 확인하고 활용할 수 있습니다.
   * **멀티 빌드 관리 & 줌 뷰어:** 여러 캐릭터나 빌드별로 프로필을 분리하여 생성/복제/검색할 수 있으며, 카드 썸네일 클릭 시 고해상도 원본 이미지를 마우스 드래그(Pan)로 확대 조회할 수 있습니다.
 
-### 7. 📋 릴레이 방제 자동 캡처 & 복사 (Relay Game Name OCR & Copy)
+### <a id="feature-relay-kr"></a>7. 📋 릴레이 방제 자동 캡처 & 복사 (Relay Game Name OCR & Copy)
 * ⚡ **원클릭 초고속 방제 인식 & 복사:**
   * 바알방, 카우방, 디아방, 탈방 등 방 번호가 순차적으로 증가하는 연속 릴레이 런 진행 시, 게임 화면 우측 상단의 방제 영역을 단축키(`Shift` + `C`) 한 번으로 초고속 OCR 스캔하여 클립보드에 즉시 복사합니다.
   * 복사 완료 시 화면 상단에 복사된 방제가 강조된 토스트 팝업(`방제 복사 완료 : Cow-02`)이 표시되어 직관적으로 확인할 수 있습니다.
@@ -212,7 +269,7 @@
 * ⌨️ **자유로운 단축키 커스텀:**
   * 기본 단축키인 `Shift` + `C` 외에도 사용자가 원하는 단축키로 자유롭게 변경할 수 있으며, 초기화(`↺`) 및 비활성화(`✖`) 버튼을 지원합니다.
 
-### 8. 📊 오늘의 파밍 리포트 (Daily Farming Report)
+### <a id="feature-report-kr"></a>8. 📊 오늘의 파밍 리포트 (Daily Farming Report)
 * 📈 **종합 사냥 결산 인포그래픽 카드 생성:**
   * 하루 또는 최근 3일/7일 동안 진행한 사냥 데이터를 집계하여, 디아블로 감성의 완성도 높은 고해상도 인포그래픽 카드 이미지로 자동 렌더링합니다.
   * 시스템 트레이 우클릭 메뉴의 **[📊 오늘의 파밍 리포트]** 또는 환경설정의 **[지역 통계]** 탭 상단 버튼을 통해 언제든 즉시 조회할 수 있습니다.
@@ -228,7 +285,7 @@
   * **[📋 이미지로 클립보드 복사]** 버튼을 누르면 완성된 고화질 리포트 카드가 즉시 클립보드에 복사되어, 디스코드, 카페, 커뮤니티 게시판에 `Ctrl + V`로 손쉽게 붙여넣고 사냥 성과를 공유할 수 있습니다.
   * **[💾 이미지 파일로 저장]** 을 통해 원하는 경로에 PNG 이미지로 영구 보관할 수도 있습니다.
 
-### 9. 📺 방송 송출(OBS Studio) 지원 및 UI 편의성
+### <a id="feature-obs-kr"></a>9. 📺 방송 송출(OBS Studio) 지원 및 UI 편의성
 * 🎥 **OBS Studio 전용 스트림 오버레이 (윈도우 캡처 지원):**
   * 환경설정에서 `OBS 송출용 오버레이 활성화`를 켜면, OBS Studio의 **[윈도우 캡처]** 소스에서 `DUO - Stream Overlay` 창을 추가할 수 있습니다.
   * 테러존, 우버디아, 버프 타이머 등 게임 화면 위의 모든 오버레이를 1:1 위치 그대로 투명 캔버스 위에 일괄 렌더링하여 깜빡임 없이 안정적으로 방송 송출 화면에 합성합니다.
@@ -238,6 +295,8 @@
 * 💬 **스마트 단축키 차단:** 엔터(Enter) 키로 채팅창을 열어둔 상태에서는 버프 스킬이나 아이템 단축키가 반응하지 않도록 개선하여 오작동을 방지합니다.
 * 🔔 **아이템 표시 여부 스마트 알림:** 전리품 필터 사용 시 '아이템 표시 전환'이 꺼져있는 것을 깜빡하지 않도록, 방 입장 후 및 마을에서 필드로 나갔을 때 현재 상태(ON/OFF)를 상단 알림 메시지로 띄워줍니다.
 * 🔄 **자유로운 레이아웃 및 자동 업데이트:** 드래그 앤 드롭 패널 조정, 클릭 한 번으로 완료되는 편리한 자동 업데이트 기능을 지원합니다.
+
+[⬆️ 목차로 돌아가기](#korean)
 
 ---
 
@@ -260,7 +319,7 @@
 | `d2r_stats.db` | 지역 통계와 아이템 득템 기록 등을 저장하는 통계 데이터베이스 (SQLite) |
 | `act_map.json` | ⚠️ 테러존 지역 레벨(지옥 난이도) 및 Act 분류 필수 데이터 (삭제 금지) |
 | `area.json` | ⚠️ 테러존 다국어 번역 필수 데이터 (삭제 금지) |
-| `d2_overlay_config.json` | 사용자 환경설정 저장 파일 (자동 생성) |
+| `d2r_overlay_config.json` | 사용자 환경설정 저장 파일 (자동 생성) |
 | `profiles/` | 캡처한 버프 스킬 아이콘 및 설정(`skills.json`)이 저장되는 폴더 |
 | `builds/` | 빌드별 장비/스킬 스크린샷 이미지 및 세팅 데이터(`build_info.json`) 보관 폴더 |
 | `sounds/` | 버프 종료 임박 시 사용할 사용자 지정 알림음 보관 폴더 |
@@ -271,7 +330,7 @@
 | `log/` | 프로그램 작동 로그(`.log`) 및 디버그/캡처 이미지 파일이 저장되는 폴더 |
 
 > **📝 로그 파일 안내 (`.log`)**
-> 로그 파일과 디버그/캡처 이미지는 `log/` 폴더에 분리되어 안전하게 보관됩니다. 작업 표시줄 트레이 아이콘을 우클릭한 뒤 **「📁 로그 폴더 열기」**를 누르면 탐색기로 즉시 이동할 수 있습니다.
+> 로그 파일과 디버그/캡처 이미지는 `log/` 폴더에 분리되어 안전하게 보관됩니다. 작업 표시줄 트레이 아이콘을 우클릭한 뒤 **「📁 로그 폴더 열기」** 를 누르면 탐색기로 즉시 이동할 수 있습니다.
 > 로그 파일은 프로그램 작동 상태를 기록하며, 파일 용량이 커지면 파일명에 `_backup`이 붙어 백업(예: `app_debug_backup.log`)되고 최신 정보는 `.log` 파일에 기록됩니다. **문제 발생 시 이슈(Issue) 등록 시 `log` 폴더 내의 로그 파일과 디버그 이미지를 함께 첨부해 주시면 보다 빠르고 정확한 분석 및 원인 파악이 가능합니다.**
 > * `app_debug.log` : 기본 로그 파일
 > * `api_usage.log` : d2tzinfo 데이터 요청 기록 (테러존, 우버디아)
@@ -281,9 +340,9 @@
 
 ---
 
-> **⚖️ 오픈소스 라이선스 고지:**
+> **⚖️ 서드파티 라이브러리 및 라이선스 고지 (Third-Party Notices):**
 > * 본 프로그램은 LGPLv3 라이선스를 따르는 **PySide6**를 동적 링크하여 사용하고 있습니다. 
-> * 게임 화면 내 텍스트 인식(OCR)을 위해 Apache 2.0 라이선스를 따르는 **Tesseract OCR** 및 **pytesseract**를 사용하고 있습니다.
+> * 화면 텍스트 인식(OCR) 기능은 Windows 11 기본 캡처 도구의 OneOCR 엔진 모듈을 연동하여 구동됩니다.
 
 ---
 
@@ -326,7 +385,7 @@
 인식 문제가 발생했을 때 복잡하게 버전을 확인할 필요 없이 **기존 앱을 삭제한 뒤 스토어에서 다시 설치하는 것**만으로 대부분의 문제가 즉시 해결됩니다.
 
 1. **기존 앱 삭제 (가장 중요):**
-   * 윈도우 **[시작]** 버튼 우클릭 -> **[설치된 앱]**(또는 제어판 / 설정 -> 앱 -> 설치된 앱)으로 이동합니다.
+   * 윈도우 **[시작]** 버튼 우클릭 -> **[설치된 앱]** (또는 제어판 / 설정 -> 앱 -> 설치된 앱)으로 이동합니다.
    * 앱 목록에서 **'캡처 도구'** 또는 **'캡처 및 스케치'** (Snipping Tool)를 찾습니다.
    * 우측의 **점 세 개(...)** 버튼을 누르고 **[제거]** 를 선택하여 시스템에서 완전히 삭제합니다.
 2. **최신 버전 재설치:**
@@ -360,7 +419,7 @@
 3. **캡처 영역 내 다른 글자/오버레이 간섭 여부 (화면 캡쳐 방식 권장):**
    * 몬스터 인식 캡처 영역 안에 화면 상단 테러존 안내 등 다른 오버레이 UI나 글자가 겹쳐 있으면 문자인식에 간섭이 생길 수 있습니다.
    * 💡 **권장 팁:** 환경설정의 **`화면 캡쳐 방식`** 을 **`디아블로 화면만 캡쳐`** 로 설정하시면, 외부 오버레이나 다른 창의 방해 없이 순수한 디아블로 게임 화면만 캡처하므로 인식 방해를 완벽히 방지할 수 있습니다.
-4. **필수 속성(`*`) 및 최소 부가옵션 개수 설정 확인:**
+4. **필수 속성 (`*`) 및 최소 부가옵션 개수 설정 확인:**
    * 인식할 속성 목록에서 속성명 앞에 별표(`*`)가 붙은 속성(예: `*악마`, `*저주받음`)은 **모든 필수 조건이 100% 일치**해야만 감지됩니다.
    * **최소 부가옵션 개수**가 너무 높게 설정되어 있으면 조건을 충족하지 못해 알림이 발생하지 않습니다. (필수 속성만 매칭되면 알림을 받고 싶으신 경우 `0`으로 설정)
 5. **활성화된 버프 프로필의 캐릭터 직업 확인 (악마술사 전용 기능):**
@@ -391,6 +450,8 @@
 이 프로그램은 게임 내 단축키 감지를 위해 `keyboard` 모듈을 사용합니다. 정식 설치형(`.exe`) 배포 방식을 도입하여 오탐지 확률을 크게 낮추었으나, 여전히 일부 백신 프로그램이 이를 악성 코드로 오인하여 실행을 차단할 수 있습니다. 
 *(쉬운 설명: 키보드 입력을 가로채는 기능은 해킹 프로그램들이 자주 쓰는 방식이라 백신이 일단 의심하고 차단하는 자연스러운 현상입니다.)*
 
+> 🛡️ **바이러스토탈 사전 검증 완료:** 배포 중인 `DUO_Setup.exe` 설치 파일은 주요 글로벌 백신 엔진을 대상으로 무결성 및 악성코드 사전 검사를 완료했습니다. 상세 검사 결과는 [VirusTotal 진단 보고서(클릭)](https://www.virustotal.com/gui/file/d5290c41104092fff538bd566a402d8f83dc15fa4cb610c51ecc824d76864267)에서 투명하게 확인하실 수 있습니다.
+
 주로 다음과 같은 진단명으로 오탐지될 수 있습니다:
 * **Windows Defender:** `Program:Win32/Contebrew.A!ml` *(쉬운 설명: 진단명 끝의 '!ml'은 머신러닝 기반 탐지를 의미합니다. 프로그램의 작동 방식을 AI가 기계적으로 분석해 예방 차원에서 차단했을 확률이 높습니다.)*
 
@@ -404,30 +465,30 @@
 ---
 
 ### <a id="startup-trouble-kr"></a>7. 🚀 윈도우 시작 시 자동 실행이 동작하지 않는 경우 (관리자 권한 및 시작프로그램 설정 FAQ)
-환경설정이나 트레이 메뉴에서 **[윈도우 시작 시 자동 실행]**을 켜두었는데도 컴퓨터 부팅 시 DUO가 자동으로 켜지지 않는다면 아래 원인과 해결 방법을 확인해 주세요.
+환경설정이나 트레이 메뉴에서 **[윈도우 시작 시 자동 실행]** 을 켜두었는데도 컴퓨터 부팅 시 DUO가 자동으로 켜지지 않는다면 아래 원인과 해결 방법을 확인해 주세요.
 
 #### ❓ 1. 실행 파일에 '관리자 권한으로 실행'이 설정되어 있는 경우 (가장 흔한 원인)
-* **원인**: Windows(Windows 10/11)의 보안 정책(UAC)상, 윈도우 로그인/부팅 단계에서는 보안 승인 창을 띄울 수 없도록 차단되어 있습니다. 따라서 실행 파일 속성에 **'관리자 권한으로 이 프로그램 실행'** 옵션이 체크되어 있으면, 시작프로그램에 등록되어 있어도 **Windows 운영체제가 부팅 시 아무런 알림 없이 실행을 차단(Silent Block)**합니다.
+* **원인**: Windows(Windows 10/11)의 보안 정책(UAC)상, 윈도우 로그인/부팅 단계에서는 보안 승인 창을 띄울 수 없도록 차단되어 있습니다. 따라서 실행 파일 속성에 **'관리자 권한으로 이 프로그램 실행'** 옵션이 체크되어 있으면, 시작프로그램에 등록되어 있어도 **Windows 운영체제가 부팅 시 아무런 알림 없이 실행을 차단(Silent Block)** 합니다.
 * **💡 권장 해결 방법 (가장 편리함)**:
   1. DUO 설치 폴더(`%LocalAppData%\Programs\D2R Utility Overlay\`)의 `DUO.exe` 또는 바탕화면 바로가기 아이콘을 마우스 우클릭 ➔ **[속성]** ➔ **[호환성]** 탭으로 이동합니다.
   2. **`[관리자 권한으로 이 프로그램 실행]` 체크박스를 해제**하고 [적용] 및 [확인]을 누릅니다.
-  3. DUO 환경설정에서 **[윈도우 시작 시 자동 실행]**을 다시 켜줍니다.
+  3. DUO 환경설정에서 **[윈도우 시작 시 자동 실행]** 을 다시 켜줍니다.
   > **Q. 디아블로 2(멀티로더)가 관리자 권한으로 실행되는데, DUO를 일반 권한으로 켜도 되나요?**  
   > **A. 네, 완전히 괜찮습니다!** DUO는 컴퓨터 부팅 시 일반 권한으로 트레이에 조용히 켜져 있다가, 디아블로 2가 실행되었을 때 관리자 권한이 필요한 상황을 스스로 감지하여 **`[관리자 권한으로 재실행]` 원클릭 안내 팝업**을 띄워줍니다. 팝업에서 버튼 하나만 누르면 즉시 관리자 권한으로 자동 승격되므로, 부팅 자동 실행과 관리자 권한 연동을 둘 다 완벽하게 누리실 수 있습니다.
 
 #### ❓ 2. 부팅 시점부터 무조건 관리자 권한으로 띄우고 싶은 경우 (작업 스케줄러 활용)
-* 팝업을 거치지 않고 컴퓨터가 켜질 때부터 항상 관리자 권한으로 띄우고 싶다면, 윈도우 레지스트리 시작프로그램 대신 **Windows 작업 스케줄러(Task Scheduler)**를 사용해야 합니다 (Windows 보안 제약을 우회하여 UAC 창 없이 부팅 시 관리자 권한을 부여하는 유일한 공식 방법입니다).
+* 팝업을 거치지 않고 컴퓨터가 켜질 때부터 항상 관리자 권한으로 띄우고 싶다면, 윈도우 레지스트리 시작프로그램 대신 **Windows 작업 스케줄러(Task Scheduler)** 를 사용해야 합니다 (Windows 보안 제약을 우회하여 UAC 창 없이 부팅 시 관리자 권한을 부여하는 유일한 공식 방법입니다).
 * **설정 방법**:
   1. `시작` ➔ `작업 스케줄러` 검색 후 실행
   2. 오른쪽 패널에서 **[작업 만들기]** 클릭
   3. **[일반] 탭**: 이름에 `DUO` 입력, 하단의 **`가장 높은 수준의 권한으로 실행`** 체크
-  4. **[트리거] 탭**: [새로 만들기] ➔ 작업 시작을 **`로그온할 때`**로 선택 후 [확인]
+  4. **[트리거] 탭**: [새로 만들기] ➔ 작업 시작을 **`로그온할 때`** 로 선택 후 [확인]
   5. **[동작] 탭**: [새로 만들기] ➔ 동작: `프로그램 시작`, 프로그램/스크립트에 `DUO.exe` 경로 찾아보기로 지정 (기본 경로: `C:\Users\<사용자명>\AppData\Local\Programs\D2R Utility Overlay\DUO.exe`)
   6. **[조건] 탭**: `컴퓨터의 AC 전원이 켜져 있는 경우에만 작업 시작` 체크 해제 (노트북 배터리 환경 대비) 후 [확인] 저장
 
 #### ❓ 3. Windows 작업 관리자에서 '시작프로그램'이 '사용 안 함'으로 꺼져 있는 경우
 * **원인**: Windows 10/11의 작업 관리자 시작프로그램 목록에서 DUO가 '사용 안 함(Disabled)'으로 꺼져 있으면, 앱 내에서 토글을 켜도 윈도우가 실행을 차단합니다.
-* **해결 방법**: `Ctrl + Shift + Esc` (작업 관리자) ➔ **[시작프로그램]** 탭 ➔ **DUO** (또는 D2R Utility Overlay) 항목을 찾아 상태가 '사용 안 함'으로 되어 있다면 우클릭 ➔ **[사용]**으로 변경해 주세요.
+* **해결 방법**: `Ctrl + Shift + Esc` (작업 관리자) ➔ **[시작프로그램]** 탭 ➔ **DUO** (또는 D2R Utility Overlay) 항목을 찾아 상태가 '사용 안 함'으로 되어 있다면 우클릭 ➔ **[사용]** 으로 변경해 주세요.
 
 ---
 
@@ -464,6 +525,12 @@
 <a name="english"></a>
 # 🛡️ Diablo 2: Resurrected Utility Overlay (DUO)
 
+[![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010%20(64--bit)-0078D6.svg?logo=windows)](#compatibility-en)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Safe%20%26%20Clean-005BBB?logo=virustotal)](https://www.virustotal.com/gui/file/d5290c41104092fff538bd566a402d8f83dc15fa4cb610c51ecc824d76864267)
+[![License](https://img.shields.io/badge/Type-Freeware%20(CC%20BY--NC--ND%204.0)-green.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Language](https://img.shields.io/badge/Language-Korean%20%7C%20English-orange.svg)](#english)
+[![Game](https://img.shields.io/badge/Game-Diablo%20II:%20Resurrected-darkred.svg)](https://diablo2.blizzard.com/)
+
 [⬆️ Back to Top / 한국어](#korean)
 
 A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance your Diablo 2: Resurrected gameplay. In addition to real-time tracking for the upcoming **Terror Zone** and **Diablo Clone** progression across servers, it provides various quality-of-life utilities, such as a highly customizable **Buff Skill Timer**, a **Terror Zone Herald Counter**, and an **In-game Item Search Dictionary**, directly on your game screen.
@@ -481,8 +548,18 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ## 📑 Table of Contents
 * [📸 Screenshots](#screenshots-en)
 * [🚀 Getting Started](#getting-started-en)
+* [💻 System Requirements & Compatibility](#compatibility-en)
 * [⌨️ Hotkeys](#hotkeys-en)
 * [✨ Key Features](#features-en)
+  * [1. Real-time TZ & DClone Tracker](#feature-tz-en)
+  * [2. In-game Item Search Dictionary](#feature-item-en)
+  * [3. Powerful Buff Overlay](#feature-buff-en)
+  * [4. Region & Monster Tracking](#feature-tracker-en)
+  * [5. Speedrun Timer](#feature-timer-en)
+  * [6. Gear & Skill Build Snapshot Manager](#feature-snapshot-en)
+  * [7. Relay Game Name OCR Capture & Copy](#feature-relay-en)
+  * [8. Daily Farming Report](#feature-report-en)
+  * [9. OBS Studio Streaming Support & UI Convenience](#feature-obs-en)
 * [💡 Custom Tips](#custom-tips-en)
 * [📂 File & Folder Descriptions](#files-en)
 * [💻 Tested Environment & Troubleshooting / FAQ](#environment-en)
@@ -490,7 +567,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * [2. OLED / HDR Users (Tooltip OCR Issues)](#oled-hdr-en)
   * [3. OCR Not Working (Snipping Tool Uninstall & Reinstall)](#ocr-trouble-en)
   * [4. Monster Attribute Detection FAQ](#monster-ocr-en)
-  * [5. Multi-Loader Usage & Admin Privileges / Multi-Client Settings (Title Bar Disappearance FAQ)](#multiloader-en)
+  * [5. Multi-Loader Usage & Admin Privileges / Multi-Client Settings](#multiloader-en)
   * [6. Security & False Positives (Antivirus)](#antivirus-en)
   * [7. "Run on Windows Startup" Not Working](#startup-trouble-en)
 * [☕ Contact & Support](#support-en)
@@ -522,6 +599,18 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ![Speedrun Timer Screen](images/timer_eng.png)
 > Intuitively compare and record how much your clear time has improved after changing your equipment or builds.
 
+<br>
+
+**5. Gear & Skill Build Snapshot Manager**
+![Gear & Skill Build Snapshot Manager Screen](images/build_snapshot_eng.png)
+> Capture your character's entire build setup slot-by-slot (Gear, Mercenary, Charms, Stats, and Skill Trees) and merge them into a single, sleek 3-column vertical infographic card image ready for 1-click clipboard pasting (`Ctrl` + `V`) into Discord and gaming communities.
+
+<br>
+
+**6. Daily Farming Report**
+![Daily Farming Report Screen](images/D2R_Farming_Report_eng.png)
+> Automatically aggregates pure hunting time, run counts, average clear times, Top 7 farming spots, and evaluates looted items by stat rolls (Perfect/Top) and value tiers (`[S+]`, `[S]`, `[A]`) into a high-resolution, Diablo-themed daily infographic report card.
+
 ---
 
 ## <a id="getting-started-en"></a>🚀 Getting Started
@@ -529,11 +618,12 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ### 1. Download & Preparation
 1. Go to the [👉 Latest Release Page (Click)](https://github.com/ggeonu-abi/D2RUO/releases/latest/download/DUO_Setup.exe), download the **installer (`DUO_Setup.exe`)**, and run it.
    * **Default Installation Path:** `%LocalAppData%\Programs\D2R Utility Overlay` (You can copy & paste this into your file explorer address bar)
+   * 🛡️ **Security & Malware Verification:** Every release installer is scanned and verified clean on VirusTotal. ([View VirusTotal Scan Report](https://www.virustotal.com/gui/file/d5290c41104092fff538bd566a402d8f83dc15fa4cb610c51ecc824d76864267))
 2. Sign up/Login to [d2tz.info](https://www.d2tz.info/login) and copy your **API Key (Token)** from the User Profile page.
 
 > **💡 How to keep your settings when updating:**
 > * **Auto-Update (Recommended):** Simply click the **`⚡ Auto-Update`** button on the overlay when a new version is detected. It will safely download and install the update in the background while preserving all your custom settings and profiles.
-> * **Manual Update:** If you download the new `.exe` installer manually, simply run it. It will safely overwrite the files while preserving your old `d2_overlay_config.json` and `profiles`.
+> * **Manual Update:** If you download the new `.exe` installer manually, simply run it. It will safely overwrite the files while preserving your old `d2r_overlay_config.json` and `profiles`.
 
 ![Auto-Update button display screen](images/auto-update_eng.png)
 > 💡 When a new version is detected, the **`⚡ Auto-Update`** button appears at the top of the screen.
@@ -546,7 +636,35 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 ---
 
+## <a id="compatibility-en"></a>💻 System Requirements & Compatibility
+
+DUO is built and optimized for **Windows 11 (64-bit)**. On-screen text recognition (OCR) features utilize the Windows 11 built-in Snipping Tool OneOCR engine, resulting in different feature support across OS versions:
+
+| Feature | Windows 11 (22H2+ Recommended) | Windows 10 | Notes |
+| :--- | :---: | :---: | :--- |
+| **Terror Zone & DClone Tracker** | ✅ Supported | ✅ Supported | Live API data feed |
+| **Custom Buff Timer** | ✅ Supported | ✅ Supported | Multi-client target / Mutual exclusion |
+| **Speedrun Timer** | ✅ Supported | ✅ Supported | Game enter/exit auto-sync |
+| **Item Dictionary (Text Search)** | ✅ Supported | ✅ Supported | Unique/Runeword/Alias database search |
+| **Auto Item Tooltip / Drag OCR** | ✅ **Full Support** | ⚠️ Not Supported | Requires Windows 11 Snipping Tool OCR engine |
+| **Relay Game Name OCR (`Shift`+`C`)** | ✅ **Full Support** | ⚠️ Not Supported | Requires Windows 11 Snipping Tool OCR engine |
+| **Monster Attribute & Herald Counter** | ✅ **Full Support** | ⚠️ Not Supported | Requires Windows 11 Snipping Tool OCR engine |
+| **Gear & Build Snapshot Manager** | ✅ Supported | ✅ Supported | Slot capture & image compositing (OCR search Win11 only) |
+| **OBS Studio Dedicated Stream Canvas** | ✅ Supported | ✅ Supported | Window Capture supported |
+
+> **💡 Note for Windows 10 Users:** Terror Zone and DClone overlays, Buff Timers, Speedrun Timer, and manual Item Search function normally on Windows 10. However, **Windows 11 is required** for automatic on-screen OCR features (Item OCR, Game Name Capture, and Herald Counter).
+
+---
+
 ## <a id="hotkeys-en"></a>⌨️ Hotkeys
+
+> [!TIP]
+> **🎮 Top 5 Most Used Hotkeys**
+> * **`Ctrl` + `Shift` + `S`** : Open **Settings** instantly (in-game)
+> * **`Ctrl` + `F`** : Open **Item Search Dictionary**
+> * **`Ctrl` + `T`** : Superfast **Item Tooltip Auto-OCR** (Traderie price check / DB log)
+> * **`Shift` + `C`** : **Auto-capture Relay Game Name** and copy to clipboard
+> * **`Ctrl` + `B`** : Open / Close **Gear & Skill Build Snapshot Manager**
 
 Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can be changed at the bottom-right of the Item Search window; Buff hotkeys in skill settings)
 
@@ -572,12 +690,12 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 
 ## <a id="features-en"></a>✨ Key Features
 
-### 1. 😈 Real-time TZ & DClone Tracker
+### <a id="feature-tz-en"></a>1. 😈 Real-time TZ & DClone Tracker
 * 🎯 **Custom Favorite Alerts:** Get text blinks and sound notifications when your favorite zones are discovered and 5 mins before they start.
 * 🔔 **Uber Alerts & Spawn Detection:** Choose your expansion (LoD/RotW) and get notified when DClone stages increase. Also provides warning chimes and voice alerts if DClone progress drops unexpectedly (spawned and reset between polling cycles).
 * ⚡ **Smart Polling:** Highly optimized API calls to prevent traffic waste, automatically switching to high-speed boost mode upon detecting stage changes.
 
-### 2. 📖 In-game Item Search Dictionary
+### <a id="feature-item-en"></a>2. 📖 In-game Item Search Dictionary
 * 🔍 **Powerful & Flexible Search Engine:** Search quickly by English/Korean names, **base items**, required runes, or well-known **aliases**. Use spaces to combine these keywords effortlessly.
 * 🤖 **Auto Recognition (OCR) & Custom Settings (Win 11 Only):** Quickly scan items by dragging (`Ctrl` + `R`) or using the auto-detect box (`Ctrl` + `T`). 
   * **Precision Variable Stat Auto-Fill:** Offers versatile modes to automatically calculate and populate stat ranges for Traderie searches:
@@ -605,7 +723,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **Clean 2x2 Bottom Controls & Tooltips:** Checkboxes are neatly aligned in a 2x2 grid (`Auto-Chronicle` & `Auto-Popup Drawer` / `Auto-DB Record` & `Use Last Field`) to prevent clutter while keeping perfect horizontal balance.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 
-### 3. 🛡️ Powerful Buff Overlay
+### <a id="feature-buff-en"></a>3. 🛡️ Powerful Buff Overlay
 * 📑 **Profile & Skill Management:** Create multiple profiles for different builds. Easily capture skill icons directly from the game screen to register hotkeys and durations.
 * 🎯 **Multi-Client Specific D2R Window Target:**
   * When running 2+ Diablo II: Resurrected clients simultaneously via multi-loader (e.g., Main Character + Shout Barbarian / Enchant Sorceress), you can assign a **[Target Window]** for each buff skill in the skill settings dialog.
@@ -622,7 +740,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **Ignore Keys:** Prevent accidental buff resets by registering keys like your inventory hotkey as 'Ignore if Prev Key'.
 * 🎨 **Highly Customizable:** Adjust icon sizes, text sizes/positions, and formats. Assign custom audio files (`.wav`, `.mp3`) to individual skills using the `sounds` folder.
 
-### 4. 🗺️ Region & Monster Tracking
+### <a id="feature-tracker-en"></a>4. 🗺️ Region & Monster Tracking
 * ⏱️ **Region Entry & Statistics:** Tracks the exact time spent in each area and compiles statistics. Provides a popup for the previous area's time and links with the 'Item Drop DB' to analyze your most profitable farming spots.
 * 🎯 **Multi-Client Specific D2R Window Target (Game State & Region Tracking):**
   * When running multiple D2R clients simultaneously via multi-loader, you can designate a **[Target Window]** in Settings -> **[📍 Area Settings]**.
@@ -639,14 +757,14 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **Smart Duplicate Prevention:** Prevents repeated chimes or duplicate counts during extended combat, kiting, or re-targeting the same herald.
   * **Session Cumulative Statistics & Room Auto-Sync:** Automatically resets room states on game enter/exit, and tracks total herald encounters and Stage 5 spawns across your session. Settings -> **[👾 Monster OCR]** tab provides dedicated toggle controls, display options, and a manual reset (`↺`) button.
 
-### 5. ⏱️ Speedrun Timer
+### <a id="feature-timer-en"></a>5. ⏱️ Speedrun Timer
 * 🔄 **Game Enter/Exit Auto-Sync:**
   * **Auto Start & Lap Recording:** When enabled in the Settings -> Timer tab, the timer automatically starts upon entering a game and stops/records your lap time upon exit. Seamlessly tracks consecutive runs without touching manual hotkeys.
   * **Pause while in Town:** Automatically pauses the timer while in town, starting when entering hunting grounds and pausing upon town return. Accurately benchmark pure field and boss combat clear times.
 * 📊 **Record Comparison:** Optimized for measuring clear time variations due to equipment swaps or build changes. It intuitively displays the time difference (+/-) from the previous run using color coding.
 * 📌 **Real-time Statistics:** Provides a clean, fixed-size UI that displays your current elapsed time alongside runs, average clear time, and your best record.
 
-### 6. 📷 Gear & Skill Build Snapshot Manager
+### <a id="feature-snapshot-en"></a>6. 📷 Gear & Skill Build Snapshot Manager
 * 🛡️ **Comprehensive Slot-by-Slot Capture:** Manage and capture your entire build setup by individual slots — Character Gear (12 slots: Helm, Armor, Main/Swap Weapons & Shields, Gloves, Belt, Boots, Amulet, Rings 1 & 2), Mercenary Gear (3 slots: Helm, Armor, Weapon), Charms, and Character Stats & Skill Trees (Tabs 1–4).
 * ⚡ **Smart Auto & Drag Capture Modes:**
   * **⚡ Auto Capture:** Click 'Auto' on any slot, hover over the item in-game, and press **`Space`** to automatically detect and cleanly crop the item tooltip. (Cancel: `ESC`)
@@ -661,7 +779,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **Direct Folder Access:** Click the **`📂 Open Folder`** button to view and manage individual captured image files (`.png`) saved cleanly for each slot.
   * **Multi-Build Management & Zoom Viewer:** Create, clone, rename, and search multiple build setups. Click any card thumbnail to open a high-resolution viewer with smooth mouse drag panning.
 
-### 7. 📋 Relay Game Name OCR Capture & Copy
+### <a id="feature-relay-en"></a>7. 📋 Relay Game Name OCR Capture & Copy
 * ⚡ **1-Click High-Speed Game Name OCR & Copy:**
   * During sequential relay runs (e.g., Baal-01, Chaos-02, Cow-03), press the hotkey (`Shift` + `C`) to instantly scan the top-right game name area via OCR and copy the room name directly to your clipboard.
   * An on-screen toast alert confirms the copied name (e.g., `Game Name Copied : Cow-02`) so you can visually verify the exact room name captured.
@@ -674,7 +792,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 * ⌨️ **Full Hotkey Customization:**
   * Customize the hotkey to any key combination (default: `Shift` + `C`), or quickly reset (`↺`) or disable (`✖`) it via the dedicated UI controls.
 
-### 8. 📊 Daily Farming Report
+### <a id="feature-report-en"></a>8. 📊 Daily Farming Report
 * 📈 **Comprehensive Farming Infographic Card:**
   * Automatically aggregates your farming data over Today, Yesterday, Last 3 Days, or Last 7 Days into a sleek, Diablo-themed high-resolution infographic card image.
   * Accessible anytime via the system tray right-click menu **[📊 Daily Farming Report]** or via the dedicated button in Settings -> **[Region Stats]** tab.
@@ -690,7 +808,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * Click **[📋 Copy Image to Clipboard]** to immediately copy the full report image to your clipboard for effortless pasting (`Ctrl` + `V`) into Discord, forums, and gaming communities.
   * Export clean PNG files anytime with **[💾 Save Image to File]** for archiving.
 
-### 9. 📺 OBS Studio Streaming Support & UI Convenience
+### <a id="feature-obs-en"></a>9. 📺 OBS Studio Streaming Support & UI Convenience
 * 🎥 **Dedicated OBS Stream Overlay (Window Capture):**
   * Enable `OBS Stream Overlay` in Settings to register a dedicated `DUO - Stream Overlay` window for OBS Studio **[Window Capture]**.
   * All active overlays (Terror Zone, Uber Diablo, Buff Timers, etc.) are rendered 1:1 onto a single transparent canvas, providing a smooth, flicker-free stream overlay.
@@ -700,6 +818,8 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 * 💬 **Smart Chat Hotkey Block:** Opening the chat window with `Enter` safely disables overlay hotkeys (buffs, item search) to prevent misclicks and accidental triggers.
 * 🔔 **Smart Item Display Reminder:** If you use the 'Toggle Item Display' option in-game and forget to turn it on after joining a room (especially with loot filters), a helpful reminder message will appear at the top of the screen.
 * 🔄 **Free Layout & Auto-Update:** Drag and drop panels anywhere. Enjoy seamless background updates with a simple 1-click update button.
+
+[⬆️ Back to Top / 한국어](#korean)
 
 ---
 
@@ -722,7 +842,7 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 | `d2r_stats.db` | SQLite database storing your region statistics and item drop history. |
 | `act_map.json` | ⚠️ Essential TZ area level and Act data (Do not delete). |
 | `area.json` | ⚠️ Essential TZ translation data (Do not delete). |
-| `d2_overlay_config.json` | Auto-saved user preferences. |
+| `d2r_overlay_config.json` | Auto-saved user preferences. |
 | `profiles/` | Folder containing your captured buff icons and `skills.json`. |
 | `builds/` | Folder containing gear/skill screenshots and build configuration data (`build_info.json`) per build. |
 | `sounds/` | Place your custom `.mp3` or `.wav` files here for buff alerts. |
@@ -743,9 +863,9 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 
 ---
 
-> **⚖️ Open Source License Notice:**
+> **⚖️ Third-Party Notices & Licenses:**
 > * This program dynamically links **PySide6**, which is licensed under LGPLv3. 
-> * This program uses **Tesseract OCR** and **pytesseract** for text recognition on the game screen, which are licensed under the Apache License 2.0.
+> * On-screen text recognition (OCR) features interface with the Windows 11 built-in Snipping Tool OneOCR engine module.
 
 ---
 
@@ -851,6 +971,8 @@ When using a multi-loader, the game is usually run with administrator privileges
 ### <a id="antivirus-en"></a>6. 🛡️ Security & False Positives (Antivirus Blocks/Deletions)
 This program uses the `keyboard` module to detect your in-game hotkeys. Although switching to a standard installer (`.exe`) distribution significantly reduces false positives, some antivirus software may still incorrectly flag and block its execution. 
 *(Easy Explanation: Intercepting keyboard input is a method frequently used by malicious programs, so it is a natural phenomenon for antivirus software to be suspicious and block it by default.)*
+
+> 🛡️ **VirusTotal Pre-scan Verification:** The distributed `DUO_Setup.exe` installer is thoroughly scanned against major antivirus engines to ensure clean execution and complete transparency. You can inspect the live results at [VirusTotal Scan Report (Click)](https://www.virustotal.com/gui/file/d5290c41104092fff538bd566a402d8f83dc15fa4cb610c51ecc824d76864267).
 
 If the program won't run or the shortcut does not work, please try the following steps:
 
