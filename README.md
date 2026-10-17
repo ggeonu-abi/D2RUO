@@ -450,7 +450,7 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 이 프로그램은 게임 내 단축키 감지를 위해 `keyboard` 모듈을 사용합니다. 정식 설치형(`.exe`) 배포 방식을 도입하여 오탐지 확률을 크게 낮추었으나, 여전히 일부 백신 프로그램이 이를 악성 코드로 오인하여 실행을 차단할 수 있습니다. 
 *(쉬운 설명: 키보드 입력을 가로채는 기능은 해킹 프로그램들이 자주 쓰는 방식이라 백신이 일단 의심하고 차단하는 자연스러운 현상입니다.)*
 
-> 🛡️ **바이러스토탈 사전 검증 완료:** 배포 중인 `DUO_Setup.exe` 설치 파일은 주요 글로벌 백신 엔진을 대상으로 무결성 및 악성코드 사전 검사를 완료했습니다. 상세 검사 결과는 [VirusTotal 진단 보고서(클릭)](https://www.virustotal.com/gui/file/d5290c41104092fff538bd566a402d8f83dc15fa4cb610c51ecc824d76864267)에서 투명하게 확인하실 수 있습니다.
+> 🛡️ **바이러스토탈 사전 검증 완료:** 배포 중인 `DUO_Setup.exe` 설치 파일은 주요 글로벌 백신 엔진을 대상으로 무결성 및 악성코드 사전 검사를 완료했습니다. 상세 검사 결과는 [VirusTotal 진단 보고서(클릭)](https://www.virustotal.com/gui/url/95051fedab25f74e85209b25f67705539a1cf935f1387c62e1dad56033eb40f5)에서 투명하게 확인하실 수 있습니다.
 
 주로 다음과 같은 진단명으로 오탐지될 수 있습니다:
 * **Windows Defender:** `Program:Win32/Contebrew.A!ml` *(쉬운 설명: 진단명 끝의 '!ml'은 머신러닝 기반 탐지를 의미합니다. 프로그램의 작동 방식을 AI가 기계적으로 분석해 예방 차원에서 차단했을 확률이 높습니다.)*
@@ -618,7 +618,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ### 1. Download & Preparation
 1. Go to the [👉 Latest Release Page (Click)](https://github.com/ggeonu-abi/D2RUO/releases/latest/download/DUO_Setup.exe), download the **installer (`DUO_Setup.exe`)**, and run it.
    * **Default Installation Path:** `%LocalAppData%\Programs\D2R Utility Overlay` (You can copy & paste this into your file explorer address bar)
-   * 🛡️ **Security & Malware Verification:** Every release installer is scanned and verified clean on VirusTotal. ([View VirusTotal Scan Report](https://www.virustotal.com/gui/file/d5290c41104092fff538bd566a402d8f83dc15fa4cb610c51ecc824d76864267))
+   * 🛡️ **Security & Malware Verification:** Every release installer is scanned and verified clean on VirusTotal. ([View VirusTotal Scan Report](https://www.virustotal.com/gui/url/95051fedab25f74e85209b25f67705539a1cf935f1387c62e1dad56033eb40f5))
 2. Sign up/Login to [d2tz.info](https://www.d2tz.info/login) and copy your **API Key (Token)** from the User Profile page.
 
 > **💡 How to keep your settings when updating:**
