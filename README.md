@@ -3,9 +3,9 @@
 <a name="korean"></a>
 # 🛡️ 디아블로 2: 레저렉션 다기능 유틸리티 오버레이 (D2R Utility Overlay - DUO)
 
-[![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010%20(64--bit)-0078D6.svg?logo=windows)](#compatibility-kr)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-Safe%20%26%20Clean-005BBB?logo=virustotal)](https://www.virustotal.com/gui/file/d5290c41104092fff538bd566a402d8f83dc15fa4cb610c51ecc824d76864267)
-[![License](https://img.shields.io/badge/Type-Freeware%20(CC%20BY--NC--ND%204.0)-green.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010%20%2864--bit%29-0078D6.svg?logo=windows)](#compatibility-kr)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Safe%20%26%20Clean-005BBB?logo=virustotal)](https://www.virustotal.com/gui/url/95051fedab25f74e85209b25f67705539a1cf935f1387c62e1dad56033eb40f5)
+[![License](https://img.shields.io/badge/Type-Freeware%20%28CC%20BY--NC--ND%204.0%29-green.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Language](https://img.shields.io/badge/Language-Korean%20%7C%20English-orange.svg)](#korean)
 [![Game](https://img.shields.io/badge/Game-Diablo%20II:%20Resurrected-darkred.svg)](https://diablo2.blizzard.com/)
 
@@ -525,9 +525,9 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 <a name="english"></a>
 # 🛡️ Diablo 2: Resurrected Utility Overlay (DUO)
 
-[![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010%20(64--bit)-0078D6.svg?logo=windows)](#compatibility-en)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-Safe%20%26%20Clean-005BBB?logo=virustotal)](https://www.virustotal.com/gui/file/d5290c41104092fff538bd566a402d8f83dc15fa4cb610c51ecc824d76864267)
-[![License](https://img.shields.io/badge/Type-Freeware%20(CC%20BY--NC--ND%204.0)-green.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010%20%2864--bit%29-0078D6.svg?logo=windows)](#compatibility-en)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Safe%20%26%20Clean-005BBB?logo=virustotal)](https://www.virustotal.com/gui/url/95051fedab25f74e85209b25f67705539a1cf935f1387c62e1dad56033eb40f5)
+[![License](https://img.shields.io/badge/Type-Freeware%20%28CC%20BY--NC--ND%204.0%29-green.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Language](https://img.shields.io/badge/Language-Korean%20%7C%20English-orange.svg)](#english)
 [![Game](https://img.shields.io/badge/Game-Diablo%20II:%20Resurrected-darkred.svg)](https://diablo2.blizzard.com/)
 
