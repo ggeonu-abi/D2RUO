@@ -35,7 +35,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * [1. Real-time TZ & DClone Tracker](#feature-tz-en)
   * [2. In-game Item Search Dictionary](#feature-item-en)
   * [3. Powerful Buff Overlay](#feature-buff-en)
-  * [4. Region & Monster Tracking](#feature-tracker-en)
+  * [4. Region & Monster Tracking (Stay-Time TTS, Herald & Worldstone HUD)](#feature-tracker-en)
   * [5. Speedrun Timer](#feature-timer-en)
   * [6. Gear & Skill Build Snapshot Manager](#feature-snapshot-en)
   * [7. Relay Game Name OCR Capture & Copy](#feature-relay-en)
@@ -237,6 +237,11 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **Available for All Character Classes:** Unlike Warlock-only attribute alerts, Herald spawn alerts operate **seamlessly across all character class profiles** without restrictions.
   * **Smart Duplicate Prevention:** Prevents repeated chimes or duplicate counts during extended combat, kiting, or re-targeting the same herald.
   * **Session Cumulative Statistics & Room Auto-Sync:** Automatically resets room states on game enter/exit, and tracks total herald encounters and Stage 5 spawns across your session. Settings -> **[👾 Monster OCR]** tab provides dedicated toggle controls, display options, and a manual reset (`↺`) button.
+* 💎 **Worldstone Terror Zone Tracking & Mini HUD:**
+  * **Automatic Worldstone Act Detection:** When using Worldstone items in town, DUO automatically scans active Terror Zone Acts (e.g. Act 2, Act 4) from the minimap text via OCR and tracks them in real time. (Full multi-language support: Korean, English, Traditional/Simplified Chinese)
+  * **Freely Draggable Mini HUD:** Displays currently active Worldstone Acts and visit progress via a clean, compact HUD badge (`[ 💎 Worldstone | Act 2 ✔ | Act 4 ❌ ]`). Unlock overlay positions in Settings to drag it anywhere on screen. Supports an option to display exclusively in town so it never obscures combat fields.
+  * **Target Area Completion & Remaining Acts TTS Voice Alerts:** Reaching an Act's criteria hunting area (Catacombs L4, Tal Rasha's Tomb/Chamber, Durance of Hate L3, Chaos Sanctuary, Throne of Destruction/Worldstone Chamber) triggers an instant clear announcement and lists remaining targets (e.g., "Act 4 cleared. Remaining: Act 2") via natural TTS and on-screen popups, or celebrates when all target acts are complete.
+  * **Unvisited Act Reminder on Town Return / Area Transition / Game Exit:** Leaving an act's final hunting ground, returning to town from combat, or exiting the game with unvisited target Acts triggers a voice reminder (e.g., "Act 2 has not been visited yet."), ensuring you never leave games with unused Worldstone acts. (Individually configurable)
 
 ### <a id="feature-timer-en"></a>5. ⏱️ Speedrun Timer
 * 🔄 **Game Enter/Exit Auto-Sync:**
