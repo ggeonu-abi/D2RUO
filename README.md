@@ -29,12 +29,12 @@
 * [✨ 주요 기능 (Key Features)](#features-kr)
   * [1. 테러존 & 우버디아 트래킹](#feature-tz-kr)
   * [2. 실시간 아이템 사전 검색 (OCR & 트레더리 & DB)](#feature-item-kr)
-  * [3. 강력한 버프 오버레이 (다클라 타겟 창 & 배타적 그룹)](#feature-buff-kr)
+  * [3. 강력한 버프 오버레이 (전 직업 추천 프리셋 & 다클라 타겟 창 & 배타적 그룹)](#feature-buff-kr)
   * [4. 지역 및 몬스터 추적 (체류시간 TTS & 전령 감지 & 세계석 HUD)](#feature-tracker-kr)
   * [5. 스피드런 타이머 (방 자동 연동 & 마을 일시정지)](#feature-timer-kr)
   * [6. 장비 & 스킬 세팅 캡처 매니저](#feature-snapshot-kr)
   * [7. 릴레이 방제 자동 캡처 & 복사](#feature-relay-kr)
-  * [8. 오늘의 파밍 리포트](#feature-report-kr)
+  * [8. 오늘의 파밍 리포트 & 실시간 파밍 미니 HUD](#feature-report-kr)
   * [9. 방송 송출(OBS Studio) 지원 및 UI 편의성](#feature-obs-kr)
 * [💡 커스텀 꿀팁 (Custom Tips)](#custom-tips-kr)
 * [📂 파일 및 폴더 설명](#files-kr)
@@ -62,7 +62,7 @@
 **2. 사용자 맞춤형 버프 오버레이 및 프로필 관리**
 ![버프 오버레이 표시 화면](images/buff-overlay.png)
 ![버프 프로필 설정 화면](images/buff_profile_kor.png)
-> 내가 원하는 스킬 아이콘을 직접 캡처하여 버프 지속 시간을 설정하고 관리할 수 있습니다. 직관적인 설정 화면에서 캐릭터나 빌드별로 프로필을 나누어 스킬을 그룹화해 보세요.
+> 전 직업 핵심 버프 아이콘과 추천 프리셋이 기본 내장되어 있어 클릭 몇 번으로 손쉽게 버프 타이머를 세팅할 수 있으며, 원하는 영역을 직접 캡처(`🎯 직접 캡쳐등록`)하여 추가할 수도 있습니다. 캐릭터나 빌드별로 프로필을 나누어 스킬을 그룹화해 보세요.
 
 <br>
 
@@ -156,6 +156,7 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 | **아이템 자동 인식** | `Ctrl` + `R` | 영역 드래그 수동 캡처 |
 | | `Ctrl` + `T` | ⚡ 아이템 툴팁 자동 박스 인식 *(멀티로더 사용 시 제목표시줄 숨김 충돌 주의: [FAQ 5번 참고](#multiloader-kr))* |
 | **장비/세팅 스냅샷** | `Ctrl` + `B` | 📷 장비 / 세팅 스크린샷 매니저 열기 / 닫기 |
+| **파밍 리포트 / HUD** | 사용자가 설정한 키 | 📊 오늘의 파밍 리포트 열기 / ⏱️ 실시간 파밍 미니 HUD 켜기·끄기 |
 | **게임 진행 보조** | `Shift` + `C` | 릴레이 방제 자동 캡처 및 클립보드 복사 (연속 런 편의) |
 | **버프 타이머** | `PageUp` / `PageDown` | 버프 스킬 프로필 전환 |
 | | 사용자가 설정한 키 | 지정한 버프 타이머 실행 |
@@ -201,7 +202,11 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
   * **📜 이력보기 및 지역 통계 완벽 연동:** 검색창 우측 사이드 서랍의 **[이력보기]** 탭에서 과거 주웠던 동일 아이템들의 상세 수치와 획득 장소를 비교할 수 있으며, 환경설정의 **[지역 통계]** 탭에서 사냥터별 드랍 아이템 목록 및 득템 명당 통계를 한눈에 분석할 수 있습니다.
 
 ### <a id="feature-buff-kr"></a>3. 🛡️ 강력한 버프 오버레이 (Buff Overlay)
-* 📑 **프로필 및 스킬 관리:** 빌드별로 프로필을 생성하고, 게임 화면 내 스킬 아이콘을 직접 캡처하여 쉽게 단축키와 지속시간을 등록할 수 있습니다.
+* ⚡ **전 직업 스킬 아이콘 내장 & 추천 버프 프리셋 일괄 등록 (`⚡ 추천 프리셋 추가`):**
+  * 디아블로 2: 레저렉션 게임 데이터에서 직접 추출한 **8개 전 직업(아마존, 원소술사, 강령술사, 성기사, 야만용사, 드루이드, 암살자, 악마술사) 61종의 지속형 버프·시한부 소환물·덫(파수기)·충전 스킬 고화질 아이콘이 기본 내장**되어 있어, 번거롭게 화면을 캡처하지 않고도 즉시 선택하여 등록할 수 있습니다. (원하는 화면 영역을 직접 지정하는 **`🎯 직접 캡쳐등록`** 도 함께 지원)
+  * **`⭐ 추천 버프 선택` & 공용 필수 버프 지원:** 직업을 선택하면 해당 직업이 가장 자주 사용하는 대표 버프들과 **공용 버프(`[CTA] 전투 명령`, `[CTA] 전투 지시`, `[공용] 마법부여(인챈트)`)** 가 원클릭으로 자동 선택됩니다. 영구 유지 소환물이나 단발성 공격 스킬은 제외하고, 암살자 파수기·무술 충전기나 드루이드 변신 충전기처럼 실제 지속시간 관리가 필요한 스킬만 엄선하여 수록했습니다.
+  * **단축키·지속시간·배타 그룹 일괄 세팅 및 중복 등록 방지:** 프리셋 창에서 각 스킬의 단축키, 지속시간(초), 상호 배제 그룹(얼음 갑옷류, 숙련류, 버스트/페이드 등 `G1`~`G3` 자동 기본 배정)을 한 번에 설정하여 일괄 등록할 수 있습니다. 이미 현재 프로필에 추가된 스킬은 **`[등록됨]`** 뱃지가 표시되며 체크가 자동으로 비활성화되어 중복 등록을 완벽히 방지합니다.
+* 📑 **멀티 프로필 관리:** 캐릭터나 빌드별로 프로필을 무제한 생성하고 단축키(`PageUp` / `PageDown`)로 게임 중 즉시 전환할 수 있습니다.
 * 🎯 **다중 클라이언트(다클라) 타겟 D2R 창 지정:**
   * 멀티로더 등을 통해 2개 이상의 디아블로 창을 동시에 실행하여 플레이할 때(예: 본 캐릭터 + 함성 바바 / 인챈트 소서 등), 각 스킬 상세 설정에서 **[인식 대상 창]** 을 개별 지정할 수 있습니다.
   * **모든 디아블로 창 (기본값):** 어떤 D2R 창이 활성화되어 있어도 단축키가 즉시 작동합니다.
@@ -274,10 +279,18 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 * ⌨️ **자유로운 단축키 커스텀:**
   * 기본 단축키인 `Shift` + `C` 외에도 사용자가 원하는 단축키로 자유롭게 변경할 수 있으며, 초기화(`↺`) 및 비활성화(`✖`) 버튼을 지원합니다.
 
-### <a id="feature-report-kr"></a>8. 📊 오늘의 파밍 리포트 (Daily Farming Report)
-* 📈 **종합 사냥 결산 인포그래픽 카드 생성:**
+### <a id="feature-report-kr"></a>8. 📊 오늘의 파밍 리포트 & 실시간 파밍 미니 HUD (Daily Report & Mini HUD)
+* ⏱️ **실시간 세션 파밍 미니 HUD (Session Farming Mini HUD):**
+  * **인게임 실시간 파밍 현황판:** 별도의 통계 창을 열지 않고도 현재 세션의 주력 사냥터 페이스, 전령 출현 횟수, 주요 득템 내역을 게임 화면 위에서 한눈에 확인할 수 있는 컴팩트 오버레이입니다.
+  * **1행 — 주력 사냥터 TOP 2 런 통계 & 실시간 타이머 & 전령 카운터:**
+    * 현재 세션에서 가장 오래 사냥한 **상위 2개 주력 사냥터**의 **완료 런 횟수(`12회`)**, **평균 클리어 타임(`01:38`)**, 그리고 사냥터 체류 중일 때 **실시간 경과 타이머(`⏱00:45`)** 를 실시간으로 표시합니다. (첫 사냥 전 마을 대기 시 `🏰 마을 대기 중` 표시, 사냥터 2곳 이상 표시 시 가로 폭을 최소화하는 스마트 2줄 상하 배치 적용)
+    * 우측에는 현재 세션 동안 조우한 **공포의 영역 전령(Herald) 총 출현 횟수 및 5단계 출현 수(`👾 12 (3)`)** 가 함께 집계됩니다.
+  * **2행 — 고가치 득템 하이라이트 (주요 장비 & 고급 룬 분리 표시):**
+    * 현재 세션에서 획득한 **`[S+]`, `[S]`, `[A]` 티어 핵심 득템 상위 2종**을 **주요 장비(`🏆 샤코 (S)`)** 와 **고급 룬(`🔶 자 x1`)** 으로 구분하여 티어별 고유 컬러 칩으로 직관적으로 보여줍니다. (아직 주요 득템이 없을 때는 2행이 자동으로 숨겨져 1줄 슬림 모드로 깔끔하게 동작)
+  * **원클릭 토글 & 자유로운 커스텀:** 환경설정의 **[공통 설정]**, **[📍 지역 설정]**, **[📈 지역 통계]** 탭의 **`[⏱️ 파밍 HUD]`** 버튼이나 **사용자 지정 단축키**로 언제든 즉시 켜고 끌 수 있으며, 글자 크기(`12px`~`36px`) 조절, 마우스 드래그 위치 이동, 로비 퇴장 시 자동 숨김 및 OBS 방송 송출 오버레이 연동을 완벽히 지원합니다.
+* 📈 **종합 사냥 결산 인포그래픽 카드 생성 (오늘의 파밍 리포트):**
   * 하루 또는 최근 3일/7일 동안 진행한 사냥 데이터를 집계하여, 디아블로 감성의 완성도 높은 고해상도 인포그래픽 카드 이미지로 자동 렌더링합니다.
-  * 시스템 트레이 우클릭 메뉴의 **[📊 오늘의 파밍 리포트]** 또는 환경설정의 **[지역 통계]** 탭 상단 버튼을 통해 언제든 즉시 조회할 수 있습니다.
+  * 시스템 트레이 우클릭 메뉴의 **[📊 오늘의 파밍 리포트]**, 환경설정 **[공통 설정]** / **[📈 지역 통계]** 탭 버튼, 또는 지정한 단축키를 통해 언제든 즉시 조회할 수 있습니다.
 * ⏱️ **정밀한 사냥 & 런 통계:**
   * 마을(Town) 체류 시간을 분리하고 필드/던전에서의 **순수 사냥 시간**, **총 런 횟수**, **평균 런 타임**을 정밀하게 산출합니다.
   * 사냥터별 방문 횟수와 클리어 타임을 시각적인 비율 게이지 바와 함께 상위 사냥터 TOP 7으로 요약합니다.
@@ -331,6 +344,7 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 | `item/data/` | 아이템 사전 검색에 사용되는 데이터베이스 파일(`.json`, `.tsv`) 보관 폴더 |
 | `fonts/` | 폰트 폴더 (원하시는 폰트를 직접 추가해서 사용하세요.) |
 | `models/` | 화면 문자 인식(아이템 자동 인식, 몬스터 속성 감지 등 OCR)에 필요한 엔진 모듈들이 저장되는 폴더 |
+| `assets\skill_icons\` | 전 직업 버프 스킬 프리셋용 내장 고화질 아이콘 및 프리셋 메타데이터(`buff_presets.json`) 보관 폴더 |
 | `assets\guides\` | 미니 가이드맵 표시용 이미지들 |
 | `log/` | 프로그램 작동 로그(`.log`) 및 디버그/캡처 이미지 파일이 저장되는 폴더 |
 
@@ -560,12 +574,12 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * [✨ Key Features](#features-en)
   * [1. Real-time TZ & DClone Tracker](#feature-tz-en)
   * [2. In-game Item Search Dictionary](#feature-item-en)
-  * [3. Powerful Buff Overlay](#feature-buff-en)
+  * [3. Powerful Buff Overlay (Class Skill Presets, Multi-Client & Exclusive Groups)](#feature-buff-en)
   * [4. Region & Monster Tracking (Stay-Time TTS, Herald & Worldstone HUD)](#feature-tracker-en)
   * [5. Speedrun Timer](#feature-timer-en)
   * [6. Gear & Skill Build Snapshot Manager](#feature-snapshot-en)
   * [7. Relay Game Name OCR Capture & Copy](#feature-relay-en)
-  * [8. Daily Farming Report](#feature-report-en)
+  * [8. Daily Farming Report & Live Farming Mini HUD](#feature-report-en)
   * [9. OBS Studio Streaming Support & UI Convenience](#feature-obs-en)
 * [💡 Custom Tips](#custom-tips-en)
 * [📂 File & Folder Descriptions](#files-en)
@@ -592,7 +606,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 **2. Buff Overlay & Profile Management**
 ![Buff Overlay Screen](images/buff-overlay.png)
 ![Buff Profile Settings Screen](images/buff_profile_eng.png)
-> Capture any skill icon directly from the game screen to set up and manage your own buff durations. Group your skills by profile for different characters or builds using the intuitive settings UI.
+> Select from built-in HD skill icons and 1-click recommended presets across all 8 classes, or capture any custom skill icon directly from the game screen (`🎯 Custom Capture`). Group your skills by profile for different characters or builds using the intuitive settings UI.
 
 <br>
 
@@ -686,6 +700,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 | **Item Recognition** | `Ctrl` + `R` | Drag scan item area manually |
 | | `Ctrl` + `T` | ⚡ Auto-detect item tooltip box *(Note: Multi-loader title bar toggle conflict: see [FAQ #5](#multiloader-en))* |
 | **Build Snapshot** | `Ctrl` + `B` | 📷 Open / Close Gear & Skill Build Snapshot Manager |
+| **Farming Report / HUD** | User Defined Keys | 📊 Open Daily Farming Report / ⏱️ Toggle Live Farming Mini HUD |
 | **QoL Features** | `Shift` + `C` | Auto-capture relay game name & copy to clipboard |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
 | | User Defined Keys | Trigger Specific Buff Timer |
@@ -731,7 +746,11 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 
 ### <a id="feature-buff-en"></a>3. 🛡️ Powerful Buff Overlay
-* 📑 **Profile & Skill Management:** Create multiple profiles for different builds. Easily capture skill icons directly from the game screen to register hotkeys and durations.
+* ⚡ **Built-in 8-Class Skill Icons & 1-Click Recommended Buff Presets (`⚡ Add Skill Preset`):**
+  * **61 Curated HD Skill Icons Pre-Bundled:** Extracted directly from Diablo II: Resurrected data files across all 8 classes (Amazon, Sorceress, Necromancer, Paladin, Barbarian, Druid, Assassin, and Warlock), allowing you to select and register duration buffs, timed summons, traps/sentries, and charge-up skills without manual screen capturing. (Manual region capture via **`🎯 Custom Capture`** is also supported.)
+  * **`⭐ Recommended` Presets & Common Buffs:** Choosing a class automatically selects its core recommended buffs along with universal buffs (**`[CTA] Battle Command`**, **`[CTA] Battle Orders`**, and **`[Common] Enchant`**). Permanent summons and single-cast direct attacks are excluded so only duration-tracked skills appear in the list.
+  * **Inline Hotkey, Duration & Exclusive Group Setup with Duplicate Prevention:** Assign hotkeys, durations (sec), and mutual exclusion groups (`G1`–`G3` pre-assigned for Sorceress armors, Warlock masteries, Burst/Fade, etc.) right inside the preset dialog before batch-adding. Skills already present in the current profile are marked with an **`[Added]`** badge and unchecked automatically to prevent duplicate entries.
+* 📑 **Multi-Profile Management:** Create unlimited profiles for different characters or builds and switch between them on the fly in-game using `PageUp` / `PageDown`.
 * 🎯 **Multi-Client Specific D2R Window Target:**
   * When running 2+ Diablo II: Resurrected clients simultaneously via multi-loader (e.g., Main Character + Shout Barbarian / Enchant Sorceress), you can assign a **[Target Window]** for each buff skill in the skill settings dialog.
   * **All Diablo Windows (Default):** The hotkey activates the timer regardless of which D2R window is active.
@@ -804,10 +823,18 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 * ⌨️ **Full Hotkey Customization:**
   * Customize the hotkey to any key combination (default: `Shift` + `C`), or quickly reset (`↺`) or disable (`✖`) it via the dedicated UI controls.
 
-### <a id="feature-report-en"></a>8. 📊 Daily Farming Report
-* 📈 **Comprehensive Farming Infographic Card:**
+### <a id="feature-report-en"></a>8. 📊 Daily Farming Report & Live Farming Mini HUD
+* ⏱️ **Live Session Farming Mini HUD (`⏱️ Farming HUD`):**
+  * **Real-Time In-Game Farming Dashboard:** A compact, draggable overlay that displays your current session's hunting pace, Terror Zone Herald encounters, and top drops right on the game screen without opening separate windows.
+  * **Row 1 — Top 2 Hunting Areas, Live Field Timer & Herald Counter:**
+    * Tracks your **Top 2 most-farmed areas** in the current session with **completed run counts (`12`)**, **average clear times (`01:38`)**, and a **live elapsed timer (`⏱00:45`)** while actively farming in a field (displays `🏰 Waiting in Town` before your first run, and stacks 2+ areas vertically to keep horizontal width compact).
+    * Displays a live session **Terror Zone Herald counter (`👾 Total (Stage 5)`)** on the right.
+  * **Row 2 — High-Value Drop Highlights (Equipment & Runes Separated):**
+    * Highlights your **Top 2 high-tier session drops (`[S+]`, `[S]`, `[A]`)**, visually separated into **Equipment (`🏆 Shako (S)`)** and **Runes (`🔶 Jah x1`)** with tier-colored chips. Automatically collapses into a slim 1-row bar when no major drops have been logged yet.
+  * **1-Click Toggle & Customization:** Toggle anytime via the **`[⏱️ Farming HUD]`** button in Settings (**[General]**, **[📍 Area Settings]**, or **[📈 Region Stats]** tabs) or via a **custom hotkey**. Supports font size scaling (`12px`–`36px`), drag positioning, auto-hide in lobby, and OBS Stream Overlay capture.
+* 📈 **Comprehensive Farming Infographic Card (Daily Farming Report):**
   * Automatically aggregates your farming data over Today, Yesterday, Last 3 Days, or Last 7 Days into a sleek, Diablo-themed high-resolution infographic card image.
-  * Accessible anytime via the system tray right-click menu **[📊 Daily Farming Report]** or via the dedicated button in Settings -> **[Region Stats]** tab.
+  * Accessible anytime via the system tray right-click menu **[📊 Daily Farming Report]**, the buttons in Settings (**[General]** / **[📈 Region Stats]** tabs), or your custom hotkey.
 * ⏱️ **Accurate Hunting & Lap Analytics:**
   * Accurately isolates town downtime to measure **pure field combat time**, **total runs**, and **average clear times**.
   * Visualizes your most visited zones and clear times via clean horizontal ratio bars highlighting your Top 7 farming spots.
@@ -861,6 +888,7 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 | `item/data/` | Database files used for the item search dictionary. |
 | `fonts/` | Default built-in fonts. You can add your own font files here. |
 | `models/` | Folder where OCR modules required for all recognition features (items, monster attributes, areas, etc.) are stored. |
+| `assets\skill_icons\` | Built-in HD skill icons across all 8 classes and preset metadata (`buff_presets.json`) for the Buff Overlay. |
 | `assets\guides\` | Images used for displaying the mini guide map. |
 | `log/` | Folder where operational logs (`.log`) and debug/capture images are stored. |
 

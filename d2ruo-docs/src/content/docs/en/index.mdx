@@ -34,12 +34,12 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * [✨ Key Features](#features-en)
   * [1. Real-time TZ & DClone Tracker](#feature-tz-en)
   * [2. In-game Item Search Dictionary](#feature-item-en)
-  * [3. Powerful Buff Overlay](#feature-buff-en)
+  * [3. Powerful Buff Overlay (Class Skill Presets, Multi-Client & Exclusive Groups)](#feature-buff-en)
   * [4. Region & Monster Tracking (Stay-Time TTS, Herald & Worldstone HUD)](#feature-tracker-en)
   * [5. Speedrun Timer](#feature-timer-en)
   * [6. Gear & Skill Build Snapshot Manager](#feature-snapshot-en)
   * [7. Relay Game Name OCR Capture & Copy](#feature-relay-en)
-  * [8. Daily Farming Report](#feature-report-en)
+  * [8. Daily Farming Report & Live Farming Mini HUD](#feature-report-en)
   * [9. OBS Studio Streaming Support & UI Convenience](#feature-obs-en)
 * [💡 Custom Tips](#custom-tips-en)
 * [📂 File & Folder Descriptions](#files-en)
@@ -66,7 +66,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 **2. Buff Overlay & Profile Management**
 ![Buff Overlay Screen](/D2RUO/images/buff-overlay.png)
 ![Buff Profile Settings Screen](/D2RUO/images/buff_profile_eng.png)
-> Capture any skill icon directly from the game screen to set up and manage your own buff durations. Group your skills by profile for different characters or builds using the intuitive settings UI.
+> Select from built-in HD skill icons and 1-click recommended presets across all 8 classes, or capture any custom skill icon directly from the game screen (`🎯 Custom Capture`). Group your skills by profile for different characters or builds using the intuitive settings UI.
 
 <br />
 
@@ -160,6 +160,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 | **Item Recognition** | `Ctrl` + `R` | Drag scan item area manually |
 | | `Ctrl` + `T` | ⚡ Auto-detect item tooltip box *(Note: Multi-loader title bar toggle conflict: see [FAQ #5](#multiloader-en))* |
 | **Build Snapshot** | `Ctrl` + `B` | 📷 Open / Close Gear & Skill Build Snapshot Manager |
+| **Farming Report / HUD** | User Defined Keys | 📊 Open Daily Farming Report / ⏱️ Toggle Live Farming Mini HUD |
 | **QoL Features** | `Shift` + `C` | Auto-capture relay game name & copy to clipboard |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
 | | User Defined Keys | Trigger Specific Buff Timer |
@@ -205,7 +206,11 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 
 ### <a id="feature-buff-en"></a>3. 🛡️ Powerful Buff Overlay
-* 📑 **Profile & Skill Management:** Create multiple profiles for different builds. Easily capture skill icons directly from the game screen to register hotkeys and durations.
+* ⚡ **Built-in 8-Class Skill Icons & 1-Click Recommended Buff Presets (`⚡ Add Skill Preset`):**
+  * **61 Curated HD Skill Icons Pre-Bundled:** Extracted directly from Diablo II: Resurrected data files across all 8 classes (Amazon, Sorceress, Necromancer, Paladin, Barbarian, Druid, Assassin, and Warlock), allowing you to select and register duration buffs, timed summons, traps/sentries, and charge-up skills without manual screen capturing. (Manual region capture via **`🎯 Custom Capture`** is also supported.)
+  * **`⭐ Recommended` Presets & Common Buffs:** Choosing a class automatically selects its core recommended buffs along with universal buffs (**`[CTA] Battle Command`**, **`[CTA] Battle Orders`**, and **`[Common] Enchant`**). Permanent summons and single-cast direct attacks are excluded so only duration-tracked skills appear in the list.
+  * **Inline Hotkey, Duration & Exclusive Group Setup with Duplicate Prevention:** Assign hotkeys, durations (sec), and mutual exclusion groups (`G1`–`G3` pre-assigned for Sorceress armors, Warlock masteries, Burst/Fade, etc.) right inside the preset dialog before batch-adding. Skills already present in the current profile are marked with an **`[Added]`** badge and unchecked automatically to prevent duplicate entries.
+* 📑 **Multi-Profile Management:** Create unlimited profiles for different characters or builds and switch between them on the fly in-game using `PageUp` / `PageDown`.
 * 🎯 **Multi-Client Specific D2R Window Target:**
   * When running 2+ Diablo II: Resurrected clients simultaneously via multi-loader (e.g., Main Character + Shout Barbarian / Enchant Sorceress), you can assign a **[Target Window]** for each buff skill in the skill settings dialog.
   * **All Diablo Windows (Default):** The hotkey activates the timer regardless of which D2R window is active.
@@ -278,10 +283,18 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 * ⌨️ **Full Hotkey Customization:**
   * Customize the hotkey to any key combination (default: `Shift` + `C`), or quickly reset (`↺`) or disable (`✖`) it via the dedicated UI controls.
 
-### <a id="feature-report-en"></a>8. 📊 Daily Farming Report
-* 📈 **Comprehensive Farming Infographic Card:**
+### <a id="feature-report-en"></a>8. 📊 Daily Farming Report & Live Farming Mini HUD
+* ⏱️ **Live Session Farming Mini HUD (`⏱️ Farming HUD`):**
+  * **Real-Time In-Game Farming Dashboard:** A compact, draggable overlay that displays your current session's hunting pace, Terror Zone Herald encounters, and top drops right on the game screen without opening separate windows.
+  * **Row 1 — Top 2 Hunting Areas, Live Field Timer & Herald Counter:**
+    * Tracks your **Top 2 most-farmed areas** in the current session with **completed run counts (`12`)**, **average clear times (`01:38`)**, and a **live elapsed timer (`⏱00:45`)** while actively farming in a field (displays `🏰 Waiting in Town` before your first run, and stacks 2+ areas vertically to keep horizontal width compact).
+    * Displays a live session **Terror Zone Herald counter (`👾 Total (Stage 5)`)** on the right.
+  * **Row 2 — High-Value Drop Highlights (Equipment & Runes Separated):**
+    * Highlights your **Top 2 high-tier session drops (`[S+]`, `[S]`, `[A]`)**, visually separated into **Equipment (`🏆 Shako (S)`)** and **Runes (`🔶 Jah x1`)** with tier-colored chips. Automatically collapses into a slim 1-row bar when no major drops have been logged yet.
+  * **1-Click Toggle & Customization:** Toggle anytime via the **`[⏱️ Farming HUD]`** button in Settings (**[General]**, **[📍 Area Settings]**, or **[📈 Region Stats]** tabs) or via a **custom hotkey**. Supports font size scaling (`12px`–`36px`), drag positioning, auto-hide in lobby, and OBS Stream Overlay capture.
+* 📈 **Comprehensive Farming Infographic Card (Daily Farming Report):**
   * Automatically aggregates your farming data over Today, Yesterday, Last 3 Days, or Last 7 Days into a sleek, Diablo-themed high-resolution infographic card image.
-  * Accessible anytime via the system tray right-click menu **[📊 Daily Farming Report]** or via the dedicated button in Settings -> **[Region Stats]** tab.
+  * Accessible anytime via the system tray right-click menu **[📊 Daily Farming Report]**, the buttons in Settings (**[General]** / **[📈 Region Stats]** tabs), or your custom hotkey.
 * ⏱️ **Accurate Hunting & Lap Analytics:**
   * Accurately isolates town downtime to measure **pure field combat time**, **total runs**, and **average clear times**.
   * Visualizes your most visited zones and clear times via clean horizontal ratio bars highlighting your Top 7 farming spots.
@@ -335,6 +348,7 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 | `item/data/` | Database files used for the item search dictionary. |
 | `fonts/` | Default built-in fonts. You can add your own font files here. |
 | `models/` | Folder where OCR modules required for all recognition features (items, monster attributes, areas, etc.) are stored. |
+| `assets\skill_icons\` | Built-in HD skill icons across all 8 classes and preset metadata (`buff_presets.json`) for the Buff Overlay. |
 | `assets\guides\` | Images used for displaying the mini guide map. |
 | `log/` | Folder where operational logs (`.log`) and debug/capture images are stored. |
 
