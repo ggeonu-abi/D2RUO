@@ -41,6 +41,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * [7. Relay Game Name OCR Capture & Copy](#feature-relay-en)
   * [8. Daily Farming Report & Live Farming Mini HUD](#feature-report-en)
   * [9. OBS Studio Streaming Support & UI Convenience](#feature-obs-en)
+  * [10. Settings Sharing, Backup & Reset (WeakAuras-Style Code Sharing)](#feature-share-en)
 * [💡 Custom Tips](#custom-tips-en)
 * [📂 File & Folder Descriptions](#files-en)
 * [💻 Tested Environment & Troubleshooting / FAQ](#environment-en)
@@ -318,6 +319,27 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 * 🔔 **Smart Item Display Reminder:** If you use the 'Toggle Item Display' option in-game and forget to turn it on after joining a room (especially with loot filters), a helpful reminder message will appear at the top of the screen.
 * 🔄 **Free Layout & Auto-Update:** Drag and drop panels anywhere. Enjoy seamless background updates with a simple 1-click update button.
 
+### <a id="feature-share-en"></a>10. 🔗 Settings Sharing, Backup & Reset (WeakAuras-Style Code Sharing)
+Share your custom overlay layouts and buff profiles effortlessly on Discord, forums, or community boards using lightweight WeakAuras-style compressed text codes (`!DUO:1:...`), and import other players' setups with a single click.
+
+* 📤 **Simple Code Generation & Export (.duo files):**
+  * Open Settings (`Ctrl + Shift + S`) ➔ **Common Settings** ➔ click **[🔗 Settings Share, Backup & Reset]**.
+  * Choose exactly which categories to include—select from 15 modular sections such as Display/Fonts, Global Hotkeys, TZ/Uber Overlays, Monster OCR, Session HUD, Buff Overlay options, Buff Skill Profiles, and coordinate layouts.
+  * Click **[📋 Generate Share Code & Copy]** to copy the code to your clipboard instantly, or save it as a standalone `.duo` / `.txt` file via **[💾 Save to File]**.
+  * ⚠️ **Zero-Leak Security & Privacy Guarantee:** Private information such as your personal **API Token**, game window target process, favorite items, chronicle drop logs, and custom-captured images are strictly excluded from export. Only verified built-in HD skill preset icons are shared, preventing malicious file exploits.
+* 📥 **1-Click Import with Live Diff Preview:**
+  * Paste a share code or load a `.duo` file to instantly view the author's screen resolution, game aspect ratio, and contained settings.
+  * **Pre-Apply Diff Preview:** Review all incoming changes in detail (e.g., new buff profiles, changed keys) before applying them.
+  * **Smart Resolution Scaling:** Automatically scales overlay coordinates to match your monitor's display resolution and aspect ratio (16:9, 16:10, 21:9 ultrawide, etc.), with an option to keep original coordinates intact.
+  * **Duplicate Profile Protection:** If an imported buff profile shares the same name as an existing profile, DUO safely appends a suffix (e.g., `Profile_1`) rather than overwriting your custom profiles.
+* ⏪ **Safety Net: Automatic Pre-Backups & 1-Click Undo / Restore:**
+  * Before any import or reset action is performed, DUO automatically creates a safety backup (`pre_import`, `pre_reset`, `pre_factory`).
+  * If you dislike an imported layout or make a mistake, simply switch to the **[Backup / Undo]** tab and restore your previous configuration with a single click.
+  * Up to 20 rotated backups are archived in `data/config_backups/` with timestamps and reasons, and you can also create named manual backups anytime.
+* 🔄 **Flexible Settings Reset (Selective & Factory Reset):**
+  * **Selective Category Reset:** Revert specific sections (e.g., hotkeys, buff display styles) back to factory defaults without affecting the rest of your preferences.
+  * **Full Factory Reset:** Cleanly restore the entire overlay to its fresh install state while preserving your personal API token and item history.
+
 
 
 ---
@@ -326,6 +348,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 * **Open Install Folder:** Right-click the DUO icon in the system tray (bottom right) and select **`📂 Open Install Folder`** to instantly access the directory. Use this convenient feature for the customizations below!
 * **Custom Fonts:** Place your font files inside the `fonts` folder located in the install folder, and they will be available for selection in the settings.
 * **Custom Alert Sounds:** Place your desired audio files (`.wav`, `.mp3`) inside the `sounds` folder to use them as custom alerts.
+* **Settings & Profile Sharing:** Click the **[🔗 Settings Share, Backup & Reset]** button in the Settings window to easily share your setup and buff profiles via WeakAuras-style share codes or undo changes anytime.
 * **Profile Sharing & Backup:** Copy the `profiles` folder within the install directory to easily back up your custom buff profiles or share them with others.
 * **Build Snapshot Backup & Sharing:** You can back up or share individual build folders inside the `builds` directory to keep or transfer your captured gear setups and composite images.
 
@@ -342,6 +365,7 @@ Structure inside your installation directory (`C:\Users\<YourUsername>\AppData\L
 | `act_map.json` | ⚠️ Essential TZ area level and Act data (Do not delete). |
 | `area.json` | ⚠️ Essential TZ translation data (Do not delete). |
 | `d2r_overlay_config.json` | Auto-saved user preferences. |
+| `data/config_backups/` | Folder where auto/manual setting backup archives (`.zip`) are safely stored (up to 20 rotated backups). |
 | `profiles/` | Folder containing your captured buff icons and `skills.json`. |
 | `builds/` | Folder containing gear/skill screenshots and build configuration data (`build_info.json`) per build. |
 | `sounds/` | Place your custom `.mp3` or `.wav` files here for buff alerts. |
