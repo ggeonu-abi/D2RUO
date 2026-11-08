@@ -40,8 +40,9 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
   * [6. Gear & Skill Build Snapshot Manager](#feature-snapshot-en)
   * [7. Relay Game Name OCR Capture & Copy](#feature-relay-en)
   * [8. Daily Farming Report & Live Farming Mini HUD](#feature-report-en)
-  * [9. OBS Studio Streaming Support & UI Convenience](#feature-obs-en)
-  * [10. Settings Sharing, Backup & Reset (WeakAuras-Style Code Sharing)](#feature-share-en)
+  * [9. Run Planner & In-Game Progress HUD (Area & Act Targets, Real-time Gauge)](#feature-planner-en)
+  * [10. OBS Studio Streaming Support & UI Convenience](#feature-obs-en)
+  * [11. Settings Sharing, Backup & Reset (WeakAuras-Style Code Sharing)](#feature-share-en)
 * [💡 Custom Tips](#custom-tips-en)
 * [📂 File & Folder Descriptions](#files-en)
 * [💻 Tested Environment & Troubleshooting / FAQ](#environment-en)
@@ -92,6 +93,12 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 **6. Daily Farming Report**
 ![Daily Farming Report Screen](/D2RUO/images/D2R_Farming_Report_eng.png)
 > Automatically aggregates pure hunting time, run counts, average clear times, Top 7 farming spots, and evaluates looted items by stat rolls (Perfect/Top) and value tiers (`[S+]`, `[S]`, `[A]`) into a high-resolution, Diablo-themed daily infographic report card.
+
+<br />
+
+**7. Run Planner & In-Game Progress HUD**
+![Run Planner Target Progress HUD Screen](/D2RUO/images/run_planner_hud_eng.png)
+> Set custom run count targets by hunting zone or Act, and track your progress in real time with an on-screen Progress Bar (%), recent lap times, +/- delta from your running average, and pure hunting elapsed stopwatches. (Switch seamlessly between current area Focus View and full Target List View via hotkey)
 
 ---
 
@@ -161,7 +168,8 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 | **Item Recognition** | `Ctrl` + `R` | Drag scan item area manually |
 | | `Ctrl` + `T` | ⚡ Auto-detect item tooltip box *(Note: Multi-loader title bar toggle conflict: see [FAQ #5](#multiloader-en))* |
 | **Build Snapshot** | `Ctrl` + `B` | 📷 Open / Close Gear & Skill Build Snapshot Manager |
-| **Farming Report / HUD** | User Defined Keys | 📊 Open Daily Farming Report / ⏱️ Toggle Live Farming Mini HUD |
+| **Farming Report / Mini HUD** | User Defined Keys | 📊 Open Daily Farming Report / ⏱️ Toggle Live Farming Mini HUD |
+| **Run Planner & Progress HUD** | User Defined Keys | 🏃 Open Run Planner Settings Dialog / 📋 Toggle Progress HUD Full List View |
 | **QoL Features** | `Shift` + `C` | Auto-capture relay game name & copy to clipboard |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
 | | User Defined Keys | Trigger Specific Buff Timer |
@@ -288,6 +296,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 * ⏱️ **Live Session Farming Mini HUD (`⏱️ Farming HUD`):**
   * **Real-Time In-Game Farming Dashboard:** A compact, draggable overlay that displays your current session's hunting pace, Terror Zone Herald encounters, and top drops right on the game screen without opening separate windows.
   * **Row 1 — Top 2 Hunting Areas, Live Field Timer & Herald Counter:**
+    * **Hierarchical Area Consolidation for Multi-Level & Sub-Dungeons:** Multi-floor dungeons and sub-areas—such as Forgotten Tower (Tower Cellar L1–5), The Pit (L1–2), Catacombs (L1–4), Durance of Hate (L1–3), Worldstone Keep (L1–3 + Throne/Chamber), and Tal Rasha's Tombs (7 Tombs + Duriel's Lair)—are **automatically grouped and tracked under their primary parent hunting zone** (e.g., 'Forgotten Tower', 'Pit', 'Worldstone Keep'). Transitions between dungeon floors do not fragment your run count or clear times, tracking the entire clear as a single unified run with true average times and active timers.
     * Tracks your **Top 2 most-farmed areas** in the current session with **completed run counts (`12`)**, **average clear times (`01:38`)**, and a **live elapsed timer (`⏱00:45`)** while actively farming in a field (displays `🏰 Waiting in Town` before your first run, and stacks 2+ areas vertically to keep horizontal width compact).
     * Displays a live session **Terror Zone Herald counter (`👾 Total (Stage 5)`)** on the right.
   * **Row 2 — High-Value Drop Highlights (Equipment & Runes Separated):**
@@ -308,7 +317,25 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * Click **[📋 Copy Image to Clipboard]** to immediately copy the full report image to your clipboard for effortless pasting (`Ctrl` + `V`) into Discord, forums, and gaming communities.
   * Export clean PNG files anytime with **[💾 Save Image to File]** for archiving.
 
-### <a id="feature-obs-en"></a>9. 📺 OBS Studio Streaming Support & UI Convenience
+### <a id="feature-planner-en"></a>9. 🏃 Run Planner & In-Game Progress HUD (Area & Act Targets, Real-time Gauge)
+![Run Planner Target Progress HUD Screen](/D2RUO/images/run_planner_hud_eng.png)
+* 🎯 **Tailored Area & Act Run Targets:**
+  * Configure custom target run counts (`1`–`9,999` runs) across all major hunting zones and acts (Act 1 through Act 5).
+  * **Real-Time Smart Search & Quick Act Filters:** Supports instant multilingual keyword search and Act quick-filter buttons (`[ALL]`, `[Act 1]`–`[Act 5]`), alongside a **`[✓] Show Selected Only`** toggle and 1-click **`[Deselect All]`** to manage complex farming routines in seconds.
+* 🏰 **Hierarchical Multi-Level & Sub-Dungeon Consolidation:**
+  * **`Consolidate Sub-Dungeons` Option (Default ON):** Multi-level dungeons (Forgotten Tower L1–5, The Pit L1–2, Catacombs L1–4, Worldstone Keep L1–3 + Throne) and secondary sub-areas (Frozen River, Drifter Cavern, etc.) are unified into their parent hunting zones, counting and timing the run as one seamless clear.
+* ⏱️ **Continuous Hunting Time Accumulation (Until Game Exit):**
+  * Teleporting back to town to stash/repair or transitioning between dungeon floors in the same game session will never reset your hunting timer. Field time accumulates continuously until you exit the game, yielding true 1-run clear benchmarks.
+* 🖥️ **Live In-Game Progress HUD Overlay:**
+  * **Visual Progress Bar & Analytics:** Visualizes your target goal completion rate (%) with a sleek progress bar gauge, displaying your last lap time, running average time, +/- delta difference, and a live field stopwatch.
+  * **Focus View ↔ Full Target List View Toggle:** Automatically highlights the currently active hunting area or act in a compact **Focus View**, and lets you expand the overlay into a comprehensive **Full Target List View** on the fly with a single hotkey press.
+  * **Full Customization:** Adjust HUD width (`320`–`500px`), font size (`12`–`20px`), progress bar visibility, and +/- delta display. Fully draggable to any screen position.
+* 🔄 **Safe Progress Reset & WeakAuras-Style Code Sharing:**
+  * Safely reset completed run counts and lap history without losing your configured target counts via 1-click reset (`🗑️`).
+  * Easily export and import your Run Planner targets and HUD appearance via lightweight WeakAuras-style compressed text codes (`!DUO:1:...`).
+* 🚪 **Effortless Access:** Access anytime from the Settings window (**[General]** tab), system tray right-click menu (**[🏃 Run Planner & HUD]**), or your custom global hotkeys.
+
+### <a id="feature-obs-en"></a>10. 📺 OBS Studio Streaming Support & UI Convenience
 * 🎥 **Dedicated OBS Stream Overlay (Window Capture):**
   * Enable `OBS Stream Overlay` in Settings to register a dedicated `DUO - Stream Overlay` window for OBS Studio **[Window Capture]**.
   * All active overlays (Terror Zone, Uber Diablo, Buff Timers, etc.) are rendered 1:1 onto a single transparent canvas, providing a smooth, flicker-free stream overlay.
@@ -319,12 +346,12 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 * 🔔 **Smart Item Display Reminder:** If you use the 'Toggle Item Display' option in-game and forget to turn it on after joining a room (especially with loot filters), a helpful reminder message will appear at the top of the screen.
 * 🔄 **Free Layout & Auto-Update:** Drag and drop panels anywhere. Enjoy seamless background updates with a simple 1-click update button.
 
-### <a id="feature-share-en"></a>10. 🔗 Settings Sharing, Backup & Reset (WeakAuras-Style Code Sharing)
+### <a id="feature-share-en"></a>11. 🔗 Settings Sharing, Backup & Reset (WeakAuras-Style Code Sharing)
 Share your custom overlay layouts and buff profiles effortlessly on Discord, forums, or community boards using lightweight WeakAuras-style compressed text codes (`!DUO:1:...`), and import other players' setups with a single click.
 
 * 📤 **Simple Code Generation & Export (.duo files):**
   * Open Settings (`Ctrl + Shift + S`) ➔ **Common Settings** ➔ click **[🔗 Settings Share, Backup & Reset]**.
-  * Choose exactly which categories to include—select from 15 modular sections such as Display/Fonts, Global Hotkeys, TZ/Uber Overlays, Monster OCR, Session HUD, Buff Overlay options, Buff Skill Profiles, and coordinate layouts.
+  * Choose exactly which categories to include—select from 17 modular sections such as Display/Fonts, Global Hotkeys, TZ/Uber Overlays, Monster OCR, Session HUD, Run Planner HUD Options, Run Planner Target Runs (Areas & Acts), Buff Overlay options, Buff Skill Profiles, and coordinate layouts.
   * Click **[📋 Generate Share Code & Copy]** to copy the code to your clipboard instantly, or save it as a standalone `.duo` / `.txt` file via **[💾 Save to File]**.
   * ⚠️ **Zero-Leak Security & Privacy Guarantee:** Private information such as your personal **API Token**, game window target process, favorite items, chronicle drop logs, and custom-captured images are strictly excluded from export. Only verified built-in HD skill preset icons are shared, preventing malicious file exploits.
 * 📥 **1-Click Import with Live Diff Preview:**
