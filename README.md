@@ -249,9 +249,12 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
   * **세션 누적 통계 & 방 자동 연동:** 방 입장/퇴장 시 방별 상태가 자동으로 초기화되며, 프로그램 실행 동안 조우한 전령 총합 및 5단계 출현 횟수를 누적 집계합니다. 환경설정의 **[👾 몬스터 인식]** 탭에서 알림 켜기/끄기, 표시 항목 설정(총 전령 수, 5단계 수) 및 통계 초기화(`↺`)를 지원합니다.
 * 💎 **세계석 공포의 영역 추적 & 미니 HUD (Worldstone Terror Zone Tracking):**
   * **세계석 활성 액트 실시간 자동 감지:** 마을 체류 중 세계석(Worldstone) 아이템 사용으로 활성화된 공포의 영역 대상 액트(예: 2막, 4막 등)를 미니맵 OCR로 자동 감지하여 누적 추적합니다. (한국어, 영어, 중국어 번체/간체 다국어 완벽 지원)
-  * **자유로운 위치 이동 미니 HUD:** 현재 활성화된 세계석 액트와 방문 완료 여부를 직관적인 배지 형태(`[ 💎 세계석 | 2막 ✔ | 4막 ❌ ]`)의 미니 HUD로 제공합니다. 환경설정에서 오버레이 위치 잠금 해제 시 원하는 위치로 자유롭게 드래그하여 배치할 수 있으며, 사냥 중 시야 방해를 막기 위해 마을 체류 중에만 표시되는 모드를 지원합니다.
-  * **최종 사냥터 클리어 & 잔여 액트 TTS 음성 안내:** 각 액트의 최종 기준 사냥터(1막 카타콤 4층, 2막 탈라샤의 무덤/방, 3막 증오의 억류지 3층, 4막 혼돈의 성역, 5막 파괴의 왕좌/세계석 보관실)에 도착 시 해당 액트 완료 및 남은 액트 목록(예: "4막 완료. 남은 세계석: 2막")을 TTS 음성과 화면 팝업으로 안내하며, 모든 액트 방문 시 전체 완료를 알립니다.
-  * **마을 복귀 및 최종 사냥터 이동/게임 퇴장 시 미방문 액트 깜빡임 방지 경고:** 최종 사냥터를 벗어나 다른 지역으로 이동하거나, 사냥터에서 미방문 액트가 남은 상태로 마을에 귀환할 때, 혹은 게임을 종료할 때 "아직 2막을 방문하지 않았습니다." 음성 경고를 제공하여 세계석을 사용해두고 돌지 않은 채 방을 나가는 실수를 방지합니다. (각각 개별 옵션 제공)
+  * **자유로운 위치 이동 미니 HUD & 세부 진척도:** 현재 활성화된 세계석 액트와 방문 완료 여부를 직관적인 배지 형태(`[ 💎 세계석 | 2막 ✔ | 4막 ❌ ]`)의 미니 HUD로 제공합니다. 즐겨찾기 연동 모드에서는 남은 사냥터 진행 상황(예: `1막 ❌ [미완료 1/2]`)까지 함께 표시됩니다. 오버레이 위치 잠금 해제 시 원하는 위치로 자유롭게 드래그하여 배치할 수 있으며, 사냥 중 시야 방해를 막기 위해 마을 체류 중에만 표시되는 모드를 지원합니다.
+  * **완료 판단 조건 토글 (마지막 보스 vs 테러존 즐겨찾기 연동):** 액트별 세계석 클리어 판단 조건을 환경설정에서 자유롭게 선택할 수 있습니다.
+    * **액트별 마지막 보스 (기본값):** 각 액트의 대표 최종 사냥터(1막 카타콤 4층, 2막 탈라샤의 무덤/방, 3막 증오의 억류지 3층, 4막 혼돈의 성역, 5막 파괴의 왕좌/세계석 보관실) 방문 시 완료 처리됩니다.
+    * **테러존 즐겨찾기 연동:** 사용자가 설정한 테러존 즐겨찾기 중 해당 액트에 체크된 사냥터를 모두 방문 시 완료 처리됩니다. (예: 1막 구덩이·대성당만 체크한 경우, 카타콤을 가지 않더라도 구덩이와 대성당을 모두 방문하면 1막 완료). 구덩이 1·2층 등 다층 던전 어디를 돌아도 상위 사냥터로 정확히 자동 매칭되며, 즐겨찾기를 체크하지 않은 액트는 마지막 보스 사냥터 기준으로 안전하게 자동 대체(Fallback)됩니다.
+  * **기준 사냥터 도착 / 이탈 시 TTS 음성 안내 (단일 통합 제어):** 기준 사냥터 도착 시 해당 액트 완료 및 남은 액트 목록(예: "4막 완료. 남은 세계석: 2막")을 TTS 음성과 화면 팝업으로 안내하며, 미완료 상태로 사냥터를 벗어날 때의 경고까지 체크박스 하나로 편리하게 통합 제어합니다.
+  * **마을 복귀 및 게임 퇴장 시 미방문 액트 깜빡임 방지 경고:** 사냥터에서 미방문 액트가 남은 상태로 마을에 귀환할 때, 혹은 게임을 종료할 때 "아직 2막을 방문하지 않았습니다." 음성 경고를 제공하여 세계석을 사용해두고 돌지 않은 채 방을 나가는 실수를 방지합니다.
 
 ### <a id="feature-timer-kr"></a>5. ⏱️ 스피드런 타이머 (Speedrun Timer)
 * 🔄 **게임 진입/퇴장 자동 연동 (Auto-Sync):**
@@ -844,9 +847,12 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **Session Cumulative Statistics & Room Auto-Sync:** Automatically resets room states on game enter/exit, and tracks total herald encounters and Stage 5 spawns across your session. Settings -> **[👾 Monster OCR]** tab provides dedicated toggle controls, display options, and a manual reset (`↺`) button.
 * 💎 **Worldstone Terror Zone Tracking & Mini HUD:**
   * **Automatic Worldstone Act Detection:** When using Worldstone items in town, DUO automatically scans active Terror Zone Acts (e.g. Act 2, Act 4) from the minimap text via OCR and tracks them in real time. (Full multi-language support: Korean, English, Traditional/Simplified Chinese)
-  * **Freely Draggable Mini HUD:** Displays currently active Worldstone Acts and visit progress via a clean, compact HUD badge (`[ 💎 Worldstone | Act 2 ✔ | Act 4 ❌ ]`). Unlock overlay positions in Settings to drag it anywhere on screen. Supports an option to display exclusively in town so it never obscures combat fields.
-  * **Target Area Completion & Remaining Acts TTS Voice Alerts:** Reaching an Act's criteria hunting area (Catacombs L4, Tal Rasha's Tomb/Chamber, Durance of Hate L3, Chaos Sanctuary, Throne of Destruction/Worldstone Chamber) triggers an instant clear announcement and lists remaining targets (e.g., "Act 4 cleared. Remaining: Act 2") via natural TTS and on-screen popups, or celebrates when all target acts are complete.
-  * **Unvisited Act Reminder on Town Return / Area Transition / Game Exit:** Leaving an act's final hunting ground, returning to town from combat, or exiting the game with unvisited target Acts triggers a voice reminder (e.g., "Act 2 has not been visited yet."), ensuring you never leave games with unused Worldstone acts. (Individually configurable)
+  * **Freely Draggable Mini HUD & Sub-Progress Indicator:** Displays currently active Worldstone Acts and visit progress via a clean, compact HUD badge (`[ 💎 Worldstone | Act 2 ✔ | Act 4 ❌ ]`). Under the Favorites Criteria mode, sub-progress for multiple hunting spots is displayed (e.g., `Act 1 ❌ [Pending 1/2]`). Unlock overlay positions in Settings to drag it anywhere on screen. Supports an option to display exclusively in town so it never obscures combat fields.
+  * **Completion Criteria Toggle (Final Boss vs Terror Zone Favorites):** Freely toggle between two completion criteria in Settings:
+    * **Final Boss per Act (Default):** Completed upon reaching each Act's designated final boss area (Catacombs L4, Tal Rasha's Tomb/Chamber, Durance of Hate L3, Chaos Sanctuary, Throne of Destruction/Worldstone Chamber).
+    * **Terror Zone Favorites Integration:** Completed when all favorite hunting grounds checked for that specific Act are visited (e.g., if only The Pit and Cathedral are checked in Act 1, visiting both completes Act 1 without needing to visit Catacombs). Multi-level dungeon floors (Pit L1/L2, etc.) are hierarchically matched to their parent zones automatically, and Acts without any favorites configured will safely fallback to the final boss.
+  * **Target Area Arrival & Departure TTS Voice Alerts (Unified Control):** Reaching a criteria hunting area announces completion and lists remaining targets (e.g., "Act 4 cleared. Remaining: Act 2") via natural TTS and on-screen popups, while warning if departing without full completion—all conveniently toggled under a single checkbox.
+  * **Unvisited Act Reminder on Town Return / Game Exit:** Returning to town from combat or exiting the game with unvisited target Acts triggers a voice reminder (e.g., "Act 2 has not been visited yet."), ensuring you never leave games with unused Worldstone acts.
 
 ### <a id="feature-timer-en"></a>5. ⏱️ Speedrun Timer
 * 🔄 **Game Enter/Exit Auto-Sync:**
