@@ -179,6 +179,7 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 
 ### <a id="feature-tz-kr"></a>1. 😈 테러존 & 우버디아 트래킹 (Terror Zone & DClone)
 * 🎯 **스마트 즐겨찾기 알림:** 원하는 공역 지정 시 발견 즉시, 그리고 시작 5분 전에 텍스트 깜빡임 및 소리로 알려줍니다.
+* 🗺️ **직관적인 사냥터 정렬:** 즐겨찾기 선택 목록의 테러존 사냥터가 각 액트 마을에서 진행하는 순서대로 정렬되어 원하는 지역을 빠르게 찾을 수 있습니다.
 * 🔔 **우버디아 맞춤 알림 & 출현 감지:** 확장팩(LoD/RotW) 선택이 가능하며 단계 상승 시 소리/TTS 알림을 제공합니다. 갱신 주기 사이 우버디아가 이미 출현하여 단계가 리셋(하락)된 경우에도 출현 가능성 경고음과 음성으로 신속하게 알려줍니다.
 * ⚡ **초절전 스마트 폴링:** 트래픽 낭비 방지를 위해 갱신이 필요한 시점에만 API를 정교하게 호출하며, 단계 변동 감지 시 자동으로 고속 갱신(부스트) 모드로 전환됩니다.
 
@@ -207,7 +208,8 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
     * **제작 아이템(룬워드/파괴참)을 위한 마을 선택 지원:** 룬워드나 호라드림 함 조합 템처럼 마을에서 만드는 아이템을 위해, DB 수동 기록 창 상단에 **`[🏰 현재 마을: 자매단 야영지]`** 원클릭 퀵 버튼을 제공하며, 콤보박스에서도 각 액트 거점 마을이 항상 최상단에 배치되어 손쉽게 선택할 수 있습니다.
   * **⌨️ 검색창 `Ctrl` + `Enter` 초고속 기록:** 검색창에 룬 번호(예: `30`)나 아이템 이름을 입력하고 `Ctrl` + `Enter`를 누르면 즉시 DB 기록을 완료하고 사전 창을 닫아 게임으로 신속히 복귀합니다.
   * **🖱️ [💾 DB 기록] 버튼 스마트 분기:** 일반 클릭 시 현재 사냥터(또는 마을 시 마지막 사냥터) 기준으로 즉시 저장, `Shift` + 클릭 시 상세 다이얼로그(지역/난이도/몬스터명)를 호출합니다.
-  * **정돈된 2x2 하단 옵션 & 툴팁:** 하단 체크박스를 `연대기 자동 등록`, `보정 서랍 팝업`(1행: 인식/수집)과 `DB 자동 기록`, `마지막 사냥터 적용`(2행: DB 드롭 기록)으로 깔끔하게 2x2 그리드 정렬하여 공간 부족 없이 한눈에 파악할 수 있습니다.
+  * **📋 클립보드 자동 복사 & 깔끔한 하단 옵션:** 아이템 인식(OCR) 성공 시 아이템 정보(이미지/텍스트)를 클립보드에 즉시 복사해 주는 **`클립보드 자동 복사`** 옵션을 지원하며, 하단 체크박스를 `연대기 자동 등록`, `클립보드 자동 복사`, `보정 서랍 팝업`, `DB 자동 기록`, `마지막 사냥터 적용`으로 정돈해 한눈에 제어할 수 있습니다.
+  * **🛡️ 세트 부위별 효과·연대기 필터·3.4 패치 반영:** 세트 아이템의 부위별 장착 효과를 직관적으로 확인할 수 있으며, 연대기 미수집 필터 상태에서 아이템을 등록하면 목록에서 즉시 제거됩니다. 또한 3.4 패치 기준 아이템 데이터(영원 룬워드 등)와 가치 티어 평가 규칙이 반영되어 있습니다.
   * **📜 이력보기 및 지역 통계 완벽 연동:** 검색창 우측 사이드 서랍의 **[이력보기]** 탭에서 과거 주웠던 동일 아이템들의 상세 수치와 획득 장소를 비교할 수 있으며, 환경설정의 **[지역 통계]** 탭에서 사냥터별 드랍 아이템 목록 및 득템 명당 통계를 한눈에 분석할 수 있습니다.
 
 ### <a id="feature-buff-kr"></a>3. 🛡️ 강력한 버프 오버레이 (Buff Overlay)
@@ -279,10 +281,10 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
   * **멀티 빌드 관리 & 줌 뷰어:** 여러 캐릭터나 빌드별로 프로필을 분리하여 생성/복제/검색할 수 있으며, 카드 썸네일 클릭 시 고해상도 원본 이미지를 마우스 드래그(Pan)로 확대 조회할 수 있습니다.
 
 ### <a id="feature-relay-kr"></a>7. 📋 릴레이 방제 자동 캡처 & 복사 (Relay Game Name OCR & Copy)
-* ⚡ **원클릭 초고속 방제 인식 & 복사:**
+* ⚡ **원클릭 초고속 방제 인식 & 복사 (자동 +1 증가 지원):**
   * 바알방, 카우방, 디아방, 탈방 등 방 번호가 순차적으로 증가하는 연속 릴레이 런 진행 시, 게임 화면 우측 상단의 방제 영역을 단축키(`Shift` + `C`) 한 번으로 초고속 OCR 스캔하여 클립보드에 즉시 복사합니다.
+  * **방제 끝 숫자 `+1` 자동 증가 옵션:** 환경설정에서 **`방제 끝 숫자 +1 하여 복사`**를 켜두면 방제 끝자리의 숫자를 자동으로 1 올려서 복사해 주므로(예: `디아런01` ➔ `디아런02`, `baal-09` ➔ `baal-10`), 로비에서 `Ctrl` + `V`만 눌러 바로 다음 방을 생성하거나 참가할 수 있습니다.
   * 복사 완료 시 화면 상단에 복사된 방제가 강조된 토스트 팝업(`방제 복사 완료 : Cow-02`)이 표시되어 직관적으로 확인할 수 있습니다.
-  * 다음 방 참가 시 로비에서 `Ctrl` + `V`로 붙여넣고 끝자리 번호만 변경(+1)하여 신속하게 입장할 수 있습니다.
 * 🎯 **마우스 드래그 인식 영역 지정:**
   * 환경설정의 **[📍 지역 설정]** -> **[방제(게임 명칭) 인식 영역 지정]** 에서 **`🎯 영역 마우스로 새로 지정`** 버튼을 클릭하여, 화면 해상도나 인터페이스 크기에 맞게 방제가 위치한 영역을 마우스 드래그로 손쉽게 지정할 수 있습니다.
   * 기본 영역(화면 우측 상단 25%, 높이 8%)으로 언제든지 원클릭 초기화가 가능합니다.
@@ -318,15 +320,17 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 
 ### <a id="feature-planner-kr"></a>9. 🏃 런 플래너 & 인게임 목표 Progress HUD (Run Planner & In-Game Progress HUD)
 ![런 플래너 목표 Progress HUD 화면](images/run_planner_hud_kor.png)
-* 🎯 **사냥터 및 액트별 맞춤 목표 설정 (Area & Act Targets):**
-  * 액트 1부터 액트 5까지 디아블로 2의 모든 주요 상위 사냥터 목록을 제공하며, 각 사냥터나 액트별로 원하는 목표 런 횟수(`1`~`9,999회`)를 자유롭게 지정할 수 있습니다.
+* 🎯 **사냥터·액트·전령별 맞춤 목표 설정 (Area, Act & Herald Targets):**
+  * 액트 1부터 액트 5까지 디아블로 2의 모든 주요 사냥터(마을 진행 순서 정렬)와 액트별 목표는 물론, **`👾 공포의 전령 목표 (Herald Target)`** 횟수(`1`~`9,999회`)까지 자유롭게 지정할 수 있습니다.
   * **실시간 스마트 검색 & 빠른 액트 필터:** 한글/영문 실시간 검색(IME 한글 조합 완벽 대응)과 액트별 퀵 필터 버튼(`[ALL]`, `[Act 1]`~`[Act 5]`)을 지원하며, 목표가 설정된 사냥터만 모아보는 **`[✓] 선택된 사냥터만 보기`** 및 원클릭 **`[전체 체크 해제]`** 기능으로 수많은 사냥터 중 원하는 곳만 빠르게 세팅할 수 있습니다.
+  * **상위 지역·부속 던전 상호 배타 선택:** `부수 던전 통합 집계` 환경에서도 상위 지역과 부속 던전이 중복 체크되지 않도록 상호 배타적으로 동작합니다.
 * 🏰 **다층 던전 & 부수 던전 지능형 통합 집계:**
   * **`부수 던전 통합 집계` 옵션 (기본값 ON):** 잊힌 탑(1~5층), 피트(1~2층), 캣타콤(1~4층), 세계석 성채(1~3층 + 바알방) 등 여러 층으로 나뉜 던전이나 서브 구역(얼어붙은 강, 부랑자의 동굴 등)을 상위 대표 사냥터 단위로 통합하여, 층 이동 시에도 하나의 온전한 사냥터로 합산 집계합니다.
 * ⏱️ **하나의 사냥터 시간 누적 (방 퇴장 전까지):**
   * 한 게임 내에서 사냥터를 잠시 벗어나 마을에 다녀오거나 여러 층을 이동하더라도, 게임을 나가기 전까지 해당 사냥터의 순수 사냥 시간이 연속 누적되어 정확한 1회 런 타임을 측정합니다.
 * 🖥️ **실시간 인게임 Progress HUD 오버레이:**
   * **진척도 게이지 & 런 타임 통계:** 목표 횟수 대비 달성률(%)을 시각적인 프로그레스 바(게이지)로 보여주며, 최근 런 소요 시간, 평균 시간, 평균 대비 단축/지연(± 시간) 델타, 그리고 현재 사냥 중인 실시간 초시계를 깔끔하게 표시합니다.
+  * **전령 미니 뱃지 & 복수 목표 표시 우선순위:** 사냥터·액트·전령 목표를 동시에 설정한 경우 현재 사냥 맥락에 맞는 우선순위로 표시하며, **`1행에 전령 미니 뱃지 (👾) 표시`** 옵션을 통해 전령 목표 진행도도 함께 확인할 수 있습니다.
   * **포커스 뷰 (Focus) ↔ 전체 리스트 뷰 (List) 전환:** 평소에는 현재 사냥 중인 지역/액트만 컴팩트하게 보여주는 **포커스 뷰**로 작동하며, 단축키를 누르면 설정된 모든 목표 리스트를 한눈에 펼쳐보는 **리스트 뷰**로 즉시 전환할 수 있습니다.
   * **자유로운 커스텀:** HUD 가로폭(`320`~`500px`), 글자 크기(`12`~`20px`), 프로그레스 바 표시 여부, ±델타 표시 여부를 입맛에 맞게 설정할 수 있으며, 마우스 드래그로 원하는 위치에 배치할 수 있습니다.
 * 🔄 **안전한 기록 초기화 & WeakAuras 스타일 공유:**
@@ -492,6 +496,7 @@ WeakAuras 스타일의 압축 텍스트 코드(`!DUO:1:...`)를 통해 자신의
 3. **캡처 영역 내 다른 글자/오버레이 간섭 여부 (화면 캡쳐 방식 권장):**
    * 몬스터 인식 캡처 영역 안에 화면 상단 테러존 안내 등 다른 오버레이 UI나 글자가 겹쳐 있으면 문자인식에 간섭이 생길 수 있습니다.
    * 💡 **권장 팁:** 환경설정의 **`화면 캡쳐 방식`** 을 **`디아블로 화면만 캡쳐`** 로 설정하시면, 외부 오버레이나 다른 창의 방해 없이 순수한 디아블로 게임 화면만 캡처하므로 인식 방해를 완벽히 방지할 수 있습니다.
+   * ⚠️ **자동 전환(폴백) 안내:** 시스템 환경(OS 버전, 그래픽 설정 등)에 따라 창 전용 캡처(WGC)가 실패할 경우 자동으로 **`화면 전체 캡쳐`** 모드로 전환되며 토스트 알림으로 안내됩니다. 이 경우 인식 영역에 오버레이나 팝업 창이 겹치지 않도록 위치를 조정해 주세요.
 4. **필수 속성 (`*`) 및 최소 부가옵션 개수 설정 확인:**
    * 인식할 속성 목록에서 속성명 앞에 별표(`*`)가 붙은 속성(예: `*악마`, `*저주받음`)은 **모든 필수 조건이 100% 일치**해야만 감지됩니다.
    * **최소 부가옵션 개수**가 너무 높게 설정되어 있으면 조건을 충족하지 못해 알림이 발생하지 않습니다. (필수 속성만 매칭되면 알림을 받고 싶으신 경우 `0`으로 설정)
@@ -777,6 +782,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 
 ### <a id="feature-tz-en"></a>1. 😈 Real-time TZ & DClone Tracker
 * 🎯 **Custom Favorite Alerts:** Get text blinks and sound notifications when your favorite zones are discovered and 5 mins before they start.
+* 🗺️ **Intuitive Area Ordering:** Terror Zone areas in the favorite selection list are ordered by act town progression so you can find your target zones faster.
 * 🔔 **Uber Alerts & Spawn Detection:** Choose your expansion (LoD/RotW) and get notified when DClone stages increase. Also provides warning chimes and voice alerts if DClone progress drops unexpectedly (spawned and reset between polling cycles).
 * ⚡ **Smart Polling:** Highly optimized API calls to prevent traffic waste, automatically switching to high-speed boost mode upon detecting stage changes.
 
@@ -805,7 +811,8 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
     * **Town Selection for Crafted Items (Runewords/Charms):** For items crafted in town (Runewords, Horadric Cube recipes), the manual DB dialog provides a **`[🏰 Current Town]`** 1-click quick chip, and town hubs are pinned at the top of each act list in the area dropdown for effortless selection.
   * **⌨️ Instant Save via `Ctrl` + `Enter`:** Enter a rune number (e.g. `30`) or item name in the search bar and press `Ctrl` + `Enter` to log the drop to DB instantly and return to game.
   * **🖱️ Smart [💾 Save DB] Button:** Regular click instantly records based on current area or last field in town; `Shift` + Click opens the detailed entry dialog (Area/Difficulty/Monster).
-  * **Clean 2x2 Bottom Controls & Tooltips:** Checkboxes are neatly aligned in a 2x2 grid (`Auto-Chronicle` & `Auto-Popup Drawer` / `Auto-DB Record` & `Use Last Field`) to prevent clutter while keeping perfect horizontal balance.
+  * **📋 Auto-Copy to Clipboard & Clean Bottom Controls:** Supports **`Auto-Copy`** to automatically copy item info (image/text) to the clipboard upon OCR recognition, alongside neatly organized bottom controls (`Auto-Chronicle`, `Auto-Copy`, `Auto-Popup Drawer`, `Auto-DB Record`, `Use Last Field`).
+  * **🛡️ Per-Piece Set Bonuses, Chronicle Filter & Patch 3.4 Updates:** Displays per-piece Set Item bonuses, immediately removes items from the uncollected Chronicle filter list upon registration, and includes Patch 3.4 item data (e.g., updated Runewords) and loot tier evaluation rules.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 
 ### <a id="feature-buff-en"></a>3. 🛡️ Powerful Buff Overlay
@@ -877,10 +884,10 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **Multi-Build Management & Zoom Viewer:** Create, clone, rename, and search multiple build setups. Click any card thumbnail to open a high-resolution viewer with smooth mouse drag panning.
 
 ### <a id="feature-relay-en"></a>7. 📋 Relay Game Name OCR Capture & Copy
-* ⚡ **1-Click High-Speed Game Name OCR & Copy:**
+* ⚡ **1-Click High-Speed Game Name OCR & Copy (Auto +1 Increment Supported):**
   * During sequential relay runs (e.g., Baal-01, Chaos-02, Cow-03), press the hotkey (`Shift` + `C`) to instantly scan the top-right game name area via OCR and copy the room name directly to your clipboard.
+  * **Auto-Increment Ending Number (+1):** Enable **`Increment ending number (+1) when copying`** in Settings to automatically increment the trailing number before copying (e.g., `baal-09` ➔ `baal-10`), letting you simply paste (`Ctrl` + `V`) in the lobby for seamless consecutive runs.
   * An on-screen toast alert confirms the copied name (e.g., `Game Name Copied : Cow-02`) so you can visually verify the exact room name captured.
-  * Simply paste (`Ctrl` + `V`) into the join lobby and increment the trailing number (+1) for seamless and rapid consecutive runs.
 * 🎯 **Interactive Mouse Drag Area Selection:**
   * In Settings -> **[📍 Area Settings]** -> **[Game Name OCR Region]**, click **`🎯 Select New Area with Mouse`** to easily calibrate the OCR detection box to match your display resolution and custom UI scaling by dragging directly on the game screen.
   * One-click reset restores the default recommended region (top-right 25% width, 8% height) at any time.
@@ -916,15 +923,17 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 
 ### <a id="feature-planner-en"></a>9. 🏃 Run Planner & In-Game Progress HUD (Area & Act Targets, Real-time Gauge)
 ![Run Planner Target Progress HUD Screen](images/run_planner_hud_eng.png)
-* 🎯 **Tailored Area & Act Run Targets:**
-  * Configure custom target run counts (`1`–`9,999` runs) across all major hunting zones and acts (Act 1 through Act 5).
+* 🎯 **Tailored Area, Act & Herald Targets:**
+  * Configure custom target run counts (`1`–`9,999` runs) across all major hunting zones (ordered by act town progression), acts (Act 1 through Act 5), and **`👾 Terror Zone Herald Target`**.
   * **Real-Time Smart Search & Quick Act Filters:** Supports instant multilingual keyword search and Act quick-filter buttons (`[ALL]`, `[Act 1]`–`[Act 5]`), alongside a **`[✓] Show Selected Only`** toggle and 1-click **`[Deselect All]`** to manage complex farming routines in seconds.
+  * **Mutually Exclusive Parent & Sub-Dungeon Selection:** Prevents duplicate selection between parent areas and their sub-dungeons when `Consolidate Sub-Dungeons` is active.
 * 🏰 **Hierarchical Multi-Level & Sub-Dungeon Consolidation:**
   * **`Consolidate Sub-Dungeons` Option (Default ON):** Multi-level dungeons (Forgotten Tower L1–5, The Pit L1–2, Catacombs L1–4, Worldstone Keep L1–3 + Throne) and secondary sub-areas (Frozen River, Drifter Cavern, etc.) are unified into their parent hunting zones, counting and timing the run as one seamless clear.
 * ⏱️ **Continuous Hunting Time Accumulation (Until Game Exit):**
   * Teleporting back to town to stash/repair or transitioning between dungeon floors in the same game session will never reset your hunting timer. Field time accumulates continuously until you exit the game, yielding true 1-run clear benchmarks.
 * 🖥️ **Live In-Game Progress HUD Overlay:**
   * **Visual Progress Bar & Analytics:** Visualizes your target goal completion rate (%) with a sleek progress bar gauge, displaying your last lap time, running average time, +/- delta difference, and a live field stopwatch.
+  * **Herald Mini Badge & Multi-Target Priority:** When multiple targets (Area, Act, Herald) are configured, the HUD prioritizes display based on your active context and can show a **`Herald Mini Badge (👾)`** in Row 1.
   * **Focus View ↔ Full Target List View Toggle:** Automatically highlights the currently active hunting area or act in a compact **Focus View**, and lets you expand the overlay into a comprehensive **Full Target List View** on the fly with a single hotkey press.
   * **Full Customization:** Adjust HUD width (`320`–`500px`), font size (`12`–`20px`), progress bar visibility, and +/- delta display. Fully draggable to any screen position.
 * 🔄 **Safe Progress Reset & WeakAuras-Style Code Sharing:**
@@ -1089,6 +1098,7 @@ If the automatic monster attribute detection or popup/audio alert is not working
 3. **Overlapping Text / Overlay Interference (Screen Capture Method):**
    * If other text or overlay UI elements (such as Terror Zone info banners) overlap within the capture box, OCR accuracy may degrade.
    * 💡 **Recommended Tip:** Set the **`Screen Capture Method`** to **`Capture Diablo Window Only`** in Settings. This captures only the clean game client window without any interference from external overlay layers.
+   * ⚠️ **Automatic Fallback Notice:** If window capture (WGC) fails due to system compatibility (OS version, graphics settings, etc.), DUO automatically falls back to **`Capture Entire Screen`** and notifies you via a toast alert. In that case, ensure overlays or popup windows do not overlap the recognition areas.
 4. **Required Attributes (`*`) & Min. Optional Attributes Setting:**
    * In the attribute list, any attribute prefixed with an asterisk (`*`) (e.g. `*Demon`, `*Cursed`) is a **strictly required condition** that must match completely.
    * If the **Min. Optional Attributes** count is set higher than what the monster actually has, the alert will not trigger. (Set it to `0` if you only want alerts triggered by required attributes).

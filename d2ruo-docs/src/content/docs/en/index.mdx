@@ -183,6 +183,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 
 ### <a id="feature-tz-en"></a>1. 😈 Real-time TZ & DClone Tracker
 * 🎯 **Custom Favorite Alerts:** Get text blinks and sound notifications when your favorite zones are discovered and 5 mins before they start.
+* 🗺️ **Intuitive Area Ordering:** Terror Zone areas in the favorite selection list are ordered by act town progression so you can find your target zones faster.
 * 🔔 **Uber Alerts & Spawn Detection:** Choose your expansion (LoD/RotW) and get notified when DClone stages increase. Also provides warning chimes and voice alerts if DClone progress drops unexpectedly (spawned and reset between polling cycles).
 * ⚡ **Smart Polling:** Highly optimized API calls to prevent traffic waste, automatically switching to high-speed boost mode upon detecting stage changes.
 
@@ -211,7 +212,8 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
     * **Town Selection for Crafted Items (Runewords/Charms):** For items crafted in town (Runewords, Horadric Cube recipes), the manual DB dialog provides a **`[🏰 Current Town]`** 1-click quick chip, and town hubs are pinned at the top of each act list in the area dropdown for effortless selection.
   * **⌨️ Instant Save via `Ctrl` + `Enter`:** Enter a rune number (e.g. `30`) or item name in the search bar and press `Ctrl` + `Enter` to log the drop to DB instantly and return to game.
   * **🖱️ Smart [💾 Save DB] Button:** Regular click instantly records based on current area or last field in town; `Shift` + Click opens the detailed entry dialog (Area/Difficulty/Monster).
-  * **Clean 2x2 Bottom Controls & Tooltips:** Checkboxes are neatly aligned in a 2x2 grid (`Auto-Chronicle` & `Auto-Popup Drawer` / `Auto-DB Record` & `Use Last Field`) to prevent clutter while keeping perfect horizontal balance.
+  * **📋 Auto-Copy to Clipboard & Clean Bottom Controls:** Supports **`Auto-Copy`** to automatically copy item info (image/text) to the clipboard upon OCR recognition, alongside neatly organized bottom controls (`Auto-Chronicle`, `Auto-Copy`, `Auto-Popup Drawer`, `Auto-DB Record`, `Use Last Field`).
+  * **🛡️ Per-Piece Set Bonuses, Chronicle Filter & Patch 3.4 Updates:** Displays per-piece Set Item bonuses, immediately removes items from the uncollected Chronicle filter list upon registration, and includes Patch 3.4 item data (e.g., updated Runewords) and loot tier evaluation rules.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 
 ### <a id="feature-buff-en"></a>3. 🛡️ Powerful Buff Overlay
@@ -283,10 +285,10 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **Multi-Build Management & Zoom Viewer:** Create, clone, rename, and search multiple build setups. Click any card thumbnail to open a high-resolution viewer with smooth mouse drag panning.
 
 ### <a id="feature-relay-en"></a>7. 📋 Relay Game Name OCR Capture & Copy
-* ⚡ **1-Click High-Speed Game Name OCR & Copy:**
+* ⚡ **1-Click High-Speed Game Name OCR & Copy (Auto +1 Increment Supported):**
   * During sequential relay runs (e.g., Baal-01, Chaos-02, Cow-03), press the hotkey (`Shift` + `C`) to instantly scan the top-right game name area via OCR and copy the room name directly to your clipboard.
+  * **Auto-Increment Ending Number (+1):** Enable **`Increment ending number (+1) when copying`** in Settings to automatically increment the trailing number before copying (e.g., `baal-09` ➔ `baal-10`), letting you simply paste (`Ctrl` + `V`) in the lobby for seamless consecutive runs.
   * An on-screen toast alert confirms the copied name (e.g., `Game Name Copied : Cow-02`) so you can visually verify the exact room name captured.
-  * Simply paste (`Ctrl` + `V`) into the join lobby and increment the trailing number (+1) for seamless and rapid consecutive runs.
 * 🎯 **Interactive Mouse Drag Area Selection:**
   * In Settings -> **[📍 Area Settings]** -> **[Game Name OCR Region]**, click **`🎯 Select New Area with Mouse`** to easily calibrate the OCR detection box to match your display resolution and custom UI scaling by dragging directly on the game screen.
   * One-click reset restores the default recommended region (top-right 25% width, 8% height) at any time.
@@ -322,15 +324,17 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 
 ### <a id="feature-planner-en"></a>9. 🏃 Run Planner & In-Game Progress HUD (Area & Act Targets, Real-time Gauge)
 ![Run Planner Target Progress HUD Screen](/D2RUO/images/run_planner_hud_eng.png)
-* 🎯 **Tailored Area & Act Run Targets:**
-  * Configure custom target run counts (`1`–`9,999` runs) across all major hunting zones and acts (Act 1 through Act 5).
+* 🎯 **Tailored Area, Act & Herald Targets:**
+  * Configure custom target run counts (`1`–`9,999` runs) across all major hunting zones (ordered by act town progression), acts (Act 1 through Act 5), and **`👾 Terror Zone Herald Target`**.
   * **Real-Time Smart Search & Quick Act Filters:** Supports instant multilingual keyword search and Act quick-filter buttons (`[ALL]`, `[Act 1]`–`[Act 5]`), alongside a **`[✓] Show Selected Only`** toggle and 1-click **`[Deselect All]`** to manage complex farming routines in seconds.
+  * **Mutually Exclusive Parent & Sub-Dungeon Selection:** Prevents duplicate selection between parent areas and their sub-dungeons when `Consolidate Sub-Dungeons` is active.
 * 🏰 **Hierarchical Multi-Level & Sub-Dungeon Consolidation:**
   * **`Consolidate Sub-Dungeons` Option (Default ON):** Multi-level dungeons (Forgotten Tower L1–5, The Pit L1–2, Catacombs L1–4, Worldstone Keep L1–3 + Throne) and secondary sub-areas (Frozen River, Drifter Cavern, etc.) are unified into their parent hunting zones, counting and timing the run as one seamless clear.
 * ⏱️ **Continuous Hunting Time Accumulation (Until Game Exit):**
   * Teleporting back to town to stash/repair or transitioning between dungeon floors in the same game session will never reset your hunting timer. Field time accumulates continuously until you exit the game, yielding true 1-run clear benchmarks.
 * 🖥️ **Live In-Game Progress HUD Overlay:**
   * **Visual Progress Bar & Analytics:** Visualizes your target goal completion rate (%) with a sleek progress bar gauge, displaying your last lap time, running average time, +/- delta difference, and a live field stopwatch.
+  * **Herald Mini Badge & Multi-Target Priority:** When multiple targets (Area, Act, Herald) are configured, the HUD prioritizes display based on your active context and can show a **`Herald Mini Badge (👾)`** in Row 1.
   * **Focus View ↔ Full Target List View Toggle:** Automatically highlights the currently active hunting area or act in a compact **Focus View**, and lets you expand the overlay into a comprehensive **Full Target List View** on the fly with a single hotkey press.
   * **Full Customization:** Adjust HUD width (`320`–`500px`), font size (`12`–`20px`), progress bar visibility, and +/- delta display. Fully draggable to any screen position.
 * 🔄 **Safe Progress Reset & WeakAuras-Style Code Sharing:**
@@ -495,6 +499,7 @@ If the automatic monster attribute detection or popup/audio alert is not working
 3. **Overlapping Text / Overlay Interference (Screen Capture Method):**
    * If other text or overlay UI elements (such as Terror Zone info banners) overlap within the capture box, OCR accuracy may degrade.
    * 💡 **Recommended Tip:** Set the **`Screen Capture Method`** to **`Capture Diablo Window Only`** in Settings. This captures only the clean game client window without any interference from external overlay layers.
+   * ⚠️ **Automatic Fallback Notice:** If window capture (WGC) fails due to system compatibility (OS version, graphics settings, etc.), DUO automatically falls back to **`Capture Entire Screen`** and notifies you via a toast alert. In that case, ensure overlays or popup windows do not overlap the recognition areas.
 4. **Required Attributes (`*`) & Min. Optional Attributes Setting:**
    * In the attribute list, any attribute prefixed with an asterisk (`*`) (e.g. `*Demon`, `*Cursed`) is a **strictly required condition** that must match completely.
    * If the **Min. Optional Attributes** count is set higher than what the monster actually has, the alert will not trigger. (Set it to `0` if you only want alerts triggered by required attributes).
