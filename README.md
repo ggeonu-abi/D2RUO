@@ -68,9 +68,9 @@
 
 <br>
 
-**3. 실시간 아이템 사전 검색**
+**3. 실시간 아이템 사전 검색 & 드랍율 계산기**
 ![아이템 사전 검색 화면](images/item_fav_kor.png)
-> 게임 내에서 바로 유니크/룬워드 아이템의 옵션, 재료, 별칭 등을 검색하고 트레더리(Traderie) 시세까지 즉시 확인할 수 있습니다.
+> 게임 내에서 바로 유니크/룬워드/세트/룬/재료 아이템의 옵션과 별칭을 검색하고 **트레더리(Traderie) 시세 확인**부터 **D2R(악마술사의 군림 RotW 포함) 실시간 드랍율 순위표**까지 즉시 확인할 수 있습니다.
 
 <br>
 
@@ -211,6 +211,17 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
   * **📋 클립보드 자동 복사 & 깔끔한 하단 옵션:** 아이템 인식(OCR) 성공 시 아이템 정보(이미지/텍스트)를 클립보드에 즉시 복사해 주는 **`클립보드 자동 복사`** 옵션을 지원하며, 하단 체크박스를 `연대기 자동 등록`, `클립보드 자동 복사`, `보정 서랍 팝업`, `DB 자동 기록`, `마지막 사냥터 적용`으로 정돈해 한눈에 제어할 수 있습니다.
   * **🛡️ 세트 부위별 효과·연대기 필터·3.4 패치 반영:** 세트 아이템의 부위별 장착 효과를 직관적으로 확인할 수 있으며, 연대기 미수집 필터 상태에서 아이템을 등록하면 목록에서 즉시 제거됩니다. 또한 3.4 패치 기준 아이템 데이터(영원 룬워드 등)와 가치 티어 평가 규칙이 반영되어 있습니다.
   * **📜 이력보기 및 지역 통계 완벽 연동:** 검색창 우측 사이드 서랍의 **[이력보기]** 탭에서 과거 주웠던 동일 아이템들의 상세 수치와 획득 장소를 비교할 수 있으며, 환경설정의 **[지역 통계]** 탭에서 사냥터별 드랍 아이템 목록 및 득템 명당 통계를 한눈에 분석할 수 있습니다.
+* 🎯 **실시간 아이템 드랍율 계산기 (`🎯 드랍율` 탭 & 사전 UI 개편):**
+  * **직관적인 화면 전환 & 모달 설정:** 상단의 **`📋 아이템 정보` / `🎯 드랍율`** 전환 버튼과 좌측 결과 목록 **접기/펼치기(`◀`/`▶`)** 를 지원하며, 기존의 OCR·자동화·단축키 옵션을 하단 슬림 요약 바 및 **`⚙` 설정 팝업 창**으로 분리해 쾌적하고 넓은 가독성을 제공합니다.
+  * **D2R 공식 데이터 기반 정밀 엔진 (악마술사의 군림 RotW 완벽 지원):** 게임 원본 테이블(`TreasureClassEx`, `ItemRatio`, `MonStats`, `Levels`, `DesecratedZones` 등)에서 추출한 경량 DB(`drop_calc_db.json`)를 사용해 별도 웹 사이트 없이 오프라인에서도 즉시 정확한 드랍 확률을 계산합니다.
+  * **간략 기본 바 + 접이식 `⚙ 상세 조건`:**
+    * **기본 조건 (상시 노출):** **`캐릭 레벨`**(공포의 영역 적용 시 연동), **`매찬(MF)`**(체감 매찬 점감 공식 반영), **`인원수(P1~P8)`**, **`공포의 영역 (TZ)`** 을 `+/-` 스텝퍼 버튼으로 간편하게 조절할 수 있으며, 변경 즉시 순위표가 실시간 갱신됩니다.
+    * **상세 조건 (접이식 토글):** **`난이도`**(보통/악몽/지옥), **`지역 파티원`**(유효 인원수 `NoDrop` 계산 반영), **`전령 (RotW T1~T5 단계)`** 및 **몬스터 등급 필터 칩(`보스`, `슈퍼유니크`, `유니크`, `챔피언`, `일반`, `전령`)** 을 필요할 때만 펼쳐 정밀 제어할 수 있습니다.
+  * **고증에 충실한 D2R 드랍 규칙 및 편의 기능:**
+    * **보스 퀘스트 드롭 통합 표시 & 6드랍 상한 시뮬레이션:** 퀘스트 전용 드랍 테이블이 구분되는 보스(`바알 (퀘스트)`, `디아블로 (퀘스트)`, `메피스토 (퀘스트)`, `두리엘 (퀘스트)`)는 별도 체크박스 없이 일반 보스와 함께 목록에 자동 포함되며, `Picks 7` / 최대 6개 드랍 제한 및 백작(Countess) 룬 드랍(P1 > P8) 등 D2R 실측 메커니즘을 그대로 반영합니다. *(안다리엘은 D2R 기본값이 상시 퀘스트 드랍이므로 단일 항목으로 계산)*
+    * **RotW 신규 콘텐츠 완비:** 지옥 공포의 영역 **전령(T1~T5)**, **숨겨진 파괴참(Latent Sunder Charms)**, **거대 주얼(Colossal Jewels)**, **세계석 조각**, 악마술사 전용 베이스(`마법서`)까지 완벽 지원합니다.
+    * **카테고리별 맞춤 계산 & 룬워드 바로가기:** **유니크/세트/룬/기타**를 지원하며, 기타 탭의 **장비 베이스(모너크·아콘 플레이트 등 룬워드 재료)** 는 일반·소켓(흰템/회색) 등급 확률(`MF 0%` 유리, 보스·챔피언·유니크 제외)로 자동 계산되고, 부적·열쇠·정수·세계석 조각은 전체 출처 기준으로 표시됩니다. **룬워드** 선택 시에는 상단에 **구성 룬 바로가기 버튼**이 표시되어 해당 룬의 드랍율을 원클릭으로 조회할 수 있습니다.
+    * **깔끔한 표 구성 & 툴팁:** 상세 보기 시 `mLvl`(몬스터 레벨)과 등급 컬럼을 추가로 표시하며, 셀 마우스 오버 시 출현 지역과 드랍 테이블 경로(`TC`)를 한눈에 확인할 수 있습니다.
 
 ### <a id="feature-buff-kr"></a>3. 🛡️ 강력한 버프 오버레이 (Buff Overlay)
 * ⚡ **전 직업 스킬 아이콘 내장 & 추천 버프 프리셋 일괄 등록 (`⚡ 추천 프리셋 추가`):**
@@ -671,9 +682,9 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 <br>
 
-**3. Real-time Item Search Dictionary**
+**3. Real-time Item Search Dictionary & Drop Rate Calculator**
 ![Item Search Screen](images/item_fav_eng.png)
-> Instantly search for Unique/Runeword items, base materials, aliases, and check their market value on Traderie without tabbing out of the game.
+> Instantly search for Unique/Runeword/Set/Rune/Base items, check live **Traderie** prices, and view real-time **D2R (including RotW) Drop Rate Rankings** without leaving the game.
 
 <br>
 
@@ -814,6 +825,17 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **📋 Auto-Copy to Clipboard & Clean Bottom Controls:** Supports **`Auto-Copy`** to automatically copy item info (image/text) to the clipboard upon OCR recognition, alongside neatly organized bottom controls (`Auto-Chronicle`, `Auto-Copy`, `Auto-Popup Drawer`, `Auto-DB Record`, `Use Last Field`).
   * **🛡️ Per-Piece Set Bonuses, Chronicle Filter & Patch 3.4 Updates:** Displays per-piece Set Item bonuses, immediately removes items from the uncollected Chronicle filter list upon registration, and includes Patch 3.4 item data (e.g., updated Runewords) and loot tier evaluation rules.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
+* 🎯 **Real-Time Item Drop Rate Calculator (`🎯 Drops` View & Redesigned UI):**
+  * **Streamlined View Switching & Settings Modal:** Switch cleanly between **`📋 Item Info`** and **`🎯 Drops`**, collapse/expand the left search results list (`◀` / `▶`) for wider tables, and manage OCR/automation/hotkey options neatly via the slim footer bar and **`⚙` Settings Modal** without cluttering the main window.
+  * **Accurate Offline Engine Built from Official D2R Data (Full RotW Support):** Powered by a lightweight compiled database (`drop_calc_db.json`) built directly from D2R game tables (`TreasureClassEx`, `ItemRatio`, `MonStats`, `Levels`, `DesecratedZones`, etc.) for instant (< 15 ms) drop ranking updates with zero web latency.
+  * **Compact Basic Bar + Collapsible `⚙ Detailed` Filters:**
+    * **Core Controls (Always Visible):** Adjust **`Char Lvl`** (linked to TZ scaling), **`MF`** (with D2R diminishing returns), **`Players (P1–P8)`**, and **`Terror Zone (TZ)`** with responsive `+/-` stepper buttons and instant recalculation.
+    * **Advanced Filters (Collapsible):** Expand **`⚙ Detailed`** to fine-tune **`Difficulty`** (Normal / Nightmare / Hell), **`Party in Area`** (Effective Players `NoDrop` scaling), **`Herald (RotW T1–T5)`**, and **Monster Tier filter chips** (`Boss`, `Superunique`, `Unique`, `Champion`, `Normal`, `Herald`).
+  * **Faithful D2R Mechanics & Farming Convenience:**
+    * **Integrated Quest Drops & 6-Drop Cap Simulation:** Quest-drop variants (`Baal (Quest)`, `Diablo (Quest)`, `Mephisto (Quest)`, `Duriel (Quest)`) appear directly alongside regular bosses *(with Andariel properly unified as permanently quest-bugged in D2R)*, while exact 6-drop-per-kill DP accurately captures `Picks = 7` bosses and Countess `P1 > P8` rune behavior.
+    * **Full RotW Support:** Calculates Hell Terror Zone **Heralds (`T1–T5`)**, **Latent Sunder Charms**, **Colossal Jewels**, **Worldstone Shards**, and Warlock bases (`Grimoires`).
+    * **Category-Aware Rules & Runeword Shortcuts:** Equipment bases in the **Other** tab (`Monarch`, `Archon Plate`, etc.) automatically calculate Normal/Socketed (white/grey) drop odds (`0% MF` favored; `Magic+`-only monsters like Bosses/Champions/Uniques excluded), whereas Misc drops (`Charms`, `Keys`, `Essences`, `Worldstone Shards`) rank across all eligible monsters. Selecting a **Runeword** displays clickable **Required Rune shortcuts** to jump straight to each rune's drop rates.
+    * **Clean Table & Hover Tooltips:** Toggle Detailed columns to inspect **`mLvl`** and Monster Tiers, and hover any row for concise area summaries and the exact `TreasureClass` drop path.
 
 ### <a id="feature-buff-en"></a>3. 🛡️ Powerful Buff Overlay
 * ⚡ **Built-in 8-Class Skill Icons & 1-Click Recommended Buff Presets (`⚡ Add Skill Preset`):**
