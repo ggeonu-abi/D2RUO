@@ -28,7 +28,7 @@
 * [⌨️ 단축키 안내 (Hotkeys)](#hotkeys-kr)
 * [✨ 주요 기능 (Key Features)](#features-kr)
   * [1. 테러존 & 우버디아 트래킹](#feature-tz-kr)
-  * [2. 실시간 아이템 사전 검색 (OCR & 트레더리 & DB)](#feature-item-kr)
+  * [2. 실시간 아이템 사전 검색 (OCR · 트레더리 · 드랍율 · 겜블 · 연대기)](#feature-item-kr)
   * [3. 강력한 버프 오버레이 (전 직업 추천 프리셋 & 다클라 타겟 창 & 배타적 그룹)](#feature-buff-kr)
   * [4. 지역 및 몬스터 추적 (체류시간 TTS & 전령 감지 & 세계석 HUD)](#feature-tracker-kr)
   * [5. 스피드런 타이머 (방 자동 연동 & 마을 일시정지)](#feature-timer-kr)
@@ -68,9 +68,9 @@
 
 <br>
 
-**3. 실시간 아이템 사전 검색 & 드랍율 계산기**
+**3. 실시간 아이템 사전 검색 & 드랍율·겜블 계산기**
 ![아이템 사전 검색 화면](images/item_fav_kor.png)
-> 게임 내에서 바로 유니크/룬워드/세트/룬/재료 아이템의 옵션과 별칭을 검색하고 **트레더리(Traderie) 시세 확인**부터 **D2R(악마술사의 군림 RotW 포함) 실시간 드랍율 순위표**까지 즉시 확인할 수 있습니다.
+> 게임 내에서 바로 유니크/룬워드/세트/룬/재료 아이템의 옵션과 별칭을 검색하고 **트레더리(Traderie) 시세 확인**, **D2R(악마술사의 군림 RotW 포함) 실시간 드랍율 순위표**, **겜블 확률·골드 계산기**, **연대기 남은 룬워드 재료 요약**까지 즉시 확인할 수 있습니다.
 
 <br>
 
@@ -201,7 +201,7 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 * 💾 **아이템 획득 기록 (DB 자동 기록 및 이력보기):**
   * **⚡ 아이템 자동 인식 시 DB 자동 기록:** 사냥터에서 아이템 자동 인식(`Ctrl` + `T` / `Ctrl` + `R`) 시, 현재 사냥 중인 지역과 난이도를 기준으로 획득 기록이 SQLite DB(`d2r_stats.db`)에 즉시 자동 저장됩니다.
   * **⚡ 빠른 득템 등록 칩 패널 (룬 & 기타):**
-    * **룬 탭:** 주요 고급 룬(벡스~조드) 및 실용 룬(랄, 헬, 렘~굴) 전용 퀵 칩 지원. 사냥 중 룬 획득 시 클릭 한 번으로 즉시 DB 기록(토스트 알림).
+    * **룬 탭:** 주요 고급 룬(벡스\~조드) 및 실용 룬(랄, 헬, 렘\~굴) 전용 퀵 칩 지원. 사냥 중 룬 획득 시 클릭 한 번으로 즉시 DB 기록(토스트 알림).
     * **기타 탭:** 횃불 열쇠 3종, 우버 고대 동상 5종, 면죄의 징표 및 보스 정수 4종 퀵 칩 지원. 열쇠는 고정 사냥터(탑 지하 5층/비전의 성소/보트의 전당), 정수/동상은 해당 보스방으로 스마트 자동 판별되어 마을에서도 원클릭으로 기록됩니다.
   * **🏘️ 마을 체류 중 스마트 기록 지원 (마지막 사냥터 적용 & 마을 선택):**
     * **`마지막 사냥터 적용` 옵션 (기본값 ON):** 케인에게 일괄 감별한 뒤 마을에서 가방을 스캔(`Ctrl + T`)하거나 `[💾 DB 기록]` 버튼을 누를 때, 번거로운 지역 선택 팝업 없이 **직전에 사냥했던 마지막 사냥터 기준으로 즉시 자동 저장**되어 사냥 흐름이 끊기지 않습니다.
@@ -212,22 +212,32 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
   * **🛡️ 세트 부위별 효과·연대기 필터·3.4 패치 반영:** 세트 아이템의 부위별 장착 효과를 직관적으로 확인할 수 있으며, 연대기 미수집 필터 상태에서 아이템을 등록하면 목록에서 즉시 제거됩니다. 또한 3.4 패치 기준 아이템 데이터(영원 룬워드 등)와 가치 티어 평가 규칙이 반영되어 있습니다.
   * **📜 이력보기 및 지역 통계 완벽 연동:** 검색창 우측 사이드 서랍의 **[이력보기]** 탭에서 과거 주웠던 동일 아이템들의 상세 수치와 획득 장소를 비교할 수 있으며, 환경설정의 **[지역 통계]** 탭에서 사냥터별 드랍 아이템 목록 및 득템 명당 통계를 한눈에 분석할 수 있습니다.
 * 🎯 **실시간 아이템 드랍율 계산기 (`🎯 드랍율` 탭 & 사전 UI 개편):**
-  * **직관적인 화면 전환 & 모달 설정:** 상단의 **`📋 아이템 정보` / `🎯 드랍율`** 전환 버튼과 좌측 결과 목록 **접기/펼치기(`◀`/`▶`)** 를 지원하며, 기존의 OCR·자동화·단축키 옵션을 하단 슬림 요약 바 및 **`⚙` 설정 팝업 창**으로 분리해 쾌적하고 넓은 가독성을 제공합니다.
+  * **직관적인 화면 전환 & 모달 설정:** 상단의 **`📋 아이템 정보` / `🎯 드랍율` / `🎲 겜블` / `📜 연대기 요약`** 전환 버튼과 좌측 결과 목록 **접기/펼치기(`◀`/`▶`)** 를 지원하며, 기존의 OCR·자동화·단축키 옵션을 하단 슬림 요약 바 및 **`⚙` 설정 팝업 창**으로 분리해 쾌적하고 넓은 가독성을 제공합니다.
   * **D2R 공식 데이터 기반 정밀 엔진 (악마술사의 군림 RotW 완벽 지원):** 게임 원본 테이블(`TreasureClassEx`, `ItemRatio`, `MonStats`, `Levels`, `DesecratedZones` 등)에서 추출한 경량 DB(`drop_calc_db.json`)를 사용해 별도 웹 사이트 없이 오프라인에서도 즉시 정확한 드랍 확률을 계산합니다.
   * **간략 기본 바 + 접이식 `⚙ 상세 조건`:**
     * **기본 조건 (상시 노출):** **`캐릭 레벨`**(공포의 영역 적용 시 연동), **`매찬(MF)`**(체감 매찬 점감 공식 반영), **`인원수(P1~P8)`**, **`공포의 영역 (TZ)`** 을 `+/-` 스텝퍼 버튼으로 간편하게 조절할 수 있으며, 변경 즉시 순위표가 실시간 갱신됩니다.
     * **상세 조건 (접이식 토글):** **`난이도`**(보통/악몽/지옥), **`지역 파티원`**(유효 인원수 `NoDrop` 계산 반영), **`전령 (RotW T1~T5 단계)`** 및 **몬스터 등급 필터 칩(`보스`, `슈퍼유니크`, `유니크`, `챔피언`, `일반`, `전령`)** 을 필요할 때만 펼쳐 정밀 제어할 수 있습니다.
   * **고증에 충실한 D2R 드랍 규칙 및 편의 기능:**
     * **보스 퀘스트 드롭 통합 표시 & 6드랍 상한 시뮬레이션:** 퀘스트 전용 드랍 테이블이 구분되는 보스(`바알 (퀘스트)`, `디아블로 (퀘스트)`, `메피스토 (퀘스트)`, `두리엘 (퀘스트)`)는 별도 체크박스 없이 일반 보스와 함께 목록에 자동 포함되며, `Picks 7` / 최대 6개 드랍 제한 및 백작(Countess) 룬 드랍(P1 > P8) 등 D2R 실측 메커니즘을 그대로 반영합니다. *(안다리엘은 D2R 기본값이 상시 퀘스트 드랍이므로 단일 항목으로 계산)*
-    * **RotW 신규 콘텐츠 완비:** 지옥 공포의 영역 **전령(T1~T5)**, **숨겨진 파괴참(Latent Sunder Charms)**, **거대 주얼(Colossal Jewels)**, **세계석 조각**, 악마술사 전용 베이스(`마법서`)까지 완벽 지원합니다.
+    * **RotW 신규 콘텐츠 완비:** 지옥 공포의 영역 **전령(T1\~T5)**, **숨겨진 파괴참(Latent Sunder Charms)**, **거대 주얼(Colossal Jewels)**, **세계석 조각**, 악마술사 전용 베이스(`마법서`)까지 완벽 지원합니다.
     * **카테고리별 맞춤 계산 & 룬워드 바로가기:** **유니크/세트/룬/기타**를 지원하며, 기타 탭의 **장비 베이스(모너크·아콘 플레이트 등 룬워드 재료)** 는 일반·소켓(흰템/회색) 등급 확률(`MF 0%` 유리, 보스·챔피언·유니크 제외)로 자동 계산되고, 부적·열쇠·정수·세계석 조각은 전체 출처 기준으로 표시됩니다. **룬워드** 선택 시에는 상단에 **구성 룬 바로가기 버튼**이 표시되어 해당 룬의 드랍율을 원클릭으로 조회할 수 있습니다.
     * **깔끔한 표 구성 & 툴팁:** 상세 보기 시 `mLvl`(몬스터 레벨)과 등급 컬럼을 추가로 표시하며, 셀 마우스 오버 시 출현 지역과 드랍 테이블 경로(`TC`)를 한눈에 확인할 수 있습니다.
+* 🎲 **실시간 겜블 확률 & 골드 계산기 (`🎲 겜블` 탭):**
+  * **캐릭터 레벨 & 상점 할인 조건 연동:** **`캐릭 레벨(cLvl)`** (생성 `iLvl cLvl-5~cLvl+4` 범위 배지 표시), **`모서리 (-15%)`**, **`기드참 (10\~15%)`** 조건을 조합해 **최대 30% 상점 할인** 및 1회 겜블 비용을 즉시 계산합니다.
+  * **4대 핵심 KPI 카드 & 보유 골드 시뮬레이터:** 선택한 아이템(또는 프리셋) 기준으로 **1회 비용 및 절약 골드**, **획득 확률 (`1 : N`) 및 50%/90% 기대 시도 횟수**, **평균·90% 예상 필요 골드 및 창고(`250만 G`) 환산 칸 수**, 그리고 **`보유 골드` 직접 입력 / 퀵 프리셋(`250만`·`1,000만`·`5,000만`·`1억`)** 을 바탕으로 **가능 횟수, 누적 성공 확률, 90% 도달까지 추가 필요 골드**를 시뮬레이션합니다.
+  * **빠른 겜블 프리셋 & 다중 베이스 비교:** **`💍 반지`**, **`📿 목걸이`**, **`👑 써클릿`**, **`👑 코로니트`**, **`👢 부츠`**, **`🧤 장갑`** 원클릭 프리셋(재클릭 또는 **`↩ 현재 아이템`** 버튼으로 선택 아이템 복귀)을 제공하며, 노멀/익셉셔널/엘리트 업그레이드 확률을 반영한 **NPC 구매 베이스별 비교 표(`[추천]` 배지)** 와 **최적 `cLvl`** 을 자동으로 안내합니다.
+  * **주요 아픽스 해금 현황 & 전체 등장 결과표:** 반지·목걸이·써클릿·장갑·부츠의 핵심 아픽스(`+2 직업 모든 기술`, `20% 패캐`, `3홈 업글`, `6% 마흡` 등)에 대한 **요구 `aLvl`, 현재 `cLvl` 달성률(%), 100% 권장 `cLvl`** 을 보여주며, 선택한 겜블 베이스에서 등장 가능한 **모든 유니크·세트·레어·매직(노멀/익셉셔널/엘리트) 아이템의 확률과 평균 필요 골드**를 한눈에 비교할 수 있습니다. *(룬·룬워드·직업 전용 장비 등 겜블 불가 항목 안내 포함)*
+* 📜 **연대기 남은 룬워드 재료 요약 (`📜 연대기 요약` 탭):**
+  * **수집 진행률 & 미수집 룬워드 통합 대시보드:** 상단 프로그레스 바로 연대기 룬워드 수집률(`수집 N / 전체 (%) · 남음 M개`)을 확인하고, 아직 수집하지 않은 룬워드 제작에 필요한 모든 룬과 베이스 재료를 자동 집계합니다. *(인게임 연대기 기준에 맞춰 `영혼`, `인내`, `불사조`, `용`, `꿈` 등 무기/갑옷/방패로 분리된 공용 룬워드는 1개 항목으로 자동 연동)*
+  * **🪨 필요한 룬 집계 & 클릭 필터:** 미수집 룬워드에 필요한 룬의 종류별 총개수를 아이콘과 함께 카드로 표시하며, **`고급 룬 순`** / **`필요 개수 순`** 정렬을 지원합니다. 룬 카드를 클릭하면 해당 룬이 들어가는 남은 룬워드만 아래 목록에 즉시 필터링됩니다.
+  * **🛡️ 필요한 베이스 아이템 & 소켓 조합 그룹핑:** 요구 소켓 수(`3홈`, `4홈` 등)와 장착 가능 타입별로 베이스를 그룹화하여 대표 아이콘과 함께 제공합니다. **`필요 개수 순`** / **`소켓 순`** 정렬, 대표/선호 베이스 우선 배치, **`전체 N종 펼치기` / `접기`** 토글 및 베이스 카드 클릭 필터링을 지원합니다. *(전체 무기·근접 무기·활/크로스보우 등 광범위 타입은 가독성 있게 요약 표시)*
+  * **📜 남은 룬워드 목록 & 원클릭 완료 처리:** 미수집 룬워드의 요구 레벨, 소켓·베이스 조건, 룬 아이콘 레시피를 한눈에 확인하고, 이름 클릭 시 **아이템 상세 정보 화면으로 바로 이동**하거나 우측 **`[⬜ 완료]`** 버튼으로 즉시 연대기 수집 완료 처리 및 필요 재료 집계를 실시간 갱신할 수 있습니다.
 
 ### <a id="feature-buff-kr"></a>3. 🛡️ 강력한 버프 오버레이 (Buff Overlay)
 * ⚡ **전 직업 스킬 아이콘 내장 & 추천 버프 프리셋 일괄 등록 (`⚡ 추천 프리셋 추가`):**
   * 디아블로 2: 레저렉션 게임 데이터에서 직접 추출한 **8개 전 직업(아마존, 원소술사, 강령술사, 성기사, 야만용사, 드루이드, 암살자, 악마술사) 61종의 지속형 버프·시한부 소환물·덫(파수기)·충전 스킬 고화질 아이콘이 기본 내장**되어 있어, 번거롭게 화면을 캡처하지 않고도 즉시 선택하여 등록할 수 있습니다. (원하는 화면 영역을 직접 지정하는 **`🎯 직접 캡쳐등록`** 도 함께 지원)
   * **`⭐ 추천 버프 선택` & 공용 필수 버프 지원:** 직업을 선택하면 해당 직업이 가장 자주 사용하는 대표 버프들과 **공용 버프(`[CTA] 전투 명령`, `[CTA] 전투 지시`, `[공용] 마법부여(인챈트)`)** 가 원클릭으로 자동 선택됩니다. 영구 유지 소환물이나 단발성 공격 스킬은 제외하고, 암살자 파수기·무술 충전기나 드루이드 변신 충전기처럼 실제 지속시간 관리가 필요한 스킬만 엄선하여 수록했습니다.
-  * **단축키·지속시간·배타 그룹 일괄 세팅 및 중복 등록 방지:** 프리셋 창에서 각 스킬의 단축키, 지속시간(초), 상호 배제 그룹(얼음 갑옷류, 숙련류, 버스트/페이드 등 `G1`~`G3` 자동 기본 배정)을 한 번에 설정하여 일괄 등록할 수 있습니다. 이미 현재 프로필에 추가된 스킬은 **`[등록됨]`** 뱃지가 표시되며 체크가 자동으로 비활성화되어 중복 등록을 완벽히 방지합니다.
+  * **단축키·지속시간·배타 그룹 일괄 세팅 및 중복 등록 방지:** 프리셋 창에서 각 스킬의 단축키, 지속시간(초), 상호 배제 그룹(얼음 갑옷류, 숙련류, 버스트/페이드 등 `G1~G3` 자동 기본 배정)을 한 번에 설정하여 일괄 등록할 수 있습니다. 이미 현재 프로필에 추가된 스킬은 **`[등록됨]`** 뱃지가 표시되며 체크가 자동으로 비활성화되어 중복 등록을 완벽히 방지합니다.
 * 📑 **멀티 프로필 관리:** 캐릭터나 빌드별로 프로필을 무제한 생성하고 단축키(`PageUp` / `PageDown`)로 게임 중 즉시 전환할 수 있습니다.
 * 🎯 **다중 클라이언트(다클라) 타겟 D2R 창 지정:**
   * 멀티로더 등을 통해 2개 이상의 디아블로 창을 동시에 실행하여 플레이할 때(예: 본 캐릭터 + 함성 바바 / 인챈트 소서 등), 각 스킬 상세 설정에서 **[인식 대상 창]** 을 개별 지정할 수 있습니다.
@@ -235,7 +245,7 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
   * **특정 D2R 창 지정:** 현재 실행 중인 클라이언트 목록(`[D2R #1]`, `[D2R #2]` 등 또는 고유 창 제목) 중 원하는 창을 직접 지정하여, **해당 D2R 창이 활성화(포커스)된 상태에서만 버프 단축키가 작동**하도록 제한합니다. 다른 계정 창 조작 중 키가 겹쳐서 원치 않는 버프 타이머가 오작동하는 것을 완벽히 방지하며, 스킬 목록 테이블에서도 텍스트가 잘리지 않도록 핵심 번호/명칭으로 깔끔하게 축약(`F1 (#1)`, `F1 (#2:Sorc…)`) 표시되고 툴팁으로 전체 정보를 확인할 수 있습니다.
   * **스마트 감지 및 자동 폴백(Fallback):** 방금 활성화되었던 창을 `⭐ (방금 활성화된 창)` 태그로 표시해 주며, 목록 새로고침(`🔄`) 버튼을 지원합니다. 만약 지정했던 타겟 창이 종료되어 찾을 수 없을 때는 버프 누락을 방지하기 위해 전체 창 모드로 자동 전환되며 상단 토스트 알림으로 안전하게 안내합니다.
 * 🔀 **배타적 버프 그룹 (상호 배제 / Mutual Exclusion):**
-  * 원소술사(소서리스)의 얼음 갑옷 3종(얼어붙은/오한/마력 깃든 갑옷), 성기사(팔라딘) 오라류(광신/신성한 빙결/선고 등), 암살자의 버스트/페이드, 강령술사의 골렘류처럼 **동시에 1개만 활성화되어야 하는 스킬들을 그룹(`G1`~`G5`)으로 지정**할 수 있습니다.
+  * 원소술사(소서리스)의 얼음 갑옷 3종(얼어붙은/오한/마력 깃든 갑옷), 성기사(팔라딘) 오라류(광신/신성한 빙결/선고 등), 암살자의 버스트/페이드, 강령술사의 골렘류처럼 **동시에 1개만 활성화되어야 하는 스킬들을 그룹(`G1~G5`)으로 지정**할 수 있습니다.
   * 같은 그룹에 속한 스킬 중 하나가 켜지면 **이전에 켜져 있던 동일 그룹의 다른 버프 타이머는 자동으로 즉시 꺼집니다.**
   * 스킬 관리 테이블에 전용 **[그룹]** 열과 컬러 뱃지(`[G1]`, `[G2]` 등)가 추가되어 상호 배제 그룹을 한눈에 식별하고 클릭하여 빠르게 변경할 수 있습니다.
 * 🚨 **중앙 카운트다운 알림:** 스킬 중에 중요하다고 생각되는 항목에 체크해두시면, 알림이 시작될 때 화면 가운데에 카운트다운 및 깜빡임이 추가로 표시되어 전투 중에도 재시전 타이밍을 절대 놓치지 않게 도와줍니다.
@@ -256,7 +266,7 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 * 🧭 **미니 가이드맵:** 출구 생성에 규칙이 있는 지역의 경우, 화면 우측 하단에 출구 방향 미니맵을 표시합니다. (설정에서 표시 여부 및 시간 조절 가능)
 * 👁️ **몬스터 속성 알림 (Warlock 전용 / 윈도우 11 OCR 기반):** 악마 속박(Bind Demon) 등을 위해 특정 속성을 찾아야 할 때, 화면 속 몬스터 텍스트를 실시간 인식하여 설정해둔 조건이 일치하는 몬스터를 팝업과 알림음으로 즉시 알려줍니다. (아이템 자동 인식과 동일하게 Windows 11 기본 캡처 도구의 OCR 엔진을 기반으로 동작합니다.)
 * 👑 **공포의 영역 전령(Herald) 출현 알림 & 카운트 추적 (전 직업 지원):**
-  * **실시간 전령 자동 감지:** 공포의 영역(Terror Zone) 내에서 1~5단계 전령(섬뜩함, 근심, 두려움, 경악, 공포의 전령)을 마우스로 조준 시 실시간으로 감지하여 컴팩트한 상단 1줄 배너(예: `[전령 5단계] (총 5 | 5단 2)`)와 알림음으로 신속하게 알려줍니다. (다국어 지원)
+  * **실시간 전령 자동 감지:** 공포의 영역(Terror Zone) 내에서 1\~5단계 전령(섬뜩함, 근심, 두려움, 경악, 공포의 전령)을 마우스로 조준 시 실시간으로 감지하여 컴팩트한 상단 1줄 배너(예: `[전령 5단계] (총 5 | 5단 2)`)와 알림음으로 신속하게 알려줍니다. (다국어 지원)
   * **전 직업 공통 지원:** 일반 몬스터 속성 인식(악마술사 전용)과 달리, 활성화된 캐릭터 직업에 구애받지 않고 **모든 캐릭터에서 즉시 작동**합니다.
   * **스마트 중복 방지:** 전투 중 마우스를 다시 올리거나 교전이 길어져도 동일한 전령에 대해 알림이 반복되거나 카운트가 중복으로 올라가지 않도록 깔끔하게 처리됩니다.
   * **세션 누적 통계 & 방 자동 연동:** 방 입장/퇴장 시 방별 상태가 자동으로 초기화되며, 프로그램 실행 동안 조우한 전령 총합 및 5단계 출현 횟수를 누적 집계합니다. 환경설정의 **[👾 몬스터 인식]** 탭에서 알림 켜기/끄기, 표시 항목 설정(총 전령 수, 5단계 수) 및 통계 초기화(`↺`)를 지원합니다.
@@ -277,7 +287,7 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 * 📌 **실시간 상세 데이터:** 화면 늘어남 없이 고정된 UI로 누적 실행 횟수, 평균 소요 시간, 최고 기록을 깔끔하게 제공합니다.
 
 ### <a id="feature-snapshot-kr"></a>6. 📷 장비 & 스킬 세팅 캡처 매니저 (Gear & Skill Build Snapshot)
-* 🛡️ **부위별 슬롯 캡처:** 본체 장비(12개 슬롯: 투구, 갑옷, 주/스왑 무기 및 방패, 장갑, 벨트, 신발, 목걸이, 반지 1/2), 용병 장비(3개 슬롯: 투구, 갑옷, 무기), 부적(참), 스텟/고급 통계(1~3) 및 스킬트리(1~4)까지 빌드의 모든 구성을 부위별로 캡처하여 체계적으로 관리할 수 있습니다.
+* 🛡️ **부위별 슬롯 캡처:** 본체 장비(12개 슬롯: 투구, 갑옷, 주/스왑 무기 및 방패, 장갑, 벨트, 신발, 목걸이, 반지 1/2), 용병 장비(3개 슬롯: 투구, 갑옷, 무기), 부적(참), 스텟/고급 통계(1\~3) 및 스킬트리(1\~4)까지 빌드의 모든 구성을 부위별로 캡처하여 체계적으로 관리할 수 있습니다.
 * ⚡ **스마트 자동 & 드래그 캡처 지원:**
   * **⚡ 자동 캡처:** 슬롯의 '자동' 버튼 클릭 후 게임 내에서 아이템에 마우스를 올리고 **`Space`** 키를 누르면 툴팁 영역을 자동으로 감지하여 깔끔하게 캡처합니다. (취소: `ESC`)
   * **⌨ 드래그 캡처:** 슬롯의 '드래그' 버튼 클릭 후 **`Space`** 키를 누르면 영역 지정 창이 열리며, 마우스 드래그로 원하는 부위를 직접 캡처할 수 있습니다. (취소: `ESC`)
@@ -308,12 +318,12 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 * ⏱️ **실시간 세션 파밍 미니 HUD (Session Farming Mini HUD):**
   * **인게임 실시간 파밍 현황판:** 별도의 통계 창을 열지 않고도 현재 세션의 주력 사냥터 페이스, 전령 출현 횟수, 주요 득템 내역을 게임 화면 위에서 한눈에 확인할 수 있는 컴팩트 오버레이입니다.
   * **1행 — 주력 사냥터 TOP 2 런 통계 & 실시간 타이머 & 전령 카운터:**
-    * **다층 던전 및 서브 던전 대표 구역 자동 통합:** 잊힌 탑(1~5층), 피트(1~2층), 캣타콤(1~4층), 증오의 억류지(1~3층), 세계석 성채(1~3층 + 바알방/보관실), 탈 라샤의 무덤(7개 방 + 듀리엘 방) 등 여러 층으로 이루어진 던전이나 서브 구역을 **대표 상위 사냥터(예: '잊힌 탑', '피트', '세계석 성채') 단위로 스마트 통합 집계**합니다. 층을 이동하더라도 런 횟수나 시간이 층별로 쪼개지지 않고 온전한 1회 런으로 합산 계산되어 왜곡 없이 정확한 페이스를 보여줍니다.
+    * **다층 던전 및 서브 던전 대표 구역 자동 통합:** 잊힌 탑(1\~5층), 피트(1\~2층), 캣타콤(1\~4층), 증오의 억류지(1\~3층), 세계석 성채(1\~3층 + 바알방/보관실), 탈 라샤의 무덤(7개 방 + 듀리엘 방) 등 여러 층으로 이루어진 던전이나 서브 구역을 **대표 상위 사냥터(예: '잊힌 탑', '피트', '세계석 성채') 단위로 스마트 통합 집계**합니다. 층을 이동하더라도 런 횟수나 시간이 층별로 쪼개지지 않고 온전한 1회 런으로 합산 계산되어 왜곡 없이 정확한 페이스를 보여줍니다.
     * 현재 세션에서 가장 오래 사냥한 **상위 2개 주력 사냥터**의 **완료 런 횟수(`12회`)**, **평균 클리어 타임(`01:38`)**, 그리고 사냥터 체류 중일 때 **실시간 경과 타이머(`⏱00:45`)** 를 실시간으로 표시합니다. (첫 사냥 전 마을 대기 시 `🏰 마을 대기 중` 표시, 사냥터 2곳 이상 표시 시 가로 폭을 최소화하는 스마트 2줄 상하 배치 적용)
     * 우측에는 현재 세션 동안 조우한 **공포의 영역 전령(Herald) 총 출현 횟수 및 5단계 출현 수(`👾 12 (3)`)** 가 함께 집계됩니다.
   * **2행 — 고가치 득템 하이라이트 (주요 장비 & 고급 룬 분리 표시):**
     * 현재 세션에서 획득한 **`[S+]`, `[S]`, `[A]` 티어 핵심 득템 상위 2종**을 **주요 장비(`🏆 샤코 (S)`)** 와 **고급 룬(`🔶 자 x1`)** 으로 구분하여 티어별 고유 컬러 칩으로 직관적으로 보여줍니다. (아직 주요 득템이 없을 때는 2행이 자동으로 숨겨져 1줄 슬림 모드로 깔끔하게 동작)
-  * **원클릭 토글 & 자유로운 커스텀:** 환경설정의 **[공통 설정]**, **[📍 지역 설정]**, **[📈 지역 통계]** 탭의 **`[⏱️ 파밍 HUD]`** 버튼이나 **사용자 지정 단축키**로 언제든 즉시 켜고 끌 수 있으며, 글자 크기(`12px`~`36px`) 조절, 마우스 드래그 위치 이동, 로비 퇴장 시 자동 숨김 및 OBS 방송 송출 오버레이 연동을 완벽히 지원합니다.
+  * **원클릭 토글 & 자유로운 커스텀:** 환경설정의 **[공통 설정]**, **[📍 지역 설정]**, **[📈 지역 통계]** 탭의 **`[⏱️ 파밍 HUD]`** 버튼이나 **사용자 지정 단축키**로 언제든 즉시 켜고 끌 수 있으며, 글자 크기(`12px~36px`) 조절, 마우스 드래그 위치 이동, 로비 퇴장 시 자동 숨김 및 OBS 방송 송출 오버레이 연동을 완벽히 지원합니다.
 * 📈 **종합 사냥 결산 인포그래픽 카드 생성 (오늘의 파밍 리포트):**
   * 하루 또는 최근 3일/7일 동안 진행한 사냥 데이터를 집계하여, 디아블로 감성의 완성도 높은 고해상도 인포그래픽 카드 이미지로 자동 렌더링합니다.
   * 시스템 트레이 우클릭 메뉴의 **[📊 오늘의 파밍 리포트]**, 환경설정 **[공통 설정]** / **[📈 지역 통계]** 탭 버튼, 또는 지정한 단축키를 통해 언제든 즉시 조회할 수 있습니다.
@@ -332,18 +342,18 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 ### <a id="feature-planner-kr"></a>9. 🏃 런 플래너 & 인게임 목표 Progress HUD (Run Planner & In-Game Progress HUD)
 ![런 플래너 목표 Progress HUD 화면](images/run_planner_hud_kor.png)
 * 🎯 **사냥터·액트·전령별 맞춤 목표 설정 (Area, Act & Herald Targets):**
-  * 액트 1부터 액트 5까지 디아블로 2의 모든 주요 사냥터(마을 진행 순서 정렬)와 액트별 목표는 물론, **`👾 공포의 전령 목표 (Herald Target)`** 횟수(`1`~`9,999회`)까지 자유롭게 지정할 수 있습니다.
-  * **실시간 스마트 검색 & 빠른 액트 필터:** 한글/영문 실시간 검색(IME 한글 조합 완벽 대응)과 액트별 퀵 필터 버튼(`[ALL]`, `[Act 1]`~`[Act 5]`)을 지원하며, 목표가 설정된 사냥터만 모아보는 **`[✓] 선택된 사냥터만 보기`** 및 원클릭 **`[전체 체크 해제]`** 기능으로 수많은 사냥터 중 원하는 곳만 빠르게 세팅할 수 있습니다.
+  * 액트 1부터 액트 5까지 디아블로 2의 모든 주요 사냥터(마을 진행 순서 정렬)와 액트별 목표는 물론, **`👾 공포의 전령 목표 (Herald Target)`** 횟수(`1~9,999회`)까지 자유롭게 지정할 수 있습니다.
+  * **실시간 스마트 검색 & 빠른 액트 필터:** 한글/영문 실시간 검색(IME 한글 조합 완벽 대응)과 액트별 퀵 필터 버튼(`[ALL]`, `[Act 1]`\~`[Act 5]`)을 지원하며, 목표가 설정된 사냥터만 모아보는 **`[✓] 선택된 사냥터만 보기`** 및 원클릭 **`[전체 체크 해제]`** 기능으로 수많은 사냥터 중 원하는 곳만 빠르게 세팅할 수 있습니다.
   * **상위 지역·부속 던전 상호 배타 선택:** `부수 던전 통합 집계` 환경에서도 상위 지역과 부속 던전이 중복 체크되지 않도록 상호 배타적으로 동작합니다.
 * 🏰 **다층 던전 & 부수 던전 지능형 통합 집계:**
-  * **`부수 던전 통합 집계` 옵션 (기본값 ON):** 잊힌 탑(1~5층), 피트(1~2층), 캣타콤(1~4층), 세계석 성채(1~3층 + 바알방) 등 여러 층으로 나뉜 던전이나 서브 구역(얼어붙은 강, 부랑자의 동굴 등)을 상위 대표 사냥터 단위로 통합하여, 층 이동 시에도 하나의 온전한 사냥터로 합산 집계합니다.
+  * **`부수 던전 통합 집계` 옵션 (기본값 ON):** 잊힌 탑(1\~5층), 피트(1\~2층), 캣타콤(1\~4층), 세계석 성채(1\~3층 + 바알방) 등 여러 층으로 나뉜 던전이나 서브 구역(얼어붙은 강, 부랑자의 동굴 등)을 상위 대표 사냥터 단위로 통합하여, 층 이동 시에도 하나의 온전한 사냥터로 합산 집계합니다.
 * ⏱️ **하나의 사냥터 시간 누적 (방 퇴장 전까지):**
   * 한 게임 내에서 사냥터를 잠시 벗어나 마을에 다녀오거나 여러 층을 이동하더라도, 게임을 나가기 전까지 해당 사냥터의 순수 사냥 시간이 연속 누적되어 정확한 1회 런 타임을 측정합니다.
 * 🖥️ **실시간 인게임 Progress HUD 오버레이:**
   * **진척도 게이지 & 런 타임 통계:** 목표 횟수 대비 달성률(%)을 시각적인 프로그레스 바(게이지)로 보여주며, 최근 런 소요 시간, 평균 시간, 평균 대비 단축/지연(± 시간) 델타, 그리고 현재 사냥 중인 실시간 초시계를 깔끔하게 표시합니다.
   * **전령 미니 뱃지 & 복수 목표 표시 우선순위:** 사냥터·액트·전령 목표를 동시에 설정한 경우 현재 사냥 맥락에 맞는 우선순위로 표시하며, **`1행에 전령 미니 뱃지 (👾) 표시`** 옵션을 통해 전령 목표 진행도도 함께 확인할 수 있습니다.
   * **포커스 뷰 (Focus) ↔ 전체 리스트 뷰 (List) 전환:** 평소에는 현재 사냥 중인 지역/액트만 컴팩트하게 보여주는 **포커스 뷰**로 작동하며, 단축키를 누르면 설정된 모든 목표 리스트를 한눈에 펼쳐보는 **리스트 뷰**로 즉시 전환할 수 있습니다.
-  * **자유로운 커스텀:** HUD 가로폭(`320`~`500px`), 글자 크기(`12`~`20px`), 프로그레스 바 표시 여부, ±델타 표시 여부를 입맛에 맞게 설정할 수 있으며, 마우스 드래그로 원하는 위치에 배치할 수 있습니다.
+  * **자유로운 커스텀:** HUD 가로폭(`320~500px`), 글자 크기(`12~20px`), 프로그레스 바 표시 여부, ±델타 표시 여부를 입맛에 맞게 설정할 수 있으며, 마우스 드래그로 원하는 위치에 배치할 수 있습니다.
 * 🔄 **안전한 기록 초기화 & WeakAuras 스타일 공유:**
   * 설정된 목표 수치는 유지한 채 누적 런 횟수와 시간 기록만 원클릭으로 초기화(`🗑️`)할 수 있습니다.
   * 환경설정 공유 창에서 런 플래너 목표 및 HUD 설정을 압축 코드(`!DUO:1:...`)로 간편하게 내보내고 다른 유저와 공유할 수 있습니다.
@@ -643,7 +653,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * [⌨️ Hotkeys](#hotkeys-en)
 * [✨ Key Features](#features-en)
   * [1. Real-time TZ & DClone Tracker](#feature-tz-en)
-  * [2. In-game Item Search Dictionary](#feature-item-en)
+  * [2. In-game Item Search Dictionary (OCR, Traderie, Drops, Gamble & Chronicle)](#feature-item-en)
   * [3. Powerful Buff Overlay (Class Skill Presets, Multi-Client & Exclusive Groups)](#feature-buff-en)
   * [4. Region & Monster Tracking (Stay-Time TTS, Herald & Worldstone HUD)](#feature-tracker-en)
   * [5. Speedrun Timer](#feature-timer-en)
@@ -682,9 +692,9 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 <br>
 
-**3. Real-time Item Search Dictionary & Drop Rate Calculator**
+**3. Real-time Item Search Dictionary, Drop & Gamble Calculator**
 ![Item Search Screen](images/item_fav_eng.png)
-> Instantly search for Unique/Runeword/Set/Rune/Base items, check live **Traderie** prices, and view real-time **D2R (including RotW) Drop Rate Rankings** without leaving the game.
+> Instantly search for Unique/Runeword/Set/Rune/Base items, check live **Traderie** prices, view real-time **D2R (including RotW) Drop Rate Rankings**, simulate **Gamble Odds & Gold Costs**, and track **Chronicle Remaining Runeword Materials** without leaving the game.
 
 <br>
 
@@ -826,7 +836,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **🛡️ Per-Piece Set Bonuses, Chronicle Filter & Patch 3.4 Updates:** Displays per-piece Set Item bonuses, immediately removes items from the uncollected Chronicle filter list upon registration, and includes Patch 3.4 item data (e.g., updated Runewords) and loot tier evaluation rules.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 * 🎯 **Real-Time Item Drop Rate Calculator (`🎯 Drops` View & Redesigned UI):**
-  * **Streamlined View Switching & Settings Modal:** Switch cleanly between **`📋 Item Info`** and **`🎯 Drops`**, collapse/expand the left search results list (`◀` / `▶`) for wider tables, and manage OCR/automation/hotkey options neatly via the slim footer bar and **`⚙` Settings Modal** without cluttering the main window.
+  * **Streamlined View Switching & Settings Modal:** Switch cleanly between **`📋 Item Info` / `🎯 Drops` / `🎲 Gamble` / `📜 Chronicle`**, collapse/expand the left search results list (`◀` / `▶`) for wider tables, and manage OCR/automation/hotkey options neatly via the slim footer bar and **`⚙` Settings Modal** without cluttering the main window.
   * **Accurate Offline Engine Built from Official D2R Data (Full RotW Support):** Powered by a lightweight compiled database (`drop_calc_db.json`) built directly from D2R game tables (`TreasureClassEx`, `ItemRatio`, `MonStats`, `Levels`, `DesecratedZones`, etc.) for instant (< 15 ms) drop ranking updates with zero web latency.
   * **Compact Basic Bar + Collapsible `⚙ Detailed` Filters:**
     * **Core Controls (Always Visible):** Adjust **`Char Lvl`** (linked to TZ scaling), **`MF`** (with D2R diminishing returns), **`Players (P1–P8)`**, and **`Terror Zone (TZ)`** with responsive `+/-` stepper buttons and instant recalculation.
@@ -836,6 +846,16 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
     * **Full RotW Support:** Calculates Hell Terror Zone **Heralds (`T1–T5`)**, **Latent Sunder Charms**, **Colossal Jewels**, **Worldstone Shards**, and Warlock bases (`Grimoires`).
     * **Category-Aware Rules & Runeword Shortcuts:** Equipment bases in the **Other** tab (`Monarch`, `Archon Plate`, etc.) automatically calculate Normal/Socketed (white/grey) drop odds (`0% MF` favored; `Magic+`-only monsters like Bosses/Champions/Uniques excluded), whereas Misc drops (`Charms`, `Keys`, `Essences`, `Worldstone Shards`) rank across all eligible monsters. Selecting a **Runeword** displays clickable **Required Rune shortcuts** to jump straight to each rune's drop rates.
     * **Clean Table & Hover Tooltips:** Toggle Detailed columns to inspect **`mLvl`** and Monster Tiers, and hover any row for concise area summaries and the exact `TreasureClass` drop path.
+* 🎲 **Real-Time Gamble Odds & Gold Calculator (`🎲 Gamble` View):**
+  * **Character Level & Vendor Discount Integration:** Adjust **`Char Lvl (cLvl)`** (displaying the rolled `iLvl` range `cLvl-5`–`cLvl+4`), **`Edge (-15%)`**, and **`Gheed's (10–15%)`** to accurately apply up to **30% max vendor discount** and calculate per-roll gold costs in real time.
+  * **4-Card KPI Dashboard & Budget Simulator:** For the selected item or preset, displays **Cost per Try & Discount Savings**, **Exact Odds (`1 : N`) & 50%/90% Expected Attempts**, **Mean & 90% Expected Gold (plus `2.5M` stash equivalents)**, and an interactive **Budget Simulator** with quick presets (`2.5M`, `10M`, `50M`, `100M`) showing affordable tries, cumulative success probability, and extra gold needed for 90% confidence.
+  * **Quick Gamble Presets & Multi-Base Comparison:** Offers 1-click presets for **`💍 Ring`**, **`📿 Amulet`**, **`👑 Circlet`**, **`👑 Coronet`**, **`👢 Boots`**, and **`🧤 Gloves`** (click again or use **`↩ Selected Item`** to return), compares eligible NPC gamble bases with a **`[Best]`** recommendation badge factoring in Normal/Exceptional/Elite upgrade odds, and calculates the **Best `cLvl`** for target Uniques and Sets.
+  * **Key Affix Unlock Status & Full Outcome Table:** Tracks **Req `aLvl`, Unlock % at your `cLvl`, and 100% Recommended `cLvl`** for key affixes (`+2 Class Skills`, `20% FCR`, `3os Tiara/Diadem`, `6% Mana Leech`, etc.), alongside a complete outcome table of **all possible Unique, Set, Rare, and Magic rolls** (Normal/Exceptional/Elite) with exact odds and mean gold. *(Clearly indicates non-gambleable items such as Runes, Runewords, and Class-Specific gear.)*
+* 📜 **Chronicle Remaining Runeword Materials Summary (`📜 Chronicle` View):**
+  * **Collection Progress & Material Dashboard:** Tracks your Runeword Chronicle completion (`Collected / Total (%) · Left`) via a top progress bar and automatically aggregates every rune and base item needed to finish your remaining Runewords. *(Multi-slot shared Runewords such as `Spirit`, `Fortitude`, `Phoenix`, `Dragon`, and `Dream` are automatically linked as a single Chronicle entry matching in-game behavior.)*
+  * **🪨 Required Runes Grid & Click-to-Filter:** Displays every required rune with its icon and total count needed, supporting **`High Rune First`** and **`By Count`** sorting. Clicking any rune card instantly filters the remaining Runewords list below to items using that rune.
+  * **🛡️ Required Base Items & Socket Grouping:** Groups required bases by socket count (`3os`, `4os`, etc.) and allowed item types with representative icons, **`By Count`** / **`By Sockets`** sorting, prioritized preferred bases with **`Show all` / `Collapse`** toggles, and click-to-filter support. *(Broad weapon/missile groups like `All Weapons`, `Melee Weapons`, and `Bows / Crossbows` are cleanly summarized for readability.)*
+  * **📜 Remaining Runewords List & 1-Click Completion:** Shows required level, socket/base tags, and visual rune recipes for each uncollected Runeword. Click any Runeword name to **jump directly to its Item Info view**, or click **`[⬜ Done]`** to mark it collected in your Chronicle and update remaining material totals in real time.
 
 ### <a id="feature-buff-en"></a>3. 🛡️ Powerful Buff Overlay
 * ⚡ **Built-in 8-Class Skill Icons & 1-Click Recommended Buff Presets (`⚡ Add Skill Preset`):**

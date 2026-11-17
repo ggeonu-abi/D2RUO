@@ -33,7 +33,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * [⌨️ Hotkeys](#hotkeys-en)
 * [✨ Key Features](#features-en)
   * [1. Real-time TZ & DClone Tracker](#feature-tz-en)
-  * [2. In-game Item Search Dictionary](#feature-item-en)
+  * [2. In-game Item Search Dictionary (OCR, Traderie, Drops, Gamble & Chronicle)](#feature-item-en)
   * [3. Powerful Buff Overlay (Class Skill Presets, Multi-Client & Exclusive Groups)](#feature-buff-en)
   * [4. Region & Monster Tracking (Stay-Time TTS, Herald & Worldstone HUD)](#feature-tracker-en)
   * [5. Speedrun Timer](#feature-timer-en)
@@ -72,9 +72,9 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 <br />
 
-**3. Real-time Item Search Dictionary & Drop Rate Calculator**
+**3. Real-time Item Search Dictionary, Drop & Gamble Calculator**
 ![Item Search Screen](/D2RUO/images/item_fav_eng.png)
-> Instantly search for Unique/Runeword/Set/Rune/Base items, check live **Traderie** prices, and view real-time **D2R (including RotW) Drop Rate Rankings** without leaving the game.
+> Instantly search for Unique/Runeword/Set/Rune/Base items, check live **Traderie** prices, view real-time **D2R (including RotW) Drop Rate Rankings**, simulate **Gamble Odds & Gold Costs**, and track **Chronicle Remaining Runeword Materials** without leaving the game.
 
 <br />
 
@@ -216,7 +216,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **🛡️ Per-Piece Set Bonuses, Chronicle Filter & Patch 3.4 Updates:** Displays per-piece Set Item bonuses, immediately removes items from the uncollected Chronicle filter list upon registration, and includes Patch 3.4 item data (e.g., updated Runewords) and loot tier evaluation rules.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
 * 🎯 **Real-Time Item Drop Rate Calculator (`🎯 Drops` View & Redesigned UI):**
-  * **Streamlined View Switching & Settings Modal:** Switch cleanly between **`📋 Item Info`** and **`🎯 Drops`**, collapse/expand the left search results list (`◀` / `▶`) for wider tables, and manage OCR/automation/hotkey options neatly via the slim footer bar and **`⚙` Settings Modal** without cluttering the main window.
+  * **Streamlined View Switching & Settings Modal:** Switch cleanly between **`📋 Item Info` / `🎯 Drops` / `🎲 Gamble` / `📜 Chronicle`**, collapse/expand the left search results list (`◀` / `▶`) for wider tables, and manage OCR/automation/hotkey options neatly via the slim footer bar and **`⚙` Settings Modal** without cluttering the main window.
   * **Accurate Offline Engine Built from Official D2R Data (Full RotW Support):** Powered by a lightweight compiled database (`drop_calc_db.json`) built directly from D2R game tables (`TreasureClassEx`, `ItemRatio`, `MonStats`, `Levels`, `DesecratedZones`, etc.) for instant (< 15 ms) drop ranking updates with zero web latency.
   * **Compact Basic Bar + Collapsible `⚙ Detailed` Filters:**
     * **Core Controls (Always Visible):** Adjust **`Char Lvl`** (linked to TZ scaling), **`MF`** (with D2R diminishing returns), **`Players (P1–P8)`**, and **`Terror Zone (TZ)`** with responsive `+/-` stepper buttons and instant recalculation.
@@ -226,6 +226,16 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
     * **Full RotW Support:** Calculates Hell Terror Zone **Heralds (`T1–T5`)**, **Latent Sunder Charms**, **Colossal Jewels**, **Worldstone Shards**, and Warlock bases (`Grimoires`).
     * **Category-Aware Rules & Runeword Shortcuts:** Equipment bases in the **Other** tab (`Monarch`, `Archon Plate`, etc.) automatically calculate Normal/Socketed (white/grey) drop odds (`0% MF` favored; `Magic+`-only monsters like Bosses/Champions/Uniques excluded), whereas Misc drops (`Charms`, `Keys`, `Essences`, `Worldstone Shards`) rank across all eligible monsters. Selecting a **Runeword** displays clickable **Required Rune shortcuts** to jump straight to each rune's drop rates.
     * **Clean Table & Hover Tooltips:** Toggle Detailed columns to inspect **`mLvl`** and Monster Tiers, and hover any row for concise area summaries and the exact `TreasureClass` drop path.
+* 🎲 **Real-Time Gamble Odds & Gold Calculator (`🎲 Gamble` View):**
+  * **Character Level & Vendor Discount Integration:** Adjust **`Char Lvl (cLvl)`** (displaying the rolled `iLvl` range `cLvl-5`–`cLvl+4`), **`Edge (-15%)`**, and **`Gheed's (10–15%)`** to accurately apply up to **30% max vendor discount** and calculate per-roll gold costs in real time.
+  * **4-Card KPI Dashboard & Budget Simulator:** For the selected item or preset, displays **Cost per Try & Discount Savings**, **Exact Odds (`1 : N`) & 50%/90% Expected Attempts**, **Mean & 90% Expected Gold (plus `2.5M` stash equivalents)**, and an interactive **Budget Simulator** with quick presets (`2.5M`, `10M`, `50M`, `100M`) showing affordable tries, cumulative success probability, and extra gold needed for 90% confidence.
+  * **Quick Gamble Presets & Multi-Base Comparison:** Offers 1-click presets for **`💍 Ring`**, **`📿 Amulet`**, **`👑 Circlet`**, **`👑 Coronet`**, **`👢 Boots`**, and **`🧤 Gloves`** (click again or use **`↩ Selected Item`** to return), compares eligible NPC gamble bases with a **`[Best]`** recommendation badge factoring in Normal/Exceptional/Elite upgrade odds, and calculates the **Best `cLvl`** for target Uniques and Sets.
+  * **Key Affix Unlock Status & Full Outcome Table:** Tracks **Req `aLvl`, Unlock % at your `cLvl`, and 100% Recommended `cLvl`** for key affixes (`+2 Class Skills`, `20% FCR`, `3os Tiara/Diadem`, `6% Mana Leech`, etc.), alongside a complete outcome table of **all possible Unique, Set, Rare, and Magic rolls** (Normal/Exceptional/Elite) with exact odds and mean gold. *(Clearly indicates non-gambleable items such as Runes, Runewords, and Class-Specific gear.)*
+* 📜 **Chronicle Remaining Runeword Materials Summary (`📜 Chronicle` View):**
+  * **Collection Progress & Material Dashboard:** Tracks your Runeword Chronicle completion (`Collected / Total (%) · Left`) via a top progress bar and automatically aggregates every rune and base item needed to finish your remaining Runewords. *(Multi-slot shared Runewords such as `Spirit`, `Fortitude`, `Phoenix`, `Dragon`, and `Dream` are automatically linked as a single Chronicle entry matching in-game behavior.)*
+  * **🪨 Required Runes Grid & Click-to-Filter:** Displays every required rune with its icon and total count needed, supporting **`High Rune First`** and **`By Count`** sorting. Clicking any rune card instantly filters the remaining Runewords list below to items using that rune.
+  * **🛡️ Required Base Items & Socket Grouping:** Groups required bases by socket count (`3os`, `4os`, etc.) and allowed item types with representative icons, **`By Count`** / **`By Sockets`** sorting, prioritized preferred bases with **`Show all` / `Collapse`** toggles, and click-to-filter support. *(Broad weapon/missile groups like `All Weapons`, `Melee Weapons`, and `Bows / Crossbows` are cleanly summarized for readability.)*
+  * **📜 Remaining Runewords List & 1-Click Completion:** Shows required level, socket/base tags, and visual rune recipes for each uncollected Runeword. Click any Runeword name to **jump directly to its Item Info view**, or click **`[⬜ Done]`** to mark it collected in your Chronicle and update remaining material totals in real time.
 
 ### <a id="feature-buff-en"></a>3. 🛡️ Powerful Buff Overlay
 * ⚡ **Built-in 8-Class Skill Icons & 1-Click Recommended Buff Presets (`⚡ Add Skill Preset`):**
