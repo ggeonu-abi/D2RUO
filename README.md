@@ -198,6 +198,7 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
   * **📝 매물 바로 등록 (Price Check):** 변동 옵션 수치가 이미 입력된 상태로 트레더리 매물 등록 페이지를 바로 띄워줍니다. 하단의 'Create Listing'을 누르고 원하는 가격만 적으면 몇 초 만에 즉시 출품이 완료됩니다.
   * **📦 카테고리 통합 아이템의 세부 베이스 자동 감지 & 선택기:** '모든 부츠', '모든 장갑' 등 통합 아이템 인식 시 화면 속 텍스트(예: 샤크스킨 부츠)를 자동 분석하여 세부 베이스를 맞춰줍니다. 시세 검색은 전체 매물을 넓게 보고, 매물 등록은 해당 세부 베이스로 정확하게 출품할 수 있는 스마트 하이브리드 기능을 지원합니다.
   * **⚡ 즉시 툴팁 안내:** 검색 및 등록 버튼, 베이스 선택기에 마우스를 올리는 즉시 대기 시간 없이 직관적인 툴팁 도움말이 표시됩니다.
+* ⬆️ **베이스 업그레이드 미리보기 & 방어구 무게 표시:** 유니크·세트·개별 베이스 아이템의 `노멀` · `익셉셔널` · `엘리트` 등급을 선택하면 업그레이드 시 변경되는 필요 스탯(요구 레벨·힘·민첩), 방어력(재굴림 포함), 피해량, 무기 속도, 내구도가 **에테리얼 여부와 연동해** 즉시 계산됩니다. 방어구는 `라이트` · `미디엄` · `헤비` 무게 등급을 뱃지로 함께 표시하며, 룬워드 베이스 선택 시에도 등급과 무게를 바로 확인할 수 있습니다.
 * 💾 **아이템 획득 기록 (DB 자동 기록 및 이력보기):**
   * **⚡ 아이템 자동 인식 시 DB 자동 기록:** 사냥터에서 아이템 자동 인식(`Ctrl` + `T` / `Ctrl` + `R`) 시, 현재 사냥 중인 지역과 난이도를 기준으로 획득 기록이 SQLite DB(`d2r_stats.db`)에 즉시 자동 저장됩니다.
   * **⚡ 빠른 득템 등록 칩 패널 (룬 & 기타):**
@@ -822,6 +823,7 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **📝 Quick Listing (Price Check):** Opens the Traderie listing page with all scanned variable stats pre-filled. Simply click 'Create Listing' and enter your price to list items for sale in seconds!
   * **📦 Category Item Base Auto-Detection & Selector:** When scanning broad categories like 'All Boots' or 'All Gloves', DUO automatically detects the specific base item (e.g., Sharkskin Boots) from OCR text. Live search browses all boots broadly, while the listing button targets the exact base for immediate sale.
   * **⚡ Instant Tooltips:** Hovering over search/listing buttons or base dropdown displays descriptive tooltips with 0ms delay.
+* ⬆️ **Base Upgrade Preview & Armor Weight Badges:** Switch between `Normal`, `Exceptional`, and `Elite` tiers on Unique, Set, and individual base items to preview updated requirements (Level, Strength, Dexterity), Defense (including base re-roll), Damage, Weapon Speed, and Durability—synced with **Ethereal** status. Armors also show `Light`, `Medium`, or `Heavy` weight badges, including when choosing a Runeword base.
 * 💾 **Item Drop History (Auto DB Logging & Drop History):**
   * **⚡ Auto DB Logging on OCR:** Scanning an item (`Ctrl` + `T` / `Ctrl` + `R`) while farming automatically logs its full stats, current area, and difficulty directly into the local SQLite database (`d2r_stats.db`).
   * **⚡ Quick Drop Entry Chips (Runes & Misc):**
