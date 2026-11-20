@@ -28,7 +28,7 @@
 * [⌨️ 단축키 안내 (Hotkeys)](#hotkeys-kr)
 * [✨ 주요 기능 (Key Features)](#features-kr)
   * [1. 테러존 & 우버디아 트래킹](#feature-tz-kr)
-  * [2. 실시간 아이템 사전 검색 (OCR · 트레더리 · 드랍율 · 겜블 · 연대기)](#feature-item-kr)
+  * [2. 실시간 아이템 사전 검색 (OCR · 트레더리 · 드랍율·추천 사냥터 · 겜블 · 연대기)](#feature-item-kr)
   * [3. 강력한 버프 오버레이 (전 직업 추천 프리셋 & 다클라 타겟 창 & 배타적 그룹)](#feature-buff-kr)
   * [4. 지역 및 몬스터 추적 (체류시간 TTS & 전령 감지 & 세계석 HUD)](#feature-tracker-kr)
   * [5. 스피드런 타이머 (방 자동 연동 & 마을 일시정지)](#feature-timer-kr)
@@ -70,7 +70,7 @@
 
 **3. 실시간 아이템 사전 검색 & 드랍율·겜블 계산기**
 ![아이템 사전 검색 화면](images/item_fav_kor.png)
-> 게임 내에서 바로 유니크/룬워드/세트/룬/재료 아이템의 옵션과 별칭을 검색하고 **트레더리(Traderie) 시세 확인**, **D2R(악마술사의 군림 RotW 포함) 실시간 드랍율 순위표**, **겜블 확률·골드 계산기**, **연대기 남은 룬워드 재료 요약**까지 즉시 확인할 수 있습니다.
+> 게임 내에서 바로 유니크/룬워드/세트/룬/재료 아이템의 옵션과 별칭을 검색하고 **트레더리(Traderie) 시세 확인**, **D2R(악마술사의 군림 RotW 포함) 실시간 드랍율 순위표 & 추천 사냥터**, **겜블 확률·골드 계산기**, **연대기 남은 룬워드 재료 요약**까지 즉시 확인할 수 있습니다.
 
 <br>
 
@@ -212,9 +212,9 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
   * **📋 클립보드 자동 복사 & 깔끔한 하단 옵션:** 아이템 인식(OCR) 성공 시 아이템 정보(이미지/텍스트)를 클립보드에 즉시 복사해 주는 **`클립보드 자동 복사`** 옵션을 지원하며, 하단 체크박스를 `연대기 자동 등록`, `클립보드 자동 복사`, `보정 서랍 팝업`, `DB 자동 기록`, `마지막 사냥터 적용`으로 정돈해 한눈에 제어할 수 있습니다.
   * **🛡️ 세트 부위별 효과·연대기 필터·3.4 패치 반영:** 세트 아이템의 부위별 장착 효과를 직관적으로 확인할 수 있으며, 연대기 미수집 필터 상태에서 아이템을 등록하면 목록에서 즉시 제거됩니다. 또한 3.4 패치 기준 아이템 데이터(영원 룬워드 등)와 가치 티어 평가 규칙이 반영되어 있습니다.
   * **📜 이력보기 및 지역 통계 완벽 연동:** 검색창 우측 사이드 서랍의 **[이력보기]** 탭에서 과거 주웠던 동일 아이템들의 상세 수치와 획득 장소를 비교할 수 있으며, 환경설정의 **[지역 통계]** 탭에서 사냥터별 드랍 아이템 목록 및 득템 명당 통계를 한눈에 분석할 수 있습니다.
-* 🎯 **실시간 아이템 드랍율 계산기 (`🎯 드랍율` 탭 & 사전 UI 개편):**
+* 🎯 **실시간 아이템 드랍율 계산기 & 추천 사냥터 (`🎯 드랍율` 탭 & 사전 UI 개편):**
   * **직관적인 화면 전환 & 모달 설정:** 상단의 **`📋 아이템 정보` / `🎯 드랍율` / `🎲 겜블` / `📜 연대기 요약`** 전환 버튼과 좌측 결과 목록 **접기/펼치기(`◀`/`▶`)** 를 지원하며, 기존의 OCR·자동화·단축키 옵션을 하단 슬림 요약 바 및 **`⚙` 설정 팝업 창**으로 분리해 쾌적하고 넓은 가독성을 제공합니다.
-  * **D2R 공식 데이터 기반 정밀 엔진 (악마술사의 군림 RotW 완벽 지원):** 게임 원본 테이블(`TreasureClassEx`, `ItemRatio`, `MonStats`, `Levels`, `DesecratedZones` 등)에서 추출한 경량 DB(`drop_calc_db.json`)를 사용해 별도 웹 사이트 없이 오프라인에서도 즉시 정확한 드랍 확률을 계산합니다.
+  * **D2R 공식 데이터 기반 정밀 엔진 (악마술사의 군림 RotW 완벽 지원):** 게임 원본 테이블(`TreasureClassEx`, `ItemRatio`, `MonStats`, `Levels`, `LvlMaze`, `DesecratedZones` 등)에서 추출한 경량 DB(`drop_calc_db.json`)를 사용해 별도 웹 사이트 없이 오프라인에서도 즉시 정확한 드랍 확률을 계산합니다.
   * **간략 기본 바 + 접이식 `⚙ 상세 조건`:**
     * **기본 조건 (상시 노출):** **`캐릭 레벨`**(공포의 영역 적용 시 연동), **`매찬(MF)`**(체감 매찬 점감 공식 반영), **`인원수(P1~P8)`**, **`공포의 영역 (TZ)`** 을 `+/-` 스텝퍼 버튼으로 간편하게 조절할 수 있으며, 변경 즉시 순위표가 실시간 갱신됩니다.
     * **상세 조건 (접이식 토글):** **`난이도`**(보통/악몽/지옥), **`지역 파티원`**(유효 인원수 `NoDrop` 계산 반영), **`전령 (RotW T1~T5 단계)`** 및 **몬스터 등급 필터 칩(`보스`, `슈퍼유니크`, `유니크`, `챔피언`, `일반`, `전령`)** 을 필요할 때만 펼쳐 정밀 제어할 수 있습니다.
@@ -223,6 +223,11 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
     * **RotW 신규 콘텐츠 완비:** 지옥 공포의 영역 **전령(T1\~T5)**, **숨겨진 파괴참(Latent Sunder Charms)**, **거대 주얼(Colossal Jewels)**, **세계석 조각**, 악마술사 전용 베이스(`마법서`)까지 완벽 지원합니다.
     * **카테고리별 맞춤 계산 & 룬워드 바로가기:** **유니크/세트/룬/기타**를 지원하며, 기타 탭의 **장비 베이스(모너크·아콘 플레이트 등 룬워드 재료)** 는 일반·소켓(흰템/회색) 등급 확률(`MF 0%` 유리, 보스·챔피언·유니크 제외)로 자동 계산되고, 부적·열쇠·정수·세계석 조각은 전체 출처 기준으로 표시됩니다. **룬워드** 선택 시에는 상단에 **구성 룬 바로가기 버튼**이 표시되어 해당 룬의 드랍율을 원클릭으로 조회할 수 있습니다.
     * **깔끔한 표 구성 & 툴팁:** 상세 보기 시 `mLvl`(몬스터 레벨)과 등급 컬럼을 추가로 표시하며, 셀 마우스 오버 시 출현 지역과 드랍 테이블 경로(`TC`)를 한눈에 확인할 수 있습니다.
+  * 🗺 **추천 사냥터 모드 (`👾 몬스터별` / `🗺 추천 사냥터` 전환):**
+    * **조건 공유 & 실시간 공포의 영역(TZ) 연동:** 드랍율 탭의 `캐릭 레벨`, `매찬(MF)`, `인원수`, `지역 파티원`, `난이도`, `TZ`, `전령 (RotW)` 입력값을 그대로 공유하며, 상단 배너에 지금 열려 있는 공포의 영역이 실시간 표시됩니다. **`현재 TZ 반영`** 원클릭 버튼으로 즉시 적용하고 **`현재 TZ` / `전체 TZ`** 범위 선택 및 **`현재 TZ만`** 필터로 현재 레벨 기준 파밍 가능 사냥터를 바로 비교할 수 있습니다.
+    * **사냥 스타일별 1런 확률 & 기대 런 수 계산:** **`보스/슈유`**(확정 스폰), **`엘리트 컷`**(유니크·챔피언·부하 포함 실전 권장), **`풀 클리어(추정)`**(맵 크기/방 수 기반 일반 몬스터 추정치 합산) 3가지 프리셋으로 **1런 드랍 확률(`1 : N`)**, **평균 기대 런 수**, **50% / 90% 누적 도달 런 수**를 산출합니다. 툴팁에서 주요 드랍 기여 몬스터 내역과 확률 편차·일반 몬스터 추정치 안내를 함께 확인할 수 있습니다.
+    * **런 플래너 동일 기준 `부속던전 그룹화`:** 다층 던전·부속던전을 상위 사냥터 1런으로 묶어 합산하거나 개별 층 단위로 풀어 확인할 수 있으며, 구덩이·고대 토굴·증오의 억류지 등 독립 파밍지는 런 플래너와 동일하게 분리 유지됩니다.
+    * **개인 런타임 연동 & 2단계 이상치 자동 정제 (`내 런타임 반영`):** DB에 기록된 내 사냥터 평균 클리어 시간(**`현재 프로필 → 전체 프로필 최근 30일 → 전체 누적`** 3단계 자동 폴백)을 연동해 **평균 · 50% · 90% 예상 소요시간**을 계산하고 **`예상 시간순`** 으로 정렬합니다. 병합 완료 후 **5초 미만(바로 나옴·오진입) 및 15분 초과(방치) 하드 컷**과 사냥터별 분포 기반 이상치 제거(**5런 이상 IQR·중앙값 비율 가드**, **3\~4런 중앙값 사용**)가 자동 적용되며, 사냥터 행 툴팁에 `[중앙값]` 및 제외 건수(`[전체 N런 중 이상치 M건 제외]`)가 투명하게 표시됩니다.
 * 🎲 **실시간 겜블 확률 & 골드 계산기 (`🎲 겜블` 탭):**
   * **캐릭터 레벨 & 상점 할인 조건 연동:** **`캐릭 레벨(cLvl)`** (생성 `iLvl cLvl-5~cLvl+4` 범위 배지 표시), **`모서리 (-15%)`**, **`기드참 (10\~15%)`** 조건을 조합해 **최대 30% 상점 할인** 및 1회 겜블 비용을 즉시 계산합니다.
   * **4대 핵심 KPI 카드 & 보유 골드 시뮬레이터:** 선택한 아이템(또는 프리셋) 기준으로 **1회 비용 및 절약 골드**, **획득 확률 (`1 : N`) 및 50%/90% 기대 시도 횟수**, **평균·90% 예상 필요 골드 및 창고(`250만 G`) 환산 칸 수**, 그리고 **`보유 골드` 직접 입력 / 퀵 프리셋(`250만`·`1,000만`·`5,000만`·`1억`)** 을 바탕으로 **가능 횟수, 누적 성공 확률, 90% 도달까지 추가 필요 골드**를 시뮬레이션합니다.
@@ -654,7 +659,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * [⌨️ Hotkeys](#hotkeys-en)
 * [✨ Key Features](#features-en)
   * [1. Real-time TZ & DClone Tracker](#feature-tz-en)
-  * [2. In-game Item Search Dictionary (OCR, Traderie, Drops, Gamble & Chronicle)](#feature-item-en)
+  * [2. In-game Item Search Dictionary (OCR, Traderie, Drops & Best Areas, Gamble & Chronicle)](#feature-item-en)
   * [3. Powerful Buff Overlay (Class Skill Presets, Multi-Client & Exclusive Groups)](#feature-buff-en)
   * [4. Region & Monster Tracking (Stay-Time TTS, Herald & Worldstone HUD)](#feature-tracker-en)
   * [5. Speedrun Timer](#feature-timer-en)
@@ -695,7 +700,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 **3. Real-time Item Search Dictionary, Drop & Gamble Calculator**
 ![Item Search Screen](images/item_fav_eng.png)
-> Instantly search for Unique/Runeword/Set/Rune/Base items, check live **Traderie** prices, view real-time **D2R (including RotW) Drop Rate Rankings**, simulate **Gamble Odds & Gold Costs**, and track **Chronicle Remaining Runeword Materials** without leaving the game.
+> Instantly search for Unique/Runeword/Set/Rune/Base items, check live **Traderie** prices, view real-time **D2R (including RotW) Drop Rate Rankings & Best Farming Areas**, simulate **Gamble Odds & Gold Costs**, and track **Chronicle Remaining Runeword Materials** without leaving the game.
 
 <br>
 
@@ -837,9 +842,9 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **📋 Auto-Copy to Clipboard & Clean Bottom Controls:** Supports **`Auto-Copy`** to automatically copy item info (image/text) to the clipboard upon OCR recognition, alongside neatly organized bottom controls (`Auto-Chronicle`, `Auto-Copy`, `Auto-Popup Drawer`, `Auto-DB Record`, `Use Last Field`).
   * **🛡️ Per-Piece Set Bonuses, Chronicle Filter & Patch 3.4 Updates:** Displays per-piece Set Item bonuses, immediately removes items from the uncollected Chronicle filter list upon registration, and includes Patch 3.4 item data (e.g., updated Runewords) and loot tier evaluation rules.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
-* 🎯 **Real-Time Item Drop Rate Calculator (`🎯 Drops` View & Redesigned UI):**
+* 🎯 **Real-Time Item Drop Rate Calculator & Best Farming Areas (`🎯 Drops` View & Redesigned UI):**
   * **Streamlined View Switching & Settings Modal:** Switch cleanly between **`📋 Item Info` / `🎯 Drops` / `🎲 Gamble` / `📜 Chronicle`**, collapse/expand the left search results list (`◀` / `▶`) for wider tables, and manage OCR/automation/hotkey options neatly via the slim footer bar and **`⚙` Settings Modal** without cluttering the main window.
-  * **Accurate Offline Engine Built from Official D2R Data (Full RotW Support):** Powered by a lightweight compiled database (`drop_calc_db.json`) built directly from D2R game tables (`TreasureClassEx`, `ItemRatio`, `MonStats`, `Levels`, `DesecratedZones`, etc.) for instant (< 15 ms) drop ranking updates with zero web latency.
+  * **Accurate Offline Engine Built from Official D2R Data (Full RotW Support):** Powered by a lightweight compiled database (`drop_calc_db.json`) built directly from D2R game tables (`TreasureClassEx`, `ItemRatio`, `MonStats`, `Levels`, `LvlMaze`, `DesecratedZones`, etc.) for instant (< 15 ms) drop ranking updates with zero web latency.
   * **Compact Basic Bar + Collapsible `⚙ Detailed` Filters:**
     * **Core Controls (Always Visible):** Adjust **`Char Lvl`** (linked to TZ scaling), **`MF`** (with D2R diminishing returns), **`Players (P1–P8)`**, and **`Terror Zone (TZ)`** with responsive `+/-` stepper buttons and instant recalculation.
     * **Advanced Filters (Collapsible):** Expand **`⚙ Detailed`** to fine-tune **`Difficulty`** (Normal / Nightmare / Hell), **`Party in Area`** (Effective Players `NoDrop` scaling), **`Herald (RotW T1–T5)`**, and **Monster Tier filter chips** (`Boss`, `Superunique`, `Unique`, `Champion`, `Normal`, `Herald`).
@@ -848,6 +853,11 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
     * **Full RotW Support:** Calculates Hell Terror Zone **Heralds (`T1–T5`)**, **Latent Sunder Charms**, **Colossal Jewels**, **Worldstone Shards**, and Warlock bases (`Grimoires`).
     * **Category-Aware Rules & Runeword Shortcuts:** Equipment bases in the **Other** tab (`Monarch`, `Archon Plate`, etc.) automatically calculate Normal/Socketed (white/grey) drop odds (`0% MF` favored; `Magic+`-only monsters like Bosses/Champions/Uniques excluded), whereas Misc drops (`Charms`, `Keys`, `Essences`, `Worldstone Shards`) rank across all eligible monsters. Selecting a **Runeword** displays clickable **Required Rune shortcuts** to jump straight to each rune's drop rates.
     * **Clean Table & Hover Tooltips:** Toggle Detailed columns to inspect **`mLvl`** and Monster Tiers, and hover any row for concise area summaries and the exact `TreasureClass` drop path.
+  * 🗺 **Best Farming Areas (`👾 By Monster` / `🗺 Best Areas` Toggle):**
+    * **Shared Inputs & Live Terror Zone (TZ) Integration:** Shares your `Char Lvl`, `MF`, `Players`, `Party in Area`, `Difficulty`, `TZ`, and `Herald` settings across views while displaying the currently active TZ in a live banner. Click **`Use Active TZ`** to apply the live zone in one click, toggle between **`Active TZ` / `All TZ`** scope, and filter with **`Active TZ Only`** to evaluate eligible areas at your current level.
+    * **Per-Run Drop Odds & Expected Runs by Hunting Style:** Choose between **`Boss/SU`** (fixed spawns), **`Elite Packs`** (Bosses, Superuniques, Uniques/Champions & minions — recommended farming meta), or **`Full Clear(Est.)`** (adds estimated normal monster counts from map size/room tables) to compute **per-run drop probability (`1 : N`)**, **average expected runs**, and **50% / 90% milestones**. Hovering any row reveals top monster contributors alongside RNG variance and map-seed estimation caveats.
+    * **Sub-area Grouping Matching Run Planner (`Group Sub-areas`):** Groups multi-level and sub-dungeons into a unified parent run or inspects individual floors separately, keeping independent farming zones (such as The Pit, Ancient Tunnels, and Durance of Hate) distinct just like Run Planner.
+    * **Personal Clear Time & 2-Stage Outlier Filtering (`My Clear Time`):** Integrates your recorded average clear times via a 3-tier fallback (**`Current Profile → Recent 30d (All Profiles) → All-Time`**) to compute **mean, 50%, and 90% estimated farming times** and sort **`By Est. Time`**. Automatically excludes extreme outlier runs via post-merge **hard bounds (`< 5s` quick exits and `> 15m` AFKs)** plus per-area distribution filtering (**IQR & median-ratio guard for 5+ runs; median for 3–4 runs**), transparently displaying `[median]` and excluded counts (`[X of Y runs excluded as outliers]`) in row tooltips.
 * 🎲 **Real-Time Gamble Odds & Gold Calculator (`🎲 Gamble` View):**
   * **Character Level & Vendor Discount Integration:** Adjust **`Char Lvl (cLvl)`** (displaying the rolled `iLvl` range `cLvl-5`–`cLvl+4`), **`Edge (-15%)`**, and **`Gheed's (10–15%)`** to accurately apply up to **30% max vendor discount** and calculate per-roll gold costs in real time.
   * **4-Card KPI Dashboard & Budget Simulator:** For the selected item or preset, displays **Cost per Try & Discount Savings**, **Exact Odds (`1 : N`) & 50%/90% Expected Attempts**, **Mean & 90% Expected Gold (plus `2.5M` stash equivalents)**, and an interactive **Budget Simulator** with quick presets (`2.5M`, `10M`, `50M`, `100M`) showing affordable tries, cumulative success probability, and extra gold needed for 90% confidence.

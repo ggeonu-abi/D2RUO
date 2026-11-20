@@ -33,7 +33,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * [⌨️ Hotkeys](#hotkeys-en)
 * [✨ Key Features](#features-en)
   * [1. Real-time TZ & DClone Tracker](#feature-tz-en)
-  * [2. In-game Item Search Dictionary (OCR, Traderie, Drops, Gamble & Chronicle)](#feature-item-en)
+  * [2. In-game Item Search Dictionary (OCR, Traderie, Drops & Best Areas, Gamble & Chronicle)](#feature-item-en)
   * [3. Powerful Buff Overlay (Class Skill Presets, Multi-Client & Exclusive Groups)](#feature-buff-en)
   * [4. Region & Monster Tracking (Stay-Time TTS, Herald & Worldstone HUD)](#feature-tracker-en)
   * [5. Speedrun Timer](#feature-timer-en)
@@ -74,7 +74,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 **3. Real-time Item Search Dictionary, Drop & Gamble Calculator**
 ![Item Search Screen](/D2RUO/images/item_fav_eng.png)
-> Instantly search for Unique/Runeword/Set/Rune/Base items, check live **Traderie** prices, view real-time **D2R (including RotW) Drop Rate Rankings**, simulate **Gamble Odds & Gold Costs**, and track **Chronicle Remaining Runeword Materials** without leaving the game.
+> Instantly search for Unique/Runeword/Set/Rune/Base items, check live **Traderie** prices, view real-time **D2R (including RotW) Drop Rate Rankings & Best Farming Areas**, simulate **Gamble Odds & Gold Costs**, and track **Chronicle Remaining Runeword Materials** without leaving the game.
 
 <br />
 
@@ -216,9 +216,9 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
   * **📋 Auto-Copy to Clipboard & Clean Bottom Controls:** Supports **`Auto-Copy`** to automatically copy item info (image/text) to the clipboard upon OCR recognition, alongside neatly organized bottom controls (`Auto-Chronicle`, `Auto-Copy`, `Auto-Popup Drawer`, `Auto-DB Record`, `Use Last Field`).
   * **🛡️ Per-Piece Set Bonuses, Chronicle Filter & Patch 3.4 Updates:** Displays per-piece Set Item bonuses, immediately removes items from the uncollected Chronicle filter list upon registration, and includes Patch 3.4 item data (e.g., updated Runewords) and loot tier evaluation rules.
   * **📜 History Drawer & Region Stats Integration:** Compare previously found rolls of the same item in the **[History]** side drawer, and explore drop breakdowns and top farming spots in the **[Region Stats]** settings tab.
-* 🎯 **Real-Time Item Drop Rate Calculator (`🎯 Drops` View & Redesigned UI):**
+* 🎯 **Real-Time Item Drop Rate Calculator & Best Farming Areas (`🎯 Drops` View & Redesigned UI):**
   * **Streamlined View Switching & Settings Modal:** Switch cleanly between **`📋 Item Info` / `🎯 Drops` / `🎲 Gamble` / `📜 Chronicle`**, collapse/expand the left search results list (`◀` / `▶`) for wider tables, and manage OCR/automation/hotkey options neatly via the slim footer bar and **`⚙` Settings Modal** without cluttering the main window.
-  * **Accurate Offline Engine Built from Official D2R Data (Full RotW Support):** Powered by a lightweight compiled database (`drop_calc_db.json`) built directly from D2R game tables (`TreasureClassEx`, `ItemRatio`, `MonStats`, `Levels`, `DesecratedZones`, etc.) for instant (< 15 ms) drop ranking updates with zero web latency.
+  * **Accurate Offline Engine Built from Official D2R Data (Full RotW Support):** Powered by a lightweight compiled database (`drop_calc_db.json`) built directly from D2R game tables (`TreasureClassEx`, `ItemRatio`, `MonStats`, `Levels`, `LvlMaze`, `DesecratedZones`, etc.) for instant (< 15 ms) drop ranking updates with zero web latency.
   * **Compact Basic Bar + Collapsible `⚙ Detailed` Filters:**
     * **Core Controls (Always Visible):** Adjust **`Char Lvl`** (linked to TZ scaling), **`MF`** (with D2R diminishing returns), **`Players (P1–P8)`**, and **`Terror Zone (TZ)`** with responsive `+/-` stepper buttons and instant recalculation.
     * **Advanced Filters (Collapsible):** Expand **`⚙ Detailed`** to fine-tune **`Difficulty`** (Normal / Nightmare / Hell), **`Party in Area`** (Effective Players `NoDrop` scaling), **`Herald (RotW T1–T5)`**, and **Monster Tier filter chips** (`Boss`, `Superunique`, `Unique`, `Champion`, `Normal`, `Herald`).
@@ -227,6 +227,11 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
     * **Full RotW Support:** Calculates Hell Terror Zone **Heralds (`T1–T5`)**, **Latent Sunder Charms**, **Colossal Jewels**, **Worldstone Shards**, and Warlock bases (`Grimoires`).
     * **Category-Aware Rules & Runeword Shortcuts:** Equipment bases in the **Other** tab (`Monarch`, `Archon Plate`, etc.) automatically calculate Normal/Socketed (white/grey) drop odds (`0% MF` favored; `Magic+`-only monsters like Bosses/Champions/Uniques excluded), whereas Misc drops (`Charms`, `Keys`, `Essences`, `Worldstone Shards`) rank across all eligible monsters. Selecting a **Runeword** displays clickable **Required Rune shortcuts** to jump straight to each rune's drop rates.
     * **Clean Table & Hover Tooltips:** Toggle Detailed columns to inspect **`mLvl`** and Monster Tiers, and hover any row for concise area summaries and the exact `TreasureClass` drop path.
+  * 🗺 **Best Farming Areas (`👾 By Monster` / `🗺 Best Areas` Toggle):**
+    * **Shared Inputs & Live Terror Zone (TZ) Integration:** Shares your `Char Lvl`, `MF`, `Players`, `Party in Area`, `Difficulty`, `TZ`, and `Herald` settings across views while displaying the currently active TZ in a live banner. Click **`Use Active TZ`** to apply the live zone in one click, toggle between **`Active TZ` / `All TZ`** scope, and filter with **`Active TZ Only`** to evaluate eligible areas at your current level.
+    * **Per-Run Drop Odds & Expected Runs by Hunting Style:** Choose between **`Boss/SU`** (fixed spawns), **`Elite Packs`** (Bosses, Superuniques, Uniques/Champions & minions — recommended farming meta), or **`Full Clear(Est.)`** (adds estimated normal monster counts from map size/room tables) to compute **per-run drop probability (`1 : N`)**, **average expected runs**, and **50% / 90% milestones**. Hovering any row reveals top monster contributors alongside RNG variance and map-seed estimation caveats.
+    * **Sub-area Grouping Matching Run Planner (`Group Sub-areas`):** Groups multi-level and sub-dungeons into a unified parent run or inspects individual floors separately, keeping independent farming zones (such as The Pit, Ancient Tunnels, and Durance of Hate) distinct just like Run Planner.
+    * **Personal Clear Time & 2-Stage Outlier Filtering (`My Clear Time`):** Integrates your recorded average clear times via a 3-tier fallback (**`Current Profile → Recent 30d (All Profiles) → All-Time`**) to compute **mean, 50%, and 90% estimated farming times** and sort **`By Est. Time`**. Automatically excludes extreme outlier runs via post-merge **hard bounds (`< 5s` quick exits and `> 15m` AFKs)** plus per-area distribution filtering (**IQR & median-ratio guard for 5+ runs; median for 3–4 runs**), transparently displaying `[median]` and excluded counts (`[X of Y runs excluded as outliers]`) in row tooltips.
 * 🎲 **Real-Time Gamble Odds & Gold Calculator (`🎲 Gamble` View):**
   * **Character Level & Vendor Discount Integration:** Adjust **`Char Lvl (cLvl)`** (displaying the rolled `iLvl` range `cLvl-5`–`cLvl+4`), **`Edge (-15%)`**, and **`Gheed's (10–15%)`** to accurately apply up to **30% max vendor discount** and calculate per-roll gold costs in real time.
   * **4-Card KPI Dashboard & Budget Simulator:** For the selected item or preset, displays **Cost per Try & Discount Savings**, **Exact Odds (`1 : N`) & 50%/90% Expected Attempts**, **Mean & 90% Expected Gold (plus `2.5M` stash equivalents)**, and an interactive **Budget Simulator** with quick presets (`2.5M`, `10M`, `50M`, `100M`) showing affordable tries, cumulative success probability, and extra gold needed for 90% confidence.
