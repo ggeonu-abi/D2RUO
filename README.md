@@ -135,7 +135,7 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 | **릴레이 방제 자동 캡처 (`Shift`+`C`)** | ✅ **완벽 지원** | ⚠️ 미지원 | Windows 11 기본 캡처 도구 엔진 필요 |
 | **몬스터 속성 인식 & 전령 출현 카운트** | ✅ **완벽 지원** | ⚠️ 미지원 | Windows 11 기본 캡처 도구 엔진 필요 |
 | **장비 & 스킬 세팅 매니저 (스냅샷)** | ✅ 지원 | ✅ 지원 | 슬롯별 캡처 및 이미지 합성 지원 (OCR 검색만 Win11) |
-| **OBS Studio 전용 방송 송출 캔버스** | ✅ 지원 | ✅ 지원 | 윈도우 캡처(Window Capture) 지원 |
+| **OBS Studio 전용 방송 송출 캔버스** | ✅ 지원 | ✅ 지원 | 윈도우 캡처 지원 (Win10은 BitBlt + 색상 키 호환 모드 권장) |
 
 > **💡 Windows 10 사용자 안내:** 테러존/우버디아 오버레이, 버프 타이머, 스피드런 타이머, 아이템 수동 검색 등은 정상 동작하지만, 화면 글자 자동 인식(아이템 OCR, 방제 캡처, 전령 카운터) 기능을 원활히 사용하시려면 **Windows 11 환경을 권장**합니다.
 
@@ -368,9 +368,17 @@ DUO는 **Windows 11 (64-bit)** 환경에 최적화되어 개발되었습니다. 
 
 ### <a id="feature-obs-kr"></a>10. 📺 방송 송출(OBS Studio) 지원 및 UI 편의성
 * 🎥 **OBS Studio 전용 스트림 오버레이 (윈도우 캡처 지원):**
-  * 환경설정에서 `OBS 송출용 오버레이 활성화`를 켜면, OBS Studio의 **[윈도우 캡처]** 소스에서 `DUO - Stream Overlay` 창을 추가할 수 있습니다.
-  * 테러존, 우버디아, 버프 타이머 등 게임 화면 위의 모든 오버레이를 1:1 위치 그대로 투명 캔버스 위에 일괄 렌더링하여 깜빡임 없이 안정적으로 방송 송출 화면에 합성합니다.
-  * 전체화면 게임 중 알트탭 등으로 게임 창이 포커스를 잃더라도 송출 화면이 사라지지 않고 상시 유지됩니다.
+  * 환경설정에서 **`OBS 방송 캡처 지원`** 을 켜면, OBS Studio의 **[윈도우 캡처]** 소스에서 `DUO - Stream Overlay` 창을 추가할 수 있습니다.
+  * 테러존, 우버디아, 버프 타이머 등 게임 화면 위의 모든 오버레이를 1:1 위치 그대로 전용 캔버스 위에 일괄 렌더링하여 깜빡임 없이 안정적으로 방송 송출 화면에 합성합니다.
+  * **기본 모드 (Windows 11 권장 — WGC 투명 캡처):**
+    1. DUO 환경설정 ➔ **`OBS 방송 캡처 지원`** 활성화
+    2. OBS Studio **[윈도우 캡처]** 추가 ➔ 창: **`[DUO.exe]: DUO - Stream Overlay`**, 캡처 방식: **`Windows 10 (1903 이상)`** 선택 *(별도 필터 불필요, 알트탭 상태에서도 송출 유지)*
+  * **Windows 10 호환 모드 (BitBlt + 색상 키):**
+    * Windows 10의 WGC 캡처에서 오버레이가 빈 화면으로 잡히거나 게임 화면에서 오버레이가 사라지는 경우 사용하세요.
+    1. DUO 환경설정 ➔ **`OBS 방송 캡처 지원`** 활성화 ➔ 하위 **`↳ Win10 호환 모드 (BitBlt + 색상 키)`** 체크
+    2. OBS Studio **[윈도우 캡처]** 추가 ➔ 창: **`[DUO.exe]: DUO - Stream Overlay`**, 캡처 방식: **`BitBlt (Windows 7 이상)`** 선택
+    3. OBS 소스 우클릭 ➔ **[필터]** ➔ **[색상 키(Color Key)]** 추가 ➔ 키 색상 유형: **`자홍색 (Magenta)`** 선택
+    *(게임 화면에는 기존 오버레이가 그대로 유지되며, OBS 캔버스는 자홍색 `#FF00FF` 배경으로 D2R 창 뒤에서 송출되어 화면을 가리지 않습니다.)*
 * 🖱️ **클릭 관통 (Click-through):** 오버레이가 마우스 클릭을 방해하지 않습니다.
 * 🛡️ **관리자 권한 자동 감지 및 원클릭 재실행 도우미:** 디아블로 2가 관리자 권한(멀티로더 등)으로 실행 중일 때 DUO가 이를 스스로 감지하여 권장 안내 팝업을 띄워줍니다. 프로그램을 끄고 다시 찾을 필요 없이 팝업의 **[관리자 권한으로 재실행]** 버튼을 누르면 원클릭으로 권한을 승격하여 안전하게 재실행됩니다.
 * 💬 **스마트 단축키 차단:** 엔터(Enter) 키로 채팅창을 열어둔 상태에서는 버프 스킬이나 아이템 단축키가 반응하지 않도록 개선하여 오작동을 방지합니다.
@@ -766,7 +774,7 @@ DUO is built and optimized for **Windows 11 (64-bit)**. On-screen text recogniti
 | **Relay Game Name OCR (`Shift`+`C`)** | ✅ **Full Support** | ⚠️ Not Supported | Requires Windows 11 Snipping Tool OCR engine |
 | **Monster Attribute & Herald Counter** | ✅ **Full Support** | ⚠️ Not Supported | Requires Windows 11 Snipping Tool OCR engine |
 | **Gear & Build Snapshot Manager** | ✅ Supported | ✅ Supported | Slot capture & image compositing (OCR search Win11 only) |
-| **OBS Studio Dedicated Stream Canvas** | ✅ Supported | ✅ Supported | Window Capture supported |
+| **OBS Studio Dedicated Stream Canvas** | ✅ Supported | ✅ Supported | Window Capture supported (Win10 Compat Mode recommended on Win10) |
 
 > **💡 Note for Windows 10 Users:** Terror Zone and DClone overlays, Buff Timers, Speedrun Timer, and manual Item Search function normally on Windows 10. However, **Windows 11 is required** for automatic on-screen OCR features (Item OCR, Game Name Capture, and Herald Counter).
 
@@ -999,9 +1007,17 @@ Convenient hotkeys for controlling overlays and features. (Item OCR hotkeys can 
 
 ### <a id="feature-obs-en"></a>10. 📺 OBS Studio Streaming Support & UI Convenience
 * 🎥 **Dedicated OBS Stream Overlay (Window Capture):**
-  * Enable `OBS Stream Overlay` in Settings to register a dedicated `DUO - Stream Overlay` window for OBS Studio **[Window Capture]**.
-  * All active overlays (Terror Zone, Uber Diablo, Buff Timers, etc.) are rendered 1:1 onto a single transparent canvas, providing a smooth, flicker-free stream overlay.
-  * Maintains stable output on stream even when alt-tabbing or switching active applications.
+  * Enable **`OBS Stream Capture`** in Settings to register a dedicated `DUO - Stream Overlay` window for OBS Studio **[Window Capture]**.
+  * All active overlays (Terror Zone, Uber Diablo, Buff Timers, etc.) are rendered 1:1 onto a dedicated canvas, providing a smooth, flicker-free stream overlay.
+  * **Standard Mode (Windows 11 Recommended — WGC Transparent Capture):**
+    1. Enable **`OBS Stream Capture`** in DUO Settings.
+    2. Add a **[Window Capture]** source in OBS Studio ➔ Window: **`[DUO.exe]: DUO - Stream Overlay`**, Capture Method: **`Windows 10 (1903 and up)`**. *(No extra filter required; maintains output even when alt-tabbed.)*
+  * **Windows 10 Compat Mode (BitBlt + Color Key):**
+    * Use this if OBS WGC capture on Windows 10 shows an empty overlay or if overlays disappear in-game.
+    1. Enable **`OBS Stream Capture`** in DUO Settings ➔ check **`↳ Win10 Compat Mode (BitBlt + Color Key)`**.
+    2. Add a **[Window Capture]** source in OBS Studio ➔ Window: **`[DUO.exe]: DUO - Stream Overlay`**, Capture Method: **`BitBlt (Windows 7 and up)`**.
+    3. Right-click the OBS source ➔ **[Filters]** ➔ add **[Color Key]** ➔ set Key Color Type to **`Magenta`**.
+    *(Keeps standard overlays visible on your game screen while the `#FF00FF` chroma-key canvas stays behind D2R without obstructing your view.)*
 * 🖱️ **Click-through:** Mouse clicks pass right through the overlay, ensuring uninterrupted gameplay.
 * 🛡️ **Administrator Privilege Detection & 1-Click Relaunch Helper:** When Diablo II is running with administrator privileges (e.g., multi-loader), DUO automatically detects it and displays a prompt dialog. Click the **[Restart as Administrator]** button to elevate and restart DUO in one click without manually hunting down shortcuts.
 * 💬 **Smart Chat Hotkey Block:** Opening the chat window with `Enter` safely disables overlay hotkeys (buffs, item search) to prevent misclicks and accidental triggers.
